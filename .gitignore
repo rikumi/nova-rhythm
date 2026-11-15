@@ -1,0 +1,16 @@
+/*
+!/.gitignore
+!/index.html
+!/package.json
+!/package-lock.json
+!/tsconfig.json
+!/vite.config.ts
+!/src/
+!/src/**
+!/public/
+!/public/**
+!/.github/
+/.github/*
+!/.github/workflows/
+/.github/workflows/*
+!/.github/workflows/pages.yml

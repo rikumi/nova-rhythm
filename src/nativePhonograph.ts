@@ -1,0 +1,64 @@
+// Generated from ui_disc RectTransforms and Music_in end pose; run scripts/extract_phonograph_hardware.py.
+export const PHONOGRAPH_HARDWARE = [
+  {
+    "name": "slider",
+    "src": "/ui/phonograph-slider.png",
+    "x": 402.0,
+    "y": -150.0,
+    "width": 24.0,
+    "height": 40.0,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "rotation": -0.0,
+    "flip_x": 1.0,
+    "opacity": 1.0
+  },
+  {
+    "name": "knob-pointer",
+    "src": "/ui/phonograph-knob-pointer.png",
+    "x": 270.4499816894531,
+    "y": -242.44998168945312,
+    "width": 29.0,
+    "height": 29.0,
+    "pivot": {
+      "x": 0.949999988079071,
+      "y": 0.05000000074505806
+    },
+    "rotation": -25.0,
+    "flip_x": 1.0,
+    "opacity": 1.0
+  },
+  {
+    "name": "left-clamp",
+    "src": "/ui/phonograph-left-clamp.png",
+    "x": -473.0,
+    "y": -111.69999694824219,
+    "width": 44.0,
+    "height": 256.0,
+    "pivot": {
+      "x": 0.949999988079071,
+      "y": 0.05000000074505806
+    },
+    "rotation": 0.0,
+    "flip_x": -1.0,
+    "opacity": 0.800000011920929
+  },
+  {
+    "name": "right-clamp",
+    "src": "/ui/phonograph-right-clamp.png",
+    "x": 278.6000061035156,
+    "y": -111.0999984741211,
+    "width": 44.0,
+    "height": 256.0,
+    "pivot": {
+      "x": 0.949999988079071,
+      "y": 0.05000000074505806
+    },
+    "rotation": 0.0,
+    "flip_x": 1.0,
+    "opacity": 0.800000011920929
+  }
+] as const;
+export const PHONOGRAPH_NOTE = {"ui_scale": 10.0, "min_size": 8.0, "max_size": 12.0} as const;
