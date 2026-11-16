@@ -10,6 +10,7 @@ export interface Music {
   loop: { start: number; end: number } | null;
   content_id?: string; shared_uses?: string[];
   display_title?: string;
+  display_subtitle?: string;
   mixer?: MixerDefinition;
 }
 export interface MusicGroup {

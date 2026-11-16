@@ -4,7 +4,7 @@ import { LayeredPlayback } from './layeredAudio';
 
 export interface Playback {
   trackId: string; playing: boolean; loading: boolean; error: string;
-  position: number; duration: number; volume: number; loop: boolean; mode: PlaybackMode; peaks: number[]; mixerChoices: number[];
+  position: number; duration: number; volume: number; loop: boolean; mode: PlaybackMode; mixerChoices: number[];
 }
 
 /** Uses the original sample loop boundaries; the intro is played only once. */
@@ -28,7 +28,7 @@ class Player {
   private lastSound = 0;
   private value: Playback = {
     trackId: '', playing: false, loading: false, error: '', position: 0,
-    duration: 0, volume: .65, loop: true, mode: 'single', peaks: [], mixerChoices: [0,0,0,0],
+    duration: 0, volume: .65, loop: true, mode: 'single', mixerChoices: [0,0,0,0],
   };
 
   constructor() {
@@ -98,7 +98,7 @@ class Player {
     const generation = ++this.generation;
     this.abort?.abort(); this.stopSource();
     this.track = track; this.buffer = undefined; this.layerBuffers=undefined; this.offset = 0;
-    this.update({ trackId: track.id, playing: false, loading: false, error: '', position: 0, duration: track.duration_seconds, peaks: [] });
+    this.update({ trackId: track.id, playing: false, loading: false, error: '', position: 0, duration: track.duration_seconds });
     // Avoid downloading a large music file before the first user interaction.
     if (!autoplay) return;
     await this.loadAndPlay(generation);
@@ -120,7 +120,7 @@ class Player {
         }));
         if(generation!==this.generation)return;
         this.layerBuffers=buffers;
-        this.update({duration:track.mixer.duration,loading:false,peaks:[]});this.start();return;
+        this.update({duration:track.mixer.duration,loading:false});this.start();return;
       }
       let buffer = this.cache.get(track.path);
       if (!buffer) {
@@ -134,15 +134,7 @@ class Player {
       }
       if (generation !== this.generation) return;
       this.buffer = buffer;
-      const samples = buffer.getChannelData(0); const peaks: number[] = [];
-      for (let i = 0; i < 70; i++) {
-        const start = Math.floor(samples.length * i / 70); const stop = Math.floor(samples.length * (i + 1) / 70);
-        let sum = 0; let n = 0;
-        for (let j = start; j < stop; j += 32) { sum += samples[j] ** 2; n++; }
-        peaks.push(Math.sqrt(sum / Math.max(n, 1)));
-      }
-      const max = Math.max(...peaks, .001);
-      this.update({ duration: buffer.duration, loading: false, peaks: peaks.map(v => v / max) });
+      this.update({ duration: buffer.duration, loading: false });
       this.start();
     } catch (error) {
       if (generation !== this.generation || (error as Error).name === 'AbortError') return;

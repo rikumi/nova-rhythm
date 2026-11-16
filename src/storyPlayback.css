@@ -12,6 +12,16 @@
 @keyframes mixer-level{from{height:5px}to{height:19px}}
 @media(prefers-reduced-motion:reduce){.infinity-mixer-cell>i>b{animation:none!important}}
 .music-subtitle{display:block;margin-top:3px;font-size:12px;font-weight:400;line-height:1.5;color:#b8d2e9;white-space:normal}
+.scrolling-subtitle,.transport-meta>.scrolling-subtitle{display:block;min-width:0;width:100%;overflow:hidden;white-space:nowrap}
+.transport-meta .scrolling-subtitle{ text-overflow:clip }
+.scrolling-subtitle-track{display:inline-flex;gap:32px;width:max-content;vertical-align:top;white-space:nowrap}
+.scrolling-subtitle-track>span{flex-shrink:0;white-space:nowrap}
+.scrolling-subtitle.is-overflowing>.scrolling-subtitle-track{animation:subtitle-scroll var(--scroll-duration) linear infinite}
+@keyframes subtitle-scroll{to{transform:translateX(calc(-1 * var(--scroll-distance)))}}
+@media(prefers-reduced-motion:reduce){
+  .scrolling-subtitle.is-overflowing>.scrolling-subtitle-track{animation:none}
+  .scrolling-subtitle-track>span[aria-hidden]{display:none}
+}
 .library-track.selected .music-subtitle{color:#52738b}
 .library-playback.story-player>strong:has(.music-subtitle){white-space:normal}
 .library-playback.story-player .music-title-line,.transport-meta .music-title-line,.transport-meta .music-subtitle{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}

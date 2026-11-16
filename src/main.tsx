@@ -10,6 +10,7 @@ import { resolveStoryLibrary, libraryGroupLabel } from './storyLibrary';
 import { adjacentLibraryTrack, libraryQueue, libraryTrackUrl } from './libraryNavigation';
 import { MODE_LABELS, nextPlaybackMode, nextQueueIndex } from './playbackMode';
 import { musicTitleParts } from './musicTitle';
+import { ScrollingText } from './ScrollingText';
 import { applyInfinityTowerMixer } from './infinitytowerMixer';
 import { musicIdFromPath, musicPage, musicPath, musicUrl, outfitMusicPage, registerMusicPages, storyMusicPage, updateMusicPageMetadata } from './musicRoutes';
 import './style.css';
@@ -24,9 +25,9 @@ const melodyTime = (value: number) => { const seconds = Math.floor(value); retur
 function readStorage<T,>(key: string, fallback: T): T { try { return JSON.parse(localStorage.getItem(key) || 'null') ?? fallback; } catch { return fallback; } }
 function writeStorage(key: string, value: unknown) { try { localStorage.setItem(key, JSON.stringify(value)); } catch { /* private browsing */ } }
 
-function MusicTitle({ title }: { title: string }) {
+function MusicTitle({ title, scrollingSubtitle = false }: { title: string; scrollingSubtitle?: boolean }) {
   const parts = musicTitleParts(title);
-  return <><span className="music-title-line">{parts.title}</span>{parts.subtitle && <small className="music-subtitle">{parts.subtitle}</small>}</>;
+  return <><span className="music-title-line">{parts.title}</span>{parts.subtitle && (scrollingSubtitle ? <ScrollingText className="music-subtitle" text={parts.subtitle} /> : <small className="music-subtitle">{parts.subtitle}</small>)}</>;
 }
 
 function InfinityTowerMixer({ track, onPlay }: { track: LibraryMusic; onPlay: (track: LibraryMusic) => void }) {
@@ -109,6 +110,7 @@ function CardLayer({ src, style, background, index, visible, onReady, onReveal, 
 
 function Card({ outfit, full = false, onExpand }: { outfit: Outfit; full?: boolean; onExpand?: () => void }) {
   const ref = useRef<HTMLDivElement>(null);
+  const lightRef = useRef<HTMLDivElement>(null);
   const target = useRef({ x: 0, y: 0, active: false });
   const dragPointer = useRef<number | null>(null);
   const reduced = useRef(false);
@@ -164,7 +166,15 @@ function Card({ outfit, full = false, onExpand }: { outfit: Outfit; full?: boole
     if (e.pointerType !== 'mouse' && dragPointer.current !== e.pointerId) return;
     const box = e.currentTarget.getBoundingClientRect();
     target.current = { x: Math.max(-1, Math.min(1, (e.clientX - box.left) / box.width * 2 - 1)), y: Math.max(-1, Math.min(1, (e.clientY - box.top) / box.height * 2 - 1)), active: true };
+    const light = lightRef.current;
+    if (light) {
+      const bounds = light.getBoundingClientRect();
+      const inside = e.clientX >= bounds.left && e.clientX <= bounds.right && e.clientY >= bounds.top && e.clientY <= bounds.bottom;
+      const values = { '--light-x': `${Math.round((e.clientX - bounds.left) / bounds.width * 1000) / 10}%`, '--light-y': `${Math.round((e.clientY - bounds.top) / bounds.height * 1000) / 10}%`, '--light-active': inside ? '1' : '0' };
+      for (const [name, value] of Object.entries(values)) if (light.style.getPropertyValue(name) !== value) light.style.setProperty(name, value);
+    }
   };
+  const hideLight = () => { lightRef.current?.style.setProperty('--light-active', '0'); };
   const beginDrag=(e:React.PointerEvent<HTMLDivElement>)=>{
     if(e.pointerType==='mouse' || !e.isPrimary || (e.target instanceof Element && e.target.closest('button,a')))return;
     dragPointer.current=e.pointerId;e.currentTarget.setPointerCapture(e.pointerId);move(e);
@@ -172,11 +182,12 @@ function Card({ outfit, full = false, onExpand }: { outfit: Outfit; full?: boole
   const endDrag=(e:React.PointerEvent<HTMLDivElement>)=>{
     if(dragPointer.current!==e.pointerId)return;
     dragPointer.current=null;target.current={x:0,y:0,active:false};
+    hideLight();
     if(e.currentTarget.hasPointerCapture(e.pointerId))e.currentTarget.releasePointerCapture(e.pointerId);
   };
   const base = outfit.card.mask_size || 712;
   const motion = outfit.card.motion || { rotation_x: 3, rotation_y: -8 };
-  return <div ref={ref} className={`live-card ${full ? 'full-card' : ''}`} style={{ '--tilt-x': `${-motion.rotation_x}deg`, '--tilt-y': `${-motion.rotation_y}deg` } as CSSProperties} onPointerDown={beginDrag} onPointerMove={move} onPointerUp={endDrag} onPointerCancel={endDrag} onLostPointerCapture={endDrag} onPointerLeave={() => { if(dragPointer.current===null)target.current = { x: 0, y: 0, active: false }; }}>
+  return <div ref={ref} className={`live-card ${full ? 'full-card' : ''}`} style={{ '--tilt-x': `${-motion.rotation_x}deg`, '--tilt-y': `${-motion.rotation_y}deg` } as CSSProperties} onPointerDown={beginDrag} onPointerMove={move} onPointerUp={endDrag} onPointerCancel={endDrag} onLostPointerCapture={endDrag} onPointerLeave={() => { if(dragPointer.current===null)target.current = { x: 0, y: 0, active: false }; hideLight(); }}>
     <div className={`card-frame rarity-${outfit.rarity}`}>
       <div className="card-backdrop-tint" aria-hidden="true" />
       <div className="card-glint" />
@@ -197,7 +208,7 @@ function Card({ outfit, full = false, onExpand }: { outfit: Outfit; full?: boole
           return <CardLayer key={`${layer.path}-${i}`} src={layer.path} style={style} background={background} index={i} visible={revealOrder.indexOf(i)<visibleLayers} onReady={layerReady} onReveal={layerRevealed} />;
         }) : <CardLayer src={outfit.fullCover || outfit.cover} index={0} visible={visibleLayers>0} onReady={layerReady} onReveal={layerRevealed} flat />}
         {/* {!outfit.card.layers.some(l => l.is_title) && <div className="card-title-art"><b>{outfit.name}</b></div>} */}
-        <div className="card-light" />
+        <div ref={lightRef} className="card-light" />
         {readyLayers.size<total && <div className="card-loading-toast" role="status" aria-live="polite"><LoaderCircle className="spinner" size={16}/>正在加载图层 {readyLayers.size}/{total}…</div>}
       </div>
       <img className="native-frame" src="/ui/rare_outfit_5.png" alt="" />
@@ -328,6 +339,8 @@ function ArchiveApp({ active, onBack, fromStory = false }: { active: boolean; on
     const search = `${item.name} ${item.characters.join(' ')} ${item.tags.join(' ')}`.toLowerCase();
     return search.includes(query.toLowerCase()) && (filter === 'all' || filter === 'favorites' && favorites.includes(item.id) || String(item.element) === filter);
   });
+  const playbackTitle = musicTitleParts(currentMusic?.display_title || chosen.name);
+  const playbackSubtitle = currentMusic?.display_subtitle || playbackTitle.subtitle || (chosen.activity?.id && chosen.activity.name?.trim() ? chosen.activity.name : '星塔唱片');
   return <div className="app archive-only">
     <div className="room-background" aria-hidden="true" /><div className="room-haze" aria-hidden="true" />
     <div className="dust-field" aria-hidden="true">{Array.from({ length: 14 }, (_, i) => <i key={i} style={{ '--n': i } as CSSProperties} />)}</div>
@@ -355,9 +368,9 @@ function ArchiveApp({ active, onBack, fromStory = false }: { active: boolean; on
 
     <section className="transport" aria-label="音乐播放控制">
       <button className="transport-cover" onClick={() => setFull(true)} aria-label="全屏欣赏秘纹"><img src={chosen.thumbnail} alt="" /><span><Music2 size={16} /></span></button>
-      <div className="transport-meta"><strong><MusicTitle title={currentMusic?.display_title || chosen.name} /></strong><span>{chosen.activity?.id && chosen.activity.name?.trim() ? chosen.activity.name : '星塔唱片'}</span></div>
+      <div className="transport-meta"><strong><span className="music-title-line">{playbackTitle.title}</span></strong><ScrollingText text={playbackSubtitle} /></div>
       <div className="transport-buttons"><button className="icon-button" onClick={() => skip(-1)} aria-label="上一枚秘纹"><SkipBack size={19} fill="currentColor" /></button><button className="play-button" onClick={toggle} aria-label={playback.playing ? '暂停播放' : '播放音乐'} disabled={playback.loading}>{playback.loading ? <LoaderCircle className="spinner" /> : playback.playing ? <Pause size={23} fill="currentColor" /> : <Play size={23} fill="currentColor" />}</button><button className="icon-button" onClick={() => skip(1)} aria-label="下一枚秘纹"><SkipForward size={19} fill="currentColor" /></button></div>
-      <div className="progress-control"><div className="progress-label"><span>{time(playback.position)}</span><div className="waveform" aria-hidden="true">{playback.peaks.map((p, i) => <i key={i} className={i / 70 <= playback.position / (playback.duration || 1) ? 'past' : ''} style={{ height: `${3 + p * 15}px` }} />)}</div><span>{time(playback.duration)}</span></div><input className="seek" aria-label="播放进度" type="range" min="0" max={playback.duration || 1} step="0.05" value={playback.position} onChange={e => player.seek(Number(e.target.value))} style={{ '--progress': `${playback.position / (playback.duration || 1) * 100}%` } as CSSProperties} /></div>
+      <div className="progress-control"><div className="progress-label"><span>{time(playback.position)}</span><span>{time(playback.duration)}</span></div><input className="seek" aria-label="播放进度" type="range" min="0" max={playback.duration || 1} step="0.05" value={playback.position} onChange={e => player.seek(Number(e.target.value))} style={{ '--progress': `${playback.position / (playback.duration || 1) * 100}%` } as CSSProperties} /></div>
       <div className="transport-options"><PlaybackModeButton /><div className="volume-wrap"><button className="icon-button" aria-label="音量设置" aria-expanded={showVolume} onClick={() => setShowVolume(!showVolume)}>{playback.volume ? <Volume2 size={20} /> : <VolumeX size={20} />}</button>{showVolume && <div className="volume-popup"><input aria-label="音乐音量" type="range" min="0" max="1" step="0.01" value={playback.volume} onChange={e => player.setVolume(Number(e.target.value))} /><span>{Math.round(playback.volume * 100)}%</span><button className={soundEnabled ? 'enabled' : ''} aria-pressed={soundEnabled} onClick={() => setSoundEnabled(!soundEnabled)}>交互音效 {soundEnabled ? '开' : '关'}</button></div>}</div></div>
     </section>
     {playback.error && <div className="audio-error" role="alert">{playback.error}<button onClick={() => void player.play()}>重试</button></div>}
@@ -366,7 +379,7 @@ function ArchiveApp({ active, onBack, fromStory = false }: { active: boolean; on
     {toast && <div className="toast" role="status"><Check size={16} />{toast}</div>}
 
     {showCollection && <Modal title="秘纹一览" close={() => { sound('ui_common_back'); setShowCollection(false); }} className="collection-modal"><div className="collection-tools"><label className="search-box"><Search size={18} /><input autoFocus value={query} onChange={e => setQuery(e.target.value)} placeholder="搜索秘纹、旅人或标签" aria-label="搜索秘纹" />{query && <button aria-label="清除搜索" onClick={() => setQuery('')}><X size={14} /></button>}</label><span>{filtered.length} / {items.length}</span></div><div className="collection-filters"><button className={filter === 'all' ? 'active' : ''} onClick={() => setFilter('all')}>全部</button><button className={filter === 'favorites' ? 'active' : ''} onClick={() => setFilter('favorites')}><Heart size={13} />珍藏</button>{[1, 2, 3, 4, 5, 6, 7].map(element => <button className={filter === String(element) ? 'active' : ''} key={element} onClick={() => setFilter(String(element))}>{ELEMENTS[element]}</button>)}</div><div className="collection-grid">{filtered.map((item, i) => <React.Fragment key={item.id}>{(i === 0 || filtered[i - 1].activity.id !== item.activity.id || filtered[i - 1].activity.date !== item.activity.date) && <div className="collection-activity"><span>{item.activity.name}</span><small>{item.activity.date ? item.activity.date.slice(0, 10).replaceAll("-", ".") : "常驻"}</small></div>}<button className={`collection-item ${chosen.id === item.id ? 'selected' : ''}`} onClick={() => select(item)}><div className={`collection-image rarity-${item.rarity}`}><img src={item.thumbnail} alt="" loading="lazy" /><span className="collection-stars">{'★'.repeat(item.rarity)}</span>{favorites.includes(item.id) && <Heart className="collection-heart" size={13} fill="currentColor" />}{chosen.id === item.id && <span className="selected-check"><Check size={16} /></span>}</div><strong>{item.name}</strong><small>出镜旅人：{item.characters.filter(Boolean).join(' / ') || '未知'}</small></button></React.Fragment>)}{!filtered.length && <div className="empty-collection"><Search size={28} /><p>{filter === 'favorites' ? '还没有找到珍藏的秘纹' : '没有找到这枚秘纹'}</p><button onClick={() => { setQuery(''); setFilter('all'); }}>查看全部秘纹</button></div>}</div></Modal>}
-    {showStory && <Modal title={chosen.storyTitle || chosen.name} close={() => setShowStory(false)} className="story-modal"><div className="story-heading"><span>{chosen.name}</span></div><article className="full-story"><RichText text={chosen.story || chosen.literary} /></article><div className="story-ending">✦</div></Modal>}
+    {showStory && <Modal title={chosen.storyTitle || chosen.name} close={() => setShowStory(false)} className="story-modal"><article className="full-story"><RichText text={chosen.story || chosen.literary} /></article><div className="story-ending">✦</div></Modal>}
     {full && <FullscreenArtwork outfit={chosen} close={() => setFull(false)} />}
   </div>;
 }
@@ -482,7 +495,7 @@ function MusicLibrary({ active, onBack, onOpenOutfit }: { active: boolean; onBac
         {openGroup === group.id && <div className="library-group-panel" id={`group-${encodeURIComponent(group.id)}`}>{group.description && <p style={{ margin: '0 0 12px', fontSize: 12, lineHeight: 1.8, whiteSpace: 'pre-wrap' }}>{group.description}</p>}<div className="library-tracks">{group.outfit_references.map(reference => <button className="library-outfit-reference" key={reference.outfit_id} onClick={() => onOpenOutfit(reference.outfit_id)}><img src={reference.cover} alt="" /><strong>{reference.name}</strong><span>秘纹旋律</span></button>)}{group.tracks.map(t => t.mixer ? <InfinityTowerMixer key={t.id} track={t} onPlay={playTrack} /> : <div className="library-track-entry" key={t.id} data-content-id={t.id}><button className={`library-track ${selected?.id === t.id ? 'selected' : ''}`} onClick={() => playTrack(t)}><strong><MusicTitle title={t.title} />{t.description && <small style={{ display: 'block', fontSize: 12, fontWeight: 400, opacity: .8, whiteSpace: 'pre-wrap' }}>{t.description}</small>}</strong><span>{t.duration_seconds > 0 ? time(t.duration_seconds) : '--:--'}</span>{selected?.id === t.id && playback.playing ? <AudioLines size={18} /> : <Play size={18} />}</button></div>)}</div></div>}
       </section>)}{search && !visibleGroups.length && <p className="library-empty">没有找到音乐</p>}</div>
     </main>
-    {selected && playback.trackId === selected.id && <section className="library-playback story-player" aria-label="音乐播放控制"><strong><MusicTitle title={selected.title} /></strong><div className="story-playback-buttons"><button className="icon-button" aria-label="上一曲" disabled={queue.length < 2} onClick={() => skip(-1)}><SkipBack size={19} fill="currentColor" /></button><button className="play-button" aria-label={playback.playing ? '暂停播放' : '播放音乐'} disabled={playback.loading} onClick={() => void player.toggle()}>{playback.loading ? <LoaderCircle className="spinner" /> : playback.playing ? <Pause /> : <Play />}</button><button className="icon-button" aria-label="下一曲" disabled={queue.length < 2} onClick={() => skip(1)}><SkipForward size={19} fill="currentColor" /></button></div><span className="story-position">{time(playback.position)}</span><input className="seek" aria-label="播放进度" type="range" min="0" max={playback.duration || 1} step=".05" value={playback.position} onChange={e => player.seek(Number(e.target.value))} style={{ '--progress': `${playback.position / (playback.duration || 1) * 100}%` } as CSSProperties} /><span className="story-duration">{time(playback.duration)}</span><PlaybackModeButton className="story-loop" /></section>}
+    {selected && playback.trackId === selected.id && <section className="library-playback story-player" aria-label="音乐播放控制"><strong><MusicTitle title={selected.title} scrollingSubtitle /></strong><div className="story-playback-buttons"><button className="icon-button" aria-label="上一曲" disabled={queue.length < 2} onClick={() => skip(-1)}><SkipBack size={19} fill="currentColor" /></button><button className="play-button" aria-label={playback.playing ? '暂停播放' : '播放音乐'} disabled={playback.loading} onClick={() => void player.toggle()}>{playback.loading ? <LoaderCircle className="spinner" /> : playback.playing ? <Pause /> : <Play />}</button><button className="icon-button" aria-label="下一曲" disabled={queue.length < 2} onClick={() => skip(1)}><SkipForward size={19} fill="currentColor" /></button></div><span className="story-position">{time(playback.position)}</span><input className="seek" aria-label="播放进度" type="range" min="0" max={playback.duration || 1} step=".05" value={playback.position} onChange={e => player.seek(Number(e.target.value))} style={{ '--progress': `${playback.position / (playback.duration || 1) * 100}%` } as CSSProperties} /><span className="story-duration">{time(playback.duration)}</span><PlaybackModeButton className="story-loop" /></section>}
     {playback.error && <p className="audio-error" role="alert">{playback.error}</p>}
   </div>;
 }
