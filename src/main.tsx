@@ -1,10 +1,11 @@
 import React, { useEffect, useRef, useState, useSyncExternalStore } from 'react';
 import { createRoot } from 'react-dom/client';
-import { ArrowLeft, AudioLines, Check, ChevronDown, Disc3, Download, Expand, Heart, ListMusic, LoaderCircle, Music2, Pause, Play, Repeat, Search, SkipBack, SkipForward, Volume2, VolumeX, X } from 'lucide-react';
+import { ArrowLeft, AudioLines, Check, ChevronDown, Disc3, Download, Expand, Heart, ListMusic, LoaderCircle, Music2, Pause, Play, Repeat, Search, SkipBack, SkipForward, Smartphone, Volume2, VolumeX, X } from 'lucide-react';
 import type { CSSProperties, ReactNode } from 'react';
 import type { Outfit, LibraryMusic, MusicGroup } from './types';
 import { player } from './audio';
 import { PHONOGRAPH_HARDWARE, PHONOGRAPH_NOTE } from './nativePhonograph';
+import { deviceTilt } from './deviceTilt';
 import './style.css';
 
 const ELEMENTS = ['无', '水', '火', '风', '地', '光', '暗', '无'];
@@ -38,12 +39,24 @@ function ArtworkActions({ outfit, onExpand }: { outfit: Outfit; onExpand: () => 
   </div>;
 }
 
+function SensorControl({ full = false }: { full?: boolean }) {
+  const sensor = useSyncExternalStore(deviceTilt.subscribe, deviceTilt.snapshot);
+  if (!sensor.mobile || !sensor.supported) return null;
+  const enabled = sensor.status === 'enabled';
+  return <>
+    <button aria-label={enabled ? '关闭重力感应' : '开启重力感应'} title={enabled ? '关闭重力感应' : '开启重力感应'} aria-pressed={enabled} disabled={sensor.status === 'requesting'} onClick={() => { if (enabled) deviceTilt.disable(); else void deviceTilt.enable(); }} style={full && enabled ? { color: '#7ff6ed' } : undefined}>
+      {full ? <Smartphone size={21} /> : sensor.status === 'requesting' ? '授权中' : sensor.status === 'denied' ? '重试感应' : '重力感应'}
+    </button>
+    {sensor.error && <span role="status" style={full ? { position: 'fixed', top: 80, right: 20, maxWidth: 'calc(100vw - 40px)', fontSize: 12, padding: '8px 12px', background: '#142440e6' } : { flexBasis: '100%', textAlign: 'center', fontSize: 12 }}>{sensor.error}</span>}
+  </>;
+}
+
 function FullscreenArtwork({ outfit, close }: { outfit: Outfit; close: () => void }) {
   const ref = useRef<HTMLDialogElement>(null);
   useEffect(() => { ref.current?.showModal(); }, []);
   return <dialog ref={ref} className="fullscreen-artwork" aria-label={`${outfit.name}全屏差分`} onCancel={e => { e.preventDefault(); close(); }}>
     <Card outfit={outfit} full />
-    <div className="fullscreen-artwork-actions"><a href={outfit.staticImage} download={`秘纹-${outfit.name}.png`} aria-label="保存秘纹静态图"><Download size={22} /></a><button aria-label="关闭全屏" onClick={close}><X size={25} /></button></div>
+    <div className="fullscreen-artwork-actions"><SensorControl full /><a href={outfit.staticImage} download={`秘纹-${outfit.name}.png`} aria-label="保存秘纹静态图"><Download size={22} /></a><button aria-label="关闭全屏" onClick={close}><X size={25} /></button></div>
   </dialog>;
 }
 
@@ -52,19 +65,26 @@ function Card({ outfit, full = false, onExpand }: { outfit: Outfit; full?: boole
   const target = useRef({ x: 0, y: 0, active: false });
   const reduced = useRef(false);
   useEffect(() => {
-    reduced.current = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const preference = window.matchMedia('(prefers-reduced-motion: reduce)');
+    const updatePreference = () => { reduced.current = preference.matches; };
+    updatePreference(); preference.addEventListener('change', updatePreference);
     let frame = 0; let x = 0; let y = 0;
+    let previous = performance.now();
     const tick = (now: number) => {
-      const idle = reduced.current || target.current.active ? 0 : Math.sin(now / 8000 * Math.PI) * .055;
-      x += ((target.current.x + idle) - x) * .065;
-      y += (target.current.y - y) * .065;
+      const sensor = deviceTilt.read(now);
+      const input = sensor.active ? sensor : target.current;
+      const idle = reduced.current || input.active || deviceTilt.snapshot().mobile ? 0 : Math.sin(now / 8000 * Math.PI) * .055;
+      const smoothing = 1-Math.exp(-Math.min(now-previous, 100)/240); previous = now;
+      x += ((input.x + idle) - x) * smoothing;
+      y += (input.y - y) * smoothing;
       ref.current?.style.setProperty('--mx', String(reduced.current ? 0 : x));
       ref.current?.style.setProperty('--my', String(reduced.current ? 0 : y));
       frame = requestAnimationFrame(tick);
     };
-    frame = requestAnimationFrame(tick); return () => cancelAnimationFrame(frame);
+    frame = requestAnimationFrame(tick); return () => { cancelAnimationFrame(frame); preference.removeEventListener('change', updatePreference); };
   }, []);
   const move = (e: React.PointerEvent) => {
+    if (e.pointerType === 'touch') return;
     const box = e.currentTarget.getBoundingClientRect();
     target.current = { x: Math.max(-1, Math.min(1, (e.clientX - box.left) / box.width * 2 - 1)), y: Math.max(-1, Math.min(1, (e.clientY - box.top) / box.height * 2 - 1)), active: true };
   };
@@ -160,6 +180,8 @@ function ArchiveApp({ active, onBack, fromStory = false }: { active: boolean; on
   useEffect(() => { writeStorage('nova-favorites', favorites); }, [favorites]);
   useEffect(() => { writeStorage('nova-sfx', soundEnabled); }, [soundEnabled]);
   useEffect(() => { writeStorage('nova-artwork-mode', artworkMode); }, [artworkMode]);
+  const sensorViewing = active && (full || artworkMode === 'difference' && !showCollection && !showStory);
+  useEffect(() => { deviceTilt.setViewing(sensorViewing); return () => deviceTilt.setViewing(false); }, [sensorViewing]);
   const sound = (name: string) => { if (soundEnabled) void player.sound(name); };
   const notify = (message: string) => { setToast(message); if (timer.current) clearTimeout(timer.current); timer.current = setTimeout(() => setToast(''), 2400); };
   const select = (outfit: Outfit) => {
@@ -198,7 +220,7 @@ function ArchiveApp({ active, onBack, fromStory = false }: { active: boolean; on
     <main className="main-stage">
       <div className="archive-scene scene-enter" key={chosen.id}>
         <section className={`archive-artwork mode-${artworkMode}`} aria-label={`${chosen.name}专辑展示`}>
-          <div className="artwork-mode-switch" role="group" aria-label="专辑展示模式"><button aria-pressed={artworkMode === 'difference'} onClick={() => { sound('ui_outfit_button_tap'); setArtworkMode('difference'); }}><Expand size={16} />差分</button><button aria-pressed={artworkMode === 'phonograph'} onClick={() => { sound('ui_outfit_button_tap'); setArtworkMode('phonograph'); }}><Disc3 size={17} />唱机</button></div>
+          <div className="artwork-mode-switch" role="group" aria-label="专辑展示模式" style={{ flexWrap: 'wrap' }}><button aria-pressed={artworkMode === 'difference'} onClick={() => { sound('ui_outfit_button_tap'); setArtworkMode('difference'); }}><Expand size={16} />差分</button><button aria-pressed={artworkMode === 'phonograph'} onClick={() => { sound('ui_outfit_button_tap'); setArtworkMode('phonograph'); }}><Disc3 size={17} />唱机</button>{artworkMode === 'difference' && <SensorControl />}</div>
           <div className="archive-cover-wrap"><div className="card-aura" />{artworkMode === 'difference' ? <Card outfit={chosen} onExpand={() => { sound('ui_common_click_select'); setFull(true); }} /> : <Phonograph outfit={chosen} playing={playback.playing} onExpand={() => { sound('ui_common_click_select'); setFull(true); }} />}</div>
         </section>
         <aside className="archive-panel">
