@@ -3,6 +3,7 @@ import { musicTitleParts } from './musicTitle.ts';
 export interface MusicPage {
   id: string; kind: 'library' | 'outfit'; title: string; collection: string;
   audio: string; duration: number; image: string; outfitId?: number; melodyIndex?: number;
+  imageWidth?: number; imageHeight?: number; imageType?: string;
 }
 const routes=new Map<string,MusicPage>();
 export function musicRouteSegment(id:string):string {
@@ -37,24 +38,33 @@ export function musicPage(id=musicIdFromPath(location.pathname)):MusicPage|undef
     if(embedded?.id===id)return embedded;
   } catch{/* The normal catalog will resolve an unavailable embedded record. */}
 }
-export function outfitMusicPage(outfit:{id:number;name:string;staticImage:string},music:{id:string;title:string;display_title?:string;path:string;duration_seconds:number},index:number):MusicPage {
+export function outfitMusicPage(outfit:{id:number;name:string;staticImage:string;thumbnail?:string;activity?:{id?:number;name?:string}},music:{id:string;title:string;display_title?:string;path:string;duration_seconds:number},index:number):MusicPage {
   return {id:music.id,kind:'outfit',outfitId:outfit.id,melodyIndex:index,
     title:music.display_title ? musicTitleParts(music.display_title).title : index===0 ? outfit.name : `${outfit.name} · ${music.title}`,
-    collection:outfit.name,audio:music.path,duration:music.duration_seconds,image:outfit.staticImage};
+    collection:outfit.activity?.name?.trim() || '星塔唱片',audio:music.path,duration:music.duration_seconds,
+    image:outfit.thumbnail?.replace(/thumb\.[^/.]+$/,'preview.jpg') || '/icons/icon-512.png',imageType:outfit.thumbnail ? 'image/jpeg' : 'image/png'};
 }
 export function storyMusicPage(track:{id:string;title:string;path:string;duration_seconds:number},collection:string):MusicPage {
-  return {id:track.id,kind:'library',title:musicTitleParts(track.title).title,collection,audio:track.path,duration:track.duration_seconds,image:'/icons/icon-512.png'};
+  return {id:track.id,kind:'library',title:musicTitleParts(track.title).title,collection,audio:track.path,duration:track.duration_seconds,image:'/icons/icon-512.png',imageWidth:512,imageHeight:512,imageType:'image/png'};
 }
 export function updateMusicPageMetadata(page:MusicPage):void {
   document.title=page.title;
   const description='星塔旋律 · '+page.collection;
   const audio=new URL(page.audio,location.origin).href;
+  const imageChanged=document.head.querySelector<HTMLMetaElement>('meta[property="og:image"]')?.content!==new URL(page.image,location.origin).href;
   const mime=page.audio.split('?')[0].endsWith('.mp3') ? 'audio/mpeg' : page.audio.split('?')[0].endsWith('.m4a') ? 'audio/mp4' : 'audio/ogg';
-  const values:Record<string,string>={'og:title':page.title,'og:description':description,'og:type':'music.song','og:site_name':'星塔旋律','og:url':new URL(musicPath(page.id),location.origin).href,'og:image':new URL(page.image,location.origin).href,'og:audio':audio,'og:audio:secure_url':audio,'og:audio:type':mime,'music:duration':String(Math.round(page.duration))};
+  const values:Record<string,string>={'og:title':page.title,'og:description':description,'og:type':'music.song','og:site_name':'星塔旋律','og:url':new URL(musicPath(page.id),location.origin).href,'og:image':new URL(page.image,location.origin).href,'og:image:secure_url':new URL(page.image,location.origin).href,'og:audio':audio,'og:audio:secure_url':audio,'og:audio:type':mime,'music:duration':String(Math.round(page.duration))};
   for(const [property,content] of Object.entries(values)) {
     let element=document.head.querySelector<HTMLMetaElement>(`meta[property="${property}"]`);
     if(!element){element=document.createElement('meta');element.setAttribute('property',property);document.head.append(element);}
     element.content=content;
+  }
+  for(const [suffix,value] of Object.entries({width:page.imageWidth,height:page.imageHeight,type:page.imageType})) {
+    const property='og:image:'+suffix;
+    let element=document.head.querySelector<HTMLMetaElement>(`meta[property="${property}"]`);
+    if(value===undefined){if(imageChanged)element?.remove();continue;}
+    if(!element){element=document.createElement('meta');element.setAttribute('property',property);document.head.append(element);}
+    element.content=String(value);
   }
   const meta=document.head.querySelector<HTMLMetaElement>('meta[name=description]');if(meta)meta.content=description;
   let canonical=document.head.querySelector<HTMLLinkElement>('link[rel=canonical]');

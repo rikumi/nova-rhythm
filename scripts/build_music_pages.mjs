@@ -21,9 +21,10 @@ export function renderMusicPage(template,page,origin) {
   const mime=({opus:'audio/ogg',ogg:'audio/ogg',mp3:'audio/mpeg',m4a:'audio/mp4',wav:'audio/wav',flac:'audio/flac'})[extension]||'application/octet-stream';
   const meta={
     'og:type':'music.song','og:title':page.title,'og:description':description,'og:site_name':'星塔旋律','og:locale':'zh_CN',
-    'og:url':url,'og:image':image,'og:audio':audio,'og:audio:secure_url':audio,'og:audio:type':mime,
+    'og:url':url,'og:image':image,'og:image:secure_url':image,'og:audio':audio,'og:audio:secure_url':audio,'og:audio:type':mime,
     'music:duration':String(Math.round(page.duration)),
   };
+  for(const [key,value] of Object.entries({width:page.imageWidth,height:page.imageHeight,type:page.imageType}))if(value!==undefined)meta['og:image:'+key]=String(value);
   const tags=Object.entries(meta).map(([property,content])=>`    <meta property="${property}" content="${escape(content)}" />`).join('\n');
   const serialized=value=>JSON.stringify(value).replaceAll('<','\\u003c').replaceAll('>','\\u003e').replaceAll('&','\\u0026');
   const jsonld={'@context':'https://schema.org','@type':'AudioObject',name:page.title,description,
@@ -41,6 +42,15 @@ async function main() {
   const origin=process.env.SITE_ORIGIN || 'https://'+(await readFile(join(source,'CNAME'),'utf8')).trim();
   const pages=collectMusicPages(mapping,metadata,outfits);
   for(const page of pages) {
+    if(page.image.startsWith('/') && page.image.endsWith('.jpg')) {
+      const data=await readFile(join(source,page.image.slice(1)));
+      for(let offset=2;offset+8<data.length;) {
+        if(data[offset]!==255)break;
+        const marker=data[offset+1],length=data.readUInt16BE(offset+2);
+        if([192,193,194].includes(marker)){page.imageHeight=data.readUInt16BE(offset+5);page.imageWidth=data.readUInt16BE(offset+7);break;}
+        offset+=length+2;
+      }
+    }
     const folder=join(output,'music',musicRouteSegment(page.id));await mkdir(folder,{recursive:true});
     await writeFile(join(folder,'index.html'),renderMusicPage(template,page,origin),'utf8');
   }

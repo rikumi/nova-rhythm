@@ -345,6 +345,7 @@ def build_manifests(results, annotations, raw_names):
 def extract_new_art(outfits, game, work, output):
     """Use native prefab transforms for new discs; no guessed layer geometry."""
     from PIL import Image
+    from export_share_previews import save_preview
     import UnityPy
     from disc_layout import layout
     errors = []
@@ -371,6 +372,7 @@ def extract_new_art(outfits, game, work, output):
             folder = output/f'art/{code}'; folder.mkdir(parents=True, exist_ok=True)
             cover.save(folder/'original.png')
             cover.save(folder/'full.webp', 'WEBP', quality=93, method=5)
+            save_preview(cover,folder/'preview.jpg')
             for name, size in [('cover', 1400), ('thumb', 280)]:
                 image = cover.copy(); image.thumbnail((size, size), Image.Resampling.LANCZOS)
                 image.save(folder/f'{name}.webp', 'WEBP', quality=90, method=5)
