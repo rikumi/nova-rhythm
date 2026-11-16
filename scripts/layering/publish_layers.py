@@ -13,6 +13,8 @@ def publish(batch):
     from PIL import Image
     import numpy as np
     if len(batch.completed)!=len(batch.plan['items']):raise RuntimeError('All planned outfits must finish before publication')
+    branch=subprocess.check_output(['git','branch','--show-current'],cwd=ROOT,text=True).strip()
+    if branch!='main':raise RuntimeError('Publication requires main; generated results are retained for a later retry')
     gh=shutil.which('gh') or str(ROOT/'tools/github-cli/portable/bin/gh.exe')
     repository='rikumi/nova-rhythm'
     date=datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=8))).strftime('%Y%m%d')
