@@ -11,6 +11,7 @@ import { adjacentLibraryTrack, libraryQueue, libraryTrackUrl } from './libraryNa
 import { MODE_LABELS, nextPlaybackMode, nextQueueIndex } from './playbackMode';
 import { musicTitleParts } from './musicTitle';
 import { ScrollingText } from './ScrollingText';
+import { OutlinedName } from './OutlinedName';
 import { applyInfinityTowerMixer } from './infinitytowerMixer';
 import { musicIdFromPath, musicPage, musicPath, musicUrl, outfitMusicPage, registerMusicPages, storyMusicPage, updateMusicPageMetadata } from './musicRoutes';
 import './style.css';
@@ -357,7 +358,7 @@ function ArchiveApp({ active, onBack, fromStory = false }: { active: boolean; on
         </section>
         <aside className="archive-panel">
           <section className="native-archive-sheet" aria-label="秘纹档案">
-            <header className="native-archive-name"><img src="/ui/zs_outfit_title_1.png" alt="" /><h3>{chosen.storyTitle || chosen.name}</h3><button className={`icon-button ${favorite ? 'is-favorite' : ''}`} onClick={toggleFavorite} aria-label={favorite ? '取消珍藏' : '珍藏秘纹'}><Heart size={20} fill={favorite ? 'currentColor' : 'none'} /></button></header>
+            <header className="native-archive-name"><img src="/ui/zs_outfit_title_1.png" alt="" /><h3 aria-label={chosen.storyTitle || chosen.name}><OutlinedName text={chosen.storyTitle || chosen.name} /></h3><button className={`icon-button ${favorite ? 'is-favorite' : ''}`} onClick={toggleFavorite} aria-label={favorite ? '取消珍藏' : '珍藏秘纹'}><Heart size={20} fill={favorite ? 'currentColor' : 'none'} /></button></header>
             <section className="recorded-quote" aria-label="收录语"><h4>收录语</h4><div className="quote-copy"><RichText text={chosen.literary || chosen.description} /></div></section>
             <button className="native-story-entry" onClick={() => { sound('ui_outfit_button_tap'); setShowStory(true); }}><img className="native-story-decoration decoration-left" src="/ui/db_stage_story3.png" alt="" /><img className="native-story-decoration decoration-right" src="/ui/zs_stage_point.png" alt="" /><i className="native-story-icon" aria-hidden="true" /><span>秘纹故事</span><i className="native-story-arrow" aria-hidden="true" /></button>
             <div className="archive-tracks">{chosen.music.map((music, i) => <button className={`archive-track ${melody === i ? 'selected' : ''} ${melody === i && playback.playing ? 'is-playing' : ''}`} key={music.id} onClick={() => chooseMelody(i)} aria-pressed={melody === i}><div><b><span className="native-melody-bars" aria-hidden="true"><i /><i /><i /></span>{music.title}</b><small><i className="native-melody-time-icon" aria-hidden="true" />{melodyTime(music.duration_seconds)}</small></div></button>)}</div>
