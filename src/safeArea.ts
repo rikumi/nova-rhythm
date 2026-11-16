@@ -5,7 +5,7 @@ export interface BottomInsetMetrics {
   keyboardOpen: boolean;
 }
 
-/** Geometry can supplement missing Android insets; 32px is a guard, not a measurement. */
+/** Supplement missing Android insets with reported geometry, without a fixed reserve. */
 export function androidBottomInset(metrics: BottomInsetMetrics): { bottom: number; source: string } {
   if(!metrics.installed || !metrics.android)return {bottom:0,source:'native-css'};
   if(metrics.keyboardOpen)return {bottom:0,source:'keyboard'};
@@ -21,5 +21,5 @@ export function androidBottomInset(metrics: BottomInsetMetrics): { bottom: numbe
       if(bottom<=metrics.screenHeight+2 && screen)return {bottom:Math.ceil(screen),source:'screen-available'};
     }
   }
-  return {bottom:32,source:'android-pwa-fallback'};
+  return {bottom:0,source:'no-inset-reported'};
 }

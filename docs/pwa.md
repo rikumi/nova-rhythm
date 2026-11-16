@@ -2,7 +2,7 @@
 
 `public/manifest.webmanifest` 配置安装名称、图标、入口与快捷入口，使用独立窗口 `standalone`，保留状态栏和导航栏，不请求全屏隐藏系统栏。`index.html` 的 `viewport-fit=cover` 和 iOS `black-translucent` 桌面应用设置配合 `src/pwa.css`，让背景延伸到系统栏下方，同时通过安全区给标题、播放栏、页脚及全屏按钮留出空间。平台最终采用的系统栏显示方式由浏览器决定。
 
-Android 安装模式若未提供有效底部安全区，`src/pwa.ts` 会补充读取最大安全区、Visual Viewport 底部差值和屏幕可用区域。所有数据均为零时，保守预留 32 CSS 像素；这是防遮挡回退，不是精确读取的系统栏高度。普通浏览器标签页和非 Android 平台不启用此回退。键盘弹出或页面缩放不会被当作系统栏高度，并在视口变化、横竖屏切换、焦点变化与回到应用时更新。
+Android 安装模式若未提供有效底部安全区，`src/pwa.ts` 会补充读取最大安全区、Visual Viewport 底部差值和屏幕可用区域。所有数据均为零时不额外预留空间，不使用固定高度回退。普通浏览器标签页和非 Android 平台保持原生 CSS 安全区。键盘弹出或页面缩放不会被当作系统栏高度，并在视口变化、横竖屏切换、焦点变化与回到应用时更新。
 
 最大安全区的定义见 [CSS 环境变量规范](https://www.w3.org/TR/css-env-1/#safe-area-max-insets)，Chrome 的实现说明见 [edge-to-edge 文档](https://developer.chrome.com/docs/css-ui/edge-to-edge)。已有安装的显示模式由 Chrome 的安装清单更新机制刷新；修改清单不会主动关闭或重装用户应用。
 
