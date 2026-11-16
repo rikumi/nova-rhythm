@@ -100,7 +100,8 @@ class Batch:
         self.log=(self.batch/(phase+'.log')).open('ab')
         command=[str(self.python),'main.py','--listen','127.0.0.1','--port',str(self.args.port),
             '--disable-auto-launch','--reserve-vram','1.0','--disable-dynamic-vram',
-            '--disable-pinned-memory','--disable-cuda-malloc','--disable-async-offload','--disable-mmap','--offline','--disable-product-tips']
+            '--disable-pinned-memory','--disable-cuda-malloc','--disable-async-offload','--offline','--disable-product-tips']
+        if phase=='captions':command.append('--disable-mmap')
         self.server=subprocess.Popen(command,cwd=self.comfy,env=env,stdout=self.log,stderr=self.log,
             creationflags=subprocess.CREATE_NO_WINDOW if os.name=='nt' else 0)
         write(self.batch/'server.json',{'pid':self.server.pid,'command':command,'phase':phase})
