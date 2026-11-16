@@ -1,7 +1,17 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
 import { adjacentLibraryTrack, libraryQueue, libraryTrackUrl } from '../../src/libraryNavigation.ts';
-import { orderLibraryGroups } from '../../src/storyLibrary.ts';
+import { orderLibraryGroups, libraryGroupLabel } from '../../src/storyLibrary.ts';
+
+test('group labels follow prefixes and treat mainline-update activities as mainline', () => {
+  assert.equal(libraryGroupLabel('activity-123'), '活动');
+  assert.equal(libraryGroupLabel('activity-123', '主线更新剧情：角色'), '主线');
+  assert.equal(libraryGroupLabel('activity-123', '限时活动剧情：角色'), '活动');
+  assert.equal(libraryGroupLabel('mainline-5'), '主线');
+  assert.equal(libraryGroupLabel('story-one'), '故事');
+  assert.equal(libraryGroupLabel('mode-one'), '模式');
+  assert.equal(libraryGroupLabel('permanent-combat'), undefined);
+});
 
 test('share link identifies a story track and clears outfit navigation', () => {
   const url = libraryTrackUrl('https://xtxl.rkm.mx/?disc=214001#/outfit', 'audio-one');

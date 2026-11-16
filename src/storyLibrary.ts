@@ -24,6 +24,11 @@ export interface StoryLibrary {
   tracks: LibraryMusic[];
 }
 
+export function libraryGroupLabel(id: string, description = ''): string | undefined {
+  if (id.startsWith('activity-') && description.trim().startsWith('主线更新剧情')) return '主线';
+  return ({ activity: '活动', story: '故事', mainline: '主线', mode: '模式' } as Record<string, string>)[id.split('-', 1)[0]];
+}
+
 export function orderLibraryGroups(groups: MusicGroup[]): MusicGroup[] {
   const byId = new Map(groups.map(group => [group.id, group]));
   const result: MusicGroup[] = [], seen = new Set<string>(), visiting = new Set<string>();

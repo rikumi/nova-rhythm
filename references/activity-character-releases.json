@@ -1,0 +1,335 @@
+{
+  "basis": "First known Gacha.ATypeUpPkg -> GachaPkg.GoodsId character banner at ActivityGroup.StartTime; story type from ActivityGroup.DesText. Existing user descriptions take precedence.",
+  "source_sha256": {
+    "Character": "7f6222ca7bacf0af1b4429d3fd2118e45210ba0f3a00c2e4cfd1392165c8ff7b",
+    "Gacha": "8cfdcee9a272a0ef947840edf63acff325b43db70884cff43e5d372f18de1ad6",
+    "GachaPkg": "423692349557c504bedec78592e105aab8effee6bd82300905642edfd06d3ac9",
+    "ActivityGroup": "140d2a2f7450063a3e22c5eae885329454aa7556970df2f98baa3ac25e2ee5ef"
+  },
+  "entries": [
+    {
+      "group_id": "activity-10113",
+      "name": "执笔展卷，勾勒未名之境",
+      "date": "2026-11-13T12:00:00+08:00",
+      "character_ids": [
+        161
+      ],
+      "characters": [
+        "优叶"
+      ],
+      "banner_ids": [
+        10161
+      ],
+      "story_type_evidence": "【活动说明】\n「执笔展卷，勾勒未名之境」活动已正式开启。\n在活动期间您可挑战活动限时关卡，阅读活动故事剧情，以及游玩“沁凉补给站”小游戏。\n游玩上述内容以及完成活动任务目标，可获得活动代币“指南针”，兑换各种丰厚奖励。",
+      "suggested_description": "限时活动剧情：优叶",
+      "description": "限时活动剧情：优叶",
+      "preserved_user_description": true
+    },
+    {
+      "group_id": "activity-20104",
+      "name": "完璧之庭 · 微尘破晓",
+      "date": "2026-10-20T12:00:00+08:00",
+      "character_ids": [
+        162
+      ],
+      "characters": [
+        "尘沙（源初）"
+      ],
+      "banner_ids": [
+        10162
+      ],
+      "story_type_evidence": "【活动说明】\n「完璧之庭 · 微尘破晓」活动已正式开启。\n在活动期间您可挑战活动限时关卡，阅读主线故事剧情，体验“命运星牌局”，游玩“速度与机擎”小游戏。\n游玩上述内容以及完成活动任务目标，可获得活动代币“古铜币”，兑换各种丰厚奖励。",
+      "suggested_description": "主线更新剧情：尘沙（源初）",
+      "description": "主线更新剧情：尘沙（原初）",
+      "preserved_user_description": true
+    },
+    {
+      "group_id": "activity-10112",
+      "name": "遥远的塔",
+      "date": "2026-09-29T12:00:00+08:00",
+      "character_ids": [
+        139
+      ],
+      "characters": [
+        "艾蕾"
+      ],
+      "banner_ids": [
+        10139
+      ],
+      "story_type_evidence": "【活动说明】\n「遥远的塔」活动已正式开启。\n在活动期间您可挑战活动限时关卡，阅读主线故事剧情，以及游玩“月华窃梦人”小游戏。\n游玩上述内容以及完成活动任务目标，可获得活动代币“小红花”，兑换各种丰厚奖励。",
+      "suggested_description": "主线更新剧情：艾蕾",
+      "description": "主线更新剧情：艾蕾",
+      "preserved_user_description": false
+    },
+    {
+      "group_id": "activity-10111",
+      "name": "奋斗吧！大小姐的旅人修炼手册！",
+      "date": "2026-09-08T12:00:00+08:00",
+      "character_ids": [
+        137
+      ],
+      "characters": [
+        "埃莉诺"
+      ],
+      "banner_ids": [
+        10137
+      ],
+      "story_type_evidence": "【活动说明】\n「奋斗吧！大小姐的旅人修炼手册！」活动已正式开启。\n在活动期间您可挑战活动限时关卡，阅读活动故事剧情，以及游玩“甜心梦工坊”小游戏。\n游玩上述内容以及完成活动任务目标，可获得活动代币“纸星星”，兑换各种丰厚奖励。",
+      "suggested_description": "限时活动剧情：埃莉诺",
+      "description": "限时活动剧情：埃莉诺",
+      "preserved_user_description": false
+    },
+    {
+      "group_id": "activity-10110",
+      "name": "欢歌劲浪 · 闪耀假日惊涛探险！",
+      "date": "2026-08-18T12:00:00+08:00",
+      "character_ids": [
+        157
+      ],
+      "characters": [
+        "花铃"
+      ],
+      "banner_ids": [
+        10157
+      ],
+      "story_type_evidence": "【活动说明】\n「欢歌劲浪 · 闪耀假日惊涛探险！」活动已正式开启。\n在活动期间您可挑战活动限时关卡，阅读活动故事剧情，以及游玩“豪礼抛物线”小游戏。\n游玩上述内容以及完成活动任务目标，可获得活动代币“弹珠汽水”，兑换各种丰厚奖励。",
+      "suggested_description": "限时活动剧情：花铃",
+      "description": "限时活动剧情：花铃",
+      "preserved_user_description": false
+    },
+    {
+      "group_id": "activity-20103",
+      "name": "晴风碧海 · 悠哉盛夏依然打卡~",
+      "date": "2026-07-21T12:00:00+08:00",
+      "character_ids": [
+        160
+      ],
+      "characters": [
+        "薇洛（盛夏）"
+      ],
+      "banner_ids": [
+        10160
+      ],
+      "story_type_evidence": "【活动说明】\n「晴风碧海 · 悠哉盛夏依然打卡~」活动已正式开启。\n在活动期间您可挑战活动限时关卡，阅读活动故事剧情，体验“命运星牌局”，游玩“沁凉补给站”小游戏。\n游玩上述内容以及完成活动任务目标，可获得活动代币“夏日海螺”，兑换各种丰厚奖励。",
+      "suggested_description": "限时活动剧情：薇洛（盛夏）",
+      "description": "限时活动剧情：薇洛（盛夏）",
+      "preserved_user_description": false
+    },
+    {
+      "group_id": "activity-10109",
+      "name": "枪林弹雨覆黄沙",
+      "date": "2026-06-30T12:00:00+08:00",
+      "character_ids": [
+        114
+      ],
+      "characters": [
+        "猫眼"
+      ],
+      "banner_ids": [
+        10114
+      ],
+      "story_type_evidence": "【活动说明】\n「枪林弹雨覆黄沙」活动已正式开启。\n在活动期间您可挑战活动限时关卡，阅读活动故事剧情，以及游玩“月华窃梦人”小游戏。\n游玩上述内容以及完成活动任务目标，可获得活动代币“暗黑魔弹”，兑换各种丰厚奖励。",
+      "suggested_description": "限时活动剧情：猫眼",
+      "description": "限时活动剧情：猫眼",
+      "preserved_user_description": false
+    },
+    {
+      "group_id": "activity-10108",
+      "name": "心跳！柔光狂想曲",
+      "date": "2026-06-02T12:00:00+08:00",
+      "character_ids": [
+        140
+      ],
+      "characters": [
+        "斯帕克拉"
+      ],
+      "banner_ids": [
+        10140
+      ],
+      "story_type_evidence": "【活动说明】\n「心跳！柔光狂想曲」活动已正式开启。\n在活动期间您可挑战活动限时关卡，阅读活动故事剧情，以及游玩“甜心梦工坊”小游戏。\n游玩上述内容以及完成活动任务目标，可获得活动代币“多余的零件”，兑换各种丰厚奖励。",
+      "suggested_description": "限时活动剧情：斯帕克拉",
+      "description": "限时活动剧情：斯帕克拉",
+      "preserved_user_description": false
+    },
+    {
+      "group_id": "activity-10107",
+      "name": "穿透心壁的取景框",
+      "date": "2026-05-14T12:00:00+08:00",
+      "character_ids": [
+        115
+      ],
+      "characters": [
+        "火垂"
+      ],
+      "banner_ids": [
+        10115
+      ],
+      "story_type_evidence": "【活动说明】\n「穿透心壁的取景框」活动已正式开启。\n在活动期间您可挑战活动限时关卡，阅读活动故事剧情，以及游玩“豪礼抛物线”小游戏。\n游玩上述内容以及完成活动任务目标，可获得活动代币“小兔子贴纸”，兑换各种丰厚奖励。",
+      "suggested_description": "限时活动剧情：火垂",
+      "description": "限时活动剧情：火垂",
+      "preserved_user_description": false
+    },
+    {
+      "group_id": "activity-20102",
+      "name": "幽夜独舞孤影乱",
+      "date": "2026-04-16T12:00:00+08:00",
+      "character_ids": [
+        145
+      ],
+      "characters": [
+        "乙叶"
+      ],
+      "banner_ids": [
+        10145
+      ],
+      "story_type_evidence": "【活动说明】\n「幽夜独舞孤影乱」活动已正式开启。\n在活动期间您可挑战活动限时关卡，阅读活动故事剧情，体验“命运星牌局”，游玩“月华窃梦人”小游戏。\n游玩上述内容以及完成活动任务目标，可获得活动代币“午夜来信”，兑换各种丰厚奖励。",
+      "suggested_description": "限时活动剧情：乙叶",
+      "description": "限时活动剧情：乙叶",
+      "preserved_user_description": false
+    },
+    {
+      "group_id": "activity-10106",
+      "name": "敬启，致珍重的你",
+      "date": "2026-03-17T12:00:00+08:00",
+      "character_ids": [
+        130
+      ],
+      "characters": [
+        "多娜"
+      ],
+      "banner_ids": [
+        10130
+      ],
+      "story_type_evidence": "【活动说明】\n「敬启，致珍重的你」活动已正式开启。\n在活动期间您可挑战活动限时关卡，阅读活动故事剧情，以及游玩“幸运寻宝铲”小游戏。\n游玩上述内容以及完成活动任务目标，可获得活动代币“青枭片羽”，兑换各种丰厚奖励。",
+      "suggested_description": "限时活动剧情：多娜",
+      "description": "限时活动剧情：多娜",
+      "preserved_user_description": false
+    },
+    {
+      "group_id": "activity-10105",
+      "name": "冬夜镇魂曲与破晓扳机",
+      "date": "2026-02-24T12:00:00+08:00",
+      "character_ids": [
+        143
+      ],
+      "characters": [
+        "风影"
+      ],
+      "banner_ids": [
+        10143
+      ],
+      "story_type_evidence": "【活动说明】\n「冬夜镇魂曲与破晓扳机」活动已正式开启。\n在活动期间您可挑战活动限时关卡，阅读活动故事剧情，以及游玩“豪礼抛物线”小游戏。\n游玩上述内容以及完成活动任务目标，可获得活动代币“应急罐头”，兑换各种丰厚奖励。",
+      "suggested_description": "限时活动剧情：风影",
+      "description": "限时活动剧情：风影",
+      "preserved_user_description": false
+    },
+    {
+      "group_id": "activity-10104",
+      "name": "烟火绮丽寻春意",
+      "date": "2026-02-03T12:00:00+08:00",
+      "character_ids": [
+        159
+      ],
+      "characters": [
+        "科洛妮丝（新春）"
+      ],
+      "banner_ids": [
+        10159
+      ],
+      "story_type_evidence": "【活动说明】\n「烟火绚丽寻春意」活动已正式开启。\n在活动期间您可挑战活动限时关卡，阅读活动故事剧情，以及游玩“甜心梦工坊”小游戏。\n游玩上述内容以及完成活动任务目标，可获得活动代币“美味糖葫芦”，兑换各种丰厚奖励。",
+      "suggested_description": "限时活动剧情：科洛妮丝（新春）",
+      "description": "限时活动剧情：科洛妮丝（新春）",
+      "preserved_user_description": false
+    },
+    {
+      "group_id": "activity-10103",
+      "name": "微火的奇迹",
+      "date": "2026-01-13T12:00:00+08:00",
+      "character_ids": [
+        110
+      ],
+      "characters": [
+        "翡冷翠"
+      ],
+      "banner_ids": [
+        10110
+      ],
+      "story_type_evidence": "【活动说明】\n「微火的奇迹」活动已正式开启。\n在活动期间您可挑战活动限时关卡，阅读主线故事剧情，以及游玩“幸运寻宝铲”小游戏。\n游玩上述内容以及完成活动任务目标，可获得活动代币“报销凭证”，兑换各种丰厚奖励。",
+      "suggested_description": "主线更新剧情：翡冷翠",
+      "description": "主线更新剧情：翡冷翠",
+      "preserved_user_description": false
+    },
+    {
+      "group_id": "activity-20101",
+      "name": "闪耀的使者与圣夜的精灵",
+      "date": "2025-12-23T12:00:00+08:00",
+      "character_ids": [
+        158
+      ],
+      "characters": [
+        "菈露（圣夜）"
+      ],
+      "banner_ids": [
+        10158
+      ],
+      "story_type_evidence": "【活动说明】\n「闪耀的使者与圣夜的精灵」活动已正式开启。\n在活动期间您可挑战活动限时关卡，阅读活动故事剧情，以及游玩“甜心梦工坊”小游戏。\n游玩上述内容以及完成活动任务目标，可获得活动代币“雪愿姜饼人”，兑换各种丰厚奖励。",
+      "suggested_description": "限时活动剧情：菈露（圣夜）",
+      "description": "限时活动剧情：菈露（圣夜）",
+      "preserved_user_description": false
+    },
+    {
+      "group_id": "activity-10102",
+      "name": "梦的彼岸",
+      "date": "2025-12-09T12:00:00+08:00",
+      "character_ids": [
+        133
+      ],
+      "characters": [
+        "夏花"
+      ],
+      "banner_ids": [
+        10133
+      ],
+      "story_type_evidence": "【活动说明】\n「梦的彼岸」活动已正式开启。\n在活动期间您可挑战活动限时关卡，阅读主线故事剧情，以及游玩“幸运寻宝铲”小游戏。\n游玩上述内容以及完成活动任务目标，可获得活动代币“营养饭团”，兑换各种丰厚奖励。",
+      "suggested_description": "主线更新剧情：夏花",
+      "description": "主线更新剧情：夏花",
+      "preserved_user_description": false
+    },
+    {
+      "group_id": "activity-10101",
+      "name": "我们的旅团",
+      "date": "2025-11-18T12:00:00+08:00",
+      "character_ids": [
+        134
+      ],
+      "characters": [
+        "冬香"
+      ],
+      "banner_ids": [
+        10134
+      ],
+      "story_type_evidence": "【活动说明】\n「我们的旅团」活动已正式开启。\n在活动期间您可挑战活动限时关卡，阅读主线故事剧情，以及游玩“甜心梦工坊”小游戏。\n游玩上述内容以及完成活动任务目标，可获得活动代币“玻璃弹珠”，兑换各种丰厚奖励。",
+      "suggested_description": "主线更新剧情：冬香",
+      "description": "主线更新剧情：冬香",
+      "preserved_user_description": false
+    },
+    {
+      "group_id": "activity-10100",
+      "name": "惊奇冒险！渊海幽灵船传说！",
+      "date": "2025-10-28T12:00:00+08:00",
+      "character_ids": [
+        155
+      ],
+      "characters": [
+        "希娅"
+      ],
+      "banner_ids": [
+        10155
+      ],
+      "story_type_evidence": "【活动说明】\n「惊奇冒险！渊海幽灵船传说！」活动已正式开启。\n在活动期间您可挑战活动限时关卡，阅读活动主题故事剧情，以及游玩“幸运寻宝铲”小游戏。\n游玩上述内容以及完成活动任务目标，可获得活动代币“鱿鱼米饼”，兑换各种丰厚奖励。",
+      "suggested_description": "限时活动剧情：希娅",
+      "description": "限时活动剧情：希娅",
+      "preserved_user_description": false
+    }
+  ]
+}

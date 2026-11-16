@@ -49,7 +49,7 @@
       "id": "activity-20104",
       "name": "完璧之庭 · 微尘破晓",
       "date": "2026-10-20T12:00:00+08:00",
-      "description": "",
+      "description": "主线更新剧情：尘沙（原初）",
       "outfit_references": [
         {
           "outfit_id": 214067,
@@ -103,7 +103,7 @@
       "id": "activity-10112",
       "name": "遥远的塔",
       "date": "2026-09-29T12:00:00+08:00",
-      "description": "",
+      "description": "主线更新剧情：艾蕾",
       "outfit_references": [
         {
           "outfit_id": 214062,
@@ -205,7 +205,7 @@
       "id": "activity-10111",
       "name": "奋斗吧！大小姐的旅人修炼手册！",
       "date": "2026-09-08T12:00:00+08:00",
-      "description": "",
+      "description": "限时活动剧情：埃莉诺",
       "outfit_references": [
         {
           "outfit_id": 214060,
@@ -234,7 +234,7 @@
       "id": "activity-10110",
       "name": "欢歌劲浪 · 闪耀假日惊涛探险！",
       "date": "2026-08-18T12:00:00+08:00",
-      "description": "",
+      "description": "限时活动剧情：花铃",
       "outfit_references": [
         {
           "outfit_id": 214058,
@@ -285,7 +285,7 @@
       "id": "activity-20103",
       "name": "晴风碧海 · 悠哉盛夏依然打卡~",
       "date": "2026-07-21T12:00:00+08:00",
-      "description": "",
+      "description": "限时活动剧情：薇洛（盛夏）",
       "outfit_references": [
         {
           "outfit_id": 214056,
@@ -314,7 +314,7 @@
       "id": "activity-10109",
       "name": "枪林弹雨覆黄沙",
       "date": "2026-06-30T12:00:00+08:00",
-      "description": "",
+      "description": "限时活动剧情：猫眼",
       "outfit_references": [
         {
           "outfit_id": 214029,
@@ -340,7 +340,7 @@
       "id": "activity-10108",
       "name": "心跳！柔光狂想曲",
       "date": "2026-06-02T12:00:00+08:00",
-      "description": "",
+      "description": "限时活动剧情：斯帕克拉",
       "outfit_references": [
         {
           "outfit_id": 214054,
@@ -382,7 +382,7 @@
       "id": "activity-10107",
       "name": "穿透心壁的取景框",
       "date": "2026-05-14T12:00:00+08:00",
-      "description": "",
+      "description": "限时活动剧情：火垂",
       "outfit_references": [
         {
           "outfit_id": 214051,
@@ -454,7 +454,7 @@
       "id": "activity-20102",
       "name": "幽夜独舞孤影乱",
       "date": "2026-04-16T12:00:00+08:00",
-      "description": "",
+      "description": "限时活动剧情：乙叶",
       "outfit_references": [
         {
           "outfit_id": 214050,
@@ -496,7 +496,7 @@
       "id": "activity-10106",
       "name": "敬启，致珍重的你",
       "date": "2026-03-17T12:00:00+08:00",
-      "description": "",
+      "description": "限时活动剧情：多娜",
       "outfit_references": [
         {
           "outfit_id": 214047,
@@ -562,7 +562,7 @@
       "id": "activity-10105",
       "name": "冬夜镇魂曲与破晓扳机",
       "date": "2026-02-24T12:00:00+08:00",
-      "description": "",
+      "description": "限时活动剧情：风影",
       "outfit_references": [
         {
           "outfit_id": 214046,
@@ -610,7 +610,7 @@
       "id": "activity-10104",
       "name": "烟火绮丽寻春意",
       "date": "2026-02-03T12:00:00+08:00",
-      "description": "",
+      "description": "限时活动剧情：科洛妮丝（新春）",
       "outfit_references": [
         {
           "outfit_id": 214042,
@@ -664,7 +664,7 @@
       "id": "activity-10103",
       "name": "微火的奇迹",
       "date": "2026-01-13T12:00:00+08:00",
-      "description": "",
+      "description": "主线更新剧情：翡冷翠",
       "outfit_references": [
         {
           "outfit_id": 214043,
@@ -688,6 +688,12 @@
         }
       ],
       "tracks": [
+        {
+          "id": "audio-6a206cff7aafc356a31db95d420dece9bf13bb9f819e8cc11ded69c1c6bdefa7",
+          "name": "微火的奇迹",
+          "file": "/audio/audio-6a206cff7aafc356a31db95d420dece9bf13bb9f819e8cc11ded69c1c6bdefa7.opus",
+          "description": ""
+        },
         {
           "id": "audio-aedbbd5da460dd8fc75807c498adbfb7a301aca8131a63b9331e6248eea7ae8f",
           "name": "迷雾与利爪",
@@ -717,12 +723,6 @@
           "name": "第六章 · 未知的明天",
           "file": "/audio/audio-283045663b3d79a9fc124ceb350bd04e7489988d86cdf2a968721142f5e59df1.opus",
           "description": ""
-        },
-        {
-          "id": "audio-6a206cff7aafc356a31db95d420dece9bf13bb9f819e8cc11ded69c1c6bdefa7",
-          "name": "主线第六章 · 界面配乐",
-          "file": "/audio/audio-6a206cff7aafc356a31db95d420dece9bf13bb9f819e8cc11ded69c1c6bdefa7.opus",
-          "description": ""
         }
       ]
     },
@@ -730,7 +730,7 @@
       "id": "activity-20101",
       "name": "闪耀的使者与圣夜的精灵",
       "date": "2025-12-23T12:00:00+08:00",
-      "description": "",
+      "description": "限时活动剧情：菈露（圣夜）",
       "outfit_references": [
         {
           "outfit_id": 214048,
@@ -776,14 +776,14 @@
     },
     {
       "id": "mainline-5",
-      "name": "主线 · 落于暗夜的荧光",
+      "name": "落于暗夜的荧光",
       "date": "",
       "description": "",
       "outfit_references": [],
       "tracks": [
         {
           "id": "audio-72a6256ff722117b92bb1795b24ecaa5f352cce87ea8c95c4864bce8f6c2a154",
-          "name": "主线第五章-探索",
+          "name": "落于暗夜的荧光",
           "file": "/audio/audio-72a6256ff722117b92bb1795b24ecaa5f352cce87ea8c95c4864bce8f6c2a154.opus",
           "description": ""
         }
@@ -793,7 +793,7 @@
       "id": "activity-10102",
       "name": "梦的彼岸",
       "date": "2025-12-09T12:00:00+08:00",
-      "description": "",
+      "description": "主线更新剧情：夏花",
       "outfit_references": [
         {
           "outfit_id": 214024,
@@ -1037,7 +1037,7 @@
       "id": "activity-10101",
       "name": "我们的旅团",
       "date": "2025-11-18T12:00:00+08:00",
-      "description": "",
+      "description": "主线更新剧情：冬香",
       "outfit_references": [
         {
           "outfit_id": 214040,
@@ -1136,7 +1136,7 @@
       "id": "activity-10100",
       "name": "惊奇冒险！渊海幽灵船传说！",
       "date": "2025-10-28T12:00:00+08:00",
-      "description": "",
+      "description": "限时活动剧情：希娅",
       "outfit_references": [
         {
           "outfit_id": 214039,

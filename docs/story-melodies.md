@@ -130,3 +130,17 @@ python scripts/permanent_library.py --apply
 ```
 
 这里的分类不会把内容不同的游戏片段仅因同名就强行合并。完整发行版替换需要可用于本站的完整音频；QQ 音乐下载缓存保留作比对，不作为网页发布资源。游戏原始素材与发行录音存在版本差异时，应保留来源和区别。
+
+## 活动同期角色说明
+
+活动的 `description` 使用“限时活动剧情：角色”或“主线更新剧情：角色”。`scripts/describe_activity_releases.py` 将 `Gacha.ATypeUpPkg` 经 `GachaPkg.GoodsId` 关联角色，取镜像数据中该角色最早的 UP 招募时间，再与 `ActivityGroup.StartTime` 精确匹配；主线或活动剧情由 `ActivityGroup.DesText` 判断。已有人工说明优先保留，不会用生成值覆盖。
+
+```powershell
+python scripts/describe_activity_releases.py --tables .build/analysis/data/upstream/tables/CN
+# 审阅 .build/activity-descriptions/ 中的预览，并通知编辑者后才应用：
+python scripts/describe_activity_releases.py --tables .build/analysis/data/upstream/tables/CN --apply
+```
+
+`references/activity-character-releases.json` 保留角色编号、卡池编号、日期和游戏说明等依据。首次 UP 时间是现有配置的证据范围；存在更早未收录卡池时需人工核实。补充说明不会修改曲目、素材路径或日期。
+
+页面根据分组 ID 前缀显示“活动 / 故事 / 主线 / 模式”标签；`activity-` 分组的说明以“主线更新剧情”开头时显示“主线”。这项显示规则保留原有 ID、引用关系和播放链接。

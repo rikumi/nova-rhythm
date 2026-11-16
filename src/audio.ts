@@ -1,8 +1,9 @@
 import type { Music } from './types';
+import { PLAYBACK_MODES, type PlaybackMode } from './playbackMode';
 
 export interface Playback {
   trackId: string; playing: boolean; loading: boolean; error: string;
-  position: number; duration: number; volume: number; loop: boolean; peaks: number[];
+  position: number; duration: number; volume: number; loop: boolean; mode: PlaybackMode; peaks: number[];
 }
 
 /** Uses the original sample loop boundaries; the intro is played only once. */
@@ -18,19 +19,22 @@ class Player {
   private generation = 0;
   private abort?: AbortController;
   private listeners = new Set<() => void>();
+  private endedListeners = new Set<(trackId: string) => void>();
   private cache = new Map<string, AudioBuffer>();
   private sounds = new Map<string, Promise<AudioBuffer>>();
   private lastSound = 0;
   private value: Playback = {
     trackId: '', playing: false, loading: false, error: '', position: 0,
-    duration: 0, volume: .65, loop: true, peaks: [],
+    duration: 0, volume: .65, loop: true, mode: 'single', peaks: [],
   };
 
   constructor() {
+    try { const mode = localStorage.getItem('nova-playback-mode') as PlaybackMode; if (PLAYBACK_MODES.includes(mode)) { this.value.mode = mode; this.value.loop = mode === 'single'; } } catch { /* optional */ }
     try { const v = Number(localStorage.getItem('nova-volume')); if (localStorage.getItem('nova-volume') !== null && Number.isFinite(v)) this.value.volume = Math.max(0, Math.min(1, v)); } catch { /* storage is optional */ }
     setInterval(() => { if (this.value.playing) this.update({ position: this.position() }); }, 100);
   }
   subscribe = (listener: () => void) => { this.listeners.add(listener); return () => { this.listeners.delete(listener); }; };
+  subscribeEnded = (listener: (trackId: string) => void) => { this.endedListeners.add(listener); return () => { this.endedListeners.delete(listener); }; };
   snapshot = () => this.value;
   private update(patch: Partial<Playback>) {
     this.value = { ...this.value, ...patch };
@@ -144,6 +148,7 @@ class Player {
       if (this.source === source && !source.loop) {
         this.offset = 0; this.source = undefined;
         this.update({ playing: false, position: 0 });
+        if (this.value.mode === 'sequence' || this.value.mode === 'shuffle') this.endedListeners.forEach(listener => listener(this.value.trackId));
       }
       source.disconnect(); gain.disconnect();
     };
@@ -172,8 +177,16 @@ class Player {
     try { localStorage.setItem('nova-volume', String(volume)); } catch { /* optional */ }
   }
   toggleLoop() {
-    const loop = !this.value.loop; if (this.source) this.source.loop = loop;
-    this.update({ loop });
+    this.setMode(this.value.loop ? 'once' : 'single');
+  }
+  setMode(mode: PlaybackMode) {
+    // Capture the wrapped sample position before changing native loop behavior.
+    const position = this.value.playing ? this.position() : this.offset;
+    const playing = this.value.playing;
+    this.offset = position;
+    this.update({ mode, loop: mode === 'single' });
+    if (playing) this.start();
+    try { localStorage.setItem('nova-playback-mode', mode); } catch { /* optional */ }
   }
   async sound(name: string) {
     if (performance.now() - this.lastSound < 60) return;
