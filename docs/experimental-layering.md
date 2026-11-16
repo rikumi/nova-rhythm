@@ -48,7 +48,7 @@ http://127.0.0.1:5174/?disc=214016&experimental_layering=1#/outfit
 
 Refresh the page after another image completes. The AI layering toggle appears only for single-image outfits, between phonograph mode and the gravity control. It defaults to off and persists its state locally. `experimental_layering=1` also enables it; `experimental_layering=0` disables it explicitly. Disabling the toggle restores the original artwork. Native multilayer outfits are never replaced.
 
-All multilayer cards use the same depth span: 90% of the original native cards' average projected depth span. Relative spacing within each card is preserved. The native catalog remains the baseline even when AI layering is enabled.
+Each card retains its own original depth values and projection; no cross-card depth normalization is applied. The arrival stagger is anchored to the first animation start, with the last layer scheduled 200ms later when assets are ready. Slow-loading layers still wait for the preceding layers in Z order.
 
 Review decisions are recorded in `references/experimental-layering-reviews.json`, pinned to layer hashes. A regenerated image needs a new review. An optional `layer_order` in the plan changes only drawing order; `layer_order_hashes` prevents applying a reviewed reorder to different generated images.
 
@@ -69,3 +69,11 @@ The publisher expects the frontend support and these scripts to have already bee
 ## Rejected depth-slice trial
 
 Apple SHARP was tested locally on three samples. Inference took about 1.7–2.0 seconds per image and projected Gaussian depth bands took about 6–11 seconds to export. The static reconstruction was close, but depth bands split continuous people, clothing and props. It was rejected for this feature. Its local outputs are preserved separately under `.build/sharp-layering`; no SHARP layers are published by this pipeline.
+
+## Reviewed publication and corrections
+
+`references/experimental-layering-corrections.json` records requested grouping and occlusion corrections. `apply_corrections.py` transfers existing RGBA pixels without inference, retains backups, and checks that the composite changes by at most rounding error. Unreviewed corrected results stay local.
+
+An explicit reviewed-only publication can bypass the general publication hold: `python scripts/layering/publish_layers.py --approved-only`. It filters accepted entries against their exact saved layer hashes and uses a separate reviewed release tag. General automatic publication remains disabled.
+
+The runtime setup installs a streaming CPU safetensors reader when `--disable-mmap` is active. Ordinary tensor reads avoid the native mapped-reader fault observed on repeated Windows encoder loads. FP8 and BF16 tensor bytes are preserved and model weights are not modified.

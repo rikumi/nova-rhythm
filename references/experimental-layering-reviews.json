@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "items": {
     "4003": {
-      "status": "accepted",
+      "status": "revision_requested",
       "name": "你与我相似",
       "source_sha256": "0bd54513aae0f0cfc118c4047306d9b1d7adbfbb12655e4b6c0fdd794d203bc7",
       "layer_hashes": {
@@ -13,7 +13,9 @@
         "layer-04.png": "378bfba418f6ccfa54dac8f7400e4746682afed5fa1e7c477938b82d64daff4b"
       },
       "reviewed_at": "2026-11-16T22:32:47.962356+00:00",
-      "reviewed_by": "user"
+      "reviewed_by": "user",
+      "previous_status": "accepted",
+      "reason": "左上角飘带和呆毛与左侧人物合并，不重新生成。"
     },
     "4047": {
       "status": "revision_requested",
@@ -30,10 +32,10 @@
       "reviewed_by": "user",
       "previous_status": "accepted",
       "seed": 20261122,
-      "reason": "Separate floating papers, left person, right person, central table, upper person and background; each person occurs in one layer only."
+      "reason": "上下纸片、左侧人物、右侧人物、中间桌子、上方人物、背景独立分层；人物不得重复。"
     },
     "4008": {
-      "status": "accepted",
+      "status": "revision_requested",
       "name": "飞越青空",
       "source_sha256": "76d9892f8a488c9262edf4666aa7bab1964b4b3fa7321c7267f2956412758323",
       "layer_hashes": {
@@ -44,7 +46,10 @@
         "layer-04.png": "4b9ede8cba068ed7f31cd5eb49425eb241b1801d7fab0eabb7682843aa3a168e"
       },
       "reviewed_at": "2026-11-16T22:32:47.963262+00:00",
-      "reviewed_by": "user"
+      "reviewed_by": "user",
+      "previous_status": "accepted",
+      "reason": "左上彩色过山车及其中人物、下方过山车阴影与其余过山车合为一层。",
+      "seed": 20261126
     },
     "4007": {
       "status": "revision_requested",
@@ -60,10 +65,10 @@
       "reviewed_by": "user",
       "previous_status": "accepted",
       "seed": 20261121,
-      "reason": "Keep the upper hair and lower-right legs in the same complete layer as the character."
+      "reason": "上方头发、右下腿部与完整人物同层。"
     },
     "4046": {
-      "status": "accepted",
+      "status": "revision_requested",
       "name": "冬夜后的黎明",
       "source_sha256": "a3315c9442ef5802006be1200c937b42a18ab1822d98790f305c2bf058f60ce5",
       "layer_hashes": {
@@ -73,7 +78,9 @@
         "layer-03.png": "f4a43cdb8df228487e117aac9d20cf8a0afb4ac9a2be2c90a8d0636a83f2a9b9"
       },
       "reviewed_at": "2026-11-16T22:32:47.964076+00:00",
-      "reviewed_by": "user"
+      "reviewed_by": "user",
+      "previous_status": "accepted",
+      "reason": "人物层的玻璃杯及右侧标靶归入背景栏杆层。"
     },
     "4016": {
       "status": "revision_requested",
@@ -89,7 +96,7 @@
       "reviewed_by": "user",
       "previous_status": "accepted",
       "seed": 20261120,
-      "reason": "Keep the character, ribbons on both sides, and bottom ground together in one foreground layer."
+      "reason": "人物、两侧飘带、底部地面同层。"
     },
     "4027": {
       "status": "accepted",
@@ -101,7 +108,7 @@
         "layer-02.png": "14aa6295ed6983f4c22791d8b465be3d2fd6d4ed197b0044b1f5bd85b8ba3ea6",
         "layer-03.png": "26e78e7643821b1c7acdb11db158dd726647a984e3877121a0faaed74380f166"
       },
-      "reviewed_at": "2026-11-16T22:32:47.964784+00:00",
+      "reviewed_at": "2026-11-16T23:26:49.751887+00:00",
       "reviewed_by": "user"
     },
     "4044": {
@@ -117,11 +124,11 @@
       "reviewed_at": "2026-11-16T22:32:47.965169+00:00",
       "reviewed_by": "user",
       "previous_status": "accepted",
-      "reason": "Seed 20261118 left a headless duplicate on the curtain layer and split the bed from the person. Retry as room, clean curtains, complete woman with bed.",
+      "reason": "人物、发带、听诊器、衣物右侧带子同层，与背后纱帘分离；不得残留重复人物。",
       "seed": 20261124
     },
     "4042": {
-      "status": "accepted",
+      "status": "revision_requested",
       "name": "酒暖灯明时",
       "source_sha256": "cf47b0d1384f413322c4fd7a1784f192ce66c0f0fdd0b07c1f2d1ce884f152d1",
       "layer_hashes": {
@@ -131,10 +138,13 @@
         "layer-03.png": "0118bd659fe74b95ff7bb55cc85e15034b2e9b31adbcf87db4bc08c879a2abfc"
       },
       "reviewed_at": "2026-11-16T22:32:47.965552+00:00",
-      "reviewed_by": "user"
+      "reviewed_by": "user",
+      "previous_status": "accepted",
+      "reason": "左下角栏杆后的椅子与人物同层。",
+      "seed": 20261127
     },
     "4006": {
-      "status": "accepted",
+      "status": "revision_requested",
       "name": "魔女的秋千",
       "source_sha256": "635fbcfd2a4e2d011972e2a4339918144a969d9d6732c550768a7dca7f82e549",
       "layer_hashes": {
@@ -145,7 +155,9 @@
         "layer-04.png": "838e3f74c4efc11e23b8e72998ef17fb2f073d968cabc6385905fcf8ccea6e39"
       },
       "reviewed_at": "2026-11-16T22:32:47.965926+00:00",
-      "reviewed_by": "user"
+      "reviewed_by": "user",
+      "previous_status": "accepted",
+      "reason": "右侧魔法帽与人物同层。"
     },
     "4043": {
       "status": "accepted",
@@ -157,11 +169,11 @@
         "layer-02.png": "b80e338bcfafb5f4e6bfe6bca5806f935e25515d6ab198944b9078f311660510",
         "layer-03.png": "230f7105d4650925db42ec6995909fd9813c59f61b7f497462ed47383c9231c6"
       },
-      "reviewed_at": "2026-11-16T22:32:47.966324+00:00",
+      "reviewed_at": "2026-11-16T23:26:49.752249+00:00",
       "reviewed_by": "user"
     },
     "4005": {
-      "status": "accepted",
+      "status": "revision_requested",
       "name": "晴之花",
       "source_sha256": "2ceeaec86503531a47c0afd1ae1b920919cdb6d219b35588b4a33b01a162bbdb",
       "layer_hashes": {
@@ -170,11 +182,13 @@
         "layer-02.png": "ccbad9a60a285c6af350b12f49eec10f43b6aad2cd395fca4777a17d7d5b751b",
         "layer-03.png": "818f00390c4941cc1a76e3adc70b4b5efa2e277ad68d1fa3b1181c3b55ecaf6e"
       },
-      "reviewed_at": "2026-11-16T22:32:47.966736+00:00",
-      "reviewed_by": "user"
+      "reviewed_at": "2026-11-16T23:26:49.752614+00:00",
+      "reviewed_by": "user",
+      "previous_status": "accepted",
+      "reason": "Keep the umbrella hooked handle and black pendant beneath it in the same layer as the umbrella."
     },
     "4048": {
-      "status": "accepted",
+      "status": "revision_requested",
       "name": "雪夜惊喜",
       "source_sha256": "c7f10690ada7ed5918694e28ac6bd078e21fd2d58dc88d9fbc9dce07c29944c2",
       "layer_hashes": {
@@ -186,10 +200,12 @@
         "layer-05.png": "7b9e736eabbdc513e1db04f5bfe09029fc6be63390492f4645587b80a00bb681"
       },
       "reviewed_at": "2026-11-16T22:32:47.967189+00:00",
-      "reviewed_by": "user"
+      "reviewed_by": "user",
+      "previous_status": "accepted",
+      "reason": "双手与人物同层。"
     },
     "4024": {
-      "status": "accepted",
+      "status": "revision_requested",
       "name": "一二三，跳！",
       "source_sha256": "d72629ebb5fd95f746d35eb59e9680144ee24ca999f2d3af56b9a36ae2bcdc78",
       "layer_hashes": {
@@ -200,7 +216,10 @@
         "layer-04.png": "f2c9a1d20617949ecb0ad591de31ef8af656bb88e9b55e4a437c521ac82cc4e6"
       },
       "reviewed_at": "2026-11-16T22:32:47.967980+00:00",
-      "reviewed_by": "user"
+      "reviewed_by": "user",
+      "previous_status": "accepted",
+      "reason": "右侧人物佩剑、绳索与该人物同层；中间远处人物在建筑后，左侧人物在左侧高台后。",
+      "seed": 20261129
     },
     "4015": {
       "status": "revision_requested",
@@ -217,10 +236,10 @@
       "note": "Move both deer layers above the people without changing image pixels.",
       "previous_status": "accepted",
       "seed": 20261123,
-      "reason": "Reordering broke the composite. Regenerate complete foreground deer in front of the seated person, preserving correct original occlusion."
+      "reason": "重新生成，鹿完整处于人物上方，合成遮挡关系正确。"
     },
     "4040": {
-      "status": "accepted",
+      "status": "revision_requested",
       "name": "勇气之拳",
       "source_sha256": "16bbd05f04c57800c3aefabc32f0c22d51c58862cce5ec7bea83b28eb2194fdb",
       "layer_hashes": {
@@ -229,11 +248,13 @@
         "layer-02.png": "9e462fb55963ef5db8e1a5d35ae3448db76c0d0dbe2af1126e92b8cf7bbff813",
         "layer-03.png": "2e36197a31e1155c986e3c297e9739df4405eddb7277d9d3932ff6a8dcb59284"
       },
-      "reviewed_at": "2026-11-16T22:32:47.968746+00:00",
-      "reviewed_by": "user"
+      "reviewed_at": "2026-11-16T23:26:49.752994+00:00",
+      "reviewed_by": "user",
+      "previous_status": "accepted",
+      "reason": "Keep the orange leg at the lower left in the same layer as the complete person."
     },
     "4017": {
-      "status": "accepted",
+      "status": "revision_requested",
       "name": "花火",
       "source_sha256": "af4e670ae8e8a7e14f5f0a3dda76c76c0ab457188f55174abf7f5c17d72c0b54",
       "layer_hashes": {
@@ -243,13 +264,16 @@
         "layer-03.png": "f35a1aa55ef5be0d97049e22150c6a549b79701bf31c3f239a8a19c26dab5ab8"
       },
       "reviewed_at": "2026-11-16T22:32:47.969187+00:00",
-      "reviewed_by": "user"
+      "reviewed_by": "user",
+      "previous_status": "accepted",
+      "reason": "左侧黄色花火与人物同层，右侧彩片从背景去除。",
+      "seed": 20261128
     },
     "4004": {
       "status": "revision_requested",
       "name": "仙踪良梦",
-      "reason": "Seed 20261117 severed the lower-right character at the neck. Regenerate with complete connected heads and bodies, keeping the three people together.",
-      "seed": 20261119
+      "reason": "三个人物尽量同层，与背景分离，头部与身体连续且不得重复。",
+      "seed": 20261125
     }
   }
 }

@@ -15,7 +15,8 @@
       "name": "你与我相似",
       "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4003.png",
       "layers": 5,
-      "caption": "An anime action illustration with several fantasy adventurers, long flowing hair, weapons, lightning and a dark blue sky. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+      "caption": "An anime action illustration with several fantasy adventurers, long flowing hair, weapons, lightning and a dark blue sky. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes.",
+      "minimum_layers": 2
     },
     {
       "code": "4047",
@@ -33,8 +34,11 @@
       "outfit_id": 214008,
       "name": "飞越青空",
       "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4008.png",
-      "layers": 5,
-      "caption": "A bright colorful anime illustration of girls in a blue sky, with multicolored balloons, clouds, a flying vehicle and distant scenery. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+      "layers": 4,
+      "caption": "The entire colorful roller coaster train is ONE continuous object in ONE layer, including its upper-left colorful car and seated riders, the whole looping train around the right, and the shaded lower part of the train. The main orange-haired girl hanging among balloons is a separate complete foreground person; the balloons are a separate group; the Ferris wheel and blue sky form the clean background.",
+      "minimum_layers": 2,
+      "seed": 20261126,
+      "priority": 92
     },
     {
       "code": "4007",
@@ -53,7 +57,8 @@
       "name": "冬夜后的黎明",
       "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4046.png",
       "layers": 4,
-      "caption": "An anime illustration of a silver-haired girl in a softly lit wintry room, with warm furnishings, drinks and snowy light outside. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+      "caption": "An anime illustration of a silver-haired girl in a softly lit wintry room, with warm furnishings, drinks and snowy light outside. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes.",
+      "minimum_layers": 2
     },
     {
       "code": "4016",
@@ -80,7 +85,7 @@
       "name": "罗帷春染岁朝新",
       "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4044.png",
       "layers": 3,
-      "caption": "An anime illustration in a warm peach-lit traditional bedroom. One orange-haired woman in a pale qipao sits on a large bed in the foreground, holding a slender object near her face. The entire woman and the bottom bed, its blankets, railings and nearby foreground props form one connected foreground group. Behind the woman and bed are large peach translucent silk curtains with branch shadows. The back room, wooden ceiling and walls are a separate distant background. Decompose the image into three coherent groups: the clean room background; the rear silk curtains; the complete woman together with the entire bottom bed. The woman and bed must share the same foreground layer, distinct from the curtains. The curtain layer and room background contain no woman, no headless body, no leftover face, no duplicate hair or ghost character silhouette. Keep the complete head, neck, torso, arms and legs physically connected in the foreground layer, preserving the original composition.",
+      "caption": "An anime illustration in a warm peach-lit traditional bedroom. One orange-haired woman in a pale qipao sits on a large bed in the foreground, holding a slender object near her face. The entire woman and the bottom bed, its blankets, railings and nearby foreground props form one connected foreground group. Behind the woman and bed are large peach translucent silk curtains with branch shadows. The back room, wooden ceiling and walls are a separate distant background. Decompose the image into three coherent groups: the clean room background; the rear silk curtains; the complete woman together with the entire bottom bed. The woman and bed must share the same foreground layer, distinct from the curtains. The curtain layer and room background contain no woman, no headless body, no leftover face, no duplicate hair or ghost character silhouette. Keep the complete head, neck, torso, arms and legs physically connected in the foreground layer, preserving the original composition. The woman, her hair ribbons, the stethoscope around her neck, and the long tie hanging from the right side of her clothing are all attached parts of the same foreground person. Keep all these accessories in the same layer as her body and bed.",
       "seed": 20261124,
       "priority": 93,
       "minimum_layers": 2
@@ -90,8 +95,11 @@
       "outfit_id": 214042,
       "name": "酒暖灯明时",
       "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4042.png",
-      "layers": 4,
-      "caption": "An anime illustration of people in a warmly lit theatrical interior, with red curtains, a balcony railing and golden lantern light. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+      "layers": 3,
+      "caption": "The orange-haired woman in a pale qipao and the wooden chair at the lower left behind the foreground railing belong together in ONE layer. Keep that complete chair, including its back, seat and legs, with the complete woman. The warm bright indoor hall, lanterns and distant guests are separate background scenery. Preserve the original foreground railing and all correct occlusions.",
+      "minimum_layers": 2,
+      "seed": 20261127,
+      "priority": 90
     },
     {
       "code": "4006",
@@ -99,7 +107,8 @@
       "name": "魔女的秋千",
       "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4006.png",
       "layers": 5,
-      "caption": "An anime illustration of several fantasy girls performing music in a purple-lit magical room, with large musical instruments and dramatic effects. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+      "caption": "An anime illustration of several fantasy girls performing music in a purple-lit magical room, with large musical instruments and dramatic effects. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes.",
+      "minimum_layers": 2
     },
     {
       "code": "4043",
@@ -114,9 +123,9 @@
       "outfit_id": 214004,
       "name": "仙踪良梦",
       "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4004.png",
-      "layers": 3,
-      "caption": "An anime illustration showing three complete girls resting together as a single connected foreground group in a garden. The whole group is one continuous foreground object: a silver-haired woman in black sits in the center; a dark blue-haired girl sleeps against her lap at the left; a blonde girl reclines across the lower right, with her entire head, face, neck, hair, torso and legs physically connected in the same foreground group. All three heads and bodies remain intact and attached, with no cut through the blonde girl's neck or face. The blonde girl's head is at the center-right where she leans against the seated woman. The garden grass and shaded foliage behind them form a separate background without duplicate people. Purple wisteria hangs at the upper left. A tea table with cups and cakes stands at the lower left, and a wicker flower basket is at the right. Preserve the full original image composition and all original character details. Separate the complete group of three girls from the garden background, rather than separating body parts.",
-      "seed": 20261119,
+      "layers": 2,
+      "caption": "The three girls form ONE connected group on the grass: the silver-haired seated woman in black, the dark blue-haired girl at her lap, and the reclining blonde girl at lower right. All three complete people must appear together exactly once in the same foreground layer. The separate clean garden background has no people or body remnants.",
+      "seed": 20261125,
       "priority": 110,
       "minimum_layers": 2
     },
@@ -125,8 +134,11 @@
       "outfit_id": 214005,
       "name": "晴之花",
       "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4005.png",
-      "layers": 4,
-      "caption": "A luminous blue anime illustration of a girl in a flowing dress surrounded by water, light, flowers and fantasy scenery. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+      "layers": 3,
+      "caption": "A luminous blue anime illustration of a girl in a flowing dress surrounded by water, light, flowers and fantasy scenery. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes. The complete umbrella belongs in ONE coherent layer, including its canopy, shaft, curved hooked handle, and the black hanging pendant below it. Keep the curved umbrella handle and the black pendant connected to the rest of the umbrella in the same layer, separate from the intact person and from the clean background. No umbrella accessories remain duplicated in the background.",
+      "seed": 20261131,
+      "minimum_layers": 2,
+      "priority": 87
     },
     {
       "code": "4048",
@@ -134,7 +146,8 @@
       "name": "雪夜惊喜",
       "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4048.png",
       "layers": 6,
-      "caption": "A cheerful anime illustration of several small girls celebrating together in a warmly lit decorated room, surrounded by seasonal ornaments and gifts. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+      "caption": "A cheerful anime illustration of several small girls celebrating together in a warmly lit decorated room, surrounded by seasonal ornaments and gifts. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes.",
+      "minimum_layers": 2
     },
     {
       "code": "4024",
@@ -142,7 +155,10 @@
       "name": "一二三，跳！",
       "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4024.png",
       "layers": 5,
-      "caption": "An anime illustration of several girls resting in a green forest, with tree trunks, leafy plants and sunlight filtering through the canopy. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+      "caption": "Preserve the correct depth of three distinct characters climbing across ruined stone towers. The complete blonde-haired character on the right shares ONE layer with her sword at her side and all her attached ropes. The tiny distant character in the middle is BEHIND the central architecture. The character at the left is BEHIND the tall stone platform at the left. The left platform must cover the left person where their shapes overlap. Keep every person intact, with connected heads, bodies and limbs, and no duplicates in the architecture background.",
+      "minimum_layers": 2,
+      "seed": 20261129,
+      "priority": 91
     },
     {
       "code": "4015",
@@ -160,16 +176,22 @@
       "outfit_id": 214040,
       "name": "勇气之拳",
       "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4040.png",
-      "layers": 4,
-      "caption": "A dynamic anime illustration of a white-haired girl in a large mechanical outfit, with bright sunlight, equipment and motion effects. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+      "layers": 3,
+      "caption": "An anime action illustration of a white-haired girl in a blue jacket and orange shorts punching toward the viewer with a dark fist guard. Her face, hair, jacket, arms, shorts, both legs and the orange leg extending toward the lower left form ONE complete foreground character. Keep the entire lower-left orange leg attached to her body in the same layer. A large opponent in dark clothing occupies the right foreground as a separate intact group. Orange fire rings, blurred mountains and bright impact effects form the clean background, without detached orange legs or duplicate pieces of the girl. Preserve the original poses and composition.",
+      "seed": 20261130,
+      "minimum_layers": 2,
+      "priority": 88
     },
     {
       "code": "4017",
       "outfit_id": 214017,
       "name": "花火",
       "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4017.png",
-      "layers": 4,
-      "caption": "An anime illustration of a blonde girl at a summer festival at night, with colorful fireworks and festival decorations. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+      "layers": 3,
+      "caption": "The white-haired girl in a kimono and the yellow firework sparkler glowing to her left belong together in ONE continuous foreground group. Keep her complete body, hair, clothing, hands and the glowing left firework in the same layer. All floating yellow and colored paper confetti at the right is absent from the clean night-sky background; put those paper pieces into their own separate foreground layer, with no duplicate confetti remaining in the background. The clean background is a starry blue night with distant buildings and a golden field.",
+      "minimum_layers": 2,
+      "seed": 20261128,
+      "priority": 89
     },
     {
       "code": "4039",

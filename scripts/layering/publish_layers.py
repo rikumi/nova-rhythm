@@ -9,10 +9,22 @@ from pathlib import Path
 
 from run_batch import ROOT,card_for_result,digest,write,read,review_for_result
 
-def publish(batch):
+def approved_batch(batch,reviews):
+    from types import SimpleNamespace
+    approved={code:result for code,result in batch.completed.items()
+              if review_for_result(result,reviews.get(code)).get('status')=='accepted'}
+    if not approved:raise RuntimeError('No hash-matched accepted outfits to publish')
+    return SimpleNamespace(batch=batch.batch,runtime=batch.runtime,completed=approved,
+        plan={**batch.plan,'items':[item for item in batch.plan['items'] if item['code'] in approved]})
+
+
+def publish(batch, approved_only=False):
+    if approved_only:
+        review_path=ROOT/'references/experimental-layering-reviews.json'
+        batch=approved_batch(batch,read(review_path).get('items',{}))
     hold=batch.batch/'publication-hold.json'
     publication=getattr(batch,'plan',{}).get('publication',{})
-    if hold.exists() or publication.get('enabled') is False:
+    if not approved_only and (hold.exists() or publication.get('enabled') is False):
         reason=read(hold).get('reason','Awaiting review') if hold.exists() else publication.get('reason','Awaiting review')
         write(batch.batch/'publication.json',{'state':'held','reason':reason})
         print('Publication held: no release upload, push or deployment will run.',flush=True)
@@ -25,8 +37,8 @@ def publish(batch):
     gh=shutil.which('gh') or str(ROOT/'tools/github-cli/portable/bin/gh.exe')
     repository='rikumi/nova-rhythm'
     date=datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=8))).strftime('%Y%m%d')
-    tag='experimental-layering-qwen-'+date
-    output=batch.batch/'release-assets';output.mkdir(exist_ok=True)
+    tag='experimental-layering-qwen-'+('reviewed-' if approved_only else '')+date
+    output=batch.batch/('reviewed-release-assets' if approved_only else 'release-assets');output.mkdir(exist_ok=True)
     def cli(*arguments,check=True):
         result=subprocess.run([gh,*map(str,arguments)],cwd=ROOT,text=True,encoding='utf8',capture_output=True)
         if check and result.returncode:raise RuntimeError(result.stderr)
@@ -58,13 +70,13 @@ def publish(batch):
     write(output/'generation-results.json',{'schemaVersion':1,'settings':batch.plan,'results':details})
     for name in ['experimental-layering.json','generation-results.json']:
         file=output/name;assets.append({'path':str(file),'name':name,'sha256':digest(file),'size':file.stat().st_size})
-    write(batch.batch/'release-assets.json',assets)
+    write(batch.batch/('reviewed-release-assets.json' if approved_only else 'release-assets.json'),assets)
     notes=batch.batch/'release-notes.txt'
     notes.write_text('Qwen-Image-Layered semantic artwork decomposition experiment.\n\n'
         f'{len(cards)} static outfits, 2–10 nonempty RGBA layers per outfit (normally at least four). '
         'PNG outputs are encoded as lossless WebP and verified pixel-for-pixel. '
         'Original artwork is preserved in the artwork release.\n\n'
-        'The website enables these assets only with experimental_layering=1. '
+        'The website enables these assets with the persistent AI layering checkbox or experimental_layering=1. '
         'Generated layers may contain model artifacts; these are experimental assets, not original game layers.\n\n'
         'Model: https://github.com/QwenLM/Qwen-Image-Layered\n'
         'Game artwork copyright remains with its respective rights holders.\n',encoding='utf8')
@@ -80,13 +92,19 @@ def publish(batch):
             if attempt==3:raise RuntimeError(result.stderr)
             time.sleep(10*(attempt+1))
         print('Uploaded',min(start+15,len(assets)),'/',len(assets),'assets',flush=True)
-    release=json.loads(cli('api',f'repos/{repository}/releases/tags/{tag}').stdout)
+    # Tag lookup omits draft releases; list authenticated releases to find the draft ID.
+    release_pages=json.loads(cli('api',f'repos/{repository}/releases?per_page=100','--paginate','--slurp').stdout)
+    release=next(entry for page in release_pages for entry in page if entry['tag_name']==tag)
     pages=json.loads(cli('api',f'repos/{repository}/releases/{release["id"]}/assets?per_page=100','--paginate','--slurp').stdout)
     remote={asset['name']:asset for page in pages for asset in page}
     for asset in assets:
         stored=remote.get(asset['name'],{})
         if stored.get('size')!=asset['size'] or stored.get('digest')!='sha256:'+asset['sha256']:
             raise RuntimeError('Release asset verification failed: '+asset['name'])
+    if approved_only:
+        current_reviews=read(ROOT/'references/experimental-layering-reviews.json').get('items',{})
+        still_approved=approved_batch(batch,current_reviews)
+        if set(still_approved.completed)!=set(batch.completed):raise RuntimeError('Acceptance changed during upload; deployment withheld')
     cli('release','edit',tag,'--repo',repository,'--draft=false','--latest=false')
     # Only these generated files are committed, preserving concurrent CSS/JSON work.
     public=ROOT/'public/data/experimental-layering.json'
@@ -111,3 +129,21 @@ def publish(batch):
                 return
         time.sleep(15)
     raise RuntimeError('Pages deployment did not finish within one hour')
+
+
+if __name__=='__main__':
+    import argparse
+    from run_batch import Batch
+    parser=argparse.ArgumentParser()
+    parser.add_argument('--approved-only',action='store_true',required=True)
+    parser.add_argument('--runtime',default=str(ROOT/'.build/layering-trial'))
+    parser.add_argument('--plan',default=str(ROOT/'references/experimental-layering-plan.json'))
+    args=parser.parse_args();args.port=8189
+    batch=Batch(args)
+    reviews=read(ROOT/'references/experimental-layering-reviews.json').get('items',{})
+    for item in batch.plan['items']:
+        if reviews.get(item['code'],{}).get('status')!='accepted':continue
+        source=batch.runtime/item['code']/'original.png'
+        result=batch.valid_result(item,digest(source))
+        if result:batch.completed[item['code']]=result
+    publish(batch,approved_only=True)

@@ -1,0 +1,144 @@
+{
+  "schemaVersion": 1,
+  "items": {
+    "4003": {
+      "name": "你与我相似",
+      "action": "postprocess",
+      "instruction": "左上角飘带和呆毛与左侧人物合并，不重新生成。",
+      "operations": [
+        {
+          "source": "layer-03.png",
+          "target": "layer-02.png",
+          "rect": [
+            0,
+            0,
+            330,
+            205
+          ],
+          "placement": "above"
+        }
+      ]
+    },
+    "4047": {
+      "name": "信笺乘风而去",
+      "action": "regenerate",
+      "instruction": "上下纸片、左侧人物、右侧人物、中间桌子、上方人物、背景独立分层；人物不得重复。"
+    },
+    "4008": {
+      "name": "飞越青空",
+      "action": "regenerate",
+      "instruction": "左上彩色过山车及其中人物、下方过山车阴影与其余过山车合为一层。"
+    },
+    "4007": {
+      "name": "午夜，堕天使",
+      "action": "regenerate",
+      "instruction": "上方头发、右下腿部与完整人物同层。"
+    },
+    "4046": {
+      "name": "冬夜后的黎明",
+      "action": "postprocess",
+      "instruction": "人物层的玻璃杯及右侧标靶归入背景栏杆层。",
+      "operations": [
+        {
+          "source": "layer-03.png",
+          "target": "layer-00.png",
+          "rect": [
+            350,
+            312,
+            390,
+            362
+          ],
+          "placement": "above"
+        },
+        {
+          "source": "layer-02.png",
+          "target": "layer-00.png",
+          "placement": "above"
+        }
+      ]
+    },
+    "4016": {
+      "name": "春日纪事",
+      "action": "regenerate",
+      "instruction": "人物、两侧飘带、底部地面同层。"
+    },
+    "4027": {
+      "name": "龙飞凤舞",
+      "action": "accepted"
+    },
+    "4044": {
+      "name": "罗帷春染岁朝新",
+      "action": "regenerate",
+      "instruction": "人物、发带、听诊器、衣物右侧带子同层，与背后纱帘分离；不得残留重复人物。"
+    },
+    "4042": {
+      "name": "酒暖灯明时",
+      "action": "regenerate",
+      "instruction": "左下角栏杆后的椅子与人物同层。"
+    },
+    "4006": {
+      "name": "魔女的秋千",
+      "action": "postprocess",
+      "instruction": "右侧魔法帽与人物同层。",
+      "operations": [
+        {
+          "source": "layer-01.png",
+          "target": "layer-04.png",
+          "rect": [
+            350,
+            75,
+            490,
+            265
+          ],
+          "placement": "behind"
+        }
+      ]
+    },
+    "4043": {
+      "name": "革新的萌芽",
+      "action": "accepted"
+    },
+    "4004": {
+      "name": "仙踪良梦",
+      "action": "regenerate",
+      "instruction": "三个人物尽量同层，与背景分离，头部与身体连续且不得重复。"
+    },
+    "4005": {
+      "name": "晴之花",
+      "action": "regenerate",
+      "instruction": "伞的弯钩部分、伞下方黑色吊坠需与伞在同一图层。"
+    },
+    "4048": {
+      "name": "雪夜惊喜",
+      "action": "postprocess",
+      "instruction": "双手与人物同层。",
+      "operations": [
+        {
+          "source": "layer-04.png",
+          "target": "layer-03.png",
+          "placement": "above"
+        }
+      ]
+    },
+    "4024": {
+      "name": "一二三，跳！",
+      "action": "regenerate",
+      "instruction": "右侧人物佩剑、绳索与该人物同层；中间远处人物在建筑后，左侧人物在左侧高台后。"
+    },
+    "4015": {
+      "name": "鹿鸣",
+      "action": "regenerate",
+      "instruction": "重新生成，鹿完整处于人物上方，合成遮挡关系正确。"
+    },
+    "4040": {
+      "name": "勇气之拳",
+      "action": "regenerate",
+      "instruction": "左下角橙色腿部与人物同层。"
+    },
+    "4017": {
+      "name": "花火",
+      "action": "regenerate",
+      "instruction": "左侧黄色花火与人物同层，右侧彩片从背景去除。"
+    }
+  }
+}

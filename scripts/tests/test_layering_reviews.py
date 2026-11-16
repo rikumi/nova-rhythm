@@ -4,6 +4,8 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'layering'))
 from run_batch import apply_layer_order, review_for_result
+from publish_layers import approved_batch
+from types import SimpleNamespace
 
 
 class LayerReviewTests(unittest.TestCase):
@@ -28,6 +30,19 @@ class LayerReviewTests(unittest.TestCase):
         self.assertEqual(review_for_result({'layers': self.result['layers'][::-1]}, review)['status'], 'accepted')
         changed = {'layers': [*self.result['layers'][:-1], {'file': 'person', 'sha256': 'new'}]}
         self.assertEqual(review_for_result(changed, review)['status'], 'needs_review')
+
+    def test_reviewed_publication_excludes_revoked_and_changed_artwork(self):
+        hashes = {layer['file']: layer['sha256'] for layer in self.result['layers']}
+        batch = SimpleNamespace(batch=Path('.'), runtime=Path('.'),
+            completed={code: self.result for code in ['passed', 'revoked', 'changed']},
+            plan={'items': [{'code': code} for code in ['passed', 'revoked', 'changed']]})
+        reviews = {'passed': {'status': 'accepted', 'layer_hashes': hashes},
+                   'revoked': {'status': 'revision_requested', 'layer_hashes': hashes},
+                   'changed': {'status': 'accepted', 'layer_hashes': {'old': 'old-hash'}}}
+        selected = approved_batch(batch, reviews)
+        self.assertEqual(list(selected.completed), ['passed'])
+        self.assertEqual(selected.plan['items'], [{'code': 'passed'}])
+        self.assertEqual(len(batch.completed), 3)
 
 
 if __name__ == '__main__':

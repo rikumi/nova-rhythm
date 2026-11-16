@@ -83,13 +83,24 @@ class Batch:
         if self.log:self.log.close();self.log=None
 
     def start_server(self,phase):
+        # The native mapped reader can crash during repeated encoder loads on Windows.
+        # Keep the workaround reproducible and confined to the ignored local runtime.
+        shutil.copyfile(Path(__file__).with_name('safe_tensor_loader.py'),self.comfy/'nova_safe_tensor_loader.py')
+        utils=self.comfy/'comfy/utils.py'
+        source=utils.read_text(encoding='utf8')
+        marker='        # nova-rhythm: stream safetensors without native mmap\n'
+        if marker not in source:
+            needle='    if ckpt.lower().endswith(".safetensors") or ckpt.lower().endswith(".sft"):\n'
+            if needle not in source:raise RuntimeError('Unsupported ComfyUI safetensors loader; runtime patch not applied')
+            source=source.replace(needle,needle+marker+'        if DISABLE_MMAP and (device is None or device.type == "cpu"):\n            from nova_safe_tensor_loader import load_cpu_safetensors\n            return load_cpu_safetensors(ckpt, return_metadata)\n',1)
+            utils.write_text(source,encoding='utf8')
         self.stop_server();self.phase=phase;self.status()
         env={**os.environ,'PYTHONUTF8':'1','HF_HUB_OFFLINE':'1','TRANSFORMERS_OFFLINE':'1',
              'TORCH_HOME':str(self.runtime/'torch-cache'),'TORCHINDUCTOR_CACHE_DIR':str(self.runtime/'torchinductor-cache')}
         self.log=(self.batch/(phase+'.log')).open('ab')
         command=[str(self.python),'main.py','--listen','127.0.0.1','--port',str(self.args.port),
             '--disable-auto-launch','--reserve-vram','1.0','--disable-dynamic-vram',
-            '--disable-pinned-memory','--disable-cuda-malloc','--disable-async-offload','--offline','--disable-product-tips']
+            '--disable-pinned-memory','--disable-cuda-malloc','--disable-async-offload','--disable-mmap','--offline','--disable-product-tips']
         self.server=subprocess.Popen(command,cwd=self.comfy,env=env,stdout=self.log,stderr=self.log,
             creationflags=subprocess.CREATE_NO_WINDOW if os.name=='nt' else 0)
         write(self.batch/'server.json',{'pid':self.server.pid,'command':command,'phase':phase})
@@ -271,7 +282,13 @@ class Batch:
                 self.update_local()
                 if not remaining:break
                 remaining.sort(key=lambda item:-int(item.get('priority',0)))
-                self.encode_captions(remaining)
+                for caption_attempt in range(3):
+                    try:
+                        self.encode_captions(remaining);break
+                    except Exception:
+                        write(self.batch/f'caption-error-{caption_attempt}.json',{'traceback':traceback.format_exc()})
+                        self.stop_server()
+                        if caption_attempt==2:raise
                 if self.server is None or self.server.poll() is not None:self.start_server('sampling')
                 item=remaining[0];code=item['code'];self.current={'code':code,'name':item['name']};self.status()
                 folder=self.runtime/code

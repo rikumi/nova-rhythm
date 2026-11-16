@@ -13,7 +13,7 @@ import { musicTitleParts } from './musicTitle';
 import { ScrollingText } from './ScrollingText';
 import { OutlinedName } from './OutlinedName';
 import { loadOutfits, loadGeneratedCards } from './experimentalLayering';
-import { CARD_CONTENT_SCALE, backgroundLayer, normalizedDepths, normalizedDepthTarget } from './parallaxDepth';
+import { CARD_CONTENT_SCALE, backgroundLayer, cardDepths } from './parallaxDepth';
 import { applyInfinityTowerMixer } from './infinitytowerMixer';
 import { musicIdFromPath, musicPage, musicPath, musicUrl, outfitMusicPage, registerMusicPages, storyMusicPage, updateMusicPageMetadata } from './musicRoutes';
 import './style.css';
@@ -89,11 +89,11 @@ function SensorControl({ full = false }: { full?: boolean }) {
   </>;
 }
 
-function FullscreenArtwork({ outfit, close, depthSpan }: { outfit: Outfit; close: () => void; depthSpan: number }) {
+function FullscreenArtwork({ outfit, close }: { outfit: Outfit; close: () => void }) {
   const ref = useRef<HTMLDialogElement>(null);
   useEffect(() => { ref.current?.showModal(); }, []);
   return <dialog ref={ref} className="fullscreen-artwork" aria-label={`${outfit.name}全屏差分`} onCancel={e => { e.preventDefault(); close(); }}>
-    <Card outfit={outfit} full depthSpan={depthSpan} />
+    <Card outfit={outfit} full />
     <div className="fullscreen-artwork-actions"><SensorControl full /><a href={outfit.staticImage} download={`秘纹-${outfit.name}.png`} aria-label="保存秘纹静态图"><Download size={22} /></a><button aria-label="关闭全屏" onClick={close}><X size={25} /></button></div>
   </dialog>;
 }
@@ -108,36 +108,35 @@ function CardLayer({ src, style, background, index, visible, onReady, onReveal, 
     if(image.complete && image.naturalWidth)ready();
     return ()=>{mounted=false;image.removeEventListener('load',ready);};
   },[src,index,onReady]);
-  return <div className={`card-layer-stage ${visible ? 'is-loaded' : ''}`} onAnimationStart={event=>{if(event.target===event.currentTarget && event.animationName==='card-layer-arrive')onReveal(index);}}><img ref={ref} className={flat ? 'flat-cover' : 'card-layer'} data-background={background} src={src} alt="" style={style} draggable={false} /></div>;
+  return <div className={`card-layer-stage ${visible ? 'is-loaded' : ''}`} style={{zIndex:index}} onAnimationStart={event=>{if(event.target===event.currentTarget && event.animationName==='card-layer-arrive')onReveal(index);}}><img ref={ref} className={flat ? 'flat-cover' : 'card-layer'} data-background={background} src={src} alt="" style={style} draggable={false} /></div>;
 }
 
-function Card({ outfit, full = false, onExpand, depthSpan = 2.05 }: { outfit: Outfit; full?: boolean; onExpand?: () => void; depthSpan?: number }) {
+function Card({ outfit, full = false, onExpand }: { outfit: Outfit; full?: boolean; onExpand?: () => void }) {
   const ref = useRef<HTMLDivElement>(null);
   const lightRef = useRef<HTMLDivElement>(null);
   const target = useRef({ x: 0, y: 0, active: false });
   const dragPointer = useRef<number | null>(null);
   const reduced = useRef(false);
   const total = outfit.card.layers.length || 1;
-  const depths = useMemo(() => normalizedDepths(outfit.card, depthSpan), [outfit.card, depthSpan]);
+  const depths = useMemo(() => cardDepths(outfit.card), [outfit.card]);
   // The Unity camera faces positive Z: greater native Z is farther away.
   const revealOrder=useMemo(()=>outfit.card.layers.length
     ? outfit.card.layers.map((layer,index)=>({index,z:layer.native_z ?? 0})).sort((a,b)=>b.z-a.z || a.index-b.index).map(layer=>layer.index)
     : [0],[outfit]);
   const [readyLayers,setReadyLayers]=useState<Set<number>>(()=>new Set());
   const [visibleLayers,setVisibleLayers]=useState(0);
-  const [startedLayers,setStartedLayers]=useState(0);
-  const lastReveal=useRef(-Infinity);
+  const [firstReveal,setFirstReveal]=useState<number|null>(null);
   const layerReady=useCallback((index:number)=>setReadyLayers(previous=>new Set(previous).add(index)),[]);
-  // Wait for the actual animation start so hidden pages and delayed paints cannot batch arrivals.
-  const layerRevealed=(index:number)=>{lastReveal.current=performance.now();setStartedLayers(revealOrder.indexOf(index)+1);};
+  // Anchor every arrival to the first paint, keeping the entire stagger within 200 ms.
+  const layerRevealed=(index:number)=>{if(index===revealOrder[0])setFirstReveal(performance.now());};
   useEffect(()=>{
     const next=revealOrder[visibleLayers];
-    if(next===undefined || !readyLayers.has(next) || startedLayers<visibleLayers)return;
+    if(next===undefined || !readyLayers.has(next) || (visibleLayers>0 && firstReveal===null))return;
     const timer=window.setTimeout(()=>{
       setVisibleLayers(count=>count+1);
-    },Math.max(0,200/total-(performance.now()-lastReveal.current)));
+    },Math.max(0,(firstReveal ?? performance.now())+visibleLayers*200/Math.max(1,total-1)-performance.now()));
     return ()=>window.clearTimeout(timer);
-  },[readyLayers,visibleLayers,startedLayers,revealOrder,total]);
+  },[readyLayers,visibleLayers,firstReveal,revealOrder,total]);
   useEffect(() => {
     const preference = window.matchMedia('(prefers-reduced-motion: reduce)');
     const updatePreference = () => { reduced.current = preference.matches; };
@@ -200,11 +199,12 @@ function Card({ outfit, full = false, onExpand, depthSpan = 2.05 }: { outfit: Ou
     <div className={`card-frame rarity-${outfit.rarity}`}>
       <div className="card-backdrop-tint" aria-hidden="true" />
       <div className="card-glint" />
-      <div className="card-window" data-content-scale={CARD_CONTENT_SCALE} data-depth-span={depthSpan.toFixed(6)}>
-        {outfit.card.layers.length ? outfit.card.layers.map((layer, i) => {
+      <div className="card-window" data-content-scale={CARD_CONTENT_SCALE} data-depth-span={(depths.length ? Math.max(...depths)-Math.min(...depths) : 0).toFixed(6)}>
+        {outfit.card.layers.length ? revealOrder.map(i => {
+          const layer = outfit.card.layers[i];
           const background = backgroundLayer(layer, i);
           const fit = background ? 1 : CARD_CONTENT_SCALE;
-          const projectedZ = depths[i] * base / fit;
+          const projectedZ = (layer.native_z ?? 0) * (layer.projection_factor ?? 1);
           const style = outfit.card.layout === 'canvas' ? {
             left: full ? `calc(50% + var(--mx) * ${depths[i]*sinY} * ${canvasUnit})` : `calc(50% + var(--mx) * ${depths[i]*sinY*100}%)`,
             top: full ? `calc(50% - var(--my) * ${depths[i]*sinX} * ${canvasUnit})` : `calc(50% - var(--my) * ${depths[i]*sinX*100}%)`,
@@ -224,8 +224,8 @@ function Card({ outfit, full = false, onExpand, depthSpan = 2.05 }: { outfit: Ou
           return <CardLayer key={`${layer.path}-${i}`} src={layer.path} style={style} background={background} index={i} visible={revealOrder.indexOf(i)<visibleLayers} onReady={layerReady} onReveal={layerRevealed} />;
         }) : <CardLayer src={outfit.fullCover || outfit.cover} index={0} visible={visibleLayers>0} onReady={layerReady} onReveal={layerRevealed} flat />}
         {/* {!outfit.card.layers.some(l => l.is_title) && <div className="card-title-art"><b>{outfit.name}</b></div>} */}
-        <div ref={lightRef} className="card-light" />
-        {readyLayers.size<total && <div className="card-loading-toast" role="status" aria-live="polite"><LoaderCircle className="spinner" size={16}/>正在加载图层 {readyLayers.size}/{total}…</div>}
+        <div ref={lightRef} className="card-light" style={{zIndex:total+1}} />
+        {readyLayers.size<total && <div className="card-loading-toast" style={{zIndex:total+2}} role="status" aria-live="polite"><LoaderCircle className="spinner" size={16}/>正在加载图层 {readyLayers.size}/{total}…</div>}
       </div>
       <img className="native-frame" src="/ui/rare_outfit_5.png" alt="" />
     </div>
@@ -290,7 +290,6 @@ function ArchiveApp({ active, onBack, fromStory = false }: { active: boolean; on
   const [toast, setToast] = useState('');
   const playback = useSyncExternalStore(player.subscribe, player.snapshot);
   const chosen = items.find(o => o.id === selectedId) || items[0];
-  const depthSpan = useMemo(() => normalizedDepthTarget(items), [items]);
   const generatedCard = chosen && chosen.card.layers.length <= 1 ? generatedCards[chosen.code] : undefined;
   const artworkOutfit = useMemo(() => chosen && aiEnabled && generatedCard ? { ...chosen, card: { ...chosen.card, ...generatedCard } } : chosen, [chosen, aiEnabled, generatedCard]);
   const selectedIndex = chosen ? items.indexOf(chosen) : 0;
@@ -389,7 +388,7 @@ function ArchiveApp({ active, onBack, fromStory = false }: { active: boolean; on
       <div className="archive-scene scene-enter" key={chosen.id}>
         <section className={`archive-artwork mode-${artworkMode}`} aria-label={`${chosen.name}专辑展示`}>
           <div className="artwork-mode-switch" role="group" aria-label="专辑展示模式" style={{ flexWrap: 'wrap' }}><button aria-pressed={artworkMode === 'difference'} onClick={() => { sound('ui_outfit_button_tap'); setArtworkMode('difference'); }}><Expand size={16} />差分</button><button aria-pressed={artworkMode === 'phonograph'} onClick={() => { sound('ui_outfit_button_tap'); setArtworkMode('phonograph'); }}><Disc3 size={17} />唱机</button>{chosen.card.layers.length <= 1 && <button className="capsule-toggle ai-layer-toggle" aria-pressed={aiEnabled} aria-busy={aiLoading} onClick={() => { sound('ui_outfit_button_tap'); setAiEnabled(value => !value); }}><span className="capsule-checkbox" aria-hidden="true" />AI 生成差分</button>}{artworkMode === 'difference' && <SensorControl />}</div>
-          <div className="archive-cover-wrap"><div className="card-aura" />{artworkMode === 'difference' ? <Card key={`${chosen.id}-${active}-${aiEnabled && generatedCard ? 'ai' : 'original'}`} outfit={artworkOutfit!} depthSpan={depthSpan} onExpand={() => { sound('ui_common_click_select'); setFull(true); }} /> : <Phonograph outfit={chosen} playing={playback.playing} onExpand={() => { sound('ui_common_click_select'); setFull(true); }} />}</div>
+          <div className="archive-cover-wrap"><div className="card-aura" />{artworkMode === 'difference' ? <Card key={`${chosen.id}-${active}-${aiEnabled && generatedCard ? 'ai' : 'original'}`} outfit={artworkOutfit!} onExpand={() => { sound('ui_common_click_select'); setFull(true); }} /> : <Phonograph outfit={chosen} playing={playback.playing} onExpand={() => { sound('ui_common_click_select'); setFull(true); }} />}</div>
         </section>
         <aside className="archive-panel">
           <section className="native-archive-sheet" aria-label="秘纹档案">
@@ -416,7 +415,7 @@ function ArchiveApp({ active, onBack, fromStory = false }: { active: boolean; on
 
     {showCollection && <Modal title="秘纹一览" close={() => { sound('ui_common_back'); setShowCollection(false); }} className="collection-modal"><div className="collection-tools"><label className="search-box"><Search size={18} /><input autoFocus value={query} onChange={e => setQuery(e.target.value)} placeholder="搜索秘纹、旅人或标签" aria-label="搜索秘纹" />{query && <button aria-label="清除搜索" onClick={() => setQuery('')}><X size={14} /></button>}</label><span>{filtered.length} / {items.length}</span></div><div className="collection-filters"><button className={filter === 'all' ? 'active' : ''} onClick={() => setFilter('all')}>全部</button><button className={filter === 'favorites' ? 'active' : ''} onClick={() => setFilter('favorites')}><Heart size={13} />珍藏</button>{[1, 2, 3, 4, 5, 6, 7].map(element => <button className={filter === String(element) ? 'active' : ''} key={element} onClick={() => setFilter(String(element))}>{ELEMENTS[element]}</button>)}</div><div className="collection-grid">{filtered.map((item, i) => <React.Fragment key={item.id}>{(i === 0 || filtered[i - 1].activity.id !== item.activity.id || filtered[i - 1].activity.date !== item.activity.date) && <div className="collection-activity"><span>{item.activity.name}</span><small>{item.activity.date ? item.activity.date.slice(0, 10).replaceAll("-", ".") : "常驻"}</small></div>}<button className={`collection-item ${chosen.id === item.id ? 'selected' : ''}`} onClick={() => select(item)}><div className={`collection-image rarity-${item.rarity}`}><img src={item.thumbnail} alt="" loading="lazy" /><span className="collection-stars">{'★'.repeat(item.rarity)}</span>{favorites.includes(item.id) && <Heart className="collection-heart" size={13} fill="currentColor" />}{chosen.id === item.id && <span className="selected-check"><Check size={16} /></span>}</div><strong>{item.name}</strong><small>出镜旅人：{item.characters.filter(Boolean).join(' / ') || '未知'}</small></button></React.Fragment>)}{!filtered.length && <div className="empty-collection"><Search size={28} /><p>{filter === 'favorites' ? '还没有找到珍藏的秘纹' : '没有找到这枚秘纹'}</p><button onClick={() => { setQuery(''); setFilter('all'); }}>查看全部秘纹</button></div>}</div></Modal>}
     {showStory && <Modal title={chosen.storyTitle || chosen.name} close={() => setShowStory(false)} className="story-modal"><article className="full-story"><RichText text={chosen.story || chosen.literary} /></article><div className="story-ending">✦</div></Modal>}
-    {full && <FullscreenArtwork outfit={artworkOutfit!} depthSpan={depthSpan} close={() => setFull(false)} />}
+    {full && <FullscreenArtwork outfit={artworkOutfit!} close={() => setFull(false)} />}
   </div>;
 }
 
