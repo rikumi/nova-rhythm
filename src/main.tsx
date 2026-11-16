@@ -194,10 +194,10 @@ function Card({ outfit, full = false, onExpand }: { outfit: Outfit; full?: boole
         }) : <CardLayer src={outfit.fullCover || outfit.cover} index={0} visible={visibleLayers>0} onReady={layerReady} onReveal={layerRevealed} flat />}
         {/* {!outfit.card.layers.some(l => l.is_title) && <div className="card-title-art"><b>{outfit.name}</b></div>} */}
         <div className="card-light" />
+        {readyLayers.size<total && <div className="card-loading-toast" role="status" aria-live="polite"><LoaderCircle className="spinner" size={16}/>正在加载图层 {readyLayers.size}/{total}…</div>}
       </div>
       <img className="native-frame" src="/ui/rare_outfit_5.png" alt="" />
     </div>
-    {outfit.card.layers.length>0 && readyLayers.size<total && <div className="card-loading-toast" role="status" aria-live="polite"><LoaderCircle className="spinner" size={16}/>正在加载图层 {readyLayers.size}/{total}…</div>}
     {!full && <ArtworkActions outfit={outfit} onExpand={() => onExpand?.()} />}
   </div>;
 }
