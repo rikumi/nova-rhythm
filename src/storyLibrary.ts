@@ -25,6 +25,8 @@ export interface StoryLibrary {
 }
 
 export function libraryGroupLabel(id: string, description = ''): string | undefined {
+  if (id === 'prologue') return '主线';
+  if (id === 'permanent-system' || id === 'permanent-combat') return '模式';
   if (id.startsWith('activity-') && description.trim().startsWith('主线更新剧情')) return '主线';
   return ({ activity: '活动', story: '故事', mainline: '主线', mode: '模式' } as Record<string, string>)[id.split('-', 1)[0]];
 }

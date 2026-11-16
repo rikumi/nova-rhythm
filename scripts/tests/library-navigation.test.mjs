@@ -10,7 +10,9 @@ test('group labels follow prefixes and treat mainline-update activities as mainl
   assert.equal(libraryGroupLabel('mainline-5'), '主线');
   assert.equal(libraryGroupLabel('story-one'), '故事');
   assert.equal(libraryGroupLabel('mode-one'), '模式');
-  assert.equal(libraryGroupLabel('permanent-combat'), undefined);
+  assert.equal(libraryGroupLabel('prologue'), '主线');
+  assert.equal(libraryGroupLabel('permanent-system'), '模式');
+  assert.equal(libraryGroupLabel('permanent-combat'), '模式');
 });
 
 test('share link identifies a story track and clears outfit navigation', () => {
