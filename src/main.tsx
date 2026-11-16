@@ -125,7 +125,7 @@ function Card({ outfit, full = false, onExpand }: { outfit: Outfit; full?: boole
     if(next<0 || !readyLayers.has(next) || startedLayers<visibleLayers)return;
     const timer=window.setTimeout(()=>{
       setVisibleLayers(count=>count+1);
-    },Math.max(0,120-(performance.now()-lastReveal.current)));
+    },Math.max(0,20-(performance.now()-lastReveal.current)));
     return ()=>window.clearTimeout(timer);
   },[readyLayers,visibleLayers,startedLayers,total]);
   useEffect(() => {
