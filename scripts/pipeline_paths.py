@@ -4,7 +4,8 @@ from pathlib import Path
 
 REPOSITORY = Path(__file__).resolve().parents[1]
 ROOT = Path(os.environ.get('NOVA_WORK_DIR', REPOSITORY)).resolve()
-GAME = Path(os.environ.get('NOVA_GAME_DIR', 'D:/TapTap/PC Games/733498')).resolve()
+DEFAULT_GAME = Path('D:/TapTap/PC Games/733498') if os.name == 'nt' else Path.home()/'Games/StellaSora'
+GAME = Path(os.environ.get('NOVA_GAME_DIR', DEFAULT_GAME)).resolve()
 CLI = Path(os.environ.get('VGMSTREAM_CLI', REPOSITORY/'tools/vgmstream/vgmstream-cli.exe'))
 
 
