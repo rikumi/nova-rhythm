@@ -1,0 +1,2 @@
+/* Generated RGBA layers share one canvas, including its transparent margins. */
+.canvas-card.full-card .card-layer[data-background=true]{min-width:0;min-height:0}

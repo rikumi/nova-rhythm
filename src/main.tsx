@@ -12,11 +12,13 @@ import { MODE_LABELS, nextPlaybackMode, nextQueueIndex } from './playbackMode';
 import { musicTitleParts } from './musicTitle';
 import { ScrollingText } from './ScrollingText';
 import { OutlinedName } from './OutlinedName';
+import { loadOutfits } from './experimentalLayering';
 import { applyInfinityTowerMixer } from './infinitytowerMixer';
 import { musicIdFromPath, musicPage, musicPath, musicUrl, outfitMusicPage, registerMusicPages, storyMusicPage, updateMusicPageMetadata } from './musicRoutes';
 import './style.css';
 import './storyPlayback.css';
 import './pwa.css';
+import './canvasCard.css';
 import './pwa';
 
 const ELEMENTS = ['无', '水', '火', '风', '地', '光', '暗', '无'];
@@ -188,7 +190,7 @@ function Card({ outfit, full = false, onExpand }: { outfit: Outfit; full?: boole
   };
   const base = outfit.card.mask_size || 712;
   const motion = outfit.card.motion || { rotation_x: 3, rotation_y: -8 };
-  return <div ref={ref} className={`live-card ${full ? 'full-card' : ''}`} style={{ '--tilt-x': `${-motion.rotation_x}deg`, '--tilt-y': `${-motion.rotation_y}deg` } as CSSProperties} onPointerDown={beginDrag} onPointerMove={move} onPointerUp={endDrag} onPointerCancel={endDrag} onLostPointerCapture={endDrag} onPointerLeave={() => { if(dragPointer.current===null)target.current = { x: 0, y: 0, active: false }; hideLight(); }}>
+  return <div ref={ref} className={`live-card ${full ? 'full-card' : ''} ${outfit.card.layout === 'canvas' ? 'canvas-card' : ''}`} style={{ '--tilt-x': `${-motion.rotation_x}deg`, '--tilt-y': `${-motion.rotation_y}deg` } as CSSProperties} onPointerDown={beginDrag} onPointerMove={move} onPointerUp={endDrag} onPointerCancel={endDrag} onLostPointerCapture={endDrag} onPointerLeave={() => { if(dragPointer.current===null)target.current = { x: 0, y: 0, active: false }; hideLight(); }}>
     <div className={`card-frame rarity-${outfit.rarity}`}>
       <div className="card-backdrop-tint" aria-hidden="true" />
       <div className="card-glint" />
@@ -197,7 +199,12 @@ function Card({ outfit, full = false, onExpand }: { outfit: Outfit; full?: boole
           const background = i === 0 || /(?:^|_)(?:bg|background)(?:\d|_|$)/i.test(layer.name);
           const fit = background ? 1 : CARD_CONTENT_SCALE;
           const projectedZ = (layer.native_z || 0) * (layer.projection_factor || 1);
-          const style = {
+          const style = outfit.card.layout === 'canvas' ? {
+            left: '-3%', top: '-3%', width: '106%', height: '106%',
+            objectFit: full ? 'contain' : 'cover',
+            transform: `translate(calc(var(--mx) * ${-(total-i)/total*8}px),calc(var(--my) * ${(total-i)/total*5}px))`,
+            '--layer-opacity': layer.opacity,
+          } as CSSProperties : {
             left: full ? `calc(50% + ${layer.x / base * 100 * fit}dvh)` : `${50 + layer.x / base * 100 * fit}%`,
             top: full ? `calc(50% - ${layer.y / base * 100 * fit}dvh)` : `${50 - layer.y / base * 100 * fit}%`,
             width: `${layer.width / base * 100 * fit}${full ? 'dvh' : '%'}`, height: `${layer.height / base * 100 * fit}${full ? 'dvh' : '%'}`,
@@ -274,7 +281,7 @@ function ArchiveApp({ active, onBack, fromStory = false }: { active: boolean; on
   const favorite = chosen && favorites.includes(chosen.id);
   const timer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
-  useEffect(() => { fetch('/data/outfits.json').then(r => { if (!r.ok) throw new Error('秘纹档案暂时无法读取'); return r.json(); }).then((data:{items:Outfit[]}) => {
+  useEffect(() => { loadOutfits(location.href).then((data:{items:Outfit[]}) => {
     registerMusicPages(data.items.flatMap(outfit=>outfit.music.map((music,index)=>outfitMusicPage(outfit,music,index))));
     const requested=musicIdFromPath(location.pathname);
     const outfit=data.items.find(outfit=>outfit.music.some(music=>music.id===requested));

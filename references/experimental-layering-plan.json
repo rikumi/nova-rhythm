@@ -1,0 +1,589 @@
+{
+  "schemaVersion": 1,
+  "model": "Qwen-Image-Layered",
+  "quantization": "unsloth Q4_K_M",
+  "seed": 777,
+  "steps": 30,
+  "cfg": 4.0,
+  "maximum_dimension": 640,
+  "minimum_layers": 4,
+  "maximum_layers": 10,
+  "items": [
+    {
+      "code": "4003",
+      "outfit_id": 214003,
+      "name": "你与我相似",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4003.png",
+      "layers": 5,
+      "caption": "An anime action illustration with several fantasy adventurers, long flowing hair, weapons, lightning and a dark blue sky. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+    },
+    {
+      "code": "4047",
+      "outfit_id": 214047,
+      "name": "信笺乘风而去",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4047.png",
+      "layers": 5,
+      "caption": "An anime illustration of three girls around a circular wooden table with a map, envelopes and a lantern in a bright cozy room. An orange-haired girl in a red outfit is on the left, a dark-haired girl with goggles stands behind the table, and a blue-haired girl in a blue witch hat sits on the right. Letters and loose sheets of paper fly across the foreground. A sunny window, plants, chairs and a bed form the room. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+    },
+    {
+      "code": "4008",
+      "outfit_id": 214008,
+      "name": "飞越青空",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4008.png",
+      "layers": 5,
+      "caption": "A bright colorful anime illustration of girls in a blue sky, with multicolored balloons, clouds, a flying vehicle and distant scenery. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+    },
+    {
+      "code": "4007",
+      "outfit_id": 214007,
+      "name": "午夜，堕天使",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4007.png",
+      "layers": 4,
+      "caption": "A dramatic dark blue anime illustration of a girl surrounded by flowing fabric, fantasy ornaments and yellow flowers. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+    },
+    {
+      "code": "4046",
+      "outfit_id": 214046,
+      "name": "冬夜后的黎明",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4046.png",
+      "layers": 4,
+      "caption": "An anime illustration of a silver-haired girl in a softly lit wintry room, with warm furnishings, drinks and snowy light outside. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+    },
+    {
+      "code": "4016",
+      "outfit_id": 214016,
+      "name": "春日纪事",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4016.png",
+      "layers": 4,
+      "caption": "An anime illustration of a silver-haired woman sitting on a grassy slope beneath pink flowering cherry trees, stretching her arms behind her head. She wears a white outfit with a brown corset and long dark blue ribbons. Long silver hair and ribbons flow across the image. The low angle view looks up at blue sky, cherry blossoms, pale tree trunks and pink petals. White daisies, yellow flowers, grass and a sword cross the foreground. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+    },
+    {
+      "code": "4027",
+      "outfit_id": 214027,
+      "name": "龙飞凤舞",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4027.png",
+      "layers": 4,
+      "caption": "An anime illustration of a red-haired girl in an ornate mechanical interior, with hanging structures, cables, windows and colorful fabric. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+    },
+    {
+      "code": "4044",
+      "outfit_id": 214044,
+      "name": "罗帷春染岁朝新",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4044.png",
+      "layers": 4,
+      "caption": "An anime illustration in a warmly illuminated room with paper lanterns, a table, decorations and a person beside the furniture. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+    },
+    {
+      "code": "4042",
+      "outfit_id": 214042,
+      "name": "酒暖灯明时",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4042.png",
+      "layers": 4,
+      "caption": "An anime illustration of people in a warmly lit theatrical interior, with red curtains, a balcony railing and golden lantern light. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+    },
+    {
+      "code": "4006",
+      "outfit_id": 214006,
+      "name": "魔女的秋千",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4006.png",
+      "layers": 5,
+      "caption": "An anime illustration of several fantasy girls performing music in a purple-lit magical room, with large musical instruments and dramatic effects. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+    },
+    {
+      "code": "4043",
+      "outfit_id": 214043,
+      "name": "革新的萌芽",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4043.png",
+      "layers": 4,
+      "caption": "An anime illustration of several girls in a futuristic mechanical interior with a large circular machine, hanging structures and furniture. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+    },
+    {
+      "code": "4004",
+      "outfit_id": 214004,
+      "name": "仙踪良梦",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4004.png",
+      "layers": 4,
+      "caption": "An anime illustration of girls resting together in a sunlit garden, with dark clothing, long pale hair, grass, plants and flowers. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+    },
+    {
+      "code": "4005",
+      "outfit_id": 214005,
+      "name": "晴之花",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4005.png",
+      "layers": 4,
+      "caption": "A luminous blue anime illustration of a girl in a flowing dress surrounded by water, light, flowers and fantasy scenery. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+    },
+    {
+      "code": "4048",
+      "outfit_id": 214048,
+      "name": "雪夜惊喜",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4048.png",
+      "layers": 6,
+      "caption": "A cheerful anime illustration of several small girls celebrating together in a warmly lit decorated room, surrounded by seasonal ornaments and gifts. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+    },
+    {
+      "code": "4024",
+      "outfit_id": 214024,
+      "name": "一二三，跳！",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4024.png",
+      "layers": 5,
+      "caption": "An anime illustration of several girls resting in a green forest, with tree trunks, leafy plants and sunlight filtering through the canopy. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+    },
+    {
+      "code": "4015",
+      "outfit_id": 214015,
+      "name": "鹿鸣",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4015.png",
+      "layers": 4,
+      "caption": "An anime illustration of girls relaxing outdoors beneath leafy trees, with flowers, summer clothing and dappled sunshine. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+    },
+    {
+      "code": "4040",
+      "outfit_id": 214040,
+      "name": "勇气之拳",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4040.png",
+      "layers": 4,
+      "caption": "A dynamic anime illustration of a white-haired girl in a large mechanical outfit, with bright sunlight, equipment and motion effects. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+    },
+    {
+      "code": "4017",
+      "outfit_id": 214017,
+      "name": "花火",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4017.png",
+      "layers": 4,
+      "caption": "An anime illustration of a blonde girl at a summer festival at night, with colorful fireworks and festival decorations. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+    },
+    {
+      "code": "4039",
+      "outfit_id": 214039,
+      "name": "夏日栖息地",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4039.png",
+      "layers": 5,
+      "caption": "An anime illustration of several girls and plush toys in a softly lit bedroom, with a very large pink rabbit plush, cushions and furniture. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+    },
+    {
+      "code": "4038",
+      "outfit_id": 214038,
+      "name": "波光漫游",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4038.png",
+      "layers": 4,
+      "caption": "A swirling blue anime illustration with a girl floating among water, flowing hair, light effects and underwater scenery. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+    },
+    {
+      "code": "4033",
+      "outfit_id": 214033,
+      "name": "与骨共舞",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4033.png",
+      "layers": 5,
+      "caption": "A dramatic anime illustration of fantasy girls amid bones and skeletons, with dark clothing and warm golden light. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+    },
+    {
+      "code": "4030",
+      "outfit_id": 214030,
+      "name": "午后间隙",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4030.png",
+      "layers": 4,
+      "caption": "An anime illustration of girls relaxing near a bright window in a furnished room, with chairs, a table, books and warm daylight. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+    },
+    {
+      "code": "4022",
+      "outfit_id": 214022,
+      "name": "午夜喵铃",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4022.png",
+      "layers": 5,
+      "caption": "An anime illustration of girls seated together in a dark elegant room, with pale windows, furniture and purple accents. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+    },
+    {
+      "code": "4013",
+      "outfit_id": 214013,
+      "name": "远航蓝图",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4013.png",
+      "layers": 4,
+      "caption": "An anime illustration of girls sharing drinks in a warmly lit wood-paneled room, with a circular table, cups and dark red clothing. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+    },
+    {
+      "code": "4012",
+      "outfit_id": 214012,
+      "name": "狼贪虎视",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4012.png",
+      "layers": 4,
+      "caption": "A dark blue anime illustration of several fantasy characters with animal motifs, long coats, weapons and an imposing indoor background. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+    },
+    {
+      "code": "4011",
+      "outfit_id": 214011,
+      "name": "夏日午后的雨",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4011.png",
+      "layers": 4,
+      "caption": "An anime illustration of girls beside a window on a rainy summer afternoon, with a white outfit, dark hair and a softly lit room. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+    },
+    {
+      "code": "4009",
+      "outfit_id": 214009,
+      "name": "“空白”的序章",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4009.png",
+      "layers": 5,
+      "caption": "An anime illustration of several girls together in a bright vehicle interior, with seats, windows, school-style clothing and sunshine. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+    },
+    {
+      "code": "4002",
+      "outfit_id": 214002,
+      "name": "空与花与诗",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4002.png",
+      "layers": 5,
+      "caption": "A bright anime illustration of several girls in flowing fantasy outfits, surrounded by flowers, colorful light and a vivid blue sky. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+    },
+    {
+      "code": "4001",
+      "outfit_id": 214001,
+      "name": "猫神降歌",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4001.png",
+      "layers": 4,
+      "caption": "A vivid magenta anime album illustration of a girl in a large witch hat, with magical circular symbols, stars and luminous effects. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+    },
+    {
+      "code": "3026",
+      "outfit_id": 213026,
+      "name": "清扫时间DA♥YO",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/3026.png",
+      "layers": 4,
+      "caption": "An anime album cover with the people, props, decorative typography and graphic elements visible in the source image. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+    },
+    {
+      "code": "3025",
+      "outfit_id": 213025,
+      "name": "甜蜜邀约",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/3025.png",
+      "layers": 4,
+      "caption": "An anime album cover with the people, props, decorative typography and graphic elements visible in the source image. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+    },
+    {
+      "code": "3024",
+      "outfit_id": 213024,
+      "name": "假日泡影",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/3024.png",
+      "layers": 4,
+      "caption": "An anime album cover with the people, props, decorative typography and graphic elements visible in the source image. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+    },
+    {
+      "code": "3023",
+      "outfit_id": 213023,
+      "name": "纯白",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/3023.png",
+      "layers": 4,
+      "caption": "An anime album cover with the people, props, decorative typography and graphic elements visible in the source image. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+    },
+    {
+      "code": "3022",
+      "outfit_id": 213022,
+      "name": "诅咒爱河",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/3022.png",
+      "layers": 4,
+      "caption": "An anime album cover with the people, props, decorative typography and graphic elements visible in the source image. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+    },
+    {
+      "code": "3021",
+      "outfit_id": 213021,
+      "name": "灵验颂歌",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/3021.png",
+      "layers": 4,
+      "caption": "An anime album cover with the people, props, decorative typography and graphic elements visible in the source image. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+    },
+    {
+      "code": "3020",
+      "outfit_id": 213020,
+      "name": "闪灵",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/3020.png",
+      "layers": 4,
+      "caption": "An anime album cover with the people, props, decorative typography and graphic elements visible in the source image. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+    },
+    {
+      "code": "3019",
+      "outfit_id": 213019,
+      "name": "妄语",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/3019.png",
+      "layers": 4,
+      "caption": "An anime album cover with the people, props, decorative typography and graphic elements visible in the source image. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+    },
+    {
+      "code": "3018",
+      "outfit_id": 213018,
+      "name": "饮料采购日",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/3018.png",
+      "layers": 4,
+      "caption": "An anime album cover with the people, props, decorative typography and graphic elements visible in the source image. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+    },
+    {
+      "code": "3017",
+      "outfit_id": 213017,
+      "name": "★~转转人生~★",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/3017.png",
+      "layers": 4,
+      "caption": "An anime album cover with the people, props, decorative typography and graphic elements visible in the source image. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+    },
+    {
+      "code": "3016",
+      "outfit_id": 213016,
+      "name": "樊笼蔷薇",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/3016.png",
+      "layers": 4,
+      "caption": "An anime album cover with the people, props, decorative typography and graphic elements visible in the source image. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+    },
+    {
+      "code": "3015",
+      "outfit_id": 213015,
+      "name": "未闻芳名",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/3015.png",
+      "layers": 4,
+      "caption": "A square anime album cover with two women standing back to back outdoors. The taller woman on the left has long dark blue hair and holds an ornate polearm. The woman on the right has long teal green hair and holds a small dark bird. Both wear light blue, white and pale yellow fantasy outfits. White birds fly across a blue sky with clouds and a faint rainbow. Green grass and white flowers frame the foreground. Large decorative yellow and white fictional lettering occupies the upper right, with small yellow lettering near the bottom. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+    },
+    {
+      "code": "3014",
+      "outfit_id": 213014,
+      "name": "骑士的铁匠",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/3014.png",
+      "layers": 4,
+      "caption": "An anime album cover with the people, props, decorative typography and graphic elements visible in the source image. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+    },
+    {
+      "code": "3013",
+      "outfit_id": 213013,
+      "name": "秋日絮语",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/3013.png",
+      "layers": 4,
+      "caption": "An anime album cover with the people, props, decorative typography and graphic elements visible in the source image. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+    },
+    {
+      "code": "3012",
+      "outfit_id": 213012,
+      "name": "问候星空",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/3012.png",
+      "layers": 4,
+      "caption": "An anime album cover with the people, props, decorative typography and graphic elements visible in the source image. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+    },
+    {
+      "code": "3011",
+      "outfit_id": 213011,
+      "name": "喵律动",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/3011.png",
+      "layers": 4,
+      "caption": "An anime album cover with the people, props, decorative typography and graphic elements visible in the source image. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+    },
+    {
+      "code": "3010",
+      "outfit_id": 213010,
+      "name": "水蒸汽症候群",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/3010.png",
+      "layers": 4,
+      "caption": "An anime album cover with the people, props, decorative typography and graphic elements visible in the source image. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+    },
+    {
+      "code": "3009",
+      "outfit_id": 213009,
+      "name": "“雨中”曲",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/3009.png",
+      "layers": 4,
+      "caption": "An anime album cover with the people, props, decorative typography and graphic elements visible in the source image. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+    },
+    {
+      "code": "3008",
+      "outfit_id": 213008,
+      "name": "小憩片刻",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/3008.png",
+      "layers": 4,
+      "caption": "An anime album cover with the people, props, decorative typography and graphic elements visible in the source image. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+    },
+    {
+      "code": "3007",
+      "outfit_id": 213007,
+      "name": "翡翠隙境",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/3007.png",
+      "layers": 4,
+      "caption": "An anime album cover with the people, props, decorative typography and graphic elements visible in the source image. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+    },
+    {
+      "code": "3006",
+      "outfit_id": 213006,
+      "name": "晚安",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/3006.png",
+      "layers": 4,
+      "caption": "An anime album cover with the people, props, decorative typography and graphic elements visible in the source image. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+    },
+    {
+      "code": "3005",
+      "outfit_id": 213005,
+      "name": "★~嘭嘭少女~★",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/3005.png",
+      "layers": 4,
+      "caption": "An anime album cover with the people, props, decorative typography and graphic elements visible in the source image. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+    },
+    {
+      "code": "3004",
+      "outfit_id": 213004,
+      "name": "双月怪盗",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/3004.png",
+      "layers": 5,
+      "caption": "An anime album cover with the people, props, decorative typography and graphic elements visible in the source image. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+    },
+    {
+      "code": "3003",
+      "outfit_id": 213003,
+      "name": "热夜的结束",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/3003.png",
+      "layers": 4,
+      "caption": "An anime album cover with the people, props, decorative typography and graphic elements visible in the source image. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+    },
+    {
+      "code": "3002",
+      "outfit_id": 213002,
+      "name": "季节波形",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/3002.png",
+      "layers": 5,
+      "caption": "An anime album cover with the people, props, decorative typography and graphic elements visible in the source image. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+    },
+    {
+      "code": "3001",
+      "outfit_id": 213001,
+      "name": "柠柚好奇",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/3001.png",
+      "layers": 4,
+      "caption": "An anime album cover with the people, props, decorative typography and graphic elements visible in the source image. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+    },
+    {
+      "code": "2010",
+      "outfit_id": 212010,
+      "name": "坚韧",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/2010.png",
+      "layers": 4,
+      "caption": "A stylized album cover with a central illustrated motif or mascot, decorative typography, graphic ornaments and a colorful background. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+    },
+    {
+      "code": "2009",
+      "outfit_id": 212009,
+      "name": "黯灭",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/2009.png",
+      "layers": 4,
+      "caption": "A stylized album cover with a central illustrated motif or mascot, decorative typography, graphic ornaments and a colorful background. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+    },
+    {
+      "code": "2008",
+      "outfit_id": 212008,
+      "name": "泡沫",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/2008.png",
+      "layers": 4,
+      "caption": "A stylized album cover with a central illustrated motif or mascot, decorative typography, graphic ornaments and a colorful background. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+    },
+    {
+      "code": "2007",
+      "outfit_id": 212007,
+      "name": "乘风",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/2007.png",
+      "layers": 4,
+      "caption": "A stylized album cover with a central illustrated motif or mascot, decorative typography, graphic ornaments and a colorful background. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+    },
+    {
+      "code": "2006",
+      "outfit_id": 212006,
+      "name": "吉光",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/2006.png",
+      "layers": 4,
+      "caption": "A stylized album cover with a central illustrated motif or mascot, decorative typography, graphic ornaments and a colorful background. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+    },
+    {
+      "code": "2005",
+      "outfit_id": 212005,
+      "name": "情热",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/2005.png",
+      "layers": 4,
+      "caption": "A stylized album cover with a central illustrated motif or mascot, decorative typography, graphic ornaments and a colorful background. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+    },
+    {
+      "code": "2003",
+      "outfit_id": 212003,
+      "name": "极乐",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/2003.png",
+      "layers": 4,
+      "caption": "A stylized album cover with a central illustrated motif or mascot, decorative typography, graphic ornaments and a colorful background. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+    },
+    {
+      "code": "2002",
+      "outfit_id": 212002,
+      "name": "喧哗",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/2002.png",
+      "layers": 4,
+      "caption": "A stylized album cover with a central illustrated motif or mascot, decorative typography, graphic ornaments and a colorful background. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+    },
+    {
+      "code": "2001",
+      "outfit_id": 212001,
+      "name": "盛宴",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/2001.png",
+      "layers": 4,
+      "caption": "A stylized album cover with a central illustrated motif or mascot, decorative typography, graphic ornaments and a colorful background. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+    },
+    {
+      "code": "1008",
+      "outfit_id": 211008,
+      "name": "归途",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/1008.png",
+      "layers": 4,
+      "caption": "A painted fantasy landscape album cover with distant scenery, sky, foreground objects and decorative lettering. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+    },
+    {
+      "code": "1007",
+      "outfit_id": 211007,
+      "name": "希冀",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/1007.png",
+      "layers": 4,
+      "caption": "A painted fantasy landscape album cover with distant scenery, sky, foreground objects and decorative lettering. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+    },
+    {
+      "code": "1006",
+      "outfit_id": 211006,
+      "name": "甘露",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/1006.png",
+      "layers": 4,
+      "caption": "A painted fantasy landscape album cover with distant scenery, sky, foreground objects and decorative lettering. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+    },
+    {
+      "code": "1005",
+      "outfit_id": 211005,
+      "name": "孤烟",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/1005.png",
+      "layers": 4,
+      "caption": "A painted fantasy landscape album cover with distant scenery, sky, foreground objects and decorative lettering. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+    },
+    {
+      "code": "1004",
+      "outfit_id": 211004,
+      "name": "粉梦",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/1004.png",
+      "layers": 4,
+      "caption": "A painted fantasy landscape album cover with distant scenery, sky, foreground objects and decorative lettering. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+    },
+    {
+      "code": "1003",
+      "outfit_id": 211003,
+      "name": "晚霞",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/1003.png",
+      "layers": 4,
+      "caption": "A painted fantasy landscape album cover with distant scenery, sky, foreground objects and decorative lettering. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+    },
+    {
+      "code": "1002",
+      "outfit_id": 211002,
+      "name": "和煦",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/1002.png",
+      "layers": 4,
+      "caption": "A painted fantasy landscape album cover with distant scenery, sky, foreground objects and decorative lettering. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+    },
+    {
+      "code": "1001",
+      "outfit_id": 211001,
+      "name": "朝霭",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/1001.png",
+      "layers": 4,
+      "caption": "A painted fantasy landscape album cover with distant scenery, sky, foreground objects and decorative lettering. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+    }
+  ]
+}
