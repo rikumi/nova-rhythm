@@ -525,6 +525,17 @@ def main():
     write(output/'data/outfits.json', outfits)
     write(output/'data/library.json', library)
     write(output/'data/story-melodies.json', to_mapping(library, read(source_public/'data/story-melodies.json')))
+    # Compact mixer stems are additional assets, not standalone playlist tracks.
+    mixer_path=source_public/'data/infinitytower-mixer.json'
+    if mixer_path.is_file():
+        mixer=read(mixer_path)
+        write(output/'data/infinitytower-mixer.json',mixer)
+        for stream in mixer['streams']:
+            source=(source_public/stream['path'].lstrip('/')).resolve()
+            if not source.is_relative_to(source_public.resolve()) or not source.is_file():
+                errors.append({'error':'Missing mixer stem: '+stream['path']});continue
+            target=output/stream['path'].lstrip('/');target.parent.mkdir(parents=True,exist_ok=True)
+            shutil.copy2(source,target)
     write(work/'pending_annotations.json', pending)
     write(work/'report.json', {'routes': len(rows), 'rendered_routes': len(results), 'cache_hits': sum(r.get('cache_hit', False) for r in results),
                              'published_audio': len(published), 'pending_annotations': len(pending), 'errors': errors})

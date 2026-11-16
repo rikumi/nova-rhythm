@@ -1,0 +1,28 @@
+:root{--safe-top:env(safe-area-inset-top,0px);--safe-bottom:env(safe-area-inset-bottom,0px);--safe-left:env(safe-area-inset-left,0px);--safe-right:env(safe-area-inset-right,0px)}
+html,body,#root{min-height:100%;width:100%}
+body{background:#182d55 url('/ui/bg_outfit_02.png') center/cover fixed no-repeat}
+:root[data-display=standalone] body{overscroll-behavior:none}
+:root[data-display=standalone] .room-background,:root[data-display=standalone] .room-haze{position:fixed;inset:0;transform:none}
+.topbar{height:calc(104px + var(--safe-top));padding-top:calc(25px + var(--safe-top));padding-left:calc(28px + var(--safe-left));padding-right:calc(42px + var(--safe-right))}
+.home-stage{top:calc(110px + var(--safe-top));bottom:calc(85px + var(--safe-bottom));left:calc(5vw + var(--safe-left));right:calc(5vw + var(--safe-right))}
+.home-disclaimer{bottom:calc(22px + var(--safe-bottom));left:calc(22px + var(--safe-left));right:calc(22px + var(--safe-right))}
+.library-content{top:calc(125px + var(--safe-top));bottom:calc(120px + var(--safe-bottom));left:calc(max(5vw,22px) + var(--safe-left));right:calc(max(5vw,22px) + var(--safe-right))}
+.library-playback{bottom:calc(24px + var(--safe-bottom));left:calc(5vw + var(--safe-left));width:calc(90vw - var(--safe-left) - var(--safe-right))}
+.archive-only .main-stage{top:calc(100px + var(--safe-top));bottom:calc(135px + var(--safe-bottom));padding-left:var(--safe-left);padding-right:var(--safe-right)}
+.archive-only .transport{bottom:calc(24px + var(--safe-bottom));max-width:calc(100vw - 48px - var(--safe-left) - var(--safe-right))}
+.fullscreen-artwork-actions{top:calc(24px + var(--safe-top));right:calc(26px + var(--safe-right))}
+.modal{max-height:calc(100dvh - 80px - var(--safe-top) - var(--safe-bottom));max-width:calc(100vw - 36px - var(--safe-left) - var(--safe-right))}
+@media(min-width:801px) and (max-width:1300px){.topbar{height:calc(88px + var(--safe-top));padding-top:calc(17px + var(--safe-top))}}
+@media(max-width:800px){
+  .topbar{height:calc(91px + var(--safe-top));padding-top:calc(17px + var(--safe-top));padding-left:calc(16px + var(--safe-left));padding-right:calc(18px + var(--safe-right))}
+  .home-stage{top:calc(100px + var(--safe-top));bottom:calc(110px + var(--safe-bottom));left:calc(12px + var(--safe-left));right:calc(12px + var(--safe-right))}
+  .home-disclaimer{bottom:calc(20px + var(--safe-bottom));left:calc(18px + var(--safe-left));right:calc(18px + var(--safe-right))}
+  .library-content{top:calc(105px + var(--safe-top));bottom:calc(140px + var(--safe-bottom));left:calc(18px + var(--safe-left));right:calc(18px + var(--safe-right))}
+  .library-page:has(>.story-player) .library-content{bottom:calc(185px + var(--safe-bottom))}
+  .library-playback{bottom:calc(15px + var(--safe-bottom))}
+  .archive-only{padding-bottom:calc(142px + var(--safe-bottom))}
+  .archive-only .main-stage{inset:auto;padding-left:calc(22px + var(--safe-left));padding-right:calc(22px + var(--safe-right))}
+  .archive-only .transport{bottom:calc(14px + var(--safe-bottom));max-width:calc(100vw - 24px - var(--safe-left) - var(--safe-right))}
+  .fullscreen-artwork-actions{top:calc(18px + var(--safe-top));right:calc(16px + var(--safe-right))}
+  .modal{max-height:calc(100dvh - 36px - var(--safe-top) - var(--safe-bottom))}
+}

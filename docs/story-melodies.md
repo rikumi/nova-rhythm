@@ -164,3 +164,16 @@ python scripts/describe_activity_releases.py --tables .build/analysis/data/upstr
 甜心梦工坊先放共用界面曲，再按变体 1–4 排列；各变体依次是开始、BPM 由低到高、自由演奏或结束。同一音频对应多个状态时只保留一个条目，优先按其 BPM 排序。`scripts/cookie_order.py` 与 `references/cookie-music-order.json` 保存排序规则和状态依据。
 
 曲名末尾的括号用于两行显示：括号内为主标题、括号外为第二行副标题，兼容中英文括号和嵌套内容；核心 JSON 仍保存完整名称。曲目说明继续保存在 `description` 中。
+
+## 心危擂台混音面板
+
+16 个普通战斗组合在网页上显示为一个 4×2 的段落控制面板；界面曲与独立首领曲继续显示为普通曲目。核心 JSON 保留原始组合清单，`public/data/infinitytower-mixer.json` 指定合并显示、旧链接与选项的对应关系。链接的 `mix=0101` 参数表示四行的 A/B 选择，刷新或分享链接后可恢复。
+
+原配方是固定引子、五个循环段落以及其中四处 A/B 随机选择，并非乐器分轨。导出的主音轨只包含固定引子与固定第三段，八条可选音轨分别保存四处 A/B 素材。紧凑音频通过统一 AudioContext 时钟调度，所有选项保持同步，切换使用 350 毫秒增益交叉淡变，不重启曲目。解码只保留实际片段，避免为九条音轨分别分配整曲静音缓冲。
+
+```powershell
+python scripts/export_infinitytower_mixer.py --game-dir "D:\TapTap\PC Games\733498"
+# 构建到隔离目录时可使用 --output .build/site/public
+```
+
+脚本保留 TXTP 的 -2/-3 dB 增益，并按 44100 Hz 的乐句时间网格对齐；原始 Vorbis 尾部不足的片段补至段落边界（最长约 6.8 毫秒），防止循环漂移。重建脚本会复制混音定义和九条额外音轨。游戏输入始终只读。“晋升试炼”收录在常驻玩法中。

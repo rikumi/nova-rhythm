@@ -1,9 +1,10 @@
 import type { Music } from './types';
 import { PLAYBACK_MODES, type PlaybackMode } from './playbackMode';
+import { LayeredPlayback } from './layeredAudio';
 
 export interface Playback {
   trackId: string; playing: boolean; loading: boolean; error: string;
-  position: number; duration: number; volume: number; loop: boolean; mode: PlaybackMode; peaks: number[];
+  position: number; duration: number; volume: number; loop: boolean; mode: PlaybackMode; peaks: number[]; mixerChoices: number[];
 }
 
 /** Uses the original sample loop boundaries; the intro is played only once. */
@@ -13,6 +14,8 @@ class Player {
   private source?: AudioBufferSourceNode;
   private sourceGain?: GainNode;
   private buffer?: AudioBuffer;
+  private layered?: LayeredPlayback;
+  private layerBuffers?: Map<string, AudioBuffer>;
   private track?: Music;
   private startedAt = 0;
   private offset = 0;
@@ -25,7 +28,7 @@ class Player {
   private lastSound = 0;
   private value: Playback = {
     trackId: '', playing: false, loading: false, error: '', position: 0,
-    duration: 0, volume: .65, loop: true, mode: 'single', peaks: [],
+    duration: 0, volume: .65, loop: true, mode: 'single', peaks: [], mixerChoices: [0,0,0,0],
   };
 
   constructor() {
@@ -65,6 +68,7 @@ class Player {
     return this.value.playing;
   }
   private stopSource() {
+    this.layered?.stop();this.layered=undefined;
     const source = this.source; const gain = this.sourceGain;
     if (!source || !this.context) return;
     source.onended = null;
@@ -87,13 +91,13 @@ class Player {
     let position = this.offset + (this.context ? this.context.currentTime - this.startedAt : 0);
     const { start, end } = this.boundaries();
     if (this.value.loop && end > start && position >= end) position = start + ((position - start) % (end - start));
-    return Math.min(position, this.value.duration);
+    return Math.max(0,Math.min(position, this.value.duration));
   }
   async select(track: Music, autoplay = false) {
     if (this.track?.id === track.id) { if (autoplay && !this.value.playing && !this.value.loading) await this.play(); return; }
     const generation = ++this.generation;
     this.abort?.abort(); this.stopSource();
-    this.track = track; this.buffer = undefined; this.offset = 0;
+    this.track = track; this.buffer = undefined; this.layerBuffers=undefined; this.offset = 0;
     this.update({ trackId: track.id, playing: false, loading: false, error: '', position: 0, duration: track.duration_seconds, peaks: [] });
     // Avoid downloading a large music file before the first user interaction.
     if (!autoplay) return;
@@ -105,6 +109,19 @@ class Player {
     const track = this.track;
     try {
       const context = await this.ready();
+      if (track.mixer) {
+        this.abort=new AbortController();
+        const signal=this.abort.signal;
+        const buffers=new Map<string,AudioBuffer>();
+        await Promise.all([...new Set(track.mixer.streams.map(stream=>stream.path))].map(async path=>{
+          const response=await fetch(encodeURI(path),{signal});
+          if(!response.ok)throw new Error(`音轨读取失败（${response.status}）`);
+          buffers.set(path,await context.decodeAudioData(await response.arrayBuffer()));
+        }));
+        if(generation!==this.generation)return;
+        this.layerBuffers=buffers;
+        this.update({duration:track.mixer.duration,loading:false,peaks:[]});this.start();return;
+      }
       let buffer = this.cache.get(track.path);
       if (!buffer) {
         this.abort = new AbortController();
@@ -133,6 +150,12 @@ class Player {
     }
   }
   private start() {
+    if(this.track?.mixer && this.context && this.musicGain && this.layerBuffers) {
+      this.stopSource();
+      this.startedAt=this.context.currentTime+.03;
+      this.layered=new LayeredPlayback(this.context,this.musicGain,this.track.mixer,this.layerBuffers,this.value.mixerChoices,this.value.loop,this.startedAt-this.offset,()=>this.finish());
+      this.update({playing:true});return;
+    }
     if (!this.buffer || !this.context || !this.musicGain) return;
     this.stopSource();
     const source = this.context.createBufferSource(); const gain = this.context.createGain();
@@ -157,7 +180,7 @@ class Player {
   }
   async play() {
     if (!this.track || this.value.loading) return;
-    if (!this.buffer) { await this.loadAndPlay(this.generation); return; }
+    if (!this.buffer && !this.layerBuffers) { await this.loadAndPlay(this.generation); return; }
     await this.ready(); this.start();
   }
   pause() {
@@ -178,6 +201,16 @@ class Player {
   }
   toggleLoop() {
     this.setMode(this.value.loop ? 'once' : 'single');
+  }
+  setMixerChoices(choices: number[]) {
+    if(choices.length!==4 || choices.some(value=>value!==0 && value!==1))return;
+    this.layered?.choose(choices);this.update({mixerChoices:[...choices]});
+  }
+  private finish() {
+    const endedId=this.value.trackId;
+    this.offset=0;this.layered=undefined;
+    this.update({playing:false,position:0});
+    if(this.value.mode==='sequence' || this.value.mode==='shuffle')this.endedListeners.forEach(listener=>listener(endedId));
   }
   setMode(mode: PlaybackMode) {
     // Capture the wrapped sample position before changing native loop behavior.

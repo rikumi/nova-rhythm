@@ -4,6 +4,7 @@ export function libraryTrackUrl(href: string, trackId: string): URL {
   const url = new URL(href);
   url.hash = '/library';
   url.searchParams.delete('disc');
+  url.searchParams.delete('mix');
   url.searchParams.set('track', trackId);
   return url;
 }

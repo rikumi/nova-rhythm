@@ -10,8 +10,11 @@ import { resolveStoryLibrary, libraryGroupLabel } from './storyLibrary';
 import { adjacentLibraryTrack, libraryQueue, libraryTrackUrl } from './libraryNavigation';
 import { MODE_LABELS, nextPlaybackMode, nextQueueIndex } from './playbackMode';
 import { musicTitleParts } from './musicTitle';
+import { applyInfinityTowerMixer } from './infinitytowerMixer';
 import './style.css';
 import './storyPlayback.css';
+import './pwa.css';
+import './pwa';
 
 const ELEMENTS = ['无', '水', '火', '风', '地', '光', '暗', '无'];
 const CARD_CONTENT_SCALE = .88;
@@ -23,6 +26,20 @@ function writeStorage(key: string, value: unknown) { try { localStorage.setItem(
 function MusicTitle({ title }: { title: string }) {
   const parts = musicTitleParts(title);
   return <><span className="music-title-line">{parts.title}</span>{parts.subtitle && <small className="music-subtitle">{parts.subtitle}</small>}</>;
+}
+
+function InfinityTowerMixer({ track, onPlay }: { track: LibraryMusic; onPlay: (track: LibraryMusic) => void }) {
+  const playback=useSyncExternalStore(player.subscribe,player.snapshot);
+  const current=playback.trackId===track.id;
+  const definition=track.mixer!;
+  const activeRow=definition.streams.find(stream=>stream.row!==undefined && stream.cues.some(cue=>playback.position>=cue.start && playback.position<cue.start+cue.duration))?.row;
+  return <section className="infinity-mixer" data-content-id={track.id} aria-label="心危擂台段落混音">
+    <button className="infinity-mixer-heading" onClick={()=>{if(current && playback.playing)void player.toggle();else onPlay(track);}} aria-label={current && playback.playing ? '暂停心危擂台混音' : '播放心危擂台混音'}>
+      <strong><MusicTitle title={track.title} /></strong>{current && playback.loading ? <LoaderCircle className="spinner" size={19}/> : current && playback.playing ? <Pause size={19}/> : <Play size={19}/>}</button>
+    <div className="infinity-mixer-grid">{[0,1,2,3].flatMap(row=>[0,1].map(option=><button key={`${row}-${option}`} className={`infinity-mixer-cell ${current && playback.playing && activeRow===row ? 'is-current' : ''}`} data-row={row} data-option={option} aria-label={`片段 ${row+1} · ${option===0 ? 'A' : 'B'}`} aria-pressed={playback.mixerChoices[row]===option} onClick={()=>{
+      const choices=[...playback.mixerChoices];choices[row]=option;player.setMixerChoices(choices);onPlay(track);
+    }}><span>片段 {row+1}</span><strong>{option===0 ? 'A' : 'B'}</strong><i aria-hidden="true"><b/><b/><b/></i></button>))}</div>
+  </section>;
 }
 
 function PlaybackModeButton({ className = '' }: { className?: string }) {
@@ -299,7 +316,8 @@ function MusicLibrary({ active, onBack, onOpenOutfit }: { active: boolean; onBac
     Promise.all([
       fetch('/data/story-melodies.json', { signal: controller.signal }).then(r => { if (!r.ok) throw new Error('故事旋律映射读取失败'); return r.json(); }),
       fetch('/data/library.json', { signal: controller.signal }).then(r => { if (!r.ok) throw new Error('音乐读取失败'); return r.json(); }),
-    ]).then(([mapping, metadata]) => { const d = resolveStoryLibrary(mapping, metadata); setTracks(d.tracks); setGroups(d.groups); }).catch(e => { if (e.name !== 'AbortError') setError(e.message); });
+      fetch('/data/infinitytower-mixer.json', { signal: controller.signal }).then(r => r.ok ? r.json() : null).catch(()=>null),
+    ]).then(([mapping, metadata, mixer]) => { const d = applyInfinityTowerMixer(resolveStoryLibrary(mapping, metadata), mixer); setTracks(d.tracks); setGroups(d.groups); }).catch(e => { if (e.name !== 'AbortError') setError(e.message); });
     return () => controller.abort();
   }, []);
   useEffect(() => {
@@ -313,7 +331,13 @@ function MusicLibrary({ active, onBack, onOpenOutfit }: { active: boolean; onBac
     if (!requested) return;
     const track = tracks.find(track => track.id === requested || track.legacy_ids?.includes(requested));
     if (!track) { setError('这首音乐已移除或链接无效'); return; }
-    if (track.id !== requested) history.replaceState(history.state, '', libraryTrackUrl(location.href, track.id));
+    const mix=new URLSearchParams(location.search).get('mix');
+    const choices=track.mixer && (mix && /^[01]{4}$/.test(mix) ? [...mix].map(Number) : track.mixer.combinations[requested]);
+    if(choices)player.setMixerChoices(choices);
+    if (track.id !== requested) {
+      const url=libraryTrackUrl(location.href,track.id);if(choices)url.searchParams.set('mix',choices.join(''));
+      history.replaceState(history.state,'',url);
+    }
     setError(''); setSelected(track); setOpenGroup(track.group_id); setQuery('');
     if (player.snapshot().trackId !== track.id) void player.selectFromLink(track).catch(() => setError('音乐暂时无法播放，请点击播放重试'));
   }, [active, tracks, routeVersion]);
@@ -328,6 +352,7 @@ function MusicLibrary({ active, onBack, onOpenOutfit }: { active: boolean; onBac
   const playTrack = (track: LibraryMusic) => {
     setSelected(track); setOpenGroup(track.group_id); setQuery(''); setError('');
     const url = libraryTrackUrl(location.href, track.id);
+    if(track.mixer)url.searchParams.set('mix',player.snapshot().mixerChoices.join(''));
     if (url.href !== location.href) history.pushState(history.state, '', url);
     setRouteVersion(version => version+1);
     void player.select(track, true);
@@ -354,7 +379,7 @@ function MusicLibrary({ active, onBack, onOpenOutfit }: { active: boolean; onBac
       {error && <p role="alert">{error}</p>}
       <div className="library-groups">{visibleGroups.map(group => <section className={`library-group ${openGroup === group.id ? 'is-open' : ''}`} key={group.id} data-date={group.date}>
         <button className="library-group-toggle" aria-expanded={openGroup === group.id} aria-controls={`group-${encodeURIComponent(group.id)}`} onClick={() => { if (readStorage('nova-sfx', true)) void player.sound('ui_common_menu'); setOpenGroup(current => current === group.id ? null : group.id); }}><span className="library-group-heading">{libraryGroupLabel(group.id, group.description) && <span className="library-group-kind">{libraryGroupLabel(group.id, group.description)}</span>}<strong>{group.name}</strong></span>{group.date && <span className="library-group-date">{group.date.slice(0, 10).replaceAll('-', '.')}</span>}<span className="library-group-count">{group.tracks.length + group.outfit_references.length}</span><ChevronDown size={19} /></button>
-        {openGroup === group.id && <div className="library-group-panel" id={`group-${encodeURIComponent(group.id)}`}>{group.description && <p style={{ margin: '0 0 12px', fontSize: 12, lineHeight: 1.8, whiteSpace: 'pre-wrap' }}>{group.description}</p>}<div className="library-tracks">{group.outfit_references.map(reference => <button className="library-outfit-reference" key={reference.outfit_id} onClick={() => onOpenOutfit(reference.outfit_id)}><img src={reference.cover} alt="" /><strong>{reference.name}</strong><span>秘纹旋律</span></button>)}{group.tracks.map(t => <div className="library-track-entry" key={t.id} data-content-id={t.id}><button className={`library-track ${selected?.id === t.id ? 'selected' : ''}`} onClick={() => playTrack(t)}><strong><MusicTitle title={t.title} />{t.description && <small style={{ display: 'block', fontSize: 12, fontWeight: 400, opacity: .8, whiteSpace: 'pre-wrap' }}>{t.description}</small>}</strong><span>{t.duration_seconds > 0 ? time(t.duration_seconds) : '--:--'}</span>{selected?.id === t.id && playback.playing ? <AudioLines size={18} /> : <Play size={18} />}</button></div>)}</div></div>}
+        {openGroup === group.id && <div className="library-group-panel" id={`group-${encodeURIComponent(group.id)}`}>{group.description && <p style={{ margin: '0 0 12px', fontSize: 12, lineHeight: 1.8, whiteSpace: 'pre-wrap' }}>{group.description}</p>}<div className="library-tracks">{group.outfit_references.map(reference => <button className="library-outfit-reference" key={reference.outfit_id} onClick={() => onOpenOutfit(reference.outfit_id)}><img src={reference.cover} alt="" /><strong>{reference.name}</strong><span>秘纹旋律</span></button>)}{group.tracks.map(t => t.mixer ? <InfinityTowerMixer key={t.id} track={t} onPlay={playTrack} /> : <div className="library-track-entry" key={t.id} data-content-id={t.id}><button className={`library-track ${selected?.id === t.id ? 'selected' : ''}`} onClick={() => playTrack(t)}><strong><MusicTitle title={t.title} />{t.description && <small style={{ display: 'block', fontSize: 12, fontWeight: 400, opacity: .8, whiteSpace: 'pre-wrap' }}>{t.description}</small>}</strong><span>{t.duration_seconds > 0 ? time(t.duration_seconds) : '--:--'}</span>{selected?.id === t.id && playback.playing ? <AudioLines size={18} /> : <Play size={18} />}</button></div>)}</div></div>}
       </section>)}{search && !visibleGroups.length && <p className="library-empty">没有找到音乐</p>}</div>
     </main>
     {selected && playback.trackId === selected.id && <section className="library-playback story-player" aria-label="音乐播放控制"><strong><MusicTitle title={selected.title} /></strong><div className="story-playback-buttons"><button className="icon-button" aria-label="上一曲" disabled={queue.length < 2} onClick={() => skip(-1)}><SkipBack size={19} fill="currentColor" /></button><button className="play-button" aria-label={playback.playing ? '暂停播放' : '播放音乐'} disabled={playback.loading} onClick={() => void player.toggle()}>{playback.loading ? <LoaderCircle className="spinner" /> : playback.playing ? <Pause /> : <Play />}</button><button className="icon-button" aria-label="下一曲" disabled={queue.length < 2} onClick={() => skip(1)}><SkipForward size={19} fill="currentColor" /></button></div><span className="story-position">{time(playback.position)}</span><input className="seek" aria-label="播放进度" type="range" min="0" max={playback.duration || 1} step=".05" value={playback.position} onChange={e => player.seek(Number(e.target.value))} style={{ '--progress': `${playback.position / (playback.duration || 1) * 100}%` } as CSSProperties} /><span className="story-duration">{time(playback.duration)}</span><PlaybackModeButton className="story-loop" /></section>}
@@ -369,7 +394,7 @@ function App() {
     if (readStorage('nova-sfx', true)) void player.sound(next === 'home' ? 'ui_common_back' : 'ui_common_menu');
     const url = new URL(location.href); url.hash = next === 'home' ? '' : `/${next}`;
     if (next !== 'outfit') url.searchParams.delete('disc');
-    if (next !== 'library') url.searchParams.delete('track');
+    if (next !== 'library') { url.searchParams.delete('track'); url.searchParams.delete('mix'); }
     if (discId) url.searchParams.set('disc', String(discId));
     history.pushState(discId ? { from: 'library' } : null, '', url); setPage(next);
     if (discId) setArchiveKey(k => k + 1);

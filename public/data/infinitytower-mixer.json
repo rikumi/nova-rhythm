@@ -1,0 +1,237 @@
+{
+  "schema_version": 1,
+  "track_id": "audio-172ce969c65aff62f5f9a75c3f96a651a5db454987aac662f451c65ea036284c",
+  "duration": 125.14285714285714,
+  "loop_start": 1.7142857142857142,
+  "crossfade_seconds": 0.35,
+  "streams": [
+    {
+      "id": "main",
+      "path": "/audio/infinitytower/main.opus",
+      "cues": [
+        {
+          "start": 0.0,
+          "duration": 1.7142857142857142,
+          "offset": 0.0
+        },
+        {
+          "start": 42.857142857142854,
+          "duration": 27.428571428571427,
+          "offset": 1.7142857142857142
+        }
+      ]
+    },
+    {
+      "id": "part-1-a",
+      "row": 0,
+      "option": 0,
+      "path": "/audio/infinitytower/part-1-a.opus",
+      "cues": [
+        {
+          "start": 1.7142857142857142,
+          "duration": 27.428571428571427,
+          "offset": 0.0
+        }
+      ]
+    },
+    {
+      "id": "part-1-b",
+      "row": 0,
+      "option": 1,
+      "path": "/audio/infinitytower/part-1-b.opus",
+      "cues": [
+        {
+          "start": 1.7142857142857142,
+          "duration": 27.428571428571427,
+          "offset": 0.0
+        }
+      ]
+    },
+    {
+      "id": "part-2-a",
+      "row": 1,
+      "option": 0,
+      "path": "/audio/infinitytower/part-2-a.opus",
+      "cues": [
+        {
+          "start": 29.142857142857142,
+          "duration": 13.714285714285714,
+          "offset": 0.0
+        }
+      ]
+    },
+    {
+      "id": "part-2-b",
+      "row": 1,
+      "option": 1,
+      "path": "/audio/infinitytower/part-2-b.opus",
+      "cues": [
+        {
+          "start": 29.142857142857142,
+          "duration": 13.714285714285714,
+          "offset": 0.0
+        }
+      ]
+    },
+    {
+      "id": "part-3-a",
+      "row": 2,
+      "option": 0,
+      "path": "/audio/infinitytower/part-3-a.opus",
+      "cues": [
+        {
+          "start": 70.28571428571429,
+          "duration": 41.142857142857146,
+          "offset": 0.0
+        }
+      ]
+    },
+    {
+      "id": "part-3-b",
+      "row": 2,
+      "option": 1,
+      "path": "/audio/infinitytower/part-3-b.opus",
+      "cues": [
+        {
+          "start": 70.28571428571429,
+          "duration": 41.142857142857146,
+          "offset": 0.0
+        }
+      ]
+    },
+    {
+      "id": "part-4-a",
+      "row": 3,
+      "option": 0,
+      "path": "/audio/infinitytower/part-4-a.opus",
+      "cues": [
+        {
+          "start": 111.42857142857143,
+          "duration": 13.714285714285714,
+          "offset": 0.0
+        }
+      ]
+    },
+    {
+      "id": "part-4-b",
+      "row": 3,
+      "option": 1,
+      "path": "/audio/infinitytower/part-4-b.opus",
+      "cues": [
+        {
+          "start": 111.42857142857143,
+          "duration": 13.714285714285714,
+          "offset": 0.0
+        }
+      ]
+    }
+  ],
+  "combinations": {
+    "audio-172ce969c65aff62f5f9a75c3f96a651a5db454987aac662f451c65ea036284c": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "audio-b8153144ee45cb07cbc55f1d7f790f5335a93ad5f401d192dd053c13db3fa51c": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "audio-cc8e831fb9e91d0ba8c3ae4e65a1f120e13661f0076dda7f4c103868d033f1c0": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "audio-7d8446fdfa79d67b1e00dbff5ec449d982aebfd4fb512934c3a7e2a0b7b24537": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "audio-06c345af41fac3e170988a38b7051a4a75c5b2b4e5e82b0dadaafd9105fae3b1": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "audio-919aed8dc7e698beef6195f99d76219267a9d5de3c158d0ee7451be24cb7d305": [
+      0,
+      1,
+      0,
+      1
+    ],
+    "audio-987406f690b720191a33b51c8fa8a613e26fcffe3a777f7cb93f1b6480820b9f": [
+      0,
+      1,
+      1,
+      0
+    ],
+    "audio-ec3491595162c534a39125d7b2e18e2bacb6106cb862d3af639130725cd674e1": [
+      0,
+      1,
+      1,
+      1
+    ],
+    "audio-5e0cbbf1288a3e8b2614db19334bf5f07ada286062b45213febe0a2bac033ca5": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "audio-11e6a3f164a6f3b6ba71ea9d09be9c1113131bacb4004e6a98a979d0e7cd6a81": [
+      1,
+      0,
+      0,
+      1
+    ],
+    "audio-501242dece909f7a47407e17f40c9186593a0eb74835e09600d8406ac79126cb": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "audio-a0959d82aa30feb73c078ac4bf4f092a27b926ceb27f8152773d90fe2ea49d8b": [
+      1,
+      0,
+      1,
+      1
+    ],
+    "audio-3813ca508dc98d58fc7f25274c734a36d8111d8093fa01119cdee0dc167b2220": [
+      1,
+      1,
+      0,
+      0
+    ],
+    "audio-857e9a757481c850ed608693d4c93f4d0a33e7b485ae949f4dd5b2cc04594a00": [
+      1,
+      1,
+      0,
+      1
+    ],
+    "audio-60b9e4d4c4f1506b24e658de4c2701c9441c2f36670eebc22df0d2bd732a3e2c": [
+      1,
+      1,
+      1,
+      0
+    ],
+    "audio-f992218a4d650d4c079d66ade0b1d7d960ce888e72b873428778e1eadf1ee50e": [
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "source_sha256": {
+    "623406877": "dcc0d0d5f224424fb396fd0293e682f04de637757f8104df0b99a766d8ae6483",
+    "147622662": "5bde80aa442e36dcb1db4e8586b3c9b8d65fd07f5b45141a4682d7205d8f0406",
+    "840557293": "e676507a5ff335b050399ff29a1a42893976b5b85e6ce3948197ef2d8d63cb51",
+    "690354636": "f8ce9f1f940e76810472bf8f03c6cbadc0d7bfb1c1dfba50bb6d33bab70c1378",
+    "762396951": "bd818f65d3f4054b94c36df11be43eb9456adce192d66564bd1916fc1ef63e6e",
+    "573861789": "88b3f9e3af21a7829333b202a7952807356823349adc353a0be631a6bf060f5c",
+    "177005291": "2edd4f35a2da29f99bf6564bb7b0f7fe6f18023f45acaee1c84da1acdca07dcb"
+  },
+  "notes": "Four independent sequential segment selectors, not isolated instruments. Original -2/-3 dB recipe gains retained. Musical grid uses 44100 Hz sample boundaries; short Vorbis tails padded by at most 300 samples to maintain synchronized loop timing."
+}

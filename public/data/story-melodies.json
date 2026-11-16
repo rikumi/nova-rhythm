@@ -1975,22 +1975,6 @@
       "before_group": "permanent-combat"
     },
     {
-      "id": "mode-晋升试炼",
-      "name": "晋升试炼",
-      "date": "",
-      "description": "",
-      "outfit_references": [],
-      "tracks": [
-        {
-          "id": "audio-06592bd073fb3d13643936433b78b02d4a9255209a690f14b54f928df10a8a8b",
-          "name": "晋升试炼",
-          "file": "/audio/audio-06592bd073fb3d13643936433b78b02d4a9255209a690f14b54f928df10a8a8b.opus",
-          "description": ""
-        }
-      ],
-      "before_group": "permanent-combat"
-    },
-    {
       "id": "permanent-combat",
       "name": "常驻玩法",
       "date": "",
@@ -2109,6 +2093,12 @@
           "id": "audio-14515f07353d6f9e18adcd67fb4616dc3900284a439b614f1c4c002ced44aeab",
           "name": "突围玩法",
           "file": "/audio/audio-14515f07353d6f9e18adcd67fb4616dc3900284a439b614f1c4c002ced44aeab.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-06592bd073fb3d13643936433b78b02d4a9255209a690f14b54f928df10a8a8b",
+          "name": "晋升试炼",
+          "file": "/audio/audio-06592bd073fb3d13643936433b78b02d4a9255209a690f14b54f928df10a8a8b.opus",
           "description": ""
         }
       ]

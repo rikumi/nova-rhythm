@@ -1,3 +1,4 @@
+import type { MixerDefinition } from './layeredAudio';
 export interface Music {
   id: string;
   title: string;
@@ -9,6 +10,7 @@ export interface Music {
   loop: { start: number; end: number } | null;
   content_id?: string; shared_uses?: string[];
   display_title?: string;
+  mixer?: MixerDefinition;
 }
 export interface MusicGroup {
   id: string; name: string; date: string; track_ids: string[];
