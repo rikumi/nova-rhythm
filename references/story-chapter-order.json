@@ -1,0 +1,3370 @@
+{
+  "schema_version": 1,
+  "source_table_sha256": {
+    "Story": "72ced0dc18b3aee3c7318c1c0f874a7e3dc96e5689bd59936ec281bdf2526619",
+    "ActivityStory": "cc906e4102428c0bd41cb34af7b33689c152ab89086680b980790da4e23cc277",
+    "StorySetSection": "08292679e78068942cb6672ab1ce8569062ad3e0e8fd2b26deadaf1c0e8b2a10",
+    "ActivityAvgLevel": "8a23053df4607b61dea1b674fc856ba7f835f5d40b68e52aae21f65aea89c5ed",
+    "Plot": "a61c721141cdb37bd0843c434bbaddfcc7ce8cb591827a01d91da5736589fa32"
+  },
+  "logic": {
+    "mainline": "GameCore/Data/DataClass/AvgData.lua: Init CFG_ChapterStoryNumIds, config order",
+    "activity": "GameCore/Data/DataClass/Activity/ActivityStoryDataBase.lua: SortStoryList, BFS roots/children by Id"
+  },
+  "entries": [
+    {
+      "table": "Story",
+      "id": 100,
+      "chapter": 1,
+      "rank": 0
+    },
+    {
+      "table": "Story",
+      "id": 101,
+      "chapter": 1,
+      "rank": 1
+    },
+    {
+      "table": "Story",
+      "id": 102,
+      "chapter": 1,
+      "rank": 2
+    },
+    {
+      "table": "Story",
+      "id": 103,
+      "chapter": 1,
+      "rank": 3
+    },
+    {
+      "table": "Story",
+      "id": 104,
+      "chapter": 1,
+      "rank": 4
+    },
+    {
+      "table": "Story",
+      "id": 105,
+      "chapter": 1,
+      "rank": 5
+    },
+    {
+      "table": "Story",
+      "id": 106,
+      "chapter": 1,
+      "rank": 6
+    },
+    {
+      "table": "Story",
+      "id": 107,
+      "chapter": 1,
+      "rank": 7
+    },
+    {
+      "table": "Story",
+      "id": 108,
+      "chapter": 1,
+      "rank": 8
+    },
+    {
+      "table": "Story",
+      "id": 109,
+      "chapter": 1,
+      "rank": 9
+    },
+    {
+      "table": "Story",
+      "id": 110,
+      "chapter": 1,
+      "rank": 10
+    },
+    {
+      "table": "Story",
+      "id": 111,
+      "chapter": 1,
+      "rank": 11
+    },
+    {
+      "table": "Story",
+      "id": 112,
+      "chapter": 1,
+      "rank": 12
+    },
+    {
+      "table": "Story",
+      "id": 201,
+      "chapter": 2,
+      "rank": 13
+    },
+    {
+      "table": "Story",
+      "id": 202,
+      "chapter": 2,
+      "rank": 14
+    },
+    {
+      "table": "Story",
+      "id": 203,
+      "chapter": 2,
+      "rank": 15
+    },
+    {
+      "table": "Story",
+      "id": 204,
+      "chapter": 2,
+      "rank": 16
+    },
+    {
+      "table": "Story",
+      "id": 205,
+      "chapter": 2,
+      "rank": 17
+    },
+    {
+      "table": "Story",
+      "id": 206,
+      "chapter": 2,
+      "rank": 18
+    },
+    {
+      "table": "Story",
+      "id": 207,
+      "chapter": 2,
+      "rank": 19
+    },
+    {
+      "table": "Story",
+      "id": 208,
+      "chapter": 2,
+      "rank": 20
+    },
+    {
+      "table": "Story",
+      "id": 209,
+      "chapter": 2,
+      "rank": 21
+    },
+    {
+      "table": "Story",
+      "id": 210,
+      "chapter": 2,
+      "rank": 22
+    },
+    {
+      "table": "Story",
+      "id": 211,
+      "chapter": 2,
+      "rank": 23
+    },
+    {
+      "table": "Story",
+      "id": 212,
+      "chapter": 2,
+      "rank": 24
+    },
+    {
+      "table": "Story",
+      "id": 213,
+      "chapter": 2,
+      "rank": 25
+    },
+    {
+      "table": "Story",
+      "id": 214,
+      "chapter": 2,
+      "rank": 26
+    },
+    {
+      "table": "Story",
+      "id": 215,
+      "chapter": 2,
+      "rank": 27
+    },
+    {
+      "table": "Story",
+      "id": 216,
+      "chapter": 2,
+      "rank": 28
+    },
+    {
+      "table": "Story",
+      "id": 217,
+      "chapter": 2,
+      "rank": 29
+    },
+    {
+      "table": "Story",
+      "id": 301,
+      "chapter": 3,
+      "rank": 30
+    },
+    {
+      "table": "Story",
+      "id": 302,
+      "chapter": 3,
+      "rank": 31
+    },
+    {
+      "table": "Story",
+      "id": 304,
+      "chapter": 3,
+      "rank": 32
+    },
+    {
+      "table": "Story",
+      "id": 305,
+      "chapter": 3,
+      "rank": 33
+    },
+    {
+      "table": "Story",
+      "id": 306,
+      "chapter": 3,
+      "rank": 34
+    },
+    {
+      "table": "Story",
+      "id": 307,
+      "chapter": 3,
+      "rank": 35
+    },
+    {
+      "table": "Story",
+      "id": 308,
+      "chapter": 3,
+      "rank": 36
+    },
+    {
+      "table": "Story",
+      "id": 309,
+      "chapter": 3,
+      "rank": 37
+    },
+    {
+      "table": "Story",
+      "id": 310,
+      "chapter": 3,
+      "rank": 38
+    },
+    {
+      "table": "Story",
+      "id": 311,
+      "chapter": 3,
+      "rank": 39
+    },
+    {
+      "table": "Story",
+      "id": 312,
+      "chapter": 3,
+      "rank": 40
+    },
+    {
+      "table": "Story",
+      "id": 313,
+      "chapter": 3,
+      "rank": 41
+    },
+    {
+      "table": "Story",
+      "id": 314,
+      "chapter": 3,
+      "rank": 42
+    },
+    {
+      "table": "Story",
+      "id": 315,
+      "chapter": 3,
+      "rank": 43
+    },
+    {
+      "table": "Story",
+      "id": 316,
+      "chapter": 3,
+      "rank": 44
+    },
+    {
+      "table": "Story",
+      "id": 317,
+      "chapter": 3,
+      "rank": 45
+    },
+    {
+      "table": "Story",
+      "id": 318,
+      "chapter": 3,
+      "rank": 46
+    },
+    {
+      "table": "Story",
+      "id": 401,
+      "chapter": 4,
+      "rank": 47
+    },
+    {
+      "table": "Story",
+      "id": 402,
+      "chapter": 4,
+      "rank": 48
+    },
+    {
+      "table": "Story",
+      "id": 403,
+      "chapter": 4,
+      "rank": 49
+    },
+    {
+      "table": "Story",
+      "id": 404,
+      "chapter": 4,
+      "rank": 50
+    },
+    {
+      "table": "Story",
+      "id": 405,
+      "chapter": 4,
+      "rank": 51
+    },
+    {
+      "table": "Story",
+      "id": 406,
+      "chapter": 4,
+      "rank": 52
+    },
+    {
+      "table": "Story",
+      "id": 407,
+      "chapter": 4,
+      "rank": 53
+    },
+    {
+      "table": "Story",
+      "id": 408,
+      "chapter": 4,
+      "rank": 54
+    },
+    {
+      "table": "Story",
+      "id": 409,
+      "chapter": 4,
+      "rank": 55
+    },
+    {
+      "table": "Story",
+      "id": 410,
+      "chapter": 4,
+      "rank": 56
+    },
+    {
+      "table": "Story",
+      "id": 411,
+      "chapter": 4,
+      "rank": 57
+    },
+    {
+      "table": "Story",
+      "id": 412,
+      "chapter": 4,
+      "rank": 58
+    },
+    {
+      "table": "Story",
+      "id": 413,
+      "chapter": 4,
+      "rank": 59
+    },
+    {
+      "table": "Story",
+      "id": 414,
+      "chapter": 4,
+      "rank": 60
+    },
+    {
+      "table": "Story",
+      "id": 415,
+      "chapter": 4,
+      "rank": 61
+    },
+    {
+      "table": "Story",
+      "id": 416,
+      "chapter": 4,
+      "rank": 62
+    },
+    {
+      "table": "Story",
+      "id": 417,
+      "chapter": 4,
+      "rank": 63
+    },
+    {
+      "table": "Story",
+      "id": 501,
+      "chapter": 5,
+      "rank": 64
+    },
+    {
+      "table": "Story",
+      "id": 502,
+      "chapter": 5,
+      "rank": 65
+    },
+    {
+      "table": "Story",
+      "id": 503,
+      "chapter": 5,
+      "rank": 66
+    },
+    {
+      "table": "Story",
+      "id": 504,
+      "chapter": 5,
+      "rank": 67
+    },
+    {
+      "table": "Story",
+      "id": 505,
+      "chapter": 5,
+      "rank": 68
+    },
+    {
+      "table": "Story",
+      "id": 506,
+      "chapter": 5,
+      "rank": 69
+    },
+    {
+      "table": "Story",
+      "id": 507,
+      "chapter": 5,
+      "rank": 70
+    },
+    {
+      "table": "Story",
+      "id": 508,
+      "chapter": 5,
+      "rank": 71
+    },
+    {
+      "table": "Story",
+      "id": 509,
+      "chapter": 5,
+      "rank": 72
+    },
+    {
+      "table": "Story",
+      "id": 510,
+      "chapter": 5,
+      "rank": 73
+    },
+    {
+      "table": "Story",
+      "id": 511,
+      "chapter": 5,
+      "rank": 74
+    },
+    {
+      "table": "Story",
+      "id": 512,
+      "chapter": 5,
+      "rank": 75
+    },
+    {
+      "table": "Story",
+      "id": 513,
+      "chapter": 5,
+      "rank": 76
+    },
+    {
+      "table": "Story",
+      "id": 514,
+      "chapter": 5,
+      "rank": 77
+    },
+    {
+      "table": "Story",
+      "id": 515,
+      "chapter": 5,
+      "rank": 78
+    },
+    {
+      "table": "Story",
+      "id": 516,
+      "chapter": 5,
+      "rank": 79
+    },
+    {
+      "table": "Story",
+      "id": 517,
+      "chapter": 5,
+      "rank": 80
+    },
+    {
+      "table": "Story",
+      "id": 518,
+      "chapter": 5,
+      "rank": 81
+    },
+    {
+      "table": "Story",
+      "id": 519,
+      "chapter": 5,
+      "rank": 82
+    },
+    {
+      "table": "Story",
+      "id": 601,
+      "chapter": 6,
+      "rank": 83
+    },
+    {
+      "table": "Story",
+      "id": 602,
+      "chapter": 6,
+      "rank": 84
+    },
+    {
+      "table": "Story",
+      "id": 603,
+      "chapter": 6,
+      "rank": 85
+    },
+    {
+      "table": "Story",
+      "id": 604,
+      "chapter": 6,
+      "rank": 86
+    },
+    {
+      "table": "Story",
+      "id": 605,
+      "chapter": 6,
+      "rank": 87
+    },
+    {
+      "table": "Story",
+      "id": 606,
+      "chapter": 6,
+      "rank": 88
+    },
+    {
+      "table": "Story",
+      "id": 607,
+      "chapter": 6,
+      "rank": 89
+    },
+    {
+      "table": "Story",
+      "id": 608,
+      "chapter": 6,
+      "rank": 90
+    },
+    {
+      "table": "Story",
+      "id": 609,
+      "chapter": 6,
+      "rank": 91
+    },
+    {
+      "table": "Story",
+      "id": 610,
+      "chapter": 6,
+      "rank": 92
+    },
+    {
+      "table": "Story",
+      "id": 611,
+      "chapter": 6,
+      "rank": 93
+    },
+    {
+      "table": "Story",
+      "id": 612,
+      "chapter": 6,
+      "rank": 94
+    },
+    {
+      "table": "Story",
+      "id": 613,
+      "chapter": 6,
+      "rank": 95
+    },
+    {
+      "table": "Story",
+      "id": 614,
+      "chapter": 6,
+      "rank": 96
+    },
+    {
+      "table": "Story",
+      "id": 615,
+      "chapter": 6,
+      "rank": 97
+    },
+    {
+      "table": "Story",
+      "id": 616,
+      "chapter": 6,
+      "rank": 98
+    },
+    {
+      "table": "Story",
+      "id": 617,
+      "chapter": 6,
+      "rank": 99
+    },
+    {
+      "table": "Story",
+      "id": 618,
+      "chapter": 6,
+      "rank": 100
+    },
+    {
+      "table": "Story",
+      "id": 619,
+      "chapter": 6,
+      "rank": 101
+    },
+    {
+      "table": "Story",
+      "id": 620,
+      "chapter": 6,
+      "rank": 102
+    },
+    {
+      "table": "Story",
+      "id": 621,
+      "chapter": 6,
+      "rank": 103
+    },
+    {
+      "table": "Story",
+      "id": 622,
+      "chapter": 6,
+      "rank": 104
+    },
+    {
+      "table": "Story",
+      "id": 6501,
+      "chapter": 7,
+      "rank": 105
+    },
+    {
+      "table": "Story",
+      "id": 6502,
+      "chapter": 7,
+      "rank": 106
+    },
+    {
+      "table": "Story",
+      "id": 6503,
+      "chapter": 7,
+      "rank": 107
+    },
+    {
+      "table": "Story",
+      "id": 6504,
+      "chapter": 7,
+      "rank": 108
+    },
+    {
+      "table": "Story",
+      "id": 6505,
+      "chapter": 7,
+      "rank": 109
+    },
+    {
+      "table": "Story",
+      "id": 6506,
+      "chapter": 7,
+      "rank": 110
+    },
+    {
+      "table": "Story",
+      "id": 6507,
+      "chapter": 7,
+      "rank": 111
+    },
+    {
+      "table": "Story",
+      "id": 6508,
+      "chapter": 7,
+      "rank": 112
+    },
+    {
+      "table": "Story",
+      "id": 6509,
+      "chapter": 7,
+      "rank": 113
+    },
+    {
+      "table": "Story",
+      "id": 6510,
+      "chapter": 7,
+      "rank": 114
+    },
+    {
+      "table": "Story",
+      "id": 6511,
+      "chapter": 7,
+      "rank": 115
+    },
+    {
+      "table": "Story",
+      "id": 6512,
+      "chapter": 7,
+      "rank": 116
+    },
+    {
+      "table": "Story",
+      "id": 801,
+      "chapter": 8,
+      "rank": 117
+    },
+    {
+      "table": "Story",
+      "id": 802,
+      "chapter": 8,
+      "rank": 118
+    },
+    {
+      "table": "Story",
+      "id": 803,
+      "chapter": 8,
+      "rank": 119
+    },
+    {
+      "table": "Story",
+      "id": 804,
+      "chapter": 8,
+      "rank": 120
+    },
+    {
+      "table": "Story",
+      "id": 805,
+      "chapter": 8,
+      "rank": 121
+    },
+    {
+      "table": "Story",
+      "id": 806,
+      "chapter": 8,
+      "rank": 122
+    },
+    {
+      "table": "Story",
+      "id": 807,
+      "chapter": 8,
+      "rank": 123
+    },
+    {
+      "table": "Story",
+      "id": 808,
+      "chapter": 8,
+      "rank": 124
+    },
+    {
+      "table": "Story",
+      "id": 809,
+      "chapter": 8,
+      "rank": 125
+    },
+    {
+      "table": "Story",
+      "id": 810,
+      "chapter": 8,
+      "rank": 126
+    },
+    {
+      "table": "Story",
+      "id": 811,
+      "chapter": 8,
+      "rank": 127
+    },
+    {
+      "table": "Story",
+      "id": 812,
+      "chapter": 8,
+      "rank": 128
+    },
+    {
+      "table": "Story",
+      "id": 813,
+      "chapter": 8,
+      "rank": 129
+    },
+    {
+      "table": "Story",
+      "id": 814,
+      "chapter": 8,
+      "rank": 130
+    },
+    {
+      "table": "Story",
+      "id": 815,
+      "chapter": 8,
+      "rank": 131
+    },
+    {
+      "table": "Story",
+      "id": 816,
+      "chapter": 8,
+      "rank": 132
+    },
+    {
+      "table": "Story",
+      "id": 817,
+      "chapter": 8,
+      "rank": 133
+    },
+    {
+      "table": "Story",
+      "id": 818,
+      "chapter": 8,
+      "rank": 134
+    },
+    {
+      "table": "Story",
+      "id": 819,
+      "chapter": 8,
+      "rank": 135
+    },
+    {
+      "table": "Story",
+      "id": 820,
+      "chapter": 8,
+      "rank": 136
+    },
+    {
+      "table": "Story",
+      "id": 821,
+      "chapter": 8,
+      "rank": 137
+    },
+    {
+      "table": "Story",
+      "id": 822,
+      "chapter": 8,
+      "rank": 138
+    },
+    {
+      "table": "Story",
+      "id": 823,
+      "chapter": 8,
+      "rank": 139
+    },
+    {
+      "table": "Story",
+      "id": 824,
+      "chapter": 8,
+      "rank": 140
+    },
+    {
+      "table": "Story",
+      "id": 825,
+      "chapter": 8,
+      "rank": 141
+    },
+    {
+      "table": "Story",
+      "id": 901,
+      "chapter": 9,
+      "rank": 142
+    },
+    {
+      "table": "Story",
+      "id": 902,
+      "chapter": 9,
+      "rank": 143
+    },
+    {
+      "table": "Story",
+      "id": 903,
+      "chapter": 9,
+      "rank": 144
+    },
+    {
+      "table": "Story",
+      "id": 904,
+      "chapter": 9,
+      "rank": 145
+    },
+    {
+      "table": "Story",
+      "id": 905,
+      "chapter": 9,
+      "rank": 146
+    },
+    {
+      "table": "Story",
+      "id": 906,
+      "chapter": 9,
+      "rank": 147
+    },
+    {
+      "table": "Story",
+      "id": 907,
+      "chapter": 9,
+      "rank": 148
+    },
+    {
+      "table": "Story",
+      "id": 908,
+      "chapter": 9,
+      "rank": 149
+    },
+    {
+      "table": "Story",
+      "id": 909,
+      "chapter": 9,
+      "rank": 150
+    },
+    {
+      "table": "Story",
+      "id": 910,
+      "chapter": 9,
+      "rank": 151
+    },
+    {
+      "table": "Story",
+      "id": 911,
+      "chapter": 9,
+      "rank": 152
+    },
+    {
+      "table": "Story",
+      "id": 912,
+      "chapter": 9,
+      "rank": 153
+    },
+    {
+      "table": "Story",
+      "id": 913,
+      "chapter": 9,
+      "rank": 154
+    },
+    {
+      "table": "Story",
+      "id": 914,
+      "chapter": 9,
+      "rank": 155
+    },
+    {
+      "table": "Story",
+      "id": 915,
+      "chapter": 9,
+      "rank": 156
+    },
+    {
+      "table": "Story",
+      "id": 916,
+      "chapter": 9,
+      "rank": 157
+    },
+    {
+      "table": "Story",
+      "id": 917,
+      "chapter": 9,
+      "rank": 158
+    },
+    {
+      "table": "Story",
+      "id": 918,
+      "chapter": 9,
+      "rank": 159
+    },
+    {
+      "table": "Story",
+      "id": 919,
+      "chapter": 9,
+      "rank": 160
+    },
+    {
+      "table": "Story",
+      "id": 920,
+      "chapter": 9,
+      "rank": 161
+    },
+    {
+      "table": "Story",
+      "id": 921,
+      "chapter": 9,
+      "rank": 162
+    },
+    {
+      "table": "Story",
+      "id": 922,
+      "chapter": 9,
+      "rank": 163
+    },
+    {
+      "table": "Story",
+      "id": 923,
+      "chapter": 9,
+      "rank": 164
+    },
+    {
+      "table": "Story",
+      "id": 924,
+      "chapter": 9,
+      "rank": 165
+    },
+    {
+      "table": "Story",
+      "id": 925,
+      "chapter": 9,
+      "rank": 166
+    },
+    {
+      "table": "Story",
+      "id": 926,
+      "chapter": 9,
+      "rank": 167
+    },
+    {
+      "table": "Story",
+      "id": 927,
+      "chapter": 9,
+      "rank": 168
+    },
+    {
+      "table": "Story",
+      "id": 928,
+      "chapter": 9,
+      "rank": 169
+    },
+    {
+      "table": "Story",
+      "id": 1001,
+      "chapter": 10,
+      "rank": 170
+    },
+    {
+      "table": "Story",
+      "id": 1002,
+      "chapter": 10,
+      "rank": 171
+    },
+    {
+      "table": "Story",
+      "id": 1003,
+      "chapter": 10,
+      "rank": 172
+    },
+    {
+      "table": "Story",
+      "id": 1004,
+      "chapter": 10,
+      "rank": 173
+    },
+    {
+      "table": "Story",
+      "id": 1005,
+      "chapter": 10,
+      "rank": 174
+    },
+    {
+      "table": "Story",
+      "id": 1006,
+      "chapter": 10,
+      "rank": 175
+    },
+    {
+      "table": "Story",
+      "id": 1007,
+      "chapter": 10,
+      "rank": 176
+    },
+    {
+      "table": "Story",
+      "id": 1008,
+      "chapter": 10,
+      "rank": 177
+    },
+    {
+      "table": "Story",
+      "id": 1009,
+      "chapter": 10,
+      "rank": 178
+    },
+    {
+      "table": "Story",
+      "id": 1010,
+      "chapter": 10,
+      "rank": 179
+    },
+    {
+      "table": "Story",
+      "id": 1011,
+      "chapter": 10,
+      "rank": 180
+    },
+    {
+      "table": "Story",
+      "id": 1012,
+      "chapter": 10,
+      "rank": 181
+    },
+    {
+      "table": "Story",
+      "id": 1013,
+      "chapter": 10,
+      "rank": 182
+    },
+    {
+      "table": "Story",
+      "id": 1014,
+      "chapter": 10,
+      "rank": 183
+    },
+    {
+      "table": "Story",
+      "id": 1015,
+      "chapter": 10,
+      "rank": 184
+    },
+    {
+      "table": "Story",
+      "id": 1016,
+      "chapter": 10,
+      "rank": 185
+    },
+    {
+      "table": "Story",
+      "id": 1017,
+      "chapter": 10,
+      "rank": 186
+    },
+    {
+      "table": "Story",
+      "id": 1018,
+      "chapter": 10,
+      "rank": 187
+    },
+    {
+      "table": "Story",
+      "id": 1019,
+      "chapter": 10,
+      "rank": 188
+    },
+    {
+      "table": "Story",
+      "id": 1020,
+      "chapter": 10,
+      "rank": 189
+    },
+    {
+      "table": "Story",
+      "id": 1021,
+      "chapter": 10,
+      "rank": 190
+    },
+    {
+      "table": "Story",
+      "id": 1022,
+      "chapter": 10,
+      "rank": 191
+    },
+    {
+      "table": "Story",
+      "id": 1023,
+      "chapter": 10,
+      "rank": 192
+    },
+    {
+      "table": "Story",
+      "id": 1024,
+      "chapter": 10,
+      "rank": 193
+    },
+    {
+      "table": "Story",
+      "id": 1025,
+      "chapter": 10,
+      "rank": 194
+    },
+    {
+      "table": "Story",
+      "id": 1026,
+      "chapter": 10,
+      "rank": 195
+    },
+    {
+      "table": "Story",
+      "id": 1101,
+      "chapter": 11,
+      "rank": 196
+    },
+    {
+      "table": "Story",
+      "id": 1102,
+      "chapter": 11,
+      "rank": 197
+    },
+    {
+      "table": "Story",
+      "id": 1103,
+      "chapter": 11,
+      "rank": 198
+    },
+    {
+      "table": "Story",
+      "id": 1104,
+      "chapter": 11,
+      "rank": 199
+    },
+    {
+      "table": "Story",
+      "id": 1105,
+      "chapter": 11,
+      "rank": 200
+    },
+    {
+      "table": "Story",
+      "id": 1106,
+      "chapter": 11,
+      "rank": 201
+    },
+    {
+      "table": "Story",
+      "id": 1107,
+      "chapter": 11,
+      "rank": 202
+    },
+    {
+      "table": "Story",
+      "id": 1108,
+      "chapter": 11,
+      "rank": 203
+    },
+    {
+      "table": "Story",
+      "id": 1109,
+      "chapter": 11,
+      "rank": 204
+    },
+    {
+      "table": "Story",
+      "id": 1110,
+      "chapter": 11,
+      "rank": 205
+    },
+    {
+      "table": "Story",
+      "id": 1111,
+      "chapter": 11,
+      "rank": 206
+    },
+    {
+      "table": "Story",
+      "id": 1112,
+      "chapter": 11,
+      "rank": 207
+    },
+    {
+      "table": "Story",
+      "id": 1113,
+      "chapter": 11,
+      "rank": 208
+    },
+    {
+      "table": "Story",
+      "id": 1114,
+      "chapter": 11,
+      "rank": 209
+    },
+    {
+      "table": "Story",
+      "id": 1115,
+      "chapter": 11,
+      "rank": 210
+    },
+    {
+      "table": "Story",
+      "id": 1116,
+      "chapter": 11,
+      "rank": 211
+    },
+    {
+      "table": "Story",
+      "id": 1117,
+      "chapter": 11,
+      "rank": 212
+    },
+    {
+      "table": "Story",
+      "id": 1118,
+      "chapter": 11,
+      "rank": 213
+    },
+    {
+      "table": "Story",
+      "id": 1119,
+      "chapter": 11,
+      "rank": 214
+    },
+    {
+      "table": "Story",
+      "id": 1120,
+      "chapter": 11,
+      "rank": 215
+    },
+    {
+      "table": "Story",
+      "id": 1121,
+      "chapter": 11,
+      "rank": 216
+    },
+    {
+      "table": "Story",
+      "id": 1122,
+      "chapter": 11,
+      "rank": 217
+    },
+    {
+      "table": "Story",
+      "id": 1123,
+      "chapter": 11,
+      "rank": 218
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101040201,
+      "chapter": 10104,
+      "rank": 0
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101040202,
+      "chapter": 10104,
+      "rank": 1
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101040203,
+      "chapter": 10104,
+      "rank": 2
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101040204,
+      "chapter": 10104,
+      "rank": 3
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101040205,
+      "chapter": 10104,
+      "rank": 4
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101040206,
+      "chapter": 10104,
+      "rank": 5
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101040207,
+      "chapter": 10104,
+      "rank": 6
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101040208,
+      "chapter": 10104,
+      "rank": 7
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101040209,
+      "chapter": 10104,
+      "rank": 8
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101040210,
+      "chapter": 10104,
+      "rank": 9
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101040211,
+      "chapter": 10104,
+      "rank": 10
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101050201,
+      "chapter": 10105,
+      "rank": 11
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101050202,
+      "chapter": 10105,
+      "rank": 12
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101050203,
+      "chapter": 10105,
+      "rank": 13
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101050204,
+      "chapter": 10105,
+      "rank": 14
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101050205,
+      "chapter": 10105,
+      "rank": 15
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101050206,
+      "chapter": 10105,
+      "rank": 16
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101050207,
+      "chapter": 10105,
+      "rank": 17
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101050208,
+      "chapter": 10105,
+      "rank": 18
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101050209,
+      "chapter": 10105,
+      "rank": 19
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101050210,
+      "chapter": 10105,
+      "rank": 20
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101050211,
+      "chapter": 10105,
+      "rank": 21
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101050212,
+      "chapter": 10105,
+      "rank": 22
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101060201,
+      "chapter": 10106,
+      "rank": 23
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101060202,
+      "chapter": 10106,
+      "rank": 24
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101060203,
+      "chapter": 10106,
+      "rank": 25
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101060204,
+      "chapter": 10106,
+      "rank": 26
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101060205,
+      "chapter": 10106,
+      "rank": 27
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101060206,
+      "chapter": 10106,
+      "rank": 28
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101060207,
+      "chapter": 10106,
+      "rank": 29
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101060208,
+      "chapter": 10106,
+      "rank": 30
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101060209,
+      "chapter": 10106,
+      "rank": 31
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101060210,
+      "chapter": 10106,
+      "rank": 32
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101060211,
+      "chapter": 10106,
+      "rank": 33
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101060212,
+      "chapter": 10106,
+      "rank": 34
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101070201,
+      "chapter": 10107,
+      "rank": 35
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101070202,
+      "chapter": 10107,
+      "rank": 36
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101070203,
+      "chapter": 10107,
+      "rank": 37
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101070204,
+      "chapter": 10107,
+      "rank": 38
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101070205,
+      "chapter": 10107,
+      "rank": 39
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101070206,
+      "chapter": 10107,
+      "rank": 40
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101070207,
+      "chapter": 10107,
+      "rank": 41
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101070208,
+      "chapter": 10107,
+      "rank": 42
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101070209,
+      "chapter": 10107,
+      "rank": 43
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101070210,
+      "chapter": 10107,
+      "rank": 44
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101070211,
+      "chapter": 10107,
+      "rank": 45
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101080201,
+      "chapter": 10108,
+      "rank": 46
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101080202,
+      "chapter": 10108,
+      "rank": 47
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101080203,
+      "chapter": 10108,
+      "rank": 48
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101080204,
+      "chapter": 10108,
+      "rank": 49
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101080205,
+      "chapter": 10108,
+      "rank": 50
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101080206,
+      "chapter": 10108,
+      "rank": 51
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101080207,
+      "chapter": 10108,
+      "rank": 52
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101080208,
+      "chapter": 10108,
+      "rank": 53
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101080209,
+      "chapter": 10108,
+      "rank": 54
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101080210,
+      "chapter": 10108,
+      "rank": 55
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101090201,
+      "chapter": 10109,
+      "rank": 56
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101090202,
+      "chapter": 10109,
+      "rank": 57
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101090203,
+      "chapter": 10109,
+      "rank": 58
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101090204,
+      "chapter": 10109,
+      "rank": 59
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101090205,
+      "chapter": 10109,
+      "rank": 60
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101090206,
+      "chapter": 10109,
+      "rank": 61
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101090207,
+      "chapter": 10109,
+      "rank": 62
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101090208,
+      "chapter": 10109,
+      "rank": 63
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101090209,
+      "chapter": 10109,
+      "rank": 64
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101090210,
+      "chapter": 10109,
+      "rank": 65
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101100201,
+      "chapter": 10110,
+      "rank": 66
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101100202,
+      "chapter": 10110,
+      "rank": 67
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101100203,
+      "chapter": 10110,
+      "rank": 68
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101100204,
+      "chapter": 10110,
+      "rank": 69
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101100205,
+      "chapter": 10110,
+      "rank": 70
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101100206,
+      "chapter": 10110,
+      "rank": 71
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101100207,
+      "chapter": 10110,
+      "rank": 72
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101100208,
+      "chapter": 10110,
+      "rank": 73
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101100209,
+      "chapter": 10110,
+      "rank": 74
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101100210,
+      "chapter": 10110,
+      "rank": 75
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101100211,
+      "chapter": 10110,
+      "rank": 76
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101110201,
+      "chapter": 10111,
+      "rank": 77
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101110202,
+      "chapter": 10111,
+      "rank": 78
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101110203,
+      "chapter": 10111,
+      "rank": 79
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101110204,
+      "chapter": 10111,
+      "rank": 80
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101110205,
+      "chapter": 10111,
+      "rank": 81
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101110206,
+      "chapter": 10111,
+      "rank": 82
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101110207,
+      "chapter": 10111,
+      "rank": 83
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101110208,
+      "chapter": 10111,
+      "rank": 84
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101110209,
+      "chapter": 10111,
+      "rank": 85
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101110210,
+      "chapter": 10111,
+      "rank": 86
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101110211,
+      "chapter": 10111,
+      "rank": 87
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101130201,
+      "chapter": 10113,
+      "rank": 88
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101130202,
+      "chapter": 10113,
+      "rank": 89
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101130203,
+      "chapter": 10113,
+      "rank": 90
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101130204,
+      "chapter": 10113,
+      "rank": 91
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101130205,
+      "chapter": 10113,
+      "rank": 92
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101130206,
+      "chapter": 10113,
+      "rank": 93
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101130207,
+      "chapter": 10113,
+      "rank": 94
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101130208,
+      "chapter": 10113,
+      "rank": 95
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101130209,
+      "chapter": 10113,
+      "rank": 96
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101130210,
+      "chapter": 10113,
+      "rank": 97
+    },
+    {
+      "table": "ActivityStory",
+      "id": 101130211,
+      "chapter": 10113,
+      "rank": 98
+    },
+    {
+      "table": "ActivityStory",
+      "id": 111000201,
+      "chapter": 11100,
+      "rank": 99
+    },
+    {
+      "table": "ActivityStory",
+      "id": 111000202,
+      "chapter": 11100,
+      "rank": 100
+    },
+    {
+      "table": "ActivityStory",
+      "id": 111000203,
+      "chapter": 11100,
+      "rank": 101
+    },
+    {
+      "table": "ActivityStory",
+      "id": 111000204,
+      "chapter": 11100,
+      "rank": 102
+    },
+    {
+      "table": "ActivityStory",
+      "id": 111000205,
+      "chapter": 11100,
+      "rank": 103
+    },
+    {
+      "table": "ActivityStory",
+      "id": 111000206,
+      "chapter": 11100,
+      "rank": 104
+    },
+    {
+      "table": "ActivityStory",
+      "id": 111000207,
+      "chapter": 11100,
+      "rank": 105
+    },
+    {
+      "table": "ActivityStory",
+      "id": 111000208,
+      "chapter": 11100,
+      "rank": 106
+    },
+    {
+      "table": "ActivityStory",
+      "id": 111000209,
+      "chapter": 11100,
+      "rank": 107
+    },
+    {
+      "table": "ActivityStory",
+      "id": 111000210,
+      "chapter": 11100,
+      "rank": 108
+    },
+    {
+      "table": "ActivityStory",
+      "id": 111000211,
+      "chapter": 11100,
+      "rank": 109
+    },
+    {
+      "table": "ActivityStory",
+      "id": 201010201,
+      "chapter": 20101,
+      "rank": 110
+    },
+    {
+      "table": "ActivityStory",
+      "id": 201010202,
+      "chapter": 20101,
+      "rank": 111
+    },
+    {
+      "table": "ActivityStory",
+      "id": 201010203,
+      "chapter": 20101,
+      "rank": 112
+    },
+    {
+      "table": "ActivityStory",
+      "id": 201010204,
+      "chapter": 20101,
+      "rank": 113
+    },
+    {
+      "table": "ActivityStory",
+      "id": 201010205,
+      "chapter": 20101,
+      "rank": 114
+    },
+    {
+      "table": "ActivityStory",
+      "id": 201010206,
+      "chapter": 20101,
+      "rank": 115
+    },
+    {
+      "table": "ActivityStory",
+      "id": 201010207,
+      "chapter": 20101,
+      "rank": 116
+    },
+    {
+      "table": "ActivityStory",
+      "id": 201010208,
+      "chapter": 20101,
+      "rank": 117
+    },
+    {
+      "table": "ActivityStory",
+      "id": 201010209,
+      "chapter": 20101,
+      "rank": 118
+    },
+    {
+      "table": "ActivityStory",
+      "id": 201010210,
+      "chapter": 20101,
+      "rank": 119
+    },
+    {
+      "table": "ActivityStory",
+      "id": 201010211,
+      "chapter": 20101,
+      "rank": 120
+    },
+    {
+      "table": "ActivityStory",
+      "id": 201010212,
+      "chapter": 20101,
+      "rank": 121
+    },
+    {
+      "table": "ActivityStory",
+      "id": 201010213,
+      "chapter": 20101,
+      "rank": 122
+    },
+    {
+      "table": "ActivityStory",
+      "id": 201010214,
+      "chapter": 20101,
+      "rank": 123
+    },
+    {
+      "table": "ActivityStory",
+      "id": 201030201,
+      "chapter": 20103,
+      "rank": 124
+    },
+    {
+      "table": "ActivityStory",
+      "id": 201030202,
+      "chapter": 20103,
+      "rank": 125
+    },
+    {
+      "table": "ActivityStory",
+      "id": 201030203,
+      "chapter": 20103,
+      "rank": 126
+    },
+    {
+      "table": "ActivityStory",
+      "id": 201030204,
+      "chapter": 20103,
+      "rank": 127
+    },
+    {
+      "table": "ActivityStory",
+      "id": 201030205,
+      "chapter": 20103,
+      "rank": 128
+    },
+    {
+      "table": "ActivityStory",
+      "id": 201030206,
+      "chapter": 20103,
+      "rank": 129
+    },
+    {
+      "table": "ActivityStory",
+      "id": 201030207,
+      "chapter": 20103,
+      "rank": 130
+    },
+    {
+      "table": "ActivityStory",
+      "id": 201030208,
+      "chapter": 20103,
+      "rank": 131
+    },
+    {
+      "table": "ActivityStory",
+      "id": 201030209,
+      "chapter": 20103,
+      "rank": 132
+    },
+    {
+      "table": "ActivityStory",
+      "id": 201030210,
+      "chapter": 20103,
+      "rank": 133
+    },
+    {
+      "table": "ActivityStory",
+      "id": 201030211,
+      "chapter": 20103,
+      "rank": 134
+    },
+    {
+      "table": "StorySetSection",
+      "id": 100101,
+      "chapter": 1001,
+      "rank": 0
+    },
+    {
+      "table": "StorySetSection",
+      "id": 100102,
+      "chapter": 1001,
+      "rank": 1
+    },
+    {
+      "table": "StorySetSection",
+      "id": 100103,
+      "chapter": 1001,
+      "rank": 2
+    },
+    {
+      "table": "StorySetSection",
+      "id": 100201,
+      "chapter": 1002,
+      "rank": 3
+    },
+    {
+      "table": "StorySetSection",
+      "id": 100202,
+      "chapter": 1002,
+      "rank": 4
+    },
+    {
+      "table": "StorySetSection",
+      "id": 100203,
+      "chapter": 1002,
+      "rank": 5
+    },
+    {
+      "table": "StorySetSection",
+      "id": 100204,
+      "chapter": 1002,
+      "rank": 6
+    },
+    {
+      "table": "StorySetSection",
+      "id": 100301,
+      "chapter": 1003,
+      "rank": 7
+    },
+    {
+      "table": "StorySetSection",
+      "id": 100302,
+      "chapter": 1003,
+      "rank": 8
+    },
+    {
+      "table": "StorySetSection",
+      "id": 100303,
+      "chapter": 1003,
+      "rank": 9
+    },
+    {
+      "table": "StorySetSection",
+      "id": 100401,
+      "chapter": 1004,
+      "rank": 10
+    },
+    {
+      "table": "StorySetSection",
+      "id": 100402,
+      "chapter": 1004,
+      "rank": 11
+    },
+    {
+      "table": "StorySetSection",
+      "id": 100403,
+      "chapter": 1004,
+      "rank": 12
+    },
+    {
+      "table": "StorySetSection",
+      "id": 100501,
+      "chapter": 1005,
+      "rank": 13
+    },
+    {
+      "table": "StorySetSection",
+      "id": 100502,
+      "chapter": 1005,
+      "rank": 14
+    },
+    {
+      "table": "StorySetSection",
+      "id": 100503,
+      "chapter": 1005,
+      "rank": 15
+    },
+    {
+      "table": "StorySetSection",
+      "id": 100601,
+      "chapter": 1006,
+      "rank": 16
+    },
+    {
+      "table": "StorySetSection",
+      "id": 100602,
+      "chapter": 1006,
+      "rank": 17
+    },
+    {
+      "table": "StorySetSection",
+      "id": 100603,
+      "chapter": 1006,
+      "rank": 18
+    },
+    {
+      "table": "StorySetSection",
+      "id": 100701,
+      "chapter": 1007,
+      "rank": 19
+    },
+    {
+      "table": "StorySetSection",
+      "id": 100702,
+      "chapter": 1007,
+      "rank": 20
+    },
+    {
+      "table": "StorySetSection",
+      "id": 100703,
+      "chapter": 1007,
+      "rank": 21
+    },
+    {
+      "table": "StorySetSection",
+      "id": 100801,
+      "chapter": 1008,
+      "rank": 22
+    },
+    {
+      "table": "StorySetSection",
+      "id": 100802,
+      "chapter": 1008,
+      "rank": 23
+    },
+    {
+      "table": "StorySetSection",
+      "id": 100803,
+      "chapter": 1008,
+      "rank": 24
+    },
+    {
+      "table": "StorySetSection",
+      "id": 100901,
+      "chapter": 1009,
+      "rank": 25
+    },
+    {
+      "table": "StorySetSection",
+      "id": 100902,
+      "chapter": 1009,
+      "rank": 26
+    },
+    {
+      "table": "StorySetSection",
+      "id": 100903,
+      "chapter": 1009,
+      "rank": 27
+    },
+    {
+      "table": "StorySetSection",
+      "id": 101001,
+      "chapter": 1010,
+      "rank": 28
+    },
+    {
+      "table": "StorySetSection",
+      "id": 101002,
+      "chapter": 1010,
+      "rank": 29
+    },
+    {
+      "table": "StorySetSection",
+      "id": 101003,
+      "chapter": 1010,
+      "rank": 30
+    },
+    {
+      "table": "StorySetSection",
+      "id": 101101,
+      "chapter": 1011,
+      "rank": 31
+    },
+    {
+      "table": "StorySetSection",
+      "id": 101102,
+      "chapter": 1011,
+      "rank": 32
+    },
+    {
+      "table": "StorySetSection",
+      "id": 101103,
+      "chapter": 1011,
+      "rank": 33
+    },
+    {
+      "table": "StorySetSection",
+      "id": 101201,
+      "chapter": 1012,
+      "rank": 34
+    },
+    {
+      "table": "StorySetSection",
+      "id": 101202,
+      "chapter": 1012,
+      "rank": 35
+    },
+    {
+      "table": "StorySetSection",
+      "id": 101203,
+      "chapter": 1012,
+      "rank": 36
+    },
+    {
+      "table": "StorySetSection",
+      "id": 101204,
+      "chapter": 1012,
+      "rank": 37
+    },
+    {
+      "table": "StorySetSection",
+      "id": 101301,
+      "chapter": 1013,
+      "rank": 38
+    },
+    {
+      "table": "StorySetSection",
+      "id": 101302,
+      "chapter": 1013,
+      "rank": 39
+    },
+    {
+      "table": "StorySetSection",
+      "id": 101303,
+      "chapter": 1013,
+      "rank": 40
+    },
+    {
+      "table": "StorySetSection",
+      "id": 101401,
+      "chapter": 1014,
+      "rank": 41
+    },
+    {
+      "table": "StorySetSection",
+      "id": 101402,
+      "chapter": 1014,
+      "rank": 42
+    },
+    {
+      "table": "StorySetSection",
+      "id": 101403,
+      "chapter": 1014,
+      "rank": 43
+    },
+    {
+      "table": "StorySetSection",
+      "id": 101501,
+      "chapter": 1015,
+      "rank": 44
+    },
+    {
+      "table": "StorySetSection",
+      "id": 101502,
+      "chapter": 1015,
+      "rank": 45
+    },
+    {
+      "table": "StorySetSection",
+      "id": 101503,
+      "chapter": 1015,
+      "rank": 46
+    },
+    {
+      "table": "StorySetSection",
+      "id": 101601,
+      "chapter": 1016,
+      "rank": 47
+    },
+    {
+      "table": "StorySetSection",
+      "id": 101602,
+      "chapter": 1016,
+      "rank": 48
+    },
+    {
+      "table": "StorySetSection",
+      "id": 101603,
+      "chapter": 1016,
+      "rank": 49
+    },
+    {
+      "table": "StorySetSection",
+      "id": 101701,
+      "chapter": 1017,
+      "rank": 50
+    },
+    {
+      "table": "StorySetSection",
+      "id": 101702,
+      "chapter": 1017,
+      "rank": 51
+    },
+    {
+      "table": "StorySetSection",
+      "id": 101703,
+      "chapter": 1017,
+      "rank": 52
+    },
+    {
+      "table": "StorySetSection",
+      "id": 101801,
+      "chapter": 1018,
+      "rank": 53
+    },
+    {
+      "table": "StorySetSection",
+      "id": 101802,
+      "chapter": 1018,
+      "rank": 54
+    },
+    {
+      "table": "StorySetSection",
+      "id": 101803,
+      "chapter": 1018,
+      "rank": 55
+    },
+    {
+      "table": "StorySetSection",
+      "id": 101901,
+      "chapter": 1019,
+      "rank": 56
+    },
+    {
+      "table": "StorySetSection",
+      "id": 101902,
+      "chapter": 1019,
+      "rank": 57
+    },
+    {
+      "table": "StorySetSection",
+      "id": 101903,
+      "chapter": 1019,
+      "rank": 58
+    },
+    {
+      "table": "ActivityAvgLevel",
+      "id": 10001,
+      "chapter": 1010002,
+      "rank": 0
+    },
+    {
+      "table": "ActivityAvgLevel",
+      "id": 10002,
+      "chapter": 1010002,
+      "rank": 1
+    },
+    {
+      "table": "ActivityAvgLevel",
+      "id": 10003,
+      "chapter": 1010002,
+      "rank": 2
+    },
+    {
+      "table": "ActivityAvgLevel",
+      "id": 10004,
+      "chapter": 1010002,
+      "rank": 3
+    },
+    {
+      "table": "ActivityAvgLevel",
+      "id": 10005,
+      "chapter": 1010002,
+      "rank": 4
+    },
+    {
+      "table": "ActivityAvgLevel",
+      "id": 10006,
+      "chapter": 1010002,
+      "rank": 5
+    },
+    {
+      "table": "ActivityAvgLevel",
+      "id": 10007,
+      "chapter": 1010002,
+      "rank": 6
+    },
+    {
+      "table": "ActivityAvgLevel",
+      "id": 10008,
+      "chapter": 1010002,
+      "rank": 7
+    },
+    {
+      "table": "ActivityAvgLevel",
+      "id": 10009,
+      "chapter": 1010002,
+      "rank": 8
+    },
+    {
+      "table": "ActivityAvgLevel",
+      "id": 10010,
+      "chapter": 1010002,
+      "rank": 9
+    },
+    {
+      "table": "ActivityAvgLevel",
+      "id": 10011,
+      "chapter": 1010002,
+      "rank": 10
+    },
+    {
+      "table": "Plot",
+      "id": 10301,
+      "chapter": 103,
+      "rank": 0
+    },
+    {
+      "table": "Plot",
+      "id": 10302,
+      "chapter": 103,
+      "rank": 1
+    },
+    {
+      "table": "Plot",
+      "id": 10303,
+      "chapter": 103,
+      "rank": 2
+    },
+    {
+      "table": "Plot",
+      "id": 10701,
+      "chapter": 107,
+      "rank": 3
+    },
+    {
+      "table": "Plot",
+      "id": 10702,
+      "chapter": 107,
+      "rank": 4
+    },
+    {
+      "table": "Plot",
+      "id": 10703,
+      "chapter": 107,
+      "rank": 5
+    },
+    {
+      "table": "Plot",
+      "id": 10801,
+      "chapter": 108,
+      "rank": 6
+    },
+    {
+      "table": "Plot",
+      "id": 10802,
+      "chapter": 108,
+      "rank": 7
+    },
+    {
+      "table": "Plot",
+      "id": 10803,
+      "chapter": 108,
+      "rank": 8
+    },
+    {
+      "table": "Plot",
+      "id": 11001,
+      "chapter": 110,
+      "rank": 9
+    },
+    {
+      "table": "Plot",
+      "id": 11002,
+      "chapter": 110,
+      "rank": 10
+    },
+    {
+      "table": "Plot",
+      "id": 11003,
+      "chapter": 110,
+      "rank": 11
+    },
+    {
+      "table": "Plot",
+      "id": 11101,
+      "chapter": 111,
+      "rank": 12
+    },
+    {
+      "table": "Plot",
+      "id": 11102,
+      "chapter": 111,
+      "rank": 13
+    },
+    {
+      "table": "Plot",
+      "id": 11103,
+      "chapter": 111,
+      "rank": 14
+    },
+    {
+      "table": "Plot",
+      "id": 11201,
+      "chapter": 112,
+      "rank": 15
+    },
+    {
+      "table": "Plot",
+      "id": 11202,
+      "chapter": 112,
+      "rank": 16
+    },
+    {
+      "table": "Plot",
+      "id": 11203,
+      "chapter": 112,
+      "rank": 17
+    },
+    {
+      "table": "Plot",
+      "id": 11301,
+      "chapter": 113,
+      "rank": 18
+    },
+    {
+      "table": "Plot",
+      "id": 11302,
+      "chapter": 113,
+      "rank": 19
+    },
+    {
+      "table": "Plot",
+      "id": 11303,
+      "chapter": 113,
+      "rank": 20
+    },
+    {
+      "table": "Plot",
+      "id": 11401,
+      "chapter": 114,
+      "rank": 21
+    },
+    {
+      "table": "Plot",
+      "id": 11402,
+      "chapter": 114,
+      "rank": 22
+    },
+    {
+      "table": "Plot",
+      "id": 11403,
+      "chapter": 114,
+      "rank": 23
+    },
+    {
+      "table": "Plot",
+      "id": 11501,
+      "chapter": 115,
+      "rank": 24
+    },
+    {
+      "table": "Plot",
+      "id": 11502,
+      "chapter": 115,
+      "rank": 25
+    },
+    {
+      "table": "Plot",
+      "id": 11503,
+      "chapter": 115,
+      "rank": 26
+    },
+    {
+      "table": "Plot",
+      "id": 11601,
+      "chapter": 116,
+      "rank": 27
+    },
+    {
+      "table": "Plot",
+      "id": 11602,
+      "chapter": 116,
+      "rank": 28
+    },
+    {
+      "table": "Plot",
+      "id": 11603,
+      "chapter": 116,
+      "rank": 29
+    },
+    {
+      "table": "Plot",
+      "id": 11701,
+      "chapter": 117,
+      "rank": 30
+    },
+    {
+      "table": "Plot",
+      "id": 11702,
+      "chapter": 117,
+      "rank": 31
+    },
+    {
+      "table": "Plot",
+      "id": 11703,
+      "chapter": 117,
+      "rank": 32
+    },
+    {
+      "table": "Plot",
+      "id": 11801,
+      "chapter": 118,
+      "rank": 33
+    },
+    {
+      "table": "Plot",
+      "id": 11802,
+      "chapter": 118,
+      "rank": 34
+    },
+    {
+      "table": "Plot",
+      "id": 11803,
+      "chapter": 118,
+      "rank": 35
+    },
+    {
+      "table": "Plot",
+      "id": 11901,
+      "chapter": 119,
+      "rank": 36
+    },
+    {
+      "table": "Plot",
+      "id": 11902,
+      "chapter": 119,
+      "rank": 37
+    },
+    {
+      "table": "Plot",
+      "id": 11903,
+      "chapter": 119,
+      "rank": 38
+    },
+    {
+      "table": "Plot",
+      "id": 12001,
+      "chapter": 120,
+      "rank": 39
+    },
+    {
+      "table": "Plot",
+      "id": 12002,
+      "chapter": 120,
+      "rank": 40
+    },
+    {
+      "table": "Plot",
+      "id": 12003,
+      "chapter": 120,
+      "rank": 41
+    },
+    {
+      "table": "Plot",
+      "id": 12301,
+      "chapter": 123,
+      "rank": 42
+    },
+    {
+      "table": "Plot",
+      "id": 12302,
+      "chapter": 123,
+      "rank": 43
+    },
+    {
+      "table": "Plot",
+      "id": 12303,
+      "chapter": 123,
+      "rank": 44
+    },
+    {
+      "table": "Plot",
+      "id": 12501,
+      "chapter": 125,
+      "rank": 45
+    },
+    {
+      "table": "Plot",
+      "id": 12502,
+      "chapter": 125,
+      "rank": 46
+    },
+    {
+      "table": "Plot",
+      "id": 12503,
+      "chapter": 125,
+      "rank": 47
+    },
+    {
+      "table": "Plot",
+      "id": 12601,
+      "chapter": 126,
+      "rank": 48
+    },
+    {
+      "table": "Plot",
+      "id": 12602,
+      "chapter": 126,
+      "rank": 49
+    },
+    {
+      "table": "Plot",
+      "id": 12603,
+      "chapter": 126,
+      "rank": 50
+    },
+    {
+      "table": "Plot",
+      "id": 12701,
+      "chapter": 127,
+      "rank": 51
+    },
+    {
+      "table": "Plot",
+      "id": 12702,
+      "chapter": 127,
+      "rank": 52
+    },
+    {
+      "table": "Plot",
+      "id": 12703,
+      "chapter": 127,
+      "rank": 53
+    },
+    {
+      "table": "Plot",
+      "id": 13001,
+      "chapter": 130,
+      "rank": 54
+    },
+    {
+      "table": "Plot",
+      "id": 13002,
+      "chapter": 130,
+      "rank": 55
+    },
+    {
+      "table": "Plot",
+      "id": 13003,
+      "chapter": 130,
+      "rank": 56
+    },
+    {
+      "table": "Plot",
+      "id": 13201,
+      "chapter": 132,
+      "rank": 57
+    },
+    {
+      "table": "Plot",
+      "id": 13202,
+      "chapter": 132,
+      "rank": 58
+    },
+    {
+      "table": "Plot",
+      "id": 13203,
+      "chapter": 132,
+      "rank": 59
+    },
+    {
+      "table": "Plot",
+      "id": 13301,
+      "chapter": 133,
+      "rank": 60
+    },
+    {
+      "table": "Plot",
+      "id": 13302,
+      "chapter": 133,
+      "rank": 61
+    },
+    {
+      "table": "Plot",
+      "id": 13303,
+      "chapter": 133,
+      "rank": 62
+    },
+    {
+      "table": "Plot",
+      "id": 13401,
+      "chapter": 134,
+      "rank": 63
+    },
+    {
+      "table": "Plot",
+      "id": 13402,
+      "chapter": 134,
+      "rank": 64
+    },
+    {
+      "table": "Plot",
+      "id": 13403,
+      "chapter": 134,
+      "rank": 65
+    },
+    {
+      "table": "Plot",
+      "id": 13501,
+      "chapter": 135,
+      "rank": 66
+    },
+    {
+      "table": "Plot",
+      "id": 13502,
+      "chapter": 135,
+      "rank": 67
+    },
+    {
+      "table": "Plot",
+      "id": 13503,
+      "chapter": 135,
+      "rank": 68
+    },
+    {
+      "table": "Plot",
+      "id": 13701,
+      "chapter": 137,
+      "rank": 69
+    },
+    {
+      "table": "Plot",
+      "id": 13702,
+      "chapter": 137,
+      "rank": 70
+    },
+    {
+      "table": "Plot",
+      "id": 13703,
+      "chapter": 137,
+      "rank": 71
+    },
+    {
+      "table": "Plot",
+      "id": 13901,
+      "chapter": 139,
+      "rank": 72
+    },
+    {
+      "table": "Plot",
+      "id": 13902,
+      "chapter": 139,
+      "rank": 73
+    },
+    {
+      "table": "Plot",
+      "id": 13903,
+      "chapter": 139,
+      "rank": 74
+    },
+    {
+      "table": "Plot",
+      "id": 14001,
+      "chapter": 140,
+      "rank": 75
+    },
+    {
+      "table": "Plot",
+      "id": 14002,
+      "chapter": 140,
+      "rank": 76
+    },
+    {
+      "table": "Plot",
+      "id": 14003,
+      "chapter": 140,
+      "rank": 77
+    },
+    {
+      "table": "Plot",
+      "id": 14101,
+      "chapter": 141,
+      "rank": 78
+    },
+    {
+      "table": "Plot",
+      "id": 14102,
+      "chapter": 141,
+      "rank": 79
+    },
+    {
+      "table": "Plot",
+      "id": 14103,
+      "chapter": 141,
+      "rank": 80
+    },
+    {
+      "table": "Plot",
+      "id": 14201,
+      "chapter": 142,
+      "rank": 81
+    },
+    {
+      "table": "Plot",
+      "id": 14202,
+      "chapter": 142,
+      "rank": 82
+    },
+    {
+      "table": "Plot",
+      "id": 14203,
+      "chapter": 142,
+      "rank": 83
+    },
+    {
+      "table": "Plot",
+      "id": 14301,
+      "chapter": 143,
+      "rank": 84
+    },
+    {
+      "table": "Plot",
+      "id": 14302,
+      "chapter": 143,
+      "rank": 85
+    },
+    {
+      "table": "Plot",
+      "id": 14303,
+      "chapter": 143,
+      "rank": 86
+    },
+    {
+      "table": "Plot",
+      "id": 14401,
+      "chapter": 144,
+      "rank": 87
+    },
+    {
+      "table": "Plot",
+      "id": 14402,
+      "chapter": 144,
+      "rank": 88
+    },
+    {
+      "table": "Plot",
+      "id": 14403,
+      "chapter": 144,
+      "rank": 89
+    },
+    {
+      "table": "Plot",
+      "id": 14501,
+      "chapter": 145,
+      "rank": 90
+    },
+    {
+      "table": "Plot",
+      "id": 14502,
+      "chapter": 145,
+      "rank": 91
+    },
+    {
+      "table": "Plot",
+      "id": 14503,
+      "chapter": 145,
+      "rank": 92
+    },
+    {
+      "table": "Plot",
+      "id": 14701,
+      "chapter": 147,
+      "rank": 93
+    },
+    {
+      "table": "Plot",
+      "id": 14702,
+      "chapter": 147,
+      "rank": 94
+    },
+    {
+      "table": "Plot",
+      "id": 14703,
+      "chapter": 147,
+      "rank": 95
+    },
+    {
+      "table": "Plot",
+      "id": 14901,
+      "chapter": 149,
+      "rank": 96
+    },
+    {
+      "table": "Plot",
+      "id": 14902,
+      "chapter": 149,
+      "rank": 97
+    },
+    {
+      "table": "Plot",
+      "id": 14903,
+      "chapter": 149,
+      "rank": 98
+    },
+    {
+      "table": "Plot",
+      "id": 15001,
+      "chapter": 150,
+      "rank": 99
+    },
+    {
+      "table": "Plot",
+      "id": 15002,
+      "chapter": 150,
+      "rank": 100
+    },
+    {
+      "table": "Plot",
+      "id": 15003,
+      "chapter": 150,
+      "rank": 101
+    },
+    {
+      "table": "Plot",
+      "id": 15501,
+      "chapter": 155,
+      "rank": 102
+    },
+    {
+      "table": "Plot",
+      "id": 15502,
+      "chapter": 155,
+      "rank": 103
+    },
+    {
+      "table": "Plot",
+      "id": 15503,
+      "chapter": 155,
+      "rank": 104
+    },
+    {
+      "table": "Plot",
+      "id": 15601,
+      "chapter": 156,
+      "rank": 105
+    },
+    {
+      "table": "Plot",
+      "id": 15602,
+      "chapter": 156,
+      "rank": 106
+    },
+    {
+      "table": "Plot",
+      "id": 15603,
+      "chapter": 156,
+      "rank": 107
+    },
+    {
+      "table": "Plot",
+      "id": 15701,
+      "chapter": 157,
+      "rank": 108
+    },
+    {
+      "table": "Plot",
+      "id": 15702,
+      "chapter": 157,
+      "rank": 109
+    },
+    {
+      "table": "Plot",
+      "id": 15703,
+      "chapter": 157,
+      "rank": 110
+    },
+    {
+      "table": "Plot",
+      "id": 15801,
+      "chapter": 158,
+      "rank": 111
+    },
+    {
+      "table": "Plot",
+      "id": 15802,
+      "chapter": 158,
+      "rank": 112
+    },
+    {
+      "table": "Plot",
+      "id": 15803,
+      "chapter": 158,
+      "rank": 113
+    },
+    {
+      "table": "Plot",
+      "id": 15901,
+      "chapter": 159,
+      "rank": 114
+    },
+    {
+      "table": "Plot",
+      "id": 15902,
+      "chapter": 159,
+      "rank": 115
+    },
+    {
+      "table": "Plot",
+      "id": 15903,
+      "chapter": 159,
+      "rank": 116
+    },
+    {
+      "table": "Plot",
+      "id": 16001,
+      "chapter": 160,
+      "rank": 117
+    },
+    {
+      "table": "Plot",
+      "id": 16002,
+      "chapter": 160,
+      "rank": 118
+    },
+    {
+      "table": "Plot",
+      "id": 16003,
+      "chapter": 160,
+      "rank": 119
+    },
+    {
+      "table": "Plot",
+      "id": 16101,
+      "chapter": 161,
+      "rank": 120
+    },
+    {
+      "table": "Plot",
+      "id": 16102,
+      "chapter": 161,
+      "rank": 121
+    },
+    {
+      "table": "Plot",
+      "id": 16103,
+      "chapter": 161,
+      "rank": 122
+    },
+    {
+      "table": "Plot",
+      "id": 16201,
+      "chapter": 162,
+      "rank": 123
+    },
+    {
+      "table": "Plot",
+      "id": 16202,
+      "chapter": 162,
+      "rank": 124
+    },
+    {
+      "table": "Plot",
+      "id": 16203,
+      "chapter": 162,
+      "rank": 125
+    },
+    {
+      "table": "Plot",
+      "id": 99701,
+      "chapter": 997,
+      "rank": 126
+    },
+    {
+      "table": "Plot",
+      "id": 99702,
+      "chapter": 997,
+      "rank": 127
+    },
+    {
+      "table": "Plot",
+      "id": 99703,
+      "chapter": 997,
+      "rank": 128
+    },
+    {
+      "table": "Plot",
+      "id": 99801,
+      "chapter": 998,
+      "rank": 129
+    },
+    {
+      "table": "Plot",
+      "id": 99802,
+      "chapter": 998,
+      "rank": 130
+    },
+    {
+      "table": "Plot",
+      "id": 99803,
+      "chapter": 998,
+      "rank": 131
+    },
+    {
+      "table": "Plot",
+      "id": 99901,
+      "chapter": 999,
+      "rank": 132
+    },
+    {
+      "table": "Plot",
+      "id": 99902,
+      "chapter": 999,
+      "rank": 133
+    },
+    {
+      "table": "Plot",
+      "id": 99903,
+      "chapter": 999,
+      "rank": 134
+    }
+  ]
+}

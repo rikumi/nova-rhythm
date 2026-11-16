@@ -66,3 +66,21 @@ python scripts/deduplicate_event_themes.py --apply
 ```
 
 也可用 `--render-catalog` 指定其他重建缓存，或用 `--audio-root` 指定包含原始 `music/` 导出的研究目录。`--tables-dir 镜像/CN/bin` 可更新主秘纹依据，`--report` 可另存报告。缺少无损文件时报告错误，不会改写映射。默认仅生成报告；`--apply` 只修改故事旋律清单，不修改游戏或音频文件。
+
+## 剧情顺序和名称
+
+每个分组里的剧情曲目按章节配置顺序、同一章节脚本的 `SetBGM` 调用位置正序排列。活动分支沿用游戏 `ActivityStoryDataBase.SortStoryList` 的广度优先遍历，根节点与同级分支按配置编号排列；主线沿用配置节点顺序。不同分支没有唯一的实际游玩先后，因此这里使用固定的配置顺序。同一个分组中，其他玩法/系统音乐的位置以及置顶的秘纹入口不受影响。
+
+标题不再使用“剧情配乐 x”前缀，也不包含对白片段。已定位场景的自动名称采用“章节 · 场景”，例如“第九章 · 引线”。去除对白后的同名曲目保留，按剧情出现顺序重新编为“第九章 · 引线 · 第1音轨”“第九章 · 引线 · 第2音轨”等；唯一名称不添加音轨序号。尚未定位章节的条目保留原始音乐状态以便区分。
+
+`references/story-chapter-order.json` 保存章节顺序及配置来源指纹，`references/story-music-order.json` 保存每首曲目的首次出现候选、脚本行号、对白原文和排序依据。跨故事线的绝对首次出现仍以候选记录为准；在同一分组内优先采用该故事集自己的调用位置。
+
+重新检查可运行：
+
+```powershell
+python scripts/order_story_music.py
+# 核对 .build/story-music-order.json 后应用：
+python scripts/order_story_music.py --apply
+```
+
+默认使用仓库中的章节顺序。需要更新镜像分析时，可加 `--tables-dir 镜像/CN/bin`，以及用于补充复核证据的 `--lua-dir 镜像/Lua/Game/UI/Avg/_cn/Config`；对白只留在分析记录，不放入展示名称。它只修改曲名及剧情项的相对顺序，保留人工填写的日期、描述和收录决定。平时直接编辑核心 JSON 即可，不需要反复运行这些分析脚本。

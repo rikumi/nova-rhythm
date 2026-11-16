@@ -39,7 +39,7 @@
       "tracks": [
         {
           "id": "audio-4323fe1ed2d6c9ece6954b0f1b855fad69b85ac2bdccb2a3107c14297c5a7fd5",
-          "name": "速度与机擎",
+          "name": "速度与机擎 · 界面配乐",
           "file": "/audio/audio-4323fe1ed2d6c9ece6954b0f1b855fad69b85ac2bdccb2a3107c14297c5a7fd5.opus",
           "description": ""
         }
@@ -74,51 +74,51 @@
       ],
       "tracks": [
         {
-          "id": "audio-d3980acc19508fef2e8231dc51d69dde2bc078e6b4d3c606db2429b83b5ef418",
-          "name": "剧情配乐 7 · 特别篇 · 短暂的日常",
-          "file": "/audio/audio-d3980acc19508fef2e8231dc51d69dde2bc078e6b4d3c606db2429b83b5ef418.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-d51e3d08d9ec0935f5eb40c98f4644b4e860d5910f8001460824d3f665eec008",
-          "name": "剧情配乐 99 · 特别篇 · 过去之事正如未来之事",
-          "file": "/audio/audio-d51e3d08d9ec0935f5eb40c98f4644b4e860d5910f8001460824d3f665eec008.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-29d23edcb066d719e3fca8887a7de976318529dd8b2dfe28af9f6bbe7291d02c",
-          "name": "剧情配乐 95 · 特别篇 · 完璧之城",
-          "file": "/audio/audio-29d23edcb066d719e3fca8887a7de976318529dd8b2dfe28af9f6bbe7291d02c.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-b011eee66b31b83229cb463a04d451df24e63462e414d43667e6b3e8a1061597",
-          "name": "剧情配乐 149 · 特别篇 · 昨日重现",
-          "file": "/audio/audio-b011eee66b31b83229cb463a04d451df24e63462e414d43667e6b3e8a1061597.opus",
-          "description": ""
-        },
-        {
           "id": "audio-88eaa4400e38c2d311b18c13916ae1880d586fc355f22b4827c2da00adf1205f",
-          "name": "剧情配乐 148 · 特别篇 · 昨日重现",
+          "name": "特别篇 · 昨日重现 · 第1音轨",
           "file": "/audio/audio-88eaa4400e38c2d311b18c13916ae1880d586fc355f22b4827c2da00adf1205f.opus",
           "description": ""
         },
         {
-          "id": "audio-cd2f18a8b55c5a5a84e30e56580bbf4f3ff15078e20037cd99b4ca97c22d50f5",
-          "name": "剧情配乐 164 · 特别篇 · 过去之事正如未来之事",
-          "file": "/audio/audio-cd2f18a8b55c5a5a84e30e56580bbf4f3ff15078e20037cd99b4ca97c22d50f5.opus",
+          "id": "audio-b011eee66b31b83229cb463a04d451df24e63462e414d43667e6b3e8a1061597",
+          "name": "特别篇 · 昨日重现 · 第2音轨",
+          "file": "/audio/audio-b011eee66b31b83229cb463a04d451df24e63462e414d43667e6b3e8a1061597.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-29d23edcb066d719e3fca8887a7de976318529dd8b2dfe28af9f6bbe7291d02c",
+          "name": "特别篇 · 完璧之城",
+          "file": "/audio/audio-29d23edcb066d719e3fca8887a7de976318529dd8b2dfe28af9f6bbe7291d02c.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-d3980acc19508fef2e8231dc51d69dde2bc078e6b4d3c606db2429b83b5ef418",
+          "name": "特别篇 · 短暂的日常",
+          "file": "/audio/audio-d3980acc19508fef2e8231dc51d69dde2bc078e6b4d3c606db2429b83b5ef418.opus",
           "description": ""
         },
         {
           "id": "audio-df105457f9b6758df8ce91b1cbbd27b6b718f4a3f16e438a60af29c82e8b7b93",
-          "name": "剧情配乐 132 · 特别篇 · 高塔之下",
+          "name": "特别篇 · 高塔之下",
           "file": "/audio/audio-df105457f9b6758df8ce91b1cbbd27b6b718f4a3f16e438a60af29c82e8b7b93.opus",
           "description": ""
         },
         {
           "id": "audio-328a1b1a78e5b57a06f1a28d26edd190e236df8774caa1741432ea525a297151",
-          "name": "剧情配乐 128 · 特别篇 · 一粒沙的愿望",
+          "name": "特别篇 · 一粒沙的愿望",
           "file": "/audio/audio-328a1b1a78e5b57a06f1a28d26edd190e236df8774caa1741432ea525a297151.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-d51e3d08d9ec0935f5eb40c98f4644b4e860d5910f8001460824d3f665eec008",
+          "name": "特别篇 · 过去之事正如未来之事 · 第1音轨",
+          "file": "/audio/audio-d51e3d08d9ec0935f5eb40c98f4644b4e860d5910f8001460824d3f665eec008.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-cd2f18a8b55c5a5a84e30e56580bbf4f3ff15078e20037cd99b4ca97c22d50f5",
+          "name": "特别篇 · 过去之事正如未来之事 · 第2音轨",
+          "file": "/audio/audio-cd2f18a8b55c5a5a84e30e56580bbf4f3ff15078e20037cd99b4ca97c22d50f5.opus",
           "description": ""
         }
       ]
@@ -152,87 +152,87 @@
       ],
       "tracks": [
         {
-          "id": "audio-e45e4946045ac6e8bad39d3ada07b7cf91df49e0416fd13fc190f82166792f56",
-          "name": "剧情配乐 41 · 第九章 · 身旁的她",
-          "file": "/audio/audio-e45e4946045ac6e8bad39d3ada07b7cf91df49e0416fd13fc190f82166792f56.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-1a952b32f4af32c93c7b99d50d222cf5e43050dd0990c4f85fb73e177627be69",
-          "name": "剧情配乐 51 · 第九章 · 薯条和情报",
-          "file": "/audio/audio-1a952b32f4af32c93c7b99d50d222cf5e43050dd0990c4f85fb73e177627be69.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-825ee41f22f6546ca56a37b56baa865eab3fa0cb3ddf62e2b1a9f6f7f6f79561",
-          "name": "剧情配乐 116 · 第九章 · 引线",
-          "file": "/audio/audio-825ee41f22f6546ca56a37b56baa865eab3fa0cb3ddf62e2b1a9f6f7f6f79561.opus",
-          "description": ""
-        },
-        {
           "id": "audio-b72ee62d977da6e8134cddc2d5adf56822bc31a7e2e83c29d0978fc867280e23",
-          "name": "剧情配乐 111 · 第九章 · 引线",
+          "name": "第九章 · 引线 · 第1音轨",
           "file": "/audio/audio-b72ee62d977da6e8134cddc2d5adf56822bc31a7e2e83c29d0978fc867280e23.opus",
           "description": ""
         },
         {
-          "id": "audio-e782fb9c549bde7e1a1100e29f2a5f8be7db202cdd46665198777dca6d14321a",
-          "name": "剧情配乐 112 · 第九章 · 点燃",
-          "file": "/audio/audio-e782fb9c549bde7e1a1100e29f2a5f8be7db202cdd46665198777dca6d14321a.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-37f88b48aacb01e866d69335d74b6490df87b7849fb4e725faae5b499fabd9e1",
-          "name": "剧情配乐 113 · 第九章 · 薯条和情报",
-          "file": "/audio/audio-37f88b48aacb01e866d69335d74b6490df87b7849fb4e725faae5b499fabd9e1.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-c807642029b198aa7c0db3a915f58a33aaa5cdde675c6e530eb43c6741b1a576",
-          "name": "剧情配乐 109 · 第九章 · 魔王之塔",
-          "file": "/audio/audio-c807642029b198aa7c0db3a915f58a33aaa5cdde675c6e530eb43c6741b1a576.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-ab024e65135cb149ee5e32dd31a5317eb3df192d5db62d44632bf59eddcedb25",
-          "name": "剧情配乐 108 · 艾蕾 · 旅人故事 · 结婚过家家 中",
-          "file": "/audio/audio-ab024e65135cb149ee5e32dd31a5317eb3df192d5db62d44632bf59eddcedb25.opus",
+          "id": "audio-825ee41f22f6546ca56a37b56baa865eab3fa0cb3ddf62e2b1a9f6f7f6f79561",
+          "name": "第九章 · 引线 · 第2音轨",
+          "file": "/audio/audio-825ee41f22f6546ca56a37b56baa865eab3fa0cb3ddf62e2b1a9f6f7f6f79561.opus",
           "description": ""
         },
         {
           "id": "audio-1ff673e63403569280ff4d4cea7e544facbe6e9f3f7450c852ef1d0377b3a592",
-          "name": "剧情配乐 107 · 第九章 · 引线",
+          "name": "第九章 · 引线 · 第3音轨",
           "file": "/audio/audio-1ff673e63403569280ff4d4cea7e544facbe6e9f3f7450c852ef1d0377b3a592.opus",
           "description": ""
         },
         {
+          "id": "audio-e782fb9c549bde7e1a1100e29f2a5f8be7db202cdd46665198777dca6d14321a",
+          "name": "第九章 · 点燃 · 第1音轨",
+          "file": "/audio/audio-e782fb9c549bde7e1a1100e29f2a5f8be7db202cdd46665198777dca6d14321a.opus",
+          "description": ""
+        },
+        {
           "id": "audio-0b2df83299d31ae25a1c3b2eccd7d649e1b0834ded9eae1703f5a2c5bcbf4d96",
-          "name": "剧情配乐 101 · 第九章 · 点燃",
+          "name": "第九章 · 点燃 · 第2音轨",
           "file": "/audio/audio-0b2df83299d31ae25a1c3b2eccd7d649e1b0834ded9eae1703f5a2c5bcbf4d96.opus",
           "description": ""
         },
         {
           "id": "audio-8cd24bfd396f31fc154be4ba1bee195496bf780d973c025cbc0ed9205834c099",
-          "name": "剧情配乐 125 · 第九章 · 伤痕暂停",
+          "name": "第九章 · 伤痕暂停",
           "file": "/audio/audio-8cd24bfd396f31fc154be4ba1bee195496bf780d973c025cbc0ed9205834c099.opus",
           "description": ""
         },
         {
-          "id": "audio-4ec9c00725a8303ee04413a9b1b22a2bd1f6657905cd081f64ad68c69dd1f293",
-          "name": "剧情配乐 124 · 第九章 · 请君入瓮",
-          "file": "/audio/audio-4ec9c00725a8303ee04413a9b1b22a2bd1f6657905cd081f64ad68c69dd1f293.opus",
+          "id": "audio-1a952b32f4af32c93c7b99d50d222cf5e43050dd0990c4f85fb73e177627be69",
+          "name": "第九章 · 薯条和情报 · 第1音轨",
+          "file": "/audio/audio-1a952b32f4af32c93c7b99d50d222cf5e43050dd0990c4f85fb73e177627be69.opus",
           "description": ""
         },
         {
-          "id": "audio-56bc338ba73ef396d4a9e4c1394682aaf6060e60beb776e4d4227daa2bc60d48",
-          "name": "剧情配乐 127 · 第九章 · 不变之物",
-          "file": "/audio/audio-56bc338ba73ef396d4a9e4c1394682aaf6060e60beb776e4d4227daa2bc60d48.opus",
+          "id": "audio-37f88b48aacb01e866d69335d74b6490df87b7849fb4e725faae5b499fabd9e1",
+          "name": "第九章 · 薯条和情报 · 第2音轨",
+          "file": "/audio/audio-37f88b48aacb01e866d69335d74b6490df87b7849fb4e725faae5b499fabd9e1.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-e45e4946045ac6e8bad39d3ada07b7cf91df49e0416fd13fc190f82166792f56",
+          "name": "第九章 · 身旁的她 · 第1音轨",
+          "file": "/audio/audio-e45e4946045ac6e8bad39d3ada07b7cf91df49e0416fd13fc190f82166792f56.opus",
           "description": ""
         },
         {
           "id": "audio-4b8024d41b85449dd0238450982485a3bd43901422d8d932df61d411b23a448f",
-          "name": "剧情配乐 41 · 第九章 · 身旁的她",
+          "name": "第九章 · 身旁的她 · 第2音轨",
           "file": "/audio/audio-4b8024d41b85449dd0238450982485a3bd43901422d8d932df61d411b23a448f.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-4ec9c00725a8303ee04413a9b1b22a2bd1f6657905cd081f64ad68c69dd1f293",
+          "name": "第九章 · 请君入瓮",
+          "file": "/audio/audio-4ec9c00725a8303ee04413a9b1b22a2bd1f6657905cd081f64ad68c69dd1f293.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-c807642029b198aa7c0db3a915f58a33aaa5cdde675c6e530eb43c6741b1a576",
+          "name": "第九章 · 魔王之塔",
+          "file": "/audio/audio-c807642029b198aa7c0db3a915f58a33aaa5cdde675c6e530eb43c6741b1a576.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-56bc338ba73ef396d4a9e4c1394682aaf6060e60beb776e4d4227daa2bc60d48",
+          "name": "第九章 · 不变之物",
+          "file": "/audio/audio-56bc338ba73ef396d4a9e4c1394682aaf6060e60beb776e4d4227daa2bc60d48.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-ab024e65135cb149ee5e32dd31a5317eb3df192d5db62d44632bf59eddcedb25",
+          "name": "艾蕾·旅人故事 · 结婚过家家 中",
+          "file": "/audio/audio-ab024e65135cb149ee5e32dd31a5317eb3df192d5db62d44632bf59eddcedb25.opus",
           "description": ""
         }
       ]
@@ -311,7 +311,7 @@
       "tracks": [
         {
           "id": "audio-272c021ce3fa82facf267aa8f55ff5894934b1d28c7abe17ee6e5adc9c970e32",
-          "name": "沁凉补给站",
+          "name": "沁凉补给站 · 界面配乐",
           "file": "/audio/audio-272c021ce3fa82facf267aa8f55ff5894934b1d28c7abe17ee6e5adc9c970e32.opus",
           "description": ""
         }
@@ -362,13 +362,13 @@
       "tracks": [
         {
           "id": "audio-2b330641b9f9ceecc5dad7515cee8cdc228c4a36ad700339c44dbc966ac68ed7",
-          "name": "尖兵陷阵",
+          "name": "尖兵陷阵 · 战斗配乐",
           "file": "/audio/audio-2b330641b9f9ceecc5dad7515cee8cdc228c4a36ad700339c44dbc966ac68ed7.opus",
           "description": ""
         },
         {
           "id": "audio-aa81f2c41828e84b9159f8098685b1464da204af088ba4bb6b6b4bcb317120dd",
-          "name": "尖兵陷阵",
+          "name": "尖兵陷阵 · 战斗配乐",
           "file": "/audio/audio-aa81f2c41828e84b9159f8098685b1464da204af088ba4bb6b6b4bcb317120dd.opus",
           "description": ""
         },
@@ -380,7 +380,7 @@
         },
         {
           "id": "audio-9d66ee3de7e3cbc919c816178ffab3ef70c7ff16bc90904776085cc9dded0b1d",
-          "name": "尖兵陷阵",
+          "name": "尖兵陷阵 · 界面配乐",
           "file": "/audio/audio-9d66ee3de7e3cbc919c816178ffab3ef70c7ff16bc90904776085cc9dded0b1d.opus",
           "description": ""
         },
@@ -454,7 +454,7 @@
         },
         {
           "id": "audio-e3a3bda9e3f54a797ae277ef975905cbbd19dd1bc99caa0954b02be2e621b633",
-          "name": "剧情配乐 60 · 斯帕克拉 · 旅人故事 · 斯帕克拉的烦恼 中",
+          "name": "斯帕克拉·旅人故事 · 斯帕克拉的烦恼 中",
           "file": "/audio/audio-e3a3bda9e3f54a797ae277ef975905cbbd19dd1bc99caa0954b02be2e621b633.opus",
           "description": ""
         }
@@ -496,13 +496,13 @@
         },
         {
           "id": "audio-cd53cd1dad7ee023d7d48c61bf5f0bfcb988e4048f81f596217673258d0628ee",
-          "name": "剧情配乐 17 · 穿透心壁的取景框 · 再遇",
+          "name": "穿透心壁的取景框 · 再遇",
           "file": "/audio/audio-cd53cd1dad7ee023d7d48c61bf5f0bfcb988e4048f81f596217673258d0628ee.opus",
           "description": ""
         },
         {
           "id": "audio-e5fce82f1e1d599472dfbb59c8ea0659899cdb2b2e7ce111daa045299c9b40fa",
-          "name": "穿透心壁的取景框",
+          "name": "穿透心壁的取景框 · 界面配乐",
           "file": "/audio/audio-e5fce82f1e1d599472dfbb59c8ea0659899cdb2b2e7ce111daa045299c9b40fa.opus",
           "description": ""
         }
@@ -517,7 +517,7 @@
       "tracks": [
         {
           "id": "audio-9d529a5cddc4cc9ca92636d575af9249955d06d1ebaec37495d2e9c6a12808b1",
-          "name": "剧情配乐 105 · 跨越星声的对话 · 第一话",
+          "name": "跨越星声的对话 · 第一话",
           "file": "/audio/audio-9d529a5cddc4cc9ca92636d575af9249955d06d1ebaec37495d2e9c6a12808b1.opus",
           "description": ""
         }
@@ -532,7 +532,7 @@
       "tracks": [
         {
           "id": "audio-d683181a25f3a1c63cc49f8f27a8e76154877043c92391bc7cc45ba11cec951a",
-          "name": "剧情配乐 106 · 特别篇 · 不日之约",
+          "name": "特别篇 · 不日之约",
           "file": "/audio/audio-d683181a25f3a1c63cc49f8f27a8e76154877043c92391bc7cc45ba11cec951a.opus",
           "description": ""
         }
@@ -574,7 +574,7 @@
         },
         {
           "id": "audio-86c282d7fed8204c1c9eed1191aa9d2c4cd4e88ad1691fd4853575f327e8290b",
-          "name": "幽夜独舞孤影乱",
+          "name": "幽夜独舞孤影乱 · 战斗配乐",
           "file": "/audio/audio-86c282d7fed8204c1c9eed1191aa9d2c4cd4e88ad1691fd4853575f327e8290b.opus",
           "description": ""
         }
@@ -616,7 +616,7 @@
         },
         {
           "id": "audio-69feaa5eb422cdd356ea004ae5e34dc11def78369367394198dde18f00d856e8",
-          "name": "敬启，致珍重的你",
+          "name": "敬启，致珍重的你 · 战斗配乐",
           "file": "/audio/audio-69feaa5eb422cdd356ea004ae5e34dc11def78369367394198dde18f00d856e8.opus",
           "description": ""
         }
@@ -682,7 +682,7 @@
       "tracks": [
         {
           "id": "audio-8d3cec957e0bea7bb1959306d99c9993b9d814630d2dabf36019ad46a2724e72",
-          "name": "冬夜镇魂曲与破晓扳机",
+          "name": "冬夜镇魂曲与破晓扳机 · 战斗配乐",
           "file": "/audio/audio-8d3cec957e0bea7bb1959306d99c9993b9d814630d2dabf36019ad46a2724e72.opus",
           "description": ""
         },
@@ -694,13 +694,13 @@
         },
         {
           "id": "audio-ab25e6f97d6405d74cbb6cc500e18adf35b79a1041b34d1981c1e5e0278ebd50",
-          "name": "冬夜镇魂曲与破晓扳机",
+          "name": "冬夜镇魂曲与破晓扳机 · 前往北境之城",
           "file": "/audio/audio-ab25e6f97d6405d74cbb6cc500e18adf35b79a1041b34d1981c1e5e0278ebd50.opus",
           "description": ""
         },
         {
           "id": "audio-ec649f2936c6ef032c286653bc8e7a335408cae5618479e4e9cf0ec67f2ff074",
-          "name": "剧情配乐 92 · 春日纪事",
+          "name": "春日纪事",
           "file": "/audio/audio-ec649f2936c6ef032c286653bc8e7a335408cae5618479e4e9cf0ec67f2ff074.opus",
           "description": ""
         }
@@ -742,31 +742,31 @@
         },
         {
           "id": "audio-8b1272a09733157def9026f39986c22c46821527f84bc3d76c0e9040f7ad64ac",
-          "name": "烟火绮丽寻春意",
+          "name": "烟火绮丽寻春意 · 战斗配乐",
           "file": "/audio/audio-8b1272a09733157def9026f39986c22c46821527f84bc3d76c0e9040f7ad64ac.opus",
           "description": ""
         },
         {
-          "id": "audio-3aa28d42eaff8525662e3a9088af80532c4f5e3be41b974a75296de458a47d78",
-          "name": "剧情配乐 61 · 烟火绮丽寻春意 · 此去经年",
-          "file": "/audio/audio-3aa28d42eaff8525662e3a9088af80532c4f5e3be41b974a75296de458a47d78.opus",
-          "description": ""
-        },
-        {
           "id": "audio-cb2a1c5d9365aa4faad3d5c2654566c51d9b211907b027393e92df0fe5b04f06",
-          "name": "剧情配乐 86 · 烟火绮丽寻春意 · 寻幽探奇",
+          "name": "烟火绮丽寻春意 · 寻幽探奇 · 第1音轨",
           "file": "/audio/audio-cb2a1c5d9365aa4faad3d5c2654566c51d9b211907b027393e92df0fe5b04f06.opus",
           "description": ""
         },
         {
           "id": "audio-a31914f3953a681e908ad40d23409814fb4504ce73649fbd25767135f260a127",
-          "name": "剧情配乐 90 · 烟火绮丽寻春意 · 寻幽探奇",
+          "name": "烟火绮丽寻春意 · 寻幽探奇 · 第2音轨",
           "file": "/audio/audio-a31914f3953a681e908ad40d23409814fb4504ce73649fbd25767135f260a127.opus",
           "description": ""
         },
         {
+          "id": "audio-3aa28d42eaff8525662e3a9088af80532c4f5e3be41b974a75296de458a47d78",
+          "name": "烟火绮丽寻春意 · 此去经年",
+          "file": "/audio/audio-3aa28d42eaff8525662e3a9088af80532c4f5e3be41b974a75296de458a47d78.opus",
+          "description": ""
+        },
+        {
           "id": "audio-f5cd31e3d7268cb1151d47d89f9febb4fc3f59cbd32df919786c2ae29c0eb9c8",
-          "name": "烟火绮丽寻春意",
+          "name": "烟火绮丽寻春意 · 界面配乐",
           "file": "/audio/audio-f5cd31e3d7268cb1151d47d89f9febb4fc3f59cbd32df919786c2ae29c0eb9c8.opus",
           "description": ""
         }
@@ -807,32 +807,32 @@
           "description": ""
         },
         {
+          "id": "audio-1958edd7a1b0789dfa38de36982e4554734f7328fef214bcb1758f552296af28",
+          "name": "第六章 · 否认的代价",
+          "file": "/audio/audio-1958edd7a1b0789dfa38de36982e4554734f7328fef214bcb1758f552296af28.opus",
+          "description": ""
+        },
+        {
           "id": "audio-b81e6ff58177028ad18c1af15f1f2ed837af74dada16b29be36f2c3ad687bab1",
-          "name": "剧情配乐 6 · 第六章 · 天下静谧",
+          "name": "第六章 · 天下静谧",
           "file": "/audio/audio-b81e6ff58177028ad18c1af15f1f2ed837af74dada16b29be36f2c3ad687bab1.opus",
           "description": ""
         },
         {
           "id": "audio-aa7d9dca099fdee9398a885199d318452880a003811584ba55eebd3c669d2204",
-          "name": "剧情配乐 78 · 第六章 · 困兽犹斗",
+          "name": "第六章 · 困兽犹斗",
           "file": "/audio/audio-aa7d9dca099fdee9398a885199d318452880a003811584ba55eebd3c669d2204.opus",
           "description": ""
         },
         {
           "id": "audio-283045663b3d79a9fc124ceb350bd04e7489988d86cdf2a968721142f5e59df1",
-          "name": "剧情配乐 50 · 第六章 · 未知的明天",
+          "name": "第六章 · 未知的明天",
           "file": "/audio/audio-283045663b3d79a9fc124ceb350bd04e7489988d86cdf2a968721142f5e59df1.opus",
           "description": ""
         },
         {
-          "id": "audio-1958edd7a1b0789dfa38de36982e4554734f7328fef214bcb1758f552296af28",
-          "name": "剧情配乐 85 · 第六章 · 否认的代价",
-          "file": "/audio/audio-1958edd7a1b0789dfa38de36982e4554734f7328fef214bcb1758f552296af28.opus",
-          "description": ""
-        },
-        {
           "id": "audio-6a206cff7aafc356a31db95d420dece9bf13bb9f819e8cc11ded69c1c6bdefa7",
-          "name": "主线第六章",
+          "name": "主线第六章 · 界面配乐",
           "file": "/audio/audio-6a206cff7aafc356a31db95d420dece9bf13bb9f819e8cc11ded69c1c6bdefa7.opus",
           "description": ""
         }
@@ -879,20 +879,20 @@
           "description": ""
         },
         {
-          "id": "audio-ab10de4ccee1798299d1212804eb70abafb7ba973c3751985e5ee29508524b04",
-          "name": "剧情配乐 80 · 闪耀的使者与圣夜的精灵 · 庆典时分，盛大登场",
-          "file": "/audio/audio-ab10de4ccee1798299d1212804eb70abafb7ba973c3751985e5ee29508524b04.opus",
-          "description": ""
-        },
-        {
           "id": "audio-13c8f367dd9be719f01d9edd2bdfe2743d6738c00b64ba61e9ffcd360856dc60",
-          "name": "剧情配乐 81 · 闪耀的使者与圣夜的精灵 · 送礼大作战",
+          "name": "闪耀的使者与圣夜的精灵 · 送礼大作战",
           "file": "/audio/audio-13c8f367dd9be719f01d9edd2bdfe2743d6738c00b64ba61e9ffcd360856dc60.opus",
           "description": ""
         },
         {
+          "id": "audio-ab10de4ccee1798299d1212804eb70abafb7ba973c3751985e5ee29508524b04",
+          "name": "闪耀的使者与圣夜的精灵 · 庆典时分，盛大登场",
+          "file": "/audio/audio-ab10de4ccee1798299d1212804eb70abafb7ba973c3751985e5ee29508524b04.opus",
+          "description": ""
+        },
+        {
           "id": "audio-aeaa2dfca29dadbc7edba9a3579fded3dccc1d0bb8e6c476a0414ef9314b3d1d",
-          "name": "闪耀的使者与圣夜的精灵",
+          "name": "闪耀的使者与圣夜的精灵 · 界面配乐",
           "file": "/audio/audio-aeaa2dfca29dadbc7edba9a3579fded3dccc1d0bb8e6c476a0414ef9314b3d1d.opus",
           "description": ""
         }
@@ -927,32 +927,32 @@
       ],
       "tracks": [
         {
+          "id": "audio-092d48159f80ec07c23fd7442a7f5d7125f6c14c4824ad2060ab5037c1d3b0f0",
+          "name": "第四章 · 旅人往事",
+          "file": "/audio/audio-092d48159f80ec07c23fd7442a7f5d7125f6c14c4824ad2060ab5037c1d3b0f0.opus",
+          "description": ""
+        },
+        {
           "id": "audio-ab1caa6ba7f20818091470a4f4a01adde8255bc013cdd24b149d81e3e95249a0",
-          "name": "剧情配乐 58 · 第四章 · 野营",
+          "name": "第四章 · 野营",
           "file": "/audio/audio-ab1caa6ba7f20818091470a4f4a01adde8255bc013cdd24b149d81e3e95249a0.opus",
           "description": ""
         },
         {
           "id": "audio-053a02abdbfacac67fb59aff7ca7742602ecff09f0e6e774d65fd90287c4780e",
-          "name": "剧情配乐 29 · 第四章 · 单兵作战",
+          "name": "第四章 · 单兵作战",
           "file": "/audio/audio-053a02abdbfacac67fb59aff7ca7742602ecff09f0e6e774d65fd90287c4780e.opus",
           "description": ""
         },
         {
           "id": "audio-32a475316abd571010caeefe0be75573e990efd5ec7236e15adddd149b1d4448",
-          "name": "剧情配乐 27 · 第四章 · 想要保护的东西",
+          "name": "第四章 · 想要保护的东西",
           "file": "/audio/audio-32a475316abd571010caeefe0be75573e990efd5ec7236e15adddd149b1d4448.opus",
           "description": ""
         },
         {
-          "id": "audio-092d48159f80ec07c23fd7442a7f5d7125f6c14c4824ad2060ab5037c1d3b0f0",
-          "name": "剧情配乐 20 · 第四章 · 旅人往事",
-          "file": "/audio/audio-092d48159f80ec07c23fd7442a7f5d7125f6c14c4824ad2060ab5037c1d3b0f0.opus",
-          "description": ""
-        },
-        {
           "id": "audio-f40db32aa2f9cc5f916facc2be9144fd445a451286e558bf1f9f234f58f3c6c2",
-          "name": "主线第四章",
+          "name": "主线第四章 · 界面配乐",
           "file": "/audio/audio-f40db32aa2f9cc5f916facc2be9144fd445a451286e558bf1f9f234f58f3c6c2.opus",
           "description": ""
         }
@@ -1008,56 +1008,56 @@
       ],
       "tracks": [
         {
-          "id": "audio-8f21c7e025d6e58baa8680235ad10e3bd77d47d8461a01c1423bec5e6b9b8504",
-          "name": "剧情配乐 5 · 第三章 · 不被需要的弱者",
-          "file": "/audio/audio-8f21c7e025d6e58baa8680235ad10e3bd77d47d8461a01c1423bec5e6b9b8504.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-dce53a49f2a12c24f3e9cd8aa50a24496b6c581c7576263a4913ae82e05e5a37",
-          "name": "剧情配乐 62 · 第三章 · 三大魔物",
-          "file": "/audio/audio-dce53a49f2a12c24f3e9cd8aa50a24496b6c581c7576263a4913ae82e05e5a37.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-c733d485bd17b0ce0bd5d79e72015334052097504c9bb7e88cbe7f38811438f2",
-          "name": "剧情配乐 48 · 第三章 · 森林深处的“仙人”",
-          "file": "/audio/audio-c733d485bd17b0ce0bd5d79e72015334052097504c9bb7e88cbe7f38811438f2.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-4b4fa2db989f55540ee45f9b0b5a6818ce019b64ebd89fb9e7df0d49f3ae5af0",
-          "name": "剧情配乐 53 · 第三章 · 三大魔物",
-          "file": "/audio/audio-4b4fa2db989f55540ee45f9b0b5a6818ce019b64ebd89fb9e7df0d49f3ae5af0.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-c1e700749508b5af4bdbfd6fe8dd6dd13931a9f83ec9e81d88b7f95624e75d4a",
-          "name": "剧情配乐 22 · 第三章 · 维塔",
-          "file": "/audio/audio-c1e700749508b5af4bdbfd6fe8dd6dd13931a9f83ec9e81d88b7f95624e75d4a.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-64e0a57250aa9d58d707cff75451988bb38c77fd37c321c5e6d87cd464743440",
-          "name": "剧情配乐 32 · 第三章 · 花令旅团",
-          "file": "/audio/audio-64e0a57250aa9d58d707cff75451988bb38c77fd37c321c5e6d87cd464743440.opus",
-          "description": ""
-        },
-        {
           "id": "audio-792547d1a08417cb57edfa8678ba150e7411287749440ecf07663b0ea627116a",
-          "name": "剧情配乐 12 · 第三章 · 手机",
+          "name": "第三章 · 手机 · 第1音轨",
           "file": "/audio/audio-792547d1a08417cb57edfa8678ba150e7411287749440ecf07663b0ea627116a.opus",
           "description": ""
         },
         {
           "id": "audio-9d6b9de64b05ce76b3a736404bcea38965141965e83d796b7b706fcd9298a6ee",
-          "name": "剧情配乐 12 · 第三章 · 手机",
+          "name": "第三章 · 手机 · 第2音轨",
           "file": "/audio/audio-9d6b9de64b05ce76b3a736404bcea38965141965e83d796b7b706fcd9298a6ee.opus",
           "description": ""
         },
         {
+          "id": "audio-c1e700749508b5af4bdbfd6fe8dd6dd13931a9f83ec9e81d88b7f95624e75d4a",
+          "name": "第三章 · 维塔",
+          "file": "/audio/audio-c1e700749508b5af4bdbfd6fe8dd6dd13931a9f83ec9e81d88b7f95624e75d4a.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-4b4fa2db989f55540ee45f9b0b5a6818ce019b64ebd89fb9e7df0d49f3ae5af0",
+          "name": "第三章 · 三大魔物 · 第1音轨",
+          "file": "/audio/audio-4b4fa2db989f55540ee45f9b0b5a6818ce019b64ebd89fb9e7df0d49f3ae5af0.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-dce53a49f2a12c24f3e9cd8aa50a24496b6c581c7576263a4913ae82e05e5a37",
+          "name": "第三章 · 三大魔物 · 第2音轨",
+          "file": "/audio/audio-dce53a49f2a12c24f3e9cd8aa50a24496b6c581c7576263a4913ae82e05e5a37.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-c733d485bd17b0ce0bd5d79e72015334052097504c9bb7e88cbe7f38811438f2",
+          "name": "第三章 · 森林深处的“仙人”",
+          "file": "/audio/audio-c733d485bd17b0ce0bd5d79e72015334052097504c9bb7e88cbe7f38811438f2.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-64e0a57250aa9d58d707cff75451988bb38c77fd37c321c5e6d87cd464743440",
+          "name": "第三章 · 花令旅团",
+          "file": "/audio/audio-64e0a57250aa9d58d707cff75451988bb38c77fd37c321c5e6d87cd464743440.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-8f21c7e025d6e58baa8680235ad10e3bd77d47d8461a01c1423bec5e6b9b8504",
+          "name": "第三章 · 不被需要的弱者",
+          "file": "/audio/audio-8f21c7e025d6e58baa8680235ad10e3bd77d47d8461a01c1423bec5e6b9b8504.opus",
+          "description": ""
+        },
+        {
           "id": "audio-03da4ad009d7baa1b2907886dff8b43a5955c152e6a890c7baea5c74d6fd1a9d",
-          "name": "主线第三章",
+          "name": "主线第三章 · 界面配乐",
           "file": "/audio/audio-03da4ad009d7baa1b2907886dff8b43a5955c152e6a890c7baea5c74d6fd1a9d.opus",
           "description": ""
         },
@@ -1123,7 +1123,7 @@
         },
         {
           "id": "audio-f59f6f075fcfa1a5e27d4e82710d64a556ee4ed9f999d906ce131bab55383b8b",
-          "name": "灾变防线",
+          "name": "灾变防线 · 界面配乐",
           "file": "/audio/audio-f59f6f075fcfa1a5e27d4e82710d64a556ee4ed9f999d906ce131bab55383b8b.opus",
           "description": ""
         }
@@ -1159,7 +1159,7 @@
       "tracks": [
         {
           "id": "audio-2e09ba213a7b30f0175720175d7355218b8efdd8684f62a12f18368b25eadb58",
-          "name": "惊奇冒险！渊海幽灵船传说！",
+          "name": "惊奇冒险！渊海幽灵船传说！ · 战斗配乐",
           "file": "/audio/audio-2e09ba213a7b30f0175720175d7355218b8efdd8684f62a12f18368b25eadb58.opus",
           "description": ""
         },
@@ -1171,7 +1171,7 @@
         },
         {
           "id": "audio-abc9e01dfa588dc14581a904736e6dfa48da5370281a9338ab164a318146f4ad",
-          "name": "剧情配乐 15 · 惊奇冒险！渊海幽灵船传说！ · 谜团与气味",
+          "name": "惊奇冒险！渊海幽灵船传说！ · 谜团与气味",
           "file": "/audio/audio-abc9e01dfa588dc14581a904736e6dfa48da5370281a9338ab164a318146f4ad.opus",
           "description": ""
         },
@@ -1183,7 +1183,7 @@
         },
         {
           "id": "audio-2d545eccb841142d776f6e5ea25debab579c0b4470e3558bea8491ff69cf26e5",
-          "name": "惊奇冒险！渊海幽灵船传说！",
+          "name": "惊奇冒险！渊海幽灵船传说！ · 界面配乐",
           "file": "/audio/audio-2d545eccb841142d776f6e5ea25debab579c0b4470e3558bea8491ff69cf26e5.opus",
           "description": ""
         }
@@ -1198,7 +1198,7 @@
       "tracks": [
         {
           "id": "audio-29f7c96afec5cb78c67bca274ec30187ad21d6a7fbe044c6d09ea4e1ff0ebb07",
-          "name": "闻香识魔女",
+          "name": "闻香识魔女 · 界面配乐",
           "file": "/audio/audio-29f7c96afec5cb78c67bca274ec30187ad21d6a7fbe044c6d09ea4e1ff0ebb07.opus",
           "description": ""
         }
@@ -1212,87 +1212,87 @@
       "outfit_references": [],
       "tracks": [
         {
-          "id": "audio-eab7afe0fbe236ef936aba9c41e12aa2d08280d44538177abab37aa37916487b",
-          "name": "剧情配乐 4 · 第二章 · 仁义与刀",
-          "file": "/audio/audio-eab7afe0fbe236ef936aba9c41e12aa2d08280d44538177abab37aa37916487b.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-10ada5e100bb793416ea648e56a2898e9dd04048cd6cd5185afd75e2628f1813",
-          "name": "剧情配乐 8 · 第二章 · 黑色少女",
-          "file": "/audio/audio-10ada5e100bb793416ea648e56a2898e9dd04048cd6cd5185afd75e2628f1813.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-88da21223cee630edc923873bc9e9c967684cb876c45da64bf56af8ddd7e5c6d",
-          "name": "剧情配乐 64 · 第二章 · 黑色少女",
-          "file": "/audio/audio-88da21223cee630edc923873bc9e9c967684cb876c45da64bf56af8ddd7e5c6d.opus",
-          "description": ""
-        },
-        {
           "id": "audio-ad9d5a5b687fd000b1737755a8e88a8abbd37bf525a6e51837646f92c1eef9bd",
-          "name": "剧情配乐 46 · 第二章 · 公司与绿洲",
+          "name": "第二章 · 公司与绿洲",
           "file": "/audio/audio-ad9d5a5b687fd000b1737755a8e88a8abbd37bf525a6e51837646f92c1eef9bd.opus",
           "description": ""
         },
         {
-          "id": "audio-00fdecea08d4081bd0ea2825d8b2a82ad1e2143e0db634bad455ee142286e930",
-          "name": "剧情配乐 47 · 第二章 · 黑色少女",
-          "file": "/audio/audio-00fdecea08d4081bd0ea2825d8b2a82ad1e2143e0db634bad455ee142286e930.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-e90d96952741cb42db90aaa46e1898f16e27eb045fe072fa8f9595d99a4035e8",
-          "name": "剧情配乐 45 · 第二章 · 变装侦查",
-          "file": "/audio/audio-e90d96952741cb42db90aaa46e1898f16e27eb045fe072fa8f9595d99a4035e8.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-2696e1a843e1113dee8af2479341c0eca74283ddbadd6f06ba328c4205d10605",
-          "name": "剧情配乐 43 · 第二章 · 特许经营",
-          "file": "/audio/audio-2696e1a843e1113dee8af2479341c0eca74283ddbadd6f06ba328c4205d10605.opus",
-          "description": ""
-        },
-        {
           "id": "audio-1a11186c302e4bfc84f8b21cf5171d3a64dea7dc8d9c087db661a2f2ffa65fb7",
-          "name": "剧情配乐 49 · 第二章 · 深夜潜入",
+          "name": "第二章 · 深夜潜入",
           "file": "/audio/audio-1a11186c302e4bfc84f8b21cf5171d3a64dea7dc8d9c087db661a2f2ffa65fb7.opus",
           "description": ""
         },
         {
-          "id": "audio-b1717e174c4cd99db8f605f4c9d05e2a29b8ef0d5ef499f6eee823e8da40acc3",
-          "name": "剧情配乐 59 · 第二章 · 黑色少女",
-          "file": "/audio/audio-b1717e174c4cd99db8f605f4c9d05e2a29b8ef0d5ef499f6eee823e8da40acc3.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-8e319a2bf6feae89ec27d35c8bcc9399103c88c5392aad8f5ee15eaa98631c5b",
-          "name": "剧情配乐 52 · 第二章 · 新的起点",
-          "file": "/audio/audio-8e319a2bf6feae89ec27d35c8bcc9399103c88c5392aad8f5ee15eaa98631c5b.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-dc032f936b5cb60abe5b9448d291f41338c5b5000e71cf3fb9c70c8a113605ad",
-          "name": "剧情配乐 33 · 第二章 · 仁义与刀",
-          "file": "/audio/audio-dc032f936b5cb60abe5b9448d291f41338c5b5000e71cf3fb9c70c8a113605ad.opus",
+          "id": "audio-e90d96952741cb42db90aaa46e1898f16e27eb045fe072fa8f9595d99a4035e8",
+          "name": "第二章 · 变装侦查",
+          "file": "/audio/audio-e90d96952741cb42db90aaa46e1898f16e27eb045fe072fa8f9595d99a4035e8.opus",
           "description": ""
         },
         {
           "id": "audio-26c12c8a1dbe908dbd44ccd832ec3a7c8b3eed945603c788379490085c55bf3b",
-          "name": "剧情配乐 14 · 第二章 · 永恒",
+          "name": "第二章 · 永恒",
           "file": "/audio/audio-26c12c8a1dbe908dbd44ccd832ec3a7c8b3eed945603c788379490085c55bf3b.opus",
           "description": ""
         },
         {
           "id": "audio-e9a36f1a456219dd185bf259ac03edff8e9af87b2fa5e3e210a8489ec3e19a2d",
-          "name": "剧情配乐 10 · 第二章 · 暗夜中的视线",
+          "name": "第二章 · 暗夜中的视线",
           "file": "/audio/audio-e9a36f1a456219dd185bf259ac03edff8e9af87b2fa5e3e210a8489ec3e19a2d.opus",
           "description": ""
         },
         {
+          "id": "audio-b1717e174c4cd99db8f605f4c9d05e2a29b8ef0d5ef499f6eee823e8da40acc3",
+          "name": "第二章 · 黑色少女 · 第1音轨",
+          "file": "/audio/audio-b1717e174c4cd99db8f605f4c9d05e2a29b8ef0d5ef499f6eee823e8da40acc3.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-00fdecea08d4081bd0ea2825d8b2a82ad1e2143e0db634bad455ee142286e930",
+          "name": "第二章 · 黑色少女 · 第2音轨",
+          "file": "/audio/audio-00fdecea08d4081bd0ea2825d8b2a82ad1e2143e0db634bad455ee142286e930.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-10ada5e100bb793416ea648e56a2898e9dd04048cd6cd5185afd75e2628f1813",
+          "name": "第二章 · 黑色少女 · 第3音轨",
+          "file": "/audio/audio-10ada5e100bb793416ea648e56a2898e9dd04048cd6cd5185afd75e2628f1813.opus",
+          "description": ""
+        },
+        {
           "id": "audio-5ecf192bbaa0729c9f1f769658312ddcadf25d1cb33d795ff278755755c72a07",
-          "name": "剧情配乐 8 · 第二章 · 黑色少女",
+          "name": "第二章 · 黑色少女 · 第4音轨",
           "file": "/audio/audio-5ecf192bbaa0729c9f1f769658312ddcadf25d1cb33d795ff278755755c72a07.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-88da21223cee630edc923873bc9e9c967684cb876c45da64bf56af8ddd7e5c6d",
+          "name": "第二章 · 黑色少女 · 第5音轨",
+          "file": "/audio/audio-88da21223cee630edc923873bc9e9c967684cb876c45da64bf56af8ddd7e5c6d.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-dc032f936b5cb60abe5b9448d291f41338c5b5000e71cf3fb9c70c8a113605ad",
+          "name": "第二章 · 仁义与刀 · 第1音轨",
+          "file": "/audio/audio-dc032f936b5cb60abe5b9448d291f41338c5b5000e71cf3fb9c70c8a113605ad.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-eab7afe0fbe236ef936aba9c41e12aa2d08280d44538177abab37aa37916487b",
+          "name": "第二章 · 仁义与刀 · 第2音轨",
+          "file": "/audio/audio-eab7afe0fbe236ef936aba9c41e12aa2d08280d44538177abab37aa37916487b.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-2696e1a843e1113dee8af2479341c0eca74283ddbadd6f06ba328c4205d10605",
+          "name": "第二章 · 特许经营",
+          "file": "/audio/audio-2696e1a843e1113dee8af2479341c0eca74283ddbadd6f06ba328c4205d10605.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-8e319a2bf6feae89ec27d35c8bcc9399103c88c5392aad8f5ee15eaa98631c5b",
+          "name": "第二章 · 新的起点",
+          "file": "/audio/audio-8e319a2bf6feae89ec27d35c8bcc9399103c88c5392aad8f5ee15eaa98631c5b.opus",
           "description": ""
         }
       ]
@@ -1305,141 +1305,141 @@
       "outfit_references": [],
       "tracks": [
         {
-          "id": "audio-21450e386114c0bc8183f3690374a1c09a87261f80a2d5f4bdfa7493af7d14f5",
-          "name": "剧情配乐 2 · 第一章 · 过去的痕迹",
-          "file": "/audio/audio-21450e386114c0bc8183f3690374a1c09a87261f80a2d5f4bdfa7493af7d14f5.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-fd095e082318094b0a62e1e53e318aea64869d456b191c39d8afcc640f0f2820",
-          "name": "剧情配乐 3 · 第一章 · 桥洞下",
-          "file": "/audio/audio-fd095e082318094b0a62e1e53e318aea64869d456b191c39d8afcc640f0f2820.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-57e4213c5b72ed6f32bd163581c705c9087c9101f68b961f93dfc7815feb09c6",
-          "name": "剧情配乐 1 · 第一章 · 梦醒时分",
-          "file": "/audio/audio-57e4213c5b72ed6f32bd163581c705c9087c9101f68b961f93dfc7815feb09c6.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-7cc7da136259fb4fe14ec3bb894fd9502047298eb930e7b795a35de40d81e8c4",
-          "name": "剧情配乐 9 · 第一章 · 桥洞下",
-          "file": "/audio/audio-7cc7da136259fb4fe14ec3bb894fd9502047298eb930e7b795a35de40d81e8c4.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-1af25470e8d75a51b9dff3895c8a2e053910571a9212e15cb51cd83580d3f617",
-          "name": "剧情配乐 44 · 第一章 · 灰城区的风",
-          "file": "/audio/audio-1af25470e8d75a51b9dff3895c8a2e053910571a9212e15cb51cd83580d3f617.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-d35ba185ff0d3025b0766dd67bcf3d757f0a8fcd959a0524f1fe6d4755ed1850",
-          "name": "剧情配乐 40 · 第一章 · 消失的绿洲",
-          "file": "/audio/audio-d35ba185ff0d3025b0766dd67bcf3d757f0a8fcd959a0524f1fe6d4755ed1850.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-a9d191cbc9c22246ba0b14fde1b6450b35806cb9ce569713276e4860bbdea196",
-          "name": "剧情配乐 55 · 第一章 · 填补记忆的方式",
-          "file": "/audio/audio-a9d191cbc9c22246ba0b14fde1b6450b35806cb9ce569713276e4860bbdea196.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-16eb7fab8fec231b9e995c4ef840d6fb5ead174689568a8d4d1c896ed924f4ac",
-          "name": "剧情配乐 54 · 第一章 · 没有旅人的未来",
-          "file": "/audio/audio-16eb7fab8fec231b9e995c4ef840d6fb5ead174689568a8d4d1c896ed924f4ac.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-24587f1639cf113d7fa6f1dce1359dfe95fd4324df3cb3186f354fa8fc0893cc",
-          "name": "剧情配乐 57 · 第一章 · 过去的痕迹",
-          "file": "/audio/audio-24587f1639cf113d7fa6f1dce1359dfe95fd4324df3cb3186f354fa8fc0893cc.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-05d88e4db02cef40263db9407b92e70de33c3a8de68130c8bd9bebc8ed8abe20",
-          "name": "剧情配乐 56 · 第一章 · 梦醒时分",
-          "file": "/audio/audio-05d88e4db02cef40263db9407b92e70de33c3a8de68130c8bd9bebc8ed8abe20.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-003965b19a98939644b9dd4f94e9e59d86ed6a747b33e9162dabbb4f738aaa5d",
-          "name": "剧情配乐 28 · 第一章 · 灰城区的风",
-          "file": "/audio/audio-003965b19a98939644b9dd4f94e9e59d86ed6a747b33e9162dabbb4f738aaa5d.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-3c92f173b6c40e3f4937c843d3cf8576bbae82e1d1bdde12c62986ad96746603",
-          "name": "剧情配乐 39 · 第一章 · 飞翔的选择",
-          "file": "/audio/audio-3c92f173b6c40e3f4937c843d3cf8576bbae82e1d1bdde12c62986ad96746603.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-7a9d90a816b55b1de508426288b8505298852925ac9ed3988da86f4d352888b0",
-          "name": "剧情配乐 38 · 第一章 · 最终解释权",
-          "file": "/audio/audio-7a9d90a816b55b1de508426288b8505298852925ac9ed3988da86f4d352888b0.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-6b5bccf1f4782c622ad8c66d22556f635dc5a55f28ceaa5d72748cc22932d1ef",
-          "name": "剧情配乐 37 · 第一章 · 调查结果",
-          "file": "/audio/audio-6b5bccf1f4782c622ad8c66d22556f635dc5a55f28ceaa5d72748cc22932d1ef.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-9071876fc33c81bf43563f3f9f1f85c95e5f61dff7e37ff0e8ded9568da674e8",
-          "name": "剧情配乐 36 · 第一章 · 桥洞下",
-          "file": "/audio/audio-9071876fc33c81bf43563f3f9f1f85c95e5f61dff7e37ff0e8ded9568da674e8.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-9bb83533656a796224fd2c2e0aff1befe50f0d71bfbe39811d88c56c72deb7c4",
-          "name": "剧情配乐 35 · 第一章 · 飞翔的选择",
-          "file": "/audio/audio-9bb83533656a796224fd2c2e0aff1befe50f0d71bfbe39811d88c56c72deb7c4.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-be06c508a6be79435384e9aee0d61e4df5c5a7a18af54a5a1fd51ad8e9d80276",
-          "name": "剧情配乐 34 · 第一章 · 消失的绿洲",
-          "file": "/audio/audio-be06c508a6be79435384e9aee0d61e4df5c5a7a18af54a5a1fd51ad8e9d80276.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-0bc27082d923883e8c39935c32525d41b99d3de91ea663c42d6becd9735c3521",
-          "name": "剧情配乐 31 · 第一章 · 没有旅人的未来",
-          "file": "/audio/audio-0bc27082d923883e8c39935c32525d41b99d3de91ea663c42d6becd9735c3521.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-9ec2fc17f8dfbb04c031c631b08d41ee5d7dea5b13a8d375b3b836e06b76e18e",
-          "name": "剧情配乐 30 · 第一章 · 过去的痕迹",
-          "file": "/audio/audio-9ec2fc17f8dfbb04c031c631b08d41ee5d7dea5b13a8d375b3b836e06b76e18e.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-1a2c34a528abc1400cc8b079d5a9c6f558822bb4ac1ef8b209470a40b87a0333",
-          "name": "剧情配乐 11 · 第一章 · 消失的绿洲",
-          "file": "/audio/audio-1a2c34a528abc1400cc8b079d5a9c6f558822bb4ac1ef8b209470a40b87a0333.opus",
-          "description": ""
-        },
-        {
           "id": "audio-3e5725481d24690da5693eac1d78b435b107ff8b2561204bccbf959522d2f3f8",
-          "name": "剧情配乐 13 · 第一章 · 梦醒时分",
+          "name": "第一章 · 梦醒时分 · 第1音轨",
           "file": "/audio/audio-3e5725481d24690da5693eac1d78b435b107ff8b2561204bccbf959522d2f3f8.opus",
           "description": ""
         },
         {
-          "id": "audio-06890401058931a07ec83b0aaf2fd6675b3045f189ad0f5da5562a55e3078f14",
-          "name": "剧情配乐 19 · 第一章 · 没有旅人的未来",
-          "file": "/audio/audio-06890401058931a07ec83b0aaf2fd6675b3045f189ad0f5da5562a55e3078f14.opus",
+          "id": "audio-05d88e4db02cef40263db9407b92e70de33c3a8de68130c8bd9bebc8ed8abe20",
+          "name": "第一章 · 梦醒时分 · 第2音轨",
+          "file": "/audio/audio-05d88e4db02cef40263db9407b92e70de33c3a8de68130c8bd9bebc8ed8abe20.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-57e4213c5b72ed6f32bd163581c705c9087c9101f68b961f93dfc7815feb09c6",
+          "name": "第一章 · 梦醒时分 · 第3音轨",
+          "file": "/audio/audio-57e4213c5b72ed6f32bd163581c705c9087c9101f68b961f93dfc7815feb09c6.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-9ec2fc17f8dfbb04c031c631b08d41ee5d7dea5b13a8d375b3b836e06b76e18e",
+          "name": "第一章 · 过去的痕迹 · 第1音轨",
+          "file": "/audio/audio-9ec2fc17f8dfbb04c031c631b08d41ee5d7dea5b13a8d375b3b836e06b76e18e.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-21450e386114c0bc8183f3690374a1c09a87261f80a2d5f4bdfa7493af7d14f5",
+          "name": "第一章 · 过去的痕迹 · 第2音轨",
+          "file": "/audio/audio-21450e386114c0bc8183f3690374a1c09a87261f80a2d5f4bdfa7493af7d14f5.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-24587f1639cf113d7fa6f1dce1359dfe95fd4324df3cb3186f354fa8fc0893cc",
+          "name": "第一章 · 过去的痕迹 · 第3音轨",
+          "file": "/audio/audio-24587f1639cf113d7fa6f1dce1359dfe95fd4324df3cb3186f354fa8fc0893cc.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-1a2c34a528abc1400cc8b079d5a9c6f558822bb4ac1ef8b209470a40b87a0333",
+          "name": "第一章 · 消失的绿洲 · 第1音轨",
+          "file": "/audio/audio-1a2c34a528abc1400cc8b079d5a9c6f558822bb4ac1ef8b209470a40b87a0333.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-d35ba185ff0d3025b0766dd67bcf3d757f0a8fcd959a0524f1fe6d4755ed1850",
+          "name": "第一章 · 消失的绿洲 · 第2音轨",
+          "file": "/audio/audio-d35ba185ff0d3025b0766dd67bcf3d757f0a8fcd959a0524f1fe6d4755ed1850.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-be06c508a6be79435384e9aee0d61e4df5c5a7a18af54a5a1fd51ad8e9d80276",
+          "name": "第一章 · 消失的绿洲 · 第3音轨",
+          "file": "/audio/audio-be06c508a6be79435384e9aee0d61e4df5c5a7a18af54a5a1fd51ad8e9d80276.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-7cc7da136259fb4fe14ec3bb894fd9502047298eb930e7b795a35de40d81e8c4",
+          "name": "第一章 · 桥洞下 · 第1音轨",
+          "file": "/audio/audio-7cc7da136259fb4fe14ec3bb894fd9502047298eb930e7b795a35de40d81e8c4.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-9071876fc33c81bf43563f3f9f1f85c95e5f61dff7e37ff0e8ded9568da674e8",
+          "name": "第一章 · 桥洞下 · 第2音轨",
+          "file": "/audio/audio-9071876fc33c81bf43563f3f9f1f85c95e5f61dff7e37ff0e8ded9568da674e8.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-fd095e082318094b0a62e1e53e318aea64869d456b191c39d8afcc640f0f2820",
+          "name": "第一章 · 桥洞下 · 第3音轨",
+          "file": "/audio/audio-fd095e082318094b0a62e1e53e318aea64869d456b191c39d8afcc640f0f2820.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-003965b19a98939644b9dd4f94e9e59d86ed6a747b33e9162dabbb4f738aaa5d",
+          "name": "第一章 · 灰城区的风 · 第1音轨",
+          "file": "/audio/audio-003965b19a98939644b9dd4f94e9e59d86ed6a747b33e9162dabbb4f738aaa5d.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-1af25470e8d75a51b9dff3895c8a2e053910571a9212e15cb51cd83580d3f617",
+          "name": "第一章 · 灰城区的风 · 第2音轨",
+          "file": "/audio/audio-1af25470e8d75a51b9dff3895c8a2e053910571a9212e15cb51cd83580d3f617.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-9bb83533656a796224fd2c2e0aff1befe50f0d71bfbe39811d88c56c72deb7c4",
+          "name": "第一章 · 飞翔的选择 · 第1音轨",
+          "file": "/audio/audio-9bb83533656a796224fd2c2e0aff1befe50f0d71bfbe39811d88c56c72deb7c4.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-3c92f173b6c40e3f4937c843d3cf8576bbae82e1d1bdde12c62986ad96746603",
+          "name": "第一章 · 飞翔的选择 · 第2音轨",
+          "file": "/audio/audio-3c92f173b6c40e3f4937c843d3cf8576bbae82e1d1bdde12c62986ad96746603.opus",
           "description": ""
         },
         {
           "id": "audio-50f1d5d8bf4d983b3aec251c765f27847c7acc36dbe28c2a0ce4d12714e61b73",
-          "name": "剧情配乐 18 · 第一章 · 不同的许愿",
+          "name": "第一章 · 不同的许愿",
           "file": "/audio/audio-50f1d5d8bf4d983b3aec251c765f27847c7acc36dbe28c2a0ce4d12714e61b73.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-6b5bccf1f4782c622ad8c66d22556f635dc5a55f28ceaa5d72748cc22932d1ef",
+          "name": "第一章 · 调查结果",
+          "file": "/audio/audio-6b5bccf1f4782c622ad8c66d22556f635dc5a55f28ceaa5d72748cc22932d1ef.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-0bc27082d923883e8c39935c32525d41b99d3de91ea663c42d6becd9735c3521",
+          "name": "第一章 · 没有旅人的未来 · 第1音轨",
+          "file": "/audio/audio-0bc27082d923883e8c39935c32525d41b99d3de91ea663c42d6becd9735c3521.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-06890401058931a07ec83b0aaf2fd6675b3045f189ad0f5da5562a55e3078f14",
+          "name": "第一章 · 没有旅人的未来 · 第2音轨",
+          "file": "/audio/audio-06890401058931a07ec83b0aaf2fd6675b3045f189ad0f5da5562a55e3078f14.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-16eb7fab8fec231b9e995c4ef840d6fb5ead174689568a8d4d1c896ed924f4ac",
+          "name": "第一章 · 没有旅人的未来 · 第3音轨",
+          "file": "/audio/audio-16eb7fab8fec231b9e995c4ef840d6fb5ead174689568a8d4d1c896ed924f4ac.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-a9d191cbc9c22246ba0b14fde1b6450b35806cb9ce569713276e4860bbdea196",
+          "name": "第一章 · 填补记忆的方式",
+          "file": "/audio/audio-a9d191cbc9c22246ba0b14fde1b6450b35806cb9ce569713276e4860bbdea196.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-7a9d90a816b55b1de508426288b8505298852925ac9ed3988da86f4d352888b0",
+          "name": "第一章 · 最终解释权",
+          "file": "/audio/audio-7a9d90a816b55b1de508426288b8505298852925ac9ed3988da86f4d352888b0.opus",
           "description": ""
         }
       ]
@@ -1453,7 +1453,7 @@
       "tracks": [
         {
           "id": "audio-058254bcd0b5742f1ba04c23bcbcbe41f0f1f7c2b3a02245604d4b31ce7a8abe",
-          "name": "开篇",
+          "name": "开篇 · 战斗配乐",
           "file": "/audio/audio-058254bcd0b5742f1ba04c23bcbcbe41f0f1f7c2b3a02245604d4b31ce7a8abe.opus",
           "description": ""
         },
@@ -1479,21 +1479,9 @@
           "description": ""
         },
         {
-          "id": "audio-f95ecf455e5ac897fc4a799c823e1798446294551f3acd2b19e7f1bd16def7f5",
-          "name": "营地",
-          "file": "/audio/audio-f95ecf455e5ac897fc4a799c823e1798446294551f3acd2b19e7f1bd16def7f5.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-5003a6494ac260936d0468e5a2221eb3d89e0a108a125878023a0494ef679eab",
-          "name": "登录与主界面",
-          "file": "/audio/audio-5003a6494ac260936d0468e5a2221eb3d89e0a108a125878023a0494ef679eab.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-b50d33dfe08dc4b22f251d28d2e0e8eefd5c8275cf072609e91d2b56234f75fb",
-          "name": "加载画面 · 常规",
-          "file": "/audio/audio-b50d33dfe08dc4b22f251d28d2e0e8eefd5c8275cf072609e91d2b56234f75fb.opus",
+          "id": "audio-06c451261061dc504b101745a1cc396322797e0c91fcb023a3ebd00084259653",
+          "name": "后宅",
+          "file": "/audio/audio-06c451261061dc504b101745a1cc396322797e0c91fcb023a3ebd00084259653.opus",
           "description": ""
         },
         {
@@ -1503,9 +1491,21 @@
           "description": ""
         },
         {
-          "id": "audio-06c451261061dc504b101745a1cc396322797e0c91fcb023a3ebd00084259653",
-          "name": "后宅",
-          "file": "/audio/audio-06c451261061dc504b101745a1cc396322797e0c91fcb023a3ebd00084259653.opus",
+          "id": "audio-b50d33dfe08dc4b22f251d28d2e0e8eefd5c8275cf072609e91d2b56234f75fb",
+          "name": "加载画面 · 常规",
+          "file": "/audio/audio-b50d33dfe08dc4b22f251d28d2e0e8eefd5c8275cf072609e91d2b56234f75fb.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-f95ecf455e5ac897fc4a799c823e1798446294551f3acd2b19e7f1bd16def7f5",
+          "name": "营地",
+          "file": "/audio/audio-f95ecf455e5ac897fc4a799c823e1798446294551f3acd2b19e7f1bd16def7f5.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-5003a6494ac260936d0468e5a2221eb3d89e0a108a125878023a0494ef679eab",
+          "name": "登录与主界面",
+          "file": "/audio/audio-5003a6494ac260936d0468e5a2221eb3d89e0a108a125878023a0494ef679eab.opus",
           "description": ""
         },
         {
@@ -2020,43 +2020,43 @@
       "tracks": [
         {
           "id": "audio-921276a7f5bca3969d7b39e841943ddf9f152eff7f4f18f4f3a8c438c2bdce07",
-          "name": "剧情配乐 63 · 首次出现待考",
+          "name": "首次出现待考 · m63 · 第1音轨",
           "file": "/audio/audio-921276a7f5bca3969d7b39e841943ddf9f152eff7f4f18f4f3a8c438c2bdce07.opus",
           "description": ""
         },
         {
           "id": "audio-dc66453ff8cdc9a21c946b56f132a4c26644ccf329f49ab98510cb85f97ce3cc",
-          "name": "剧情配乐 82 · 首次出现待考",
+          "name": "首次出现待考 · m82 · 第1音轨",
           "file": "/audio/audio-dc66453ff8cdc9a21c946b56f132a4c26644ccf329f49ab98510cb85f97ce3cc.opus",
           "description": ""
         },
         {
           "id": "audio-010f64338b0b67612986b439da4bedd685697e43fb121a49d3366df3d78093c3",
-          "name": "剧情配乐 84 · 首次出现待考",
+          "name": "首次出现待考 · m84",
           "file": "/audio/audio-010f64338b0b67612986b439da4bedd685697e43fb121a49d3366df3d78093c3.opus",
           "description": ""
         },
         {
           "id": "audio-7c4b1c0966f304b6688f4de4e9691cce5db6457c2496ac8aae62db927c4b1d27",
-          "name": "剧情配乐 94 · 首次出现待考",
+          "name": "首次出现待考 · m94 · 第1音轨",
           "file": "/audio/audio-7c4b1c0966f304b6688f4de4e9691cce5db6457c2496ac8aae62db927c4b1d27.opus",
           "description": ""
         },
         {
           "id": "audio-6fb4c5d1bea36790f23254c239fad63071cf1bc16072a62d7f2eb5c37c08494a",
-          "name": "剧情配乐 82 · 首次出现待考",
+          "name": "首次出现待考 · m82 · 第2音轨",
           "file": "/audio/audio-6fb4c5d1bea36790f23254c239fad63071cf1bc16072a62d7f2eb5c37c08494a.opus",
           "description": ""
         },
         {
           "id": "audio-9d047279ef45c7e69c01e2b70e91a5d43366da98a335f6fd6406ab8a5e728388",
-          "name": "剧情配乐 63 · 首次出现待考",
+          "name": "首次出现待考 · m63 · 第2音轨",
           "file": "/audio/audio-9d047279ef45c7e69c01e2b70e91a5d43366da98a335f6fd6406ab8a5e728388.opus",
           "description": ""
         },
         {
           "id": "audio-eecb960d3ed4a30303902aad764a27948771d09b94e6be835844ef5a9f955e7a",
-          "name": "剧情配乐 94 · 首次出现待考",
+          "name": "首次出现待考 · m94 · 第2音轨",
           "file": "/audio/audio-eecb960d3ed4a30303902aad764a27948771d09b94e6be835844ef5a9f955e7a.opus",
           "description": ""
         }

@@ -1,0 +1,5574 @@
+{
+  "schema_version": 1,
+  "policy": "Story configuration chapter order + SetBGM script line; prefer the current story set; branch ties follow configuration order. No dialogue captions in names. Same-base names get sequential track suffixes after ordering. Non-story positions and user descriptions are preserved.",
+  "groups": [
+    {
+      "group_id": "activity-10113",
+      "name": "执笔展卷，勾勒未名之境",
+      "dominant_story_set": null,
+      "tracks": [],
+      "ordered_story_files": []
+    },
+    {
+      "group_id": "mode-速度与机擎",
+      "name": "速度与机擎",
+      "dominant_story_set": null,
+      "tracks": [
+        {
+          "audio_id": "audio-4323fe1ed2d6c9ece6954b0f1b855fad69b85ac2bdccb2a3107c14297c5a7fd5",
+          "file": "/audio/audio-4323fe1ed2d6c9ece6954b0f1b855fad69b85ac2bdccb2a3107c14297c5a7fd5.opus",
+          "old_name": "速度与机擎 · 界面配乐",
+          "name": "速度与机擎 · 界面配乐",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        }
+      ],
+      "ordered_story_files": []
+    },
+    {
+      "group_id": "activity-20104",
+      "name": "完璧之庭 · 微尘破晓",
+      "dominant_story_set": [
+        "魔王，吾向您祈愿",
+        "特别篇"
+      ],
+      "tracks": [
+        {
+          "audio_id": "audio-88eaa4400e38c2d311b18c13916ae1880d586fc355f22b4827c2da00adf1205f",
+          "file": "/audio/audio-88eaa4400e38c2d311b18c13916ae1880d586fc355f22b4827c2da00adf1205f.opus",
+          "old_name": "特别篇 · 昨日重现 · 「你刚才拼命暗示不要说话」",
+          "name": "特别篇 · 昨日重现 · 第1音轨",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 1101,
+            "script_id": "STm10001_01",
+            "collection": "魔王，吾向您祈愿",
+            "story_set": "特别篇",
+            "chapter_name": "昨日重现",
+            "chapter_index": "01",
+            "description": "又一次醒来，又一段新的人生。",
+            "open_time": null,
+            "parent_story_ids": [],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              1101
+            ],
+            "call_line": 3130,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm10001_01.lua",
+            "music_state": "m148",
+            "chapter_order": 196
+          },
+          "scene_quote": {
+            "text": "你刚才拼命暗示==SEX1==不要说话。怎么，心虚了？",
+            "caption": "你刚才拼命暗示不要说话"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            196,
+            3130
+          ]
+        },
+        {
+          "audio_id": "audio-b011eee66b31b83229cb463a04d451df24e63462e414d43667e6b3e8a1061597",
+          "file": "/audio/audio-b011eee66b31b83229cb463a04d451df24e63462e414d43667e6b3e8a1061597.opus",
+          "old_name": "特别篇 · 昨日重现 · 「您不用在意一个小小守夜人的意见」",
+          "name": "特别篇 · 昨日重现 · 第2音轨",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 1101,
+            "script_id": "STm10001_01",
+            "collection": "魔王，吾向您祈愿",
+            "story_set": "特别篇",
+            "chapter_name": "昨日重现",
+            "chapter_index": "01",
+            "description": "又一次醒来，又一段新的人生。",
+            "open_time": null,
+            "parent_story_ids": [],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              1101
+            ],
+            "call_line": 6236,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm10001_01.lua",
+            "music_state": "m149",
+            "chapter_order": 196
+          },
+          "scene_quote": {
+            "text": "主人？您不用在意一个小小守夜人的意见。",
+            "caption": "您不用在意一个小小守夜人的意见"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            196,
+            6236
+          ]
+        },
+        {
+          "audio_id": "audio-29d23edcb066d719e3fca8887a7de976318529dd8b2dfe28af9f6bbe7291d02c",
+          "file": "/audio/audio-29d23edcb066d719e3fca8887a7de976318529dd8b2dfe28af9f6bbe7291d02c.opus",
+          "old_name": "特别篇 · 完璧之城 · 「亲爱的主人」",
+          "name": "特别篇 · 完璧之城",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 1103,
+            "script_id": "STm10001_02",
+            "collection": "魔王，吾向您祈愿",
+            "story_set": "特别篇",
+            "chapter_name": "完璧之城",
+            "chapter_index": "02",
+            "description": "物是人非，街道上并没有你熟悉的风景……",
+            "open_time": null,
+            "parent_story_ids": [],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              1103
+            ],
+            "call_line": 5127,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm10001_02.lua",
+            "music_state": "m95",
+            "chapter_order": 198
+          },
+          "scene_quote": {
+            "text": "亲爱的主人，最后还是得靠我来救您吧，那个守夜人根本靠不住啦~",
+            "caption": "亲爱的主人"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            198,
+            5127
+          ]
+        },
+        {
+          "audio_id": "audio-d3980acc19508fef2e8231dc51d69dde2bc078e6b4d3c606db2429b83b5ef418",
+          "file": "/audio/audio-d3980acc19508fef2e8231dc51d69dde2bc078e6b4d3c606db2429b83b5ef418.opus",
+          "old_name": "特别篇 · 短暂的日常 · 「或许是失踪案里的并肩作战让我们互相信…」",
+          "name": "特别篇 · 短暂的日常",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 1115,
+            "script_id": "STm10001_14",
+            "collection": "魔王，吾向您祈愿",
+            "story_set": "特别篇",
+            "chapter_name": "短暂的日常",
+            "chapter_index": "14",
+            "description": "时间缓缓流逝，你的心中满是担忧与思念……",
+            "open_time": null,
+            "parent_story_ids": [],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              1115
+            ],
+            "call_line": 5790,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm10001_14.lua",
+            "music_state": "m7",
+            "chapter_order": 210
+          },
+          "scene_quote": {
+            "text": "或许是失踪案里的并肩作战让我们互相信任；",
+            "caption": "或许是失踪案里的并肩作战让我们互相信…"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            210,
+            5790
+          ]
+        },
+        {
+          "audio_id": "audio-df105457f9b6758df8ce91b1cbbd27b6b718f4a3f16e438a60af29c82e8b7b93",
+          "file": "/audio/audio-df105457f9b6758df8ce91b1cbbd27b6b718f4a3f16e438a60af29c82e8b7b93.opus",
+          "old_name": "特别篇 · 高塔之下 · 「以魔法之神的名义」",
+          "name": "特别篇 · 高塔之下",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 1116,
+            "script_id": "STm10001_15",
+            "collection": "魔王，吾向您祈愿",
+            "story_set": "特别篇",
+            "chapter_name": "高塔之下",
+            "chapter_index": "15",
+            "description": "灵魂支起王座——永恒的雨已然落下。",
+            "open_time": null,
+            "parent_story_ids": [],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              1116
+            ],
+            "call_line": 36235,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm10001_15.lua",
+            "music_state": "m132",
+            "chapter_order": 211
+          },
+          "scene_quote": {
+            "text": "以魔法之神的名义，湮灭。",
+            "caption": "以魔法之神的名义"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            211,
+            36235
+          ]
+        },
+        {
+          "audio_id": "audio-328a1b1a78e5b57a06f1a28d26edd190e236df8774caa1741432ea525a297151",
+          "file": "/audio/audio-328a1b1a78e5b57a06f1a28d26edd190e236df8774caa1741432ea525a297151.opus",
+          "old_name": "特别篇 · 一粒沙的愿望 · 「以前可没见你这么垂头丧气过」",
+          "name": "特别篇 · 一粒沙的愿望",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 1121,
+            "script_id": "STm10001_19",
+            "collection": "魔王，吾向您祈愿",
+            "story_set": "特别篇",
+            "chapter_name": "一粒沙的愿望",
+            "chapter_index": "19",
+            "description": "“记住我的名字。”",
+            "open_time": null,
+            "parent_story_ids": [],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              1121
+            ],
+            "call_line": 2774,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm10001_19.lua",
+            "music_state": "m128",
+            "chapter_order": 216
+          },
+          "scene_quote": {
+            "text": "呵呵……以前可没见你这么垂头丧气过。十八号，你不用向我们道歉。",
+            "caption": "以前可没见你这么垂头丧气过"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            216,
+            2774
+          ]
+        },
+        {
+          "audio_id": "audio-d51e3d08d9ec0935f5eb40c98f4644b4e860d5910f8001460824d3f665eec008",
+          "file": "/audio/audio-d51e3d08d9ec0935f5eb40c98f4644b4e860d5910f8001460824d3f665eec008.opus",
+          "old_name": "特别篇 · 过去之事正如未来之事 · 「噫——珀尔娜」",
+          "name": "特别篇 · 过去之事正如未来之事 · 第1音轨",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 1123,
+            "script_id": "STm10001_20",
+            "collection": "魔王，吾向您祈愿",
+            "story_set": "特别篇",
+            "chapter_name": "过去之事正如未来之事",
+            "chapter_index": "尾声",
+            "description": "在这漫长旅途的最后，你终于推开了窄门。",
+            "open_time": null,
+            "parent_story_ids": [],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              1123
+            ],
+            "call_line": 8029,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm10001_20.lua",
+            "music_state": "m99",
+            "chapter_order": 218
+          },
+          "scene_quote": {
+            "text": "噫——==W==珀尔娜，你做什么啊！",
+            "caption": "噫——珀尔娜"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            218,
+            8029
+          ]
+        },
+        {
+          "audio_id": "audio-cd2f18a8b55c5a5a84e30e56580bbf4f3ff15078e20037cd99b4ca97c22d50f5",
+          "file": "/audio/audio-cd2f18a8b55c5a5a84e30e56580bbf4f3ff15078e20037cd99b4ca97c22d50f5.opus",
+          "old_name": "特别篇 · 过去之事正如未来之事 · 「尘沙、鸢尾」",
+          "name": "特别篇 · 过去之事正如未来之事 · 第2音轨",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 1123,
+            "script_id": "STm10001_20",
+            "collection": "魔王，吾向您祈愿",
+            "story_set": "特别篇",
+            "chapter_name": "过去之事正如未来之事",
+            "chapter_index": "尾声",
+            "description": "在这漫长旅途的最后，你终于推开了窄门。",
+            "open_time": null,
+            "parent_story_ids": [],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              1123
+            ],
+            "call_line": 26762,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm10001_20.lua",
+            "music_state": "m164",
+            "chapter_order": 218
+          },
+          "scene_quote": {
+            "text": "尘沙、鸢尾，许愿箱……==W==许愿箱==W==亮起来了。",
+            "caption": "尘沙、鸢尾"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            218,
+            26762
+          ]
+        }
+      ],
+      "ordered_story_files": [
+        "/audio/audio-88eaa4400e38c2d311b18c13916ae1880d586fc355f22b4827c2da00adf1205f.opus",
+        "/audio/audio-b011eee66b31b83229cb463a04d451df24e63462e414d43667e6b3e8a1061597.opus",
+        "/audio/audio-29d23edcb066d719e3fca8887a7de976318529dd8b2dfe28af9f6bbe7291d02c.opus",
+        "/audio/audio-d3980acc19508fef2e8231dc51d69dde2bc078e6b4d3c606db2429b83b5ef418.opus",
+        "/audio/audio-df105457f9b6758df8ce91b1cbbd27b6b718f4a3f16e438a60af29c82e8b7b93.opus",
+        "/audio/audio-328a1b1a78e5b57a06f1a28d26edd190e236df8774caa1741432ea525a297151.opus",
+        "/audio/audio-d51e3d08d9ec0935f5eb40c98f4644b4e860d5910f8001460824d3f665eec008.opus",
+        "/audio/audio-cd2f18a8b55c5a5a84e30e56580bbf4f3ff15078e20037cd99b4ca97c22d50f5.opus"
+      ]
+    },
+    {
+      "group_id": "activity-10112",
+      "name": "遥远的塔",
+      "dominant_story_set": [
+        "我思，故魔王在",
+        "第九章"
+      ],
+      "tracks": [
+        {
+          "audio_id": "audio-b72ee62d977da6e8134cddc2d5adf56822bc31a7e2e83c29d0978fc867280e23",
+          "file": "/audio/audio-b72ee62d977da6e8134cddc2d5adf56822bc31a7e2e83c29d0978fc867280e23.opus",
+          "old_name": "第九章 · 引线 · 「炮击阵地准备完毕」",
+          "name": "第九章 · 引线 · 第1音轨",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 1001,
+            "script_id": "STm09_00_a",
+            "collection": "我思，故魔王在",
+            "story_set": "第九章",
+            "chapter_name": "引线",
+            "chapter_index": "幕间 上",
+            "description": "这是一朵终将燃起的火。",
+            "open_time": null,
+            "parent_story_ids": [],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              1001
+            ],
+            "call_line": 301,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm09_00_a.lua",
+            "music_state": "m111",
+            "chapter_order": 170
+          },
+          "scene_quote": {
+            "text": "报告，委员长，炮击阵地准备完毕……==W==哎？我打扰到您读书了？",
+            "caption": "炮击阵地准备完毕"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            170,
+            301
+          ]
+        },
+        {
+          "audio_id": "audio-825ee41f22f6546ca56a37b56baa865eab3fa0cb3ddf62e2b1a9f6f7f6f79561",
+          "file": "/audio/audio-825ee41f22f6546ca56a37b56baa865eab3fa0cb3ddf62e2b1a9f6f7f6f79561.opus",
+          "old_name": "第九章 · 引线 · 「信里面说地下室的指南针」",
+          "name": "第九章 · 引线 · 第2音轨",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 1001,
+            "script_id": "STm09_00_a",
+            "collection": "我思，故魔王在",
+            "story_set": "第九章",
+            "chapter_name": "引线",
+            "chapter_index": "幕间 上",
+            "description": "这是一朵终将燃起的火。",
+            "open_time": null,
+            "parent_story_ids": [],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              1001
+            ],
+            "call_line": 8264,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm09_00_a.lua",
+            "music_state": "m116",
+            "chapter_order": 170
+          },
+          "scene_quote": {
+            "text": "那个......信里面说地下室的指南针，是不是就是我们从翡冷翠那拿到的这个？",
+            "caption": "信里面说地下室的指南针"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            170,
+            8264
+          ]
+        },
+        {
+          "audio_id": "audio-1ff673e63403569280ff4d4cea7e544facbe6e9f3f7450c852ef1d0377b3a592",
+          "file": "/audio/audio-1ff673e63403569280ff4d4cea7e544facbe6e9f3f7450c852ef1d0377b3a592.opus",
+          "old_name": "第九章 · 引线 · 「前面似乎有白色的烟」",
+          "name": "第九章 · 引线 · 第3音轨",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 1001,
+            "script_id": "STm09_00_a",
+            "collection": "我思，故魔王在",
+            "story_set": "第九章",
+            "chapter_name": "引线",
+            "chapter_index": "幕间 上",
+            "description": "这是一朵终将燃起的火。",
+            "open_time": null,
+            "parent_story_ids": [],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              1001
+            ],
+            "call_line": 12726,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm09_00_a.lua",
+            "music_state": "m107",
+            "chapter_order": 170
+          },
+          "scene_quote": {
+            "text": "前面似乎有白色的烟？==W==不，这是很强的风魔法，用来索敌的风魔法！",
+            "caption": "前面似乎有白色的烟"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            170,
+            12726
+          ]
+        },
+        {
+          "audio_id": "audio-e782fb9c549bde7e1a1100e29f2a5f8be7db202cdd46665198777dca6d14321a",
+          "file": "/audio/audio-e782fb9c549bde7e1a1100e29f2a5f8be7db202cdd46665198777dca6d14321a.opus",
+          "old_name": "第九章 · 点燃 · 「格蕾霍恩大人」",
+          "name": "第九章 · 点燃 · 第1音轨",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 1002,
+            "script_id": "STm09_00_b",
+            "collection": "我思，故魔王在",
+            "story_set": "第九章",
+            "chapter_name": "点燃",
+            "chapter_index": "幕间 下",
+            "description": "它毁灭不了你——反使你更强大。",
+            "open_time": null,
+            "parent_story_ids": [
+              "STm09_00_a"
+            ],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              1002
+            ],
+            "call_line": 5863,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm09_00_b.lua",
+            "music_state": "m112",
+            "chapter_order": 171
+          },
+          "scene_quote": {
+            "text": "格蕾霍恩大人，侦查组发来消息，魔<r=mowang></r>王和唯一的护卫就在我们前面的矿道里。",
+            "caption": "格蕾霍恩大人"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            171,
+            5863
+          ]
+        },
+        {
+          "audio_id": "audio-0b2df83299d31ae25a1c3b2eccd7d649e1b0834ded9eae1703f5a2c5bcbf4d96",
+          "file": "/audio/audio-0b2df83299d31ae25a1c3b2eccd7d649e1b0834ded9eae1703f5a2c5bcbf4d96.opus",
+          "old_name": "第九章 · 点燃 · 「这是我在米拉什能保护大家的唯一方法」",
+          "name": "第九章 · 点燃 · 第2音轨",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 1002,
+            "script_id": "STm09_00_b",
+            "collection": "我思，故魔王在",
+            "story_set": "第九章",
+            "chapter_name": "点燃",
+            "chapter_index": "幕间 下",
+            "description": "它毁灭不了你——反使你更强大。",
+            "open_time": null,
+            "parent_story_ids": [
+              "STm09_00_a"
+            ],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              1002
+            ],
+            "call_line": 20747,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm09_00_b.lua",
+            "music_state": "m101",
+            "chapter_order": 171
+          },
+          "scene_quote": {
+            "text": "嗯，这是我在米拉什能保护大家的唯一方法。",
+            "caption": "这是我在米拉什能保护大家的唯一方法"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            171,
+            20747
+          ]
+        },
+        {
+          "audio_id": "audio-8cd24bfd396f31fc154be4ba1bee195496bf780d973c025cbc0ed9205834c099",
+          "file": "/audio/audio-8cd24bfd396f31fc154be4ba1bee195496bf780d973c025cbc0ed9205834c099.opus",
+          "old_name": "第九章 · 伤痕暂停 · 「你们为什么不说话」",
+          "name": "第九章 · 伤痕暂停",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 1005,
+            "script_id": "STm09_02_a",
+            "collection": "我思，故魔王在",
+            "story_set": "第九章",
+            "chapter_name": "伤痕暂停",
+            "chapter_index": "02A",
+            "description": "痛楚难以免去，但苦难可以选择。",
+            "open_time": null,
+            "parent_story_ids": [
+              "BAm09_BT01"
+            ],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              1005
+            ],
+            "call_line": 21812,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm09_02_a.lua",
+            "music_state": "m125",
+            "chapter_order": 174
+          },
+          "scene_quote": {
+            "text": "孩子们……你们为什么不说话。",
+            "caption": "你们为什么不说话"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            174,
+            21812
+          ]
+        },
+        {
+          "audio_id": "audio-1a952b32f4af32c93c7b99d50d222cf5e43050dd0990c4f85fb73e177627be69",
+          "file": "/audio/audio-1a952b32f4af32c93c7b99d50d222cf5e43050dd0990c4f85fb73e177627be69.opus",
+          "old_name": "第九章 · 薯条和情报 · 「谢谢你保护了我们」",
+          "name": "第九章 · 薯条和情报 · 第1音轨",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 1007,
+            "script_id": "STm09_04_a",
+            "collection": "我思，故魔王在",
+            "story_set": "第九章",
+            "chapter_name": "薯条和情报",
+            "chapter_index": "04A",
+            "description": "有时候，信比剑更管用。",
+            "open_time": null,
+            "parent_story_ids": [
+              "STm09_03_a"
+            ],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              1007
+            ],
+            "call_line": 8105,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm09_04_a.lua",
+            "music_state": "m51",
+            "chapter_order": 176
+          },
+          "scene_quote": {
+            "text": "谢谢你保护了我们，==W==我记得……你是天空院的菈露女士？",
+            "caption": "谢谢你保护了我们"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            176,
+            8105
+          ]
+        },
+        {
+          "audio_id": "audio-37f88b48aacb01e866d69335d74b6490df87b7849fb4e725faae5b499fabd9e1",
+          "file": "/audio/audio-37f88b48aacb01e866d69335d74b6490df87b7849fb4e725faae5b499fabd9e1.opus",
+          "old_name": "第九章 · 薯条和情报 · 「看来我受伤也是有好处的嘛」",
+          "name": "第九章 · 薯条和情报 · 第2音轨",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 1007,
+            "script_id": "STm09_04_a",
+            "collection": "我思，故魔王在",
+            "story_set": "第九章",
+            "chapter_name": "薯条和情报",
+            "chapter_index": "04A",
+            "description": "有时候，信比剑更管用。",
+            "open_time": null,
+            "parent_story_ids": [
+              "STm09_03_a"
+            ],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              1007
+            ],
+            "call_line": 11985,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm09_04_a.lua",
+            "music_state": "m113",
+            "chapter_order": 176
+          },
+          "scene_quote": {
+            "text": "嘿嘿，看来我受伤也是有好处的嘛。",
+            "caption": "看来我受伤也是有好处的嘛"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            176,
+            11985
+          ]
+        },
+        {
+          "audio_id": "audio-e45e4946045ac6e8bad39d3ada07b7cf91df49e0416fd13fc190f82166792f56",
+          "file": "/audio/audio-e45e4946045ac6e8bad39d3ada07b7cf91df49e0416fd13fc190f82166792f56.opus",
+          "old_name": "第九章 · 身旁的她 · 「幸运绿洲号疯狂地倒车」",
+          "name": "第九章 · 身旁的她 · 第1音轨",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 1018,
+            "script_id": "STm09_06_b",
+            "collection": "我思，故魔王在",
+            "story_set": "第九章",
+            "chapter_name": "身旁的她",
+            "chapter_index": "终局",
+            "description": "只要……能到达那个地方……",
+            "open_time": null,
+            "parent_story_ids": [
+              "STm09_05_b"
+            ],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              1018
+            ],
+            "call_line": 22936,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm09_06_b.lua",
+            "music_state": "m41",
+            "chapter_order": 187
+          },
+          "scene_quote": {
+            "text": "幸运绿洲号疯狂地倒车，当不知道转了多久的车轮再次停下时，即使夏花和雾语飞上高空，也看不到琥珀再次发射的魔法。",
+            "caption": "幸运绿洲号疯狂地倒车"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            187,
+            22936
+          ]
+        },
+        {
+          "audio_id": "audio-4b8024d41b85449dd0238450982485a3bd43901422d8d932df61d411b23a448f",
+          "file": "/audio/audio-4b8024d41b85449dd0238450982485a3bd43901422d8d932df61d411b23a448f.opus",
+          "old_name": "第九章 · 身旁的她 · 「幸运绿洲号疯狂地倒车」 · 第二音轨",
+          "name": "第九章 · 身旁的她 · 第2音轨",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 1018,
+            "script_id": "STm09_06_b",
+            "collection": "我思，故魔王在",
+            "story_set": "第九章",
+            "chapter_name": "身旁的她",
+            "chapter_index": "终局",
+            "description": "只要……能到达那个地方……",
+            "open_time": null,
+            "parent_story_ids": [
+              "STm09_05_b"
+            ],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              1018
+            ],
+            "call_line": 22936,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm09_06_b.lua",
+            "music_state": "m41",
+            "chapter_order": 187
+          },
+          "scene_quote": {
+            "text": "幸运绿洲号疯狂地倒车，当不知道转了多久的车轮再次停下时，即使夏花和雾语飞上高空，也看不到琥珀再次发射的魔法。",
+            "caption": "幸运绿洲号疯狂地倒车"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            187,
+            22936
+          ]
+        },
+        {
+          "audio_id": "audio-4ec9c00725a8303ee04413a9b1b22a2bd1f6657905cd081f64ad68c69dd1f293",
+          "file": "/audio/audio-4ec9c00725a8303ee04413a9b1b22a2bd1f6657905cd081f64ad68c69dd1f293.opus",
+          "old_name": "第九章 · 请君入瓮 · 「让她们站到我们这边来」",
+          "name": "第九章 · 请君入瓮",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 1019,
+            "script_id": "STm09_01_c",
+            "collection": "我思，故魔王在",
+            "story_set": "第九章",
+            "chapter_name": "请君入瓮",
+            "chapter_index": "01C",
+            "description": "最好的猎人，最好的诱饵。",
+            "open_time": null,
+            "parent_story_ids": [
+              "STm09_00_b"
+            ],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              1019
+            ],
+            "call_line": 8087,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm09_01_c.lua",
+            "music_state": "m124",
+            "chapter_order": 188
+          },
+          "scene_quote": {
+            "text": "说服沙蝎，让她们站到我们这边来。",
+            "caption": "让她们站到我们这边来"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            188,
+            8087
+          ]
+        },
+        {
+          "audio_id": "audio-c807642029b198aa7c0db3a915f58a33aaa5cdde675c6e530eb43c6741b1a576",
+          "file": "/audio/audio-c807642029b198aa7c0db3a915f58a33aaa5cdde675c6e530eb43c6741b1a576.opus",
+          "old_name": "第九章 · 魔王之塔 · 「妾身不想听到如此污浊的杂音」",
+          "name": "第九章 · 魔王之塔",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 1021,
+            "script_id": "STm09_02_c",
+            "collection": "我思，故魔王在",
+            "story_set": "第九章",
+            "chapter_name": "魔王之塔",
+            "chapter_index": "02C",
+            "description": "勇者的攀登之路也不过如此了——",
+            "open_time": null,
+            "parent_story_ids": [
+              "BAm09_BT04"
+            ],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              1021
+            ],
+            "call_line": 19961,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm09_02_c.lua",
+            "music_state": "m109",
+            "chapter_order": 190
+          },
+          "scene_quote": {
+            "text": "聒噪，妾身不想听到如此污浊的杂音。",
+            "caption": "妾身不想听到如此污浊的杂音"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            190,
+            19961
+          ]
+        },
+        {
+          "audio_id": "audio-56bc338ba73ef396d4a9e4c1394682aaf6060e60beb776e4d4227daa2bc60d48",
+          "file": "/audio/audio-56bc338ba73ef396d4a9e4c1394682aaf6060e60beb776e4d4227daa2bc60d48.opus",
+          "old_name": "第九章 · 不变之物 · 「你现在的表情可真精彩」",
+          "name": "第九章 · 不变之物",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 1024,
+            "script_id": "STm09_04_c",
+            "collection": "我思，故魔王在",
+            "story_set": "第九章",
+            "chapter_name": "不变之物",
+            "chapter_index": "04C",
+            "description": "无论重来几次……",
+            "open_time": null,
+            "parent_story_ids": [
+              "BAm09_BT05"
+            ],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              1024
+            ],
+            "call_line": 10824,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm09_04_c.lua",
+            "music_state": "m127",
+            "chapter_order": 193
+          },
+          "scene_quote": {
+            "text": "哈哈哈哈，魔<r=mowang></r>王，你现在的表情可真精彩！",
+            "caption": "你现在的表情可真精彩"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            193,
+            10824
+          ]
+        },
+        {
+          "audio_id": "audio-ab024e65135cb149ee5e32dd31a5317eb3df192d5db62d44632bf59eddcedb25",
+          "file": "/audio/audio-ab024e65135cb149ee5e32dd31a5317eb3df192d5db62d44632bf59eddcedb25.opus",
+          "old_name": "艾蕾·旅人故事 · 结婚过家家 中 · 「我们一定会幸福的」",
+          "name": "艾蕾·旅人故事 · 结婚过家家 中",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Plot",
+            "id": 13902,
+            "script_id": "CG_139_02",
+            "collection": "旅人逸闻",
+            "story_set": "艾蕾·旅人故事",
+            "chapter_name": "结婚过家家 中",
+            "description": "即使不擅长家务，即使没有生过孩子，艾蕾也会是一位\"真正的母亲\"。",
+            "sort_key": [
+              "2025-10-20",
+              3,
+              13902
+            ],
+            "call_line": 8664,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/CG_139_02.lua",
+            "music_state": "m108",
+            "chapter_order": 73
+          },
+          "scene_quote": {
+            "text": "母亲大人……！==W==谢谢您！我们一定会幸福的！",
+            "caption": "我们一定会幸福的"
+          },
+          "order_key": [
+            1,
+            "2025-10-20",
+            3,
+            73,
+            8664
+          ]
+        }
+      ],
+      "ordered_story_files": [
+        "/audio/audio-b72ee62d977da6e8134cddc2d5adf56822bc31a7e2e83c29d0978fc867280e23.opus",
+        "/audio/audio-825ee41f22f6546ca56a37b56baa865eab3fa0cb3ddf62e2b1a9f6f7f6f79561.opus",
+        "/audio/audio-1ff673e63403569280ff4d4cea7e544facbe6e9f3f7450c852ef1d0377b3a592.opus",
+        "/audio/audio-e782fb9c549bde7e1a1100e29f2a5f8be7db202cdd46665198777dca6d14321a.opus",
+        "/audio/audio-0b2df83299d31ae25a1c3b2eccd7d649e1b0834ded9eae1703f5a2c5bcbf4d96.opus",
+        "/audio/audio-8cd24bfd396f31fc154be4ba1bee195496bf780d973c025cbc0ed9205834c099.opus",
+        "/audio/audio-1a952b32f4af32c93c7b99d50d222cf5e43050dd0990c4f85fb73e177627be69.opus",
+        "/audio/audio-37f88b48aacb01e866d69335d74b6490df87b7849fb4e725faae5b499fabd9e1.opus",
+        "/audio/audio-e45e4946045ac6e8bad39d3ada07b7cf91df49e0416fd13fc190f82166792f56.opus",
+        "/audio/audio-4b8024d41b85449dd0238450982485a3bd43901422d8d932df61d411b23a448f.opus",
+        "/audio/audio-4ec9c00725a8303ee04413a9b1b22a2bd1f6657905cd081f64ad68c69dd1f293.opus",
+        "/audio/audio-c807642029b198aa7c0db3a915f58a33aaa5cdde675c6e530eb43c6741b1a576.opus",
+        "/audio/audio-56bc338ba73ef396d4a9e4c1394682aaf6060e60beb776e4d4227daa2bc60d48.opus",
+        "/audio/audio-ab024e65135cb149ee5e32dd31a5317eb3df192d5db62d44632bf59eddcedb25.opus"
+      ]
+    },
+    {
+      "group_id": "activity-10111",
+      "name": "奋斗吧！大小姐的旅人修炼手册！",
+      "dominant_story_set": null,
+      "tracks": [],
+      "ordered_story_files": []
+    },
+    {
+      "group_id": "activity-10110",
+      "name": "欢歌劲浪 · 闪耀假日惊涛探险！",
+      "dominant_story_set": null,
+      "tracks": [
+        {
+          "audio_id": "audio-e6d69fc29425cb2c1a7f35e17b302672ea2aa580bb2ec7e32527740246a2acfc",
+          "file": "/audio/audio-e6d69fc29425cb2c1a7f35e17b302672ea2aa580bb2ec7e32527740246a2acfc.opus",
+          "old_name": "首领战 · 冻冻王三世 · 首领战斗",
+          "name": "首领战 · 冻冻王三世 · 首领战斗",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        }
+      ],
+      "ordered_story_files": []
+    },
+    {
+      "group_id": "mode-沁凉补给站",
+      "name": "沁凉补给站",
+      "dominant_story_set": null,
+      "tracks": [
+        {
+          "audio_id": "audio-272c021ce3fa82facf267aa8f55ff5894934b1d28c7abe17ee6e5adc9c970e32",
+          "file": "/audio/audio-272c021ce3fa82facf267aa8f55ff5894934b1d28c7abe17ee6e5adc9c970e32.opus",
+          "old_name": "沁凉补给站 · 界面配乐",
+          "name": "沁凉补给站 · 界面配乐",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        }
+      ],
+      "ordered_story_files": []
+    },
+    {
+      "group_id": "activity-20103",
+      "name": "晴风碧海 · 悠哉盛夏依然打卡~",
+      "dominant_story_set": null,
+      "tracks": [
+        {
+          "audio_id": "audio-e0b47be4da1419de36e562cd5e7b6cd72f3bebe4bb50aff7cb475bd773f33567",
+          "file": "/audio/audio-e0b47be4da1419de36e562cd5e7b6cd72f3bebe4bb50aff7cb475bd773f33567.opus",
+          "old_name": "首领战斗",
+          "name": "首领战斗",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        }
+      ],
+      "ordered_story_files": []
+    },
+    {
+      "group_id": "mode-尖兵陷阵",
+      "name": "尖兵陷阵",
+      "dominant_story_set": null,
+      "tracks": [
+        {
+          "audio_id": "audio-2b330641b9f9ceecc5dad7515cee8cdc228c4a36ad700339c44dbc966ac68ed7",
+          "file": "/audio/audio-2b330641b9f9ceecc5dad7515cee8cdc228c4a36ad700339c44dbc966ac68ed7.opus",
+          "old_name": "尖兵陷阵 · 战斗配乐",
+          "name": "尖兵陷阵 · 战斗配乐",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-aa81f2c41828e84b9159f8098685b1464da204af088ba4bb6b6b4bcb317120dd",
+          "file": "/audio/audio-aa81f2c41828e84b9159f8098685b1464da204af088ba4bb6b6b4bcb317120dd.opus",
+          "old_name": "尖兵陷阵 · 战斗配乐",
+          "name": "尖兵陷阵 · 战斗配乐",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-8b079c853ebaf858377b7a7a1a86821da2e6880b8446bb759013e31572b4bb26",
+          "file": "/audio/audio-8b079c853ebaf858377b7a7a1a86821da2e6880b8446bb759013e31572b4bb26.opus",
+          "old_name": "尖兵陷阵 · 首领战斗",
+          "name": "尖兵陷阵 · 首领战斗",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-9d66ee3de7e3cbc919c816178ffab3ef70c7ff16bc90904776085cc9dded0b1d",
+          "file": "/audio/audio-9d66ee3de7e3cbc919c816178ffab3ef70c7ff16bc90904776085cc9dded0b1d.opus",
+          "old_name": "尖兵陷阵 · 界面配乐",
+          "name": "尖兵陷阵 · 界面配乐",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-d405cc543ea930f2528ee47d13356ae9564c1a1f2e639e877e5a76ecd585d698",
+          "file": "/audio/audio-d405cc543ea930f2528ee47d13356ae9564c1a1f2e639e877e5a76ecd585d698.opus",
+          "old_name": "尖兵陷阵 · 副段",
+          "name": "尖兵陷阵 · 副段",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        }
+      ],
+      "ordered_story_files": []
+    },
+    {
+      "group_id": "activity-10109",
+      "name": "枪林弹雨覆黄沙",
+      "dominant_story_set": [
+        "我思，故魔王在",
+        "第九章"
+      ],
+      "tracks": [
+        {
+          "audio_id": "audio-10b8fd621d0863b30edd2c8f9e0cad0a55753da8100bf9ed19d6e91f1998c344",
+          "file": "/audio/audio-10b8fd621d0863b30edd2c8f9e0cad0a55753da8100bf9ed19d6e91f1998c344.opus",
+          "old_name": "枪林弹雨覆黄沙 · 普通战斗",
+          "name": "枪林弹雨覆黄沙 · 普通战斗",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 1003,
+            "script_id": "STm09_01_a",
+            "collection": "我思，故魔王在",
+            "story_set": "第九章",
+            "chapter_name": "风过林梢",
+            "chapter_index": "01A",
+            "description": "不必多言，行动就是答案。",
+            "open_time": null,
+            "parent_story_ids": [
+              "STm09_00_b"
+            ],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              1003
+            ],
+            "call_line": 16254,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm09_01_a.lua",
+            "music_state": "m136",
+            "chapter_order": 172
+          },
+          "scene_quote": {
+            "text": "蓝锥，你回去组织剩下的白猫保护孩子，我和猫眼留下，只靠你们三个挡不住这么多人的。",
+            "caption": "你回去组织剩下的白猫保护孩子"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            172,
+            16254
+          ]
+        }
+      ],
+      "ordered_story_files": [
+        "/audio/audio-10b8fd621d0863b30edd2c8f9e0cad0a55753da8100bf9ed19d6e91f1998c344.opus"
+      ]
+    },
+    {
+      "group_id": "activity-10108",
+      "name": "心跳！柔光狂想曲",
+      "dominant_story_set": [
+        "我思，故魔王在",
+        "第九章"
+      ],
+      "tracks": [
+        {
+          "audio_id": "audio-ef4cdaafa834cfbab8a9ad07aae2d5a3899e160cb21aa06d1a21861f62d08bab",
+          "file": "/audio/audio-ef4cdaafa834cfbab8a9ad07aae2d5a3899e160cb21aa06d1a21861f62d08bab.opus",
+          "old_name": "首领战 · 首领战斗",
+          "name": "首领战 · 首领战斗",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 1002,
+            "script_id": "STm09_00_b",
+            "collection": "我思，故魔王在",
+            "story_set": "第九章",
+            "chapter_name": "点燃",
+            "chapter_index": "幕间 下",
+            "description": "它毁灭不了你——反使你更强大。",
+            "open_time": null,
+            "parent_story_ids": [
+              "STm09_00_a"
+            ],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              1002
+            ],
+            "call_line": 20001,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm09_00_b.lua",
+            "music_state": "m117",
+            "chapter_order": 171
+          },
+          "scene_quote": {
+            "text": "接下来，我们要彻底击败拯救委员会。",
+            "caption": "我们要彻底击败拯救委员会"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            171,
+            20001
+          ]
+        },
+        {
+          "audio_id": "audio-e3a3bda9e3f54a797ae277ef975905cbbd19dd1bc99caa0954b02be2e621b633",
+          "file": "/audio/audio-e3a3bda9e3f54a797ae277ef975905cbbd19dd1bc99caa0954b02be2e621b633.opus",
+          "old_name": "斯帕克拉·旅人故事 · 斯帕克拉的烦恼 中 · 「只要我们在一起」",
+          "name": "斯帕克拉·旅人故事 · 斯帕克拉的烦恼 中",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Plot",
+            "id": 14002,
+            "script_id": "CG_140_02",
+            "collection": "旅人逸闻",
+            "story_set": "斯帕克拉·旅人故事",
+            "chapter_name": "斯帕克拉的烦恼 中",
+            "description": "我只认可，懂我发明的人~",
+            "sort_key": [
+              "2025-10-20",
+              3,
+              14002
+            ],
+            "call_line": 1180,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/CG_140_02.lua",
+            "music_state": "m60",
+            "chapter_order": 76
+          },
+          "scene_quote": {
+            "text": "别担心，托蒂！只要我们在一起，就没什么好怕的。",
+            "caption": "只要我们在一起"
+          },
+          "order_key": [
+            1,
+            "2025-10-20",
+            3,
+            76,
+            1180
+          ]
+        }
+      ],
+      "ordered_story_files": [
+        "/audio/audio-ef4cdaafa834cfbab8a9ad07aae2d5a3899e160cb21aa06d1a21861f62d08bab.opus",
+        "/audio/audio-e3a3bda9e3f54a797ae277ef975905cbbd19dd1bc99caa0954b02be2e621b633.opus"
+      ]
+    },
+    {
+      "group_id": "activity-10107",
+      "name": "穿透心壁的取景框",
+      "dominant_story_set": [
+        "活动故事",
+        "穿透心壁的取景框"
+      ],
+      "tracks": [
+        {
+          "audio_id": "audio-ea1829cf39b28db41563d51235089479574adffc89c101a897a81ce82681b83c",
+          "file": "/audio/audio-ea1829cf39b28db41563d51235089479574adffc89c101a897a81ce82681b83c.opus",
+          "old_name": "穿透心壁的取景框 · 探索",
+          "name": "穿透心壁的取景框 · 探索",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-cd53cd1dad7ee023d7d48c61bf5f0bfcb988e4048f81f596217673258d0628ee",
+          "file": "/audio/audio-cd53cd1dad7ee023d7d48c61bf5f0bfcb988e4048f81f596217673258d0628ee.opus",
+          "old_name": "穿透心壁的取景框 · 再遇",
+          "name": "穿透心壁的取景框 · 再遇",
+          "is_story": true,
+          "first_appearance": {
+            "table": "ActivityStory",
+            "id": 101070201,
+            "script_id": "STev_07_01",
+            "collection": "活动故事",
+            "story_set": "穿透心壁的取景框",
+            "chapter_name": "再遇",
+            "chapter_index": "01",
+            "description": "在没有下雪的季节，与那个少女再度相遇。",
+            "open_time": null,
+            "parent_story_ids": [],
+            "sort_key": [
+              "2025-10-20",
+              1,
+              101070201
+            ],
+            "call_line": 13,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STev_07_01.lua",
+            "music_state": "m17",
+            "chapter_order": 35
+          },
+          "scene_quote": null,
+          "order_key": [
+            0,
+            "2025-10-20",
+            1,
+            35,
+            13
+          ]
+        },
+        {
+          "audio_id": "audio-e5fce82f1e1d599472dfbb59c8ea0659899cdb2b2e7ce111daa045299c9b40fa",
+          "file": "/audio/audio-e5fce82f1e1d599472dfbb59c8ea0659899cdb2b2e7ce111daa045299c9b40fa.opus",
+          "old_name": "穿透心壁的取景框 · 界面配乐",
+          "name": "穿透心壁的取景框 · 界面配乐",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        }
+      ],
+      "ordered_story_files": [
+        "/audio/audio-cd53cd1dad7ee023d7d48c61bf5f0bfcb988e4048f81f596217673258d0628ee.opus"
+      ]
+    },
+    {
+      "group_id": "story-荒野快讯 · 跨越星声的对话",
+      "name": "荒野快讯 · 跨越星声的对话",
+      "dominant_story_set": [
+        "荒野快讯",
+        "跨越星声的对话"
+      ],
+      "tracks": [
+        {
+          "audio_id": "audio-9d529a5cddc4cc9ca92636d575af9249955d06d1ebaec37495d2e9c6a12808b1",
+          "file": "/audio/audio-9d529a5cddc4cc9ca92636d575af9249955d06d1ebaec37495d2e9c6a12808b1.opus",
+          "old_name": "跨越星声的对话 · 第一话 · 「令人怀念的旋律呢」",
+          "name": "跨越星声的对话 · 第一话",
+          "is_story": true,
+          "first_appearance": {
+            "table": "StorySetSection",
+            "id": 101401,
+            "script_id": "STsp_14_01",
+            "collection": "荒野快讯",
+            "story_set": "跨越星声的对话",
+            "chapter_name": "第一话",
+            "chapter_index": "第一话",
+            "description": "跨越星声的对话 其一",
+            "open_time": "2026-04-30T12:00:00+08:00",
+            "parent_story_ids": [],
+            "sort_key": [
+              "2026-04-30T12:00:00+08:00",
+              2,
+              101401
+            ],
+            "call_line": 8038,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STsp_14_01.lua",
+            "music_state": "m105",
+            "chapter_order": 41
+          },
+          "scene_quote": {
+            "text": "令人怀念的旋律呢——",
+            "caption": "令人怀念的旋律呢"
+          },
+          "order_key": [
+            0,
+            "2026-04-30T12:00:00+08:00",
+            2,
+            41,
+            8038
+          ]
+        }
+      ],
+      "ordered_story_files": [
+        "/audio/audio-9d529a5cddc4cc9ca92636d575af9249955d06d1ebaec37495d2e9c6a12808b1.opus"
+      ]
+    },
+    {
+      "group_id": "story-我思，故魔王在 · 特别篇",
+      "name": "我思，故魔王在 · 特别篇",
+      "dominant_story_set": [
+        "我思，故魔王在",
+        "特别篇"
+      ],
+      "tracks": [
+        {
+          "audio_id": "audio-d683181a25f3a1c63cc49f8f27a8e76154877043c92391bc7cc45ba11cec951a",
+          "file": "/audio/audio-d683181a25f3a1c63cc49f8f27a8e76154877043c92391bc7cc45ba11cec951a.opus",
+          "old_name": "特别篇 · 不日之约 · 「美丽的花朵总是带刺的」",
+          "name": "特别篇 · 不日之约",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 6510,
+            "script_id": "STm06x5_08",
+            "collection": "我思，故魔王在",
+            "story_set": "特别篇",
+            "chapter_name": "不日之约",
+            "chapter_index": "08",
+            "description": "让世界变成另外的样子吧。",
+            "open_time": "2026-04-16T12:00:00+08:00",
+            "parent_story_ids": [],
+            "sort_key": [
+              "2026-04-16T12:00:00+08:00",
+              0,
+              6510
+            ],
+            "call_line": 2014,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm06x5_08.lua",
+            "music_state": "m106",
+            "chapter_order": 114
+          },
+          "scene_quote": {
+            "text": "美丽的花朵总是带刺的，谷风家政的“女仆”也是如此。",
+            "caption": "美丽的花朵总是带刺的"
+          },
+          "order_key": [
+            0,
+            "2026-04-16T12:00:00+08:00",
+            0,
+            114,
+            2014
+          ]
+        }
+      ],
+      "ordered_story_files": [
+        "/audio/audio-d683181a25f3a1c63cc49f8f27a8e76154877043c92391bc7cc45ba11cec951a.opus"
+      ]
+    },
+    {
+      "group_id": "activity-20102",
+      "name": "幽夜独舞孤影乱",
+      "dominant_story_set": null,
+      "tracks": [
+        {
+          "audio_id": "audio-026f75c540a4ee90cbbe544555a8157793cc33eb4b1f1d97ad0953aaeba2a7ac",
+          "file": "/audio/audio-026f75c540a4ee90cbbe544555a8157793cc33eb4b1f1d97ad0953aaeba2a7ac.opus",
+          "old_name": "首领战",
+          "name": "首领战",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-86c282d7fed8204c1c9eed1191aa9d2c4cd4e88ad1691fd4853575f327e8290b",
+          "file": "/audio/audio-86c282d7fed8204c1c9eed1191aa9d2c4cd4e88ad1691fd4853575f327e8290b.opus",
+          "old_name": "幽夜独舞孤影乱 · 战斗配乐",
+          "name": "幽夜独舞孤影乱 · 战斗配乐",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        }
+      ],
+      "ordered_story_files": []
+    },
+    {
+      "group_id": "activity-10106",
+      "name": "敬启，致珍重的你",
+      "dominant_story_set": null,
+      "tracks": [
+        {
+          "audio_id": "audio-e167725c3224ad87f7adae9ef2db31e19b950d2c87af4838eda642b6abd13136",
+          "file": "/audio/audio-e167725c3224ad87f7adae9ef2db31e19b950d2c87af4838eda642b6abd13136.opus",
+          "old_name": "敬启，致珍重的你 · 首领战斗",
+          "name": "敬启，致珍重的你 · 首领战斗",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-69feaa5eb422cdd356ea004ae5e34dc11def78369367394198dde18f00d856e8",
+          "file": "/audio/audio-69feaa5eb422cdd356ea004ae5e34dc11def78369367394198dde18f00d856e8.opus",
+          "old_name": "敬启，致珍重的你 · 战斗配乐",
+          "name": "敬启，致珍重的你 · 战斗配乐",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        }
+      ],
+      "ordered_story_files": []
+    },
+    {
+      "group_id": "mode-命运星牌局",
+      "name": "命运星牌局",
+      "dominant_story_set": null,
+      "tracks": [
+        {
+          "audio_id": "audio-739bc3d49c9b40865226a5984945752dc7967c94ca00dcd0a13b6fd0f6238ff8",
+          "file": "/audio/audio-739bc3d49c9b40865226a5984945752dc7967c94ca00dcd0a13b6fd0f6238ff8.opus",
+          "old_name": "命运星牌局-入场",
+          "name": "命运星牌局-入场",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        }
+      ],
+      "ordered_story_files": []
+    },
+    {
+      "group_id": "mode-豪礼抛物线",
+      "name": "豪礼抛物线",
+      "dominant_story_set": null,
+      "tracks": [
+        {
+          "audio_id": "audio-7b5ea72f1456bc537e75fc2f91387fcb4731195e857527d77c6d684389842925",
+          "file": "/audio/audio-7b5ea72f1456bc537e75fc2f91387fcb4731195e857527d77c6d684389842925.opus",
+          "old_name": "豪礼抛物线-序奏",
+          "name": "豪礼抛物线-序奏",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        }
+      ],
+      "ordered_story_files": []
+    },
+    {
+      "group_id": "activity-10105",
+      "name": "冬夜镇魂曲与破晓扳机",
+      "dominant_story_set": [
+        "活动故事",
+        "冬夜镇魂曲与破晓扳机"
+      ],
+      "tracks": [
+        {
+          "audio_id": "audio-8d3cec957e0bea7bb1959306d99c9993b9d814630d2dabf36019ad46a2724e72",
+          "file": "/audio/audio-8d3cec957e0bea7bb1959306d99c9993b9d814630d2dabf36019ad46a2724e72.opus",
+          "old_name": "冬夜镇魂曲与破晓扳机 · 战斗配乐",
+          "name": "冬夜镇魂曲与破晓扳机 · 战斗配乐",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-c7c8b52f30b6752b5972aa5e1ea5312f557f360b59a89910e2dd558edb0605a2",
+          "file": "/audio/audio-c7c8b52f30b6752b5972aa5e1ea5312f557f360b59a89910e2dd558edb0605a2.opus",
+          "old_name": "冬夜镇魂曲与破晓扳机 · 首领战斗",
+          "name": "冬夜镇魂曲与破晓扳机 · 首领战斗",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-ab25e6f97d6405d74cbb6cc500e18adf35b79a1041b34d1981c1e5e0278ebd50",
+          "file": "/audio/audio-ab25e6f97d6405d74cbb6cc500e18adf35b79a1041b34d1981c1e5e0278ebd50.opus",
+          "old_name": "冬夜镇魂曲与破晓扳机 · 前往北境之城 · 「就交给我来解决」",
+          "name": "冬夜镇魂曲与破晓扳机 · 前往北境之城",
+          "is_story": true,
+          "first_appearance": {
+            "table": "ActivityStory",
+            "id": 101050201,
+            "script_id": "STev_04_01",
+            "collection": "活动故事",
+            "story_set": "冬夜镇魂曲与破晓扳机",
+            "chapter_name": "前往北境之城",
+            "chapter_index": "01",
+            "description": "嘿，你总算醒了？",
+            "open_time": null,
+            "parent_story_ids": [],
+            "sort_key": [
+              "2025-10-20",
+              1,
+              101050201
+            ],
+            "call_line": 10808,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STev_04_01.lua",
+            "music_state": "m93",
+            "chapter_order": 11
+          },
+          "scene_quote": {
+            "text": "这些家伙，就交给我来解决！",
+            "caption": "就交给我来解决"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            1,
+            11,
+            10808
+          ]
+        },
+        {
+          "audio_id": "audio-ec649f2936c6ef032c286653bc8e7a335408cae5618479e4e9cf0ec67f2ff074",
+          "file": "/audio/audio-ec649f2936c6ef032c286653bc8e7a335408cae5618479e4e9cf0ec67f2ff074.opus",
+          "old_name": "春日纪事 · 「她说得没错」",
+          "name": "春日纪事",
+          "is_story": true,
+          "first_appearance": {
+            "table": "DiscIP",
+            "id": 214016,
+            "script_id": "CG_disc4016",
+            "collection": "秘纹故事",
+            "story_set": "春日纪事",
+            "chapter_name": "春日纪事",
+            "sort_key": [
+              "2025-10-20",
+              4,
+              214016
+            ],
+            "call_line": 10014,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/CG_disc4016.lua",
+            "music_state": "m92"
+          },
+          "scene_quote": {
+            "text": "好凉快，真舒服……==W==她说得没错，这里的确是个好地方。",
+            "caption": "她说得没错"
+          },
+          "order_key": [
+            1,
+            "2025-10-20",
+            4,
+            214016,
+            10014
+          ]
+        }
+      ],
+      "ordered_story_files": [
+        "/audio/audio-ab25e6f97d6405d74cbb6cc500e18adf35b79a1041b34d1981c1e5e0278ebd50.opus",
+        "/audio/audio-ec649f2936c6ef032c286653bc8e7a335408cae5618479e4e9cf0ec67f2ff074.opus"
+      ]
+    },
+    {
+      "group_id": "activity-10104",
+      "name": "烟火绮丽寻春意",
+      "dominant_story_set": [
+        "活动故事",
+        "烟火绮丽寻春意"
+      ],
+      "tracks": [
+        {
+          "audio_id": "audio-627abfb332a03c401b0c2f794a2c02c582fbebd4e62cc424170f7c406e5d3da1",
+          "file": "/audio/audio-627abfb332a03c401b0c2f794a2c02c582fbebd4e62cc424170f7c406e5d3da1.opus",
+          "old_name": "烟火绮丽寻春意 · 首领战斗",
+          "name": "烟火绮丽寻春意 · 首领战斗",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-8b1272a09733157def9026f39986c22c46821527f84bc3d76c0e9040f7ad64ac",
+          "file": "/audio/audio-8b1272a09733157def9026f39986c22c46821527f84bc3d76c0e9040f7ad64ac.opus",
+          "old_name": "烟火绮丽寻春意 · 战斗配乐",
+          "name": "烟火绮丽寻春意 · 战斗配乐",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-cb2a1c5d9365aa4faad3d5c2654566c51d9b211907b027393e92df0fe5b04f06",
+          "file": "/audio/audio-cb2a1c5d9365aa4faad3d5c2654566c51d9b211907b027393e92df0fe5b04f06.opus",
+          "old_name": "烟火绮丽寻春意 · 寻幽探奇 · 「很难说不是」",
+          "name": "烟火绮丽寻春意 · 寻幽探奇 · 第1音轨",
+          "is_story": true,
+          "first_appearance": {
+            "table": "ActivityStory",
+            "id": 101040207,
+            "script_id": "STev_03_06",
+            "collection": "活动故事",
+            "story_set": "烟火绮丽寻春意",
+            "chapter_name": "寻幽探奇",
+            "chapter_index": "06",
+            "description": "星塔中，有什么地方正在悄然改变……",
+            "open_time": null,
+            "parent_story_ids": [
+              "STev_03_05"
+            ],
+            "sort_key": [
+              "2025-10-20",
+              1,
+              101040207
+            ],
+            "call_line": 5813,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STev_03_06.lua",
+            "music_state": "m86",
+            "chapter_order": 6
+          },
+          "scene_quote": {
+            "text": "呃……这种氛围，很难说不是……",
+            "caption": "很难说不是"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            1,
+            6,
+            5813
+          ]
+        },
+        {
+          "audio_id": "audio-a31914f3953a681e908ad40d23409814fb4504ce73649fbd25767135f260a127",
+          "file": "/audio/audio-a31914f3953a681e908ad40d23409814fb4504ce73649fbd25767135f260a127.opus",
+          "old_name": "烟火绮丽寻春意 · 寻幽探奇 · 「等你好久啦」",
+          "name": "烟火绮丽寻春意 · 寻幽探奇 · 第2音轨",
+          "is_story": true,
+          "first_appearance": {
+            "table": "ActivityStory",
+            "id": 101040207,
+            "script_id": "STev_03_06",
+            "collection": "活动故事",
+            "story_set": "烟火绮丽寻春意",
+            "chapter_name": "寻幽探奇",
+            "chapter_index": "06",
+            "description": "星塔中，有什么地方正在悄然改变……",
+            "open_time": null,
+            "parent_story_ids": [
+              "STev_03_05"
+            ],
+            "sort_key": [
+              "2025-10-20",
+              1,
+              101040207
+            ],
+            "call_line": 6981,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STev_03_06.lua",
+            "music_state": "m90",
+            "chapter_order": 6
+          },
+          "scene_quote": {
+            "text": "等你好久啦，==PLAYER_NAME==！",
+            "caption": "等你好久啦"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            1,
+            6,
+            6981
+          ]
+        },
+        {
+          "audio_id": "audio-3aa28d42eaff8525662e3a9088af80532c4f5e3be41b974a75296de458a47d78",
+          "file": "/audio/audio-3aa28d42eaff8525662e3a9088af80532c4f5e3be41b974a75296de458a47d78.opus",
+          "old_name": "烟火绮丽寻春意 · 此去经年 · 「爸爸就要回来啦」",
+          "name": "烟火绮丽寻春意 · 此去经年",
+          "is_story": true,
+          "first_appearance": {
+            "table": "ActivityStory",
+            "id": 101040210,
+            "script_id": "STev_03_08",
+            "collection": "活动故事",
+            "story_set": "烟火绮丽寻春意",
+            "chapter_name": "此去经年",
+            "chapter_index": "08",
+            "description": "他们只是想过个好年。",
+            "open_time": null,
+            "parent_story_ids": [
+              "STev_03_BT02"
+            ],
+            "sort_key": [
+              "2025-10-20",
+              1,
+              101040210
+            ],
+            "call_line": 193,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STev_03_08.lua",
+            "music_state": "m61",
+            "chapter_order": 9
+          },
+          "scene_quote": {
+            "text": "爸爸就要回来啦，我们一起去路口接他吧！",
+            "caption": "爸爸就要回来啦"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            1,
+            9,
+            193
+          ]
+        },
+        {
+          "audio_id": "audio-f5cd31e3d7268cb1151d47d89f9febb4fc3f59cbd32df919786c2ae29c0eb9c8",
+          "file": "/audio/audio-f5cd31e3d7268cb1151d47d89f9febb4fc3f59cbd32df919786c2ae29c0eb9c8.opus",
+          "old_name": "烟火绮丽寻春意 · 界面配乐",
+          "name": "烟火绮丽寻春意 · 界面配乐",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        }
+      ],
+      "ordered_story_files": [
+        "/audio/audio-cb2a1c5d9365aa4faad3d5c2654566c51d9b211907b027393e92df0fe5b04f06.opus",
+        "/audio/audio-a31914f3953a681e908ad40d23409814fb4504ce73649fbd25767135f260a127.opus",
+        "/audio/audio-3aa28d42eaff8525662e3a9088af80532c4f5e3be41b974a75296de458a47d78.opus"
+      ]
+    },
+    {
+      "group_id": "activity-10103",
+      "name": "微火的奇迹",
+      "dominant_story_set": [
+        "我思，故魔王在",
+        "第六章"
+      ],
+      "tracks": [
+        {
+          "audio_id": "audio-aedbbd5da460dd8fc75807c498adbfb7a301aca8131a63b9331e6248eea7ae8f",
+          "file": "/audio/audio-aedbbd5da460dd8fc75807c498adbfb7a301aca8131a63b9331e6248eea7ae8f.opus",
+          "old_name": "微火的奇迹 · 普通战斗",
+          "name": "微火的奇迹 · 普通战斗",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-1958edd7a1b0789dfa38de36982e4554734f7328fef214bcb1758f552296af28",
+          "file": "/audio/audio-1958edd7a1b0789dfa38de36982e4554734f7328fef214bcb1758f552296af28.opus",
+          "old_name": "第六章 · 否认的代价 · 「她一口一个达尔茜娅大人」",
+          "name": "第六章 · 否认的代价",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 607,
+            "script_id": "STm06_02_b",
+            "collection": "我思，故魔王在",
+            "story_set": "第六章",
+            "chapter_name": "否认的代价",
+            "chapter_index": "02B",
+            "description": "听见冰裂的声音再跑，就要来不及了。",
+            "open_time": null,
+            "parent_story_ids": [
+              "STm06_01"
+            ],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              607
+            ],
+            "call_line": 2066,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm06_02_b.lua",
+            "music_state": "m85",
+            "chapter_order": 89
+          },
+          "scene_quote": {
+            "text": "她一口一个“达尔茜娅大人”，却问出了如此冒犯达尔茜娅的问题。这是在试探我.......还是另有所图？",
+            "caption": "她一口一个达尔茜娅大人"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            89,
+            2066
+          ]
+        },
+        {
+          "audio_id": "audio-b81e6ff58177028ad18c1af15f1f2ed837af74dada16b29be36f2c3ad687bab1",
+          "file": "/audio/audio-b81e6ff58177028ad18c1af15f1f2ed837af74dada16b29be36f2c3ad687bab1.opus",
+          "old_name": "第六章 · 天下静谧 · 「这并非我希望的世界」",
+          "name": "第六章 · 天下静谧",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 613,
+            "script_id": "STm06_05_a",
+            "collection": "我思，故魔王在",
+            "story_set": "第六章",
+            "chapter_name": "天下静谧",
+            "chapter_index": "终局",
+            "description": "让所有人都抵达幸福的结局……真是可喜可贺？",
+            "open_time": null,
+            "parent_story_ids": [
+              "STm06_04_a"
+            ],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              613
+            ],
+            "call_line": 5270,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm06_05_a.lua",
+            "music_state": "m6",
+            "chapter_order": 95
+          },
+          "scene_quote": {
+            "text": "这并非我希望的世界，这只是没那么糟糕的世界。",
+            "caption": "这并非我希望的世界"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            95,
+            5270
+          ]
+        },
+        {
+          "audio_id": "audio-aa7d9dca099fdee9398a885199d318452880a003811584ba55eebd3c669d2204",
+          "file": "/audio/audio-aa7d9dca099fdee9398a885199d318452880a003811584ba55eebd3c669d2204.opus",
+          "old_name": "第六章 · 困兽犹斗 · 「原来是这样」",
+          "name": "第六章 · 困兽犹斗",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 620,
+            "script_id": "STm06_11",
+            "collection": "我思，故魔王在",
+            "story_set": "第六章",
+            "chapter_name": "困兽犹斗",
+            "chapter_index": "11",
+            "description": "剑锋划过，她的双眼充血混乱、怒目圆睁——",
+            "open_time": null,
+            "parent_story_ids": [
+              "STm06_10"
+            ],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              620
+            ],
+            "call_line": 11005,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm06_11.lua",
+            "music_state": "m78",
+            "chapter_order": 102
+          },
+          "scene_quote": {
+            "text": "啊……原来如此……原来是这样……==RT==魔<r=mowang></r>王大人，我明白了，那个可恨的女人竟然蛊惑了您……",
+            "caption": "原来是这样"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            102,
+            11005
+          ]
+        },
+        {
+          "audio_id": "audio-283045663b3d79a9fc124ceb350bd04e7489988d86cdf2a968721142f5e59df1",
+          "file": "/audio/audio-283045663b3d79a9fc124ceb350bd04e7489988d86cdf2a968721142f5e59df1.opus",
+          "old_name": "第六章 · 未知的明天 · 「你的棋子飘」",
+          "name": "第六章 · 未知的明天",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 622,
+            "script_id": "STm06_13",
+            "collection": "我思，故魔王在",
+            "story_set": "第六章",
+            "chapter_name": "未知的明天",
+            "chapter_index": "13",
+            "description": "怒火虽灭，但灰烬下的余温仍在烫手。",
+            "open_time": null,
+            "parent_story_ids": [
+              "STm06_12"
+            ],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              622
+            ],
+            "call_line": 6236,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm06_13.lua",
+            "music_state": "m50",
+            "chapter_order": 104
+          },
+          "scene_quote": {
+            "text": "魔<r=BOSS></r>王，你的棋子飘......飘起来了。",
+            "caption": "你的棋子飘"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            104,
+            6236
+          ]
+        },
+        {
+          "audio_id": "audio-6a206cff7aafc356a31db95d420dece9bf13bb9f819e8cc11ded69c1c6bdefa7",
+          "file": "/audio/audio-6a206cff7aafc356a31db95d420dece9bf13bb9f819e8cc11ded69c1c6bdefa7.opus",
+          "old_name": "主线第六章 · 界面配乐",
+          "name": "主线第六章 · 界面配乐",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        }
+      ],
+      "ordered_story_files": [
+        "/audio/audio-1958edd7a1b0789dfa38de36982e4554734f7328fef214bcb1758f552296af28.opus",
+        "/audio/audio-b81e6ff58177028ad18c1af15f1f2ed837af74dada16b29be36f2c3ad687bab1.opus",
+        "/audio/audio-aa7d9dca099fdee9398a885199d318452880a003811584ba55eebd3c669d2204.opus",
+        "/audio/audio-283045663b3d79a9fc124ceb350bd04e7489988d86cdf2a968721142f5e59df1.opus"
+      ]
+    },
+    {
+      "group_id": "activity-20101",
+      "name": "闪耀的使者与圣夜的精灵",
+      "dominant_story_set": [
+        "活动故事",
+        "闪耀的使者与圣夜的精灵"
+      ],
+      "tracks": [
+        {
+          "audio_id": "audio-4bc4d46ca219a32d9e2f9f739ef6c74e502a0a848c2b7e9b35fd6792fe5128fe",
+          "file": "/audio/audio-4bc4d46ca219a32d9e2f9f739ef6c74e502a0a848c2b7e9b35fd6792fe5128fe.opus",
+          "old_name": "闪耀的使者与圣夜的精灵 · 普通战斗",
+          "name": "闪耀的使者与圣夜的精灵 · 普通战斗",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-728567b8050735296dbc5b96ffc7ef1826294a52abdc528e8e5062a8a680f025",
+          "file": "/audio/audio-728567b8050735296dbc5b96ffc7ef1826294a52abdc528e8e5062a8a680f025.opus",
+          "old_name": "闪耀的使者与圣夜的精灵 · 首领战斗",
+          "name": "闪耀的使者与圣夜的精灵 · 首领战斗",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-13c8f367dd9be719f01d9edd2bdfe2743d6738c00b64ba61e9ffcd360856dc60",
+          "file": "/audio/audio-13c8f367dd9be719f01d9edd2bdfe2743d6738c00b64ba61e9ffcd360856dc60.opus",
+          "old_name": "闪耀的使者与圣夜的精灵 · 送礼大作战 · 「大家都有份」",
+          "name": "闪耀的使者与圣夜的精灵 · 送礼大作战",
+          "is_story": true,
+          "first_appearance": {
+            "table": "ActivityStory",
+            "id": 201010202,
+            "script_id": "STev_02_02",
+            "collection": "活动故事",
+            "story_set": "闪耀的使者与圣夜的精灵",
+            "chapter_name": "送礼大作战",
+            "chapter_index": "02",
+            "description": "穿上制服，你与菈露来到了期待着礼物的孩子们身边……",
+            "open_time": null,
+            "parent_story_ids": [
+              "STev_02_01"
+            ],
+            "sort_key": [
+              "2025-10-20",
+              1,
+              201010202
+            ],
+            "call_line": 4574,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STev_02_02.lua",
+            "music_state": "m81",
+            "chapter_order": 111
+          },
+          "scene_quote": {
+            "text": "别急别急，大家都有份，排好队一个个来。",
+            "caption": "大家都有份"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            1,
+            111,
+            4574
+          ]
+        },
+        {
+          "audio_id": "audio-ab10de4ccee1798299d1212804eb70abafb7ba973c3751985e5ee29508524b04",
+          "file": "/audio/audio-ab10de4ccee1798299d1212804eb70abafb7ba973c3751985e5ee29508524b04.opus",
+          "old_name": "闪耀的使者与圣夜的精灵 · 庆典时分，盛大登场 · 「她听懂我的暗示了」",
+          "name": "闪耀的使者与圣夜的精灵 · 庆典时分，盛大登场",
+          "is_story": true,
+          "first_appearance": {
+            "table": "ActivityStory",
+            "id": 201010211,
+            "script_id": "STev_02_09",
+            "collection": "活动故事",
+            "story_set": "闪耀的使者与圣夜的精灵",
+            "chapter_name": "庆典时分，盛大登场",
+            "chapter_index": "09",
+            "description": "节日的氛围来到了最高潮，今天的魔王和菈露真是格外努力！",
+            "open_time": null,
+            "parent_story_ids": [
+              "STev_02_08"
+            ],
+            "sort_key": [
+              "2025-10-20",
+              1,
+              201010211
+            ],
+            "call_line": 4838,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STev_02_09.lua",
+            "music_state": "m80",
+            "chapter_order": 120
+          },
+          "scene_quote": {
+            "text": "太好了，她听懂我的暗示了！",
+            "caption": "她听懂我的暗示了"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            1,
+            120,
+            4838
+          ]
+        },
+        {
+          "audio_id": "audio-aeaa2dfca29dadbc7edba9a3579fded3dccc1d0bb8e6c476a0414ef9314b3d1d",
+          "file": "/audio/audio-aeaa2dfca29dadbc7edba9a3579fded3dccc1d0bb8e6c476a0414ef9314b3d1d.opus",
+          "old_name": "闪耀的使者与圣夜的精灵 · 界面配乐",
+          "name": "闪耀的使者与圣夜的精灵 · 界面配乐",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        }
+      ],
+      "ordered_story_files": [
+        "/audio/audio-13c8f367dd9be719f01d9edd2bdfe2743d6738c00b64ba61e9ffcd360856dc60.opus",
+        "/audio/audio-ab10de4ccee1798299d1212804eb70abafb7ba973c3751985e5ee29508524b04.opus"
+      ]
+    },
+    {
+      "group_id": "activity-10102",
+      "name": "梦的彼岸",
+      "dominant_story_set": [
+        "我思，故魔王在",
+        "第四章"
+      ],
+      "tracks": [
+        {
+          "audio_id": "audio-092d48159f80ec07c23fd7442a7f5d7125f6c14c4824ad2060ab5037c1d3b0f0",
+          "file": "/audio/audio-092d48159f80ec07c23fd7442a7f5d7125f6c14c4824ad2060ab5037c1d3b0f0.opus",
+          "old_name": "第四章 · 旅人往事 · 「请先回答我」",
+          "name": "第四章 · 旅人往事",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 403,
+            "script_id": "STm04_01",
+            "collection": "我思，故魔王在",
+            "story_set": "第四章",
+            "chapter_name": "旅人往事",
+            "chapter_index": "01",
+            "description": "遥远的梦与面前的人。",
+            "open_time": null,
+            "parent_story_ids": [],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              403
+            ],
+            "call_line": 1714,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm04_01.lua",
+            "music_state": "m20",
+            "chapter_order": 49
+          },
+          "scene_quote": {
+            "text": "抱歉，请先回答我，你眼中的我是什么样子？以及你看周围是什么样子？",
+            "caption": "请先回答我"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            49,
+            1714
+          ]
+        },
+        {
+          "audio_id": "audio-ab1caa6ba7f20818091470a4f4a01adde8255bc013cdd24b149d81e3e95249a0",
+          "file": "/audio/audio-ab1caa6ba7f20818091470a4f4a01adde8255bc013cdd24b149d81e3e95249a0.opus",
+          "old_name": "第四章 · 野营 · 「与凉风嬉戏的落叶啊」",
+          "name": "第四章 · 野营",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 407,
+            "script_id": "STm04_03_c",
+            "collection": "我思，故魔王在",
+            "story_set": "第四章",
+            "chapter_name": "野营",
+            "chapter_index": "03B",
+            "description": "只要不说出夏花的秘密，就不算违背承诺。",
+            "open_time": null,
+            "parent_story_ids": [
+              "STm04_02"
+            ],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              407
+            ],
+            "call_line": 9516,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm04_03_c.lua",
+            "music_state": "m58",
+            "chapter_order": 53
+          },
+          "scene_quote": {
+            "text": "与凉风嬉戏的落叶啊……",
+            "caption": "与凉风嬉戏的落叶啊"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            53,
+            9516
+          ]
+        },
+        {
+          "audio_id": "audio-053a02abdbfacac67fb59aff7ca7742602ecff09f0e6e774d65fd90287c4780e",
+          "file": "/audio/audio-053a02abdbfacac67fb59aff7ca7742602ecff09f0e6e774d65fd90287c4780e.opus",
+          "old_name": "第四章 · 单兵作战 · 「是人类的声音」",
+          "name": "第四章 · 单兵作战",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 408,
+            "script_id": "STm04_04_a",
+            "collection": "我思，故魔王在",
+            "story_set": "第四章",
+            "chapter_name": "单兵作战",
+            "chapter_index": "04A",
+            "description": "没有最好的战术，只有最适合的战术",
+            "open_time": null,
+            "parent_story_ids": [
+              "STm04_03_b",
+              "STm04_03_c"
+            ],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              408
+            ],
+            "call_line": 8931,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm04_04_a.lua",
+            "music_state": "m29",
+            "chapter_order": 54
+          },
+          "scene_quote": {
+            "text": "诶……？！是人类的声音？==W==怎么回事，我的周围应该没人在。",
+            "caption": "是人类的声音"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            54,
+            8931
+          ]
+        },
+        {
+          "audio_id": "audio-32a475316abd571010caeefe0be75573e990efd5ec7236e15adddd149b1d4448",
+          "file": "/audio/audio-32a475316abd571010caeefe0be75573e990efd5ec7236e15adddd149b1d4448.opus",
+          "old_name": "第四章 · 想要保护的东西 · 「那是菲莱本地的传说」",
+          "name": "第四章 · 想要保护的东西",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 411,
+            "script_id": "STm04_05",
+            "collection": "我思，故魔王在",
+            "story_set": "第四章",
+            "chapter_name": "想要保护的东西",
+            "chapter_index": "05",
+            "description": "每个人都有想保护的东西，每个人想保护的东西都不同。",
+            "open_time": null,
+            "parent_story_ids": [
+              "BAm04_04"
+            ],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              411
+            ],
+            "call_line": 8166,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm04_05.lua",
+            "music_state": "m27",
+            "chapter_order": 57
+          },
+          "scene_quote": {
+            "text": "那是菲莱本地的传说……",
+            "caption": "那是菲莱本地的传说"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            57,
+            8166
+          ]
+        },
+        {
+          "audio_id": "audio-f40db32aa2f9cc5f916facc2be9144fd445a451286e558bf1f9f234f58f3c6c2",
+          "file": "/audio/audio-f40db32aa2f9cc5f916facc2be9144fd445a451286e558bf1f9f234f58f3c6c2.opus",
+          "old_name": "主线第四章 · 界面配乐",
+          "name": "主线第四章 · 界面配乐",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        }
+      ],
+      "ordered_story_files": [
+        "/audio/audio-092d48159f80ec07c23fd7442a7f5d7125f6c14c4824ad2060ab5037c1d3b0f0.opus",
+        "/audio/audio-ab1caa6ba7f20818091470a4f4a01adde8255bc013cdd24b149d81e3e95249a0.opus",
+        "/audio/audio-053a02abdbfacac67fb59aff7ca7742602ecff09f0e6e774d65fd90287c4780e.opus",
+        "/audio/audio-32a475316abd571010caeefe0be75573e990efd5ec7236e15adddd149b1d4448.opus"
+      ]
+    },
+    {
+      "group_id": "mode-甜心梦工坊",
+      "name": "甜心梦工坊",
+      "dominant_story_set": null,
+      "tracks": [
+        {
+          "audio_id": "audio-fbe9e2f83a8466734b87710ec16657d48ae31736261d58ebc898197039336544",
+          "file": "/audio/audio-fbe9e2f83a8466734b87710ec16657d48ae31736261d58ebc898197039336544.opus",
+          "old_name": "甜心梦工坊-变体4",
+          "name": "甜心梦工坊-变体4",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-4f54438f693c7ec189e15910bd9878fd2f874f89877004638be828936d05a5d6",
+          "file": "/audio/audio-4f54438f693c7ec189e15910bd9878fd2f874f89877004638be828936d05a5d6.opus",
+          "old_name": "甜心梦工坊-变体4 · 自由演奏",
+          "name": "甜心梦工坊-变体4 · 自由演奏",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        }
+      ],
+      "ordered_story_files": []
+    },
+    {
+      "group_id": "activity-10101",
+      "name": "我们的旅团",
+      "dominant_story_set": [
+        "我思，故魔王在",
+        "第三章"
+      ],
+      "tracks": [
+        {
+          "audio_id": "audio-792547d1a08417cb57edfa8678ba150e7411287749440ecf07663b0ea627116a",
+          "file": "/audio/audio-792547d1a08417cb57edfa8678ba150e7411287749440ecf07663b0ea627116a.opus",
+          "old_name": "第三章 · 手机 · 「虽然菲金强加给我们的债务消失了」",
+          "name": "第三章 · 手机 · 第1音轨",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 304,
+            "script_id": "STm03_00_a",
+            "collection": "我思，故魔王在",
+            "story_set": "第三章",
+            "chapter_name": "手机",
+            "chapter_index": "幕间 上",
+            "description": "我的手机里住着一位奇怪的“秘书”。",
+            "open_time": null,
+            "parent_story_ids": [],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              304
+            ],
+            "call_line": 3467,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm03_00_a.lua",
+            "music_state": "m12",
+            "chapter_order": 32
+          },
+          "scene_quote": {
+            "text": "虽然菲金强加给我们的债务消失了，但旅团也好，公司也罢，还是很穷。",
+            "caption": "虽然菲金强加给我们的债务消失了"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            32,
+            3467
+          ]
+        },
+        {
+          "audio_id": "audio-9d6b9de64b05ce76b3a736404bcea38965141965e83d796b7b706fcd9298a6ee",
+          "file": "/audio/audio-9d6b9de64b05ce76b3a736404bcea38965141965e83d796b7b706fcd9298a6ee.opus",
+          "old_name": "第三章 · 手机 · 「虽然菲金强加给我们的债务消失了」 · 第二音轨",
+          "name": "第三章 · 手机 · 第2音轨",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 304,
+            "script_id": "STm03_00_a",
+            "collection": "我思，故魔王在",
+            "story_set": "第三章",
+            "chapter_name": "手机",
+            "chapter_index": "幕间 上",
+            "description": "我的手机里住着一位奇怪的“秘书”。",
+            "open_time": null,
+            "parent_story_ids": [],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              304
+            ],
+            "call_line": 3467,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm03_00_a.lua",
+            "music_state": "m12",
+            "chapter_order": 32
+          },
+          "scene_quote": {
+            "text": "虽然菲金强加给我们的债务消失了，但旅团也好，公司也罢，还是很穷。",
+            "caption": "虽然菲金强加给我们的债务消失了"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            32,
+            3467
+          ]
+        },
+        {
+          "audio_id": "audio-c1e700749508b5af4bdbfd6fe8dd6dd13931a9f83ec9e81d88b7f95624e75d4a",
+          "file": "/audio/audio-c1e700749508b5af4bdbfd6fe8dd6dd13931a9f83ec9e81d88b7f95624e75d4a.opus",
+          "old_name": "第三章 · 维塔 · 「魔王大人真是仁慈呢」",
+          "name": "第三章 · 维塔",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 305,
+            "script_id": "STm03_00_b",
+            "collection": "我思，故魔王在",
+            "story_set": "第三章",
+            "chapter_name": "维塔",
+            "chapter_index": "幕间 下",
+            "description": "棋子、权能、未来，我真的是传说中的魔王吗？",
+            "open_time": null,
+            "parent_story_ids": [
+              "STm03_00_a"
+            ],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              305
+            ],
+            "call_line": 2368,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm03_00_b.lua",
+            "music_state": "m22",
+            "chapter_order": 33
+          },
+          "scene_quote": {
+            "text": "魔<r=mowang></r>王大人真是仁慈呢，不过，灵魂交易对大家是有好处的，各位成为了魔王协议的员工，是有很厉害的员工福利的。",
+            "caption": "魔王大人真是仁慈呢"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            33,
+            2368
+          ]
+        },
+        {
+          "audio_id": "audio-4b4fa2db989f55540ee45f9b0b5a6818ce019b64ebd89fb9e7df0d49f3ae5af0",
+          "file": "/audio/audio-4b4fa2db989f55540ee45f9b0b5a6818ce019b64ebd89fb9e7df0d49f3ae5af0.opus",
+          "old_name": "第三章 · 三大魔物 · 「这里就是菲莱城」",
+          "name": "第三章 · 三大魔物 · 第1音轨",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 306,
+            "script_id": "STm03_01",
+            "collection": "我思，故魔王在",
+            "story_set": "第三章",
+            "chapter_name": "三大魔物",
+            "chapter_index": "01",
+            "description": "传说中的任务，适合传说中的旅人。",
+            "open_time": null,
+            "parent_story_ids": [
+              "STm03_00_b"
+            ],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              306
+            ],
+            "call_line": 3238,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm03_01.lua",
+            "music_state": "m53",
+            "chapter_order": 34
+          },
+          "scene_quote": {
+            "text": "这里就是菲莱城？比想象的还热闹。",
+            "caption": "这里就是菲莱城"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            34,
+            3238
+          ]
+        },
+        {
+          "audio_id": "audio-dce53a49f2a12c24f3e9cd8aa50a24496b6c581c7576263a4913ae82e05e5a37",
+          "file": "/audio/audio-dce53a49f2a12c24f3e9cd8aa50a24496b6c581c7576263a4913ae82e05e5a37.opus",
+          "old_name": "第三章 · 三大魔物 · 「夏花大人~ 夏花大人看这边」",
+          "name": "第三章 · 三大魔物 · 第2音轨",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 306,
+            "script_id": "STm03_01",
+            "collection": "我思，故魔王在",
+            "story_set": "第三章",
+            "chapter_name": "三大魔物",
+            "chapter_index": "01",
+            "description": "传说中的任务，适合传说中的旅人。",
+            "open_time": null,
+            "parent_story_ids": [
+              "STm03_00_b"
+            ],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              306
+            ],
+            "call_line": 6684,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm03_01.lua",
+            "music_state": "m62",
+            "chapter_order": 34
+          },
+          "scene_quote": {
+            "text": "呀！夏花大人~ 夏花大人看这边！请看我一眼呀！",
+            "caption": "夏花大人~ 夏花大人看这边"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            34,
+            6684
+          ]
+        },
+        {
+          "audio_id": "audio-c733d485bd17b0ce0bd5d79e72015334052097504c9bb7e88cbe7f38811438f2",
+          "file": "/audio/audio-c733d485bd17b0ce0bd5d79e72015334052097504c9bb7e88cbe7f38811438f2.opus",
+          "old_name": "第三章 · 森林深处的“仙人” · 「我居然会输」",
+          "name": "第三章 · 森林深处的“仙人”",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 307,
+            "script_id": "STm03_02",
+            "collection": "我思，故魔王在",
+            "story_set": "第三章",
+            "chapter_name": "森林深处的“仙人”",
+            "chapter_index": "02",
+            "description": "故事中的高人往往隐居在不起眼的地方。",
+            "open_time": null,
+            "parent_story_ids": [
+              "STm03_01"
+            ],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              307
+            ],
+            "call_line": 7084,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm03_02.lua",
+            "music_state": "m48",
+            "chapter_order": 35
+          },
+          "scene_quote": {
+            "text": "我，我居然会输……",
+            "caption": "我居然会输"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            35,
+            7084
+          ]
+        },
+        {
+          "audio_id": "audio-64e0a57250aa9d58d707cff75451988bb38c77fd37c321c5e6d87cd464743440",
+          "file": "/audio/audio-64e0a57250aa9d58d707cff75451988bb38c77fd37c321c5e6d87cd464743440.opus",
+          "old_name": "第三章 · 花令旅团 · 「瑟拉娜现身后」",
+          "name": "第三章 · 花令旅团",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 308,
+            "script_id": "STm03_03",
+            "collection": "我思，故魔王在",
+            "story_set": "第三章",
+            "chapter_name": "花令旅团",
+            "chapter_index": "03",
+            "description": "动起脑筋，玩场游戏。",
+            "open_time": null,
+            "parent_story_ids": [
+              "STm03_02"
+            ],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              308
+            ],
+            "call_line": 3786,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm03_03.lua",
+            "music_state": "m32",
+            "chapter_order": 36
+          },
+          "scene_quote": {
+            "text": "瑟拉娜现身后，清冷的旧协会之家迎来了一场简朴美味的晚宴。",
+            "caption": "瑟拉娜现身后"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            36,
+            3786
+          ]
+        },
+        {
+          "audio_id": "audio-8f21c7e025d6e58baa8680235ad10e3bd77d47d8461a01c1423bec5e6b9b8504",
+          "file": "/audio/audio-8f21c7e025d6e58baa8680235ad10e3bd77d47d8461a01c1423bec5e6b9b8504.opus",
+          "old_name": "第三章 · 不被需要的弱者 · 「我不能让你加入新讨伐队」",
+          "name": "第三章 · 不被需要的弱者",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 314,
+            "script_id": "STm03_07",
+            "collection": "我思，故魔王在",
+            "story_set": "第三章",
+            "chapter_name": "不被需要的弱者",
+            "chapter_index": "07",
+            "description": "颤抖，为何停不下来？",
+            "open_time": null,
+            "parent_story_ids": [
+              "STm03_06_a",
+              "STm03_06_b"
+            ],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              314
+            ],
+            "call_line": 4532,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm03_07.lua",
+            "music_state": "m5",
+            "chapter_order": 42
+          },
+          "scene_quote": {
+            "text": "回去吧，我不能让你加入新讨伐队。",
+            "caption": "我不能让你加入新讨伐队"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            42,
+            4532
+          ]
+        },
+        {
+          "audio_id": "audio-03da4ad009d7baa1b2907886dff8b43a5955c152e6a890c7baea5c74d6fd1a9d",
+          "file": "/audio/audio-03da4ad009d7baa1b2907886dff8b43a5955c152e6a890c7baea5c74d6fd1a9d.opus",
+          "old_name": "主线第三章 · 界面配乐",
+          "name": "主线第三章 · 界面配乐",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-9a9588a7f9f7f49b00c0b63464705de9bbae4a58e58c93880396bf7fdccad3a5",
+          "file": "/audio/audio-9a9588a7f9f7f49b00c0b63464705de9bbae4a58e58c93880396bf7fdccad3a5.opus",
+          "old_name": "探索",
+          "name": "探索",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        }
+      ],
+      "ordered_story_files": [
+        "/audio/audio-792547d1a08417cb57edfa8678ba150e7411287749440ecf07663b0ea627116a.opus",
+        "/audio/audio-9d6b9de64b05ce76b3a736404bcea38965141965e83d796b7b706fcd9298a6ee.opus",
+        "/audio/audio-c1e700749508b5af4bdbfd6fe8dd6dd13931a9f83ec9e81d88b7f95624e75d4a.opus",
+        "/audio/audio-4b4fa2db989f55540ee45f9b0b5a6818ce019b64ebd89fb9e7df0d49f3ae5af0.opus",
+        "/audio/audio-dce53a49f2a12c24f3e9cd8aa50a24496b6c581c7576263a4913ae82e05e5a37.opus",
+        "/audio/audio-c733d485bd17b0ce0bd5d79e72015334052097504c9bb7e88cbe7f38811438f2.opus",
+        "/audio/audio-64e0a57250aa9d58d707cff75451988bb38c77fd37c321c5e6d87cd464743440.opus",
+        "/audio/audio-8f21c7e025d6e58baa8680235ad10e3bd77d47d8461a01c1423bec5e6b9b8504.opus"
+      ]
+    },
+    {
+      "group_id": "mode-终焉绝响",
+      "name": "终焉绝响",
+      "dominant_story_set": null,
+      "tracks": [
+        {
+          "audio_id": "audio-32a51b093c233b2ead257e79417cbf48ae8cd398deb40b4a98d44b3aae4667e5",
+          "file": "/audio/audio-32a51b093c233b2ead257e79417cbf48ae8cd398deb40b4a98d44b3aae4667e5.opus",
+          "old_name": "首领战 · 终焉绝响 · 首领配乐 · 变体2 · 首领战斗",
+          "name": "首领战 · 终焉绝响 · 首领配乐 · 变体2 · 首领战斗",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-2750fb57ed5b9edde18decaa587fb06da307acdfbbdb2e5ccaf367d0f5fc7767",
+          "file": "/audio/audio-2750fb57ed5b9edde18decaa587fb06da307acdfbbdb2e5ccaf367d0f5fc7767.opus",
+          "old_name": "首领战 · 终焉绝响 · 首领配乐 · 首领战斗",
+          "name": "首领战 · 终焉绝响 · 首领配乐 · 首领战斗",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        }
+      ],
+      "ordered_story_files": []
+    },
+    {
+      "group_id": "mode-灾变防线",
+      "name": "灾变防线",
+      "dominant_story_set": null,
+      "tracks": [
+        {
+          "audio_id": "audio-a126b8c81c3d205e71ce07a9901224ba05ce4ecadd169a277ac691073630743c",
+          "file": "/audio/audio-a126b8c81c3d205e71ce07a9901224ba05ce4ecadd169a277ac691073630743c.opus",
+          "old_name": "灾变防线 · 普通战斗",
+          "name": "灾变防线 · 普通战斗",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-6db21b4af15b3a0d7d2515cf23ef761d8c0155e20fd7ab48ba1ba1c65a762d3e",
+          "file": "/audio/audio-6db21b4af15b3a0d7d2515cf23ef761d8c0155e20fd7ab48ba1ba1c65a762d3e.opus",
+          "old_name": "灾变防线·森林 · 普通战斗",
+          "name": "灾变防线·森林 · 普通战斗",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-4c788acc49f5e19dd5cdb7fa0337b0458b7d9d7f41866f57a389fa425bbae7eb",
+          "file": "/audio/audio-4c788acc49f5e19dd5cdb7fa0337b0458b7d9d7f41866f57a389fa425bbae7eb.opus",
+          "old_name": "灾变防线·森林 · 首领战斗",
+          "name": "灾变防线·森林 · 首领战斗",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-ef379564e8ad7c3d145e71d86c2fe6c5cb1890646cf5a0631c5da91b9e8f3cc0",
+          "file": "/audio/audio-ef379564e8ad7c3d145e71d86c2fe6c5cb1890646cf5a0631c5da91b9e8f3cc0.opus",
+          "old_name": "灾变防线·遗迹 · 普通战斗",
+          "name": "灾变防线·遗迹 · 普通战斗",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-f59f6f075fcfa1a5e27d4e82710d64a556ee4ed9f999d906ce131bab55383b8b",
+          "file": "/audio/audio-f59f6f075fcfa1a5e27d4e82710d64a556ee4ed9f999d906ce131bab55383b8b.opus",
+          "old_name": "灾变防线 · 界面配乐",
+          "name": "灾变防线 · 界面配乐",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        }
+      ],
+      "ordered_story_files": []
+    },
+    {
+      "group_id": "activity-10100",
+      "name": "惊奇冒险！渊海幽灵船传说！",
+      "dominant_story_set": [
+        "活动故事",
+        "惊奇冒险！渊海幽灵船传说！"
+      ],
+      "tracks": [
+        {
+          "audio_id": "audio-2e09ba213a7b30f0175720175d7355218b8efdd8684f62a12f18368b25eadb58",
+          "file": "/audio/audio-2e09ba213a7b30f0175720175d7355218b8efdd8684f62a12f18368b25eadb58.opus",
+          "old_name": "惊奇冒险！渊海幽灵船传说！ · 战斗配乐",
+          "name": "惊奇冒险！渊海幽灵船传说！ · 战斗配乐",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-cb04c9fdbfac7cd113fb3d89464476c2c8cb4bfd9ba8b71bd8de0e6ccab995ba",
+          "file": "/audio/audio-cb04c9fdbfac7cd113fb3d89464476c2c8cb4bfd9ba8b71bd8de0e6ccab995ba.opus",
+          "old_name": "首领战 · 咕噜六角鲸",
+          "name": "首领战 · 咕噜六角鲸",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-abc9e01dfa588dc14581a904736e6dfa48da5370281a9338ab164a318146f4ad",
+          "file": "/audio/audio-abc9e01dfa588dc14581a904736e6dfa48da5370281a9338ab164a318146f4ad.opus",
+          "old_name": "惊奇冒险！渊海幽灵船传说！ · 谜团与气味 · 「刚刚要是直接摔在地上」",
+          "name": "惊奇冒险！渊海幽灵船传说！ · 谜团与气味",
+          "is_story": true,
+          "first_appearance": {
+            "table": "ActivityStory",
+            "id": 111000203,
+            "script_id": "STev_01_03",
+            "collection": "活动故事",
+            "story_set": "惊奇冒险！渊海幽灵船传说！",
+            "chapter_name": "谜团与气味",
+            "chapter_index": "第三话",
+            "description": "你得知了希娅和花铃此行的目的：\n她们要为奶奶正名。\n不知为何，希娅对你异常亲近……",
+            "open_time": null,
+            "parent_story_ids": [
+              "STev_01_02"
+            ],
+            "sort_key": [
+              "2025-10-20",
+              1,
+              111000203
+            ],
+            "call_line": 5710,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STev_01_03.lua",
+            "music_state": "m15",
+            "chapter_order": 101
+          },
+          "scene_quote": {
+            "text": "嗯，我没事。==RT====W==幸好……刚刚要是直接摔在地上，说不定会磕到头呢。",
+            "caption": "刚刚要是直接摔在地上"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            1,
+            101,
+            5710
+          ]
+        },
+        {
+          "audio_id": "audio-c3fc4903b125c039c46f88b413b9a48abe30af1ac5998ad950b55d4b0a0db04c",
+          "file": "/audio/audio-c3fc4903b125c039c46f88b413b9a48abe30af1ac5998ad950b55d4b0a0db04c.opus",
+          "old_name": "惊奇冒险！渊海幽灵船传说！ · 探索",
+          "name": "惊奇冒险！渊海幽灵船传说！ · 探索",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-2d545eccb841142d776f6e5ea25debab579c0b4470e3558bea8491ff69cf26e5",
+          "file": "/audio/audio-2d545eccb841142d776f6e5ea25debab579c0b4470e3558bea8491ff69cf26e5.opus",
+          "old_name": "惊奇冒险！渊海幽灵船传说！ · 界面配乐",
+          "name": "惊奇冒险！渊海幽灵船传说！ · 界面配乐",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        }
+      ],
+      "ordered_story_files": [
+        "/audio/audio-abc9e01dfa588dc14581a904736e6dfa48da5370281a9338ab164a318146f4ad.opus"
+      ]
+    },
+    {
+      "group_id": "mode-闻香识魔女",
+      "name": "闻香识魔女",
+      "dominant_story_set": null,
+      "tracks": [
+        {
+          "audio_id": "audio-29f7c96afec5cb78c67bca274ec30187ad21d6a7fbe044c6d09ea4e1ff0ebb07",
+          "file": "/audio/audio-29f7c96afec5cb78c67bca274ec30187ad21d6a7fbe044c6d09ea4e1ff0ebb07.opus",
+          "old_name": "闻香识魔女 · 界面配乐",
+          "name": "闻香识魔女 · 界面配乐",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        }
+      ],
+      "ordered_story_files": []
+    },
+    {
+      "group_id": "story-我思，故魔王在 · 第二章",
+      "name": "我思，故魔王在 · 第二章",
+      "dominant_story_set": [
+        "我思，故魔王在",
+        "第二章"
+      ],
+      "tracks": [
+        {
+          "audio_id": "audio-ad9d5a5b687fd000b1737755a8e88a8abbd37bf525a6e51837646f92c1eef9bd",
+          "file": "/audio/audio-ad9d5a5b687fd000b1737755a8e88a8abbd37bf525a6e51837646f92c1eef9bd.opus",
+          "old_name": "第二章 · 公司与绿洲 · 「这枚棋子所代表的公司」",
+          "name": "第二章 · 公司与绿洲",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 204,
+            "script_id": "STm02_01",
+            "collection": "我思，故魔王在",
+            "story_set": "第二章",
+            "chapter_name": "公司与绿洲",
+            "chapter_index": "01",
+            "description": "从天而降的好处越多，就越要谨慎行事。",
+            "open_time": null,
+            "parent_story_ids": [],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              204
+            ],
+            "call_line": 142,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm02_01.lua",
+            "music_state": "m46",
+            "chapter_order": 16
+          },
+          "scene_quote": {
+            "text": "这枚棋子所代表的公司，可是和全世界为敌的公司哦。",
+            "caption": "这枚棋子所代表的公司"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            16,
+            142
+          ]
+        },
+        {
+          "audio_id": "audio-1a11186c302e4bfc84f8b21cf5171d3a64dea7dc8d9c087db661a2f2ffa65fb7",
+          "file": "/audio/audio-1a11186c302e4bfc84f8b21cf5171d3a64dea7dc8d9c087db661a2f2ffa65fb7.opus",
+          "old_name": "第二章 · 深夜潜入 · 「大家准备好了吗」",
+          "name": "第二章 · 深夜潜入",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 205,
+            "script_id": "STm02_02_a",
+            "collection": "我思，故魔王在",
+            "story_set": "第二章",
+            "chapter_name": "深夜潜入",
+            "chapter_index": "02A",
+            "description": "既然说我们是野蛮人，那就做点野蛮的事吧。",
+            "open_time": null,
+            "parent_story_ids": [
+              "STm02_01"
+            ],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              205
+            ],
+            "call_line": 78,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm02_02_a.lua",
+            "music_state": "m49",
+            "chapter_order": 17
+          },
+          "scene_quote": {
+            "text": "大家准备好了吗？",
+            "caption": "大家准备好了吗"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            17,
+            78
+          ]
+        },
+        {
+          "audio_id": "audio-e90d96952741cb42db90aaa46e1898f16e27eb045fe072fa8f9595d99a4035e8",
+          "file": "/audio/audio-e90d96952741cb42db90aaa46e1898f16e27eb045fe072fa8f9595d99a4035e8.opus",
+          "old_name": "第二章 · 变装侦查 · 「白金的学生果然慧眼」",
+          "name": "第二章 · 变装侦查",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 206,
+            "script_id": "STm02_02_b",
+            "collection": "我思，故魔王在",
+            "story_set": "第二章",
+            "chapter_name": "变装侦查",
+            "chapter_index": "02B",
+            "description": "人靠衣装，是因为有些人只看得见衣装。",
+            "open_time": null,
+            "parent_story_ids": [
+              "STm02_01"
+            ],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              206
+            ],
+            "call_line": 6561,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm02_02_b.lua",
+            "music_state": "m45",
+            "chapter_order": 18
+          },
+          "scene_quote": {
+            "text": "白金的学生果然慧眼，我觉得不用继续面试了。",
+            "caption": "白金的学生果然慧眼"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            18,
+            6561
+          ]
+        },
+        {
+          "audio_id": "audio-26c12c8a1dbe908dbd44ccd832ec3a7c8b3eed945603c788379490085c55bf3b",
+          "file": "/audio/audio-26c12c8a1dbe908dbd44ccd832ec3a7c8b3eed945603c788379490085c55bf3b.opus",
+          "old_name": "第二章 · 永恒 · 「今天和我们一起上塔的」",
+          "name": "第二章 · 永恒",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 207,
+            "script_id": "STm02_02_c",
+            "collection": "我思，故魔王在",
+            "story_set": "第二章",
+            "chapter_name": "永恒",
+            "chapter_index": "终局",
+            "description": "复杂的计划总会出意外。",
+            "open_time": null,
+            "parent_story_ids": [
+              "STm02_01"
+            ],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              207
+            ],
+            "call_line": 970,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm02_02_c.lua",
+            "music_state": "m14",
+            "chapter_order": 19
+          },
+          "scene_quote": {
+            "text": "今天和我们一起上塔的，还有一位穿着黑衣的旅人吧。",
+            "caption": "今天和我们一起上塔的"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            19,
+            970
+          ]
+        },
+        {
+          "audio_id": "audio-e9a36f1a456219dd185bf259ac03edff8e9af87b2fa5e3e210a8489ec3e19a2d",
+          "file": "/audio/audio-e9a36f1a456219dd185bf259ac03edff8e9af87b2fa5e3e210a8489ec3e19a2d.opus",
+          "old_name": "第二章 · 暗夜中的视线 · 「你没有第一时间开枪」",
+          "name": "第二章 · 暗夜中的视线",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 208,
+            "script_id": "STm02_03_a",
+            "collection": "我思，故魔王在",
+            "story_set": "第二章",
+            "chapter_name": "暗夜中的视线",
+            "chapter_index": "03A",
+            "description": "夜色中盯着你们的人不止一个。",
+            "open_time": null,
+            "parent_story_ids": [
+              "STm02_02_a"
+            ],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              208
+            ],
+            "call_line": 6689,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm02_03_a.lua",
+            "music_state": "m10",
+            "chapter_order": 20
+          },
+          "scene_quote": {
+            "text": "可惜，==W==你没有第一时间==W==开枪。",
+            "caption": "你没有第一时间开枪"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            20,
+            6689
+          ]
+        },
+        {
+          "audio_id": "audio-b1717e174c4cd99db8f605f4c9d05e2a29b8ef0d5ef499f6eee823e8da40acc3",
+          "file": "/audio/audio-b1717e174c4cd99db8f605f4c9d05e2a29b8ef0d5ef499f6eee823e8da40acc3.opus",
+          "old_name": "第二章 · 黑色少女 · 「门怎么还没打开」",
+          "name": "第二章 · 黑色少女 · 第1音轨",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 210,
+            "script_id": "STm02_04",
+            "collection": "我思，故魔王在",
+            "story_set": "第二章",
+            "chapter_name": "黑色少女",
+            "chapter_index": "04",
+            "description": "提升敌人的成本也是一种武器。",
+            "open_time": null,
+            "parent_story_ids": [
+              "BAm02_03"
+            ],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              210
+            ],
+            "call_line": 1843,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm02_04.lua",
+            "music_state": "m59",
+            "chapter_order": 22
+          },
+          "scene_quote": {
+            "text": "门怎么还没打开？一会那几个旅人跑了。",
+            "caption": "门怎么还没打开"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            22,
+            1843
+          ]
+        },
+        {
+          "audio_id": "audio-00fdecea08d4081bd0ea2825d8b2a82ad1e2143e0db634bad455ee142286e930",
+          "file": "/audio/audio-00fdecea08d4081bd0ea2825d8b2a82ad1e2143e0db634bad455ee142286e930.opus",
+          "old_name": "第二章 · 黑色少女 · 「是帝国骑士」",
+          "name": "第二章 · 黑色少女 · 第2音轨",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 210,
+            "script_id": "STm02_04",
+            "collection": "我思，故魔王在",
+            "story_set": "第二章",
+            "chapter_name": "黑色少女",
+            "chapter_index": "04",
+            "description": "提升敌人的成本也是一种武器。",
+            "open_time": null,
+            "parent_story_ids": [
+              "BAm02_03"
+            ],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              210
+            ],
+            "call_line": 7606,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm02_04.lua",
+            "music_state": "m47",
+            "chapter_order": 22
+          },
+          "scene_quote": {
+            "text": "是帝国骑士。",
+            "caption": "是帝国骑士"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            22,
+            7606
+          ]
+        },
+        {
+          "audio_id": "audio-10ada5e100bb793416ea648e56a2898e9dd04048cd6cd5185afd75e2628f1813",
+          "file": "/audio/audio-10ada5e100bb793416ea648e56a2898e9dd04048cd6cd5185afd75e2628f1813.opus",
+          "old_name": "第二章 · 黑色少女",
+          "name": "第二章 · 黑色少女 · 第3音轨",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 210,
+            "script_id": "STm02_04",
+            "collection": "我思，故魔王在",
+            "story_set": "第二章",
+            "chapter_name": "黑色少女",
+            "chapter_index": "04",
+            "description": "提升敌人的成本也是一种武器。",
+            "open_time": null,
+            "parent_story_ids": [
+              "BAm02_03"
+            ],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              210
+            ],
+            "call_line": 10511,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm02_04.lua",
+            "music_state": "m8",
+            "chapter_order": 22
+          },
+          "scene_quote": null,
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            22,
+            10511
+          ]
+        },
+        {
+          "audio_id": "audio-5ecf192bbaa0729c9f1f769658312ddcadf25d1cb33d795ff278755755c72a07",
+          "file": "/audio/audio-5ecf192bbaa0729c9f1f769658312ddcadf25d1cb33d795ff278755755c72a07.opus",
+          "old_name": "第二章 · 黑色少女 · 第二音轨",
+          "name": "第二章 · 黑色少女 · 第4音轨",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 210,
+            "script_id": "STm02_04",
+            "collection": "我思，故魔王在",
+            "story_set": "第二章",
+            "chapter_name": "黑色少女",
+            "chapter_index": "04",
+            "description": "提升敌人的成本也是一种武器。",
+            "open_time": null,
+            "parent_story_ids": [
+              "BAm02_03"
+            ],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              210
+            ],
+            "call_line": 10511,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm02_04.lua",
+            "music_state": "m8",
+            "chapter_order": 22
+          },
+          "scene_quote": null,
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            22,
+            10511
+          ]
+        },
+        {
+          "audio_id": "audio-88da21223cee630edc923873bc9e9c967684cb876c45da64bf56af8ddd7e5c6d",
+          "file": "/audio/audio-88da21223cee630edc923873bc9e9c967684cb876c45da64bf56af8ddd7e5c6d.opus",
+          "old_name": "第二章 · 黑色少女 · 「一阵劲风袭来」",
+          "name": "第二章 · 黑色少女 · 第5音轨",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 210,
+            "script_id": "STm02_04",
+            "collection": "我思，故魔王在",
+            "story_set": "第二章",
+            "chapter_name": "黑色少女",
+            "chapter_index": "04",
+            "description": "提升敌人的成本也是一种武器。",
+            "open_time": null,
+            "parent_story_ids": [
+              "BAm02_03"
+            ],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              210
+            ],
+            "call_line": 11838,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm02_04.lua",
+            "music_state": "m64",
+            "chapter_order": 22
+          },
+          "scene_quote": {
+            "text": "一阵劲风袭来，在接受命运坦然赴死的瞬息间，仿若有花瓣拂过。",
+            "caption": "一阵劲风袭来"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            22,
+            11838
+          ]
+        },
+        {
+          "audio_id": "audio-dc032f936b5cb60abe5b9448d291f41338c5b5000e71cf3fb9c70c8a113605ad",
+          "file": "/audio/audio-dc032f936b5cb60abe5b9448d291f41338c5b5000e71cf3fb9c70c8a113605ad.opus",
+          "old_name": "第二章 · 仁义与刀 · 「你好好在这休息」",
+          "name": "第二章 · 仁义与刀 · 第1音轨",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 211,
+            "script_id": "STm02_05",
+            "collection": "我思，故魔王在",
+            "story_set": "第二章",
+            "chapter_name": "仁义与刀",
+            "chapter_index": "05",
+            "description": "要守护的是主公，以及主公关心的一切。",
+            "open_time": null,
+            "parent_story_ids": [
+              "STm02_04"
+            ],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              211
+            ],
+            "call_line": 4885,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm02_05.lua",
+            "music_state": "m33",
+            "chapter_order": 23
+          },
+          "scene_quote": {
+            "text": "==PLAYER_NAME==，你好好在这休息，==W==我们去俱乐部==W==看看情况。",
+            "caption": "你好好在这休息"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            23,
+            4885
+          ]
+        },
+        {
+          "audio_id": "audio-eab7afe0fbe236ef936aba9c41e12aa2d08280d44538177abab37aa37916487b",
+          "file": "/audio/audio-eab7afe0fbe236ef936aba9c41e12aa2d08280d44538177abab37aa37916487b.opus",
+          "old_name": "第二章 · 仁义与刀 · 「并且理所当然地躺在这里」",
+          "name": "第二章 · 仁义与刀 · 第2音轨",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 211,
+            "script_id": "STm02_05",
+            "collection": "我思，故魔王在",
+            "story_set": "第二章",
+            "chapter_name": "仁义与刀",
+            "chapter_index": "05",
+            "description": "要守护的是主公，以及主公关心的一切。",
+            "open_time": null,
+            "parent_story_ids": [
+              "STm02_04"
+            ],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              211
+            ],
+            "call_line": 6612,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm02_05.lua",
+            "music_state": "m4",
+            "chapter_order": 23
+          },
+          "scene_quote": {
+            "text": "并且理所当然地躺在这里。",
+            "caption": "并且理所当然地躺在这里"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            23,
+            6612
+          ]
+        },
+        {
+          "audio_id": "audio-2696e1a843e1113dee8af2479341c0eca74283ddbadd6f06ba328c4205d10605",
+          "file": "/audio/audio-2696e1a843e1113dee8af2479341c0eca74283ddbadd6f06ba328c4205d10605.opus",
+          "old_name": "第二章 · 特许经营 · 「琥珀胳膊上的绑带快速收缩」",
+          "name": "第二章 · 特许经营",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 213,
+            "script_id": "STm02_07",
+            "collection": "我思，故魔王在",
+            "story_set": "第二章",
+            "chapter_name": "特许经营",
+            "chapter_index": "07",
+            "description": "想要对抗公司，只有先成为公司。",
+            "open_time": null,
+            "parent_story_ids": [
+              "STm02_06"
+            ],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              213
+            ],
+            "call_line": 5231,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm02_07.lua",
+            "music_state": "m43",
+            "chapter_order": 25
+          },
+          "scene_quote": {
+            "text": "琥珀胳膊上的绑带快速收缩，把满月和新月拉到屋顶上。",
+            "caption": "琥珀胳膊上的绑带快速收缩"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            25,
+            5231
+          ]
+        },
+        {
+          "audio_id": "audio-8e319a2bf6feae89ec27d35c8bcc9399103c88c5392aad8f5ee15eaa98631c5b",
+          "file": "/audio/audio-8e319a2bf6feae89ec27d35c8bcc9399103c88c5392aad8f5ee15eaa98631c5b.opus",
+          "old_name": "第二章 · 新的起点 · 「在尘沙、鸢尾、琥珀的强烈要求下」",
+          "name": "第二章 · 新的起点",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 217,
+            "script_id": "STm02_11",
+            "collection": "我思，故魔王在",
+            "story_set": "第二章",
+            "chapter_name": "新的起点",
+            "chapter_index": "尾声",
+            "description": "星星和高塔的旅程正式开始了。",
+            "open_time": null,
+            "parent_story_ids": [
+              "BAm02_10"
+            ],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              217
+            ],
+            "call_line": 10804,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm02_11.lua",
+            "music_state": "m52",
+            "chapter_order": 29
+          },
+          "scene_quote": {
+            "text": "就这样，在尘沙、鸢尾、琥珀的强烈要求下，我们签下了那个毫无效果的“魔王协议”。",
+            "caption": "在尘沙、鸢尾、琥珀的强烈要求下"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            29,
+            10804
+          ]
+        }
+      ],
+      "ordered_story_files": [
+        "/audio/audio-ad9d5a5b687fd000b1737755a8e88a8abbd37bf525a6e51837646f92c1eef9bd.opus",
+        "/audio/audio-1a11186c302e4bfc84f8b21cf5171d3a64dea7dc8d9c087db661a2f2ffa65fb7.opus",
+        "/audio/audio-e90d96952741cb42db90aaa46e1898f16e27eb045fe072fa8f9595d99a4035e8.opus",
+        "/audio/audio-26c12c8a1dbe908dbd44ccd832ec3a7c8b3eed945603c788379490085c55bf3b.opus",
+        "/audio/audio-e9a36f1a456219dd185bf259ac03edff8e9af87b2fa5e3e210a8489ec3e19a2d.opus",
+        "/audio/audio-b1717e174c4cd99db8f605f4c9d05e2a29b8ef0d5ef499f6eee823e8da40acc3.opus",
+        "/audio/audio-00fdecea08d4081bd0ea2825d8b2a82ad1e2143e0db634bad455ee142286e930.opus",
+        "/audio/audio-10ada5e100bb793416ea648e56a2898e9dd04048cd6cd5185afd75e2628f1813.opus",
+        "/audio/audio-5ecf192bbaa0729c9f1f769658312ddcadf25d1cb33d795ff278755755c72a07.opus",
+        "/audio/audio-88da21223cee630edc923873bc9e9c967684cb876c45da64bf56af8ddd7e5c6d.opus",
+        "/audio/audio-dc032f936b5cb60abe5b9448d291f41338c5b5000e71cf3fb9c70c8a113605ad.opus",
+        "/audio/audio-eab7afe0fbe236ef936aba9c41e12aa2d08280d44538177abab37aa37916487b.opus",
+        "/audio/audio-2696e1a843e1113dee8af2479341c0eca74283ddbadd6f06ba328c4205d10605.opus",
+        "/audio/audio-8e319a2bf6feae89ec27d35c8bcc9399103c88c5392aad8f5ee15eaa98631c5b.opus"
+      ]
+    },
+    {
+      "group_id": "story-我思，故魔王在 · 第一章",
+      "name": "我思，故魔王在 · 第一章",
+      "dominant_story_set": [
+        "我思，故魔王在",
+        "第一章"
+      ],
+      "tracks": [
+        {
+          "audio_id": "audio-3e5725481d24690da5693eac1d78b435b107ff8b2561204bccbf959522d2f3f8",
+          "file": "/audio/audio-3e5725481d24690da5693eac1d78b435b107ff8b2561204bccbf959522d2f3f8.opus",
+          "old_name": "第一章 · 梦醒时分 · 「夜风送来硝烟的味道」",
+          "name": "第一章 · 梦醒时分 · 第1音轨",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 101,
+            "script_id": "STm01_01",
+            "collection": "我思，故魔王在",
+            "story_set": "第一章",
+            "chapter_name": "梦醒时分",
+            "chapter_index": "01",
+            "description": "每一次醒来，都是一段新的人生。",
+            "open_time": null,
+            "parent_story_ids": [],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              101
+            ],
+            "call_line": 70,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm01_01.lua",
+            "music_state": "m13",
+            "chapter_order": 1
+          },
+          "scene_quote": {
+            "text": "夜风送来硝烟的味道。",
+            "caption": "夜风送来硝烟的味道"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            1,
+            70
+          ]
+        },
+        {
+          "audio_id": "audio-05d88e4db02cef40263db9407b92e70de33c3a8de68130c8bd9bebc8ed8abe20",
+          "file": "/audio/audio-05d88e4db02cef40263db9407b92e70de33c3a8de68130c8bd9bebc8ed8abe20.opus",
+          "old_name": "第一章 · 梦醒时分 · 「我也不清楚是不是噩梦」",
+          "name": "第一章 · 梦醒时分 · 第2音轨",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 101,
+            "script_id": "STm01_01",
+            "collection": "我思，故魔王在",
+            "story_set": "第一章",
+            "chapter_name": "梦醒时分",
+            "chapter_index": "01",
+            "description": "每一次醒来，都是一段新的人生。",
+            "open_time": null,
+            "parent_story_ids": [],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              101
+            ],
+            "call_line": 2079,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm01_01.lua",
+            "music_state": "m56",
+            "chapter_order": 1
+          },
+          "scene_quote": {
+            "text": "我也不清楚是不是噩梦......==W==谢谢，我现在好多了。",
+            "caption": "我也不清楚是不是噩梦"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            1,
+            2079
+          ]
+        },
+        {
+          "audio_id": "audio-57e4213c5b72ed6f32bd163581c705c9087c9101f68b961f93dfc7815feb09c6",
+          "file": "/audio/audio-57e4213c5b72ed6f32bd163581c705c9087c9101f68b961f93dfc7815feb09c6.opus",
+          "old_name": "第一章 · 梦醒时分 · 「魔王原来是这样的人吗」",
+          "name": "第一章 · 梦醒时分 · 第3音轨",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 101,
+            "script_id": "STm01_01",
+            "collection": "我思，故魔王在",
+            "story_set": "第一章",
+            "chapter_name": "梦醒时分",
+            "chapter_index": "01",
+            "description": "每一次醒来，都是一段新的人生。",
+            "open_time": null,
+            "parent_story_ids": [],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              101
+            ],
+            "call_line": 3143,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm01_01.lua",
+            "music_state": "m1",
+            "chapter_order": 1
+          },
+          "scene_quote": {
+            "text": "咦？魔<r=mowang></r>王原来是这样的人吗？",
+            "caption": "魔王原来是这样的人吗"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            1,
+            3143
+          ]
+        },
+        {
+          "audio_id": "audio-9ec2fc17f8dfbb04c031c631b08d41ee5d7dea5b13a8d375b3b836e06b76e18e",
+          "file": "/audio/audio-9ec2fc17f8dfbb04c031c631b08d41ee5d7dea5b13a8d375b3b836e06b76e18e.opus",
+          "old_name": "第一章 · 过去的痕迹 · 「请您把手放在这里」",
+          "name": "第一章 · 过去的痕迹 · 第1音轨",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 102,
+            "script_id": "STm01_02",
+            "collection": "我思，故魔王在",
+            "story_set": "第一章",
+            "chapter_name": "过去的痕迹",
+            "chapter_index": "02",
+            "description": "失去了所有记忆的你，收到了一份久远的礼物。",
+            "open_time": null,
+            "parent_story_ids": [
+              "STm01_01"
+            ],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              102
+            ],
+            "call_line": 168,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm01_02.lua",
+            "music_state": "m30",
+            "chapter_order": 2
+          },
+          "scene_quote": {
+            "text": "请您把手放在这里，保持五分钟。",
+            "caption": "请您把手放在这里"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            2,
+            168
+          ]
+        },
+        {
+          "audio_id": "audio-21450e386114c0bc8183f3690374a1c09a87261f80a2d5f4bdfa7493af7d14f5",
+          "file": "/audio/audio-21450e386114c0bc8183f3690374a1c09a87261f80a2d5f4bdfa7493af7d14f5.opus",
+          "old_name": "第一章 · 过去的痕迹 · 「经过我们的详细检查」",
+          "name": "第一章 · 过去的痕迹 · 第2音轨",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 102,
+            "script_id": "STm01_02",
+            "collection": "我思，故魔王在",
+            "story_set": "第一章",
+            "chapter_name": "过去的痕迹",
+            "chapter_index": "02",
+            "description": "失去了所有记忆的你，收到了一份久远的礼物。",
+            "open_time": null,
+            "parent_story_ids": [
+              "STm01_01"
+            ],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              102
+            ],
+            "call_line": 1314,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm01_02.lua",
+            "music_state": "m2",
+            "chapter_order": 2
+          },
+          "scene_quote": {
+            "text": "抱歉，经过我们的详细检查。客人您的体质有些......不，是非常特殊，您的身体与魔力绝缘。",
+            "caption": "经过我们的详细检查"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            2,
+            1314
+          ]
+        },
+        {
+          "audio_id": "audio-24587f1639cf113d7fa6f1dce1359dfe95fd4324df3cb3186f354fa8fc0893cc",
+          "file": "/audio/audio-24587f1639cf113d7fa6f1dce1359dfe95fd4324df3cb3186f354fa8fc0893cc.opus",
+          "old_name": "第一章 · 过去的痕迹 · 「真的打开了——咦」",
+          "name": "第一章 · 过去的痕迹 · 第3音轨",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 102,
+            "script_id": "STm01_02",
+            "collection": "我思，故魔王在",
+            "story_set": "第一章",
+            "chapter_name": "过去的痕迹",
+            "chapter_index": "02",
+            "description": "失去了所有记忆的你，收到了一份久远的礼物。",
+            "open_time": null,
+            "parent_story_ids": [
+              "STm01_01"
+            ],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              102
+            ],
+            "call_line": 5018,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm01_02.lua",
+            "music_state": "m57",
+            "chapter_order": 2
+          },
+          "scene_quote": {
+            "text": "真的打开了——==W==咦，这是？",
+            "caption": "真的打开了——咦"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            2,
+            5018
+          ]
+        },
+        {
+          "audio_id": "audio-1a2c34a528abc1400cc8b079d5a9c6f558822bb4ac1ef8b209470a40b87a0333",
+          "file": "/audio/audio-1a2c34a528abc1400cc8b079d5a9c6f558822bb4ac1ef8b209470a40b87a0333.opus",
+          "old_name": "第一章 · 消失的绿洲 · 「谁是偷车贼」",
+          "name": "第一章 · 消失的绿洲 · 第1音轨",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 103,
+            "script_id": "STm01_03",
+            "collection": "我思，故魔王在",
+            "story_set": "第一章",
+            "chapter_name": "消失的绿洲",
+            "chapter_index": "03",
+            "description": "一转眼，你们的容身之所就被夺走了。",
+            "open_time": null,
+            "parent_story_ids": [
+              "STm01_02"
+            ],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              103
+            ],
+            "call_line": 1338,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm01_03.lua",
+            "music_state": "m11",
+            "chapter_order": 3
+          },
+          "scene_quote": {
+            "text": "哈？谁是偷车贼？不懂礼仪的城外野人。",
+            "caption": "谁是偷车贼"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            3,
+            1338
+          ]
+        },
+        {
+          "audio_id": "audio-d35ba185ff0d3025b0766dd67bcf3d757f0a8fcd959a0524f1fe6d4755ed1850",
+          "file": "/audio/audio-d35ba185ff0d3025b0766dd67bcf3d757f0a8fcd959a0524f1fe6d4755ed1850.opus",
+          "old_name": "第一章 · 消失的绿洲 · 「我是和她们一个旅团的同伴」",
+          "name": "第一章 · 消失的绿洲 · 第2音轨",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 103,
+            "script_id": "STm01_03",
+            "collection": "我思，故魔王在",
+            "story_set": "第一章",
+            "chapter_name": "消失的绿洲",
+            "chapter_index": "03",
+            "description": "一转眼，你们的容身之所就被夺走了。",
+            "open_time": null,
+            "parent_story_ids": [
+              "STm01_02"
+            ],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              103
+            ],
+            "call_line": 6038,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm01_03.lua",
+            "music_state": "m40",
+            "chapter_order": 3
+          },
+          "scene_quote": {
+            "text": "我是和她们一个旅团的同伴，但不是孤儿院出身的。",
+            "caption": "我是和她们一个旅团的同伴"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            3,
+            6038
+          ]
+        },
+        {
+          "audio_id": "audio-be06c508a6be79435384e9aee0d61e4df5c5a7a18af54a5a1fd51ad8e9d80276",
+          "file": "/audio/audio-be06c508a6be79435384e9aee0d61e4df5c5a7a18af54a5a1fd51ad8e9d80276.opus",
+          "old_name": "第一章 · 消失的绿洲 · 「他们怎么会来」",
+          "name": "第一章 · 消失的绿洲 · 第3音轨",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 103,
+            "script_id": "STm01_03",
+            "collection": "我思，故魔王在",
+            "story_set": "第一章",
+            "chapter_name": "消失的绿洲",
+            "chapter_index": "03",
+            "description": "一转眼，你们的容身之所就被夺走了。",
+            "open_time": null,
+            "parent_story_ids": [
+              "STm01_02"
+            ],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              103
+            ],
+            "call_line": 7902,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm01_03.lua",
+            "music_state": "m34",
+            "chapter_order": 3
+          },
+          "scene_quote": {
+            "text": "帝国卫队......他们怎么会来？",
+            "caption": "他们怎么会来"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            3,
+            7902
+          ]
+        },
+        {
+          "audio_id": "audio-7cc7da136259fb4fe14ec3bb894fd9502047298eb930e7b795a35de40d81e8c4",
+          "file": "/audio/audio-7cc7da136259fb4fe14ec3bb894fd9502047298eb930e7b795a35de40d81e8c4.opus",
+          "old_name": "第一章 · 桥洞下 · 「大家都没事吧」",
+          "name": "第一章 · 桥洞下 · 第1音轨",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 104,
+            "script_id": "STm01_04",
+            "collection": "我思，故魔王在",
+            "story_set": "第一章",
+            "chapter_name": "桥洞下",
+            "chapter_index": "04",
+            "description": "无家可归的人，总要找个遮风挡雨的地方。",
+            "open_time": null,
+            "parent_story_ids": [
+              "STm01_03"
+            ],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              104
+            ],
+            "call_line": 78,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm01_04.lua",
+            "music_state": "m9",
+            "chapter_order": 4
+          },
+          "scene_quote": {
+            "text": "大家都没事吧？没淋湿吧。",
+            "caption": "大家都没事吧"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            4,
+            78
+          ]
+        },
+        {
+          "audio_id": "audio-9071876fc33c81bf43563f3f9f1f85c95e5f61dff7e37ff0e8ded9568da674e8",
+          "file": "/audio/audio-9071876fc33c81bf43563f3f9f1f85c95e5f61dff7e37ff0e8ded9568da674e8.opus",
+          "old_name": "第一章 · 桥洞下 · 「还背上了那么重的债」",
+          "name": "第一章 · 桥洞下 · 第2音轨",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 104,
+            "script_id": "STm01_04",
+            "collection": "我思，故魔王在",
+            "story_set": "第一章",
+            "chapter_name": "桥洞下",
+            "chapter_index": "04",
+            "description": "无家可归的人，总要找个遮风挡雨的地方。",
+            "open_time": null,
+            "parent_story_ids": [
+              "STm01_03"
+            ],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              104
+            ],
+            "call_line": 1654,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm01_04.lua",
+            "music_state": "m36",
+            "chapter_order": 4
+          },
+          "scene_quote": {
+            "text": "车子没了，还背上了那么重的债，==W==要不然我们还是别当旅人，散伙跑路吧。",
+            "caption": "还背上了那么重的债"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            4,
+            1654
+          ]
+        },
+        {
+          "audio_id": "audio-fd095e082318094b0a62e1e53e318aea64869d456b191c39d8afcc640f0f2820",
+          "file": "/audio/audio-fd095e082318094b0a62e1e53e318aea64869d456b191c39d8afcc640f0f2820.opus",
+          "old_name": "第一章 · 桥洞下 · 「尘沙、琥珀」",
+          "name": "第一章 · 桥洞下 · 第3音轨",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 104,
+            "script_id": "STm01_04",
+            "collection": "我思，故魔王在",
+            "story_set": "第一章",
+            "chapter_name": "桥洞下",
+            "chapter_index": "04",
+            "description": "无家可归的人，总要找个遮风挡雨的地方。",
+            "open_time": null,
+            "parent_story_ids": [
+              "STm01_03"
+            ],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              104
+            ],
+            "call_line": 3726,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm01_04.lua",
+            "music_state": "m3",
+            "chapter_order": 4
+          },
+          "scene_quote": {
+            "text": "尘沙、琥珀，==PLAYER_NAME==大家能来帮忙吗？",
+            "caption": "尘沙、琥珀"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            4,
+            3726
+          ]
+        },
+        {
+          "audio_id": "audio-003965b19a98939644b9dd4f94e9e59d86ed6a747b33e9162dabbb4f738aaa5d",
+          "file": "/audio/audio-003965b19a98939644b9dd4f94e9e59d86ed6a747b33e9162dabbb4f738aaa5d.opus",
+          "old_name": "第一章 · 灰城区的风 · 「我带你下去」",
+          "name": "第一章 · 灰城区的风 · 第1音轨",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 105,
+            "script_id": "STm01_05",
+            "collection": "我思，故魔王在",
+            "story_set": "第一章",
+            "chapter_name": "灰城区的风",
+            "chapter_index": "05",
+            "description": "物是人非，旧日的街道上已经没有了熟悉的风景。",
+            "open_time": null,
+            "parent_story_ids": [
+              "STm01_04"
+            ],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              105
+            ],
+            "call_line": 1208,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm01_05.lua",
+            "music_state": "m28",
+            "chapter_order": 5
+          },
+          "scene_quote": {
+            "text": "==PLAYER_NAME==，抱紧我，我带你下去。",
+            "caption": "我带你下去"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            5,
+            1208
+          ]
+        },
+        {
+          "audio_id": "audio-1af25470e8d75a51b9dff3895c8a2e053910571a9212e15cb51cd83580d3f617",
+          "file": "/audio/audio-1af25470e8d75a51b9dff3895c8a2e053910571a9212e15cb51cd83580d3f617.opus",
+          "old_name": "第一章 · 灰城区的风 · 「我们不欺负小孩」",
+          "name": "第一章 · 灰城区的风 · 第2音轨",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 105,
+            "script_id": "STm01_05",
+            "collection": "我思，故魔王在",
+            "story_set": "第一章",
+            "chapter_name": "灰城区的风",
+            "chapter_index": "05",
+            "description": "物是人非，旧日的街道上已经没有了熟悉的风景。",
+            "open_time": null,
+            "parent_story_ids": [
+              "STm01_04"
+            ],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              105
+            ],
+            "call_line": 2744,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm01_05.lua",
+            "music_state": "m44",
+            "chapter_order": 5
+          },
+          "scene_quote": {
+            "text": "别挡路，我们不欺负小孩。",
+            "caption": "我们不欺负小孩"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            5,
+            2744
+          ]
+        },
+        {
+          "audio_id": "audio-9bb83533656a796224fd2c2e0aff1befe50f0d71bfbe39811d88c56c72deb7c4",
+          "file": "/audio/audio-9bb83533656a796224fd2c2e0aff1befe50f0d71bfbe39811d88c56c72deb7c4.opus",
+          "old_name": "第一章 · 飞翔的选择 · 「没想到三对一都赢不了」",
+          "name": "第一章 · 飞翔的选择 · 第1音轨",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 106,
+            "script_id": "STm01_06",
+            "collection": "我思，故魔王在",
+            "story_set": "第一章",
+            "chapter_name": "飞翔的选择",
+            "chapter_index": "06",
+            "description": "这是她的故事，也是灰城区的故事。",
+            "open_time": null,
+            "parent_story_ids": [
+              "BAm01_05"
+            ],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              106
+            ],
+            "call_line": 31,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm01_06.lua",
+            "music_state": "m35",
+            "chapter_order": 6
+          },
+          "scene_quote": {
+            "text": "彼此彼此。没想到三对一都赢不了。",
+            "caption": "没想到三对一都赢不了"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            6,
+            31
+          ]
+        },
+        {
+          "audio_id": "audio-3c92f173b6c40e3f4937c843d3cf8576bbae82e1d1bdde12c62986ad96746603",
+          "file": "/audio/audio-3c92f173b6c40e3f4937c843d3cf8576bbae82e1d1bdde12c62986ad96746603.opus",
+          "old_name": "第一章 · 飞翔的选择 · 「既然问题是一样的」",
+          "name": "第一章 · 飞翔的选择 · 第2音轨",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 106,
+            "script_id": "STm01_06",
+            "collection": "我思，故魔王在",
+            "story_set": "第一章",
+            "chapter_name": "飞翔的选择",
+            "chapter_index": "06",
+            "description": "这是她的故事，也是灰城区的故事。",
+            "open_time": null,
+            "parent_story_ids": [
+              "BAm01_05"
+            ],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              106
+            ],
+            "call_line": 12090,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm01_06.lua",
+            "music_state": "m39",
+            "chapter_order": 6
+          },
+          "scene_quote": {
+            "text": "的确，既然问题是一样的，那就可以合作来解决了！",
+            "caption": "既然问题是一样的"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            6,
+            12090
+          ]
+        },
+        {
+          "audio_id": "audio-50f1d5d8bf4d983b3aec251c765f27847c7acc36dbe28c2a0ce4d12714e61b73",
+          "file": "/audio/audio-50f1d5d8bf4d983b3aec251c765f27847c7acc36dbe28c2a0ce4d12714e61b73.opus",
+          "old_name": "第一章 · 不同的许愿",
+          "name": "第一章 · 不同的许愿",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 107,
+            "script_id": "STm01_07",
+            "collection": "我思，故魔王在",
+            "story_set": "第一章",
+            "chapter_name": "不同的许愿",
+            "chapter_index": "07",
+            "description": "崭新的许愿方式，是变革还是灾祸？",
+            "open_time": null,
+            "parent_story_ids": [
+              "STm01_06"
+            ],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              107
+            ],
+            "call_line": 5856,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm01_07.lua",
+            "music_state": "m18",
+            "chapter_order": 7
+          },
+          "scene_quote": null,
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            7,
+            5856
+          ]
+        },
+        {
+          "audio_id": "audio-6b5bccf1f4782c622ad8c66d22556f635dc5a55f28ceaa5d72748cc22932d1ef",
+          "file": "/audio/audio-6b5bccf1f4782c622ad8c66d22556f635dc5a55f28ceaa5d72748cc22932d1ef.opus",
+          "old_name": "第一章 · 调查结果 · 「密涅瓦来上课」",
+          "name": "第一章 · 调查结果",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 108,
+            "script_id": "STm01_08_a",
+            "collection": "我思，故魔王在",
+            "story_set": "第一章",
+            "chapter_name": "调查结果",
+            "chapter_index": "08A",
+            "description": "很多时候，答案就藏在最显眼的地方。",
+            "open_time": null,
+            "parent_story_ids": [
+              "STm01_07"
+            ],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              108
+            ],
+            "call_line": 4198,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm01_08_a.lua",
+            "music_state": "m37",
+            "chapter_order": 8
+          },
+          "scene_quote": {
+            "text": "密涅瓦来上课……！",
+            "caption": "密涅瓦来上课"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            8,
+            4198
+          ]
+        },
+        {
+          "audio_id": "audio-0bc27082d923883e8c39935c32525d41b99d3de91ea663c42d6becd9735c3521",
+          "file": "/audio/audio-0bc27082d923883e8c39935c32525d41b99d3de91ea663c42d6becd9735c3521.opus",
+          "old_name": "第一章 · 没有旅人的未来 · 「密涅瓦姐姐」",
+          "name": "第一章 · 没有旅人的未来 · 第1音轨",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 110,
+            "script_id": "STm01_08_b",
+            "collection": "我思，故魔王在",
+            "story_set": "第一章",
+            "chapter_name": "没有旅人的未来",
+            "chapter_index": "终局",
+            "description": "不要向星星许愿。",
+            "open_time": null,
+            "parent_story_ids": [
+              "STm01_07"
+            ],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              110
+            ],
+            "call_line": 125,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm01_08_b.lua",
+            "music_state": "m31",
+            "chapter_order": 10
+          },
+          "scene_quote": {
+            "text": "密涅瓦姐姐，我们去睡觉了。",
+            "caption": "密涅瓦姐姐"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            10,
+            125
+          ]
+        },
+        {
+          "audio_id": "audio-06890401058931a07ec83b0aaf2fd6675b3045f189ad0f5da5562a55e3078f14",
+          "file": "/audio/audio-06890401058931a07ec83b0aaf2fd6675b3045f189ad0f5da5562a55e3078f14.opus",
+          "old_name": "第一章 · 没有旅人的未来 · 「但我们依然毫不气馁地继续收集着神器」",
+          "name": "第一章 · 没有旅人的未来 · 第2音轨",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 110,
+            "script_id": "STm01_08_b",
+            "collection": "我思，故魔王在",
+            "story_set": "第一章",
+            "chapter_name": "没有旅人的未来",
+            "chapter_index": "终局",
+            "description": "不要向星星许愿。",
+            "open_time": null,
+            "parent_story_ids": [
+              "STm01_07"
+            ],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              110
+            ],
+            "call_line": 3089,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm01_08_b.lua",
+            "music_state": "m19",
+            "chapter_order": 10
+          },
+          "scene_quote": {
+            "text": "但我们依然毫不气馁地继续收集着神器，我虽然用不出魔法，但在许愿和文书工作上也能帮上不少忙。",
+            "caption": "但我们依然毫不气馁地继续收集着神器"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            10,
+            3089
+          ]
+        },
+        {
+          "audio_id": "audio-16eb7fab8fec231b9e995c4ef840d6fb5ead174689568a8d4d1c896ed924f4ac",
+          "file": "/audio/audio-16eb7fab8fec231b9e995c4ef840d6fb5ead174689568a8d4d1c896ed924f4ac.opus",
+          "old_name": "第一章 · 没有旅人的未来 · 「您的确溺水了」",
+          "name": "第一章 · 没有旅人的未来 · 第3音轨",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 110,
+            "script_id": "STm01_08_b",
+            "collection": "我思，故魔王在",
+            "story_set": "第一章",
+            "chapter_name": "没有旅人的未来",
+            "chapter_index": "终局",
+            "description": "不要向星星许愿。",
+            "open_time": null,
+            "parent_story_ids": [
+              "STm01_07"
+            ],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              110
+            ],
+            "call_line": 5001,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm01_08_b.lua",
+            "music_state": "m54",
+            "chapter_order": 10
+          },
+          "scene_quote": {
+            "text": "您的确溺水了，但很遗憾，这里不是医院。",
+            "caption": "您的确溺水了"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            10,
+            5001
+          ]
+        },
+        {
+          "audio_id": "audio-a9d191cbc9c22246ba0b14fde1b6450b35806cb9ce569713276e4860bbdea196",
+          "file": "/audio/audio-a9d191cbc9c22246ba0b14fde1b6450b35806cb9ce569713276e4860bbdea196.opus",
+          "old_name": "第一章 · 填补记忆的方式 · 「谁能告诉我」",
+          "name": "第一章 · 填补记忆的方式",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 111,
+            "script_id": "STm01_09",
+            "collection": "我思，故魔王在",
+            "story_set": "第一章",
+            "chapter_name": "填补记忆的方式",
+            "chapter_index": "09",
+            "description": "抵御失忆的方法就是创造更多有趣的记忆。",
+            "open_time": null,
+            "parent_story_ids": [
+              "STm01_08_a",
+              "STm01_08_c"
+            ],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              111
+            ],
+            "call_line": 3692,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm01_09.lua",
+            "music_state": "m55",
+            "chapter_order": 11
+          },
+          "scene_quote": {
+            "text": "至于滑板，谁能告诉我，滑板上最重要的零件是什么？",
+            "caption": "谁能告诉我"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            11,
+            3692
+          ]
+        },
+        {
+          "audio_id": "audio-7a9d90a816b55b1de508426288b8505298852925ac9ed3988da86f4d352888b0",
+          "file": "/audio/audio-7a9d90a816b55b1de508426288b8505298852925ac9ed3988da86f4d352888b0.opus",
+          "old_name": "第一章 · 最终解释权 · 「我太冲动了」",
+          "name": "第一章 · 最终解释权",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 112,
+            "script_id": "STm01_10",
+            "collection": "我思，故魔王在",
+            "story_set": "第一章",
+            "chapter_name": "最终解释权",
+            "chapter_index": "10",
+            "description": "有恩赐印章就是可以为所欲为。",
+            "open_time": null,
+            "parent_story_ids": [
+              "STm01_09"
+            ],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              112
+            ],
+            "call_line": 4610,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm01_10.lua",
+            "music_state": "m38",
+            "chapter_order": 12
+          },
+          "scene_quote": {
+            "text": "抱歉，==W==我太冲动了，没控制好情绪。",
+            "caption": "我太冲动了"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            12,
+            4610
+          ]
+        }
+      ],
+      "ordered_story_files": [
+        "/audio/audio-3e5725481d24690da5693eac1d78b435b107ff8b2561204bccbf959522d2f3f8.opus",
+        "/audio/audio-05d88e4db02cef40263db9407b92e70de33c3a8de68130c8bd9bebc8ed8abe20.opus",
+        "/audio/audio-57e4213c5b72ed6f32bd163581c705c9087c9101f68b961f93dfc7815feb09c6.opus",
+        "/audio/audio-9ec2fc17f8dfbb04c031c631b08d41ee5d7dea5b13a8d375b3b836e06b76e18e.opus",
+        "/audio/audio-21450e386114c0bc8183f3690374a1c09a87261f80a2d5f4bdfa7493af7d14f5.opus",
+        "/audio/audio-24587f1639cf113d7fa6f1dce1359dfe95fd4324df3cb3186f354fa8fc0893cc.opus",
+        "/audio/audio-1a2c34a528abc1400cc8b079d5a9c6f558822bb4ac1ef8b209470a40b87a0333.opus",
+        "/audio/audio-d35ba185ff0d3025b0766dd67bcf3d757f0a8fcd959a0524f1fe6d4755ed1850.opus",
+        "/audio/audio-be06c508a6be79435384e9aee0d61e4df5c5a7a18af54a5a1fd51ad8e9d80276.opus",
+        "/audio/audio-7cc7da136259fb4fe14ec3bb894fd9502047298eb930e7b795a35de40d81e8c4.opus",
+        "/audio/audio-9071876fc33c81bf43563f3f9f1f85c95e5f61dff7e37ff0e8ded9568da674e8.opus",
+        "/audio/audio-fd095e082318094b0a62e1e53e318aea64869d456b191c39d8afcc640f0f2820.opus",
+        "/audio/audio-003965b19a98939644b9dd4f94e9e59d86ed6a747b33e9162dabbb4f738aaa5d.opus",
+        "/audio/audio-1af25470e8d75a51b9dff3895c8a2e053910571a9212e15cb51cd83580d3f617.opus",
+        "/audio/audio-9bb83533656a796224fd2c2e0aff1befe50f0d71bfbe39811d88c56c72deb7c4.opus",
+        "/audio/audio-3c92f173b6c40e3f4937c843d3cf8576bbae82e1d1bdde12c62986ad96746603.opus",
+        "/audio/audio-50f1d5d8bf4d983b3aec251c765f27847c7acc36dbe28c2a0ce4d12714e61b73.opus",
+        "/audio/audio-6b5bccf1f4782c622ad8c66d22556f635dc5a55f28ceaa5d72748cc22932d1ef.opus",
+        "/audio/audio-0bc27082d923883e8c39935c32525d41b99d3de91ea663c42d6becd9735c3521.opus",
+        "/audio/audio-06890401058931a07ec83b0aaf2fd6675b3045f189ad0f5da5562a55e3078f14.opus",
+        "/audio/audio-16eb7fab8fec231b9e995c4ef840d6fb5ead174689568a8d4d1c896ed924f4ac.opus",
+        "/audio/audio-a9d191cbc9c22246ba0b14fde1b6450b35806cb9ce569713276e4860bbdea196.opus",
+        "/audio/audio-7a9d90a816b55b1de508426288b8505298852925ac9ed3988da86f4d352888b0.opus"
+      ]
+    },
+    {
+      "group_id": "prologue",
+      "name": "开篇",
+      "dominant_story_set": null,
+      "tracks": [
+        {
+          "audio_id": "audio-058254bcd0b5742f1ba04c23bcbcbe41f0f1f7c2b3a02245604d4b31ce7a8abe",
+          "file": "/audio/audio-058254bcd0b5742f1ba04c23bcbcbe41f0f1f7c2b3a02245604d4b31ce7a8abe.opus",
+          "old_name": "开篇 · 战斗配乐",
+          "name": "开篇 · 战斗配乐",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-d3ccf925a20ddb0195a1a1f509c8d666a82469945ad3eef590bf9c82eb969745",
+          "file": "/audio/audio-d3ccf925a20ddb0195a1a1f509c8d666a82469945ad3eef590bf9c82eb969745.opus",
+          "old_name": "开篇 · 探索",
+          "name": "开篇 · 探索",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        }
+      ],
+      "ordered_story_files": []
+    },
+    {
+      "group_id": "permanent-system",
+      "name": "常驻系统",
+      "dominant_story_set": [
+        "魔王，吾向您祈愿",
+        "特别篇"
+      ],
+      "tracks": [
+        {
+          "audio_id": "audio-902473681981b9cbe94b3210cd3e33189fa855a42ccada24458ab647de51d659",
+          "file": "/audio/audio-902473681981b9cbe94b3210cd3e33189fa855a42ccada24458ab647de51d659.opus",
+          "old_name": "挑战成功",
+          "name": "挑战成功",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-06c451261061dc504b101745a1cc396322797e0c91fcb023a3ebd00084259653",
+          "file": "/audio/audio-06c451261061dc504b101745a1cc396322797e0c91fcb023a3ebd00084259653.opus",
+          "old_name": "后宅",
+          "name": "后宅",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 1101,
+            "script_id": "STm10001_01",
+            "collection": "魔王，吾向您祈愿",
+            "story_set": "特别篇",
+            "chapter_name": "昨日重现",
+            "chapter_index": "01",
+            "description": "又一次醒来，又一段新的人生。",
+            "open_time": null,
+            "parent_story_ids": [],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              1101
+            ],
+            "call_line": 1726,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm10001_01.lua",
+            "music_state": "m147",
+            "chapter_order": 196
+          },
+          "scene_quote": {
+            "text": "你的伙伴，好像醒过来了呢。",
+            "caption": "好像醒过来了呢"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            196,
+            1726
+          ]
+        },
+        {
+          "audio_id": "audio-83d9ff037fbf062591be19e9ac328a409ba52dc7b94dd342f30e5cdf428e5626",
+          "file": "/audio/audio-83d9ff037fbf062591be19e9ac328a409ba52dc7b94dd342f30e5cdf428e5626.opus",
+          "old_name": "登录",
+          "name": "登录",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 1101,
+            "script_id": "STm10001_01",
+            "collection": "魔王，吾向您祈愿",
+            "story_set": "特别篇",
+            "chapter_name": "昨日重现",
+            "chapter_index": "01",
+            "description": "又一次醒来，又一段新的人生。",
+            "open_time": null,
+            "parent_story_ids": [],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              1101
+            ],
+            "call_line": 7942,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm10001_01.lua",
+            "music_state": "m150",
+            "chapter_order": 196
+          },
+          "scene_quote": {
+            "text": "您的奴隶和失踪圣女的画像很像。==W==冒昧问一下，她是何时，何地成为您的奴隶的？",
+            "caption": "您的奴隶和失踪圣女的画像很像"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            196,
+            7942
+          ]
+        },
+        {
+          "audio_id": "audio-b50d33dfe08dc4b22f251d28d2e0e8eefd5c8275cf072609e91d2b56234f75fb",
+          "file": "/audio/audio-b50d33dfe08dc4b22f251d28d2e0e8eefd5c8275cf072609e91d2b56234f75fb.opus",
+          "old_name": "加载画面 · 常规",
+          "name": "加载画面 · 常规",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Story",
+            "id": 1123,
+            "script_id": "STm10001_20",
+            "collection": "魔王，吾向您祈愿",
+            "story_set": "特别篇",
+            "chapter_name": "过去之事正如未来之事",
+            "chapter_index": "尾声",
+            "description": "在这漫长旅途的最后，你终于推开了窄门。",
+            "open_time": null,
+            "parent_story_ids": [],
+            "sort_key": [
+              "2025-10-20",
+              0,
+              1123
+            ],
+            "call_line": 14701,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/STm10001_20.lua",
+            "music_state": "m158",
+            "chapter_order": 218
+          },
+          "scene_quote": {
+            "text": "留在星塔里给旅人引路猜谜，帮旅人消除伤痛和疲惫，经营一家能帮助旅人爬塔的便利店，其实这些工作我还挺有兴趣的。",
+            "caption": "留在星塔里给旅人引路猜谜"
+          },
+          "order_key": [
+            0,
+            "2025-10-20",
+            0,
+            218,
+            14701
+          ]
+        },
+        {
+          "audio_id": "audio-f95ecf455e5ac897fc4a799c823e1798446294551f3acd2b19e7f1bd16def7f5",
+          "file": "/audio/audio-f95ecf455e5ac897fc4a799c823e1798446294551f3acd2b19e7f1bd16def7f5.opus",
+          "old_name": "营地",
+          "name": "营地",
+          "is_story": true,
+          "first_appearance": {
+            "table": "Plot",
+            "id": 13703,
+            "script_id": "CG_137_03",
+            "collection": "旅人逸闻",
+            "story_set": "埃莉诺·旅人故事",
+            "chapter_name": "后辈的烦恼日 下",
+            "description": "牵起她的手，来一场华丽的舞蹈吧！",
+            "sort_key": [
+              "2025-10-20",
+              3,
+              13703
+            ],
+            "call_line": 2602,
+            "call_path": "data/upstream/lua/Lua/Game/UI/Avg/_cn/Config/CG_137_03.lua",
+            "music_state": "m16",
+            "chapter_order": 71
+          },
+          "scene_quote": {
+            "text": "快看，前辈！附近的风景好好哦。",
+            "caption": "附近的风景好好哦"
+          },
+          "order_key": [
+            1,
+            "2025-10-20",
+            3,
+            71,
+            2602
+          ]
+        },
+        {
+          "audio_id": "audio-5003a6494ac260936d0468e5a2221eb3d89e0a108a125878023a0494ef679eab",
+          "file": "/audio/audio-5003a6494ac260936d0468e5a2221eb3d89e0a108a125878023a0494ef679eab.opus",
+          "old_name": "登录与主界面",
+          "name": "登录与主界面",
+          "is_story": true,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-e666df02ade3f0e78c8d96bee92be24f6792b0b9eae792125082a27f0105073e",
+          "file": "/audio/audio-e666df02ade3f0e78c8d96bee92be24f6792b0b9eae792125082a27f0105073e.opus",
+          "old_name": "关卡选择",
+          "name": "关卡选择",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-a1b6aaefba83ee7cdcdd04a08b07fd9eaaeac0a89f2b7f24d2873bdaf2d23d4a",
+          "file": "/audio/audio-a1b6aaefba83ee7cdcdd04a08b07fd9eaaeac0a89f2b7f24d2873bdaf2d23d4a.opus",
+          "old_name": "启动画面",
+          "name": "启动画面",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-06592bd073fb3d13643936433b78b02d4a9255209a690f14b54f928df10a8a8b",
+          "file": "/audio/audio-06592bd073fb3d13643936433b78b02d4a9255209a690f14b54f928df10a8a8b.opus",
+          "old_name": "区域首领",
+          "name": "区域首领",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-4772e6bd500715da24ebb568297129b133c4467910c7821864826f8bee75c6e7",
+          "file": "/audio/audio-4772e6bd500715da24ebb568297129b133c4467910c7821864826f8bee75c6e7.opus",
+          "old_name": "采购商店",
+          "name": "采购商店",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-8c53a6b84c2714dd15436172216d0a21279723146e96dd0e99b0b2400da5ab0a",
+          "file": "/audio/audio-8c53a6b84c2714dd15436172216d0a21279723146e96dd0e99b0b2400da5ab0a.opus",
+          "old_name": "尖兵陷阵",
+          "name": "尖兵陷阵",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-065ba01de7343a87524f6c6d982737ac1ac24053b00e9ab0a26dfb199994c43a",
+          "file": "/audio/audio-065ba01de7343a87524f6c6d982737ac1ac24053b00e9ab0a26dfb199994c43a.opus",
+          "old_name": "无尽之塔",
+          "name": "无尽之塔",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-e2bd40e7ca979351fd18530d8f8494aa29d960fbf035df40cde4e232464d5915",
+          "file": "/audio/audio-e2bd40e7ca979351fd18530d8f8494aa29d960fbf035df40cde4e232464d5915.opus",
+          "old_name": "巅峰猎场",
+          "name": "巅峰猎场",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-2f078d15eaff79a35a219ec41b6435cbc829ead9add597c7533c144e0df6ce0a",
+          "file": "/audio/audio-2f078d15eaff79a35a219ec41b6435cbc829ead9add597c7533c144e0df6ce0a.opus",
+          "old_name": "招募过程 · 旅人招募",
+          "name": "招募过程 · 旅人招募",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-42a6cb5ec3ae46fad6d4f9b52d508a724dac636e478b59e515939d1607c637ec",
+          "file": "/audio/audio-42a6cb5ec3ae46fad6d4f9b52d508a724dac636e478b59e515939d1607c637ec.opus",
+          "old_name": "招募过程 · 秘纹招募 · R",
+          "name": "招募过程 · 秘纹招募 · R",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-f8f91439680069155942b8932e6ba39cd6791dbe14fb0734dc510c55b8aa8ece",
+          "file": "/audio/audio-f8f91439680069155942b8932e6ba39cd6791dbe14fb0734dc510c55b8aa8ece.opus",
+          "old_name": "招募过程",
+          "name": "招募过程",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-8f99ade168c4523c437e838f33fcbc35eec41e13f87eb9e6d23492959e8cbd81",
+          "file": "/audio/audio-8f99ade168c4523c437e838f33fcbc35eec41e13f87eb9e6d23492959e8cbd81.opus",
+          "old_name": "编队",
+          "name": "编队",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-14ef894390ac14419ebb34d676bf65fffced0aae138413ef0a2f78995b93a50b",
+          "file": "/audio/audio-14ef894390ac14419ebb34d676bf65fffced0aae138413ef0a2f78995b93a50b.opus",
+          "old_name": "后宅",
+          "name": "后宅",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-a326fb8958c77204c5572ecf0d051d660713071b2628d2e315dd7bbc3581aba0",
+          "file": "/audio/audio-a326fb8958c77204c5572ecf0d051d660713071b2628d2e315dd7bbc3581aba0.opus",
+          "old_name": "后宅",
+          "name": "后宅",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        }
+      ],
+      "ordered_story_files": [
+        "/audio/audio-06c451261061dc504b101745a1cc396322797e0c91fcb023a3ebd00084259653.opus",
+        "/audio/audio-83d9ff037fbf062591be19e9ac328a409ba52dc7b94dd342f30e5cdf428e5626.opus",
+        "/audio/audio-b50d33dfe08dc4b22f251d28d2e0e8eefd5c8275cf072609e91d2b56234f75fb.opus",
+        "/audio/audio-f95ecf455e5ac897fc4a799c823e1798446294551f3acd2b19e7f1bd16def7f5.opus",
+        "/audio/audio-5003a6494ac260936d0468e5a2221eb3d89e0a108a125878023a0494ef679eab.opus"
+      ]
+    },
+    {
+      "group_id": "permanent-combat",
+      "name": "常驻玩法",
+      "dominant_story_set": null,
+      "tracks": [
+        {
+          "audio_id": "audio-0c7255d498963165f82bd3c864a8d83a973d406cc0ae33069850fba94855a285",
+          "file": "/audio/audio-0c7255d498963165f82bd3c864a8d83a973d406cc0ae33069850fba94855a285.opus",
+          "old_name": "游棋保卫战-变体2 · 普通战斗",
+          "name": "游棋保卫战-变体2 · 普通战斗",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-39ed4667ad1078cf5663d01ce0d32621613755d8871d077f6335ded3619f462a",
+          "file": "/audio/audio-39ed4667ad1078cf5663d01ce0d32621613755d8871d077f6335ded3619f462a.opus",
+          "old_name": "烈焰与尘埃",
+          "name": "烈焰与尘埃",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-a27cc7e34440288cfcef04225f61bd027b2a5f9329c763c5c15422c3f0203c37",
+          "file": "/audio/audio-a27cc7e34440288cfcef04225f61bd027b2a5f9329c763c5c15422c3f0203c37.opus",
+          "old_name": "烈焰与尘埃 · 挑战战斗",
+          "name": "烈焰与尘埃 · 挑战战斗",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-257bad628dc942ea833c91fcda17d43ecbdec487b86acf6fa33361a18357320b",
+          "file": "/audio/audio-257bad628dc942ea833c91fcda17d43ecbdec487b86acf6fa33361a18357320b.opus",
+          "old_name": "首领战斗",
+          "name": "首领战斗",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-4aeaf5f0781dea8662fbca291d0938e9b9ceb5bf4e7bdd0e503608cc1931ff30",
+          "file": "/audio/audio-4aeaf5f0781dea8662fbca291d0938e9b9ceb5bf4e7bdd0e503608cc1931ff30.opus",
+          "old_name": "烈焰与尘埃 · 精英战斗",
+          "name": "烈焰与尘埃 · 精英战斗",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-3cdc45420abe5ff58356eef8212a699aac9e00dd7b1ede78a21c2cb17659ffe5",
+          "file": "/audio/audio-3cdc45420abe5ff58356eef8212a699aac9e00dd7b1ede78a21c2cb17659ffe5.opus",
+          "old_name": "暗林",
+          "name": "暗林",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-bf471b1a1b45e16784c1892a323214c30293798a635c7eb238aa010b59da5d24",
+          "file": "/audio/audio-bf471b1a1b45e16784c1892a323214c30293798a635c7eb238aa010b59da5d24.opus",
+          "old_name": "高难挑战",
+          "name": "高难挑战",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-7f1e9b71265dd28af5fd764191423dca22db94b8a728aa677b4a7065515d4be5",
+          "file": "/audio/audio-7f1e9b71265dd28af5fd764191423dca22db94b8a728aa677b4a7065515d4be5.opus",
+          "old_name": "暗林 · 首领战斗",
+          "name": "暗林 · 首领战斗",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-e624da51d47ac0e42b309892ac0b691955992c7550a036ed9eaa500bcb2c5e13",
+          "file": "/audio/audio-e624da51d47ac0e42b309892ac0b691955992c7550a036ed9eaa500bcb2c5e13.opus",
+          "old_name": "森林遗迹 · 领袖战斗",
+          "name": "森林遗迹 · 领袖战斗",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-afddf3e90f0e57823cbb823a656cdd72568a3a32b72742dc6c9d2ff38aa89c42",
+          "file": "/audio/audio-afddf3e90f0e57823cbb823a656cdd72568a3a32b72742dc6c9d2ff38aa89c42.opus",
+          "old_name": "首领战斗",
+          "name": "首领战斗",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-dbcf9af476c7b2103660db1d4dc35f99e752f6d8e96461e8b126b114fc70f3f3",
+          "file": "/audio/audio-dbcf9af476c7b2103660db1d4dc35f99e752f6d8e96461e8b126b114fc70f3f3.opus",
+          "old_name": "乡野 · 探索",
+          "name": "乡野 · 探索",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-16bc5e3da1d2fe5b4f367823b704c53f791e6ad685979b54bebd9450007419c2",
+          "file": "/audio/audio-16bc5e3da1d2fe5b4f367823b704c53f791e6ad685979b54bebd9450007419c2.opus",
+          "old_name": "流水与暗影",
+          "name": "流水与暗影",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-9757200a15b16846f8e735aee5ae0a039afb47e39a7df9ab091d9864e7a71815",
+          "file": "/audio/audio-9757200a15b16846f8e735aee5ae0a039afb47e39a7df9ab091d9864e7a71815.opus",
+          "old_name": "风暴与闪电",
+          "name": "风暴与闪电",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-3acad708e3938e377517ab63ef4d20945fa6499ae65452bd5f43db0068e106be",
+          "file": "/audio/audio-3acad708e3938e377517ab63ef4d20945fa6499ae65452bd5f43db0068e106be.opus",
+          "old_name": "火垂-变体2",
+          "name": "火垂-变体2",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-172ce969c65aff62f5f9a75c3f96a651a5db454987aac662f451c65ea036284c",
+          "file": "/audio/audio-172ce969c65aff62f5f9a75c3f96a651a5db454987aac662f451c65ea036284c.opus",
+          "old_name": "无尽之塔 · 普通战斗",
+          "name": "无尽之塔 · 普通战斗",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-5b735ed59b96838375ae480773ea9de5e4fb6edd0d998d002e6ebe9c6e5adb1a",
+          "file": "/audio/audio-5b735ed59b96838375ae480773ea9de5e4fb6edd0d998d002e6ebe9c6e5adb1a.opus",
+          "old_name": "沙漠-变体2",
+          "name": "沙漠-变体2",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-ebb6cff2e16f8ad017779ee8fbe2c8cb62bace5cd63aec1eb7f31b576b4c22d6",
+          "file": "/audio/audio-ebb6cff2e16f8ad017779ee8fbe2c8cb62bace5cd63aec1eb7f31b576b4c22d6.opus",
+          "old_name": "水城 · 普通战斗",
+          "name": "水城 · 普通战斗",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-27907e8770dd27fcf528078a70d225cc02a9744b06afcd7fcf488da40876371a",
+          "file": "/audio/audio-27907e8770dd27fcf528078a70d225cc02a9744b06afcd7fcf488da40876371a.opus",
+          "old_name": "水城 · 首领战斗",
+          "name": "水城 · 首领战斗",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-ef7e4e2219288163a2c73408a63a420482f3a5a82b6060147b17677a22fadeb8",
+          "file": "/audio/audio-ef7e4e2219288163a2c73408a63a420482f3a5a82b6060147b17677a22fadeb8.opus",
+          "old_name": "探索",
+          "name": "探索",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-d630296ac31299ae81bff0a58c24430f47632829e16f7e8b93228db9e5e95836",
+          "file": "/audio/audio-d630296ac31299ae81bff0a58c24430f47632829e16f7e8b93228db9e5e95836.opus",
+          "old_name": "游棋保卫战 · 普通战斗",
+          "name": "游棋保卫战 · 普通战斗",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-8ef68aa63b5754c2f7e904dd9a4d7d53082c33a2f8a34867921e0c05f0d5d456",
+          "file": "/audio/audio-8ef68aa63b5754c2f7e904dd9a4d7d53082c33a2f8a34867921e0c05f0d5d456.opus",
+          "old_name": "尖兵陷阵 · 猫眼 · 首领战斗",
+          "name": "尖兵陷阵 · 猫眼 · 首领战斗",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-a3ebe404bf68877f81bce698a94cb5ff04523e68fc453f23dfad585d408419ce",
+          "file": "/audio/audio-a3ebe404bf68877f81bce698a94cb5ff04523e68fc453f23dfad585d408419ce.opus",
+          "old_name": "尖兵陷阵 · 花原 · 首领战斗",
+          "name": "尖兵陷阵 · 花原 · 首领战斗",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-109b3c4b3ffa7d92fb91d7a19c41424e81ae421ef1d2cb6cde041b977a50c689",
+          "file": "/audio/audio-109b3c4b3ffa7d92fb91d7a19c41424e81ae421ef1d2cb6cde041b977a50c689.opus",
+          "old_name": "尖兵陷阵 · 火垂-变体2 · 首领战斗",
+          "name": "尖兵陷阵 · 火垂-变体2 · 首领战斗",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-fb3b923b93018fbfa8547e7a9bc202278b8287fe2ad08918916b64561f2a494b",
+          "file": "/audio/audio-fb3b923b93018fbfa8547e7a9bc202278b8287fe2ad08918916b64561f2a494b.opus",
+          "old_name": "尖兵陷阵 · 火垂-变体3 · 首领战斗",
+          "name": "尖兵陷阵 · 火垂-变体3 · 首领战斗",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-5b1e0f5599dd48e0eca400616f5e7f6f136a6cd9ad6b7faa8ea13953cf902672",
+          "file": "/audio/audio-5b1e0f5599dd48e0eca400616f5e7f6f136a6cd9ad6b7faa8ea13953cf902672.opus",
+          "old_name": "尖兵陷阵 · 火垂 · 首领战斗",
+          "name": "尖兵陷阵 · 火垂 · 首领战斗",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-5004967f5df4350bf568a19af747cc6f39b6e863dfb5b4b5fb974de69c0f6650",
+          "file": "/audio/audio-5004967f5df4350bf568a19af747cc6f39b6e863dfb5b4b5fb974de69c0f6650.opus",
+          "old_name": "公司",
+          "name": "公司",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-770332c11b2dcfa538cd42e5edb8f0592ed79d67f988ec8677f736e5f561e3b1",
+          "file": "/audio/audio-770332c11b2dcfa538cd42e5edb8f0592ed79d67f988ec8677f736e5f561e3b1.opus",
+          "old_name": "森林",
+          "name": "森林",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-e6e8eadd20a1b4f44b0543053c0bb83349585bf0390e8e14f03c9f1c0092ee58",
+          "file": "/audio/audio-e6e8eadd20a1b4f44b0543053c0bb83349585bf0390e8e14f03c9f1c0092ee58.opus",
+          "old_name": "森林 · 首领战斗",
+          "name": "森林 · 首领战斗",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-9c9e22fa6803392a9f9a1e8a4d37eafd127beadebddc377f2f562fb3c34163aa",
+          "file": "/audio/audio-9c9e22fa6803392a9f9a1e8a4d37eafd127beadebddc377f2f562fb3c34163aa.opus",
+          "old_name": "森林 · 探索",
+          "name": "森林 · 探索",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-d127039736a21aa315f6c5d680575cae40dbe12bf0ba9d21cc09a1bec8febe03",
+          "file": "/audio/audio-d127039736a21aa315f6c5d680575cae40dbe12bf0ba9d21cc09a1bec8febe03.opus",
+          "old_name": "首领战 · 年兽-变体2",
+          "name": "首领战 · 年兽-变体2",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-2231f8a9ca321edda3f71927aac39ef2178b519cc33ca1ffb110bfd57e65c615",
+          "file": "/audio/audio-2231f8a9ca321edda3f71927aac39ef2178b519cc33ca1ffb110bfd57e65c615.opus",
+          "old_name": "首领战 · 首领击败",
+          "name": "首领战 · 首领击败",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-c2f5e52fed28781c4e9ea4910649473cbf3504885e8b466e6f5871c6c1c95404",
+          "file": "/audio/audio-c2f5e52fed28781c4e9ea4910649473cbf3504885e8b466e6f5871c6c1c95404.opus",
+          "old_name": "首领战 · 咕噜六角鲸-变体2",
+          "name": "首领战 · 咕噜六角鲸-变体2",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-82de09b6cfbc1c3bb2ae6a542856ca11e9fad0352cf7f544526aa9554a21c5ee",
+          "file": "/audio/audio-82de09b6cfbc1c3bb2ae6a542856ca11e9fad0352cf7f544526aa9554a21c5ee.opus",
+          "old_name": "首领战 · 禁断丽容-变体2 · 首领战斗",
+          "name": "首领战 · 禁断丽容-变体2 · 首领战斗",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-4d7f4b07362758760d04bba8f3c99766bbb46d478f8841ba3b78b9ca99bd67b6",
+          "file": "/audio/audio-4d7f4b07362758760d04bba8f3c99766bbb46d478f8841ba3b78b9ca99bd67b6.opus",
+          "old_name": "首领战 · 吹灰夫人 · 首领战斗",
+          "name": "首领战 · 吹灰夫人 · 首领战斗",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-1c969ae243cb1677fe92f252f24a2d57da559fb5fb1b5c7b6ff1b30bdfe0f59d",
+          "file": "/audio/audio-1c969ae243cb1677fe92f252f24a2d57da559fb5fb1b5c7b6ff1b30bdfe0f59d.opus",
+          "old_name": "首领战 · 赛尔西亚 · 疯狂战车 · 首领战斗",
+          "name": "首领战 · 赛尔西亚 · 疯狂战车 · 首领战斗",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-c087b4284dcd1b480c0fe0c63a28b3ba6de74b23806187423ec9fbd7bc1a4fb0",
+          "file": "/audio/audio-c087b4284dcd1b480c0fe0c63a28b3ba6de74b23806187423ec9fbd7bc1a4fb0.opus",
+          "old_name": "首领战 · 赛尔西亚 · 绝望战车 · 首领战斗",
+          "name": "首领战 · 赛尔西亚 · 绝望战车 · 首领战斗",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-1055a218981b6fd0d5c0d94ddd13763f5ba7a1bdf32833b28a3cfde74d51db8f",
+          "file": "/audio/audio-1055a218981b6fd0d5c0d94ddd13763f5ba7a1bdf32833b28a3cfde74d51db8f.opus",
+          "old_name": "首领战 · 味觉惊惧 · 首领战斗",
+          "name": "首领战 · 味觉惊惧 · 首领战斗",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-834d25270db6d10d6f8dd2bcde4886995cf70ca766652a01e001d4247c83574a",
+          "file": "/audio/audio-834d25270db6d10d6f8dd2bcde4886995cf70ca766652a01e001d4247c83574a.opus",
+          "old_name": "首领战 · 味觉惊惧-变体2 · 首领战斗",
+          "name": "首领战 · 味觉惊惧-变体2 · 首领战斗",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-99b26155a95a1e3b2da84fcf795b197bb1b273b15238561b1303e5ff14e4d2bf",
+          "file": "/audio/audio-99b26155a95a1e3b2da84fcf795b197bb1b273b15238561b1303e5ff14e4d2bf.opus",
+          "old_name": "首领战 · 禁断丽容 · 首领战斗",
+          "name": "首领战 · 禁断丽容 · 首领战斗",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-735e07acfb4472b084c36eddd107f2286179c3ca97dd7f5bb3d5efbe489e465c",
+          "file": "/audio/audio-735e07acfb4472b084c36eddd107f2286179c3ca97dd7f5bb3d5efbe489e465c.opus",
+          "old_name": "首领战 · 崇高傀儡-变体2 · 首领战斗",
+          "name": "首领战 · 崇高傀儡-变体2 · 首领战斗",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-fd9445f93fff716840718bd833122e17e9c607bdb70cad80c527a5f75018fd99",
+          "file": "/audio/audio-fd9445f93fff716840718bd833122e17e9c607bdb70cad80c527a5f75018fd99.opus",
+          "old_name": "首领战 · 崇高傀儡 · 科佩里乌斯与奥林匹娅 · 首领战斗",
+          "name": "首领战 · 崇高傀儡 · 科佩里乌斯与奥林匹娅 · 首领战斗",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-68e569661f1075cf64d69aec9f7a6baf4a42d85633262814f384946fe5f2cf87",
+          "file": "/audio/audio-68e569661f1075cf64d69aec9f7a6baf4a42d85633262814f384946fe5f2cf87.opus",
+          "old_name": "首领战 · 吹灰夫人-变体2 · 首领战斗",
+          "name": "首领战 · 吹灰夫人-变体2 · 首领战斗",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-33809a21ee980554459da5013128e07fbd694d5aa21200fb8d0aadcb2fb532b2",
+          "file": "/audio/audio-33809a21ee980554459da5013128e07fbd694d5aa21200fb8d0aadcb2fb532b2.opus",
+          "old_name": "首领战 · 热嘟噜噗男爵 · 首领战斗",
+          "name": "首领战 · 热嘟噜噗男爵 · 首领战斗",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-c523389d7345a432b1305f7a85eec62a504b2a3c7cb42b24f02d4327e847a880",
+          "file": "/audio/audio-c523389d7345a432b1305f7a85eec62a504b2a3c7cb42b24f02d4327e847a880.opus",
+          "old_name": "首领战 · 企鹅狩猎 · 首领战斗",
+          "name": "首领战 · 企鹅狩猎 · 首领战斗",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-a9803d118fcced72498d6a0abfff285eb75ba97a5186e6a8a5edcf91fbf71438",
+          "file": "/audio/audio-a9803d118fcced72498d6a0abfff285eb75ba97a5186e6a8a5edcf91fbf71438.opus",
+          "old_name": "首领战 · 流风美人 · 首领战斗",
+          "name": "首领战 · 流风美人 · 首领战斗",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-823656a64c778a526f119a9c3a0d46f8fa22098aec050a7dbd7ac19f1596eb07",
+          "file": "/audio/audio-823656a64c778a526f119a9c3a0d46f8fa22098aec050a7dbd7ac19f1596eb07.opus",
+          "old_name": "首领战 · 怪诞舞者-战斗 · 首领战斗",
+          "name": "首领战 · 怪诞舞者-战斗 · 首领战斗",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-127c8e918c80d896a95c4bbb46818c0e94e53e130c615053ce697ad3cbd6ded3",
+          "file": "/audio/audio-127c8e918c80d896a95c4bbb46818c0e94e53e130c615053ce697ad3cbd6ded3.opus",
+          "old_name": "首领战 · 终宵萤辉-变体2 · 首领战斗",
+          "name": "首领战 · 终宵萤辉-变体2 · 首领战斗",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-49ca78e8ac82730e63c52be9f95a4283029250c5196963335c19d446843f44df",
+          "file": "/audio/audio-49ca78e8ac82730e63c52be9f95a4283029250c5196963335c19d446843f44df.opus",
+          "old_name": "首领战 · 冻冻王三世-变体2 · 首领战斗",
+          "name": "首领战 · 冻冻王三世-变体2 · 首领战斗",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-14389850a3b31729ece7aa961b7862df1a78a61cd2ba4d51cd77ba1c1445c1c3",
+          "file": "/audio/audio-14389850a3b31729ece7aa961b7862df1a78a61cd2ba4d51cd77ba1c1445c1c3.opus",
+          "old_name": "首领战 · 热嘟噜噗男爵-变体2 · 首领战斗",
+          "name": "首领战 · 热嘟噜噗男爵-变体2 · 首领战斗",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-882f042d3de6effa92811362e542bbcce64996f2b699e0b44c5403ab62801100",
+          "file": "/audio/audio-882f042d3de6effa92811362e542bbcce64996f2b699e0b44c5403ab62801100.opus",
+          "old_name": "首领战 · 流风美人-变体2 · 首领战斗",
+          "name": "首领战 · 流风美人-变体2 · 首领战斗",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-eb41225cf7624d1a5927a9bb82c253e9b3d9327fc6aafa91b825e10c996667df",
+          "file": "/audio/audio-eb41225cf7624d1a5927a9bb82c253e9b3d9327fc6aafa91b825e10c996667df.opus",
+          "old_name": "首领战 · 终宵萤辉 · 首领战斗",
+          "name": "首领战 · 终宵萤辉 · 首领战斗",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-efeb83ed09730a1699347692887c3617ae6f65dd435b6ea7e0f686f341ae8d23",
+          "file": "/audio/audio-efeb83ed09730a1699347692887c3617ae6f65dd435b6ea7e0f686f341ae8d23.opus",
+          "old_name": "突围玩法 · 普通战斗",
+          "name": "突围玩法 · 普通战斗",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-14515f07353d6f9e18adcd67fb4616dc3900284a439b614f1c4c002ced44aeab",
+          "file": "/audio/audio-14515f07353d6f9e18adcd67fb4616dc3900284a439b614f1c4c002ced44aeab.opus",
+          "old_name": "突围玩法 · 首领战斗",
+          "name": "突围玩法 · 首领战斗",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-4be0f3b12170b1a96283e3fa8b5965888a456202d7bc1a27b098a7106716fb68",
+          "file": "/audio/audio-4be0f3b12170b1a96283e3fa8b5965888a456202d7bc1a27b098a7106716fb68.opus",
+          "old_name": "尖兵陷阵 · 雾语 · 首领战斗",
+          "name": "尖兵陷阵 · 雾语 · 首领战斗",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-b8153144ee45cb07cbc55f1d7f790f5335a93ad5f401d192dd053c13db3fa51c",
+          "file": "/audio/audio-b8153144ee45cb07cbc55f1d7f790f5335a93ad5f401d192dd053c13db3fa51c.opus",
+          "old_name": "无尽之塔 · 普通战斗",
+          "name": "无尽之塔 · 普通战斗",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-cc8e831fb9e91d0ba8c3ae4e65a1f120e13661f0076dda7f4c103868d033f1c0",
+          "file": "/audio/audio-cc8e831fb9e91d0ba8c3ae4e65a1f120e13661f0076dda7f4c103868d033f1c0.opus",
+          "old_name": "无尽之塔 · 普通战斗",
+          "name": "无尽之塔 · 普通战斗",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-7d8446fdfa79d67b1e00dbff5ec449d982aebfd4fb512934c3a7e2a0b7b24537",
+          "file": "/audio/audio-7d8446fdfa79d67b1e00dbff5ec449d982aebfd4fb512934c3a7e2a0b7b24537.opus",
+          "old_name": "无尽之塔 · 普通战斗",
+          "name": "无尽之塔 · 普通战斗",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-06c345af41fac3e170988a38b7051a4a75c5b2b4e5e82b0dadaafd9105fae3b1",
+          "file": "/audio/audio-06c345af41fac3e170988a38b7051a4a75c5b2b4e5e82b0dadaafd9105fae3b1.opus",
+          "old_name": "无尽之塔 · 普通战斗",
+          "name": "无尽之塔 · 普通战斗",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-919aed8dc7e698beef6195f99d76219267a9d5de3c158d0ee7451be24cb7d305",
+          "file": "/audio/audio-919aed8dc7e698beef6195f99d76219267a9d5de3c158d0ee7451be24cb7d305.opus",
+          "old_name": "无尽之塔 · 普通战斗",
+          "name": "无尽之塔 · 普通战斗",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-987406f690b720191a33b51c8fa8a613e26fcffe3a777f7cb93f1b6480820b9f",
+          "file": "/audio/audio-987406f690b720191a33b51c8fa8a613e26fcffe3a777f7cb93f1b6480820b9f.opus",
+          "old_name": "无尽之塔 · 普通战斗",
+          "name": "无尽之塔 · 普通战斗",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-ec3491595162c534a39125d7b2e18e2bacb6106cb862d3af639130725cd674e1",
+          "file": "/audio/audio-ec3491595162c534a39125d7b2e18e2bacb6106cb862d3af639130725cd674e1.opus",
+          "old_name": "无尽之塔 · 普通战斗",
+          "name": "无尽之塔 · 普通战斗",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-5e0cbbf1288a3e8b2614db19334bf5f07ada286062b45213febe0a2bac033ca5",
+          "file": "/audio/audio-5e0cbbf1288a3e8b2614db19334bf5f07ada286062b45213febe0a2bac033ca5.opus",
+          "old_name": "无尽之塔 · 普通战斗",
+          "name": "无尽之塔 · 普通战斗",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-11e6a3f164a6f3b6ba71ea9d09be9c1113131bacb4004e6a98a979d0e7cd6a81",
+          "file": "/audio/audio-11e6a3f164a6f3b6ba71ea9d09be9c1113131bacb4004e6a98a979d0e7cd6a81.opus",
+          "old_name": "无尽之塔 · 普通战斗",
+          "name": "无尽之塔 · 普通战斗",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-501242dece909f7a47407e17f40c9186593a0eb74835e09600d8406ac79126cb",
+          "file": "/audio/audio-501242dece909f7a47407e17f40c9186593a0eb74835e09600d8406ac79126cb.opus",
+          "old_name": "无尽之塔 · 普通战斗",
+          "name": "无尽之塔 · 普通战斗",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-a0959d82aa30feb73c078ac4bf4f092a27b926ceb27f8152773d90fe2ea49d8b",
+          "file": "/audio/audio-a0959d82aa30feb73c078ac4bf4f092a27b926ceb27f8152773d90fe2ea49d8b.opus",
+          "old_name": "无尽之塔 · 普通战斗",
+          "name": "无尽之塔 · 普通战斗",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-3813ca508dc98d58fc7f25274c734a36d8111d8093fa01119cdee0dc167b2220",
+          "file": "/audio/audio-3813ca508dc98d58fc7f25274c734a36d8111d8093fa01119cdee0dc167b2220.opus",
+          "old_name": "无尽之塔 · 普通战斗",
+          "name": "无尽之塔 · 普通战斗",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-857e9a757481c850ed608693d4c93f4d0a33e7b485ae949f4dd5b2cc04594a00",
+          "file": "/audio/audio-857e9a757481c850ed608693d4c93f4d0a33e7b485ae949f4dd5b2cc04594a00.opus",
+          "old_name": "无尽之塔 · 普通战斗",
+          "name": "无尽之塔 · 普通战斗",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-60b9e4d4c4f1506b24e658de4c2701c9441c2f36670eebc22df0d2bd732a3e2c",
+          "file": "/audio/audio-60b9e4d4c4f1506b24e658de4c2701c9441c2f36670eebc22df0d2bd732a3e2c.opus",
+          "old_name": "无尽之塔 · 普通战斗",
+          "name": "无尽之塔 · 普通战斗",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-f992218a4d650d4c079d66ade0b1d7d960ce888e72b873428778e1eadf1ee50e",
+          "file": "/audio/audio-f992218a4d650d4c079d66ade0b1d7d960ce888e72b873428778e1eadf1ee50e.opus",
+          "old_name": "无尽之塔 · 普通战斗",
+          "name": "无尽之塔 · 普通战斗",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        }
+      ],
+      "ordered_story_files": []
+    },
+    {
+      "group_id": "story-undated",
+      "name": "剧情音乐 · 首次出现待考",
+      "dominant_story_set": null,
+      "tracks": [
+        {
+          "audio_id": "audio-921276a7f5bca3969d7b39e841943ddf9f152eff7f4f18f4f3a8c438c2bdce07",
+          "file": "/audio/audio-921276a7f5bca3969d7b39e841943ddf9f152eff7f4f18f4f3a8c438c2bdce07.opus",
+          "old_name": "首次出现待考 · m63",
+          "name": "首次出现待考 · m63 · 第1音轨",
+          "is_story": true,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-dc66453ff8cdc9a21c946b56f132a4c26644ccf329f49ab98510cb85f97ce3cc",
+          "file": "/audio/audio-dc66453ff8cdc9a21c946b56f132a4c26644ccf329f49ab98510cb85f97ce3cc.opus",
+          "old_name": "首次出现待考 · m82",
+          "name": "首次出现待考 · m82 · 第1音轨",
+          "is_story": true,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-010f64338b0b67612986b439da4bedd685697e43fb121a49d3366df3d78093c3",
+          "file": "/audio/audio-010f64338b0b67612986b439da4bedd685697e43fb121a49d3366df3d78093c3.opus",
+          "old_name": "首次出现待考 · m84",
+          "name": "首次出现待考 · m84",
+          "is_story": true,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-7c4b1c0966f304b6688f4de4e9691cce5db6457c2496ac8aae62db927c4b1d27",
+          "file": "/audio/audio-7c4b1c0966f304b6688f4de4e9691cce5db6457c2496ac8aae62db927c4b1d27.opus",
+          "old_name": "首次出现待考 · m94",
+          "name": "首次出现待考 · m94 · 第1音轨",
+          "is_story": true,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-6fb4c5d1bea36790f23254c239fad63071cf1bc16072a62d7f2eb5c37c08494a",
+          "file": "/audio/audio-6fb4c5d1bea36790f23254c239fad63071cf1bc16072a62d7f2eb5c37c08494a.opus",
+          "old_name": "首次出现待考 · m82 · 第二音轨",
+          "name": "首次出现待考 · m82 · 第2音轨",
+          "is_story": true,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-9d047279ef45c7e69c01e2b70e91a5d43366da98a335f6fd6406ab8a5e728388",
+          "file": "/audio/audio-9d047279ef45c7e69c01e2b70e91a5d43366da98a335f6fd6406ab8a5e728388.opus",
+          "old_name": "首次出现待考 · m63 · 第二音轨",
+          "name": "首次出现待考 · m63 · 第2音轨",
+          "is_story": true,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        },
+        {
+          "audio_id": "audio-eecb960d3ed4a30303902aad764a27948771d09b94e6be835844ef5a9f955e7a",
+          "file": "/audio/audio-eecb960d3ed4a30303902aad764a27948771d09b94e6be835844ef5a9f955e7a.opus",
+          "old_name": "首次出现待考 · m94 · 第二音轨",
+          "name": "首次出现待考 · m94 · 第2音轨",
+          "is_story": true,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        }
+      ],
+      "ordered_story_files": [
+        "/audio/audio-921276a7f5bca3969d7b39e841943ddf9f152eff7f4f18f4f3a8c438c2bdce07.opus",
+        "/audio/audio-dc66453ff8cdc9a21c946b56f132a4c26644ccf329f49ab98510cb85f97ce3cc.opus",
+        "/audio/audio-010f64338b0b67612986b439da4bedd685697e43fb121a49d3366df3d78093c3.opus",
+        "/audio/audio-7c4b1c0966f304b6688f4de4e9691cce5db6457c2496ac8aae62db927c4b1d27.opus",
+        "/audio/audio-6fb4c5d1bea36790f23254c239fad63071cf1bc16072a62d7f2eb5c37c08494a.opus",
+        "/audio/audio-9d047279ef45c7e69c01e2b70e91a5d43366da98a335f6fd6406ab8a5e728388.opus",
+        "/audio/audio-eecb960d3ed4a30303902aad764a27948771d09b94e6be835844ef5a9f955e7a.opus"
+      ]
+    },
+    {
+      "group_id": "mainline-5",
+      "name": "主线 · 落于暗夜的荧光",
+      "dominant_story_set": null,
+      "tracks": [
+        {
+          "audio_id": "audio-72a6256ff722117b92bb1795b24ecaa5f352cce87ea8c95c4864bce8f6c2a154",
+          "file": "/audio/audio-72a6256ff722117b92bb1795b24ecaa5f352cce87ea8c95c4864bce8f6c2a154.opus",
+          "old_name": "主线第五章-探索",
+          "name": "主线第五章-探索",
+          "is_story": false,
+          "first_appearance": null,
+          "scene_quote": null,
+          "order_key": null
+        }
+      ],
+      "ordered_story_files": []
+    }
+  ]
+}
