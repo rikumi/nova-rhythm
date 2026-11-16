@@ -1,0 +1,159 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-17",
+  "method": "Offline metadata decryption and static x86-64 / ARM64 disassembly; no game launch or injection",
+  "windows": {
+    "channel": "CN_Taptap",
+    "client_version": "2.0.0",
+    "game_version": "2.1.0",
+    "inputs": {
+      "GameAssembly.dll": "cf1b482a091627f6731bfc8ea8e2f6d74c25931cdd8000709fb22f0978847230",
+      "xtlr_Data/il2cpp_data/Metadata/global-metadata.dat": "c695c5265e0b118d5982f51b9ab47b065a37e5d876bd9aec6adeaf52202d7953"
+    },
+    "methods_rva": {
+      "Booter.LoadRuntimeClientConfig": "0x1142970",
+      "RuntimeClientConfig.LoadFromFile": "0x114F760",
+      "RuntimeClientConfig.OverrideFromFile": "0x114F7B0",
+      "DownloadStore.get_baseDataPath": "0x10AD530",
+      "Booter.UpdatePatchResource.MoveNext": "0x1155EE0",
+      "DownloadStore.LoadAssetBundleFromFile": "0x10AA3F0",
+      "DownloadStore.CheckFileVersion": "0x10A62E0",
+      "ClientManager.GetPatchResourceVersion": "0x1149C40"
+    },
+    "base_directory": "Parent of UnityEngine.Application.dataPath; the installation directory",
+    "observed_local_patch_resource_version": "2611122204",
+    "current_server_entries_verified": 124,
+    "matching_file_sizes_and_md5": 124
+  },
+  "android": {
+    "apk_url": "https://nova-pkg.yostar.cn/pubplat/gpp/sdkpackage/prod/game_apk_v2/Official/d285fa4417c54e6d84caac453ceaad25/StellaSora.apk",
+    "package": "com.RoamingStar.StellaSora",
+    "version_name": "2.0.0",
+    "version_code": 26093015,
+    "target_sdk": 36,
+    "inputs": {
+      "lib/arm64-v8a/libil2cpp.so": "41c40f0e61d5691845a2dcddcd10c1594fe3eaf051306112f4b9c1fdfd1c2433",
+      "assets/bin/Data/Managed/Metadata/global-metadata.dat": "86f89a5f32b6044818f7fe864581fc676089dd9bc7e3af3845e5ce01b1a34668",
+      "AndroidManifest.xml": "7177b7595cc9c4b75aa8e543a549fa19a95871027b8d2acee1cc47bc70519429"
+    },
+    "methods_rva": {
+      "Booter$$LoadRuntimeClientConfig": "0x449f8c4",
+      "RuntimeClientConfig$$LoadFromFile": "0x449ff18",
+      "RuntimeClientConfig$$OverrideFromFile": "0x449ff68",
+      "DownloadStore$$get_baseDataPath": "0x44209a8",
+      "DownloadStore$$LoadAssetBundleFromFile": "0x441b9bc",
+      "DownloadStore$$LoadAssetBundleFromFileAsync": "0x441bb94"
+    },
+    "update_patch_move_next_rva": "0x44A9A70",
+    "base_directory_api": "UnityEngine.Application.persistentDataPath",
+    "usual_official_app_directory": "/storage/emulated/0/Android/data/com.RoamingStar.StellaSora/files",
+    "device_directory_not_observed": true,
+    "uses_cleartext_traffic_manifest_attribute": true,
+    "network_security_config_resource": "0x7f120001",
+    "network_security_config_not_decoded": true
+  },
+  "configuration": {
+    "retained": true,
+    "filename_pattern": "client_config*.ini",
+    "recursive_search": false,
+    "format": "JSON",
+    "first_file_parser": "UnityEngine.JsonUtility.FromJson<RuntimeClientConfig>(File.ReadAllText(path))",
+    "later_file_parser": "UnityEngine.JsonUtility.FromJsonOverwrite(File.ReadAllText(path), instance)",
+    "file_order": "Directory.GetFiles enumeration, without sorting; do not rely on precedence",
+    "known_fields": {
+      "ReplaceDownloadServerUrl": "string",
+      "LocalResServerUrl": "string",
+      "PatchResServerUrl": "string",
+      "UseTestServer": "int"
+    },
+    "requires_full_process_restart": true
+  },
+  "patch_flow": {
+    "skip_conditions": [
+      "RuntimeClientConfig.Instance is null",
+      "PatchResServerUrl is null or empty"
+    ],
+    "client_compatibility_check": "ResourceBundleManifest.IsResourceCompatibilityWithClient",
+    "overlay_manifest": "ResourceBundleManifest.PatchResourceInstance",
+    "load_priority": [
+      "Named entry in PatchResourceInstance, plus an existing stored patch file and matching registered file version",
+      "Normal resource manifest and Persistent_Store",
+      "Builtin install resource"
+    ],
+    "stored_file_version_check": "Compare expected version against the file_versions.dat-derived dictionary; not a fresh digest of all bytes on every load",
+    "manifest_entry_required_for_patch_lookup": true,
+    "empty_patch_url_effect": "Skip this overlay update path on a fresh process; no promise that stock art is unobscured"
+  },
+  "logs": [
+    "Load runtime client config:",
+    "Override runtime client config:",
+    "Load runtime client config error:",
+    "BEGIN Update Patch Resource:",
+    "CLIENT INIT [PatchVer:"
+  ],
+  "server_snapshots": {
+    "win": {
+      "url": "http://na.jvav.net.cn/res/win/ss_win.mani",
+      "manifest_sha256": "f6729e8e68c050ebf49de09f35f8eb4db24a379ffddaad185cdfd1b6425c11dc",
+      "headers": [
+        "$RES_VER:2611122204",
+        "$CLIENT_VER:2.0.0",
+        "$CLIENT_VER_COMP_MODE:TARGET",
+        "$GAME_VER:2.1.0",
+        "$CLEAR_EXPIRED_FILES:1"
+      ],
+      "entry_count": 124,
+      "4061_entries": []
+    },
+    "and": {
+      "url": "http://na.jvav.net.cn/res/and/ss_and.mani",
+      "manifest_sha256": "da56b4fae95887c8f3d1e32ab6708df82176c8f5f032175812049a311712757b",
+      "headers": [
+        "$RES_VER:2611122202",
+        "$CLIENT_VER:2.0.0",
+        "$CLIENT_VER_COMP_MODE:TARGET",
+        "$GAME_VER:2.1.0",
+        "$CLEAR_EXPIRED_FILES:1"
+      ],
+      "entry_count": 124,
+      "4061_entries": []
+    },
+    "ios": {
+      "url": "http://na.jvav.net.cn/res/ios/ss_ios.mani",
+      "manifest_sha256": "aa6caaffdb6dc1e1fac33c025d069b396caae20dc24423c893848c124834f1e2",
+      "headers": [
+        "$RES_VER:2611122152",
+        "$CLIENT_VER:2.0.0",
+        "$CLIENT_VER_COMP_MODE:TARGET",
+        "$GAME_VER:2.1.0",
+        "$CLEAR_EXPIRED_FILES:1"
+      ],
+      "entry_count": 124,
+      "4061_entries": []
+    }
+  },
+  "outfit_4061": {
+    "name": "睡前童话",
+    "listed_in_current_server_manifests": false,
+    "obscuration_is_baked_into": [
+      "4061_B",
+      "4061_actor"
+    ],
+    "no_replacement_source_verified": true
+  },
+  "resource_direction_correction": {
+    "reverted_commit": "9cd8338",
+    "revert_commit": "eebe6d8",
+    "reason": "Different decoded pixels do not establish which texture is the desired version; patch assets must not be assumed to be unobscured versions"
+  },
+  "limitations": [
+    "Static evidence is tied to the listed binaries, not all channels/builds",
+    "No rooted device or live runtime loading was tested",
+    "No game files were modified"
+  ],
+  "tools_and_sources": [
+    "https://github.com/patchminormajor/StellaSoraMetadataDecryptor",
+    "https://github.com/Perfare/Il2CppDumper",
+    "https://docs.unity3d.com/2022.3/Documentation/ScriptReference/Application-persistentDataPath.html"
+  ]
+}
