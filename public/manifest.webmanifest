@@ -6,7 +6,6 @@
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
-  "display_override": ["fullscreen", "standalone"],
   "background_color": "#182d55",
   "theme_color": "#182d55",
   "categories": ["music", "entertainment"],
