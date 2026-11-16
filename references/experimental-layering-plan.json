@@ -22,8 +22,11 @@
       "outfit_id": 214047,
       "name": "信笺乘风而去",
       "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4047.png",
-      "layers": 5,
-      "caption": "An anime illustration of three girls around a circular wooden table with a map, envelopes and a lantern in a bright cozy room. An orange-haired girl in a red outfit is on the left, a dark-haired girl with goggles stands behind the table, and a blue-haired girl in a blue witch hat sits on the right. Letters and loose sheets of paper fly across the foreground. A sunny window, plants, chairs and a bed form the room. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+      "layers": 6,
+      "caption": "An anime illustration of three girls around a circular wooden table with a map, envelopes and a lantern in a bright cozy room. An orange-haired girl in a red outfit is on the left, a dark-haired girl with goggles stands behind the table, and a blue-haired girl in a blue witch hat sits on the right. Letters and loose sheets of paper fly across the foreground. A sunny window, plants, chairs and a bed form the room. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes. Decompose this illustration into six independent semantic groups: (1) the loose paper sheets floating at the top and bottom; (2) the complete person on the left side; (3) the complete person on the right side; (4) the central table; (5) the complete person above the table; (6) the remaining background. Each person appears only once in a single layer, with the head, hair, body, clothing and all limbs kept together. The background contains no duplicate people or ghost silhouettes. Keep the upper person separate from the central table, and both side characters separate from the table and from each other. Preserve the original scene, shapes and positions.",
+      "seed": 20261122,
+      "priority": 95,
+      "minimum_layers": 2
     },
     {
       "code": "4008",
@@ -38,8 +41,11 @@
       "outfit_id": 214007,
       "name": "午夜，堕天使",
       "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4007.png",
-      "layers": 4,
-      "caption": "A dramatic dark blue anime illustration of a girl surrounded by flowing fabric, fantasy ornaments and yellow flowers. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+      "layers": 3,
+      "caption": "A dramatic dark blue anime illustration of a girl surrounded by flowing fabric, fantasy ornaments and yellow flowers. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes. Keep the entire character in ONE complete foreground layer, including all hair above her head and both legs extending to the lower right. Her upper hair, head, neck, body, clothing, limbs and lower-right legs are continuous parts of the same person and belong together in the same foreground plane. Do not place the upper hair or lower-right legs in another layer. Keep the complete intact person separate from the background.",
+      "minimum_layers": 2,
+      "seed": 20261121,
+      "priority": 100
     },
     {
       "code": "4046",
@@ -54,8 +60,11 @@
       "outfit_id": 214016,
       "name": "春日纪事",
       "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4016.png",
-      "layers": 4,
-      "caption": "An anime illustration of a silver-haired woman sitting on a grassy slope beneath pink flowering cherry trees, stretching her arms behind her head. She wears a white outfit with a brown corset and long dark blue ribbons. Long silver hair and ribbons flow across the image. The low angle view looks up at blue sky, cherry blossoms, pale tree trunks and pink petals. White daisies, yellow flowers, grass and a sword cross the foreground. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+      "layers": 3,
+      "caption": "An anime illustration of a silver-haired woman sitting on a grassy slope beneath pink flowering cherry trees, stretching her arms behind her head. She wears a white outfit with a brown corset and long dark blue ribbons. Long silver hair and ribbons flow across the image. The low angle view looks up at blue sky, cherry blossoms, pale tree trunks and pink petals. White daisies, yellow flowers, grass and a sword cross the foreground. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes. Keep the character, both floating ribbons at the left and right sides, and the entire bottom ground together in ONE complete connected foreground layer. These objects share the same foreground plane and must not separate from each other during parallax motion. The person, both ribbons, and the bottom ground form a single foreground group in front of the separate background. Preserve the full original composition and all continuous limbs, clothing and ribbons.",
+      "seed": 20261120,
+      "priority": 105,
+      "minimum_layers": 2
     },
     {
       "code": "4027",
@@ -70,8 +79,11 @@
       "outfit_id": 214044,
       "name": "罗帷春染岁朝新",
       "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4044.png",
-      "layers": 4,
-      "caption": "An anime illustration in a warmly illuminated room with paper lanterns, a table, decorations and a person beside the furniture. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+      "layers": 5,
+      "caption": "An anime illustration of one short orange-haired woman wearing a white embroidered qipao, seated on a bed in the lower foreground and holding a purple syringe. She is an intact continuous subject, including her face, hair, hands, body and clothing. The bedding and pillows across the bottom form a solid foreground bed. Behind her are large peach-colored translucent silk curtains with dark silhouettes, warm sunlight, and wooden curtain rails above. The rear curtains form a continuous separate surface behind the woman and bed. A purple IV bottle hangs high at the right on a metal stand. A small wooden birdcage sits at the lower left, and glass ornaments hang near the ceiling. Preserve the original pose, clothing, composition, lighting and colors. The whole woman and the foreground bed are clearly separated from the rear curtains.",
+      "seed": 20261118,
+      "priority": 90,
+      "minimum_layers": 2
     },
     {
       "code": "4042",
@@ -102,10 +114,11 @@
       "outfit_id": 214004,
       "name": "仙踪良梦",
       "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4004.png",
-      "layers": 4,
-      "caption": "An anime illustration of a single tightly connected group of three girls resting together on green grass beneath a garden pergola. In the middle, a silver-haired woman in an elaborate black fantasy outfit is seated. A dark blue-haired girl sleeps against her lap on the left. A long blonde-haired girl lies across the lower right, resting her head against the same group. The three figures overlap and touch as one complete foreground group, with continuous bodies, hair, hands and clothing. Behind the group is a separate garden setting of grass, tiny white flowers and shaded foliage. Purple wisteria hangs from the upper left. A tea table with cups, cakes and flowers appears at the lower left, and a wicker basket of purple flowers is at the right. Preserve the original composition, crop, characters, costumes and colors. Keep all three girls together in front of the garden.",
-      "seed": 20261117,
-      "priority": true
+      "layers": 3,
+      "caption": "An anime illustration showing three complete girls resting together as a single connected foreground group in a garden. The whole group is one continuous foreground object: a silver-haired woman in black sits in the center; a dark blue-haired girl sleeps against her lap at the left; a blonde girl reclines across the lower right, with her entire head, face, neck, hair, torso and legs physically connected in the same foreground group. All three heads and bodies remain intact and attached, with no cut through the blonde girl's neck or face. The blonde girl's head is at the center-right where she leans against the seated woman. The garden grass and shaded foliage behind them form a separate background without duplicate people. Purple wisteria hangs at the upper left. A tea table with cups and cakes stands at the lower left, and a wicker flower basket is at the right. Preserve the full original image composition and all original character details. Separate the complete group of three girls from the garden background, rather than separating body parts.",
+      "seed": 20261119,
+      "priority": 110,
+      "minimum_layers": 2
     },
     {
       "code": "4005",
@@ -137,7 +150,19 @@
       "name": "鹿鸣",
       "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4015.png",
       "layers": 4,
-      "caption": "An anime illustration of girls relaxing outdoors beneath leafy trees, with flowers, summer clothing and dappled sunshine. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+      "caption": "An anime illustration of girls relaxing outdoors beneath leafy trees, with flowers, summer clothing and dappled sunshine. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes.",
+      "layer_order": [
+        "layer-00.png",
+        "layer-03.png",
+        "layer-01.png",
+        "layer-02.png"
+      ],
+      "layer_order_hashes": {
+        "layer-00.png": "34015758d7086eb3fca0972d431fd4d1b52131dabb9c20720532a73bbe36cb99",
+        "layer-01.png": "e19e0550457177d5cb28db70dfd96a3d29bac159ddf0073f8f26ef883019dc85",
+        "layer-02.png": "a05b8fc436070567eb9031cdd4df76fac62c16006c8c2e4811062dbf5762eef6",
+        "layer-03.png": "1958a9a3cb1a9694518ded086ecea6d655fe5aa4fbe0e7062ef2f72d5b9fcec3"
+      }
     },
     {
       "code": "4040",

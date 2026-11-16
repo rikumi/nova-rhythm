@@ -2,7 +2,7 @@
 
 Normal artwork is unchanged. Add `experimental_layering=1` to opt into generated layers; the option is retained when navigating between tracks. Only static outfits are eligible. Native game layers, covers, downloads and Open Graph images retain their original sources.
 
-The optional manifest is `public/data/experimental-layering.json`. If it is unavailable, or an outfit has no complete 4–10-layer entry, the original artwork is used. All generated layers share a full image canvas, including transparent margins. The renderer keeps their registration in normal and fullscreen views.
+The optional manifest is `public/data/experimental-layering.json`. If it is unavailable, or an outfit has no complete 2–10-layer entry, the original artwork is used. All generated layers share a full image canvas, including transparent margins. The renderer keeps their registration in normal and fullscreen views.
 
 ## Model and local runtime
 
@@ -20,9 +20,9 @@ The runtime interpreter is `.build/layering-trial/venv/Scripts/python.exe`. Inst
 
 ## Plan and execution
 
-`references/experimental-layering-plan.json` lists the static outfits, original artwork URLs, captions and requested layer counts. Captions are manual or AI annotations and can be edited. Most images request four layers to favor intact semantic objects; crowded scenes request five or six. The supported range is four to ten. The approved first sample is retained.
+`references/experimental-layering-plan.json` lists the static outfits, original artwork URLs, captions and requested layer counts. Captions are manual or AI annotations and can be edited. Most images request four layers to favor intact semantic objects; crowded scenes request five or six. The default range is four to ten. Reviewed corrections can set `minimum_layers: 2` to prioritize intact objects over layer count.
 
-An item can specify `seed` to override the shared random seed and `priority: true` to place a pending regeneration ahead of other work. Changing its caption, seed or requested layer count invalidates only that item's cached result on the next run.
+An item can specify `seed` to override the shared random seed and a numeric `priority` (larger values run first) to place a pending regeneration ahead of other work. Changing its caption, seed or requested layer count invalidates only that item's cached result at the next image checkpoint, without interrupting the current image.
 
 Generate a fresh plan only when intentionally replacing its annotations:
 
@@ -36,7 +36,7 @@ Start or resume inference:
 .venv/Scripts/python.exe scripts/layering/run_batch.py
 ```
 
-Progress, model logs and result fingerprints are saved under `.build/layering-trial/batch`. Each completed outfit has its own original PNG, inference input, workflow, generated PNG layers, reconstructed image and result JSON. Completed inputs are skipped after checking their source and output hashes. Failed cases retain error records. The worker retries with another seed or one additional layer when it cannot obtain four nonempty outputs.
+Progress, model logs and result fingerprints are saved under `.build/layering-trial/batch`. Each completed outfit has its own original PNG, inference input, workflow, generated PNG layers, reconstructed image and result JSON. Completed inputs are skipped after checking their source and output hashes. Failed cases retain error records. The worker retries with another seed or one additional layer when it cannot obtain the required nonempty outputs.
 
 The worker temporarily prevents automatic system sleep while it runs; the setting ends with the process. A stopped process can be restarted with the same command. An interrupted image restarts from its first diffusion step.
 
@@ -46,7 +46,11 @@ Vite serves completed local results through an ignored `local-overrides.json` ma
 http://127.0.0.1:5174/?disc=214016&experimental_layering=1#/outfit
 ```
 
-Refresh the page after another image completes. Removing the parameter restores the original artwork.
+Refresh the page after another image completes. The AI layering toggle appears only for single-image outfits, between phonograph mode and the gravity control. It defaults to off and persists its state locally. `experimental_layering=1` also enables it; `experimental_layering=0` disables it explicitly. Disabling the toggle restores the original artwork. Native multilayer outfits are never replaced.
+
+All multilayer cards use the same depth span: 90% of the original native cards' average projected depth span. Relative spacing within each card is preserved. The native catalog remains the baseline even when AI layering is enabled.
+
+Review decisions are recorded in `references/experimental-layering-reviews.json`, pinned to layer hashes. A regenerated image needs a new review. An optional `layer_order` in the plan changes only drawing order; `layer_order_hashes` prevents applying a reviewed reorder to different generated images.
 
 ## Publication
 

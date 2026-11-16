@@ -1,0 +1,257 @@
+{
+  "schemaVersion": 1,
+  "items": {
+    "4003": {
+      "status": "accepted",
+      "name": "你与我相似",
+      "source_sha256": "0bd54513aae0f0cfc118c4047306d9b1d7adbfbb12655e4b6c0fdd794d203bc7",
+      "layer_hashes": {
+        "layer-00.png": "54a18241db831f79cbd82766c113a6152e41ae525542029a4bcce04fe34b1d60",
+        "layer-01.png": "45c0ab148d51a5591b2fdf085739ba374cad2b413509d85fdbbb542b1b783510",
+        "layer-02.png": "2f8914bebe3504431db4ab35ede528c44da082ab6a85ca22d85f5a75e0e3caf6",
+        "layer-03.png": "887df0426c5bbff89be886594868eb40e7079cc25830b806d51535494951feb8",
+        "layer-04.png": "378bfba418f6ccfa54dac8f7400e4746682afed5fa1e7c477938b82d64daff4b"
+      },
+      "reviewed_at": "2026-11-16T22:32:47.962356+00:00",
+      "reviewed_by": "user"
+    },
+    "4047": {
+      "status": "revision_requested",
+      "name": "信笺乘风而去",
+      "source_sha256": "724cb2729c4aebb0d2b9ee38517ef7a0f892266e46703a91aba3c2e4b528e696",
+      "layer_hashes": {
+        "layer-00.png": "54491e176b979dcead1464e8b16dc2322ece790e004ff5ef35341946330b161f",
+        "layer-01.png": "6b7fdec06f9bb3e6b4fbaeb898afa300b7350612c42a611337637097be310498",
+        "layer-02.png": "9f67d5bc84bcb52ebcaf4da589987cc4a6d07316e8f904dcfe32c171ff0377e8",
+        "layer-03.png": "34736b4e5696ce4d90dbeda5e044a200410434fc944a03bddd9aed3fd937a8cd",
+        "layer-04.png": "1b7a062d66a75304c28188ca5c116ba232f64579858803a20327eed7d9afd764"
+      },
+      "reviewed_at": "2026-11-16T22:32:47.962823+00:00",
+      "reviewed_by": "user",
+      "previous_status": "accepted",
+      "seed": 20261122,
+      "reason": "Separate floating papers, left person, right person, central table, upper person and background; each person occurs in one layer only."
+    },
+    "4008": {
+      "status": "accepted",
+      "name": "飞越青空",
+      "source_sha256": "76d9892f8a488c9262edf4666aa7bab1964b4b3fa7321c7267f2956412758323",
+      "layer_hashes": {
+        "layer-00.png": "f41f6e39f186bc2df7309b8345a883b5b48519385494adf4fe154d7cebeecf19",
+        "layer-01.png": "1da803d042ee4784463cda2804fc7a804ce217073df0214f035cfd78df443c93",
+        "layer-02.png": "41705c97fbbd65736ead3d1e38b59f78f23a41745dcccc5dd319644c1ca4db13",
+        "layer-03.png": "5ae753c1b8c43f17afd525fb87cd4198ce0f9b053df0ba112689439fc0fe026a",
+        "layer-04.png": "4b9ede8cba068ed7f31cd5eb49425eb241b1801d7fab0eabb7682843aa3a168e"
+      },
+      "reviewed_at": "2026-11-16T22:32:47.963262+00:00",
+      "reviewed_by": "user"
+    },
+    "4007": {
+      "status": "revision_requested",
+      "name": "午夜，堕天使",
+      "source_sha256": "73ad06543c60731632419b025bc0c4faddf5bb03ba0e0735fdfa0fb931f309f2",
+      "layer_hashes": {
+        "layer-00.png": "e490a7897c4e6cc67b9f747ebe8aee470b859658e3d3ca4ee7705702368adcee",
+        "layer-01.png": "0263286c8f145131e878951e64b36460c05a967101842bc10013cd410b1ea87f",
+        "layer-02.png": "495b813511edcb08124ca1c8e6602b8658a4f452b8d431a3c6cf370b67aa7250",
+        "layer-03.png": "c24bc76746db1ceea1c4f31fa35c55f75dcb1aa113af454ec0cfa21c622f4bcc"
+      },
+      "reviewed_at": "2026-11-16T22:32:47.963678+00:00",
+      "reviewed_by": "user",
+      "previous_status": "accepted",
+      "seed": 20261121,
+      "reason": "Keep the upper hair and lower-right legs in the same complete layer as the character."
+    },
+    "4046": {
+      "status": "accepted",
+      "name": "冬夜后的黎明",
+      "source_sha256": "a3315c9442ef5802006be1200c937b42a18ab1822d98790f305c2bf058f60ce5",
+      "layer_hashes": {
+        "layer-00.png": "0230a5826f92ede17076a973b24d9195b7792ace145f630a541084df5d0499aa",
+        "layer-01.png": "59538811857fd48b35a75deea5ff7dd8f1271e17cc5ce39564304318f48cf8d8",
+        "layer-02.png": "b2ace5b46d3d1bac4c3d27fe8140027b8a2e37b0f0623b5dc1e339920882a294",
+        "layer-03.png": "f4a43cdb8df228487e117aac9d20cf8a0afb4ac9a2be2c90a8d0636a83f2a9b9"
+      },
+      "reviewed_at": "2026-11-16T22:32:47.964076+00:00",
+      "reviewed_by": "user"
+    },
+    "4016": {
+      "status": "revision_requested",
+      "name": "春日纪事",
+      "source_sha256": "c8d24fa68a3efb7e6e50b19f76af5e75502d9b390d8d49e783f81f48fadf22f2",
+      "layer_hashes": {
+        "layer-00.png": "5062ea73c303c2b64e01834589bee8dcb7b099dfeeb82a715813249882dbcfc2",
+        "layer-01.png": "5d4d8083f01856c28653132a17bf4aee1a79fa38afddfb5590c1ffa321358b62",
+        "layer-02.png": "d87c5702849bda0f8b6bf088d41d9e7c666a05f1c46d81af6fac8358fc94a39b",
+        "layer-03.png": "b994cfd970efca445b7f1a711a4c6d31151f47d436ed549dae0ba6571111114d"
+      },
+      "reviewed_at": "2026-11-16T22:32:47.964390+00:00",
+      "reviewed_by": "user",
+      "previous_status": "accepted",
+      "seed": 20261120,
+      "reason": "Keep the character, ribbons on both sides, and bottom ground together in one foreground layer."
+    },
+    "4027": {
+      "status": "accepted",
+      "name": "龙飞凤舞",
+      "source_sha256": "ef993b56b0db8ed460002b2edae3f861ed567cf6f7f777e0887dcf27fadacb7b",
+      "layer_hashes": {
+        "layer-00.png": "95c35047322fbdfbb163236f9fcdff342ea5712213598602621bf3d7c75cf981",
+        "layer-01.png": "54e80fc132401bd116b48f4098bf9519ec9b626a8e0e82d5ba0a461528ceb6ba",
+        "layer-02.png": "14aa6295ed6983f4c22791d8b465be3d2fd6d4ed197b0044b1f5bd85b8ba3ea6",
+        "layer-03.png": "26e78e7643821b1c7acdb11db158dd726647a984e3877121a0faaed74380f166"
+      },
+      "reviewed_at": "2026-11-16T22:32:47.964784+00:00",
+      "reviewed_by": "user"
+    },
+    "4044": {
+      "status": "revision_requested",
+      "name": "罗帷春染岁朝新",
+      "source_sha256": "f09a21178c6be32fe16deca78ab92ff93cfeacf47fd19b47483bdfde9ede6730",
+      "layer_hashes": {
+        "layer-00.png": "9d82a6d278751b798b1e3b85b58cc44753f1e5d6f9bad90cbec97cd0c832e5e8",
+        "layer-01.png": "cb90c49f1fabe1cc8d42dd6c978da79b3db4329bcb1e1734e7a5a234bc77aeb3",
+        "layer-02.png": "90968b4461e70ab1424eeffc58aa0ad48a5cf4c6c4e614634cbdcaf55a0d28fc",
+        "layer-03.png": "550055d3fd784790d95680555da2224845311242d7a7aa387645ea87271d775b"
+      },
+      "reviewed_at": "2026-11-16T22:32:47.965169+00:00",
+      "reviewed_by": "user",
+      "previous_status": "accepted",
+      "reason": "Separate the woman and foreground bed from the rear curtains."
+    },
+    "4042": {
+      "status": "accepted",
+      "name": "酒暖灯明时",
+      "source_sha256": "cf47b0d1384f413322c4fd7a1784f192ce66c0f0fdd0b07c1f2d1ce884f152d1",
+      "layer_hashes": {
+        "layer-00.png": "52e402539e7bf6dd702caac2cc1d509d0d71bee5eb0696455d05bf03bd498ffb",
+        "layer-01.png": "830b53c0eea5d70520083abdbd2689c51b7a796c71be7c0dc75a345540e25737",
+        "layer-02.png": "d8966d82d9f2c85ee6a51dc24e1d9aa705a5b4eac00ffff9e12ee7f0b25a4095",
+        "layer-03.png": "0118bd659fe74b95ff7bb55cc85e15034b2e9b31adbcf87db4bc08c879a2abfc"
+      },
+      "reviewed_at": "2026-11-16T22:32:47.965552+00:00",
+      "reviewed_by": "user"
+    },
+    "4006": {
+      "status": "accepted",
+      "name": "魔女的秋千",
+      "source_sha256": "635fbcfd2a4e2d011972e2a4339918144a969d9d6732c550768a7dca7f82e549",
+      "layer_hashes": {
+        "layer-00.png": "96541ccf6622761c363b2824a27028fd45a356fa32c494417fbb256322ad6c63",
+        "layer-01.png": "a9e4163a05a181f772f446de181a9b0d3fce513dc10f955a3bc4e0691521d3a7",
+        "layer-02.png": "610e126e4e80cc511b645ab86dbebc39ef0d874c58316b2baea8811558315c5e",
+        "layer-03.png": "071f5151cbe038a3ec46b563e1ba0b686d8d0529dd7f419f7328cb909121d686",
+        "layer-04.png": "838e3f74c4efc11e23b8e72998ef17fb2f073d968cabc6385905fcf8ccea6e39"
+      },
+      "reviewed_at": "2026-11-16T22:32:47.965926+00:00",
+      "reviewed_by": "user"
+    },
+    "4043": {
+      "status": "accepted",
+      "name": "革新的萌芽",
+      "source_sha256": "76ad24b272b69173f61e30ce94174d326d44f5f03b3a04e9a6517e2c1ee62e20",
+      "layer_hashes": {
+        "layer-00.png": "3685823dcb659b4ba88c115c49dd08c6f7533e5778246a06c50b8ca0197a89eb",
+        "layer-01.png": "bc76d32593fa3e8ebe1fd84d8472b3f633623098617f46f0d512a60c53e04c16",
+        "layer-02.png": "b80e338bcfafb5f4e6bfe6bca5806f935e25515d6ab198944b9078f311660510",
+        "layer-03.png": "230f7105d4650925db42ec6995909fd9813c59f61b7f497462ed47383c9231c6"
+      },
+      "reviewed_at": "2026-11-16T22:32:47.966324+00:00",
+      "reviewed_by": "user"
+    },
+    "4005": {
+      "status": "accepted",
+      "name": "晴之花",
+      "source_sha256": "2ceeaec86503531a47c0afd1ae1b920919cdb6d219b35588b4a33b01a162bbdb",
+      "layer_hashes": {
+        "layer-00.png": "9676875947f826e1f0109ddcf43f98f218fa5a7cf560fab4e16c26b179fc64d9",
+        "layer-01.png": "5378f7036df6d535a3ee55ca1172cd98d285657a2379883b36a553ca42f92dbf",
+        "layer-02.png": "ccbad9a60a285c6af350b12f49eec10f43b6aad2cd395fca4777a17d7d5b751b",
+        "layer-03.png": "818f00390c4941cc1a76e3adc70b4b5efa2e277ad68d1fa3b1181c3b55ecaf6e"
+      },
+      "reviewed_at": "2026-11-16T22:32:47.966736+00:00",
+      "reviewed_by": "user"
+    },
+    "4048": {
+      "status": "accepted",
+      "name": "雪夜惊喜",
+      "source_sha256": "c7f10690ada7ed5918694e28ac6bd078e21fd2d58dc88d9fbc9dce07c29944c2",
+      "layer_hashes": {
+        "layer-00.png": "1de4c8e00c402255f2f1af8cca5c9635afed776468b8ea6ad1e94739813937e9",
+        "layer-01.png": "5ac750fd7d4646c763e7a62c44deed78be385c9db571da91f7d8321ad3d84442",
+        "layer-02.png": "ed78442184a10cd3d3c168cdf7b93aa12ed0175e292a72b5219c291e3c5549c0",
+        "layer-03.png": "c6d3426777f6b65139f36effa0d588c58cd13adfc555c0133cb5538f9d9430b0",
+        "layer-04.png": "00bfcd65ee923844614a1ced54577aed556d891559b9610075ecdff13f9e575b",
+        "layer-05.png": "7b9e736eabbdc513e1db04f5bfe09029fc6be63390492f4645587b80a00bb681"
+      },
+      "reviewed_at": "2026-11-16T22:32:47.967189+00:00",
+      "reviewed_by": "user"
+    },
+    "4024": {
+      "status": "accepted",
+      "name": "一二三，跳！",
+      "source_sha256": "d72629ebb5fd95f746d35eb59e9680144ee24ca999f2d3af56b9a36ae2bcdc78",
+      "layer_hashes": {
+        "layer-00.png": "4132743c927c47fa183e7e1fa2b2d4d1660b422874e2edb3ff7e08a753586f73",
+        "layer-01.png": "ffbc93a83e751e3bc02f51a832bab954bbfb5ba7f511a5f3e7a5e18be8998c5b",
+        "layer-02.png": "dff33ab0f7ce56af3d32bde0fab7f6aaafc3762aa57892fc0ea93636b32e1281",
+        "layer-03.png": "f8ece9678d59d2597a81aa033b6fe4880c16f5dd338252479bfbb8b1d68f28d9",
+        "layer-04.png": "f2c9a1d20617949ecb0ad591de31ef8af656bb88e9b55e4a437c521ac82cc4e6"
+      },
+      "reviewed_at": "2026-11-16T22:32:47.967980+00:00",
+      "reviewed_by": "user"
+    },
+    "4015": {
+      "status": "accepted",
+      "name": "鹿鸣",
+      "source_sha256": "7f5d75240a7c0b3f787a9591f9a72030b3650d6cf0723ebd83bf48ef09e23e47",
+      "layer_hashes": {
+        "layer-00.png": "34015758d7086eb3fca0972d431fd4d1b52131dabb9c20720532a73bbe36cb99",
+        "layer-01.png": "e19e0550457177d5cb28db70dfd96a3d29bac159ddf0073f8f26ef883019dc85",
+        "layer-02.png": "a05b8fc436070567eb9031cdd4df76fac62c16006c8c2e4811062dbf5762eef6",
+        "layer-03.png": "1958a9a3cb1a9694518ded086ecea6d655fe5aa4fbe0e7062ef2f72d5b9fcec3"
+      },
+      "reviewed_at": "2026-11-16T22:32:47.968281+00:00",
+      "reviewed_by": "user",
+      "approved_layer_order": [
+        "layer-00.png",
+        "layer-03.png",
+        "layer-01.png",
+        "layer-02.png"
+      ],
+      "note": "Move both deer layers above the people without changing image pixels."
+    },
+    "4040": {
+      "status": "accepted",
+      "name": "勇气之拳",
+      "source_sha256": "16bbd05f04c57800c3aefabc32f0c22d51c58862cce5ec7bea83b28eb2194fdb",
+      "layer_hashes": {
+        "layer-00.png": "df2a6ad4c5f047f1f3f1de97420b99941506c9334d1d7571dab41b75969df14c",
+        "layer-01.png": "16a21c5bd7084202233f2c3d72ce6d228b4fa1ad50ad13130a3d8d611e828b9e",
+        "layer-02.png": "9e462fb55963ef5db8e1a5d35ae3448db76c0d0dbe2af1126e92b8cf7bbff813",
+        "layer-03.png": "2e36197a31e1155c986e3c297e9739df4405eddb7277d9d3932ff6a8dcb59284"
+      },
+      "reviewed_at": "2026-11-16T22:32:47.968746+00:00",
+      "reviewed_by": "user"
+    },
+    "4017": {
+      "status": "accepted",
+      "name": "花火",
+      "source_sha256": "af4e670ae8e8a7e14f5f0a3dda76c76c0ab457188f55174abf7f5c17d72c0b54",
+      "layer_hashes": {
+        "layer-00.png": "c2ee676ac05d5aae0afe7e47ab80fb04ee9f12aa892be0e1ecc564e8051741d8",
+        "layer-01.png": "4e15f3ef094e23bba60e1c304603a2eda7256832c7b56df555de87281d47f8b8",
+        "layer-02.png": "78b9996548e19ad53ddbaa235bbac90c5c6f36f6ef6afec3789a61dd21c262f9",
+        "layer-03.png": "f35a1aa55ef5be0d97049e22150c6a549b79701bf31c3f239a8a19c26dab5ab8"
+      },
+      "reviewed_at": "2026-11-16T22:32:47.969187+00:00",
+      "reviewed_by": "user"
+    },
+    "4004": {
+      "status": "revision_requested",
+      "name": "仙踪良梦",
+      "reason": "Seed 20261117 severed the lower-right character at the neck. Regenerate with complete connected heads and bodies, keeping the three people together.",
+      "seed": 20261119
+    }
+  }
+}

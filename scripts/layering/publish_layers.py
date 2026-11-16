@@ -7,7 +7,7 @@ import subprocess
 import time
 from pathlib import Path
 
-from run_batch import ROOT,card_for_result,digest,write
+from run_batch import ROOT,card_for_result,digest,write,read,review_for_result
 
 def publish(batch):
     from PIL import Image
@@ -24,7 +24,9 @@ def publish(batch):
         result=subprocess.run([gh,*map(str,arguments)],cwd=ROOT,text=True,encoding='utf8',capture_output=True)
         if check and result.returncode:raise RuntimeError(result.stderr)
         return result
-    assets=[];cards={};details={}
+    assets=[];cards={};details={};reviews={}
+    review_file=ROOT/'references/experimental-layering-reviews.json'
+    requested_reviews=read(review_file).get('items',{}) if review_file.exists() else {}
     for item in batch.plan['items']:
         code=item['code'];result=batch.completed[code]
         card=card_for_result(code,result,'')
@@ -42,8 +44,9 @@ def publish(batch):
             assets.append({'path':str(target),'name':target.name,'sha256':sha,'size':target.stat().st_size})
         cards[code]=card
         details[code]={key:value for key,value in result.items() if key not in ('history','folder')}
+        reviews[code]=review_for_result(result,requested_reviews.get(code))
     manifest={'schemaVersion':1,'model':'Qwen-Image-Layered','releaseUrl':f'https://github.com/{repository}/releases/tag/{tag}',
-              'generatedAt':datetime.datetime.now(datetime.timezone.utc).isoformat(),'outfits':cards}
+              'generatedAt':datetime.datetime.now(datetime.timezone.utc).isoformat(),'outfits':cards,'reviews':reviews}
     write(output/'experimental-layering.json',manifest)
     write(output/'generation-results.json',{'schemaVersion':1,'settings':batch.plan,'results':details})
     for name in ['experimental-layering.json','generation-results.json']:
@@ -51,7 +54,7 @@ def publish(batch):
     write(batch.batch/'release-assets.json',assets)
     notes=batch.batch/'release-notes.txt'
     notes.write_text('Qwen-Image-Layered semantic artwork decomposition experiment.\n\n'
-        f'{len(cards)} static outfits, 4–10 nonempty RGBA layers per outfit. '
+        f'{len(cards)} static outfits, 2–10 nonempty RGBA layers per outfit (normally at least four). '
         'PNG outputs are encoded as lossless WebP and verified pixel-for-pixel. '
         'Original artwork is preserved in the artwork release.\n\n'
         'The website enables these assets only with experimental_layering=1. '

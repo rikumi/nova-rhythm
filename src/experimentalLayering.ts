@@ -6,20 +6,19 @@ export interface ExperimentalLayeringManifest {
   outfits: Record<string, Outfit['card']>;
 }
 
-export async function loadOutfits(href: string, fetcher: typeof fetch = fetch): Promise<OutfitCatalog> {
+export async function loadOutfits(_href: string, fetcher: typeof fetch = fetch): Promise<OutfitCatalog> {
   const response = await fetcher('/data/outfits.json');
   if (!response.ok) throw new Error('秘纹档案暂时无法读取');
-  const catalog = await response.json() as OutfitCatalog;
-  if (new URL(href).searchParams.get('experimental_layering') !== '1') return catalog;
+  return await response.json() as OutfitCatalog;
+}
+
+export async function loadGeneratedCards(fetcher: typeof fetch = fetch): Promise<Record<string,Outfit['card']>> {
   try {
     const layeredResponse = await fetcher('/data/experimental-layering.json');
-    if (!layeredResponse.ok) return catalog;
+    if (!layeredResponse.ok) return {};
     const manifest = await layeredResponse.json() as ExperimentalLayeringManifest;
-    if (manifest.schemaVersion !== 1 || !manifest.outfits) return catalog;
-    return { ...catalog, items: catalog.items.map(outfit => {
-      const card = manifest.outfits[outfit.code];
-      if (outfit.card.layers.length || card?.layout !== 'canvas' || !Array.isArray(card.layers) || card.layers.length < 4 || card.layers.length > 10) return outfit;
-      return { ...outfit, card: { ...outfit.card, ...card } };
-    }) };
-  } catch { return catalog; }
+    if (manifest.schemaVersion !== 1 || !manifest.outfits) return {};
+    return Object.fromEntries(Object.entries(manifest.outfits).filter(([,card])=>
+      card?.layout === 'canvas' && Array.isArray(card.layers) && card.layers.length >= 2 && card.layers.length <= 10));
+  } catch { return {}; }
 }

@@ -12,7 +12,8 @@ import { MODE_LABELS, nextPlaybackMode, nextQueueIndex } from './playbackMode';
 import { musicTitleParts } from './musicTitle';
 import { ScrollingText } from './ScrollingText';
 import { OutlinedName } from './OutlinedName';
-import { loadOutfits } from './experimentalLayering';
+import { loadOutfits, loadGeneratedCards } from './experimentalLayering';
+import { CARD_CONTENT_SCALE, backgroundLayer, normalizedDepths, normalizedDepthTarget } from './parallaxDepth';
 import { applyInfinityTowerMixer } from './infinitytowerMixer';
 import { musicIdFromPath, musicPage, musicPath, musicUrl, outfitMusicPage, registerMusicPages, storyMusicPage, updateMusicPageMetadata } from './musicRoutes';
 import './style.css';
@@ -22,7 +23,6 @@ import './canvasCard.css';
 import './pwa';
 
 const ELEMENTS = ['无', '水', '火', '风', '地', '光', '暗', '无'];
-const CARD_CONTENT_SCALE = .88;
 const time = (value: number) => `${Math.floor(value / 60)}:${Math.floor(value % 60).toString().padStart(2, '0')}`;
 const melodyTime = (value: number) => { const seconds = Math.floor(value); return seconds >= 60 ? `${Math.floor(seconds / 60)} 分钟 ${seconds % 60} 秒` : `${seconds} 秒`; };
 function readStorage<T,>(key: string, fallback: T): T { try { return JSON.parse(localStorage.getItem(key) || 'null') ?? fallback; } catch { return fallback; } }
@@ -82,18 +82,18 @@ function SensorControl({ full = false }: { full?: boolean }) {
   if (!sensor.mobile || !sensor.supported) return null;
   const enabled = sensor.status === 'enabled';
   return <>
-    <button aria-label={enabled ? '关闭重力感应' : '开启重力感应'} title={enabled ? '关闭重力感应' : '开启重力感应'} aria-pressed={enabled} disabled={sensor.status === 'requesting'} onClick={() => { if (enabled) deviceTilt.disable(); else void deviceTilt.enable(); }} style={full && enabled ? { color: '#7ff6ed' } : undefined}>
-      {full ? <Smartphone size={21} /> : sensor.status === 'requesting' ? '授权中' : sensor.status === 'denied' ? '重试感应' : '重力感应'}
+    <button className="capsule-toggle" aria-label={enabled ? '关闭重力感应' : '开启重力感应'} title={enabled ? '关闭重力感应' : '开启重力感应'} aria-pressed={enabled} disabled={sensor.status === 'requesting'} onClick={() => { if (enabled) deviceTilt.disable(); else void deviceTilt.enable(); }} style={full && enabled ? { color: '#7ff6ed' } : undefined}>
+      <span className="capsule-checkbox" aria-hidden="true" />{full ? <Smartphone size={21} /> : sensor.status === 'requesting' ? '授权中' : sensor.status === 'denied' ? '重试感应' : '重力感应'}
     </button>
     {sensor.error && <span role="status" style={full ? { position: 'fixed', top: 80, right: 20, maxWidth: 'calc(100vw - 40px)', fontSize: 12, padding: '8px 12px', background: '#142440e6' } : { flexBasis: '100%', textAlign: 'center', fontSize: 12 }}>{sensor.error}</span>}
   </>;
 }
 
-function FullscreenArtwork({ outfit, close }: { outfit: Outfit; close: () => void }) {
+function FullscreenArtwork({ outfit, close, depthSpan }: { outfit: Outfit; close: () => void; depthSpan: number }) {
   const ref = useRef<HTMLDialogElement>(null);
   useEffect(() => { ref.current?.showModal(); }, []);
   return <dialog ref={ref} className="fullscreen-artwork" aria-label={`${outfit.name}全屏差分`} onCancel={e => { e.preventDefault(); close(); }}>
-    <Card outfit={outfit} full />
+    <Card outfit={outfit} full depthSpan={depthSpan} />
     <div className="fullscreen-artwork-actions"><SensorControl full /><a href={outfit.staticImage} download={`秘纹-${outfit.name}.png`} aria-label="保存秘纹静态图"><Download size={22} /></a><button aria-label="关闭全屏" onClick={close}><X size={25} /></button></div>
   </dialog>;
 }
@@ -111,13 +111,14 @@ function CardLayer({ src, style, background, index, visible, onReady, onReveal, 
   return <div className={`card-layer-stage ${visible ? 'is-loaded' : ''}`} onAnimationStart={event=>{if(event.target===event.currentTarget && event.animationName==='card-layer-arrive')onReveal(index);}}><img ref={ref} className={flat ? 'flat-cover' : 'card-layer'} data-background={background} src={src} alt="" style={style} draggable={false} /></div>;
 }
 
-function Card({ outfit, full = false, onExpand }: { outfit: Outfit; full?: boolean; onExpand?: () => void }) {
+function Card({ outfit, full = false, onExpand, depthSpan = 2.05 }: { outfit: Outfit; full?: boolean; onExpand?: () => void; depthSpan?: number }) {
   const ref = useRef<HTMLDivElement>(null);
   const lightRef = useRef<HTMLDivElement>(null);
   const target = useRef({ x: 0, y: 0, active: false });
   const dragPointer = useRef<number | null>(null);
   const reduced = useRef(false);
   const total = outfit.card.layers.length || 1;
+  const depths = useMemo(() => normalizedDepths(outfit.card, depthSpan), [outfit.card, depthSpan]);
   // The Unity camera faces positive Z: greater native Z is farther away.
   const revealOrder=useMemo(()=>outfit.card.layers.length
     ? outfit.card.layers.map((layer,index)=>({index,z:layer.native_z ?? 0})).sort((a,b)=>b.z-a.z || a.index-b.index).map(layer=>layer.index)
@@ -190,19 +191,26 @@ function Card({ outfit, full = false, onExpand }: { outfit: Outfit; full?: boole
   };
   const base = outfit.card.mask_size || 712;
   const motion = outfit.card.motion || { rotation_x: 3, rotation_y: -8 };
+  const aspect = outfit.card.layers.length ? outfit.card.layers[0].width / outfit.card.layers[0].height : 1;
+  const sinX = Math.sin(motion.rotation_x * Math.PI / 180), sinY = Math.sin(motion.rotation_y * Math.PI / 180);
+  const maxDepth = Math.max(0, ...depths.map(Math.abs));
+  const canvasScale = Math.max(1.06, 1 + 2 * maxDepth * Math.abs(sinX) + .04, (1 + 2 * maxDepth * Math.abs(sinY) + .04) / aspect);
+  const canvasUnit = `min(100dvh, ${100/aspect}dvw)`;
   return <div ref={ref} className={`live-card ${full ? 'full-card' : ''} ${outfit.card.layout === 'canvas' ? 'canvas-card' : ''}`} style={{ '--tilt-x': `${-motion.rotation_x}deg`, '--tilt-y': `${-motion.rotation_y}deg` } as CSSProperties} onPointerDown={beginDrag} onPointerMove={move} onPointerUp={endDrag} onPointerCancel={endDrag} onLostPointerCapture={endDrag} onPointerLeave={() => { if(dragPointer.current===null)target.current = { x: 0, y: 0, active: false }; hideLight(); }}>
     <div className={`card-frame rarity-${outfit.rarity}`}>
       <div className="card-backdrop-tint" aria-hidden="true" />
       <div className="card-glint" />
-      <div className="card-window" data-content-scale={CARD_CONTENT_SCALE}>
+      <div className="card-window" data-content-scale={CARD_CONTENT_SCALE} data-depth-span={depthSpan.toFixed(6)}>
         {outfit.card.layers.length ? outfit.card.layers.map((layer, i) => {
-          const background = i === 0 || /(?:^|_)(?:bg|background)(?:\d|_|$)/i.test(layer.name);
+          const background = backgroundLayer(layer, i);
           const fit = background ? 1 : CARD_CONTENT_SCALE;
-          const projectedZ = (layer.native_z || 0) * (layer.projection_factor || 1);
+          const projectedZ = depths[i] * base / fit;
           const style = outfit.card.layout === 'canvas' ? {
-            left: '-5%', top: '-5%', width: '110%', height: '110%',
-            objectFit: full ? 'contain' : 'cover',
-            transform: `translate(calc(var(--mx) * ${-(total-i)/total*4}%),calc(var(--my) * ${(total-i)/total*2.8}%))`,
+            left: full ? `calc(50% + var(--mx) * ${depths[i]*sinY} * ${canvasUnit})` : `calc(50% + var(--mx) * ${depths[i]*sinY*100}%)`,
+            top: full ? `calc(50% - var(--my) * ${depths[i]*sinX} * ${canvasUnit})` : `calc(50% - var(--my) * ${depths[i]*sinX*100}%)`,
+            width: full ? `calc(${aspect*canvasScale} * ${canvasUnit})` : 'auto',
+            height: full ? `calc(${canvasScale} * ${canvasUnit})` : `${canvasScale*100}%`,
+            transform: 'translate(-50%, -50%)',
             '--layer-opacity': layer.opacity,
           } as CSSProperties : {
             left: full ? `calc(50% + ${layer.x / base * 100 * fit}dvh)` : `${50 + layer.x / base * 100 * fit}%`,
@@ -267,6 +275,12 @@ function ArchiveApp({ active, onBack, fromStory = false }: { active: boolean; on
   const [showCollection, setShowCollection] = useState(false);
   const [showStory, setShowStory] = useState(false);
   const [full, setFull] = useState(false);
+  const [aiEnabled, setAiEnabled] = useState<boolean>(() => {
+    const query = new URLSearchParams(location.search);
+    return query.has('experimental_layering') ? query.get('experimental_layering') === '1' : readStorage('nova-ai-layering', false);
+  });
+  const [generatedCards, setGeneratedCards] = useState<Record<string, Outfit['card']>>({});
+  const [aiLoading, setAiLoading] = useState(false);
   const [artworkMode, setArtworkMode] = useState<'difference' | 'phonograph'>(() => readStorage<string>('nova-artwork-mode', 'difference') === 'phonograph' ? 'phonograph' : 'difference');
   const [query, setQuery] = useState('');
   const [filter, setFilter] = useState('all');
@@ -276,6 +290,9 @@ function ArchiveApp({ active, onBack, fromStory = false }: { active: boolean; on
   const [toast, setToast] = useState('');
   const playback = useSyncExternalStore(player.subscribe, player.snapshot);
   const chosen = items.find(o => o.id === selectedId) || items[0];
+  const depthSpan = useMemo(() => normalizedDepthTarget(items), [items]);
+  const generatedCard = chosen && chosen.card.layers.length <= 1 ? generatedCards[chosen.code] : undefined;
+  const artworkOutfit = useMemo(() => chosen && aiEnabled && generatedCard ? { ...chosen, card: { ...chosen.card, ...generatedCard } } : chosen, [chosen, aiEnabled, generatedCard]);
   const selectedIndex = chosen ? items.indexOf(chosen) : 0;
   const currentMusic = chosen?.music[melody] || chosen?.music[0];
   const favorite = chosen && favorites.includes(chosen.id);
@@ -300,6 +317,17 @@ function ArchiveApp({ active, onBack, fromStory = false }: { active: boolean; on
   useEffect(() => { deviceTilt.setViewing(sensorViewing); return () => deviceTilt.setViewing(false); }, [sensorViewing]);
   const sound = (name: string) => { if (soundEnabled) void player.sound(name); };
   const notify = (message: string) => { setToast(message); if (timer.current) clearTimeout(timer.current); timer.current = setTimeout(() => setToast(''), 2400); };
+  useEffect(() => {
+    writeStorage('nova-ai-layering', aiEnabled);
+    const url = new URL(location.href);
+    if (aiEnabled) url.searchParams.set('experimental_layering', '1'); else url.searchParams.delete('experimental_layering');
+    if (url.href !== location.href) history.replaceState(history.state, '', url);
+    if (!aiEnabled) { setAiLoading(false); return; }
+    let disposed = false;
+    setAiLoading(true);
+    void loadGeneratedCards().then(cards => { if (!disposed) setGeneratedCards(cards); }).finally(() => { if (!disposed) setAiLoading(false); });
+    return () => { disposed = true; };
+  }, [aiEnabled]);
   const copyPageLink=async()=>{
     if(!chosen || !currentMusic)return;
     const url=musicUrl(location.href,currentMusic.id);
@@ -360,8 +388,8 @@ function ArchiveApp({ active, onBack, fromStory = false }: { active: boolean; on
     <main className="main-stage">
       <div className="archive-scene scene-enter" key={chosen.id}>
         <section className={`archive-artwork mode-${artworkMode}`} aria-label={`${chosen.name}专辑展示`}>
-          <div className="artwork-mode-switch" role="group" aria-label="专辑展示模式" style={{ flexWrap: 'wrap' }}><button aria-pressed={artworkMode === 'difference'} onClick={() => { sound('ui_outfit_button_tap'); setArtworkMode('difference'); }}><Expand size={16} />差分</button><button aria-pressed={artworkMode === 'phonograph'} onClick={() => { sound('ui_outfit_button_tap'); setArtworkMode('phonograph'); }}><Disc3 size={17} />唱机</button>{artworkMode === 'difference' && <SensorControl />}</div>
-          <div className="archive-cover-wrap"><div className="card-aura" />{artworkMode === 'difference' ? <Card key={`${chosen.id}-${active}`} outfit={chosen} onExpand={() => { sound('ui_common_click_select'); setFull(true); }} /> : <Phonograph outfit={chosen} playing={playback.playing} onExpand={() => { sound('ui_common_click_select'); setFull(true); }} />}</div>
+          <div className="artwork-mode-switch" role="group" aria-label="专辑展示模式" style={{ flexWrap: 'wrap' }}><button aria-pressed={artworkMode === 'difference'} onClick={() => { sound('ui_outfit_button_tap'); setArtworkMode('difference'); }}><Expand size={16} />差分</button><button aria-pressed={artworkMode === 'phonograph'} onClick={() => { sound('ui_outfit_button_tap'); setArtworkMode('phonograph'); }}><Disc3 size={17} />唱机</button>{chosen.card.layers.length <= 1 && <button className="capsule-toggle ai-layer-toggle" aria-pressed={aiEnabled} aria-busy={aiLoading} onClick={() => { sound('ui_outfit_button_tap'); setAiEnabled(value => !value); }}><span className="capsule-checkbox" aria-hidden="true" />AI 生成差分</button>}{artworkMode === 'difference' && <SensorControl />}</div>
+          <div className="archive-cover-wrap"><div className="card-aura" />{artworkMode === 'difference' ? <Card key={`${chosen.id}-${active}-${aiEnabled && generatedCard ? 'ai' : 'original'}`} outfit={artworkOutfit!} depthSpan={depthSpan} onExpand={() => { sound('ui_common_click_select'); setFull(true); }} /> : <Phonograph outfit={chosen} playing={playback.playing} onExpand={() => { sound('ui_common_click_select'); setFull(true); }} />}</div>
         </section>
         <aside className="archive-panel">
           <section className="native-archive-sheet" aria-label="秘纹档案">
@@ -388,7 +416,7 @@ function ArchiveApp({ active, onBack, fromStory = false }: { active: boolean; on
 
     {showCollection && <Modal title="秘纹一览" close={() => { sound('ui_common_back'); setShowCollection(false); }} className="collection-modal"><div className="collection-tools"><label className="search-box"><Search size={18} /><input autoFocus value={query} onChange={e => setQuery(e.target.value)} placeholder="搜索秘纹、旅人或标签" aria-label="搜索秘纹" />{query && <button aria-label="清除搜索" onClick={() => setQuery('')}><X size={14} /></button>}</label><span>{filtered.length} / {items.length}</span></div><div className="collection-filters"><button className={filter === 'all' ? 'active' : ''} onClick={() => setFilter('all')}>全部</button><button className={filter === 'favorites' ? 'active' : ''} onClick={() => setFilter('favorites')}><Heart size={13} />珍藏</button>{[1, 2, 3, 4, 5, 6, 7].map(element => <button className={filter === String(element) ? 'active' : ''} key={element} onClick={() => setFilter(String(element))}>{ELEMENTS[element]}</button>)}</div><div className="collection-grid">{filtered.map((item, i) => <React.Fragment key={item.id}>{(i === 0 || filtered[i - 1].activity.id !== item.activity.id || filtered[i - 1].activity.date !== item.activity.date) && <div className="collection-activity"><span>{item.activity.name}</span><small>{item.activity.date ? item.activity.date.slice(0, 10).replaceAll("-", ".") : "常驻"}</small></div>}<button className={`collection-item ${chosen.id === item.id ? 'selected' : ''}`} onClick={() => select(item)}><div className={`collection-image rarity-${item.rarity}`}><img src={item.thumbnail} alt="" loading="lazy" /><span className="collection-stars">{'★'.repeat(item.rarity)}</span>{favorites.includes(item.id) && <Heart className="collection-heart" size={13} fill="currentColor" />}{chosen.id === item.id && <span className="selected-check"><Check size={16} /></span>}</div><strong>{item.name}</strong><small>出镜旅人：{item.characters.filter(Boolean).join(' / ') || '未知'}</small></button></React.Fragment>)}{!filtered.length && <div className="empty-collection"><Search size={28} /><p>{filter === 'favorites' ? '还没有找到珍藏的秘纹' : '没有找到这枚秘纹'}</p><button onClick={() => { setQuery(''); setFilter('all'); }}>查看全部秘纹</button></div>}</div></Modal>}
     {showStory && <Modal title={chosen.storyTitle || chosen.name} close={() => setShowStory(false)} className="story-modal"><article className="full-story"><RichText text={chosen.story || chosen.literary} /></article><div className="story-ending">✦</div></Modal>}
-    {full && <FullscreenArtwork outfit={chosen} close={() => setFull(false)} />}
+    {full && <FullscreenArtwork outfit={artworkOutfit!} depthSpan={depthSpan} close={() => setFull(false)} />}
   </div>;
 }
 

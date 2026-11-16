@@ -22,6 +22,24 @@ def write(path,value):
 def digest(path):
     with Path(path).open('rb') as stream:return hashlib.file_digest(stream,'sha256').hexdigest()
 
+def apply_layer_order(result,item):
+    requested=item.get('layer_order')
+    if not requested and 'generated_layer_order' not in result:return result
+    by_name={layer['file']:layer for layer in result['layers']}
+    original=result.get('generated_layer_order',[layer['file'] for layer in result['layers']])
+    ordered=original
+    hashes=item.get('layer_order_hashes',{})
+    if requested and set(requested)==set(by_name) and all(by_name.get(name,{}).get('sha256')==sha for name,sha in hashes.items()):ordered=requested
+    return {**result,'generated_layer_order':original,'layers':[by_name[name] for name in ordered],
+            'render_layer_order':ordered}
+
+def review_for_result(result,review):
+    if not review:return {'status':'needs_review'}
+    if review.get('status')=='accepted':
+        current={layer['file']:layer['sha256'] for layer in result['layers']}
+        if review.get('layer_hashes')!=current:return {**review,'status':'needs_review','previous_status':'accepted'}
+    return review
+
 def card_for_result(code,result,prefix):
     layers=[];count=len(result['layers']);width,height=result['input_size']
     for i,layer in enumerate(result['layers']):
@@ -125,7 +143,7 @@ class Batch:
             recorded=read(legacy).get('input_hashes',{}).get(item['code']) if legacy.exists() else None
         if recorded!=source_hash or result.get('model')!='Qwen-Image-Layered':return None
         if result.get('plan_fingerprint') and result['plan_fingerprint']!=self.fingerprint(item):return None
-        if result.get('steps')!=self.plan['steps'] or not 4<=len(result.get('layers',[]))<=10:return None
+        if result.get('steps')!=self.plan['steps'] or not item.get('minimum_layers',4)<=len(result.get('layers',[]))<=10:return None
         for layer in result['layers']:
             file=folder/layer['file']
             if not file.exists() or layer.get('sha256')!=digest(file):return None
@@ -135,7 +153,7 @@ class Batch:
             result['plan_fingerprint']=self.fingerprint(item)
             result['source_sha256']=source_hash
             write(path,result)
-        return result
+        return apply_layer_order(result,item)
 
     def encode_captions(self,items):
         embeddings=self.comfy/'models/embeddings';embeddings.mkdir(exist_ok=True)
@@ -191,7 +209,8 @@ class Batch:
             if int((alpha>8).sum())<16:continue
             images.append(image)
             entries.append({'file':target.name,'size':list(image.size),'mode':'RGBA','sha256':digest(target),'visible_fraction':round(float((alpha>8).mean()),6)})
-        if not 4<=len(entries)<=10:raise RuntimeError('Output does not contain 4–10 nonempty RGBA layers')
+        minimum=item.get('minimum_layers',4)
+        if not minimum<=len(entries)<=10:raise RuntimeError(f'Output does not contain {minimum}–10 nonempty RGBA layers')
         source=Image.open(folder/'input.png').convert('RGB')
         def composite(sequence):
             result=Image.new('RGBA',size)
@@ -204,6 +223,7 @@ class Batch:
         result={**item,'model':'Qwen-Image-Layered','quantization':self.plan['quantization'],'source_sha256':source_hash,'plan_fingerprint':self.fingerprint(item),
             'seed':seed,'steps':self.plan['steps'],'cfg':self.plan['cfg'],'requested_layers':layers,'input_size':size,
             'layers':entries,'layer_order':'back-to-front','elapsed_seconds':round(elapsed,1),'composite_mae_255':round(error(merged),3)}
+        result=apply_layer_order(result,item)
         write(folder/'result.json',result)
         return result
 
@@ -211,6 +231,9 @@ class Batch:
         overrides={code:card_for_result(code,result,f'/__layering-trial/{code}/') for code,result in self.completed.items()}
         write(self.runtime/'local-overrides.json',overrides)
         write(self.batch/'results.json',self.completed)
+        path=ROOT/'references/experimental-layering-reviews.json'
+        reviews=read(path).get('items',{}) if path.exists() else {}
+        write(self.batch/'reviews.json',{code:review_for_result(result,reviews.get(code)) for code,result in self.completed.items()})
 
     def run(self):
         from PIL import Image
@@ -219,16 +242,38 @@ class Batch:
             self.phase='sources';self.status()
             with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
                 hashes=dict(pool.map(self.prepare_source,self.plan['items']))
-            remaining=[]
             for item in self.plan['items']:
                 result=self.valid_result(item,hashes[item['code']])
                 if result:self.completed[item['code']]=result
-                else:remaining.append(item)
-            remaining.sort(key=lambda item:not item.get('priority',False))
-            self.update_local();self.encode_captions(remaining)
-            if remaining:self.start_server('sampling')
-            for case_index,item in enumerate(remaining):
-                code=item['code'];self.current={'code':code,'name':item['name']};self.status()
+            failed_fingerprints={};case_index=0
+            while True:
+                # Pick up review-driven edits only at image checkpoints, preserving current work.
+                for attempt in range(30):
+                    try:self.plan=read(self.args.plan);break
+                    except (OSError,ValueError):
+                        if attempt==29:raise
+                        time.sleep(1)
+                active_codes={item['code'] for item in self.plan['items']}
+                self.completed={code:result for code,result in self.completed.items() if code in active_codes}
+                remaining=[]
+                for item in self.plan['items']:
+                    code=item['code'];fingerprint=self.fingerprint(item)
+                    if code not in hashes:_,hashes[code]=self.prepare_source(item)
+                    if code in self.completed and self.completed[code].get('plan_fingerprint')!=fingerprint:self.completed.pop(code)
+                    if code in self.completed:
+                        self.completed[code]=apply_layer_order(self.completed[code],item)
+                        continue
+                    if code in self.failures and failed_fingerprints.get(code)==fingerprint:continue
+                    self.failures.pop(code,None)
+                    cached=self.valid_result(item,hashes[code])
+                    if cached:self.completed[code]=cached
+                    else:remaining.append(item)
+                self.update_local()
+                if not remaining:break
+                remaining.sort(key=lambda item:-int(item.get('priority',0)))
+                self.encode_captions(remaining)
+                if self.server is None or self.server.poll() is not None:self.start_server('sampling')
+                item=remaining[0];code=item['code'];self.current={'code':code,'name':item['name']};self.status()
                 folder=self.runtime/code
                 image=Image.open(folder/'original.png').convert('RGB');width,height=image.size
                 scale=self.plan['maximum_dimension']/max(width,height)
@@ -246,8 +291,11 @@ class Batch:
                     except Exception:
                         write(folder/f'error-attempt-{attempt}.json',{'traceback':traceback.format_exc()})
                         self.stop_server()
-                        if attempt==2:self.failures[code]='Failed after three attempts; see per-case error files'
-                if (case_index+1)%4==0:self.stop_server()
+                        if attempt==2:
+                            self.failures[code]='Failed after three attempts; see per-case error files'
+                            failed_fingerprints[code]=self.fingerprint(item)
+                case_index+=1
+                if case_index%4==0:self.stop_server()
             self.stop_server();self.current=None
             if self.failures:raise RuntimeError('Some cases failed; publication withheld until all cases pass')
             self.phase='inference-complete';self.status()
