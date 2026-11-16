@@ -11,7 +11,7 @@ body{background:#182d55 url('/ui/bg_outfit_02.png') center/cover fixed no-repeat
 .card-backdrop-tint{position:absolute;inset:0;pointer-events:none;background:rgb(40 50 61 / 40%)}
 .full-card .card-frame{box-shadow:none}
 .live-card .card-window{background:transparent}
-.card-light{background:radial-gradient(circle at var(--light-x,50%) var(--light-y,50%),rgb(255 255 255 / 10%),rgb(255 255 255 / 4%) 24%,transparent 58%);opacity:var(--light-active,0);transition:opacity .25s ease}
+.card-light{background:radial-gradient(circle at var(--light-x,50%) var(--light-y,50%),rgb(255 255 255 / 20%),rgb(255 255 255 / 14%) 24%,transparent 88%);opacity:var(--light-active,0);transition:opacity .25s ease}
 .card-layer-stage{position:absolute;inset:0;pointer-events:none;transform-origin:50% 50%;opacity:0}
 .card-layer-stage.is-loaded{opacity:1;animation:card-layer-arrive .65s cubic-bezier(.2,.75,.25,1) backwards}
 .card-loading-toast{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);display:flex;align-items:center;gap:8px;white-space:nowrap;pointer-events:none;padding:8px 12px;border-radius:8px;background:#142440e6;color:#edf7ff;font-size:12px;z-index:25}
