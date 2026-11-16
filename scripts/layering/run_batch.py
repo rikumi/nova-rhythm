@@ -99,7 +99,7 @@ class Batch:
              'TORCH_HOME':str(self.runtime/'torch-cache'),'TORCHINDUCTOR_CACHE_DIR':str(self.runtime/'torchinductor-cache')}
         self.log=(self.batch/(phase+'.log')).open('ab')
         command=[str(self.python),'main.py','--listen','127.0.0.1','--port',str(self.args.port),
-            '--disable-auto-launch','--reserve-vram','1.0','--disable-dynamic-vram',
+            '--disable-auto-launch','--reserve-vram','0.5','--disable-dynamic-vram',
             '--disable-pinned-memory','--disable-cuda-malloc','--disable-async-offload','--offline','--disable-product-tips']
         if phase=='captions':command.append('--disable-mmap')
         self.server=subprocess.Popen(command,cwd=self.comfy,env=env,stdout=self.log,stderr=self.log,

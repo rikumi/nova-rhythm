@@ -32,5 +32,6 @@ export default defineConfig({
   }],
   base: '/',
   publicDir: process.env.NOVA_PUBLIC_DIR || 'public',
+  server: { watch: { ignored: ['**/.build/**', '**/.local/**', '**/.venv/**', '**/tools/**'] } },
   build: { sourcemap: false, outDir: process.env.NOVA_DIST_DIR || 'dist' },
 });
