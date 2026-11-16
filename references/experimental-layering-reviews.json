@@ -117,7 +117,8 @@
       "reviewed_at": "2026-11-16T22:32:47.965169+00:00",
       "reviewed_by": "user",
       "previous_status": "accepted",
-      "reason": "Separate the woman and foreground bed from the rear curtains."
+      "reason": "Seed 20261118 left a headless duplicate on the curtain layer and split the bed from the person. Retry as room, clean curtains, complete woman with bed.",
+      "seed": 20261124
     },
     "4042": {
       "status": "accepted",

@@ -79,10 +79,10 @@
       "outfit_id": 214044,
       "name": "罗帷春染岁朝新",
       "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4044.png",
-      "layers": 5,
-      "caption": "An anime illustration of one short orange-haired woman wearing a white embroidered qipao, seated on a bed in the lower foreground and holding a purple syringe. She is an intact continuous subject, including her face, hair, hands, body and clothing. The bedding and pillows across the bottom form a solid foreground bed. Behind her are large peach-colored translucent silk curtains with dark silhouettes, warm sunlight, and wooden curtain rails above. The rear curtains form a continuous separate surface behind the woman and bed. A purple IV bottle hangs high at the right on a metal stand. A small wooden birdcage sits at the lower left, and glass ornaments hang near the ceiling. Preserve the original pose, clothing, composition, lighting and colors. The whole woman and the foreground bed are clearly separated from the rear curtains.",
-      "seed": 20261118,
-      "priority": 90,
+      "layers": 3,
+      "caption": "An anime illustration in a warm peach-lit traditional bedroom. One orange-haired woman in a pale qipao sits on a large bed in the foreground, holding a slender object near her face. The entire woman and the bottom bed, its blankets, railings and nearby foreground props form one connected foreground group. Behind the woman and bed are large peach translucent silk curtains with branch shadows. The back room, wooden ceiling and walls are a separate distant background. Decompose the image into three coherent groups: the clean room background; the rear silk curtains; the complete woman together with the entire bottom bed. The woman and bed must share the same foreground layer, distinct from the curtains. The curtain layer and room background contain no woman, no headless body, no leftover face, no duplicate hair or ghost character silhouette. Keep the complete head, neck, torso, arms and legs physically connected in the foreground layer, preserving the original composition.",
+      "seed": 20261124,
+      "priority": 93,
       "minimum_layers": 2
     },
     {
