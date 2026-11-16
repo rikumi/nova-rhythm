@@ -1,0 +1,639 @@
+[
+  {
+    "group": "level",
+    "value": "None",
+    "path": "data/upstream/lua/Lua/Game/UI/BattleResult/BattleResultCtrl.lua",
+    "line": 159,
+    "context": "i_loading_combatSFX_mute\", nil, false)\n  WwiseManger:PostEvent(\"char_common_all_pause\")\n  WwiseManger:PostEvent(\"mon_common_all_pause\")\n  WwiseManger:SetState(\"level\", \"None\")\n  WwiseManger:SetState(\"combat\", \"None\")\n  local nAnimTime\n  if nResultState == resultType.Victory then\n    WwiseManger:PlaySound(\"ui_roguelike_vict"
+  },
+  {
+    "group": "combat",
+    "value": "None",
+    "path": "data/upstream/lua/Lua/Game/UI/BattleResult/BattleResultCtrl.lua",
+    "line": 160,
+    "context": " WwiseManger:PostEvent(\"char_common_all_pause\")\n  WwiseManger:PostEvent(\"mon_common_all_pause\")\n  WwiseManger:SetState(\"level\", \"None\")\n  WwiseManger:SetState(\"combat\", \"None\")\n  local nAnimTime\n  if nResultState == resultType.Victory then\n    WwiseManger:PlaySound(\"ui_roguelike_victory\")\n    WwiseManger:SetState(\"system\", "
+  },
+  {
+    "group": "system",
+    "value": "victory",
+    "path": "data/upstream/lua/Lua/Game/UI/BattleResult/BattleResultCtrl.lua",
+    "line": 164,
+    "context": "te(\"combat\", \"None\")\n  local nAnimTime\n  if nResultState == resultType.Victory then\n    WwiseManger:PlaySound(\"ui_roguelike_victory\")\n    WwiseManger:SetState(\"system\", \"victory\")\n    self._mapNode.goRoot.gameObject:SetActive(true)\n    self._mapNode.goFailed:SetActive(false)\n    self._mapNode.goComplete:SetActive(true)\n    nAn"
+  },
+  {
+    "group": "system",
+    "value": "defeat",
+    "path": "data/upstream/lua/Lua/Game/UI/BattleResult/BattleResultCtrl.lua",
+    "line": 170,
+    "context": "ect:SetActive(true)\n    self._mapNode.goFailed:SetActive(false)\n    self._mapNode.goComplete:SetActive(true)\n    nAnimTime = 4\n  else\n    WwiseManger:SetState(\"system\", \"defeat\")\n    CS.AdventureModuleHelper.PauseLogic()\n    self._mapNode.goRoot.gameObject:SetActive(false)\n    self._mapNode.imgBlurredBg.gameObject:SetActive(t"
+  },
+  {
+    "group": "level",
+    "value": "None",
+    "path": "data/upstream/lua/Lua/Game/UI/BattleResult/DailyInstanceResultCtrl.lua",
+    "line": 185,
+    "context": "i_loading_combatSFX_mute\", nil, false)\n  WwiseManger:PostEvent(\"char_common_all_pause\")\n  WwiseManger:PostEvent(\"mon_common_all_pause\")\n  WwiseManger:SetState(\"level\", \"None\")\n  WwiseManger:SetState(\"combat\", \"None\")\n  local nAnimTime\n  if nResultState == resultType.Victory then\n    self._mapNode.goRoot.gameObject:SetActiv"
+  },
+  {
+    "group": "combat",
+    "value": "None",
+    "path": "data/upstream/lua/Lua/Game/UI/BattleResult/DailyInstanceResultCtrl.lua",
+    "line": 186,
+    "context": " WwiseManger:PostEvent(\"char_common_all_pause\")\n  WwiseManger:PostEvent(\"mon_common_all_pause\")\n  WwiseManger:SetState(\"level\", \"None\")\n  WwiseManger:SetState(\"combat\", \"None\")\n  local nAnimTime\n  if nResultState == resultType.Victory then\n    self._mapNode.goRoot.gameObject:SetActive(true)\n    self._mapNode.goFailed:SetAct"
+  },
+  {
+    "group": "system",
+    "value": "victory",
+    "path": "data/upstream/lua/Lua/Game/UI/BattleResult/DailyInstanceResultCtrl.lua",
+    "line": 194,
+    "context": "gBlurredBg.gameObject:SetActive(false)\n    self._mapNode.goComplete:SetActive(true)\n    WwiseManger:PlaySound(\"ui_roguelike_victory\")\n    WwiseManger:SetState(\"system\", \"victory\")\n    nAnimTime = 4\n  else\n    WwiseManger:SetState(\"system\", \"defeat\")\n    CS.AdventureModuleHelper.PauseLogic()\n    self._mapNode.goRoot.gameObject:"
+  },
+  {
+    "group": "system",
+    "value": "defeat",
+    "path": "data/upstream/lua/Lua/Game/UI/BattleResult/DailyInstanceResultCtrl.lua",
+    "line": 197,
+    "context": "Active(true)\n    WwiseManger:PlaySound(\"ui_roguelike_victory\")\n    WwiseManger:SetState(\"system\", \"victory\")\n    nAnimTime = 4\n  else\n    WwiseManger:SetState(\"system\", \"defeat\")\n    CS.AdventureModuleHelper.PauseLogic()\n    self._mapNode.goRoot.gameObject:SetActive(false)\n    self._mapNode.imgBlurredBg.gameObject:SetActive(t"
+  },
+  {
+    "group": "level",
+    "value": "None",
+    "path": "data/upstream/lua/Lua/Game/UI/BattleResult/EquipmentInstanceResultCtrl.lua",
+    "line": 191,
+    "context": "i_loading_combatSFX_mute\", nil, false)\n  WwiseManger:PostEvent(\"char_common_all_pause\")\n  WwiseManger:PostEvent(\"mon_common_all_pause\")\n  WwiseManger:SetState(\"level\", \"None\")\n  WwiseManger:SetState(\"combat\", \"None\")\n  local nAnimTime = 0\n  if nResultState == resultType.Victory then\n    self._mapNode.goRoot.gameObject:SetA"
+  },
+  {
+    "group": "combat",
+    "value": "None",
+    "path": "data/upstream/lua/Lua/Game/UI/BattleResult/EquipmentInstanceResultCtrl.lua",
+    "line": 192,
+    "context": " WwiseManger:PostEvent(\"char_common_all_pause\")\n  WwiseManger:PostEvent(\"mon_common_all_pause\")\n  WwiseManger:SetState(\"level\", \"None\")\n  WwiseManger:SetState(\"combat\", \"None\")\n  local nAnimTime = 0\n  if nResultState == resultType.Victory then\n    self._mapNode.goRoot.gameObject:SetActive(true)\n    self._mapNode.goFailed:Se"
+  },
+  {
+    "group": "system",
+    "value": "victory",
+    "path": "data/upstream/lua/Lua/Game/UI/BattleResult/EquipmentInstanceResultCtrl.lua",
+    "line": 200,
+    "context": "gBlurredBg.gameObject:SetActive(false)\n    self._mapNode.goComplete:SetActive(true)\n    WwiseManger:PlaySound(\"ui_roguelike_victory\")\n    WwiseManger:SetState(\"system\", \"victory\")\n    nAnimTime = NovaAPI.GetAnimClipLength(self._mapNode.animComplete, {\n      \"BattleResultPanel_victory_out\"\n    })\n  else\n    WwiseManger:SetState"
+  },
+  {
+    "group": "system",
+    "value": "defeat",
+    "path": "data/upstream/lua/Lua/Game/UI/BattleResult/EquipmentInstanceResultCtrl.lua",
+    "line": 205,
+    "context": "victory\")\n    nAnimTime = NovaAPI.GetAnimClipLength(self._mapNode.animComplete, {\n      \"BattleResultPanel_victory_out\"\n    })\n  else\n    WwiseManger:SetState(\"system\", \"defeat\")\n    CS.AdventureModuleHelper.PauseLogic()\n    self._mapNode.goRoot.gameObject:SetActive(false)\n    self._mapNode.imgBlurredBg.gameObject:SetActive(t"
+  },
+  {
+    "group": "level",
+    "value": "None",
+    "path": "data/upstream/lua/Lua/Game/UI/BattleResult/SkillInstanceResultCtrl.lua",
+    "line": 191,
+    "context": "i_loading_combatSFX_mute\", nil, false)\n  WwiseManger:PostEvent(\"char_common_all_pause\")\n  WwiseManger:PostEvent(\"mon_common_all_pause\")\n  WwiseManger:SetState(\"level\", \"None\")\n  WwiseManger:SetState(\"combat\", \"None\")\n  local nAnimTime\n  if nResultState == resultType.Victory then\n    self._mapNode.goRoot.gameObject:SetActiv"
+  },
+  {
+    "group": "combat",
+    "value": "None",
+    "path": "data/upstream/lua/Lua/Game/UI/BattleResult/SkillInstanceResultCtrl.lua",
+    "line": 192,
+    "context": " WwiseManger:PostEvent(\"char_common_all_pause\")\n  WwiseManger:PostEvent(\"mon_common_all_pause\")\n  WwiseManger:SetState(\"level\", \"None\")\n  WwiseManger:SetState(\"combat\", \"None\")\n  local nAnimTime\n  if nResultState == resultType.Victory then\n    self._mapNode.goRoot.gameObject:SetActive(true)\n    self._mapNode.goFailed:SetAct"
+  },
+  {
+    "group": "system",
+    "value": "victory",
+    "path": "data/upstream/lua/Lua/Game/UI/BattleResult/SkillInstanceResultCtrl.lua",
+    "line": 200,
+    "context": "gBlurredBg.gameObject:SetActive(false)\n    self._mapNode.goComplete:SetActive(true)\n    WwiseManger:PlaySound(\"ui_roguelike_victory\")\n    WwiseManger:SetState(\"system\", \"victory\")\n    nAnimTime = NovaAPI.GetAnimClipLength(self._mapNode.animComplete, {\n      \"BattleResultPanel_victory_out\"\n    })\n  else\n    WwiseManger:SetState"
+  },
+  {
+    "group": "system",
+    "value": "defeat",
+    "path": "data/upstream/lua/Lua/Game/UI/BattleResult/SkillInstanceResultCtrl.lua",
+    "line": 205,
+    "context": "victory\")\n    nAnimTime = NovaAPI.GetAnimClipLength(self._mapNode.animComplete, {\n      \"BattleResultPanel_victory_out\"\n    })\n  else\n    WwiseManger:SetState(\"system\", \"defeat\")\n    CS.AdventureModuleHelper.PauseLogic()\n    self._mapNode.goRoot.gameObject:SetActive(false)\n    self._mapNode.imgBlurredBg.gameObject:SetActive(t"
+  },
+  {
+    "group": "level",
+    "value": "None",
+    "path": "data/upstream/lua/Lua/Game/UI/BossInstanceResult/BossInstanceResultCtrl.lua",
+    "line": 150,
+    "context": "i_loading_combatSFX_mute\", nil, false)\n  WwiseManger:PostEvent(\"char_common_all_pause\")\n  WwiseManger:PostEvent(\"mon_common_all_pause\")\n  WwiseManger:SetState(\"level\", \"None\")\n  WwiseManger:SetState(\"combat\", \"None\")\n  local nAnimTime\n  if bResultState then\n    self._mapNode.goRoot.gameObject:SetActive(true)\n    self._mapN"
+  },
+  {
+    "group": "combat",
+    "value": "None",
+    "path": "data/upstream/lua/Lua/Game/UI/BossInstanceResult/BossInstanceResultCtrl.lua",
+    "line": 151,
+    "context": " WwiseManger:PostEvent(\"char_common_all_pause\")\n  WwiseManger:PostEvent(\"mon_common_all_pause\")\n  WwiseManger:SetState(\"level\", \"None\")\n  WwiseManger:SetState(\"combat\", \"None\")\n  local nAnimTime\n  if bResultState then\n    self._mapNode.goRoot.gameObject:SetActive(true)\n    self._mapNode.goFailed:SetActive(false)\n    self._m"
+  },
+  {
+    "group": "system",
+    "value": "victory",
+    "path": "data/upstream/lua/Lua/Game/UI/BossInstanceResult/BossInstanceResultCtrl.lua",
+    "line": 159,
+    "context": "ect:SetActive(false)\n    self._mapNode.goComplete:SetActive(true)\n    CS.WwiseAudioManager.Instance:PlaySound(\"ui_roguelike_victory\")\n    WwiseManger:SetState(\"system\", \"victory\")\n    nAnimTime = 4\n  else\n    WwiseManger:SetState(\"system\", \"defeat\")\n    CS.AdventureModuleHelper.PauseLogic()\n    self._mapNode.goRoot.gameObject:"
+  },
+  {
+    "group": "system",
+    "value": "defeat",
+    "path": "data/upstream/lua/Lua/Game/UI/BossInstanceResult/BossInstanceResultCtrl.lua",
+    "line": 162,
+    "context": "S.WwiseAudioManager.Instance:PlaySound(\"ui_roguelike_victory\")\n    WwiseManger:SetState(\"system\", \"victory\")\n    nAnimTime = 4\n  else\n    WwiseManger:SetState(\"system\", \"defeat\")\n    CS.AdventureModuleHelper.PauseLogic()\n    self._mapNode.goRoot.gameObject:SetActive(false)\n    self._mapNode.imgBlurredBg.gameObject:SetActive(t"
+  },
+  {
+    "group": "Disc",
+    "value": "discMain",
+    "path": "data/upstream/lua/Lua/Game/UI/Disc/DiscMusicCtrl.lua",
+    "line": 276,
+    "context": " bShow then\n    self:PlayMusicAni()\n  end\n  if self.nMusicAIndex == 1 then\n    WwiseAudioMgr:SetState(\"outfit\", self.mapCfg.VoFile)\n    WwiseAudioMgr:SetState(\"Disc\", \"discMain\")\n    WwiseAudioMgr:SeekOnEvent(\"music_outfit\", 0)\n  else\n    WwiseAudioMgr:SetState(\"outfit\", self.mapCfg.VoFile)\n    WwiseAudioMgr:SetState(\"Disc\", "
+  },
+  {
+    "group": "Disc",
+    "value": "discVictory",
+    "path": "data/upstream/lua/Lua/Game/UI/Disc/DiscMusicCtrl.lua",
+    "line": 280,
+    "context": "Disc\", \"discMain\")\n    WwiseAudioMgr:SeekOnEvent(\"music_outfit\", 0)\n  else\n    WwiseAudioMgr:SetState(\"outfit\", self.mapCfg.VoFile)\n    WwiseAudioMgr:SetState(\"Disc\", \"discVictory\")\n    WwiseAudioMgr:SeekOnEvent(\"music_outfit\", 0)\n  end\n  self:SetTimerA()\nend\n\nfunction DiscMusicCtrl:SetTimerA()\n  if self.timerCountDownA then\n   "
+  },
+  {
+    "group": "Disc",
+    "value": "discMain",
+    "path": "data/upstream/lua/Lua/Game/UI/Disc/DiscSampleCtrl.lua",
+    "line": 411,
+    "context": "not self.bPrevDisc and bFirst then\n    WwiseAudioMgr:PostEvent(\"music_outfit_enter\")\n  end\n  WwiseAudioMgr:SetState(\"outfit\", sState)\n  WwiseAudioMgr:SetState(\"Disc\", \"discMain\")\nend\n\nfunction DiscSampleCtrl:QuitBGM()\n  if self.bPrevDisc then\n    WwiseAudioMgr:SetState(\"outfit\", WwiseAudioMgr.DiscUIBgm)\n    WwiseAudioMgr:SetS"
+  },
+  {
+    "group": "Disc",
+    "value": "discMain",
+    "path": "data/upstream/lua/Lua/Game/UI/Disc/DiscSampleCtrl.lua",
+    "line": 417,
+    "context": "ain\")\nend\n\nfunction DiscSampleCtrl:QuitBGM()\n  if self.bPrevDisc then\n    WwiseAudioMgr:SetState(\"outfit\", WwiseAudioMgr.DiscUIBgm)\n    WwiseAudioMgr:SetState(\"Disc\", \"discMain\")\n    WwiseAudioMgr:SeekOnEvent(\"music_outfit\", 0)\n  else\n    WwiseAudioMgr:StopDiscMusic()\n  end\nend\n\nfunction DiscSampleCtrl:FadeIn()\n  self._mapNod"
+  },
+  {
+    "group": "recruit_rarity",
+    "value": "diskR",
+    "path": "data/upstream/lua/Lua/Game/UI/GachaEx/GachaCtrl.lua",
+    "line": 1211,
+    "context": "lse\n    if nStorage == GameEnum.gachaStorageType.DiscCardPool or nStorage == GameEnum.gachaStorageType.DiscUpCardPool then\n      WwiseManger.Instance:SetState(\"recruit_rarity\", \"diskR\")\n    else\n      WwiseManger.Instance:SetState(\"recruit_rarity\", \"R\")\n    end\n    self:RefreshCover()\n    self:RefreshRemainGachaTimes(self.curPoolId)"
+  },
+  {
+    "group": "recruit_rarity",
+    "value": "R",
+    "path": "data/upstream/lua/Lua/Game/UI/GachaEx/GachaCtrl.lua",
+    "line": 1213,
+    "context": "e == GameEnum.gachaStorageType.DiscUpCardPool then\n      WwiseManger.Instance:SetState(\"recruit_rarity\", \"diskR\")\n    else\n      WwiseManger.Instance:SetState(\"recruit_rarity\", \"R\")\n    end\n    self:RefreshCover()\n    self:RefreshRemainGachaTimes(self.curPoolId)\n    self._mapNode.GachaShow:ShowResults(tbReward, tbGiveItems)\n    "
+  },
+  {
+    "group": "recruit_rarity",
+    "value": "None",
+    "path": "data/upstream/lua/Lua/Game/UI/GachaEx/GachaCtrl.lua",
+    "line": 1224,
+    "context": " OnShowItemEnd()\n    EventManager.Remove(\"GachaShowItemEnd\", self, OnShowItemEnd)\n    if #mapData.Cards < 10 then\n      CS.WwiseAudioManager.Instance:SetState(\"recruit_rarity\", \"None\")\n      PlayerData.Item:TryOpenFragmentsOverflow(function()\n        PlayerData.Phone:CheckNewChat()\n      end)\n      return\n    end\n    self._mapNode."
+  },
+  {
+    "group": "recruit_rarity",
+    "value": "transition",
+    "path": "data/upstream/lua/Lua/Game/UI/GachaEx/GachaCtrl.lua",
+    "line": 1247,
+    "context": " EventManager.Add(\"GachaShowItemEnd\", self, OnShowItemEnd)\n  if not self:CheckGachaVideoRes() then\n    OnShowFinish()\n  else\n    WwiseManger.Instance:SetState(\"recruit_rarity\", \"transition\")\n    if nStorage == GameEnum.gachaStorageType.DiscCardPool or nStorage == GameEnum.gachaStorageType.DiscUpCardPool then\n      local sup = math.random"
+  },
+  {
+    "group": "recruit_rarity",
+    "value": "R",
+    "path": "data/upstream/lua/Lua/Game/UI/GachaEx/GachaCtrl.lua",
+    "line": 1388,
+    "context": "yOpenSideBanner()\n  end\n  \n  local function OnShowItemEnd()\n    EventManager.Remove(\"GachaShowItemEnd\", self, OnShowItemEnd)\n    WwiseManger.Instance:SetState(\"recruit_rarity\", \"R\")\n    if #mapData.Cards < 10 then\n      CS.WwiseAudioManager.Instance:SetState(\"recruit_rarity\", \"None\")\n      PlayerData.Item:TryOpenFragmentsOverflo"
+  },
+  {
+    "group": "recruit_rarity",
+    "value": "None",
+    "path": "data/upstream/lua/Lua/Game/UI/GachaEx/GachaCtrl.lua",
+    "line": 1390,
+    "context": "d\", self, OnShowItemEnd)\n    WwiseManger.Instance:SetState(\"recruit_rarity\", \"R\")\n    if #mapData.Cards < 10 then\n      CS.WwiseAudioManager.Instance:SetState(\"recruit_rarity\", \"None\")\n      PlayerData.Item:TryOpenFragmentsOverflow(function()\n        PlayerData.Phone:CheckNewChat()\n      end)\n      return\n    end\n    self._mapNode."
+  },
+  {
+    "group": "recruit_rarity",
+    "value": "transition",
+    "path": "data/upstream/lua/Lua/Game/UI/GachaEx/GachaCtrl.lua",
+    "line": 1406,
+    "context": " EventManager.Add(\"GachaShowItemEnd\", self, OnShowItemEnd)\n  if not self:CheckGachaVideoRes() then\n    OnShowFinish()\n  else\n    WwiseManger.Instance:SetState(\"recruit_rarity\", \"transition\")\n    local sup = math.random(0, 100)\n    local nType = 3\n    if sup <= 5 then\n      nType = 0\n    elseif sup <= 10 then\n      nType = 2\n    elseif su"
+  },
+  {
+    "group": "recruit_rarity",
+    "value": "None",
+    "path": "data/upstream/lua/Lua/Game/UI/GachaEx/GachaCtrl.lua",
+    "line": 1571,
+    "context": "function OnShowItemEnd()\n    EventManager.Remove(\"GachaShowItemEnd\", self, OnShowItemEnd)\n    if #items < 10 then\n      CS.WwiseAudioManager.Instance:SetState(\"recruit_rarity\", \"None\")\n      PlayerData.Item:TryOpenFragmentsOverflow(function()\n        PlayerData.Phone:CheckNewChat()\n      end)\n      return\n    end\n    self._mapNode."
+  },
+  {
+    "group": "recruit_rarity",
+    "value": "None",
+    "path": "data/upstream/lua/Lua/Game/UI/GachaEx/GachaNewBieShowResultCtrl.lua",
+    "line": 154,
+    "context": ")\n    end\n    if self.delayTimer ~= nil then\n      self.delayTimer:Cancel(true)\n    end\n  else\n    self.gameObject:SetActive(false)\n    WwiseAudioMgr:SetState(\"recruit_rarity\", \"None\")\n    for i = 1, 10 do\n      self._mapNode.Item[i].gameObject:SetActive(false)\n    end\n    PlayerData.Item:TryOpenFragmentsOverflow(function()\n      P"
+  },
+  {
+    "group": "recruit_rarity",
+    "value": "SSR",
+    "path": "data/upstream/lua/Lua/Game/UI/GachaEx/GachaShowCtrl.lua",
+    "line": 260,
+    "context": "   self._mapNode.rtItemTips2:SetActive(false)\n  end\n  if self.bChar or mapItemCfgData.Rarity == GameEnum.itemRarity.SSR then\n    WwiseManger.Instance:SetState(\"recruit_rarity\", \"SSR\")\n  else\n    WwiseManger.Instance:SetState(\"recruit_rarity\", \"R\")\n  end\n  NovaAPI.SetTMPText(self._mapNode.TMP_Title, mapItemCfgData.Title)\n  local bg"
+  },
+  {
+    "group": "recruit_rarity",
+    "value": "R",
+    "path": "data/upstream/lua/Lua/Game/UI/GachaEx/GachaShowCtrl.lua",
+    "line": 262,
+    "context": "r or mapItemCfgData.Rarity == GameEnum.itemRarity.SSR then\n    WwiseManger.Instance:SetState(\"recruit_rarity\", \"SSR\")\n  else\n    WwiseManger.Instance:SetState(\"recruit_rarity\", \"R\")\n  end\n  NovaAPI.SetTMPText(self._mapNode.TMP_Title, mapItemCfgData.Title)\n  local bgSprite = self:LoadPngGacha(GachaShowResRoot .. \"bg_gacha_charact"
+  },
+  {
+    "group": "recruit_rarity",
+    "value": "R",
+    "path": "data/upstream/lua/Lua/Game/UI/GachaEx/GachaShowCtrl.lua",
+    "line": 476,
+    "context": "oL2D.trL2DIns ~= nil then\n        Actor2DManager.UnSetActor2DWithRender(self.goL2D)\n      end\n      self.goL2D = nil\n    end\n    WwiseManger.Instance:SetState(\"recruit_rarity\", \"R\")\n    EventManager.Hit(\"GachaShowItemEnd\")\n    NovaAPI.SetImageSpriteAsset(self._mapNode.imgBgOutfit, nil)\n    NovaAPI.SetImageSpriteAsset(self._mapNo"
+  },
+  {
+    "group": "recruit_rarity",
+    "value": "R",
+    "path": "data/upstream/lua/Lua/Game/UI/GachaEx/GachaShowCtrl.lua",
+    "line": 530,
+    "context": " if self.goL2D.trL2DIns ~= nil then\n      Actor2DManager.UnSetActor2DWithRender(self.goL2D)\n    end\n    self.goL2D = nil\n  end\n  WwiseManger.Instance:SetState(\"recruit_rarity\", \"R\")\n  EventManager.Hit(\"GachaShowItemEnd\")\n  NovaAPI.SetImageSpriteAsset(self._mapNode.imgBgOutfit, nil)\n  NovaAPI.SetImageSpriteAsset(self._mapNode.img"
+  },
+  {
+    "group": "recruit_rarity",
+    "value": "None",
+    "path": "data/upstream/lua/Lua/Game/UI/GachaEx/GachaShowResultCtrl.lua",
+    "line": 139,
+    "context": ")\n    end\n    if self.delayTimer ~= nil then\n      self.delayTimer:Cancel(true)\n    end\n  else\n    self.gameObject:SetActive(false)\n    WwiseAudioMgr:SetState(\"recruit_rarity\", \"None\")\n    for i = 1, 10 do\n      self._mapNode.Item[i].gameObject:SetActive(false)\n    end\n    PlayerData.Item:TryOpenFragmentsOverflow(function()\n      P"
+  },
+  {
+    "group": "system",
+    "value": "None",
+    "path": "data/upstream/lua/Lua/Game/UI/Login/LoginCtrl.lua",
+    "line": 598,
+    "context": "UploadFile()\n  elseif sendMsg.receiveMsgId == NetMsgId.Id.player_new_notify then\n    GameObject.Destroy(goLaunchUI)\n    CS.WwiseAudioManager.Instance:SetState(\"system\", \"None\")\n    self.gameObject:SetActive(false)\n    EventManager.Hit(EventId.OpenPanel, PanelId.CreatePlayer)\n  end\nend\n\nfunction LoginCtrl:TransStrToUrl(str)\n"
+  },
+  {
+    "group": "level",
+    "value": "None",
+    "path": "data/upstream/lua/Lua/Game/UI/RogueBossResult/RogueBossResultCtrl.lua",
+    "line": 265,
+    "context": "i_loading_combatSFX_mute\", nil, false)\n  WwiseManger:PostEvent(\"char_common_all_pause\")\n  WwiseManger:PostEvent(\"mon_common_all_pause\")\n  WwiseManger:SetState(\"level\", \"None\")\n  WwiseManger:SetState(\"combat\", \"None\")\n  local nAnimTime\n  if nResultState == 1 then\n    self._mapNode.goFailed:SetActive(false)\n    self._mapNode"
+  },
+  {
+    "group": "combat",
+    "value": "None",
+    "path": "data/upstream/lua/Lua/Game/UI/RogueBossResult/RogueBossResultCtrl.lua",
+    "line": 266,
+    "context": " WwiseManger:PostEvent(\"char_common_all_pause\")\n  WwiseManger:PostEvent(\"mon_common_all_pause\")\n  WwiseManger:SetState(\"level\", \"None\")\n  WwiseManger:SetState(\"combat\", \"None\")\n  local nAnimTime\n  if nResultState == 1 then\n    self._mapNode.goFailed:SetActive(false)\n    self._mapNode.goComplete:SetActive(true)\n    self.Resu"
+  },
+  {
+    "group": "system",
+    "value": "victory",
+    "path": "data/upstream/lua/Lua/Game/UI/RogueBossResult/RogueBossResultCtrl.lua",
+    "line": 274,
+    "context": "(true)\n    self.ResultState = 1\n    self._mapNode.goRoot.gameObject:SetActive(true)\n    WwiseManger:PlaySound(\"ui_roguelike_victory\")\n    WwiseManger:SetState(\"system\", \"victory\")\n    nAnimTime = 4\n  elseif nResultState == 2 then\n    WwiseManger:SetState(\"system\", \"defeat\")\n    CS.AdventureModuleHelper.PauseLogic()\n    self._m"
+  },
+  {
+    "group": "system",
+    "value": "defeat",
+    "path": "data/upstream/lua/Lua/Game/UI/RogueBossResult/RogueBossResultCtrl.lua",
+    "line": 277,
+    "context": "ger:PlaySound(\"ui_roguelike_victory\")\n    WwiseManger:SetState(\"system\", \"victory\")\n    nAnimTime = 4\n  elseif nResultState == 2 then\n    WwiseManger:SetState(\"system\", \"defeat\")\n    CS.AdventureModuleHelper.PauseLogic()\n    self._mapNode.imgBlurredBg:SetActive(true)\n    self._mapNode.goRoot.gameObject:SetActive(false)\n    se"
+  },
+  {
+    "group": "system",
+    "value": "victory2",
+    "path": "data/upstream/lua/Lua/Game/UI/ScoreBoss/ScoreBossResultCtrl.lua",
+    "line": 52,
+    "context": "e > 0)\n  self:SetMsg()\n  WwiseManger:PostEvent(\"ui_loading_combatSFX_mute\", nil, false)\n  WwiseManger:PlaySound(\"ui_roguelike_victory\")\n  WwiseManger:SetState(\"system\", \"victory2\")\n  PlayerData.Voice:PlayBattleResultVoice(tbChar, true)\n  self:AddTimer(1, 7.5, function()\n    for i = 1, #self._mapNode.ButtonClose do\n      self._m"
+  },
+  {
+    "group": "level",
+    "value": "None",
+    "path": "data/upstream/lua/Lua/Game/UI/StarTower/StarTowerResultCtrl.lua",
+    "line": 144,
+    "context": "ent(\"char_common_all_pause\")\n  WwiseAudioMgr:PostEvent(\"mon_common_all_pause\")\n  WwiseAudioMgr:PostEvent(\"rouguelike_outfit_resetVV\")\n  WwiseAudioMgr:SetState(\"level\", \"None\")\n  PlayerData.Voice:PlayBattleResultVoice(teamMemberid, self.bSuccess)\n  self.tbTeamMemberList = teamMemberid\n  local nAnimTime\n  if self.bSweep then"
+  },
+  {
+    "group": "system",
+    "value": "victory2",
+    "path": "data/upstream/lua/Lua/Game/UI/StarTower/StarTowerResultCtrl.lua",
+    "line": 153,
+    "context": "tAtlasSprite(self._mapNode.imgSweepResult, \"05_language\", \"zs_result_win_2\")\n      self._mapNode.UIParticle_Sweep:SetActive(true)\n      WwiseAudioMgr:SetState(\"system\", \"victory2\")\n    else\n      WwiseAudioMgr:StopDiscMusic()\n      WwiseAudioMgr:SetState(\"system\", \"defeat\")\n      self:SetAtlasSprite(self._mapNode.imgSweepResult"
+  },
+  {
+    "group": "system",
+    "value": "defeat",
+    "path": "data/upstream/lua/Lua/Game/UI/StarTower/StarTowerResultCtrl.lua",
+    "line": 156,
+    "context": ".UIParticle_Sweep:SetActive(true)\n      WwiseAudioMgr:SetState(\"system\", \"victory2\")\n    else\n      WwiseAudioMgr:StopDiscMusic()\n      WwiseAudioMgr:SetState(\"system\", \"defeat\")\n      self:SetAtlasSprite(self._mapNode.imgSweepResult, \"05_language\", \"zs_battle_result_4\")\n      self._mapNode.UIParticle_Sweep:SetActive(false)\n "
+  },
+  {
+    "group": "system",
+    "value": "victory2",
+    "path": "data/upstream/lua/Lua/Game/UI/StarTower/StarTowerResultCtrl.lua",
+    "line": 172,
+    "context": "._mapNode.goComplete:SetActive(true)\n    self._mapNode.goSweep:SetActive(false)\n    WwiseAudioMgr:PlaySound(\"ui_roguelike_victory\")\n    WwiseAudioMgr:SetState(\"system\", \"victory2\")\n    nAnimTime = 4\n  else\n    WwiseAudioMgr:StopDiscMusic()\n    WwiseAudioMgr:SetState(\"system\", \"defeat\")\n    PanelManager.InputDisable()\n    self._"
+  },
+  {
+    "group": "system",
+    "value": "defeat",
+    "path": "data/upstream/lua/Lua/Game/UI/StarTower/StarTowerResultCtrl.lua",
+    "line": 176,
+    "context": "\"ui_roguelike_victory\")\n    WwiseAudioMgr:SetState(\"system\", \"victory2\")\n    nAnimTime = 4\n  else\n    WwiseAudioMgr:StopDiscMusic()\n    WwiseAudioMgr:SetState(\"system\", \"defeat\")\n    PanelManager.InputDisable()\n    self._mapNode.imgBlurredBg:SetActive(true)\n    self._mapNode.goRoot:SetActive(false)\n    self._mapNode.goFailed:"
+  },
+  {
+    "group": "combat",
+    "value": "explore",
+    "path": "data/upstream/lua/Lua/Game/UI/StarTower/StarTowerRoomInfo.lua",
+    "line": 342,
+    "context": "~= nil and type(callback) == \"function\" then\n    callback(nTime, showFinishCall)\n  end\n  self:PlayBattleResultVoice()\n  CS.WwiseAudioManager.Instance:SetState(\"combat\", \"explore\")\nend\n\nfunction StarTowerRoomInfo:OnEvent_ShowLevelTitle(nLevel, nTotalLevel, nRoomType)\n  local function delayShowTitle()\n    self._mapNode.Title.gam"
+  },
+  {
+    "group": "level",
+    "value": "None",
+    "path": "data/upstream/lua/Lua/Game/UI/TraceHunt/TraceHuntResultCtrl.lua",
+    "line": 131,
+    "context": "Active(0 < self.nExp)\n  NovaAPI.SetTMPText(self._mapNode.txtCompleteTipsSuf, self.nExp)\nend\n\nfunction TraceHuntResultCtrl:RefreshFail()\n  WwiseManger:SetState(\"level\", \"None\")\n  WwiseManger:SetState(\"combat\", \"None\")\n  WwiseManger:SetState(\"system\", \"defeat\")\n  self._mapNode.btnDamageResult[2].gameObject:SetActive(self.tbC"
+  },
+  {
+    "group": "combat",
+    "value": "None",
+    "path": "data/upstream/lua/Lua/Game/UI/TraceHunt/TraceHuntResultCtrl.lua",
+    "line": 132,
+    "context": "xt(self._mapNode.txtCompleteTipsSuf, self.nExp)\nend\n\nfunction TraceHuntResultCtrl:RefreshFail()\n  WwiseManger:SetState(\"level\", \"None\")\n  WwiseManger:SetState(\"combat\", \"None\")\n  WwiseManger:SetState(\"system\", \"defeat\")\n  self._mapNode.btnDamageResult[2].gameObject:SetActive(self.tbCharDamage ~= nil and #self.tbCharDamage >"
+  },
+  {
+    "group": "system",
+    "value": "defeat",
+    "path": "data/upstream/lua/Lua/Game/UI/TraceHunt/TraceHuntResultCtrl.lua",
+    "line": 133,
+    "context": ".nExp)\nend\n\nfunction TraceHuntResultCtrl:RefreshFail()\n  WwiseManger:SetState(\"level\", \"None\")\n  WwiseManger:SetState(\"combat\", \"None\")\n  WwiseManger:SetState(\"system\", \"defeat\")\n  self._mapNode.btnDamageResult[2].gameObject:SetActive(self.tbCharDamage ~= nil and #self.tbCharDamage > 0)\n  local nCost = PlayerData.TraceHunt:Ge"
+  },
+  {
+    "group": "level",
+    "value": "None",
+    "path": "data/upstream/lua/Lua/Game/UI/TrekkerVersus/TDBattleResultCtrl.lua",
+    "line": 257,
+    "context": "i_loading_combatSFX_mute\", nil, false)\n  WwiseManger:PostEvent(\"char_common_all_pause\")\n  WwiseManger:PostEvent(\"mon_common_all_pause\")\n  WwiseManger:SetState(\"level\", \"None\")\n  WwiseManger:SetState(\"combat\", \"None\")\n  local nAnimTime\n  if self.nResultState == 1 then\n    self._mapNode.goRoot.gameObject:SetActive(true)\n    "
+  },
+  {
+    "group": "combat",
+    "value": "None",
+    "path": "data/upstream/lua/Lua/Game/UI/TrekkerVersus/TDBattleResultCtrl.lua",
+    "line": 258,
+    "context": " WwiseManger:PostEvent(\"char_common_all_pause\")\n  WwiseManger:PostEvent(\"mon_common_all_pause\")\n  WwiseManger:SetState(\"level\", \"None\")\n  WwiseManger:SetState(\"combat\", \"None\")\n  local nAnimTime\n  if self.nResultState == 1 then\n    self._mapNode.goRoot.gameObject:SetActive(true)\n    self._mapNode.imgBlurredBg.gameObject:Set"
+  },
+  {
+    "group": "system",
+    "value": "victory2",
+    "path": "data/upstream/lua/Lua/Game/UI/TrekkerVersus/TDBattleResultCtrl.lua",
+    "line": 266,
+    "context": "elf._mapNode.goFailed:SetActive(false)\n    self._mapNode.goComplete:SetActive(true)\n    WwiseManger:PlaySound(\"ui_roguelike_victory\")\n    WwiseManger:SetState(\"system\", \"victory2\")\n    if 0 < #tbAffixes then\n      nAnimTime = 4.2\n      self._mapNode.animatorRoot:Play(\"TravelerDuelBattleResultPanel_victory_out\")\n      self._mapN"
+  },
+  {
+    "group": "system",
+    "value": "defeat",
+    "path": "data/upstream/lua/Lua/Game/UI/TrekkerVersus/TDBattleResultCtrl.lua",
+    "line": 276,
+    "context": "     self._mapNode.imgBlack:SetActive(true)\n    else\n      nAnimTime = 4\n      self._mapNode.imgBlack:SetActive(false)\n    end\n  else\n    WwiseManger:SetState(\"system\", \"defeat\")\n    CS.AdventureModuleHelper.PauseLogic()\n    self._mapNode.goRoot.gameObject:SetActive(false)\n    self._mapNode.imgBlurredBg.gameObject:SetActive(t"
+  },
+  {
+    "group": "level",
+    "value": "None",
+    "path": "data/upstream/lua/Lua/Game/UI/TrekkerVersus_600002/TDBattleResultCtrl.lua",
+    "line": 251,
+    "context": "i_loading_combatSFX_mute\", nil, false)\n  WwiseManger:PostEvent(\"char_common_all_pause\")\n  WwiseManger:PostEvent(\"mon_common_all_pause\")\n  WwiseManger:SetState(\"level\", \"None\")\n  WwiseManger:SetState(\"combat\", \"None\")\n  local nAnimTime\n  if self.nResultState == 1 then\n    self._mapNode.goRoot.gameObject:SetActive(true)\n    "
+  },
+  {
+    "group": "combat",
+    "value": "None",
+    "path": "data/upstream/lua/Lua/Game/UI/TrekkerVersus_600002/TDBattleResultCtrl.lua",
+    "line": 252,
+    "context": " WwiseManger:PostEvent(\"char_common_all_pause\")\n  WwiseManger:PostEvent(\"mon_common_all_pause\")\n  WwiseManger:SetState(\"level\", \"None\")\n  WwiseManger:SetState(\"combat\", \"None\")\n  local nAnimTime\n  if self.nResultState == 1 then\n    self._mapNode.goRoot.gameObject:SetActive(true)\n    self._mapNode.imgBlurredBg.gameObject:Set"
+  },
+  {
+    "group": "system",
+    "value": "victory2",
+    "path": "data/upstream/lua/Lua/Game/UI/TrekkerVersus_600002/TDBattleResultCtrl.lua",
+    "line": 260,
+    "context": "elf._mapNode.goFailed:SetActive(false)\n    self._mapNode.goComplete:SetActive(true)\n    WwiseManger:PlaySound(\"ui_roguelike_victory\")\n    WwiseManger:SetState(\"system\", \"victory2\")\n    if 0 < #tbAffixes then\n      nAnimTime = 4.2\n      self._mapNode.animatorRoot:Play(\"TravelerDuelBattleResultPanel_victory_out\")\n      self._mapN"
+  },
+  {
+    "group": "system",
+    "value": "defeat",
+    "path": "data/upstream/lua/Lua/Game/UI/TrekkerVersus_600002/TDBattleResultCtrl.lua",
+    "line": 270,
+    "context": "     self._mapNode.imgBlack:SetActive(true)\n    else\n      nAnimTime = 4\n      self._mapNode.imgBlack:SetActive(false)\n    end\n  else\n    WwiseManger:SetState(\"system\", \"defeat\")\n    CS.AdventureModuleHelper.PauseLogic()\n    self._mapNode.goRoot.gameObject:SetActive(false)\n    self._mapNode.imgBlurredBg.gameObject:SetActive(t"
+  },
+  {
+    "group": "level",
+    "value": "None",
+    "path": "data/upstream/lua/Lua/Game/UI/TrekkerVersus_600003/TDBattleResultCtrl.lua",
+    "line": 251,
+    "context": "i_loading_combatSFX_mute\", nil, false)\n  WwiseManger:PostEvent(\"char_common_all_pause\")\n  WwiseManger:PostEvent(\"mon_common_all_pause\")\n  WwiseManger:SetState(\"level\", \"None\")\n  WwiseManger:SetState(\"combat\", \"None\")\n  local nAnimTime\n  if self.nResultState == 1 then\n    self._mapNode.goRoot.gameObject:SetActive(true)\n    "
+  },
+  {
+    "group": "combat",
+    "value": "None",
+    "path": "data/upstream/lua/Lua/Game/UI/TrekkerVersus_600003/TDBattleResultCtrl.lua",
+    "line": 252,
+    "context": " WwiseManger:PostEvent(\"char_common_all_pause\")\n  WwiseManger:PostEvent(\"mon_common_all_pause\")\n  WwiseManger:SetState(\"level\", \"None\")\n  WwiseManger:SetState(\"combat\", \"None\")\n  local nAnimTime\n  if self.nResultState == 1 then\n    self._mapNode.goRoot.gameObject:SetActive(true)\n    self._mapNode.imgBlurredBg.gameObject:Set"
+  },
+  {
+    "group": "system",
+    "value": "victory2",
+    "path": "data/upstream/lua/Lua/Game/UI/TrekkerVersus_600003/TDBattleResultCtrl.lua",
+    "line": 260,
+    "context": "elf._mapNode.goFailed:SetActive(false)\n    self._mapNode.goComplete:SetActive(true)\n    WwiseManger:PlaySound(\"ui_roguelike_victory\")\n    WwiseManger:SetState(\"system\", \"victory2\")\n    if 0 < #tbAffixes then\n      nAnimTime = 4.2\n      self._mapNode.animatorRoot:Play(\"TravelerDuelBattleResultPanel_victory_out\")\n      self._mapN"
+  },
+  {
+    "group": "system",
+    "value": "defeat",
+    "path": "data/upstream/lua/Lua/Game/UI/TrekkerVersus_600003/TDBattleResultCtrl.lua",
+    "line": 270,
+    "context": "     self._mapNode.imgBlack:SetActive(true)\n    else\n      nAnimTime = 4\n      self._mapNode.imgBlack:SetActive(false)\n    end\n  else\n    WwiseManger:SetState(\"system\", \"defeat\")\n    CS.AdventureModuleHelper.PauseLogic()\n    self._mapNode.goRoot.gameObject:SetActive(false)\n    self._mapNode.imgBlurredBg.gameObject:SetActive(t"
+  },
+  {
+    "group": "level",
+    "value": "None",
+    "path": "data/upstream/lua/Lua/Game/UI/TrekkerVersus_600004/TDBattleResultCtrl.lua",
+    "line": 251,
+    "context": "i_loading_combatSFX_mute\", nil, false)\n  WwiseManger:PostEvent(\"char_common_all_pause\")\n  WwiseManger:PostEvent(\"mon_common_all_pause\")\n  WwiseManger:SetState(\"level\", \"None\")\n  WwiseManger:SetState(\"combat\", \"None\")\n  local nAnimTime\n  if self.nResultState == 1 then\n    self._mapNode.goRoot.gameObject:SetActive(true)\n    "
+  },
+  {
+    "group": "combat",
+    "value": "None",
+    "path": "data/upstream/lua/Lua/Game/UI/TrekkerVersus_600004/TDBattleResultCtrl.lua",
+    "line": 252,
+    "context": " WwiseManger:PostEvent(\"char_common_all_pause\")\n  WwiseManger:PostEvent(\"mon_common_all_pause\")\n  WwiseManger:SetState(\"level\", \"None\")\n  WwiseManger:SetState(\"combat\", \"None\")\n  local nAnimTime\n  if self.nResultState == 1 then\n    self._mapNode.goRoot.gameObject:SetActive(true)\n    self._mapNode.imgBlurredBg.gameObject:Set"
+  },
+  {
+    "group": "system",
+    "value": "victory2",
+    "path": "data/upstream/lua/Lua/Game/UI/TrekkerVersus_600004/TDBattleResultCtrl.lua",
+    "line": 260,
+    "context": "elf._mapNode.goFailed:SetActive(false)\n    self._mapNode.goComplete:SetActive(true)\n    WwiseManger:PlaySound(\"ui_roguelike_victory\")\n    WwiseManger:SetState(\"system\", \"victory2\")\n    if 0 < #tbAffixes then\n      nAnimTime = 4.2\n      self._mapNode.animatorRoot:Play(\"TravelerDuelBattleResultPanel_victory_out\")\n      self._mapN"
+  },
+  {
+    "group": "system",
+    "value": "defeat",
+    "path": "data/upstream/lua/Lua/Game/UI/TrekkerVersus_600004/TDBattleResultCtrl.lua",
+    "line": 270,
+    "context": "     self._mapNode.imgBlack:SetActive(true)\n    else\n      nAnimTime = 4\n      self._mapNode.imgBlack:SetActive(false)\n    end\n  else\n    WwiseManger:SetState(\"system\", \"defeat\")\n    CS.AdventureModuleHelper.PauseLogic()\n    self._mapNode.goRoot.gameObject:SetActive(false)\n    self._mapNode.imgBlurredBg.gameObject:SetActive(t"
+  },
+  {
+    "group": "level",
+    "value": "None",
+    "path": "data/upstream/lua/Lua/Game/UI/TrialBattle/TrialResultCtrl.lua",
+    "line": 173,
+    "context": "i_loading_combatSFX_mute\", nil, false)\n  WwiseManger:PostEvent(\"char_common_all_pause\")\n  WwiseManger:PostEvent(\"mon_common_all_pause\")\n  WwiseManger:SetState(\"level\", \"None\")\n  WwiseManger:SetState(\"combat\", \"None\")\n  local nAnimTime\n  if self.bSuccess then\n    self._mapNode.goRoot.gameObject:SetActive(true)\n    self._map"
+  },
+  {
+    "group": "combat",
+    "value": "None",
+    "path": "data/upstream/lua/Lua/Game/UI/TrialBattle/TrialResultCtrl.lua",
+    "line": 174,
+    "context": " WwiseManger:PostEvent(\"char_common_all_pause\")\n  WwiseManger:PostEvent(\"mon_common_all_pause\")\n  WwiseManger:SetState(\"level\", \"None\")\n  WwiseManger:SetState(\"combat\", \"None\")\n  local nAnimTime\n  if self.bSuccess then\n    self._mapNode.goRoot.gameObject:SetActive(true)\n    self._mapNode.goFailed:SetActive(false)\n    self._"
+  },
+  {
+    "group": "system",
+    "value": "victory",
+    "path": "data/upstream/lua/Lua/Game/UI/TrialBattle/TrialResultCtrl.lua",
+    "line": 182,
+    "context": "gBlurredBg.gameObject:SetActive(false)\n    self._mapNode.goComplete:SetActive(true)\n    WwiseManger:PlaySound(\"ui_roguelike_victory\")\n    WwiseManger:SetState(\"system\", \"victory\")\n    nAnimTime = NovaAPI.GetAnimClipLength(self._mapNode.animComplete, {\n      \"BattleResultPanel_victory_out\"\n    })\n    self._mapNode.animComplete:"
+  },
+  {
+    "group": "system",
+    "value": "defeat",
+    "path": "data/upstream/lua/Lua/Game/UI/TrialBattle/TrialResultCtrl.lua",
+    "line": 191,
+    "context": "nel_victory_out\")\n    self:AddTimer(1, 3, function()\n      self._mapNode.buttonList:SetActive(true)\n    end, true, true, true)\n  else\n    WwiseManger:SetState(\"system\", \"defeat\")\n    CS.AdventureModuleHelper.PauseLogic()\n    self._mapNode.goRoot.gameObject:SetActive(false)\n    self._mapNode.imgBlurredBg.gameObject:SetActive(t"
+  },
+  {
+    "group": "level",
+    "value": "None",
+    "path": "data/upstream/lua/Lua/Game/UI/Tutorial/TutorialResultCtrl.lua",
+    "line": 124,
+    "context": "i_loading_combatSFX_mute\", nil, false)\n  WwiseManger:PostEvent(\"char_common_all_pause\")\n  WwiseManger:PostEvent(\"mon_common_all_pause\")\n  WwiseManger:SetState(\"level\", \"None\")\n  WwiseManger:SetState(\"combat\", \"None\")\n  local nAnimTime\n  if nResultState == 1 then\n    WwiseManger:PlaySound(\"ui_roguelike_victory\")\n    WwiseMa"
+  },
+  {
+    "group": "combat",
+    "value": "None",
+    "path": "data/upstream/lua/Lua/Game/UI/Tutorial/TutorialResultCtrl.lua",
+    "line": 125,
+    "context": " WwiseManger:PostEvent(\"char_common_all_pause\")\n  WwiseManger:PostEvent(\"mon_common_all_pause\")\n  WwiseManger:SetState(\"level\", \"None\")\n  WwiseManger:SetState(\"combat\", \"None\")\n  local nAnimTime\n  if nResultState == 1 then\n    WwiseManger:PlaySound(\"ui_roguelike_victory\")\n    WwiseManger:SetState(\"system\", \"victory\")\n    se"
+  },
+  {
+    "group": "system",
+    "value": "victory",
+    "path": "data/upstream/lua/Lua/Game/UI/Tutorial/TutorialResultCtrl.lua",
+    "line": 129,
+    "context": "wiseManger:SetState(\"combat\", \"None\")\n  local nAnimTime\n  if nResultState == 1 then\n    WwiseManger:PlaySound(\"ui_roguelike_victory\")\n    WwiseManger:SetState(\"system\", \"victory\")\n    self._mapNode.goRoot.gameObject:SetActive(true)\n    self._mapNode.goFailed:SetActive(false)\n    self._mapNode.goComplete:SetActive(true)\n    nAn"
+  },
+  {
+    "group": "system",
+    "value": "defeat",
+    "path": "data/upstream/lua/Lua/Game/UI/Tutorial/TutorialResultCtrl.lua",
+    "line": 135,
+    "context": "ect:SetActive(true)\n    self._mapNode.goFailed:SetActive(false)\n    self._mapNode.goComplete:SetActive(true)\n    nAnimTime = 4\n  else\n    WwiseManger:SetState(\"system\", \"defeat\")\n    CS.AdventureModuleHelper.PauseLogic()\n    self._mapNode.goRoot.gameObject:SetActive(false)\n    self._mapNode.imgBlurredBg.gameObject:SetActive(t"
+  },
+  {
+    "group": "system",
+    "value": "defeat",
+    "path": "data/upstream/lua/Lua/Game/UI/JointDrill/JointDrill_1/JointDrillResultCtrl.lua",
+    "line": 117,
+    "context": "nimClipLength(self.animRoot, {\n        \"JointDrillResult_Result\"\n      })\n      self.animRoot:Play(\"JointDrillResult_Result\", 0, 0)\n      WwiseManger:SetState(\"system\", \"defeat\")\n    else\n      nAnimTime = NovaAPI.GetAnimClipLength(self._mapNode.animComplete, {\n        \"BattleResultPanel_victory_out\"\n      })\n      self._mapN"
+  },
+  {
+    "group": "system",
+    "value": "victory2",
+    "path": "data/upstream/lua/Lua/Game/UI/JointDrill/JointDrill_1/JointDrillResultCtrl.lua",
+    "line": 123,
+    "context": "te, {\n        \"BattleResultPanel_victory_out\"\n      })\n      self._mapNode.animComplete:Play(\"BattleResultPanel_victory_out\", 0, 0)\n      WwiseManger:SetState(\"system\", \"victory2\")\n    end\n    local nMonsterId = mapLevelCfg.BossId\n    local nDiff = mapLevelCfg.Difficulty\n    local sMonsterName = PlayerData.JointDrill_1:GetMonst"
+  },
+  {
+    "group": "system",
+    "value": "defeat",
+    "path": "data/upstream/lua/Lua/Game/UI/JointDrill/JointDrill_1/JointDrillResultCtrl.lua",
+    "line": 149,
+    "context": "ode.imgNewScore.gameObject:SetActive(bNew and not self.bSimulate and self.nResultType == AllEnum.JointDrillResultType.Success)\n  else\n    WwiseManger:SetState(\"system\", \"defeat\")\n    nAnimTime = NovaAPI.GetAnimClipLength(self.animRoot, {\n      \"JointDrillResult_BattleEnd\"\n    })\n    self.animRoot:Play(\"JointDrillResult_Battle"
+  },
+  {
+    "group": "system",
+    "value": "defeat",
+    "path": "data/upstream/lua/Lua/Game/UI/JointDrill/JointDrill_2/JointDrillResultCtrl.lua",
+    "line": 127,
+    "context": "nimClipLength(self.animRoot, {\n        \"JointDrillResult_Result\"\n      })\n      self.animRoot:Play(\"JointDrillResult_Result\", 0, 0)\n      WwiseManger:SetState(\"system\", \"defeat\")\n    else\n      nAnimTime = NovaAPI.GetAnimClipLength(self._mapNode.animComplete, {\n        \"BattleResultPanel_victory_out\"\n      })\n      self._mapN"
+  },
+  {
+    "group": "system",
+    "value": "victory2",
+    "path": "data/upstream/lua/Lua/Game/UI/JointDrill/JointDrill_2/JointDrillResultCtrl.lua",
+    "line": 133,
+    "context": "te, {\n        \"BattleResultPanel_victory_out\"\n      })\n      self._mapNode.animComplete:Play(\"BattleResultPanel_victory_out\", 0, 0)\n      WwiseManger:SetState(\"system\", \"victory2\")\n    end\n    for _, v in ipairs(self._mapNode.txtMainlineName) do\n      NovaAPI.SetTMPText(v, mapLevelCfg.LevelName or \"\")\n    end\n    local bNew = f"
+  },
+  {
+    "group": "system",
+    "value": "defeat",
+    "path": "data/upstream/lua/Lua/Game/UI/JointDrill/JointDrill_2/JointDrillResultCtrl.lua",
+    "line": 155,
+    "context": "ode.imgNewScore.gameObject:SetActive(bNew and not self.bSimulate and self.nResultType == AllEnum.JointDrillResultType.Success)\n  else\n    WwiseManger:SetState(\"system\", \"defeat\")\n    nAnimTime = NovaAPI.GetAnimClipLength(self.animRoot, {\n      \"JointDrillResult_BattleEnd\"\n    })\n    self.animRoot:Play(\"JointDrillResult_Battle"
+  },
+  {
+    "group": "level",
+    "value": "None",
+    "path": "data/upstream/lua/Lua/Game/UI/ActivityTheme/LevelCommon/ActivityLevelsInstanceResultCtrl.lua",
+    "line": 177,
+    "context": "i_loading_combatSFX_mute\", nil, false)\n  WwiseManger:PostEvent(\"char_common_all_pause\")\n  WwiseManger:PostEvent(\"mon_common_all_pause\")\n  WwiseManger:SetState(\"level\", \"None\")\n  WwiseManger:SetState(\"combat\", \"None\")\n  local nAnimTime\n  if nResultState == 1 then\n    self._mapNode.goRoot.gameObject:SetActive(true)\n    self."
+  },
+  {
+    "group": "combat",
+    "value": "None",
+    "path": "data/upstream/lua/Lua/Game/UI/ActivityTheme/LevelCommon/ActivityLevelsInstanceResultCtrl.lua",
+    "line": 178,
+    "context": " WwiseManger:PostEvent(\"char_common_all_pause\")\n  WwiseManger:PostEvent(\"mon_common_all_pause\")\n  WwiseManger:SetState(\"level\", \"None\")\n  WwiseManger:SetState(\"combat\", \"None\")\n  local nAnimTime\n  if nResultState == 1 then\n    self._mapNode.goRoot.gameObject:SetActive(true)\n    self._mapNode.goFailed:SetActive(false)\n    se"
+  },
+  {
+    "group": "system",
+    "value": "victory",
+    "path": "data/upstream/lua/Lua/Game/UI/ActivityTheme/LevelCommon/ActivityLevelsInstanceResultCtrl.lua",
+    "line": 186,
+    "context": "ect:SetActive(false)\n    self._mapNode.goComplete:SetActive(true)\n    CS.WwiseAudioManager.Instance:PlaySound(\"ui_roguelike_victory\")\n    WwiseManger:SetState(\"system\", \"victory\")\n    nAnimTime = 4\n  else\n    WwiseManger:SetState(\"system\", \"defeat\")\n    CS.AdventureModuleHelper.PauseLogic()\n    self._mapNode.goRoot.gameObject:"
+  },
+  {
+    "group": "system",
+    "value": "defeat",
+    "path": "data/upstream/lua/Lua/Game/UI/ActivityTheme/LevelCommon/ActivityLevelsInstanceResultCtrl.lua",
+    "line": 189,
+    "context": "S.WwiseAudioManager.Instance:PlaySound(\"ui_roguelike_victory\")\n    WwiseManger:SetState(\"system\", \"victory\")\n    nAnimTime = 4\n  else\n    WwiseManger:SetState(\"system\", \"defeat\")\n    CS.AdventureModuleHelper.PauseLogic()\n    self._mapNode.goRoot.gameObject:SetActive(false)\n    self._mapNode.imgBlurredBg.gameObject:SetActive(t"
+  },
+  {
+    "group": "combat",
+    "value": "explore",
+    "path": "data/upstream/lua/Lua/Game/Adventure/StarTower/StarTowerLevelData.lua",
+    "line": 1987,
+    "context": "apOutfitCfg ~= nil then\n    sBGM = mapOutfitCfg.VoFile\n  end\n  if \"\" ~= sBGM then\n    WwiseAudioMgr:PostEvent(\"music_outfit_enter\")\n    WwiseAudioMgr:SetState(\"combat\", \"explore\")\n    WwiseAudioMgr:SetState(\"outfit\", sBGM)\n    self.sLastBGM = sBGM\n  elseif self.nLastRoomType == GameEnum.starTowerRoomType.ShopRoom or self.nLast"
+  },
+  {
+    "group": "combat",
+    "value": "explore",
+    "path": "data/upstream/lua/Lua/Game/Adventure/StarTower/StarTowerLevelData.lua",
+    "line": 2006,
+    "context": "d)\nend\n\nfunction StarTowerLevelData:ReplayShopBGM()\n  if self.sLastBGM ~= \"\" then\n    WwiseAudioMgr:PostEvent(\"music_outfit_enter\")\n    WwiseAudioMgr:SetState(\"combat\", \"explore\")\n    WwiseAudioMgr:SetState(\"outfit\", self.sLastBGM)\n  end\nend\n\nfunction StarTowerLevelData:CacheTempData()\n  self.mapCharacterTempData = {}\n  local "
+  },
+  {
+    "group": "combat",
+    "value": "shopIn",
+    "path": "data/upstream/lua/Lua/Game/Adventure/StarTower/StarTowerRoom/BaseRoom.lua",
+    "line": 1172,
+    "context": "hopData, nCoin, BuyCallback, nCaseId, mapRoll, self.parent.tbDisc, self.parent._mapNote, self.parent.nTowerId, self.parent.nCurLevel)\n  WwiseAudioMgr:SetState(\"combat\", \"shopIn\")\n  WwiseAudioMgr:StopDiscMusic(true, function()\n    NovaAPI.UnLoadBankByEventName(\"music_outfit_stop\")\n  end)\nend\n\nfunction BaseRoom:InteractiveStren"
+  },
+  {
+    "group": "combat",
+    "value": "explore",
+    "path": "data/upstream/lua/Lua/Game/Adventure/StarTower/StarTowerRoom/BattleRoom.lua",
+    "line": 27,
+    "context": "dScore()\n    EventManager.Hit(\"ShowStarTowerCoin\", true, nCoin, nBuildScore)\n    self:AddTimer(1, 0.1, function()\n      CS.WwiseAudioManager.Instance:SetState(\"combat\", \"explore\")\n    end, true, true, true)\n    return\n  end\n  PlayerData.Achievement:SetSpecialBattleAchievement(GameEnum.levelType.StarTower)\n  if mapBattleCase.Da"
+  }
+]

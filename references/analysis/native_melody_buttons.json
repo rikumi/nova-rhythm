@@ -1,0 +1,612 @@
+[
+  {
+    "path": "DiscPanel/----SafeAreaRoot----/---Music---/--MusicRight--/goSideA/rtSideABg/goMusic/btnMusic2/AnimRoot/goMusicOn2/imgLine",
+    "rect": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": -6367045873952668634
+      },
+      "m_LocalRotation": {
+        "x": -0.0,
+        "y": -0.0,
+        "z": -0.0,
+        "w": 1.0
+      },
+      "m_LocalPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_Children": [],
+      "m_Father": {
+        "m_FileID": 0,
+        "m_PathID": -1745703167867226133
+      },
+      "m_AnchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchoredPosition": {
+        "x": -280.5,
+        "y": 22.530418395996094
+      },
+      "m_SizeDelta": {
+        "x": 4.0,
+        "y": 26.353700637817383
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "m_Sprite": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "m_Color": {
+      "r": 0.03921568766236305,
+      "g": 0.7450980544090271,
+      "b": 0.772549033164978,
+      "a": 1.0
+    },
+    "m_Type": 0
+  },
+  {
+    "path": "DiscPanel/----SafeAreaRoot----/---Music---/--MusicRight--/goSideA/rtSideABg/goMusic/btnMusic1/AnimRoot/goMusicOn1/imgLine (1)",
+    "rect": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 7888646625778665482
+      },
+      "m_LocalRotation": {
+        "x": -0.0,
+        "y": -0.0,
+        "z": -0.0,
+        "w": 1.0
+      },
+      "m_LocalPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_Children": [],
+      "m_Father": {
+        "m_FileID": 0,
+        "m_PathID": -3428966089889269076
+      },
+      "m_AnchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchoredPosition": {
+        "x": -290.5,
+        "y": 21.847496032714844
+      },
+      "m_SizeDelta": {
+        "x": 4.0,
+        "y": 16.402000427246094
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "m_Sprite": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "m_Color": {
+      "r": 0.03921568766236305,
+      "g": 0.7450980544090271,
+      "b": 0.772549033164978,
+      "a": 1.0
+    },
+    "m_Type": 0
+  },
+  {
+    "path": "DiscPanel/----SafeAreaRoot----/---Music---/--MusicRight--/goSideA/rtSideABg/goMusic/btnMusic2/AnimRoot/Image (2)",
+    "rect": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": -7100521321301568143
+      },
+      "m_LocalRotation": {
+        "x": -0.0,
+        "y": -0.0,
+        "z": -0.0,
+        "w": 1.0
+      },
+      "m_LocalPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_Children": [],
+      "m_Father": {
+        "m_FileID": 0,
+        "m_PathID": 7365189893887631639
+      },
+      "m_AnchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchoredPosition": {
+        "x": -281.20001220703125,
+        "y": -28.600000381469727
+      },
+      "m_SizeDelta": {
+        "x": 26.0,
+        "y": 26.0
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "m_Sprite": {
+      "m_FileID": 2,
+      "m_PathID": -7843421989527321579
+    },
+    "m_Color": {
+      "r": 0.23137255012989044,
+      "g": 0.3843137323856354,
+      "b": 0.6823529601097107,
+      "a": 1.0
+    },
+    "m_Type": 0
+  },
+  {
+    "path": "DiscPanel/----SafeAreaRoot----/---Music---/--MusicRight--/goSideA/rtSideABg/goMusic/btnMusic1/AnimRoot/Image (1)",
+    "rect": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": -6528451759704541456
+      },
+      "m_LocalRotation": {
+        "x": -0.0,
+        "y": -0.0,
+        "z": -0.0,
+        "w": 1.0
+      },
+      "m_LocalPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_Children": [],
+      "m_Father": {
+        "m_FileID": 0,
+        "m_PathID": 4879125220611534659
+      },
+      "m_AnchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_SizeDelta": {
+        "x": 650.0,
+        "y": 151.0
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "m_Sprite": {
+      "m_FileID": 2,
+      "m_PathID": -3853205521095134760
+    },
+    "m_Color": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "m_Type": 1
+  },
+  {
+    "path": "DiscPanel/----SafeAreaRoot----/---Music---/--MusicRight--/goSideA/rtSideABg/goMusic/btnMusic1/AnimRoot/Image (2)",
+    "rect": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": -6549946597668004702
+      },
+      "m_LocalRotation": {
+        "x": -0.0,
+        "y": -0.0,
+        "z": -0.0,
+        "w": 1.0
+      },
+      "m_LocalPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_Children": [],
+      "m_Father": {
+        "m_FileID": 0,
+        "m_PathID": 4879125220611534659
+      },
+      "m_AnchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchoredPosition": {
+        "x": -281.20001220703125,
+        "y": -28.600000381469727
+      },
+      "m_SizeDelta": {
+        "x": 26.0,
+        "y": 26.0
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "m_Sprite": {
+      "m_FileID": 2,
+      "m_PathID": -7843421989527321579
+    },
+    "m_Color": {
+      "r": 0.23137255012989044,
+      "g": 0.3843137323856354,
+      "b": 0.6823529601097107,
+      "a": 1.0
+    },
+    "m_Type": 0
+  },
+  {
+    "path": "DiscPanel/----SafeAreaRoot----/---Music---/--MusicRight--/goSideA/rtSideABg/goMusic/btnMusic1/AnimRoot/goMusicOn1/imgLine (2)",
+    "rect": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 6456986901024170643
+      },
+      "m_LocalRotation": {
+        "x": -0.0,
+        "y": -0.0,
+        "z": -0.0,
+        "w": 1.0
+      },
+      "m_LocalPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_Children": [],
+      "m_Father": {
+        "m_FileID": 0,
+        "m_PathID": -3428966089889269076
+      },
+      "m_AnchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchoredPosition": {
+        "x": -270.70001220703125,
+        "y": 21.847496032714844
+      },
+      "m_SizeDelta": {
+        "x": 4.0,
+        "y": 16.402000427246094
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "m_Sprite": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "m_Color": {
+      "r": 0.03921568766236305,
+      "g": 0.7450980544090271,
+      "b": 0.772549033164978,
+      "a": 1.0
+    },
+    "m_Type": 0
+  },
+  {
+    "path": "DiscPanel/----SafeAreaRoot----/---Music---/--MusicRight--/goSideA/rtSideABg/goMusic/btnMusic1/AnimRoot/goMusicOn1/imgLine",
+    "rect": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 1160156688638878893
+      },
+      "m_LocalRotation": {
+        "x": -0.0,
+        "y": -0.0,
+        "z": -0.0,
+        "w": 1.0
+      },
+      "m_LocalPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_Children": [],
+      "m_Father": {
+        "m_FileID": 0,
+        "m_PathID": -3428966089889269076
+      },
+      "m_AnchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchoredPosition": {
+        "x": -280.5,
+        "y": 22.530418395996094
+      },
+      "m_SizeDelta": {
+        "x": 4.0,
+        "y": 26.353700637817383
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "m_Sprite": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "m_Color": {
+      "r": 0.03921568766236305,
+      "g": 0.7450980544090271,
+      "b": 0.772549033164978,
+      "a": 1.0
+    },
+    "m_Type": 0
+  },
+  {
+    "path": "DiscPanel/----SafeAreaRoot----/---Music---/--MusicRight--/goSideA/rtSideABg/goMusic/btnMusic2/AnimRoot/Image (1)",
+    "rect": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 4130465654146712284
+      },
+      "m_LocalRotation": {
+        "x": -0.0,
+        "y": -0.0,
+        "z": -0.0,
+        "w": 1.0
+      },
+      "m_LocalPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_Children": [],
+      "m_Father": {
+        "m_FileID": 0,
+        "m_PathID": 7365189893887631639
+      },
+      "m_AnchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_SizeDelta": {
+        "x": 650.0,
+        "y": 151.0
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "m_Sprite": {
+      "m_FileID": 2,
+      "m_PathID": -3853205521095134760
+    },
+    "m_Color": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "m_Type": 1
+  },
+  {
+    "path": "DiscPanel/----SafeAreaRoot----/---Music---/--MusicRight--/goSideA/rtSideABg/goMusic/btnMusic2/AnimRoot/goMusicOn2/imgLine (1)",
+    "rect": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": -8487913515356859682
+      },
+      "m_LocalRotation": {
+        "x": -0.0,
+        "y": -0.0,
+        "z": -0.0,
+        "w": 1.0
+      },
+      "m_LocalPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_Children": [],
+      "m_Father": {
+        "m_FileID": 0,
+        "m_PathID": -1745703167867226133
+      },
+      "m_AnchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchoredPosition": {
+        "x": -290.5,
+        "y": 21.847496032714844
+      },
+      "m_SizeDelta": {
+        "x": 4.0,
+        "y": 16.402000427246094
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "m_Sprite": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "m_Color": {
+      "r": 0.03921568766236305,
+      "g": 0.7450980544090271,
+      "b": 0.772549033164978,
+      "a": 1.0
+    },
+    "m_Type": 0
+  },
+  {
+    "path": "DiscPanel/----SafeAreaRoot----/---Music---/--MusicRight--/goSideA/rtSideABg/goMusic/btnMusic2/AnimRoot/goMusicOn2/imgLine (2)",
+    "rect": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 5084644005873546595
+      },
+      "m_LocalRotation": {
+        "x": -0.0,
+        "y": -0.0,
+        "z": -0.0,
+        "w": 1.0
+      },
+      "m_LocalPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_Children": [],
+      "m_Father": {
+        "m_FileID": 0,
+        "m_PathID": -1745703167867226133
+      },
+      "m_AnchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchoredPosition": {
+        "x": -270.70001220703125,
+        "y": 21.847496032714844
+      },
+      "m_SizeDelta": {
+        "x": 4.0,
+        "y": 16.402000427246094
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "m_Sprite": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "m_Color": {
+      "r": 0.03921568766236305,
+      "g": 0.7450980544090271,
+      "b": 0.772549033164978,
+      "a": 1.0
+    },
+    "m_Type": 0
+  }
+]

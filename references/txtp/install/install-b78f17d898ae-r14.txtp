@@ -1,0 +1,10 @@
+{{GAME}}/xtlr_Data/StreamingAssets/InstallResource/txtp/wem/948258271.wem #i #b 7.5 #m0^1.0~0.0=P@-1~7.616520881652832+0.883479118347168~-1
+  {{GAME}}/xtlr_Data/StreamingAssets/InstallResource/txtp/wem/1033945089.wem #i #b 7.5
+ group = -R2>1
+  {{GAME}}/xtlr_Data/StreamingAssets/InstallResource/txtp/wem/1034508063.wem #i #b 7.5
+  {{GAME}}/xtlr_Data/StreamingAssets/InstallResource/txtp/wem/188095415.wem #i #b 15.0 #m0^1.0~0.0=P@-1~15.02049446105957+0.9170055389404297~-1
+  {{GAME}}/xtlr_Data/StreamingAssets/InstallResource/txtp/wem/533887731.wem #i #b 7.5
+  {{GAME}}/xtlr_Data/StreamingAssets/InstallResource/txtp/wem/83734452.wem #i #b 7.5
+  {{GAME}}/xtlr_Data/StreamingAssets/InstallResource/txtp/wem/118599416.wem #i #b 7.5
+ group = -R5>4
+group = -S2 #@loop

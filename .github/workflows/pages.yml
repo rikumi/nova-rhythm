@@ -20,6 +20,8 @@ jobs:
           node-version: '24'
           cache: npm
       - uses: actions/configure-pages@v5
+      - name: Validate portable import references
+        run: python3 -m unittest discover -s scripts/tests -v
       - run: npm ci
       - run: npm run build
       - uses: actions/upload-pages-artifact@v5

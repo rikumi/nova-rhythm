@@ -1,0 +1,334 @@
+{
+  "story": {
+    "source": "{{GAME}}\\Persistent_Store\\AssetBundles\\ui_mainviewex.unity3d",
+    "root": "MainViewPanel/----SafeAreaRoot----/HideRoot/--BottomRight--/btnMainline/AnimRoot/RootSD",
+    "layers": [
+      {
+        "node": "MainViewPanel/----SafeAreaRoot----/HideRoot/--BottomRight--/btnMainline/AnimRoot/RootSD/book",
+        "sprite_id": 5884936693939401092,
+        "x": 0.4000000059604645,
+        "y": 17.700000762939453,
+        "width": 56.0,
+        "height": 26.0,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "rotation": -0.0,
+        "scale_x": 1,
+        "scale_y": 1,
+        "opacity": 1.0,
+        "name": "MainView_MainLine_01",
+        "source": "{{GAME}}\\Persistent_Store\\AssetBundles\\ui_mainviewex.unity3d",
+        "source_width": 112,
+        "source_height": 52
+      },
+      {
+        "node": "MainViewPanel/----SafeAreaRoot----/HideRoot/--BottomRight--/btnMainline/AnimRoot/RootSD/halo_b_1",
+        "sprite_id": 4113499805445371281,
+        "x": 0.50006103515625,
+        "y": -23.100006103515625,
+        "width": 62.0,
+        "height": 64.0,
+        "pivot": {
+          "x": 0.550000011920929,
+          "y": 0.5
+        },
+        "rotation": -0.0,
+        "scale_x": 1,
+        "scale_y": 1,
+        "opacity": 1.0,
+        "name": "MainView_MainLine_05",
+        "source": "{{GAME}}\\Persistent_Store\\AssetBundles\\ui_mainviewex.unity3d",
+        "source_width": 124,
+        "source_height": 128
+      },
+      {
+        "node": "MainViewPanel/----SafeAreaRoot----/HideRoot/--BottomRight--/btnMainline/AnimRoot/RootSD/halo_b_2",
+        "sprite_id": -5327838859332431874,
+        "x": 0.5,
+        "y": -25.899999618530273,
+        "width": 59.22959661483765,
+        "height": 57.18719673156738,
+        "pivot": {
+          "x": 0.550000011920929,
+          "y": 0.5
+        },
+        "rotation": -0.0,
+        "scale_x": 1,
+        "scale_y": 1,
+        "opacity": 1.0,
+        "name": "MainView_MainLine_06",
+        "source": "{{GAME}}\\Persistent_Store\\AssetBundles\\ui_mainviewex.unity3d",
+        "source_width": 116,
+        "source_height": 112
+      },
+      {
+        "node": "MainViewPanel/----SafeAreaRoot----/HideRoot/--BottomRight--/btnMainline/AnimRoot/RootSD/star",
+        "sprite_id": 2025937801221924490,
+        "x": 0.0,
+        "y": -22.299999237060547,
+        "width": 40.0,
+        "height": 40.0,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "rotation": -0.0,
+        "scale_x": 1,
+        "scale_y": 1,
+        "opacity": 1.0,
+        "name": "MainView_MainLine_04",
+        "source": "{{GAME}}\\Persistent_Store\\AssetBundles\\ui_mainviewex.unity3d",
+        "source_width": 80,
+        "source_height": 80
+      },
+      {
+        "node": "MainViewPanel/----SafeAreaRoot----/HideRoot/--BottomRight--/btnMainline/AnimRoot/RootSD/halo_f_2",
+        "sprite_id": 1919616670649215204,
+        "x": -0.20000000298023224,
+        "y": -22.600000381469727,
+        "width": 64.0,
+        "height": 64.0,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "rotation": -0.0,
+        "scale_x": 1,
+        "scale_y": 1,
+        "opacity": 1.0,
+        "name": "MainView_MainLine_03",
+        "source": "{{GAME}}\\Persistent_Store\\AssetBundles\\ui_mainviewex.unity3d",
+        "source_width": 128,
+        "source_height": 128
+      },
+      {
+        "node": "MainViewPanel/----SafeAreaRoot----/HideRoot/--BottomRight--/btnMainline/AnimRoot/RootSD/halo_f_2/mask",
+        "sprite_id": -3364792196724550097,
+        "x": 0.04999999701976776,
+        "y": -23.150000393390656,
+        "width": 63.66624140739441,
+        "height": 62.70160138607025,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "rotation": -0.0,
+        "scale_x": 1,
+        "scale_y": 1,
+        "opacity": 1.0,
+        "name": "MainView_MainLine_08",
+        "source": "{{GAME}}\\Persistent_Store\\AssetBundles\\ui_mainviewex.unity3d",
+        "source_width": 128,
+        "source_height": 128
+      },
+      {
+        "node": "MainViewPanel/----SafeAreaRoot----/HideRoot/--BottomRight--/btnMainline/AnimRoot/RootSD/halo_f_1",
+        "sprite_id": 2867957498690895337,
+        "x": 0.10000000149011612,
+        "y": -23.399999618530273,
+        "width": 66.0,
+        "height": 66.0,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "rotation": -0.0,
+        "scale_x": 1,
+        "scale_y": 1,
+        "opacity": 1.0,
+        "name": "MainView_MainLine_02",
+        "source": "{{GAME}}\\Persistent_Store\\AssetBundles\\ui_mainviewex.unity3d",
+        "source_width": 132,
+        "source_height": 132
+      },
+      {
+        "node": "MainViewPanel/----SafeAreaRoot----/HideRoot/--BottomRight--/btnMainline/AnimRoot/RootSD/halo_f_1/mask",
+        "sprite_id": 3051762186007451704,
+        "x": 0.10000000149011612,
+        "y": -23.399999618530273,
+        "width": 66.0,
+        "height": 65.0,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "rotation": -0.0,
+        "scale_x": 1,
+        "scale_y": 1,
+        "opacity": 1.0,
+        "name": "MainView_MainLine_07",
+        "source": "{{GAME}}\\Persistent_Store\\AssetBundles\\ui_mainviewex.unity3d",
+        "source_width": 132,
+        "source_height": 132
+      }
+    ]
+  },
+  "system": {
+    "source": "{{GAME}}\\Persistent_Store\\AssetBundles\\ui_mainviewex.unity3d",
+    "root": "MainViewPanel/----SafeAreaRoot----/HideRoot/--BottomRight--/btnRecruit/AnimRoot/RootSD",
+    "layers": [
+      {
+        "node": "MainViewPanel/----SafeAreaRoot----/HideRoot/--BottomRight--/btnRecruit/AnimRoot/RootSD/body_02",
+        "sprite_id": -6495145843289527012,
+        "x": -7.5,
+        "y": 16.0,
+        "width": 20.5,
+        "height": 19.0,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "rotation": -0.0,
+        "scale_x": 1,
+        "scale_y": 1,
+        "opacity": 1.0,
+        "name": "MainView_Recruit_09",
+        "source": "{{GAME}}\\Persistent_Store\\AssetBundles\\ui_mainviewex.unity3d",
+        "source_width": 40,
+        "source_height": 40
+      },
+      {
+        "node": "MainViewPanel/----SafeAreaRoot----/HideRoot/--BottomRight--/btnRecruit/AnimRoot/RootSD/sign",
+        "sprite_id": 4434419901629065970,
+        "x": -25.00006866455078,
+        "y": -17.00000762939453,
+        "width": 90.0,
+        "height": 102.0,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "rotation": -0.0,
+        "scale_x": 1,
+        "scale_y": 1,
+        "opacity": 1.0,
+        "name": "MainView_Recruit_08",
+        "source": "{{GAME}}\\Persistent_Store\\AssetBundles\\ui_mainviewex.unity3d",
+        "source_width": 180,
+        "source_height": 204
+      },
+      {
+        "node": "MainViewPanel/----SafeAreaRoot----/HideRoot/--BottomRight--/btnRecruit/AnimRoot/RootSD/head",
+        "sprite_id": -5546685251161083861,
+        "x": 14.99993896484375,
+        "y": 11.900009155273438,
+        "width": 86.0,
+        "height": 70.0,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.0
+        },
+        "rotation": -0.0,
+        "scale_x": 1,
+        "scale_y": 1,
+        "opacity": 1.0,
+        "name": "MainView_Recruit_02",
+        "source": "{{GAME}}\\Persistent_Store\\AssetBundles\\ui_mainviewex.unity3d",
+        "source_width": 172,
+        "source_height": 140
+      },
+      {
+        "node": "MainViewPanel/----SafeAreaRoot----/HideRoot/--BottomRight--/btnRecruit/AnimRoot/RootSD/head/emjio_02",
+        "sprite_id": 7245170130450747388,
+        "x": 3.99993896484375,
+        "y": -10.899991035461426,
+        "width": 44.0,
+        "height": 32.0,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "rotation": -0.0,
+        "scale_x": 1,
+        "scale_y": 1,
+        "opacity": 1.0,
+        "name": "MainView_Recruit_05",
+        "source": "{{GAME}}\\Persistent_Store\\AssetBundles\\ui_mainviewex.unity3d",
+        "source_width": 88,
+        "source_height": 64
+      },
+      {
+        "node": "MainViewPanel/----SafeAreaRoot----/HideRoot/--BottomRight--/btnRecruit/AnimRoot/RootSD/body_01",
+        "sprite_id": 3382456727889196841,
+        "x": 11.300000190734863,
+        "y": 17.700000762939453,
+        "width": 54.5,
+        "height": 30.0,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "rotation": -0.0,
+        "scale_x": 1,
+        "scale_y": 1,
+        "opacity": 1.0,
+        "name": "MainView_Recruit_01",
+        "source": "{{GAME}}\\Persistent_Store\\AssetBundles\\ui_mainviewex.unity3d",
+        "source_width": 108,
+        "source_height": 60
+      },
+      {
+        "node": "MainViewPanel/----SafeAreaRoot----/HideRoot/--BottomRight--/btnRecruit/AnimRoot/RootSD/hand_r",
+        "sprite_id": -7248281840719522798,
+        "x": -18.5,
+        "y": 11.0,
+        "width": 12.0,
+        "height": 14.0,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "rotation": -0.0,
+        "scale_x": 1,
+        "scale_y": 1,
+        "opacity": 1.0,
+        "name": "MainView_Recruit_07",
+        "source": "{{GAME}}\\Persistent_Store\\AssetBundles\\ui_mainviewex.unity3d",
+        "source_width": 24,
+        "source_height": 28
+      },
+      {
+        "node": "MainViewPanel/----SafeAreaRoot----/HideRoot/--BottomRight--/btnRecruit/AnimRoot/RootSD/hair",
+        "sprite_id": -4932813659119564216,
+        "x": 0.7543267607688904,
+        "y": 21.176877975463867,
+        "width": 72.0,
+        "height": 78.0,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.0
+        },
+        "rotation": -0.0,
+        "scale_x": 1,
+        "scale_y": 1,
+        "opacity": 1.0,
+        "name": "MainView_Recruit_03",
+        "source": "{{GAME}}\\Persistent_Store\\AssetBundles\\ui_mainviewex.unity3d",
+        "source_width": 144,
+        "source_height": 156
+      },
+      {
+        "node": "MainViewPanel/----SafeAreaRoot----/HideRoot/--BottomRight--/btnRecruit/AnimRoot/RootSD/hand_l",
+        "sprite_id": -5992083168967379638,
+        "x": 19.00002670288086,
+        "y": 24.799999237060547,
+        "width": 30.0,
+        "height": 22.0,
+        "pivot": {
+          "x": 1.0,
+          "y": 0.5
+        },
+        "rotation": -0.0,
+        "scale_x": 1,
+        "scale_y": 1,
+        "opacity": 1.0,
+        "name": "MainView_Recruit_06",
+        "source": "{{GAME}}\\Persistent_Store\\AssetBundles\\ui_mainviewex.unity3d",
+        "source_width": 60,
+        "source_height": 44
+      }
+    ]
+  }
+}

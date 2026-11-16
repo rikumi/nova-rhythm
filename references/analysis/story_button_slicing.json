@@ -1,0 +1,19 @@
+{
+  "name": "db_favor_profile",
+  "source": "{{GAME}}\\Persistent_Store\\AssetBundles\\ui_commonex.unity3d",
+  "path_id": -1431701062116514845,
+  "width": 16.0,
+  "height": 16.0,
+  "border": {
+    "left": 6.0,
+    "bottom": 6.0,
+    "right": 6.0,
+    "top": 6.0
+  },
+  "css_slice": [
+    6.0,
+    6.0,
+    6.0,
+    6.0
+  ]
+}

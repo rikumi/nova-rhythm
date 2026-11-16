@@ -1,0 +1,10 @@
+{{GAME}}/Persistent_Store/SoundBanks/Media/215339112.wem #i #b 1.5
+  {{GAME}}/Persistent_Store/SoundBanks/Media/215339112.wem #i #b 91.5 #r 1.5 #@loop
+ group = -S2  ##loop
+  {{GAME}}/Persistent_Store/SoundBanks/Media/365284737.wem #i #b 1.4332083333333285 #r 1.03664520006987 #P 0.0001778476939685447
+  {{GAME}}/Persistent_Store/SoundBanks/Media/365284737.wem #i #b 92.12398428586002 #r 1.4184624718934198 #@loop
+ group = -S2  ##loop
+  {{GAME}}/Persistent_Store/SoundBanks/Media/766345833.wem #i #b 1.4173125 #P 0.0000103346
+  {{GAME}}/Persistent_Store/SoundBanks/Media/766345833.wem #i #b 91.93171406880137 #r 1.35144721552528 #@loop
+ group = -S2  ##loop
+group = -R3>2

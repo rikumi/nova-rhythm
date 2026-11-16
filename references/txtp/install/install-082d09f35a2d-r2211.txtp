@@ -1,0 +1,20 @@
+{{GAME}}/xtlr_Data/StreamingAssets/InstallResource/txtp/wem/623406877.wem #i #b 1.7142767857142898 #P 0.0000089286
+   {{GAME}}/xtlr_Data/StreamingAssets/InstallResource/txtp/wem/623406877.wem #i #b 70.2857142857141 #r 42.8571428571429
+   {{GAME}}/xtlr_Data/StreamingAssets/InstallResource/txtp/wem/623406877.wem #i #b 29.142857142857107 #r 1.71428571428571
+  group = -R2>2
+   {{GAME}}/xtlr_Data/StreamingAssets/InstallResource/txtp/wem/623406877.wem #i #b 42.8571428571429 #r 29.1428571428572  #v -2.0dB
+   {{GAME}}/xtlr_Data/StreamingAssets/InstallResource/txtp/wem/147622662.wem #i #b 13.7142857142857  #v -3.0dB
+  group = -R2>2
+  {{GAME}}/xtlr_Data/StreamingAssets/InstallResource/txtp/wem/840557293.wem #i #b 27.4285714285714  #v -3.0dB
+    {{GAME}}/xtlr_Data/StreamingAssets/InstallResource/txtp/wem/690354636.wem #i #b 13.7142857142857  #v -2.0dB
+    {{GAME}}/xtlr_Data/StreamingAssets/InstallResource/txtp/wem/762396951.wem #i #b 27.421768707482993  #v -3.0dB
+   group = -S2
+    {{GAME}}/xtlr_Data/StreamingAssets/InstallResource/txtp/wem/573861789.wem #i #b 13.7142857142857  #v -2.0dB
+    {{GAME}}/xtlr_Data/StreamingAssets/InstallResource/txtp/wem/177005291.wem #i #b 27.4285714285714  #v -3.0dB
+   group = -S2
+  group = -R2>1
+   {{GAME}}/xtlr_Data/StreamingAssets/InstallResource/txtp/wem/623406877.wem #i #b 42.8571428571429 #r 29.1428571428572  #v -2.0dB
+   {{GAME}}/xtlr_Data/StreamingAssets/InstallResource/txtp/wem/147622662.wem #i #b 13.7142857142857  #v -3.0dB
+  group = -R2>1
+ group = -S5 #@loop
+group = -S2  ##loop

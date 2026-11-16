@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "mirrors": [
+    {
+      "repo": "AutumnVN/StellaSoraData",
+      "archive_root": "AutumnVN-StellaSoraData-8ed2aaf/",
+      "folder": "tables"
+    },
+    {
+      "repo": "MakoStar/ss-lua",
+      "archive_root": "MakoStar-ss-lua-19a437e/",
+      "folder": "lua"
+    }
+  ],
+  "note": "Mirrors assist naming; they are not verified byte-identical to local encrypted game tables."
+}

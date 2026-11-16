@@ -1,0 +1,937 @@
+{
+  "channel": "https://t.me/rikumi_games",
+  "policy": "仅参考名称；非零大小不代表下载完整，不比较有损录音，不从文件名推断PCM相同。",
+  "entries": [
+    {
+      "filename": "交易之间-商店.ogg",
+      "disc_id": null,
+      "naming_hint": "交易之间-商店",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "剧情日常.ogg",
+      "disc_id": null,
+      "naming_hint": "剧情日常",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "启动画面-完璧之庭·微尘破晓.ogg",
+      "disc_id": null,
+      "naming_hint": "启动画面-完璧之庭·微尘破晓",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "启动画面.ogg",
+      "disc_id": null,
+      "naming_hint": "启动画面",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "完璧之庭-剧情1.ogg",
+      "disc_id": null,
+      "naming_hint": "完璧之庭-剧情1",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "完璧之庭-剧情2.ogg",
+      "disc_id": null,
+      "naming_hint": "完璧之庭-剧情2",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "常驻-尖兵陷阵.ogg",
+      "disc_id": null,
+      "naming_hint": "常驻-尖兵陷阵",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "战斗之间-3.ogg",
+      "disc_id": null,
+      "naming_hint": "战斗之间-3",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "招募（taptap 试玩节）.ogg",
+      "disc_id": null,
+      "naming_hint": "招募（taptap 试玩节）",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "挑战成功.ogg",
+      "disc_id": null,
+      "naming_hint": "挑战成功",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "探索失败.ogg",
+      "disc_id": null,
+      "naming_hint": "探索失败",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "探索完成.ogg",
+      "disc_id": null,
+      "naming_hint": "探索完成",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "星塔唱片 - 惑心的蜜语 [qmms2].flac",
+      "disc_id": null,
+      "naming_hint": "星塔唱片 - 惑心的蜜语 [qmms2]",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "星塔唱片 - 旅人的歌谣 [qmms2].flac",
+      "disc_id": null,
+      "naming_hint": "星塔唱片 - 旅人的歌谣 [qmms2]",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "星塔唱片 - 星塔的召唤 [qmms2].flac",
+      "disc_id": null,
+      "naming_hint": "星塔唱片 - 星塔的召唤 [qmms2]",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "星塔唱片 - 梦的开幕 [qmms2].flac",
+      "disc_id": null,
+      "naming_hint": "星塔唱片 - 梦的开幕 [qmms2]",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "星塔唱片 - 游棋保卫战 [qmms2].flac",
+      "disc_id": null,
+      "naming_hint": "星塔唱片 - 游棋保卫战 [qmms2]",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "星塔唱片 - 灾厄的异动 [qmms2].flac",
+      "disc_id": null,
+      "naming_hint": "星塔唱片 - 灾厄的异动 [qmms2]",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "星塔唱片 - 甜心梦工坊 [qmms2].flac",
+      "disc_id": null,
+      "naming_hint": "星塔唱片 - 甜心梦工坊 [qmms2]",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "星塔唱片 - 终焉绝响 - 剧院魅影 [qmms2].flac",
+      "disc_id": null,
+      "naming_hint": "星塔唱片 - 终焉绝响 - 剧院魅影 [qmms2]",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "星塔唱片 - 荒野的呼吸 [qmms2].flac",
+      "disc_id": null,
+      "naming_hint": "星塔唱片 - 荒野的呼吸 [qmms2]",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "星塔唱片,Dash Sound,HJLL - 流水与暗影.flac",
+      "disc_id": null,
+      "naming_hint": "星塔唱片,Dash Sound,HJLL - 流水与暗影",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "星塔唱片,dDedalus - 烈焰与尘埃.flac",
+      "disc_id": null,
+      "naming_hint": "星塔唱片,dDedalus - 烈焰与尘埃",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "星塔唱片,VISION SOUND,Salty Salt - 风暴与闪电.flac",
+      "disc_id": null,
+      "naming_hint": "星塔唱片,VISION SOUND,Salty Salt - 风暴与闪电",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "星塔唱片Dash Sound - 不期而遇 [qmms2].flac",
+      "disc_id": null,
+      "naming_hint": "星塔唱片Dash Sound - 不期而遇 [qmms2]",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "星塔唱片VISION SOUND - 琳琅满目 [qmms2].flac",
+      "disc_id": null,
+      "naming_hint": "星塔唱片VISION SOUND - 琳琅满目 [qmms2]",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "活动-冬夜镇魂曲与破晓扳机.ogg",
+      "disc_id": null,
+      "naming_hint": "活动-冬夜镇魂曲与破晓扳机",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "活动-命运星牌局.ogg",
+      "disc_id": null,
+      "naming_hint": "活动-命运星牌局",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "活动-尖兵陷阵.ogg",
+      "disc_id": null,
+      "naming_hint": "活动-尖兵陷阵",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "活动-幸运寻宝铲.ogg",
+      "disc_id": null,
+      "naming_hint": "活动-幸运寻宝铲",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "活动-悠哉盛夏，依然打卡-战斗.ogg",
+      "disc_id": null,
+      "naming_hint": "活动-悠哉盛夏，依然打卡-战斗",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "活动-敬启，致珍重的你-战斗.ogg",
+      "disc_id": null,
+      "naming_hint": "活动-敬启，致珍重的你-战斗",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "活动-月华窃梦人.ogg",
+      "disc_id": null,
+      "naming_hint": "活动-月华窃梦人",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "活动-欢歌劲浪 · 闪耀假日惊涛探险-战斗.ogg",
+      "disc_id": null,
+      "naming_hint": "活动-欢歌劲浪 · 闪耀假日惊涛探险-战斗",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "活动-猎影合围.ogg",
+      "disc_id": null,
+      "naming_hint": "活动-猎影合围",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "活动-穿透心壁的取景框-战斗.ogg",
+      "disc_id": null,
+      "naming_hint": "活动-穿透心壁的取景框-战斗",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "活动-缭乱碎晶球.ogg",
+      "disc_id": null,
+      "naming_hint": "活动-缭乱碎晶球",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "活动-豪礼抛物线-Intro.ogg",
+      "disc_id": null,
+      "naming_hint": "活动-豪礼抛物线-Intro",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "活动-豪礼抛物线.ogg",
+      "disc_id": null,
+      "naming_hint": "活动-豪礼抛物线",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "活动-速度与机擎-大厅.ogg",
+      "disc_id": null,
+      "naming_hint": "活动-速度与机擎-大厅",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "活动-速度与机擎.ogg",
+      "disc_id": null,
+      "naming_hint": "活动-速度与机擎",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "活动-闪耀的使者与圣夜的精灵.ogg",
+      "disc_id": null,
+      "naming_hint": "活动-闪耀的使者与圣夜的精灵",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "活动-闻香识魔女.ogg",
+      "disc_id": null,
+      "naming_hint": "活动-闻香识魔女",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "登录界面-完璧之庭·微尘破晓.ogg",
+      "disc_id": null,
+      "naming_hint": "登录界面-完璧之庭·微尘破晓",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-一发破的.ogg",
+      "disc_id": 214019,
+      "naming_hint": "秘纹-一发破的",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-与骨共舞.ogg",
+      "disc_id": 214033,
+      "naming_hint": "秘纹-与骨共舞",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-乘风.ogg",
+      "disc_id": 212007,
+      "naming_hint": "秘纹-乘风",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-伴我航行.ogg",
+      "disc_id": 214057,
+      "naming_hint": "秘纹-伴我航行",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-你与我相似.ogg",
+      "disc_id": 214003,
+      "naming_hint": "秘纹-你与我相似",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-信笺乘风而去.ogg",
+      "disc_id": 214047,
+      "naming_hint": "秘纹-信笺乘风而去",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-假日泡影.ogg",
+      "disc_id": 213024,
+      "naming_hint": "秘纹-假日泡影",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-冰柠与红茶.ogg",
+      "disc_id": 214018,
+      "naming_hint": "秘纹-冰柠与红茶",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-刀与斧的铮鸣.ogg",
+      "disc_id": 214031,
+      "naming_hint": "秘纹-刀与斧的铮鸣",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-勇气之拳.ogg",
+      "disc_id": 214040,
+      "naming_hint": "秘纹-勇气之拳",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-午后间隙.ogg",
+      "disc_id": 214030,
+      "naming_hint": "秘纹-午后间隙",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-午夜喵铃.ogg",
+      "disc_id": 214022,
+      "naming_hint": "秘纹-午夜喵铃",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-午夜堕天使.ogg",
+      "disc_id": 214007,
+      "naming_hint": "秘纹-午夜堕天使",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-双月怪盗.ogg",
+      "disc_id": 213004,
+      "naming_hint": "秘纹-双月怪盗",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-吉光.ogg",
+      "disc_id": 212006,
+      "naming_hint": "秘纹-吉光",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-和煦.ogg",
+      "disc_id": 211002,
+      "naming_hint": "秘纹-和煦",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-喧哗.ogg",
+      "disc_id": 212002,
+      "naming_hint": "秘纹-喧哗",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-喵律动.ogg",
+      "disc_id": 213011,
+      "naming_hint": "秘纹-喵律动",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-嘭嘭少女.ogg",
+      "disc_id": 213005,
+      "naming_hint": "秘纹-嘭嘭少女",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-因缘而聚.ogg",
+      "disc_id": 214021,
+      "naming_hint": "秘纹-因缘而聚",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-坚韧.ogg",
+      "disc_id": 212010,
+      "naming_hint": "秘纹-坚韧",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-夏日午后的雨.ogg",
+      "disc_id": 214011,
+      "naming_hint": "秘纹-夏日午后的雨",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-夏日栖息地.ogg",
+      "disc_id": 214039,
+      "naming_hint": "秘纹-夏日栖息地",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-夏日进行曲.ogg",
+      "disc_id": 214058,
+      "naming_hint": "秘纹-夏日进行曲",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-夜宴谜影.ogg",
+      "disc_id": 214050,
+      "naming_hint": "秘纹-夜宴谜影",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-妄语.ogg",
+      "disc_id": 213019,
+      "naming_hint": "秘纹-妄语",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-孤烟.ogg",
+      "disc_id": 211005,
+      "naming_hint": "秘纹-孤烟",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-小憩片刻.ogg",
+      "disc_id": 213008,
+      "naming_hint": "秘纹-小憩片刻",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-希冀.ogg",
+      "disc_id": 211007,
+      "naming_hint": "秘纹-希冀",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-归途.ogg",
+      "disc_id": 211008,
+      "naming_hint": "秘纹-归途",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-情热.ogg",
+      "disc_id": 212005,
+      "naming_hint": "秘纹-情热",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-抓住传说.ogg",
+      "disc_id": 214037,
+      "naming_hint": "秘纹-抓住传说",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-指引前路的启明星.ogg",
+      "disc_id": 214066,
+      "naming_hint": "秘纹-指引前路的启明星",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-斑驳夏影.ogg",
+      "disc_id": 214056,
+      "naming_hint": "秘纹-斑驳夏影",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-星之所向.ogg",
+      "disc_id": 214051,
+      "naming_hint": "秘纹-星之所向",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-春日纪事.ogg",
+      "disc_id": 214016,
+      "naming_hint": "秘纹-春日纪事",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-晚安.ogg",
+      "disc_id": 213006,
+      "naming_hint": "秘纹-晚安",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-晚霞.ogg",
+      "disc_id": 211003,
+      "naming_hint": "秘纹-晚霞",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-晴之花.ogg",
+      "disc_id": 214005,
+      "naming_hint": "秘纹-晴之花",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-朝霭.ogg",
+      "disc_id": 211001,
+      "naming_hint": "秘纹-朝霭",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-未闻芳名.ogg",
+      "disc_id": 213015,
+      "naming_hint": "秘纹-未闻芳名",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-极乐.ogg",
+      "disc_id": 212003,
+      "naming_hint": "秘纹-极乐",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-樊笼蔷薇.ogg",
+      "disc_id": 213016,
+      "naming_hint": "秘纹-樊笼蔷薇",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-欢聚时刻.ogg",
+      "disc_id": 214053,
+      "naming_hint": "秘纹-欢聚时刻",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-水蒸气症候群.ogg",
+      "disc_id": null,
+      "naming_hint": "秘纹-水蒸气症候群",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-永恒的闪耀.ogg",
+      "disc_id": 214067,
+      "naming_hint": "秘纹-永恒的闪耀",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-沐光祷告.ogg",
+      "disc_id": 214010,
+      "naming_hint": "秘纹-沐光祷告",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-泡沫.ogg",
+      "disc_id": 212008,
+      "naming_hint": "秘纹-泡沫",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-波光漫游.ogg",
+      "disc_id": 214038,
+      "naming_hint": "秘纹-波光漫游",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-浮光掠影.ogg",
+      "disc_id": 214055,
+      "naming_hint": "秘纹-浮光掠影",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-涂鸦彩虹.ogg",
+      "disc_id": 214023,
+      "naming_hint": "秘纹-涂鸦彩虹",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-清扫时间.ogg",
+      "disc_id": null,
+      "naming_hint": "秘纹-清扫时间",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-潋滟故池水.ogg",
+      "disc_id": 214026,
+      "naming_hint": "秘纹-潋滟故池水",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-灵验颂歌.ogg",
+      "disc_id": 213021,
+      "naming_hint": "秘纹-灵验颂歌",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-热夜的结束.ogg",
+      "disc_id": 213003,
+      "naming_hint": "秘纹-热夜的结束",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-狼贪虎视.ogg",
+      "disc_id": 214012,
+      "naming_hint": "秘纹-狼贪虎视",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-猫之珍藏.ogg",
+      "disc_id": 214029,
+      "naming_hint": "秘纹-猫之珍藏",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-猫神降歌.ogg",
+      "disc_id": 214001,
+      "naming_hint": "秘纹-猫神降歌",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-甘露.ogg",
+      "disc_id": 211006,
+      "naming_hint": "秘纹-甘露",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-甜蜜邀约.ogg",
+      "disc_id": 213025,
+      "naming_hint": "秘纹-甜蜜邀约",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-甜言蜜果.ogg",
+      "disc_id": 214014,
+      "naming_hint": "秘纹-甜言蜜果",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-白日花园.ogg",
+      "disc_id": 214028,
+      "naming_hint": "秘纹-白日花园",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-盛宴.ogg",
+      "disc_id": 212001,
+      "naming_hint": "秘纹-盛宴",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-真相梦工厂.ogg",
+      "disc_id": 214032,
+      "naming_hint": "秘纹-真相梦工厂",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-秋日絮语.ogg",
+      "disc_id": 213013,
+      "naming_hint": "秘纹-秋日絮语",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-空与花与诗.ogg",
+      "disc_id": 214002,
+      "naming_hint": "秘纹-空与花与诗",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-空白的序章.ogg",
+      "disc_id": 214009,
+      "naming_hint": "秘纹-空白的序章",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-粉梦.ogg",
+      "disc_id": 211004,
+      "naming_hint": "秘纹-粉梦",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-纯白.ogg",
+      "disc_id": 213023,
+      "naming_hint": "秘纹-纯白",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-美好，尽在昨日.ogg",
+      "disc_id": 214062,
+      "naming_hint": "秘纹-美好，尽在昨日",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-翡翠隙境.ogg",
+      "disc_id": 213007,
+      "naming_hint": "秘纹-翡翠隙境",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-花火.ogg",
+      "disc_id": 214017,
+      "naming_hint": "秘纹-花火",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-荣誉时刻.ogg",
+      "disc_id": 214060,
+      "naming_hint": "秘纹-荣誉时刻",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-诅咒爱河.ogg",
+      "disc_id": 213022,
+      "naming_hint": "秘纹-诅咒爱河",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-转转人生.ogg",
+      "disc_id": 213017,
+      "naming_hint": "秘纹-转转人生",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-远航蓝图.ogg",
+      "disc_id": 214013,
+      "naming_hint": "秘纹-远航蓝图",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-迷途的朝圣者.ogg",
+      "disc_id": 214036,
+      "naming_hint": "秘纹-迷途的朝圣者",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-酒暖灯明时.ogg",
+      "disc_id": 214042,
+      "naming_hint": "秘纹-酒暖灯明时",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-闪光之时.ogg",
+      "disc_id": 214020,
+      "naming_hint": "秘纹-闪光之时",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-闪灵.ogg",
+      "disc_id": 213020,
+      "naming_hint": "秘纹-闪灵",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-问候星空.ogg",
+      "disc_id": 213012,
+      "naming_hint": "秘纹-问候星空",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-雨中曲.ogg",
+      "disc_id": 213009,
+      "naming_hint": "秘纹-雨中曲",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-飞吧，笼中鸟.ogg",
+      "disc_id": 214059,
+      "naming_hint": "秘纹-飞吧，笼中鸟",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-饮料采购日.ogg",
+      "disc_id": 213018,
+      "naming_hint": "秘纹-饮料采购日",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-骑士的铁匠.ogg",
+      "disc_id": 213014,
+      "naming_hint": "秘纹-骑士的铁匠",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-魔女的秋千.ogg",
+      "disc_id": 214006,
+      "naming_hint": "秘纹-魔女的秋千",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-黯灭.ogg",
+      "disc_id": 212009,
+      "naming_hint": "秘纹-黯灭",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "秘纹-龙飞凤舞.ogg",
+      "disc_id": 214027,
+      "naming_hint": "秘纹-龙飞凤舞",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    },
+    {
+      "filename": "采购商店.ogg",
+      "disc_id": null,
+      "naming_hint": "采购商店",
+      "evidence": "user_provided_game_channel_download_name",
+      "reference_only": true
+    }
+  ]
+}

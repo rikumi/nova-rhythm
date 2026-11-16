@@ -1,0 +1,5 @@
+{{GAME}}/xtlr_Data/StreamingAssets/InstallResource/txtp/wem/120899713.wem #i #b 18.0
+  {{GAME}}/xtlr_Data/StreamingAssets/InstallResource/txtp/wem/919404745.wem #i #b 72.0
+  {{GAME}}/xtlr_Data/StreamingAssets/InstallResource/txtp/wem/888309805.wem #i #b 48.0
+ group = -S2 #@loop
+group = -S2  ##loop

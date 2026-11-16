@@ -1,0 +1,4 @@
+{{GAME}}/Persistent_Store/SoundBanks/Media/202265627.wem #i #b 8.72727272727273
+ {{GAME}}/Persistent_Store/SoundBanks/Media/807279264.wem #i #b 69.8181818181818
+ {{GAME}}/Persistent_Store/SoundBanks/Media/120515243.wem #i #b 69.8181818181818
+group = -S3 #@loop

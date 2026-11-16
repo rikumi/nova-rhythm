@@ -1,0 +1,2506 @@
+{
+  "4069": {
+    "source": "{{GAME}}\\Persistent_Store\\AssetBundles\\disc_4069.unity3d",
+    "followers": [
+      {
+        "node": "layer_0",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 10.0,
+        "fFactorAY": -10.0
+      },
+      {
+        "node": "layer_1",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 10.0,
+        "fFactorAY": -10.0
+      },
+      {
+        "node": "layer_-1",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 10.0,
+        "fFactorAY": -10.0
+      },
+      {
+        "node": "mask",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 10.0,
+        "fFactorAY": -10.0
+      },
+      {
+        "node": "layer_title",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 10.0,
+        "fFactorAY": -10.0
+      }
+    ],
+    "motion": {
+      "rotation_x": 10.0,
+      "rotation_y": -10.0
+    }
+  },
+  "4068": {
+    "source": "{{GAME}}\\Persistent_Store\\AssetBundles\\disc_4068.unity3d",
+    "followers": [
+      {
+        "node": "layer_-1",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 3.0,
+        "fFactorAY": -8.0
+      },
+      {
+        "node": "layer_0",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 3.0,
+        "fFactorAY": -8.0
+      },
+      {
+        "node": "layer_title",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 3.0,
+        "fFactorAY": -8.0
+      },
+      {
+        "node": "mask",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 3.0,
+        "fFactorAY": -8.0
+      },
+      {
+        "node": "layer_1",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 3.0,
+        "fFactorAY": -8.0
+      }
+    ],
+    "motion": {
+      "rotation_x": 3.0,
+      "rotation_y": -8.0
+    }
+  },
+  "4067": {
+    "source": "{{GAME}}\\Persistent_Store\\AssetBundles\\disc_4067.unity3d",
+    "followers": [
+      {
+        "node": "layer_1",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 10.0,
+        "fFactorAY": -10.0
+      },
+      {
+        "node": "layer_0",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 10.0,
+        "fFactorAY": -10.0
+      },
+      {
+        "node": "layer_-1",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 10.0,
+        "fFactorAY": -10.0
+      },
+      {
+        "node": "mask",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 10.0,
+        "fFactorAY": -10.0
+      },
+      {
+        "node": "layer_title",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 10.0,
+        "fFactorAY": -10.0
+      }
+    ],
+    "motion": {
+      "rotation_x": 10.0,
+      "rotation_y": -10.0
+    }
+  },
+  "4066": {
+    "source": "{{GAME}}\\Persistent_Store\\AssetBundles\\disc_4066.unity3d",
+    "followers": [
+      {
+        "node": "mask",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 3.0,
+        "fFactorAY": -8.0
+      },
+      {
+        "node": "layer_-1",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 3.0,
+        "fFactorAY": -8.0
+      },
+      {
+        "node": "layer_title",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 3.0,
+        "fFactorAY": -8.0
+      },
+      {
+        "node": "layer_0",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 3.0,
+        "fFactorAY": -8.0
+      },
+      {
+        "node": "layer_1",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 3.0,
+        "fFactorAY": -8.0
+      }
+    ],
+    "motion": {
+      "rotation_x": 3.0,
+      "rotation_y": -8.0
+    }
+  },
+  "4062": {
+    "source": "{{GAME}}\\Persistent_Store\\AssetBundles\\disc_4062.unity3d",
+    "followers": [
+      {
+        "node": "mask",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 15.0,
+        "fFactorAY": -15.0
+      },
+      {
+        "node": "layer_-1",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 15.0,
+        "fFactorAY": -15.0
+      },
+      {
+        "node": "layer_title",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 15.0,
+        "fFactorAY": -15.0
+      },
+      {
+        "node": "layer_1",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 15.0,
+        "fFactorAY": -15.0
+      },
+      {
+        "node": "layer_0",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 15.0,
+        "fFactorAY": -15.0
+      }
+    ],
+    "motion": {
+      "rotation_x": 15.0,
+      "rotation_y": -15.0
+    }
+  },
+  "4061": {
+    "source": "{{GAME}}\\Persistent_Store\\AssetBundles\\disc_4061.unity3d",
+    "followers": [
+      {
+        "node": "mask",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -10.0
+      },
+      {
+        "node": "layer_1",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -10.0
+      },
+      {
+        "node": "layer_-1",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -10.0
+      },
+      {
+        "node": "layer_0",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -10.0
+      },
+      {
+        "node": "layer_title",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -10.0
+      }
+    ],
+    "motion": {
+      "rotation_x": 5.0,
+      "rotation_y": -10.0
+    }
+  },
+  "4060": {
+    "source": "{{GAME}}\\Persistent_Store\\AssetBundles\\disc_4060.unity3d",
+    "followers": [
+      {
+        "node": "layer_title",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -8.0
+      },
+      {
+        "node": "layer_0",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -8.0
+      },
+      {
+        "node": "mask",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -8.0
+      },
+      {
+        "node": "layer_1",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -8.0
+      },
+      {
+        "node": "layer_-1",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -8.0
+      }
+    ],
+    "motion": {
+      "rotation_x": 5.0,
+      "rotation_y": -8.0
+    }
+  },
+  "4059": {
+    "source": "{{GAME}}\\Persistent_Store\\AssetBundles\\disc_4059.unity3d",
+    "followers": [
+      {
+        "node": "layer_title",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 3.0,
+        "fFactorAY": -8.0
+      },
+      {
+        "node": "layer_1",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 3.0,
+        "fFactorAY": -8.0
+      },
+      {
+        "node": "layer_0",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 3.0,
+        "fFactorAY": -8.0
+      },
+      {
+        "node": "layer_-1",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 3.0,
+        "fFactorAY": -8.0
+      },
+      {
+        "node": "mask",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 3.0,
+        "fFactorAY": -8.0
+      }
+    ],
+    "motion": {
+      "rotation_x": 3.0,
+      "rotation_y": -8.0
+    }
+  },
+  "4058": {
+    "source": "{{GAME}}\\Persistent_Store\\AssetBundles\\disc_4058.unity3d",
+    "followers": [
+      {
+        "node": "layer_0",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 3.0,
+        "fFactorAY": -5.0
+      },
+      {
+        "node": "layer_-1",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 3.0,
+        "fFactorAY": -5.0
+      },
+      {
+        "node": "layer_1",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 3.0,
+        "fFactorAY": -5.0
+      },
+      {
+        "node": "layer_title",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 3.0,
+        "fFactorAY": -5.0
+      },
+      {
+        "node": "mask",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 3.0,
+        "fFactorAY": -5.0
+      }
+    ],
+    "motion": {
+      "rotation_x": 3.0,
+      "rotation_y": -5.0
+    }
+  },
+  "4057": {
+    "source": "{{GAME}}\\Persistent_Store\\AssetBundles\\disc_4057.unity3d",
+    "followers": [
+      {
+        "node": "layer_-1",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 8.0,
+        "fFactorAY": -10.0
+      },
+      {
+        "node": "mask",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 8.0,
+        "fFactorAY": -10.0
+      },
+      {
+        "node": "layer_title",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 8.0,
+        "fFactorAY": -10.0
+      },
+      {
+        "node": "layer_1",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 8.0,
+        "fFactorAY": -10.0
+      },
+      {
+        "node": "layer_0",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 8.0,
+        "fFactorAY": -10.0
+      }
+    ],
+    "motion": {
+      "rotation_x": 8.0,
+      "rotation_y": -10.0
+    }
+  },
+  "4056": {
+    "source": "{{GAME}}\\xtlr_Data\\StreamingAssets\\InstallResource\\disc_4056.unity3d",
+    "followers": [
+      {
+        "node": "mask",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 8.0,
+        "fFactorAY": -10.0
+      },
+      {
+        "node": "layer_title",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 8.0,
+        "fFactorAY": -10.0
+      },
+      {
+        "node": "layer_0",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 8.0,
+        "fFactorAY": -10.0
+      },
+      {
+        "node": "layer_1",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 8.0,
+        "fFactorAY": -10.0
+      },
+      {
+        "node": "layer_-1",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 8.0,
+        "fFactorAY": -10.0
+      }
+    ],
+    "motion": {
+      "rotation_x": 8.0,
+      "rotation_y": -10.0
+    }
+  },
+  "4055": {
+    "source": "{{GAME}}\\Persistent_Store\\AssetBundles\\disc_4055.unity3d",
+    "followers": [
+      {
+        "node": "layer_title",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 3.0,
+        "fFactorAY": -8.0
+      },
+      {
+        "node": "layer_1",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 3.0,
+        "fFactorAY": -8.0
+      },
+      {
+        "node": "layer_-1",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 3.0,
+        "fFactorAY": -8.0
+      },
+      {
+        "node": "layer_0",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 3.0,
+        "fFactorAY": -8.0
+      },
+      {
+        "node": "mask",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 3.0,
+        "fFactorAY": -8.0
+      }
+    ],
+    "motion": {
+      "rotation_x": 3.0,
+      "rotation_y": -8.0
+    }
+  },
+  "4029": {
+    "source": "{{GAME}}\\Persistent_Store\\AssetBundles\\disc_4029.unity3d",
+    "followers": [
+      {
+        "node": "layer_-1",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -20.0
+      },
+      {
+        "node": "layer_0",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 0.0,
+        "fFactorAY": 0.0
+      },
+      {
+        "node": "mask",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -20.0
+      },
+      {
+        "node": "layer_title",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -20.0
+      },
+      {
+        "node": "layer_1",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 0.0,
+        "fFactorAY": 0.0
+      }
+    ],
+    "motion": {
+      "rotation_x": 5.0,
+      "rotation_y": -20.0
+    }
+  },
+  "4054": {
+    "source": "{{GAME}}\\Persistent_Store\\AssetBundles\\disc_4054.unity3d",
+    "followers": [
+      {
+        "node": "layer_1",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -10.0
+      },
+      {
+        "node": "layer_-1",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -10.0
+      },
+      {
+        "node": "mask",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -10.0
+      },
+      {
+        "node": "layer_0",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -10.0
+      },
+      {
+        "node": "layer_title",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -10.0
+      }
+    ],
+    "motion": {
+      "rotation_x": 5.0,
+      "rotation_y": -10.0
+    }
+  },
+  "4052": {
+    "source": "{{GAME}}\\Persistent_Store\\AssetBundles\\disc_4052.unity3d",
+    "followers": [
+      {
+        "node": "layer_0",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -10.0
+      },
+      {
+        "node": "layer_title",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -10.0
+      },
+      {
+        "node": "layer_-1",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -10.0
+      },
+      {
+        "node": "mask",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -10.0
+      },
+      {
+        "node": "layer_1",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -10.0
+      }
+    ],
+    "motion": {
+      "rotation_x": 5.0,
+      "rotation_y": -10.0
+    }
+  },
+  "4051": {
+    "source": "{{GAME}}\\Persistent_Store\\AssetBundles\\disc_4051.unity3d",
+    "followers": [
+      {
+        "node": "layer_1",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -10.0
+      },
+      {
+        "node": "mask",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -10.0
+      },
+      {
+        "node": "layer_-1",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -10.0
+      },
+      {
+        "node": "layer_title",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -10.0
+      },
+      {
+        "node": "layer_0",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -10.0
+      }
+    ],
+    "motion": {
+      "rotation_x": 5.0,
+      "rotation_y": -10.0
+    }
+  },
+  "4003": {
+    "source": "{{GAME}}\\Persistent_Store\\AssetBundles\\disc_4003.unity3d",
+    "followers": [
+      {
+        "node": "layer_-1",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -20.0
+      },
+      {
+        "node": "layer_0",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 0.0,
+        "fFactorAY": 0.0
+      },
+      {
+        "node": "layer_title",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -20.0
+      },
+      {
+        "node": "mask",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -20.0
+      },
+      {
+        "node": "layer_1",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 0.0,
+        "fFactorAY": 0.0
+      }
+    ],
+    "motion": {
+      "rotation_x": 5.0,
+      "rotation_y": -20.0
+    }
+  },
+  "4049": {
+    "source": "{{GAME}}\\xtlr_Data\\StreamingAssets\\InstallResource\\disc_4049.unity3d",
+    "followers": [
+      {
+        "node": "layer_-1",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -10.0
+      },
+      {
+        "node": "layer_1",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -10.0
+      },
+      {
+        "node": "layer_0",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -10.0
+      },
+      {
+        "node": "layer_title",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -10.0
+      },
+      {
+        "node": "mask",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -10.0
+      }
+    ],
+    "motion": {
+      "rotation_x": 5.0,
+      "rotation_y": -10.0
+    }
+  },
+  "4050": {
+    "source": "{{GAME}}\\xtlr_Data\\StreamingAssets\\InstallResource\\disc_4050.unity3d",
+    "followers": [
+      {
+        "node": "layer_0",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 8.0,
+        "fFactorAY": -10.0
+      },
+      {
+        "node": "layer_-1",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 8.0,
+        "fFactorAY": -10.0
+      },
+      {
+        "node": "layer_title",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 8.0,
+        "fFactorAY": -10.0
+      },
+      {
+        "node": "layer_1",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 8.0,
+        "fFactorAY": -10.0
+      },
+      {
+        "node": "mask",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 8.0,
+        "fFactorAY": -10.0
+      }
+    ],
+    "motion": {
+      "rotation_x": 8.0,
+      "rotation_y": -10.0
+    }
+  },
+  "4045": {
+    "source": "{{GAME}}\\xtlr_Data\\StreamingAssets\\InstallResource\\disc_4045.unity3d",
+    "followers": [
+      {
+        "node": "layer_0",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -10.0
+      },
+      {
+        "node": "layer_1",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -10.0
+      },
+      {
+        "node": "layer_title",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -10.0
+      },
+      {
+        "node": "mask",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -10.0
+      },
+      {
+        "node": "layer_-1",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -10.0
+      }
+    ],
+    "motion": {
+      "rotation_x": 5.0,
+      "rotation_y": -10.0
+    }
+  },
+  "4037": {
+    "source": "{{GAME}}\\xtlr_Data\\StreamingAssets\\InstallResource\\disc_4037.unity3d",
+    "followers": [
+      {
+        "node": "layer_title",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 3.0,
+        "fFactorAY": -10.0
+      },
+      {
+        "node": "layer_1",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 3.0,
+        "fFactorAY": -10.0
+      },
+      {
+        "node": "mask",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 3.0,
+        "fFactorAY": -10.0
+      },
+      {
+        "node": "layer_0",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 3.0,
+        "fFactorAY": -10.0
+      },
+      {
+        "node": "layer_-1",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 3.0,
+        "fFactorAY": -10.0
+      }
+    ],
+    "motion": {
+      "rotation_x": 3.0,
+      "rotation_y": -10.0
+    }
+  },
+  "4047": {
+    "source": "{{GAME}}\\Persistent_Store\\AssetBundles\\disc_4047.unity3d",
+    "followers": [],
+    "motion": {
+      "rotation_x": 3,
+      "rotation_y": -8
+    }
+  },
+  "4008": {
+    "source": "{{GAME}}\\Persistent_Store\\AssetBundles\\disc_4008.unity3d",
+    "followers": [],
+    "motion": {
+      "rotation_x": 3,
+      "rotation_y": -8
+    }
+  },
+  "4007": {
+    "source": "{{GAME}}\\xtlr_Data\\StreamingAssets\\InstallResource\\disc_4007.unity3d",
+    "followers": [
+      {
+        "node": "layer_1",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 0.0,
+        "fFactorAY": 0.0
+      },
+      {
+        "node": "layer_-1",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -20.0
+      },
+      {
+        "node": "layer_title",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -20.0
+      },
+      {
+        "node": "layer_0",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 0.0,
+        "fFactorAY": 0.0
+      },
+      {
+        "node": "mask",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -20.0
+      }
+    ],
+    "motion": {
+      "rotation_x": 5.0,
+      "rotation_y": -20.0
+    }
+  },
+  "4046": {
+    "source": "{{GAME}}\\Persistent_Store\\AssetBundles\\disc_4046.unity3d",
+    "followers": [],
+    "motion": {
+      "rotation_x": 3,
+      "rotation_y": -8
+    }
+  },
+  "4016": {
+    "source": "{{GAME}}\\Persistent_Store\\AssetBundles\\disc_4016.unity3d",
+    "followers": [],
+    "motion": {
+      "rotation_x": 3,
+      "rotation_y": -8
+    }
+  },
+  "4027": {
+    "source": "{{GAME}}\\Persistent_Store\\AssetBundles\\disc_4027.unity3d",
+    "followers": [],
+    "motion": {
+      "rotation_x": 3,
+      "rotation_y": -8
+    }
+  },
+  "4044": {
+    "source": "{{GAME}}\\Persistent_Store\\AssetBundles\\disc_4044.unity3d",
+    "followers": [],
+    "motion": {
+      "rotation_x": 3,
+      "rotation_y": -8
+    }
+  },
+  "4042": {
+    "source": "{{GAME}}\\Persistent_Store\\AssetBundles\\disc_4042.unity3d",
+    "followers": [],
+    "motion": {
+      "rotation_x": 3,
+      "rotation_y": -8
+    }
+  },
+  "4006": {
+    "source": "{{GAME}}\\xtlr_Data\\StreamingAssets\\InstallResource\\disc_4006.unity3d",
+    "followers": [
+      {
+        "node": "layer_0",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 0.0,
+        "fFactorAY": 0.0
+      },
+      {
+        "node": "mask",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -20.0
+      },
+      {
+        "node": "layer_-1",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -20.0
+      },
+      {
+        "node": "layer_1",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 0.0,
+        "fFactorAY": 0.0
+      },
+      {
+        "node": "layer_title",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -20.0
+      }
+    ],
+    "motion": {
+      "rotation_x": 5.0,
+      "rotation_y": -20.0
+    }
+  },
+  "4043": {
+    "source": "{{GAME}}\\Persistent_Store\\AssetBundles\\disc_4043.unity3d",
+    "followers": [],
+    "motion": {
+      "rotation_x": 3,
+      "rotation_y": -8
+    }
+  },
+  "4004": {
+    "source": "{{GAME}}\\Persistent_Store\\AssetBundles\\disc_4004.unity3d",
+    "followers": [],
+    "motion": {
+      "rotation_x": 3,
+      "rotation_y": -8
+    }
+  },
+  "4005": {
+    "source": "{{GAME}}\\Persistent_Store\\AssetBundles\\disc_4005.unity3d",
+    "followers": [],
+    "motion": {
+      "rotation_x": 3,
+      "rotation_y": -8
+    }
+  },
+  "4048": {
+    "source": "{{GAME}}\\Persistent_Store\\AssetBundles\\disc_4048.unity3d",
+    "followers": [],
+    "motion": {
+      "rotation_x": 3,
+      "rotation_y": -8
+    }
+  },
+  "4041": {
+    "source": "{{GAME}}\\xtlr_Data\\StreamingAssets\\InstallResource\\disc_4041.unity3d",
+    "followers": [
+      {
+        "node": "layer_title",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -20.0
+      },
+      {
+        "node": "layer_-1",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -20.0
+      },
+      {
+        "node": "mask",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -20.0
+      },
+      {
+        "node": "layer_1",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -20.0
+      },
+      {
+        "node": "layer_0",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -20.0
+      }
+    ],
+    "motion": {
+      "rotation_x": 5.0,
+      "rotation_y": -20.0
+    }
+  },
+  "4024": {
+    "source": "{{GAME}}\\Persistent_Store\\AssetBundles\\disc_4024.unity3d",
+    "followers": [],
+    "motion": {
+      "rotation_x": 3,
+      "rotation_y": -8
+    }
+  },
+  "4015": {
+    "source": "{{GAME}}\\Persistent_Store\\AssetBundles\\disc_4015.unity3d",
+    "followers": [],
+    "motion": {
+      "rotation_x": 3,
+      "rotation_y": -8
+    }
+  },
+  "4036": {
+    "source": "{{GAME}}\\xtlr_Data\\StreamingAssets\\InstallResource\\disc_4036.unity3d",
+    "followers": [
+      {
+        "node": "layer_title",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -20.0
+      },
+      {
+        "node": "mask",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -20.0
+      },
+      {
+        "node": "layer_-1",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -20.0
+      },
+      {
+        "node": "layer_0",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 0.0,
+        "fFactorAY": 0.0
+      },
+      {
+        "node": "layer_1",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 0.0,
+        "fFactorAY": 0.0
+      }
+    ],
+    "motion": {
+      "rotation_x": 5.0,
+      "rotation_y": -20.0
+    }
+  },
+  "4040": {
+    "source": "{{GAME}}\\Persistent_Store\\AssetBundles\\disc_4040.unity3d",
+    "followers": [],
+    "motion": {
+      "rotation_x": 3,
+      "rotation_y": -8
+    }
+  },
+  "4017": {
+    "source": "{{GAME}}\\xtlr_Data\\StreamingAssets\\InstallResource\\disc_4017.unity3d",
+    "followers": [
+      {
+        "node": "layer_-1",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -20.0
+      },
+      {
+        "node": "layer_1",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 0.0,
+        "fFactorAY": 0.0
+      },
+      {
+        "node": "mask",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -20.0
+      },
+      {
+        "node": "layer_0",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 0.0,
+        "fFactorAY": 0.0
+      },
+      {
+        "node": "layer_title",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -20.0
+      }
+    ],
+    "motion": {
+      "rotation_x": 5.0,
+      "rotation_y": -20.0
+    }
+  },
+  "4028": {
+    "source": "{{GAME}}\\xtlr_Data\\StreamingAssets\\InstallResource\\disc_4028.unity3d",
+    "followers": [
+      {
+        "node": "layer_0",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 0.0,
+        "fFactorAY": 0.0
+      },
+      {
+        "node": "layer_title",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -20.0
+      },
+      {
+        "node": "layer_-1",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -20.0
+      },
+      {
+        "node": "layer_1",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 0.0,
+        "fFactorAY": 0.0
+      },
+      {
+        "node": "mask",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -20.0
+      }
+    ],
+    "motion": {
+      "rotation_x": 5.0,
+      "rotation_y": -20.0
+    }
+  },
+  "4039": {
+    "source": "{{GAME}}\\Persistent_Store\\AssetBundles\\disc_4039.unity3d",
+    "followers": [],
+    "motion": {
+      "rotation_x": 3,
+      "rotation_y": -8
+    }
+  },
+  "4038": {
+    "source": "{{GAME}}\\Persistent_Store\\AssetBundles\\disc_4038.unity3d",
+    "followers": [],
+    "motion": {
+      "rotation_x": 3,
+      "rotation_y": -8
+    }
+  },
+  "4026": {
+    "source": "{{GAME}}\\xtlr_Data\\StreamingAssets\\InstallResource\\disc_4026.unity3d",
+    "followers": [
+      {
+        "node": "layer_1",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 0.0,
+        "fFactorAY": 0.0
+      },
+      {
+        "node": "layer_0",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 0.0,
+        "fFactorAY": 0.0
+      },
+      {
+        "node": "layer_-1",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -20.0
+      },
+      {
+        "node": "layer_title",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -20.0
+      },
+      {
+        "node": "mask",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -20.0
+      }
+    ],
+    "motion": {
+      "rotation_x": 5.0,
+      "rotation_y": -20.0
+    }
+  },
+  "4053": {
+    "source": "{{GAME}}\\Persistent_Store\\AssetBundles\\disc_4053.unity3d",
+    "followers": [
+      {
+        "node": "mask",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -8.0
+      },
+      {
+        "node": "layer_1",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -8.0
+      },
+      {
+        "node": "layer_title",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -8.0
+      },
+      {
+        "node": "layer_-1",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -8.0
+      },
+      {
+        "node": "layer_0",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -8.0
+      }
+    ],
+    "motion": {
+      "rotation_x": 5.0,
+      "rotation_y": -8.0
+    }
+  },
+  "4033": {
+    "source": "{{GAME}}\\Persistent_Store\\AssetBundles\\disc_4033.unity3d",
+    "followers": [],
+    "motion": {
+      "rotation_x": 3,
+      "rotation_y": -8
+    }
+  },
+  "4032": {
+    "source": "{{GAME}}\\xtlr_Data\\StreamingAssets\\InstallResource\\disc_4032.unity3d",
+    "followers": [
+      {
+        "node": "layer_0",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 0.0,
+        "fFactorAY": 0.0
+      },
+      {
+        "node": "mask",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -20.0
+      },
+      {
+        "node": "layer_title",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -20.0
+      },
+      {
+        "node": "layer_-1",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -20.0
+      }
+    ],
+    "motion": {
+      "rotation_x": 5.0,
+      "rotation_y": -20.0
+    }
+  },
+  "4031": {
+    "source": "{{GAME}}\\xtlr_Data\\StreamingAssets\\InstallResource\\disc_4031.unity3d",
+    "followers": [
+      {
+        "node": "mask",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -20.0
+      },
+      {
+        "node": "layer_1",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 0.0,
+        "fFactorAY": 0.0
+      },
+      {
+        "node": "layer_-1",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -20.0
+      },
+      {
+        "node": "layer_0",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 0.0,
+        "fFactorAY": 0.0
+      },
+      {
+        "node": "layer_title",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -20.0
+      }
+    ],
+    "motion": {
+      "rotation_x": 5.0,
+      "rotation_y": -20.0
+    }
+  },
+  "4030": {
+    "source": "{{GAME}}\\Persistent_Store\\AssetBundles\\disc_4030.unity3d",
+    "followers": [],
+    "motion": {
+      "rotation_x": 3,
+      "rotation_y": -8
+    }
+  },
+  "4023": {
+    "source": "{{GAME}}\\xtlr_Data\\StreamingAssets\\InstallResource\\disc_4023.unity3d",
+    "followers": [
+      {
+        "node": "mask",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -20.0
+      },
+      {
+        "node": "layer_0",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 0.0,
+        "fFactorAY": 0.0
+      },
+      {
+        "node": "layer_title",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -20.0
+      },
+      {
+        "node": "layer_1",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 0.0,
+        "fFactorAY": 0.0
+      },
+      {
+        "node": "layer_-1",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -20.0
+      }
+    ],
+    "motion": {
+      "rotation_x": 5.0,
+      "rotation_y": -20.0
+    }
+  },
+  "4022": {
+    "source": "{{GAME}}\\Persistent_Store\\AssetBundles\\disc_4022.unity3d",
+    "followers": [],
+    "motion": {
+      "rotation_x": 3,
+      "rotation_y": -8
+    }
+  },
+  "4021": {
+    "source": "{{GAME}}\\xtlr_Data\\StreamingAssets\\InstallResource\\disc_4021.unity3d",
+    "followers": [
+      {
+        "node": "layer_title",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -20.0
+      },
+      {
+        "node": "layer_0",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 0.0,
+        "fFactorAY": 0.0
+      },
+      {
+        "node": "layer_1",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 0.0,
+        "fFactorAY": 0.0
+      },
+      {
+        "node": "mask",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -20.0
+      },
+      {
+        "node": "layer_-1",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -20.0
+      }
+    ],
+    "motion": {
+      "rotation_x": 5.0,
+      "rotation_y": -20.0
+    }
+  },
+  "4020": {
+    "source": "{{GAME}}\\xtlr_Data\\StreamingAssets\\InstallResource\\disc_4020.unity3d",
+    "followers": [
+      {
+        "node": "layer_0",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 0.0,
+        "fFactorAY": 0.0
+      },
+      {
+        "node": "layer_1",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 0.0,
+        "fFactorAY": 0.0
+      },
+      {
+        "node": "mask",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -20.0
+      },
+      {
+        "node": "layer_-1",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -20.0
+      },
+      {
+        "node": "layer_title",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -20.0
+      }
+    ],
+    "motion": {
+      "rotation_x": 5.0,
+      "rotation_y": -20.0
+    }
+  },
+  "4019": {
+    "source": "{{GAME}}\\xtlr_Data\\StreamingAssets\\InstallResource\\disc_4019.unity3d",
+    "followers": [
+      {
+        "node": "layer_title",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -20.0
+      },
+      {
+        "node": "layer_1",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 0.0,
+        "fFactorAY": 0.0
+      },
+      {
+        "node": "mask",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -20.0
+      },
+      {
+        "node": "layer_0",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 0.0,
+        "fFactorAY": 0.0
+      },
+      {
+        "node": "layer_-1",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -20.0
+      }
+    ],
+    "motion": {
+      "rotation_x": 5.0,
+      "rotation_y": -20.0
+    }
+  },
+  "4018": {
+    "source": "{{GAME}}\\xtlr_Data\\StreamingAssets\\InstallResource\\disc_4018.unity3d",
+    "followers": [
+      {
+        "node": "layer_-1",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -20.0
+      },
+      {
+        "node": "layer_title",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -20.0
+      },
+      {
+        "node": "mask",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -20.0
+      },
+      {
+        "node": "layer_0",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 0.0,
+        "fFactorAY": 0.0
+      },
+      {
+        "node": "layer_1",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 0.0,
+        "fFactorAY": 0.0
+      }
+    ],
+    "motion": {
+      "rotation_x": 5.0,
+      "rotation_y": -20.0
+    }
+  },
+  "4014": {
+    "source": "{{GAME}}\\Persistent_Store\\AssetBundles\\disc_4014.unity3d",
+    "followers": [
+      {
+        "node": "layer_-1",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -20.0
+      },
+      {
+        "node": "layer_1",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 0.0,
+        "fFactorAY": 0.0
+      },
+      {
+        "node": "layer_title",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -20.0
+      },
+      {
+        "node": "mask",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -20.0
+      },
+      {
+        "node": "layer_0",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 0.0,
+        "fFactorAY": 0.0
+      }
+    ],
+    "motion": {
+      "rotation_x": 5.0,
+      "rotation_y": -20.0
+    }
+  },
+  "4013": {
+    "source": "{{GAME}}\\Persistent_Store\\AssetBundles\\disc_4013.unity3d",
+    "followers": [],
+    "motion": {
+      "rotation_x": 3,
+      "rotation_y": -8
+    }
+  },
+  "4012": {
+    "source": "{{GAME}}\\Persistent_Store\\AssetBundles\\disc_4012.unity3d",
+    "followers": [],
+    "motion": {
+      "rotation_x": 3,
+      "rotation_y": -8
+    }
+  },
+  "4011": {
+    "source": "{{GAME}}\\xtlr_Data\\StreamingAssets\\InstallResource\\disc_4011.unity3d",
+    "followers": [
+      {
+        "node": "layer_0",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 0.0,
+        "fFactorAY": 0.0
+      },
+      {
+        "node": "layer_-1",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -20.0
+      },
+      {
+        "node": "mask",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -20.0
+      },
+      {
+        "node": "layer_title",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -20.0
+      },
+      {
+        "node": "layer_1",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 0.0,
+        "fFactorAY": 0.0
+      }
+    ],
+    "motion": {
+      "rotation_x": 5.0,
+      "rotation_y": -20.0
+    }
+  },
+  "4010": {
+    "source": "{{GAME}}\\xtlr_Data\\StreamingAssets\\InstallResource\\disc_4010.unity3d",
+    "followers": [
+      {
+        "node": "layer_-1",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -20.0
+      },
+      {
+        "node": "layer_0",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 0.0,
+        "fFactorAY": 0.0
+      },
+      {
+        "node": "layer_title",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -20.0
+      },
+      {
+        "node": "mask",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -20.0
+      },
+      {
+        "node": "layer_1",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 0.0,
+        "fFactorAY": 0.0
+      }
+    ],
+    "motion": {
+      "rotation_x": 5.0,
+      "rotation_y": -20.0
+    }
+  },
+  "4009": {
+    "source": "{{GAME}}\\Persistent_Store\\AssetBundles\\disc_4009.unity3d",
+    "followers": [],
+    "motion": {
+      "rotation_x": 3,
+      "rotation_y": -8
+    }
+  },
+  "4002": {
+    "source": "{{GAME}}\\xtlr_Data\\StreamingAssets\\InstallResource\\disc_4002.unity3d",
+    "followers": [
+      {
+        "node": "layer_3",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 0.0,
+        "fFactorAY": 0.0
+      },
+      {
+        "node": "layer_1",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 0.0,
+        "fFactorAY": 0.0
+      },
+      {
+        "node": "layer_title",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -20.0
+      },
+      {
+        "node": "mask",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -20.0
+      },
+      {
+        "node": "layer_4",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 0.0,
+        "fFactorAY": 0.0
+      },
+      {
+        "node": "layer_0",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 0.0,
+        "fFactorAY": 0.0
+      },
+      {
+        "node": "layer_2",
+        "type": 2,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 0.0,
+        "fFactorAY": 0.0
+      },
+      {
+        "node": "layer_-1",
+        "type": 1,
+        "fFactorX": 0.0,
+        "fFactorY": 0.0,
+        "fFactorAX": 5.0,
+        "fFactorAY": -20.0
+      }
+    ],
+    "motion": {
+      "rotation_x": 5.0,
+      "rotation_y": -20.0
+    }
+  },
+  "4001": {
+    "source": "{{GAME}}\\Persistent_Store\\AssetBundles\\disc_4001.unity3d",
+    "followers": [],
+    "motion": {
+      "rotation_x": 3,
+      "rotation_y": -8
+    }
+  },
+  "3026": {
+    "source": "{{GAME}}\\Persistent_Store\\AssetBundles\\disc_3026.unity3d",
+    "followers": [],
+    "motion": {
+      "rotation_x": 3,
+      "rotation_y": -8
+    }
+  },
+  "3025": {
+    "source": "{{GAME}}\\Persistent_Store\\AssetBundles\\disc_3025.unity3d",
+    "followers": [],
+    "motion": {
+      "rotation_x": 3,
+      "rotation_y": -8
+    }
+  },
+  "3024": {
+    "source": "{{GAME}}\\Persistent_Store\\AssetBundles\\disc_3024.unity3d",
+    "followers": [],
+    "motion": {
+      "rotation_x": 3,
+      "rotation_y": -8
+    }
+  },
+  "3023": {
+    "source": "{{GAME}}\\xtlr_Data\\StreamingAssets\\InstallResource\\disc_3023.unity3d",
+    "followers": [],
+    "motion": {
+      "rotation_x": 3,
+      "rotation_y": -8
+    }
+  },
+  "3022": {
+    "source": "{{GAME}}\\Persistent_Store\\AssetBundles\\disc_3022.unity3d",
+    "followers": [],
+    "motion": {
+      "rotation_x": 3,
+      "rotation_y": -8
+    }
+  },
+  "3021": {
+    "source": "{{GAME}}\\xtlr_Data\\StreamingAssets\\InstallResource\\disc_3021.unity3d",
+    "followers": [],
+    "motion": {
+      "rotation_x": 3,
+      "rotation_y": -8
+    }
+  },
+  "3020": {
+    "source": "{{GAME}}\\xtlr_Data\\StreamingAssets\\InstallResource\\disc_3020.unity3d",
+    "followers": [],
+    "motion": {
+      "rotation_x": 3,
+      "rotation_y": -8
+    }
+  },
+  "3019": {
+    "source": "{{GAME}}\\Persistent_Store\\AssetBundles\\disc_3019.unity3d",
+    "followers": [],
+    "motion": {
+      "rotation_x": 3,
+      "rotation_y": -8
+    }
+  },
+  "3018": {
+    "source": "{{GAME}}\\xtlr_Data\\StreamingAssets\\InstallResource\\disc_3018.unity3d",
+    "followers": [],
+    "motion": {
+      "rotation_x": 3,
+      "rotation_y": -8
+    }
+  },
+  "3017": {
+    "source": "{{GAME}}\\Persistent_Store\\AssetBundles\\disc_3017.unity3d",
+    "followers": [],
+    "motion": {
+      "rotation_x": 3,
+      "rotation_y": -8
+    }
+  },
+  "3016": {
+    "source": "{{GAME}}\\Persistent_Store\\AssetBundles\\disc_3016.unity3d",
+    "followers": [],
+    "motion": {
+      "rotation_x": 3,
+      "rotation_y": -8
+    }
+  },
+  "3015": {
+    "source": "{{GAME}}\\xtlr_Data\\StreamingAssets\\InstallResource\\disc_3015.unity3d",
+    "followers": [],
+    "motion": {
+      "rotation_x": 3,
+      "rotation_y": -8
+    }
+  },
+  "3014": {
+    "source": "{{GAME}}\\xtlr_Data\\StreamingAssets\\InstallResource\\disc_3014.unity3d",
+    "followers": [],
+    "motion": {
+      "rotation_x": 3,
+      "rotation_y": -8
+    }
+  },
+  "3013": {
+    "source": "{{GAME}}\\xtlr_Data\\StreamingAssets\\InstallResource\\disc_3013.unity3d",
+    "followers": [],
+    "motion": {
+      "rotation_x": 3,
+      "rotation_y": -8
+    }
+  },
+  "3012": {
+    "source": "{{GAME}}\\xtlr_Data\\StreamingAssets\\InstallResource\\disc_3012.unity3d",
+    "followers": [],
+    "motion": {
+      "rotation_x": 3,
+      "rotation_y": -8
+    }
+  },
+  "3011": {
+    "source": "{{GAME}}\\Persistent_Store\\AssetBundles\\disc_3011.unity3d",
+    "followers": [],
+    "motion": {
+      "rotation_x": 3,
+      "rotation_y": -8
+    }
+  },
+  "3010": {
+    "source": "{{GAME}}\\xtlr_Data\\StreamingAssets\\InstallResource\\disc_3010.unity3d",
+    "followers": [],
+    "motion": {
+      "rotation_x": 3,
+      "rotation_y": -8
+    }
+  },
+  "3009": {
+    "source": "{{GAME}}\\Persistent_Store\\AssetBundles\\disc_3009.unity3d",
+    "followers": [],
+    "motion": {
+      "rotation_x": 3,
+      "rotation_y": -8
+    }
+  },
+  "3008": {
+    "source": "{{GAME}}\\xtlr_Data\\StreamingAssets\\InstallResource\\disc_3008.unity3d",
+    "followers": [],
+    "motion": {
+      "rotation_x": 3,
+      "rotation_y": -8
+    }
+  },
+  "3007": {
+    "source": "{{GAME}}\\Persistent_Store\\AssetBundles\\disc_3007.unity3d",
+    "followers": [],
+    "motion": {
+      "rotation_x": 3,
+      "rotation_y": -8
+    }
+  },
+  "3006": {
+    "source": "{{GAME}}\\Persistent_Store\\AssetBundles\\disc_3006.unity3d",
+    "followers": [],
+    "motion": {
+      "rotation_x": 3,
+      "rotation_y": -8
+    }
+  },
+  "3005": {
+    "source": "{{GAME}}\\xtlr_Data\\StreamingAssets\\InstallResource\\disc_3005.unity3d",
+    "followers": [],
+    "motion": {
+      "rotation_x": 3,
+      "rotation_y": -8
+    }
+  },
+  "3004": {
+    "source": "{{GAME}}\\Persistent_Store\\AssetBundles\\disc_3004.unity3d",
+    "followers": [],
+    "motion": {
+      "rotation_x": 3,
+      "rotation_y": -8
+    }
+  },
+  "3003": {
+    "source": "{{GAME}}\\Persistent_Store\\AssetBundles\\disc_3003.unity3d",
+    "followers": [],
+    "motion": {
+      "rotation_x": 3,
+      "rotation_y": -8
+    }
+  },
+  "3002": {
+    "source": "{{GAME}}\\xtlr_Data\\StreamingAssets\\InstallResource\\disc_3002.unity3d",
+    "followers": [],
+    "motion": {
+      "rotation_x": 3,
+      "rotation_y": -8
+    }
+  },
+  "3001": {
+    "source": "{{GAME}}\\xtlr_Data\\StreamingAssets\\InstallResource\\disc_3001.unity3d",
+    "followers": [],
+    "motion": {
+      "rotation_x": 3,
+      "rotation_y": -8
+    }
+  },
+  "2010": {
+    "source": "{{GAME}}\\xtlr_Data\\StreamingAssets\\InstallResource\\disc_2010.unity3d",
+    "followers": [],
+    "motion": {
+      "rotation_x": 3,
+      "rotation_y": -8
+    }
+  },
+  "2009": {
+    "source": "{{GAME}}\\xtlr_Data\\StreamingAssets\\InstallResource\\disc_2009.unity3d",
+    "followers": [],
+    "motion": {
+      "rotation_x": 3,
+      "rotation_y": -8
+    }
+  },
+  "2008": {
+    "source": "{{GAME}}\\xtlr_Data\\StreamingAssets\\InstallResource\\disc_2008.unity3d",
+    "followers": [],
+    "motion": {
+      "rotation_x": 3,
+      "rotation_y": -8
+    }
+  },
+  "2007": {
+    "source": "{{GAME}}\\xtlr_Data\\StreamingAssets\\InstallResource\\disc_2007.unity3d",
+    "followers": [],
+    "motion": {
+      "rotation_x": 3,
+      "rotation_y": -8
+    }
+  },
+  "2006": {
+    "source": "{{GAME}}\\xtlr_Data\\StreamingAssets\\InstallResource\\disc_2006.unity3d",
+    "followers": [],
+    "motion": {
+      "rotation_x": 3,
+      "rotation_y": -8
+    }
+  },
+  "2005": {
+    "source": "{{GAME}}\\xtlr_Data\\StreamingAssets\\InstallResource\\disc_2005.unity3d",
+    "followers": [],
+    "motion": {
+      "rotation_x": 3,
+      "rotation_y": -8
+    }
+  },
+  "2003": {
+    "source": "{{GAME}}\\xtlr_Data\\StreamingAssets\\InstallResource\\disc_2003.unity3d",
+    "followers": [],
+    "motion": {
+      "rotation_x": 3,
+      "rotation_y": -8
+    }
+  },
+  "2002": {
+    "source": "{{GAME}}\\xtlr_Data\\StreamingAssets\\InstallResource\\disc_2002.unity3d",
+    "followers": [],
+    "motion": {
+      "rotation_x": 3,
+      "rotation_y": -8
+    }
+  },
+  "2001": {
+    "source": "{{GAME}}\\xtlr_Data\\StreamingAssets\\InstallResource\\disc_2001.unity3d",
+    "followers": [],
+    "motion": {
+      "rotation_x": 3,
+      "rotation_y": -8
+    }
+  },
+  "1008": {
+    "source": "{{GAME}}\\xtlr_Data\\StreamingAssets\\InstallResource\\disc_1008.unity3d",
+    "followers": [],
+    "motion": {
+      "rotation_x": 3,
+      "rotation_y": -8
+    }
+  },
+  "1007": {
+    "source": "{{GAME}}\\xtlr_Data\\StreamingAssets\\InstallResource\\disc_1007.unity3d",
+    "followers": [],
+    "motion": {
+      "rotation_x": 3,
+      "rotation_y": -8
+    }
+  },
+  "1006": {
+    "source": "{{GAME}}\\xtlr_Data\\StreamingAssets\\InstallResource\\disc_1006.unity3d",
+    "followers": [],
+    "motion": {
+      "rotation_x": 3,
+      "rotation_y": -8
+    }
+  },
+  "1005": {
+    "source": "{{GAME}}\\xtlr_Data\\StreamingAssets\\InstallResource\\disc_1005.unity3d",
+    "followers": [],
+    "motion": {
+      "rotation_x": 3,
+      "rotation_y": -8
+    }
+  },
+  "1004": {
+    "source": "{{GAME}}\\xtlr_Data\\StreamingAssets\\InstallResource\\disc_1004.unity3d",
+    "followers": [],
+    "motion": {
+      "rotation_x": 3,
+      "rotation_y": -8
+    }
+  },
+  "1003": {
+    "source": "{{GAME}}\\xtlr_Data\\StreamingAssets\\InstallResource\\disc_1003.unity3d",
+    "followers": [],
+    "motion": {
+      "rotation_x": 3,
+      "rotation_y": -8
+    }
+  },
+  "1002": {
+    "source": "{{GAME}}\\xtlr_Data\\StreamingAssets\\InstallResource\\disc_1002.unity3d",
+    "followers": [],
+    "motion": {
+      "rotation_x": 3,
+      "rotation_y": -8
+    }
+  },
+  "1001": {
+    "source": "{{GAME}}\\xtlr_Data\\StreamingAssets\\InstallResource\\disc_1001.unity3d",
+    "followers": [],
+    "motion": {
+      "rotation_x": 3,
+      "rotation_y": -8
+    }
+  }
+}

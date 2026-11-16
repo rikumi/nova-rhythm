@@ -1,0 +1,28 @@
+{
+  "tracks": {
+    "audio-REPLACE_WITH_PCM_SHA256": {
+      "title": "原始文件名或经核实的曲名",
+      "group": {
+        "id": "activity-REPLACE_WITH_ACTIVITY_ID",
+        "name": "经核实的活动名称",
+        "date": "2026-11-13T12:00:00+08:00"
+      },
+      "exclude": false
+    }
+  },
+  "outfits": {
+    "REPLACE_WITH_DISC_CODE": {
+      "name": "秘纹名称",
+      "storyTitle": "秘纹故事标题",
+      "story": "从游戏确认的故事正文",
+      "literary": "收录语",
+      "characters": ["旅人名称"],
+      "activity": {
+        "id": 0,
+        "name": "首次推出该秘纹的活动名称",
+        "date": "",
+        "basis": "待补充来源"
+      }
+    }
+  }
+}

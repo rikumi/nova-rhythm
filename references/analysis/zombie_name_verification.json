@@ -1,0 +1,272 @@
+{
+  "result": "灾变防线",
+  "events": [
+    {
+      "source": "install",
+      "bank": "Ambience_Daily.bnk",
+      "event_id": 409057420,
+      "event": "vampireRuins_combatNormal_setState",
+      "sets": [
+        {
+          "group_id": 3161384577,
+          "group": "menuTransition",
+          "value_id": 1451272583,
+          "value": "close"
+        },
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 748895195,
+          "value": "None"
+        },
+        {
+          "group_id": 1640212992,
+          "group": "outfit",
+          "value_id": 748895195,
+          "value": "None"
+        },
+        {
+          "group_id": 2782712965,
+          "group": "level",
+          "value_id": 2626247372,
+          "value": "zombieRuins"
+        },
+        {
+          "group_id": 2764240573,
+          "group": "combat",
+          "value_id": 1329203162,
+          "value": "combatNomal"
+        },
+        {
+          "group_id": 1980680137,
+          "group": "vampire",
+          "value_id": 1977030946,
+          "value": "vampireOn"
+        }
+      ]
+    },
+    {
+      "source": "install",
+      "bank": "Ambience_Daily.bnk",
+      "event_id": 622605727,
+      "event": "vampire_combatNormal_setState",
+      "sets": [
+        {
+          "group_id": 3161384577,
+          "group": "menuTransition",
+          "value_id": 1451272583,
+          "value": "close"
+        },
+        {
+          "group_id": 1640212992,
+          "group": "outfit",
+          "value_id": 748895195,
+          "value": "None"
+        },
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 748895195,
+          "value": "None"
+        },
+        {
+          "group_id": 2782712965,
+          "group": "level",
+          "value_id": 1721775719,
+          "value": "zombie"
+        },
+        {
+          "group_id": 2764240573,
+          "group": "combat",
+          "value_id": 1329203162,
+          "value": "combatNomal"
+        },
+        {
+          "group_id": 1980680137,
+          "group": "vampire",
+          "value_id": 1977030946,
+          "value": "vampireOn"
+        }
+      ]
+    },
+    {
+      "source": "install",
+      "bank": "Ambience_Daily.bnk",
+      "event_id": 3495410360,
+      "event": "vampireForest_combatNormal_setState",
+      "sets": [
+        {
+          "group_id": 3161384577,
+          "group": "menuTransition",
+          "value_id": 1451272583,
+          "value": "close"
+        },
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 748895195,
+          "value": "None"
+        },
+        {
+          "group_id": 1640212992,
+          "group": "outfit",
+          "value_id": 748895195,
+          "value": "None"
+        },
+        {
+          "group_id": 2782712965,
+          "group": "level",
+          "value_id": 1486270528,
+          "value": "zombieForest"
+        },
+        {
+          "group_id": 2764240573,
+          "group": "combat",
+          "value_id": 1329203162,
+          "value": "combatNomal"
+        },
+        {
+          "group_id": 1980680137,
+          "group": "vampire",
+          "value_id": 1977030946,
+          "value": "vampireOn"
+        }
+      ]
+    },
+    {
+      "source": "version",
+      "bank": "Ambience_Daily.bnk",
+      "event_id": 409057420,
+      "event": "vampireRuins_combatNormal_setState",
+      "sets": [
+        {
+          "group_id": 3161384577,
+          "group": "menuTransition",
+          "value_id": 1451272583,
+          "value": "close"
+        },
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 748895195,
+          "value": "None"
+        },
+        {
+          "group_id": 1640212992,
+          "group": "outfit",
+          "value_id": 748895195,
+          "value": "None"
+        },
+        {
+          "group_id": 2782712965,
+          "group": "level",
+          "value_id": 2626247372,
+          "value": "zombieRuins"
+        },
+        {
+          "group_id": 2764240573,
+          "group": "combat",
+          "value_id": 1329203162,
+          "value": "combatNomal"
+        },
+        {
+          "group_id": 1980680137,
+          "group": "vampire",
+          "value_id": 1977030946,
+          "value": "vampireOn"
+        }
+      ]
+    },
+    {
+      "source": "version",
+      "bank": "Ambience_Daily.bnk",
+      "event_id": 622605727,
+      "event": "vampire_combatNormal_setState",
+      "sets": [
+        {
+          "group_id": 3161384577,
+          "group": "menuTransition",
+          "value_id": 1451272583,
+          "value": "close"
+        },
+        {
+          "group_id": 1640212992,
+          "group": "outfit",
+          "value_id": 748895195,
+          "value": "None"
+        },
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 748895195,
+          "value": "None"
+        },
+        {
+          "group_id": 2782712965,
+          "group": "level",
+          "value_id": 1721775719,
+          "value": "zombie"
+        },
+        {
+          "group_id": 2764240573,
+          "group": "combat",
+          "value_id": 1329203162,
+          "value": "combatNomal"
+        },
+        {
+          "group_id": 1980680137,
+          "group": "vampire",
+          "value_id": 1977030946,
+          "value": "vampireOn"
+        }
+      ]
+    },
+    {
+      "source": "version",
+      "bank": "Ambience_Daily.bnk",
+      "event_id": 3495410360,
+      "event": "vampireForest_combatNormal_setState",
+      "sets": [
+        {
+          "group_id": 3161384577,
+          "group": "menuTransition",
+          "value_id": 1451272583,
+          "value": "close"
+        },
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 748895195,
+          "value": "None"
+        },
+        {
+          "group_id": 1640212992,
+          "group": "outfit",
+          "value_id": 748895195,
+          "value": "None"
+        },
+        {
+          "group_id": 2782712965,
+          "group": "level",
+          "value_id": 1486270528,
+          "value": "zombieForest"
+        },
+        {
+          "group_id": 2764240573,
+          "group": "combat",
+          "value_id": 1329203162,
+          "value": "combatNomal"
+        },
+        {
+          "group_id": 1980680137,
+          "group": "vampire",
+          "value_id": 1977030946,
+          "value": "vampireOn"
+        }
+      ]
+    }
+  ],
+  "map_evidence": "data/upstream/tables/CN/bin/VampireMap.json#8100101",
+  "name_evidence": "data/upstream/tables/CN/language/zh_CN/UIText.json#UIText.LevelMenu_Vampire.1",
+  "official_confirmation": "https://stellasora.yostar.cn/news/4916"
+}

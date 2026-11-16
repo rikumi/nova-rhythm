@@ -1,0 +1,731 @@
+[
+  {
+    "path": "DiscPanel/----SafeAreaRoot----/---Music---/--MusicRight--/goSideB/rtSideBBg/btnRead/AnimRoot/Image/Image",
+    "sprite": {
+      "m_FileID": 2,
+      "m_PathID": -642766598428946667
+    },
+    "color": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "rect": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 7773568449432964697
+      },
+      "m_LocalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "m_LocalPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "m_LocalScale": {
+        "x": 0.6000000238418579,
+        "y": 0.6000000238418579,
+        "z": 0.6000000238418579
+      },
+      "m_Children": [],
+      "m_Father": {
+        "m_FileID": 0,
+        "m_PathID": -8659924567460126317
+      },
+      "m_AnchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchoredPosition": {
+        "x": -266.0,
+        "y": 0.0
+      },
+      "m_SizeDelta": {
+        "x": 183.0,
+        "y": 173.0
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  },
+  {
+    "path": "DiscPanel/----SafeAreaRoot----/---Music---/--Left--/imgPhonograph/img1",
+    "sprite": {
+      "m_FileID": 0,
+      "m_PathID": 118063267410119125
+    },
+    "color": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "rect": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 1605292722847873717
+      },
+      "m_LocalRotation": {
+        "x": -0.0,
+        "y": -0.0,
+        "z": -0.0,
+        "w": 1.0
+      },
+      "m_LocalPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_Children": [],
+      "m_Father": {
+        "m_FileID": 0,
+        "m_PathID": 481863139760665291
+      },
+      "m_AnchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchoredPosition": {
+        "x": 402.0,
+        "y": -232.6999969482422
+      },
+      "m_SizeDelta": {
+        "x": 24.0,
+        "y": 40.0
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  },
+  {
+    "path": "DiscPanel/----SafeAreaRoot----/---Music---/--MusicRight--/goSideB/rtSideBBg/btnRead/AnimRoot/goReadOn/Image",
+    "sprite": {
+      "m_FileID": 2,
+      "m_PathID": 4893718152662874162
+    },
+    "color": {
+      "r": 0.03921568766236305,
+      "g": 0.7450980544090271,
+      "b": 0.772549033164978,
+      "a": 1.0
+    },
+    "rect": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": -2471195367873327095
+      },
+      "m_LocalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "m_LocalPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_Children": [],
+      "m_Father": {
+        "m_FileID": 0,
+        "m_PathID": -5079017991286090892
+      },
+      "m_AnchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchoredPosition": {
+        "x": 278.3999938964844,
+        "y": 0.0
+      },
+      "m_SizeDelta": {
+        "x": 31.0,
+        "y": 49.0
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  },
+  {
+    "path": "DiscPanel/----SafeAreaRoot----/---Music---/--MusicRight--/goSideB/rtSideBBg/btnRead/AnimRoot/reddotBRead/---RedDot---/imgRedDot",
+    "sprite": {
+      "m_FileID": 2,
+      "m_PathID": 2028791941906433551
+    },
+    "color": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "rect": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": -8179485361462422391
+      },
+      "m_LocalRotation": {
+        "x": -0.0,
+        "y": -0.0,
+        "z": -0.0,
+        "w": 1.0
+      },
+      "m_LocalPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_Children": [],
+      "m_Father": {
+        "m_FileID": 0,
+        "m_PathID": 2109535263669920135
+      },
+      "m_AnchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_SizeDelta": {
+        "x": 30.0,
+        "y": 30.0
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  },
+  {
+    "path": "DiscPanel/----SafeAreaRoot----/---Music---/--Left--/imgPhonograph/img2",
+    "sprite": {
+      "m_FileID": 0,
+      "m_PathID": 7196237113382000261
+    },
+    "color": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "rect": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 4255436740863838937
+      },
+      "m_LocalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.5,
+        "w": 0.8660253882408142
+      },
+      "m_LocalPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_Children": [],
+      "m_Father": {
+        "m_FileID": 0,
+        "m_PathID": 481863139760665291
+      },
+      "m_AnchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchoredPosition": {
+        "x": 270.4499816894531,
+        "y": -242.44998168945312
+      },
+      "m_SizeDelta": {
+        "x": 29.0,
+        "y": 29.0
+      },
+      "m_Pivot": {
+        "x": 0.949999988079071,
+        "y": 0.05000000074505806
+      }
+    }
+  },
+  {
+    "path": "DiscPanel/----SafeAreaRoot----/---Music---/--Left--/imgPhonograph/img4",
+    "sprite": {
+      "m_FileID": 0,
+      "m_PathID": -2566440774046950572
+    },
+    "color": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 0.800000011920929
+    },
+    "rect": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 557292239425145851
+      },
+      "m_LocalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "m_LocalPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "m_LocalScale": {
+        "x": -1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_Children": [],
+      "m_Father": {
+        "m_FileID": 0,
+        "m_PathID": 481863139760665291
+      },
+      "m_AnchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchoredPosition": {
+        "x": -473.0,
+        "y": -111.69999694824219
+      },
+      "m_SizeDelta": {
+        "x": 44.0,
+        "y": 256.0
+      },
+      "m_Pivot": {
+        "x": 0.949999988079071,
+        "y": 0.05000000074505806
+      }
+    }
+  },
+  {
+    "path": "DiscPanel/----Story----/StoryRoot/btnRead/AnimRoot/Image (1)",
+    "sprite": {
+      "m_FileID": 2,
+      "m_PathID": -6171551171263217840
+    },
+    "color": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "rect": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": -2626004473461241884
+      },
+      "m_LocalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "m_LocalPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_Children": [],
+      "m_Father": {
+        "m_FileID": 0,
+        "m_PathID": 8339792342641076014
+      },
+      "m_AnchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchoredPosition": {
+        "x": 0.000152587890625,
+        "y": -30.300033569335938
+      },
+      "m_SizeDelta": {
+        "x": 74.0,
+        "y": 74.0
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.20000000298023224
+      }
+    }
+  },
+  {
+    "path": "DiscPanel/----SafeAreaRoot----/---Music---/--MusicRight--/goSideB/rtSideBBg/btnRead/AnimRoot/goReadOn/Image",
+    "sprite": {
+      "m_FileID": 2,
+      "m_PathID": 4092481338156551068
+    },
+    "color": {
+      "r": 0.14901961386203766,
+      "g": 0.25882354378700256,
+      "b": 0.47058823704719543,
+      "a": 1.0
+    },
+    "rect": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 6631759740359773840
+      },
+      "m_LocalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "m_LocalPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_Children": [],
+      "m_Father": {
+        "m_FileID": 0,
+        "m_PathID": -5079017991286090892
+      },
+      "m_AnchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchoredPosition": {
+        "x": -277.29998779296875,
+        "y": 0.0
+      },
+      "m_SizeDelta": {
+        "x": 38.0,
+        "y": 35.0
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  },
+  {
+    "path": "DiscPanel/----SafeAreaRoot----/---Music---/--MusicRight--/goSideB/rtSideBBg/btnRead/AnimRoot/Image",
+    "sprite": {
+      "m_FileID": 2,
+      "m_PathID": -1431701062116514845
+    },
+    "color": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "rect": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 1633408771386092557
+      },
+      "m_LocalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "m_LocalPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_Children": [
+        {
+          "m_FileID": 0,
+          "m_PathID": -7255075685841885478
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 5814785233848968547
+        }
+      ],
+      "m_Father": {
+        "m_FileID": 0,
+        "m_PathID": 3928031230341260023
+      },
+      "m_AnchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchoredPosition": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "m_SizeDelta": {
+        "x": 647.7891845703125,
+        "y": 110.53829956054688
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  },
+  {
+    "path": "DiscPanel/----SafeAreaRoot----/---Music---/--MusicRight--/goSideB/rtSideBBg/btnRead/AnimRoot/goReadOff/Image",
+    "sprite": {
+      "m_FileID": 2,
+      "m_PathID": 2889444395718030132
+    },
+    "color": {
+      "r": 0.5176470875740051,
+      "g": 0.6039215922355652,
+      "b": 0.6823529601097107,
+      "a": 1.0
+    },
+    "rect": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": -5519954814111398799
+      },
+      "m_LocalRotation": {
+        "x": -0.0,
+        "y": -0.0,
+        "z": -0.0,
+        "w": 1.0
+      },
+      "m_LocalPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_Children": [],
+      "m_Father": {
+        "m_FileID": 0,
+        "m_PathID": 1054237886529690449
+      },
+      "m_AnchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchoredPosition": {
+        "x": -277.300048828125,
+        "y": 2.369999885559082
+      },
+      "m_SizeDelta": {
+        "x": 50.0,
+        "y": 42.0
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  },
+  {
+    "path": "DiscPanel/----SafeAreaRoot----/---Music---/--Left--/imgPhonograph/img3",
+    "sprite": {
+      "m_FileID": 0,
+      "m_PathID": -2566440774046950572
+    },
+    "color": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 0.800000011920929
+    },
+    "rect": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 7782123559244618176
+      },
+      "m_LocalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "m_LocalPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "m_LocalScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "m_Children": [],
+      "m_Father": {
+        "m_FileID": 0,
+        "m_PathID": 481863139760665291
+      },
+      "m_AnchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchoredPosition": {
+        "x": 278.6000061035156,
+        "y": -111.0999984741211
+      },
+      "m_SizeDelta": {
+        "x": 44.0,
+        "y": 256.0
+      },
+      "m_Pivot": {
+        "x": 0.949999988079071,
+        "y": 0.05000000074505806
+      }
+    }
+  },
+  {
+    "path": "DiscPanel/----SafeAreaRoot----/---Music---/--MusicRight--/goSideB/rtSideBBg/btnRead/AnimRoot/Image/Image",
+    "sprite": {
+      "m_FileID": 7,
+      "m_PathID": -4185555884557381096
+    },
+    "color": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "rect": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": -3887400834626759262
+      },
+      "m_LocalRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "m_LocalPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "m_LocalScale": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5
+      },
+      "m_Children": [],
+      "m_Father": {
+        "m_FileID": 0,
+        "m_PathID": -8659924567460126317
+      },
+      "m_AnchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchoredPosition": {
+        "x": 270.3999938964844,
+        "y": -3.299999952316284
+      },
+      "m_SizeDelta": {
+        "x": 204.0,
+        "y": 196.0
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  }
+]

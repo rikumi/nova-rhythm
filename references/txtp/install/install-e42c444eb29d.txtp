@@ -1,0 +1,5 @@
+{{GAME}}/xtlr_Data/StreamingAssets/InstallResource/txtp/wem/183754302.wem #i #b 1.6666666666666698  #v -3.0dB #m0^1.0~0.0=P@-1~1.676956295967102+1.2397104501724243~-1
+  {{GAME}}/xtlr_Data/StreamingAssets/InstallResource/txtp/wem/810805846.wem #i #b 1.6666666666666698  #v -3.0dB #m0^0.0~1.0=P@-1~0.0+0.47420641779899597~-1
+ group = -L2 #@layer-v
+ {{GAME}}/xtlr_Data/StreamingAssets/InstallResource/txtp/wem/810805846.wem #i #b 108.35616780045352 #r 1.6666666666666698 #@loop
+group = -S2  ##loop

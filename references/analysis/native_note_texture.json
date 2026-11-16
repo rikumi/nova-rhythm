@@ -1,0 +1,30 @@
+{
+  "source_bundle": "{{GAME}}\\Persistent_Store\\AssetBundles\\ui_commonex.unity3d",
+  "material_id": 2882582292074277227,
+  "material_name": "Common_Particle_Note_01",
+  "texture_name": "Common_Particle_Note_04",
+  "texture_reference": {
+    "m_Texture": {
+      "m_FileID": 0,
+      "m_PathID": -6254087866998103809
+    },
+    "m_Scale": {
+      "x": 1.0,
+      "y": 1.0
+    },
+    "m_Offset": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  "texture_size": [
+    256,
+    128
+  ],
+  "particle_system": "UIParticleNote/Music",
+  "tiles": [
+    2,
+    1
+  ],
+  "output": "public\\ui\\particle_music_notes.png"
+}

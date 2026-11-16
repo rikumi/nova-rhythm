@@ -1,0 +1,389 @@
+{
+  "tokens": {
+    "launch": "启动画面",
+    "main": "登录与主界面",
+    "recruit": "招募过程",
+    "shop": "采购商店",
+    "victory2": "探索完成",
+    "formation": "编队",
+    "levelselect": "关卡选择",
+    "bossrank": "巅峰猎场",
+    "regionboss": "区域首领",
+    "bossrush": "终焉绝响",
+    "endlesstower": "无尽之塔",
+    "groupcombat": "猎影合围",
+    "card": "命运星牌局",
+    "cardin": "命运星牌局-入场",
+    "gift": "豪礼抛物线",
+    "giftin": "豪礼抛物线-序奏",
+    "golddigger1": "幸运寻宝铲",
+    "golddigger1in": "幸运寻宝铲-入场",
+    "sudu": "速度与机擎",
+    "suduin": "速度与机擎-大厅",
+    "lieying": "猎影合围",
+    "cookie": "甜心梦工坊",
+    "cookie2": "甜心梦工坊-变体2",
+    "cookie3": "甜心梦工坊-变体3",
+    "cookie4": "甜心梦工坊-变体4",
+    "icecream1": "沁凉补给站",
+    "duel": "尖兵陷阵",
+    "duelin": "尖兵陷阵-入场",
+    "chess": "赛尔西亚·疯狂战车",
+    "date": "闻香识魔女",
+    "houzhai": "后宅",
+    "creation": "共鸣创作",
+    "fastbattle": "快速战斗",
+    "vampire": "灾变防线",
+    "marble": "缭乱碎晶球",
+    "zizou": "尖兵陷阵",
+    "zizoupre": "尖兵陷阵·准备",
+    "zizousub": "尖兵陷阵·副段",
+    "mainline3": "主线第三章",
+    "mainline4": "主线第四章",
+    "mainline4dig": "主线第四章-探索",
+    "mainline5dig": "主线第五章-探索",
+    "mainline6": "主线第六章",
+    "duonadig": "多娜活动-探索",
+    "summer25": "欢歌劲浪·闪耀假日",
+    "summer25dig": "欢歌劲浪·闪耀假日-探索",
+    "summer26": "盛夏活动2026",
+    "christmas": "闪耀的使者与圣夜的精灵",
+    "youye": "优叶",
+    "forest": "森林",
+    "forestruins": "森林遗迹",
+    "waterbridge": "水城",
+    "desert": "沙漠",
+    "desert2": "沙漠-变体2",
+    "desert3": "沙漠-变体3",
+    "company": "公司",
+    "countryside": "乡野",
+    "darkforest": "暗林",
+    "zombieforest": "灾变防线·森林",
+    "zombieruins": "灾变防线·遗迹",
+    "roguelike": "星塔",
+    "roguewater": "流水与暗影",
+    "roguefire": "烈焰与尘埃",
+    "roguewind": "风暴与闪电",
+    "bossfight": "首领战",
+    "breakout": "突围玩法",
+    "towerdefense": "游棋保卫战",
+    "towerdefence2": "游棋保卫战-变体2",
+    "travelerduel": "尖兵陷阵",
+    "trail": "旅人试炼",
+    "prologuel": "开篇",
+    "springfest": "春节活动",
+    "fengying": "风影",
+    "duona": "多娜活动",
+    "yiye": "乙叶",
+    "feilai": "翡冷翠",
+    "huochui2": "火垂-变体2",
+    "maoyan": "猫眼",
+    "combatnomal": "普通战斗",
+    "combatboss": "首领战斗",
+    "combatelite": "精英战斗",
+    "combatleader": "领袖战斗",
+    "combatchallenge": "挑战战斗",
+    "combatrealchallenge": "高难挑战",
+    "explore": "探索",
+    "shopin": "进入交易之间",
+    "shopout": "离开交易之间",
+    "bossdefeat": "首领击败",
+    "victory": "挑战成功",
+    "defeat": "挑战失败",
+    "chess2": "赛尔西亚·绝望战车",
+    "magician": "崇高傀儡·科佩里乌斯与奥林匹娅",
+    "magician2": "崇高傀儡-变体2",
+    "shilaimu": "冻冻王三世",
+    "shilaimu2": "冻冻王三世-变体2",
+    "chuzi": "味觉惊惧",
+    "chuzi2": "味觉惊惧-变体2",
+    "daguanzi": "热嘟噜噗男爵",
+    "daguanzi2": "热嘟噜噗男爵-变体2",
+    "fan": "吹灰夫人",
+    "fan2": "吹灰夫人-变体2",
+    "lamp": "终宵萤辉",
+    "lamp2": "终宵萤辉-变体2",
+    "lirong": "禁断丽容",
+    "lirong2": "禁断丽容-变体2",
+    "fengcao": "流风美人",
+    "fengcao2": "流风美人-变体2",
+    "haitu": "咕噜六角鲸",
+    "haitu2": "咕噜六角鲸-变体2",
+    "hasana": "哈萨娜",
+    "huayuan": "花原",
+    "huochui": "火垂",
+    "huochui3": "火垂-变体3",
+    "wuyu": "雾语",
+    "penguin": "企鹅狩猎",
+    "nianshou2": "年兽-变体2",
+    "tiaowuji_combat": "怪诞舞者-战斗",
+    "tiaowuji_ultimate": "怪诞舞者-终结技",
+    "medusa": "终焉绝响·首领配乐",
+    "medusa2": "终焉绝响·首领配乐·变体2",
+    "prologue": "开篇",
+    "prologue_climb": "开篇·攀登",
+    "prologue_firstcombat": "开篇·第一场战斗",
+    "prologue_secondcombat": "开篇·第二场战斗",
+    "prologue_combatend": "开篇·战斗结束",
+    "prologue_skip": "开篇·跳过",
+    "zizouvictory": "尖兵陷阵·胜利曲",
+    "zombie": "灾变防线",
+    "city": "城镇",
+    "fengying2": "风影·变体2",
+    "chensha": "尘沙",
+    "dongxiang": "冬香",
+    "dongxiangdig": "冬香·探索",
+    "sipai": "斯帕克拉",
+    "ailinuo": "埃莉诺",
+    "ailei": "艾蕾",
+    "fengniao": "翠煌之刃",
+    "fengniao2": "翠煌之刃·变体2",
+    "shasha": "渊海主宰",
+    "gelei": "格蕾霍恩",
+    "nianshou": "年兽",
+    "cookie_start": "开始",
+    "cookie_end": "结束",
+    "cookie_free": "自由演奏",
+    "cookietrans": "甜心梦工坊·过场",
+    "none": "默认",
+    "regular": "常规",
+    "login": "登录",
+    "activity": "活动界面",
+    "camp": "营地",
+    "mainline": "主线",
+    "questking": "任务玩法（名称待考）",
+    "shop_purchased": "采购完成",
+    "r": "旅人招募·R",
+    "sr": "旅人招募·SR",
+    "ssr": "旅人招募·SSR",
+    "diskr": "秘纹招募·R",
+    "cookie_bpm40": "每分钟40拍",
+    "cookie_bpm50": "每分钟50拍",
+    "cookie_bpm60": "每分钟60拍",
+    "cookie_bpm65": "每分钟65拍",
+    "cookie_bpm68": "每分钟68拍",
+    "cookie_bpm75": "每分钟75拍"
+  },
+  "activity_aliases": {
+    "dongxiang": {
+      "character_or_event": "冬香",
+      "activity_id": 10101,
+      "activity": {
+        "id": "activity-10101",
+        "name": "我们的旅团",
+        "date": "2025-11-18T12:00:00+08:00",
+        "basis": "ActivityGroup.StartTime + ActivityStoryChapter.Title / ActivityGroup.DesText"
+      }
+    },
+    "dongxiangdig": {
+      "character_or_event": "冬香",
+      "activity_id": 10101,
+      "activity": {
+        "id": "activity-10101",
+        "name": "我们的旅团",
+        "date": "2025-11-18T12:00:00+08:00",
+        "basis": "ActivityGroup.StartTime + ActivityStoryChapter.Title / ActivityGroup.DesText"
+      }
+    },
+    "feilai": {
+      "character_or_event": "翡冷翠",
+      "activity_id": 10103,
+      "activity": {
+        "id": "activity-10103",
+        "name": "微火的奇迹",
+        "date": "2026-01-13T12:00:00+08:00",
+        "basis": "ActivityGroup.StartTime + ActivityStoryChapter.Title / ActivityGroup.DesText"
+      }
+    },
+    "fengying": {
+      "character_or_event": "风影",
+      "activity_id": 10105,
+      "activity": {
+        "id": "activity-10105",
+        "name": "冬夜镇魂曲与破晓扳机",
+        "date": "2026-02-24T12:00:00+08:00",
+        "basis": "ActivityGroup.StartTime + ActivityStoryChapter.Title / ActivityGroup.DesText"
+      }
+    },
+    "fengying2": {
+      "character_or_event": "风影",
+      "activity_id": 10105,
+      "activity": {
+        "id": "activity-10105",
+        "name": "冬夜镇魂曲与破晓扳机",
+        "date": "2026-02-24T12:00:00+08:00",
+        "basis": "ActivityGroup.StartTime + ActivityStoryChapter.Title / ActivityGroup.DesText"
+      }
+    },
+    "duona": {
+      "character_or_event": "多娜",
+      "activity_id": 10106,
+      "activity": {
+        "id": "activity-10106",
+        "name": "敬启，致珍重的你",
+        "date": "2026-03-17T12:00:00+08:00",
+        "basis": "ActivityGroup.StartTime + ActivityStoryChapter.Title / ActivityGroup.DesText"
+      }
+    },
+    "duonadig": {
+      "character_or_event": "多娜",
+      "activity_id": 10106,
+      "activity": {
+        "id": "activity-10106",
+        "name": "敬启，致珍重的你",
+        "date": "2026-03-17T12:00:00+08:00",
+        "basis": "ActivityGroup.StartTime + ActivityStoryChapter.Title / ActivityGroup.DesText"
+      }
+    },
+    "yiye": {
+      "character_or_event": "乙叶",
+      "activity_id": 20102,
+      "activity": {
+        "id": "activity-20102",
+        "name": "幽夜独舞孤影乱",
+        "date": "2026-04-16T12:00:00+08:00",
+        "basis": "ActivityGroup.StartTime + ActivityStoryChapter.Title / ActivityGroup.DesText"
+      }
+    },
+    "huochui": {
+      "character_or_event": "火垂",
+      "activity_id": 10107,
+      "activity": {
+        "id": "activity-10107",
+        "name": "穿透心壁的取景框",
+        "date": "2026-05-14T12:00:00+08:00",
+        "basis": "ActivityGroup.StartTime + ActivityStoryChapter.Title / ActivityGroup.DesText"
+      }
+    },
+    "sipai": {
+      "character_or_event": "斯帕克拉",
+      "activity_id": 10108,
+      "activity": {
+        "id": "activity-10108",
+        "name": "心跳！柔光狂想曲",
+        "date": "2026-06-02T12:00:00+08:00",
+        "basis": "ActivityGroup.StartTime + ActivityStoryChapter.Title / ActivityGroup.DesText"
+      }
+    },
+    "maoyan": {
+      "character_or_event": "猫眼",
+      "activity_id": 10109,
+      "activity": {
+        "id": "activity-10109",
+        "name": "枪林弹雨覆黄沙",
+        "date": "2026-06-30T12:00:00+08:00",
+        "basis": "ActivityGroup.StartTime + ActivityStoryChapter.Title / ActivityGroup.DesText"
+      }
+    },
+    "ailinuo": {
+      "character_or_event": "埃莉诺",
+      "activity_id": 10111,
+      "activity": {
+        "id": "activity-10111",
+        "name": "奋斗吧！大小姐的旅人修炼手册！",
+        "date": "2026-09-08T12:00:00+08:00",
+        "basis": "ActivityGroup.StartTime + ActivityStoryChapter.Title / ActivityGroup.DesText"
+      }
+    },
+    "ailei": {
+      "character_or_event": "艾蕾",
+      "activity_id": 10112,
+      "activity": {
+        "id": "activity-10112",
+        "name": "遥远的塔",
+        "date": "2026-09-29T12:00:00+08:00",
+        "basis": "ActivityGroup.StartTime + ActivityStoryChapter.Title / ActivityGroup.DesText"
+      }
+    },
+    "chensha": {
+      "character_or_event": "尘沙",
+      "activity_id": 20104,
+      "activity": {
+        "id": "activity-20104",
+        "name": "完璧之庭 · 微尘破晓",
+        "date": "2026-10-20T12:00:00+08:00",
+        "basis": "ActivityGroup.StartTime + ActivityStoryChapter.Title / ActivityGroup.DesText"
+      }
+    },
+    "youye": {
+      "character_or_event": "优叶",
+      "activity_id": 10113,
+      "activity": {
+        "id": "activity-10113",
+        "name": "执笔展卷，勾勒未名之境",
+        "date": "2026-11-13T12:00:00+08:00",
+        "basis": "ActivityGroup.StartTime + ActivityStoryChapter.Title / ActivityGroup.DesText"
+      }
+    },
+    "springfest": {
+      "character_or_event": "春节",
+      "activity_id": 10104,
+      "activity": {
+        "id": "activity-10104",
+        "name": "烟火绮丽寻春意",
+        "date": "2026-02-03T12:00:00+08:00",
+        "basis": "ActivityGroup.StartTime + ActivityStoryChapter.Title / ActivityGroup.DesText"
+      }
+    },
+    "christmas": {
+      "character_or_event": "圣诞",
+      "activity_id": 20101,
+      "activity": {
+        "id": "activity-20101",
+        "name": "闪耀的使者与圣夜的精灵",
+        "date": "2025-12-23T12:00:00+08:00",
+        "basis": "ActivityGroup.StartTime + ActivityStoryChapter.Title / ActivityGroup.DesText"
+      }
+    },
+    "summer25": {
+      "character_or_event": "夏日活动",
+      "activity_id": 10100,
+      "activity": {
+        "id": "activity-10100",
+        "name": "惊奇冒险！渊海幽灵船传说！",
+        "date": "2025-10-28T12:00:00+08:00",
+        "basis": "ActivityGroup.StartTime + ActivityStoryChapter.Title / ActivityGroup.DesText"
+      }
+    },
+    "summer25dig": {
+      "character_or_event": "夏日活动",
+      "activity_id": 10100,
+      "activity": {
+        "id": "activity-10100",
+        "name": "惊奇冒险！渊海幽灵船传说！",
+        "date": "2025-10-28T12:00:00+08:00",
+        "basis": "ActivityGroup.StartTime + ActivityStoryChapter.Title / ActivityGroup.DesText"
+      }
+    },
+    "summer26": {
+      "character_or_event": "盛夏活动",
+      "activity_id": 20103,
+      "activity": {
+        "id": "activity-20103",
+        "name": "晴风碧海 · 悠哉盛夏依然打卡~",
+        "date": "2026-07-21T12:00:00+08:00",
+        "basis": "ActivityGroup.StartTime + ActivityStoryChapter.Title / ActivityGroup.DesText"
+      }
+    },
+    "summer262": {
+      "character_or_event": "盛夏探险",
+      "activity_id": 10110,
+      "activity": {
+        "id": "activity-10110",
+        "name": "欢歌劲浪 · 闪耀假日惊涛探险！",
+        "date": "2026-08-18T12:00:00+08:00",
+        "basis": "ActivityGroup.StartTime + ActivityStoryChapter.Title / ActivityGroup.DesText"
+      }
+    }
+  },
+  "evidence": [
+    "user-confirmed character and mode names",
+    "local Wwise state components and activity bundle names",
+    "ActivityLevelsLevel -> Activity -> ActivityGroup",
+    "MonsterSkin -> MonsterManual"
+  ],
+  "uncertain": {
+    "questKing": "No direct UI/configuration usage located; display 任务玩法（名称待考）",
+    "medusa": "Used by JointDrillFloor; display mode name rather than guessing a boss from the English codename"
+  }
+}

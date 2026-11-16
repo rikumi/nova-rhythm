@@ -1,0 +1,4 @@
+{{GAME}}/xtlr_Data/StreamingAssets/InstallResource/txtp/wem/551360608.wem #i #b 20.5714285714286
+ {{GAME}}/xtlr_Data/StreamingAssets/InstallResource/txtp/wem/408006120.wem #i #b 61.7142857142857
+ {{GAME}}/xtlr_Data/StreamingAssets/InstallResource/txtp/wem/117114991.wem #i #b 41.1428571428571
+group = -S3 #@loop

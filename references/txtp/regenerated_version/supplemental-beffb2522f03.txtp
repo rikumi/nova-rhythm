@@ -1,0 +1,3 @@
+{{GAME}}/Persistent_Store/SoundBanks/Media/234443861.wem #i #b 1.5
+ {{GAME}}/Persistent_Store/SoundBanks/Media/110241216.wem #i #b 96.0 #@loop
+group = -S2  ##loop

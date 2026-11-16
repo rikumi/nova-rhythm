@@ -1,0 +1,923 @@
+{
+  "items": {
+    "2": {
+      "date": "2025-10-28T12:00:00+08:00",
+      "name": "惊奇冒险！渊海幽灵船传说！",
+      "id": 10100,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "214039": {
+      "date": "2025-10-28T12:00:00+08:00",
+      "name": "惊奇冒险！渊海幽灵船传说！",
+      "id": 10100,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "116001": {
+      "date": "2025-10-28T12:00:00+08:00",
+      "name": "惊奇冒险！渊海幽灵船传说！",
+      "id": 10100,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "502": {
+      "date": "2025-10-28T12:00:00+08:00",
+      "name": "惊奇冒险！渊海幽灵船传说！",
+      "id": 10100,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "503": {
+      "date": "2025-10-28T12:00:00+08:00",
+      "name": "惊奇冒险！渊海幽灵船传说！",
+      "id": 10100,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "20053": {
+      "date": "2025-10-28T12:00:00+08:00",
+      "name": "惊奇冒险！渊海幽灵船传说！",
+      "id": 10100,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "35000": {
+      "date": "2025-10-28T12:00:00+08:00",
+      "name": "惊奇冒险！渊海幽灵船传说！",
+      "id": 10100,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "32013": {
+      "date": "2025-10-28T12:00:00+08:00",
+      "name": "惊奇冒险！渊海幽灵船传说！",
+      "id": 10100,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "20083": {
+      "date": "2025-10-28T12:00:00+08:00",
+      "name": "惊奇冒险！渊海幽灵船传说！",
+      "id": 10100,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "21083": {
+      "date": "2025-10-28T12:00:00+08:00",
+      "name": "惊奇冒险！渊海幽灵船传说！",
+      "id": 10100,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "30004": {
+      "date": "2025-10-28T12:00:00+08:00",
+      "name": "惊奇冒险！渊海幽灵船传说！",
+      "id": 10100,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "50004": {
+      "date": "2025-10-28T12:00:00+08:00",
+      "name": "惊奇冒险！渊海幽灵船传说！",
+      "id": 10100,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "29": {
+      "date": "2025-10-28T12:00:00+08:00",
+      "name": "惊奇冒险！渊海幽灵船传说！",
+      "id": 10100,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "33032": {
+      "date": "2025-10-28T12:00:00+08:00",
+      "name": "惊奇冒险！渊海幽灵船传说！",
+      "id": 10100,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "33042": {
+      "date": "2025-10-28T12:00:00+08:00",
+      "name": "惊奇冒险！渊海幽灵船传说！",
+      "id": 10100,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "33062": {
+      "date": "2025-10-28T12:00:00+08:00",
+      "name": "惊奇冒险！渊海幽灵船传说！",
+      "id": 10100,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "1": {
+      "date": "2025-10-28T12:00:00+08:00",
+      "name": "惊奇冒险！渊海幽灵船传说！",
+      "id": 10100,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "214040": {
+      "date": "2025-11-18T12:00:00+08:00",
+      "name": "我们的旅团",
+      "id": 10101,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "116002": {
+      "date": "2025-11-18T12:00:00+08:00",
+      "name": "我们的旅团",
+      "id": 10101,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "20023": {
+      "date": "2025-11-18T12:00:00+08:00",
+      "name": "我们的旅团",
+      "id": 10101,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "21073": {
+      "date": "2025-11-18T12:00:00+08:00",
+      "name": "我们的旅团",
+      "id": 10101,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "30": {
+      "date": "2025-11-18T12:00:00+08:00",
+      "name": "我们的旅团",
+      "id": 10101,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "33022": {
+      "date": "2025-11-18T12:00:00+08:00",
+      "name": "我们的旅团",
+      "id": 10101,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "33082": {
+      "date": "2025-11-18T12:00:00+08:00",
+      "name": "我们的旅团",
+      "id": 10101,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "214024": {
+      "date": "2025-12-09T12:00:00+08:00",
+      "name": "梦的彼岸",
+      "id": 10102,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "116003": {
+      "date": "2025-12-09T12:00:00+08:00",
+      "name": "梦的彼岸",
+      "id": 10102,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "21043": {
+      "date": "2025-12-09T12:00:00+08:00",
+      "name": "梦的彼岸",
+      "id": 10102,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "32003": {
+      "date": "2025-12-09T12:00:00+08:00",
+      "name": "梦的彼岸",
+      "id": 10102,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "20093": {
+      "date": "2025-12-09T12:00:00+08:00",
+      "name": "梦的彼岸",
+      "id": 10102,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "33072": {
+      "date": "2025-12-09T12:00:00+08:00",
+      "name": "梦的彼岸",
+      "id": 10102,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "214041": {
+      "date": "2025-12-23T12:00:00+08:00",
+      "name": "闪耀的使者与圣夜的精灵",
+      "id": 20101,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "116004": {
+      "date": "2025-12-23T12:00:00+08:00",
+      "name": "闪耀的使者与圣夜的精灵",
+      "id": 20101,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "21023": {
+      "date": "2025-12-23T12:00:00+08:00",
+      "name": "闪耀的使者与圣夜的精灵",
+      "id": 20101,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "20073": {
+      "date": "2025-12-23T12:00:00+08:00",
+      "name": "闪耀的使者与圣夜的精灵",
+      "id": 20101,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "21093": {
+      "date": "2025-12-23T12:00:00+08:00",
+      "name": "闪耀的使者与圣夜的精灵",
+      "id": 20101,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "33052": {
+      "date": "2025-12-23T12:00:00+08:00",
+      "name": "闪耀的使者与圣夜的精灵",
+      "id": 20101,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "214043": {
+      "date": "2026-01-13T12:00:00+08:00",
+      "name": "微火的奇迹",
+      "id": 10103,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "116005": {
+      "date": "2026-01-13T12:00:00+08:00",
+      "name": "微火的奇迹",
+      "id": 10103,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "20013": {
+      "date": "2026-01-13T12:00:00+08:00",
+      "name": "微火的奇迹",
+      "id": 10103,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "32023": {
+      "date": "2026-01-13T12:00:00+08:00",
+      "name": "微火的奇迹",
+      "id": 10103,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "33012": {
+      "date": "2026-01-13T12:00:00+08:00",
+      "name": "微火的奇迹",
+      "id": 10103,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "214042": {
+      "date": "2026-02-03T12:00:00+08:00",
+      "name": "烟火绮丽寻春意",
+      "id": 10104,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "116006": {
+      "date": "2026-02-03T12:00:00+08:00",
+      "name": "烟火绮丽寻春意",
+      "id": 10104,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "21003": {
+      "date": "2026-02-03T12:00:00+08:00",
+      "name": "烟火绮丽寻春意",
+      "id": 10104,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "119011": {
+      "date": "2026-02-17T12:00:00+08:00",
+      "name": "缭乱碎晶球",
+      "id": 30101,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "33912": {
+      "date": "2026-02-17T12:00:00+08:00",
+      "name": "缭乱碎晶球",
+      "id": 30101,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "82007": {
+      "date": "2026-02-17T12:00:00+08:00",
+      "name": "缭乱碎晶球",
+      "id": 30101,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "32000": {
+      "date": "2026-02-17T12:00:00+08:00",
+      "name": "缭乱碎晶球",
+      "id": 30101,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "214046": {
+      "date": "2026-02-24T12:00:00+08:00",
+      "name": "冬夜镇魂曲与破晓扳机",
+      "id": 10105,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "116007": {
+      "date": "2026-02-24T12:00:00+08:00",
+      "name": "冬夜镇魂曲与破晓扳机",
+      "id": 10105,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "20043": {
+      "date": "2026-02-24T12:00:00+08:00",
+      "name": "冬夜镇魂曲与破晓扳机",
+      "id": 10105,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "214047": {
+      "date": "2026-03-17T12:00:00+08:00",
+      "name": "敬启，致珍重的你",
+      "id": 10106,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "116008": {
+      "date": "2026-03-17T12:00:00+08:00",
+      "name": "敬启，致珍重的你",
+      "id": 10106,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "21063": {
+      "date": "2026-03-17T12:00:00+08:00",
+      "name": "敬启，致珍重的你",
+      "id": 10106,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "214050": {
+      "date": "2026-04-16T12:00:00+08:00",
+      "name": "幽夜独舞孤影乱",
+      "id": 20102,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "116009": {
+      "date": "2026-04-16T12:00:00+08:00",
+      "name": "幽夜独舞孤影乱",
+      "id": 20102,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "35010": {
+      "date": "2026-04-16T12:00:00+08:00",
+      "name": "幽夜独舞孤影乱",
+      "id": 20102,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "21013": {
+      "date": "2026-04-16T12:00:00+08:00",
+      "name": "幽夜独舞孤影乱",
+      "id": 20102,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "119012": {
+      "date": "2026-05-26T12:00:00+08:00",
+      "name": "限时活动",
+      "id": 30102,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "214003": {
+      "date": "2026-05-14T12:00:00+08:00",
+      "name": "穿透心壁的取景框",
+      "id": 10107,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "116010": {
+      "date": "2026-05-14T12:00:00+08:00",
+      "name": "穿透心壁的取景框",
+      "id": 10107,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "21053": {
+      "date": "2026-05-14T12:00:00+08:00",
+      "name": "穿透心壁的取景框",
+      "id": 10107,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "214052": {
+      "date": "2026-06-02T12:00:00+08:00",
+      "name": "心跳！柔光狂想曲",
+      "id": 10108,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "116011": {
+      "date": "2026-06-02T12:00:00+08:00",
+      "name": "心跳！柔光狂想曲",
+      "id": 10108,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "20003": {
+      "date": "2026-06-02T12:00:00+08:00",
+      "name": "心跳！柔光狂想曲",
+      "id": 10108,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "214056": {
+      "date": "2026-07-21T12:00:00+08:00",
+      "name": "晴风碧海 · 悠哉盛夏依然打卡~",
+      "id": 20103,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "116013": {
+      "date": "2026-07-21T12:00:00+08:00",
+      "name": "晴风碧海 · 悠哉盛夏依然打卡~",
+      "id": 20103,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "20063": {
+      "date": "2026-07-21T12:00:00+08:00",
+      "name": "晴风碧海 · 悠哉盛夏依然打卡~",
+      "id": 20103,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "214058": {
+      "date": "2026-08-18T12:00:00+08:00",
+      "name": "欢歌劲浪 · 闪耀假日惊涛探险！",
+      "id": 10110,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "116014": {
+      "date": "2026-08-18T12:00:00+08:00",
+      "name": "欢歌劲浪 · 闪耀假日惊涛探险！",
+      "id": 10110,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "119013": {
+      "date": "2026-09-01T12:00:00+08:00",
+      "name": "限时活动",
+      "id": 30103,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "214060": {
+      "date": "2026-09-08T12:00:00+08:00",
+      "name": "奋斗吧！大小姐的旅人修炼手册！",
+      "id": 10111,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "116015": {
+      "date": "2026-09-08T12:00:00+08:00",
+      "name": "奋斗吧！大小姐的旅人修炼手册！",
+      "id": 10111,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "214062": {
+      "date": "2026-09-29T12:00:00+08:00",
+      "name": "遥远的塔",
+      "id": 10112,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "116016": {
+      "date": "2026-09-29T12:00:00+08:00",
+      "name": "遥远的塔",
+      "id": 10112,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "214067": {
+      "date": "2026-10-20T12:00:00+08:00",
+      "name": "完璧之庭 · 微尘破晓",
+      "id": 20104,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "116017": {
+      "date": "2026-10-20T12:00:00+08:00",
+      "name": "完璧之庭 · 微尘破晓",
+      "id": 20104,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "710014": {
+      "date": "2026-10-20T12:00:00+08:00",
+      "name": "完璧之庭 · 微尘破晓",
+      "id": 20104,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "119014": {
+      "date": "2026-11-03T12:00:00+08:00",
+      "name": "限时活动",
+      "id": 30104,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "214069": {
+      "date": "2026-11-13T12:00:00+08:00",
+      "name": "执笔展卷，勾勒未名之境",
+      "id": 10113,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "116018": {
+      "date": "2026-11-13T12:00:00+08:00",
+      "name": "执笔展卷，勾勒未名之境",
+      "id": 10113,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "710016": {
+      "date": "2026-11-13T12:00:00+08:00",
+      "name": "执笔展卷，勾勒未名之境",
+      "id": 10113,
+      "basis": "ActivityGroup.RewardsShow"
+    },
+    "144": {
+      "date": "2025-10-20T04:00:00+08:00",
+      "name": "夜月倾流，闪烁刀影里",
+      "id": 10144,
+      "basis": "Gacha.ATypeUpPkg -> GachaPkg.GoodsId (first known banner)"
+    },
+    "155": {
+      "date": "2025-10-28T12:00:00+08:00",
+      "name": "惊奇冒险！渊海幽灵船传说！",
+      "id": 10100,
+      "basis": "Gacha.ATypeUpPkg -> GachaPkg.GoodsId (first known banner)"
+    },
+    "119": {
+      "date": "2025-11-11T12:00:00+08:00",
+      "name": "命定奇遇",
+      "id": 10119,
+      "basis": "Gacha.ATypeUpPkg -> GachaPkg.GoodsId (first known banner)"
+    },
+    "134": {
+      "date": "2025-11-18T12:00:00+08:00",
+      "name": "我们的旅团",
+      "id": 10101,
+      "basis": "Gacha.ATypeUpPkg -> GachaPkg.GoodsId (first known banner)"
+    },
+    "149": {
+      "date": "2025-12-02T12:00:00+08:00",
+      "name": "命定奇遇",
+      "id": 10149,
+      "basis": "Gacha.ATypeUpPkg -> GachaPkg.GoodsId (first known banner)"
+    },
+    "133": {
+      "date": "2025-12-09T12:00:00+08:00",
+      "name": "梦的彼岸",
+      "id": 10102,
+      "basis": "Gacha.ATypeUpPkg -> GachaPkg.GoodsId (first known banner)"
+    },
+    "158": {
+      "date": "2025-12-23T12:00:00+08:00",
+      "name": "闪耀的使者与圣夜的精灵",
+      "id": 20101,
+      "basis": "Gacha.ATypeUpPkg -> GachaPkg.GoodsId (first known banner)"
+    },
+    "125": {
+      "date": "2025-12-30T12:00:00+08:00",
+      "name": "命定奇遇",
+      "id": 10125,
+      "basis": "Gacha.ATypeUpPkg -> GachaPkg.GoodsId (first known banner)"
+    },
+    "110": {
+      "date": "2026-01-13T12:00:00+08:00",
+      "name": "微火的奇迹",
+      "id": 10103,
+      "basis": "Gacha.ATypeUpPkg -> GachaPkg.GoodsId (first known banner)"
+    },
+    "135": {
+      "date": "2026-01-27T12:00:00+08:00",
+      "name": "命定奇遇",
+      "id": 10135,
+      "basis": "Gacha.ATypeUpPkg -> GachaPkg.GoodsId (first known banner)"
+    },
+    "159": {
+      "date": "2026-02-03T12:00:00+08:00",
+      "name": "烟火绮丽寻春意",
+      "id": 10104,
+      "basis": "Gacha.ATypeUpPkg -> GachaPkg.GoodsId (first known banner)"
+    },
+    "141": {
+      "date": "2026-02-17T12:00:00+08:00",
+      "name": "命定奇遇",
+      "id": 10141,
+      "basis": "Gacha.ATypeUpPkg -> GachaPkg.GoodsId (first known banner)"
+    },
+    "143": {
+      "date": "2026-02-24T12:00:00+08:00",
+      "name": "冬夜镇魂曲与破晓扳机",
+      "id": 10105,
+      "basis": "Gacha.ATypeUpPkg -> GachaPkg.GoodsId (first known banner)"
+    },
+    "132": {
+      "date": "2026-03-10T12:00:00+08:00",
+      "name": "命定奇遇",
+      "id": 10132,
+      "basis": "Gacha.ATypeUpPkg -> GachaPkg.GoodsId (first known banner)"
+    },
+    "130": {
+      "date": "2026-03-17T12:00:00+08:00",
+      "name": "敬启，致珍重的你",
+      "id": 10106,
+      "basis": "Gacha.ATypeUpPkg -> GachaPkg.GoodsId (first known banner)"
+    },
+    "156": {
+      "date": "2026-03-31T12:00:00+08:00",
+      "name": "命定奇遇",
+      "id": 10156,
+      "basis": "Gacha.ATypeUpPkg -> GachaPkg.GoodsId (first known banner)"
+    },
+    "145": {
+      "date": "2026-04-16T12:00:00+08:00",
+      "name": "幽夜独舞孤影乱",
+      "id": 20102,
+      "basis": "Gacha.ATypeUpPkg -> GachaPkg.GoodsId (first known banner)"
+    },
+    "115": {
+      "date": "2026-05-14T12:00:00+08:00",
+      "name": "穿透心壁的取景框",
+      "id": 10107,
+      "basis": "Gacha.ATypeUpPkg -> GachaPkg.GoodsId (first known banner)"
+    },
+    "140": {
+      "date": "2026-06-02T12:00:00+08:00",
+      "name": "心跳！柔光狂想曲",
+      "id": 10108,
+      "basis": "Gacha.ATypeUpPkg -> GachaPkg.GoodsId (first known banner)"
+    },
+    "114": {
+      "date": "2026-06-30T12:00:00+08:00",
+      "name": "枪林弹雨覆黄沙",
+      "id": 10109,
+      "basis": "Gacha.ATypeUpPkg -> GachaPkg.GoodsId (first known banner)"
+    },
+    "160": {
+      "date": "2026-07-21T12:00:00+08:00",
+      "name": "晴风碧海 · 悠哉盛夏依然打卡~",
+      "id": 20103,
+      "basis": "Gacha.ATypeUpPkg -> GachaPkg.GoodsId (first known banner)"
+    },
+    "157": {
+      "date": "2026-08-18T12:00:00+08:00",
+      "name": "欢歌劲浪 · 闪耀假日惊涛探险！",
+      "id": 10110,
+      "basis": "Gacha.ATypeUpPkg -> GachaPkg.GoodsId (first known banner)"
+    },
+    "137": {
+      "date": "2026-09-08T12:00:00+08:00",
+      "name": "奋斗吧！大小姐的旅人修炼手册！",
+      "id": 10111,
+      "basis": "Gacha.ATypeUpPkg -> GachaPkg.GoodsId (first known banner)"
+    },
+    "139": {
+      "date": "2026-09-29T12:00:00+08:00",
+      "name": "遥远的塔",
+      "id": 10112,
+      "basis": "Gacha.ATypeUpPkg -> GachaPkg.GoodsId (first known banner)"
+    },
+    "162": {
+      "date": "2026-10-20T12:00:00+08:00",
+      "name": "完璧之庭 · 微尘破晓",
+      "id": 20104,
+      "basis": "Gacha.ATypeUpPkg -> GachaPkg.GoodsId (first known banner)"
+    },
+    "161": {
+      "date": "2026-11-13T12:00:00+08:00",
+      "name": "执笔展卷，勾勒未名之境",
+      "id": 10113,
+      "basis": "Gacha.ATypeUpPkg -> GachaPkg.GoodsId (first known banner)"
+    },
+    "214026": {
+      "date": "2025-10-20T04:00:00+08:00",
+      "name": "浮月倒映清潭上",
+      "id": 20144,
+      "basis": "Gacha.ATypeUpPkg -> GachaPkg.GoodsId (first known banner)"
+    },
+    "214038": {
+      "date": "2025-10-28T12:00:00+08:00",
+      "name": "惊奇冒险！渊海幽灵船传说！",
+      "id": 10100,
+      "basis": "Gacha.ATypeUpPkg -> GachaPkg.GoodsId (first known banner)"
+    },
+    "214028": {
+      "date": "2025-11-11T12:00:00+08:00",
+      "name": "心弦定音",
+      "id": 20119,
+      "basis": "Gacha.ATypeUpPkg -> GachaPkg.GoodsId (first known banner)"
+    },
+    "214017": {
+      "date": "2025-11-18T12:00:00+08:00",
+      "name": "我们的旅团",
+      "id": 10101,
+      "basis": "Gacha.ATypeUpPkg -> GachaPkg.GoodsId (first known banner)"
+    },
+    "214036": {
+      "date": "2025-12-02T12:00:00+08:00",
+      "name": "心弦定音",
+      "id": 20149,
+      "basis": "Gacha.ATypeUpPkg -> GachaPkg.GoodsId (first known banner)"
+    },
+    "214015": {
+      "date": "2025-12-09T12:00:00+08:00",
+      "name": "梦的彼岸",
+      "id": 10102,
+      "basis": "Gacha.ATypeUpPkg -> GachaPkg.GoodsId (first known banner)"
+    },
+    "214048": {
+      "date": "2025-12-23T12:00:00+08:00",
+      "name": "闪耀的使者与圣夜的精灵",
+      "id": 20101,
+      "basis": "Gacha.ATypeUpPkg -> GachaPkg.GoodsId (first known banner)"
+    },
+    "214005": {
+      "date": "2025-12-30T12:00:00+08:00",
+      "name": "心弦定音",
+      "id": 20125,
+      "basis": "Gacha.ATypeUpPkg -> GachaPkg.GoodsId (first known banner)"
+    },
+    "214004": {
+      "date": "2026-01-13T12:00:00+08:00",
+      "name": "微火的奇迹",
+      "id": 10103,
+      "basis": "Gacha.ATypeUpPkg -> GachaPkg.GoodsId (first known banner)"
+    },
+    "214006": {
+      "date": "2026-01-27T12:00:00+08:00",
+      "name": "心弦定音",
+      "id": 20135,
+      "basis": "Gacha.ATypeUpPkg -> GachaPkg.GoodsId (first known banner)"
+    },
+    "214044": {
+      "date": "2026-02-03T12:00:00+08:00",
+      "name": "烟火绮丽寻春意",
+      "id": 10104,
+      "basis": "Gacha.ATypeUpPkg -> GachaPkg.GoodsId (first known banner)"
+    },
+    "214027": {
+      "date": "2026-02-17T12:00:00+08:00",
+      "name": "心弦定音",
+      "id": 20141,
+      "basis": "Gacha.ATypeUpPkg -> GachaPkg.GoodsId (first known banner)"
+    },
+    "214016": {
+      "date": "2026-02-24T12:00:00+08:00",
+      "name": "冬夜镇魂曲与破晓扳机",
+      "id": 10105,
+      "basis": "Gacha.ATypeUpPkg -> GachaPkg.GoodsId (first known banner)"
+    },
+    "214007": {
+      "date": "2026-03-10T12:00:00+08:00",
+      "name": "心弦定音",
+      "id": 20132,
+      "basis": "Gacha.ATypeUpPkg -> GachaPkg.GoodsId (first known banner)"
+    },
+    "214008": {
+      "date": "2026-03-17T12:00:00+08:00",
+      "name": "敬启，致珍重的你",
+      "id": 10106,
+      "basis": "Gacha.ATypeUpPkg -> GachaPkg.GoodsId (first known banner)"
+    },
+    "214037": {
+      "date": "2026-03-31T12:00:00+08:00",
+      "name": "心弦定音",
+      "id": 20156,
+      "basis": "Gacha.ATypeUpPkg -> GachaPkg.GoodsId (first known banner)"
+    },
+    "214045": {
+      "date": "2026-04-16T12:00:00+08:00",
+      "name": "幽夜独舞孤影乱",
+      "id": 20102,
+      "basis": "Gacha.ATypeUpPkg -> GachaPkg.GoodsId (first known banner)"
+    },
+    "214051": {
+      "date": "2026-05-14T12:00:00+08:00",
+      "name": "穿透心壁的取景框",
+      "id": 10107,
+      "basis": "Gacha.ATypeUpPkg -> GachaPkg.GoodsId (first known banner)"
+    },
+    "214054": {
+      "date": "2026-06-02T12:00:00+08:00",
+      "name": "心跳！柔光狂想曲",
+      "id": 10108,
+      "basis": "Gacha.ATypeUpPkg -> GachaPkg.GoodsId (first known banner)"
+    },
+    "214029": {
+      "date": "2026-06-30T12:00:00+08:00",
+      "name": "枪林弹雨覆黄沙",
+      "id": 10109,
+      "basis": "Gacha.ATypeUpPkg -> GachaPkg.GoodsId (first known banner)"
+    },
+    "214055": {
+      "date": "2026-07-21T12:00:00+08:00",
+      "name": "晴风碧海 · 悠哉盛夏依然打卡~",
+      "id": 20103,
+      "basis": "Gacha.ATypeUpPkg -> GachaPkg.GoodsId (first known banner)"
+    },
+    "214057": {
+      "date": "2026-08-18T12:00:00+08:00",
+      "name": "欢歌劲浪 · 闪耀假日惊涛探险！",
+      "id": 10110,
+      "basis": "Gacha.ATypeUpPkg -> GachaPkg.GoodsId (first known banner)"
+    },
+    "214059": {
+      "date": "2026-09-08T12:00:00+08:00",
+      "name": "奋斗吧！大小姐的旅人修炼手册！",
+      "id": 10111,
+      "basis": "Gacha.ATypeUpPkg -> GachaPkg.GoodsId (first known banner)"
+    },
+    "214061": {
+      "date": "2026-09-29T12:00:00+08:00",
+      "name": "遥远的塔",
+      "id": 10112,
+      "basis": "Gacha.ATypeUpPkg -> GachaPkg.GoodsId (first known banner)"
+    },
+    "214066": {
+      "date": "2026-10-20T12:00:00+08:00",
+      "name": "完璧之庭 · 微尘破晓",
+      "id": 20104,
+      "basis": "Gacha.ATypeUpPkg -> GachaPkg.GoodsId (first known banner)"
+    },
+    "214068": {
+      "date": "2026-11-13T12:00:00+08:00",
+      "name": "执笔展卷，勾勒未名之境",
+      "id": 10113,
+      "basis": "Gacha.ATypeUpPkg -> GachaPkg.GoodsId (first known banner)"
+    },
+    "33903": {
+      "date": "2025-12-23T12:00:00+08:00",
+      "name": "圣诞菈露版本特殊签到",
+      "id": 301011,
+      "basis": "LoginRewardGroup -> Activity"
+    },
+    "602": {
+      "date": "2025-12-23T12:00:00+08:00",
+      "name": "圣诞菈露版本特殊签到",
+      "id": 301011,
+      "basis": "LoginRewardGroup -> Activity"
+    },
+    "510": {
+      "date": "2025-12-23T12:00:00+08:00",
+      "name": "限定版本特殊签到",
+      "id": 301012,
+      "basis": "LoginRewardGroup -> Activity"
+    },
+    "214049": {
+      "date": "2026-04-16T12:00:00+08:00",
+      "name": "半周年特殊签到",
+      "id": 301032,
+      "basis": "LoginRewardGroup -> Activity"
+    },
+    "512": {
+      "date": "2026-04-16T12:00:00+08:00",
+      "name": "半周年特殊签到",
+      "id": 301032,
+      "basis": "LoginRewardGroup -> Activity"
+    },
+    "224049": {
+      "date": "2026-04-16T12:00:00+08:00",
+      "name": "半周年特殊签到",
+      "id": 301032,
+      "basis": "LoginRewardGroup -> Activity"
+    },
+    "81009": {
+      "date": "2026-05-08T12:00:00+08:00",
+      "name": "主线第7章纪念签到",
+      "id": 301033,
+      "basis": "LoginRewardGroup -> Activity"
+    },
+    "82008": {
+      "date": "2026-05-08T12:00:00+08:00",
+      "name": "主线第7章纪念签到",
+      "id": 301033,
+      "basis": "LoginRewardGroup -> Activity"
+    },
+    "33913": {
+      "date": "2026-05-08T12:00:00+08:00",
+      "name": "主线第7章纪念签到",
+      "id": 301033,
+      "basis": "LoginRewardGroup -> Activity"
+    },
+    "82002": {
+      "date": "2026-05-08T12:00:00+08:00",
+      "name": "主线第7章纪念签到",
+      "id": 301033,
+      "basis": "LoginRewardGroup -> Activity"
+    },
+    "603": {
+      "date": "2026-05-08T12:00:00+08:00",
+      "name": "主线第7章纪念签到",
+      "id": 301033,
+      "basis": "LoginRewardGroup -> Activity"
+    },
+    "82005": {
+      "date": "2026-05-08T12:00:00+08:00",
+      "name": "主线第7章纪念签到",
+      "id": 301033,
+      "basis": "LoginRewardGroup -> Activity"
+    },
+    "513": {
+      "date": "2026-07-21T12:00:00+08:00",
+      "name": "夏活签到活动",
+      "id": 301041,
+      "basis": "LoginRewardGroup -> Activity"
+    },
+    "514": {
+      "date": "2026-10-20T12:00:00+08:00",
+      "name": "周年L2D7日签到",
+      "id": 301051,
+      "basis": "LoginRewardGroup -> Activity"
+    },
+    "610": {
+      "date": "2026-10-20T12:00:00+08:00",
+      "name": "周年L2D7日签到",
+      "id": 301051,
+      "basis": "LoginRewardGroup -> Activity"
+    },
+    "515": {
+      "date": "2026-10-20T12:00:00+08:00",
+      "name": "周年福利签到占位",
+      "id": 301052,
+      "basis": "LoginRewardGroup -> Activity"
+    },
+    "11205": {
+      "date": "2026-10-20T12:00:00+08:00",
+      "name": "一周年时装赠送签到",
+      "id": 301053,
+      "basis": "LoginRewardGroup -> Activity"
+    },
+    "4": {
+      "date": "2026-10-20T12:00:00+08:00",
+      "name": "一周年5日付费签到礼包",
+      "id": 302001,
+      "basis": "LoginRewardGroup -> Activity"
+    },
+    "81004": {
+      "date": "2026-10-20T12:00:00+08:00",
+      "name": "一周年5日付费签到礼包",
+      "id": 302001,
+      "basis": "LoginRewardGroup -> Activity"
+    }
+  },
+  "fallback": "常驻与早期秘纹；没有可核实活动日期的条目置于最后，不以秘纹编号冒充时间"
+}
