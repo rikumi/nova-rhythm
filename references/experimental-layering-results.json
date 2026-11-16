@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "releaseUrl": "https://github.com/rikumi/nova-rhythm/releases/tag/experimental-layering-qwen-reviewed-20261117",
+  "results": {
+    "4027": {
+      "code": "4027",
+      "outfit_id": 214027,
+      "name": "龙飞凤舞",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4027.png",
+      "layers": [
+        {
+          "file": "layer-00.png",
+          "size": [
+            640,
+            448
+          ],
+          "mode": "RGBA",
+          "sha256": "95c35047322fbdfbb163236f9fcdff342ea5712213598602621bf3d7c75cf981",
+          "visible_fraction": 1.0
+        },
+        {
+          "file": "layer-01.png",
+          "size": [
+            640,
+            448
+          ],
+          "mode": "RGBA",
+          "sha256": "54e80fc132401bd116b48f4098bf9519ec9b626a8e0e82d5ba0a461528ceb6ba",
+          "visible_fraction": 0.905552
+        },
+        {
+          "file": "layer-02.png",
+          "size": [
+            640,
+            448
+          ],
+          "mode": "RGBA",
+          "sha256": "14aa6295ed6983f4c22791d8b465be3d2fd6d4ed197b0044b1f5bd85b8ba3ea6",
+          "visible_fraction": 0.301144
+        },
+        {
+          "file": "layer-03.png",
+          "size": [
+            640,
+            448
+          ],
+          "mode": "RGBA",
+          "sha256": "26e78e7643821b1c7acdb11db158dd726647a984e3877121a0faaed74380f166",
+          "visible_fraction": 0.18335
+        }
+      ],
+      "caption": "An anime illustration of a red-haired girl in an ornate mechanical interior, with hanging structures, cables, windows and colorful fabric. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes.",
+      "model": "Qwen-Image-Layered",
+      "quantization": "unsloth Q4_K_M",
+      "source_sha256": "ef993b56b0db8ed460002b2edae3f861ed567cf6f7f777e0887dcf27fadacb7b",
+      "plan_fingerprint": "efe9c60804c9ed9312fb99409d6e3acf1b946f01165a71fe7ff47e44c6668f3b",
+      "seed": 778,
+      "steps": 30,
+      "cfg": 4.0,
+      "requested_layers": 4,
+      "input_size": [
+        640,
+        448
+      ],
+      "layer_order": "back-to-front",
+      "elapsed_seconds": 728.1,
+      "composite_mae_255": 8.166
+    },
+    "4043": {
+      "code": "4043",
+      "outfit_id": 214043,
+      "name": "革新的萌芽",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4043.png",
+      "layers": [
+        {
+          "file": "layer-00.png",
+          "size": [
+            640,
+            448
+          ],
+          "mode": "RGBA",
+          "sha256": "3685823dcb659b4ba88c115c49dd08c6f7533e5778246a06c50b8ca0197a89eb",
+          "visible_fraction": 1.0
+        },
+        {
+          "file": "layer-01.png",
+          "size": [
+            640,
+            448
+          ],
+          "mode": "RGBA",
+          "sha256": "bc76d32593fa3e8ebe1fd84d8472b3f633623098617f46f0d512a60c53e04c16",
+          "visible_fraction": 0.968443
+        },
+        {
+          "file": "layer-02.png",
+          "size": [
+            640,
+            448
+          ],
+          "mode": "RGBA",
+          "sha256": "b80e338bcfafb5f4e6bfe6bca5806f935e25515d6ab198944b9078f311660510",
+          "visible_fraction": 0.072454
+        },
+        {
+          "file": "layer-03.png",
+          "size": [
+            640,
+            448
+          ],
+          "mode": "RGBA",
+          "sha256": "230f7105d4650925db42ec6995909fd9813c59f61b7f497462ed47383c9231c6",
+          "visible_fraction": 0.115506
+        }
+      ],
+      "caption": "An anime illustration of several girls in a futuristic mechanical interior with a large circular machine, hanging structures and furniture. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes.",
+      "model": "Qwen-Image-Layered",
+      "quantization": "unsloth Q4_K_M",
+      "source_sha256": "76ad24b272b69173f61e30ce94174d326d44f5f03b3a04e9a6517e2c1ee62e20",
+      "plan_fingerprint": "9902c6ffb70cd5cb6d17aa43749c8f16c0503903bbc43d4f865c24373b83208f",
+      "seed": 777,
+      "steps": 30,
+      "cfg": 4.0,
+      "requested_layers": 4,
+      "input_size": [
+        640,
+        448
+      ],
+      "layer_order": "back-to-front",
+      "elapsed_seconds": 692.7,
+      "composite_mae_255": 5.226
+    }
+  }
+}

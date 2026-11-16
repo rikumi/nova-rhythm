@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "model": "Qwen-Image-Layered",
+  "releaseUrl": "https://github.com/rikumi/nova-rhythm/releases/tag/experimental-layering-qwen-reviewed-20261117",
+  "generatedAt": "2026-11-16T23:42:11.845871+00:00",
+  "outfits": {
+    "4027": {
+      "layout": "canvas",
+      "mask_size": 712,
+      "layers": [
+        {
+          "name": "qwen_semantic_0",
+          "path": "https://github.com/rikumi/nova-rhythm/releases/download/experimental-layering-qwen-reviewed-20261117/4027-layer-00-4b460382855e.webp",
+          "x": 0,
+          "y": 0,
+          "width": 1017.1428571428571,
+          "height": 712,
+          "rotation": 0,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "opacity": 1,
+          "branch": "qwen-semantic",
+          "is_title": false,
+          "native_z": 400,
+          "projection_factor": 1
+        },
+        {
+          "name": "qwen_semantic_1",
+          "path": "https://github.com/rikumi/nova-rhythm/releases/download/experimental-layering-qwen-reviewed-20261117/4027-layer-01-68f3b08b5fe3.webp",
+          "x": 0,
+          "y": 0,
+          "width": 1017.1428571428571,
+          "height": 712,
+          "rotation": 0,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "opacity": 1,
+          "branch": "qwen-semantic",
+          "is_title": false,
+          "native_z": 300,
+          "projection_factor": 1
+        },
+        {
+          "name": "qwen_semantic_2",
+          "path": "https://github.com/rikumi/nova-rhythm/releases/download/experimental-layering-qwen-reviewed-20261117/4027-layer-02-cc468d20b736.webp",
+          "x": 0,
+          "y": 0,
+          "width": 1017.1428571428571,
+          "height": 712,
+          "rotation": 0,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "opacity": 1,
+          "branch": "qwen-semantic",
+          "is_title": false,
+          "native_z": 200,
+          "projection_factor": 1
+        },
+        {
+          "name": "qwen_semantic_3",
+          "path": "https://github.com/rikumi/nova-rhythm/releases/download/experimental-layering-qwen-reviewed-20261117/4027-layer-03-bfc3c154a061.webp",
+          "x": 0,
+          "y": 0,
+          "width": 1017.1428571428571,
+          "height": 712,
+          "rotation": 0,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "opacity": 1,
+          "branch": "qwen-semantic",
+          "is_title": false,
+          "native_z": 100,
+          "projection_factor": 1
+        }
+      ]
+    },
+    "4043": {
+      "layout": "canvas",
+      "mask_size": 712,
+      "layers": [
+        {
+          "name": "qwen_semantic_0",
+          "path": "https://github.com/rikumi/nova-rhythm/releases/download/experimental-layering-qwen-reviewed-20261117/4043-layer-00-8e93921e3aa5.webp",
+          "x": 0,
+          "y": 0,
+          "width": 1017.1428571428571,
+          "height": 712,
+          "rotation": 0,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "opacity": 1,
+          "branch": "qwen-semantic",
+          "is_title": false,
+          "native_z": 400,
+          "projection_factor": 1
+        },
+        {
+          "name": "qwen_semantic_1",
+          "path": "https://github.com/rikumi/nova-rhythm/releases/download/experimental-layering-qwen-reviewed-20261117/4043-layer-01-2a921b2a4930.webp",
+          "x": 0,
+          "y": 0,
+          "width": 1017.1428571428571,
+          "height": 712,
+          "rotation": 0,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "opacity": 1,
+          "branch": "qwen-semantic",
+          "is_title": false,
+          "native_z": 300,
+          "projection_factor": 1
+        },
+        {
+          "name": "qwen_semantic_2",
+          "path": "https://github.com/rikumi/nova-rhythm/releases/download/experimental-layering-qwen-reviewed-20261117/4043-layer-02-d380d1ca388e.webp",
+          "x": 0,
+          "y": 0,
+          "width": 1017.1428571428571,
+          "height": 712,
+          "rotation": 0,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "opacity": 1,
+          "branch": "qwen-semantic",
+          "is_title": false,
+          "native_z": 200,
+          "projection_factor": 1
+        },
+        {
+          "name": "qwen_semantic_3",
+          "path": "https://github.com/rikumi/nova-rhythm/releases/download/experimental-layering-qwen-reviewed-20261117/4043-layer-03-c49dfa8adc20.webp",
+          "x": 0,
+          "y": 0,
+          "width": 1017.1428571428571,
+          "height": 712,
+          "rotation": 0,
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "opacity": 1,
+          "branch": "qwen-semantic",
+          "is_title": false,
+          "native_z": 100,
+          "projection_factor": 1
+        }
+      ]
+    }
+  },
+  "reviews": {
+    "4027": {
+      "status": "accepted",
+      "name": "龙飞凤舞",
+      "source_sha256": "ef993b56b0db8ed460002b2edae3f861ed567cf6f7f777e0887dcf27fadacb7b",
+      "layer_hashes": {
+        "layer-00.png": "95c35047322fbdfbb163236f9fcdff342ea5712213598602621bf3d7c75cf981",
+        "layer-01.png": "54e80fc132401bd116b48f4098bf9519ec9b626a8e0e82d5ba0a461528ceb6ba",
+        "layer-02.png": "14aa6295ed6983f4c22791d8b465be3d2fd6d4ed197b0044b1f5bd85b8ba3ea6",
+        "layer-03.png": "26e78e7643821b1c7acdb11db158dd726647a984e3877121a0faaed74380f166"
+      },
+      "reviewed_at": "2026-11-16T23:26:49.751887+00:00",
+      "reviewed_by": "user"
+    },
+    "4043": {
+      "status": "accepted",
+      "name": "革新的萌芽",
+      "source_sha256": "76ad24b272b69173f61e30ce94174d326d44f5f03b3a04e9a6517e2c1ee62e20",
+      "layer_hashes": {
+        "layer-00.png": "3685823dcb659b4ba88c115c49dd08c6f7533e5778246a06c50b8ca0197a89eb",
+        "layer-01.png": "bc76d32593fa3e8ebe1fd84d8472b3f633623098617f46f0d512a60c53e04c16",
+        "layer-02.png": "b80e338bcfafb5f4e6bfe6bca5806f935e25515d6ab198944b9078f311660510",
+        "layer-03.png": "230f7105d4650925db42ec6995909fd9813c59f61b7f497462ed47383c9231c6"
+      },
+      "reviewed_at": "2026-11-16T23:26:49.752249+00:00",
+      "reviewed_by": "user"
+    }
+  }
+}
