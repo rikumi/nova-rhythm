@@ -301,7 +301,9 @@ class Batch:
             self.phase='inference-complete';self.status()
             if self.args.publish:
                 from publish_layers import publish
-                self.phase='publishing';self.status();publish(self)
+                self.phase='publishing';self.status()
+                if publish(self) is False:
+                    self.phase='awaiting-review';self.status('awaiting-review');return
             self.phase='complete';self.status('complete')
         except Exception:
             self.status('failed',error=traceback.format_exc());raise

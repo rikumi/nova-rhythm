@@ -54,7 +54,9 @@ Review decisions are recorded in `references/experimental-layering-reviews.json`
 
 ## Publication
 
-The optional `--publish` flag uploads only after every planned outfit has a valid result:
+Publication is currently disabled pending user review. The plan's `publication.enabled: false` and the local batch `publication-hold.json` each independently prevent release upload, Git push and Pages deployment, even with `--publish`. Both holds must be explicitly removed only after the user requests resumption. Local generation continues.
+
+When publication is enabled, the optional `--publish` flag uploads only after every planned outfit has a valid result:
 
 ```powershell
 .venv/Scripts/python.exe scripts/layering/run_batch.py --publish

@@ -10,6 +10,13 @@ from pathlib import Path
 from run_batch import ROOT,card_for_result,digest,write,read,review_for_result
 
 def publish(batch):
+    hold=batch.batch/'publication-hold.json'
+    publication=getattr(batch,'plan',{}).get('publication',{})
+    if hold.exists() or publication.get('enabled') is False:
+        reason=read(hold).get('reason','Awaiting review') if hold.exists() else publication.get('reason','Awaiting review')
+        write(batch.batch/'publication.json',{'state':'held','reason':reason})
+        print('Publication held: no release upload, push or deployment will run.',flush=True)
+        return False
     from PIL import Image
     import numpy as np
     if len(batch.completed)!=len(batch.plan['items']):raise RuntimeError('All planned outfits must finish before publication')

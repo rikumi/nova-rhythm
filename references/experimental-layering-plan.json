@@ -603,5 +603,9 @@
       "layers": 4,
       "caption": "A painted fantasy landscape album cover with distant scenery, sky, foreground objects and decorative lettering. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
     }
-  ]
+  ],
+  "publication": {
+    "enabled": false,
+    "reason": "User requested no deployment until the generated outfit layers have been reviewed."
+  }
 }
