@@ -94,6 +94,20 @@ function FullscreenArtwork({ outfit, close }: { outfit: Outfit; close: () => voi
   </dialog>;
 }
 
+function CardLayer({ src, style, background }: { src:string; style:CSSProperties; background:boolean }) {
+  const ref=useRef<HTMLImageElement>(null);
+  const [loaded,setLoaded]=useState(false);
+  useEffect(()=>{
+    const image=ref.current;if(!image)return;
+    let mounted=true;
+    const ready=()=>{void image.decode().catch(()=>{}).then(()=>{if(mounted && image.naturalWidth)setLoaded(true);});};
+    image.addEventListener('load',ready);
+    if(image.complete && image.naturalWidth)ready();
+    return ()=>{mounted=false;image.removeEventListener('load',ready);};
+  },[src]);
+  return <img ref={ref} className={`card-layer ${loaded ? 'is-loaded' : ''}`} data-background={background} src={src} alt="" style={style} draggable={false} />;
+}
+
 function Card({ outfit, full = false, onExpand }: { outfit: Outfit; full?: boolean; onExpand?: () => void }) {
   const ref = useRef<HTMLDivElement>(null);
   const target = useRef({ x: 0, y: 0, active: false });
@@ -155,9 +169,9 @@ function Card({ outfit, full = false, onExpand }: { outfit: Outfit; full?: boole
             '--px': `${-layer.pivot.x * 100}%`, '--py': `${-(1 - layer.pivot.y) * 100}%`,
             '--shift-x': `${projectedZ * Math.sin(motion.rotation_y * Math.PI / 180) / layer.width * 100}%`,
             '--shift-y': `${-projectedZ * Math.sin(motion.rotation_x * Math.PI / 180) / layer.height * 100}%`,
-            '--rz': `${-layer.rotation}deg`, opacity: layer.opacity,
+            '--rz': `${-layer.rotation}deg`, '--layer-opacity':layer.opacity,
           } as CSSProperties;
-          return <img key={layer.name + i} className="card-layer" data-background={background} src={layer.path} alt="" style={style} draggable={false} />;
+          return <CardLayer key={`${layer.path}-${i}`} src={layer.path} style={style} background={background} />;
         }) : <img className="flat-cover" src={outfit.cover} alt="" draggable={false} />}
         {/* {!outfit.card.layers.some(l => l.is_title) && <div className="card-title-art"><b>{outfit.name}</b></div>} */}
         <div className="card-light" />
@@ -303,7 +317,7 @@ function ArchiveApp({ active, onBack, fromStory = false }: { active: boolean; on
       <div className="archive-scene scene-enter" key={chosen.id}>
         <section className={`archive-artwork mode-${artworkMode}`} aria-label={`${chosen.name}专辑展示`}>
           <div className="artwork-mode-switch" role="group" aria-label="专辑展示模式" style={{ flexWrap: 'wrap' }}><button aria-pressed={artworkMode === 'difference'} onClick={() => { sound('ui_outfit_button_tap'); setArtworkMode('difference'); }}><Expand size={16} />差分</button><button aria-pressed={artworkMode === 'phonograph'} onClick={() => { sound('ui_outfit_button_tap'); setArtworkMode('phonograph'); }}><Disc3 size={17} />唱机</button>{artworkMode === 'difference' && <SensorControl />}</div>
-          <div className="archive-cover-wrap"><div className="card-aura" />{artworkMode === 'difference' ? <Card outfit={chosen} onExpand={() => { sound('ui_common_click_select'); setFull(true); }} /> : <Phonograph outfit={chosen} playing={playback.playing} onExpand={() => { sound('ui_common_click_select'); setFull(true); }} />}</div>
+          <div className="archive-cover-wrap"><div className="card-aura" />{artworkMode === 'difference' ? <Card key={`${chosen.id}-${active}`} outfit={chosen} onExpand={() => { sound('ui_common_click_select'); setFull(true); }} /> : <Phonograph outfit={chosen} playing={playback.playing} onExpand={() => { sound('ui_common_click_select'); setFull(true); }} />}</div>
         </section>
         <aside className="archive-panel">
           <section className="native-archive-sheet" aria-label="秘纹档案">
