@@ -105,7 +105,7 @@ function CardLayer({ src, style, background }: { src:string; style:CSSProperties
     if(image.complete && image.naturalWidth)ready();
     return ()=>{mounted=false;image.removeEventListener('load',ready);};
   },[src]);
-  return <img ref={ref} className={`card-layer ${loaded ? 'is-loaded' : ''}`} data-background={background} src={src} alt="" style={style} draggable={false} />;
+  return <div className={`card-layer-stage ${loaded ? 'is-loaded' : ''}`}><img ref={ref} className="card-layer" data-background={background} src={src} alt="" style={style} draggable={false} /></div>;
 }
 
 function Card({ outfit, full = false, onExpand }: { outfit: Outfit; full?: boolean; onExpand?: () => void }) {
