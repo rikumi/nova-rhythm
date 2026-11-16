@@ -202,7 +202,7 @@
       "reviewed_by": "user"
     },
     "4015": {
-      "status": "accepted",
+      "status": "revision_requested",
       "name": "鹿鸣",
       "source_sha256": "7f5d75240a7c0b3f787a9591f9a72030b3650d6cf0723ebd83bf48ef09e23e47",
       "layer_hashes": {
@@ -213,13 +213,10 @@
       },
       "reviewed_at": "2026-11-16T22:32:47.968281+00:00",
       "reviewed_by": "user",
-      "approved_layer_order": [
-        "layer-00.png",
-        "layer-03.png",
-        "layer-01.png",
-        "layer-02.png"
-      ],
-      "note": "Move both deer layers above the people without changing image pixels."
+      "note": "Move both deer layers above the people without changing image pixels.",
+      "previous_status": "accepted",
+      "seed": 20261123,
+      "reason": "Reordering broke the composite. Regenerate complete foreground deer in front of the seated person, preserving correct original occlusion."
     },
     "4040": {
       "status": "accepted",

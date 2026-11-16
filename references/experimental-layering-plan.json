@@ -149,20 +149,11 @@
       "outfit_id": 214015,
       "name": "鹿鸣",
       "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4015.png",
-      "layers": 4,
-      "caption": "An anime illustration of girls relaxing outdoors beneath leafy trees, with flowers, summer clothing and dappled sunshine. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes.",
-      "layer_order": [
-        "layer-00.png",
-        "layer-03.png",
-        "layer-01.png",
-        "layer-02.png"
-      ],
-      "layer_order_hashes": {
-        "layer-00.png": "34015758d7086eb3fca0972d431fd4d1b52131dabb9c20720532a73bbe36cb99",
-        "layer-01.png": "e19e0550457177d5cb28db70dfd96a3d29bac159ddf0073f8f26ef883019dc85",
-        "layer-02.png": "a05b8fc436070567eb9031cdd4df76fac62c16006c8c2e4811062dbf5762eef6",
-        "layer-03.png": "1958a9a3cb1a9694518ded086ecea6d655fe5aa4fbe0e7062ef2f72d5b9fcec3"
-      }
+      "layers": 3,
+      "caption": "An anime illustration of one dark blue-haired young woman seated sideways on a wooden chair in a sunlit green forest. Her long dark hair flows to the right; she wears a pale pink dress and blue cape, holds a reddish book at the lower right, and rests her bare feet near the bottom. A large spotted stag with antlers stands at the upper left. A small spotted fawn stands in the lower-left foreground beside the woman. White butterflies and pale flowers surround them. The foreground deer must be in front of the seated person, with the original correct occlusion preserved. Keep the deer as complete continuous animals, with connected heads, antlers, necks, bodies and legs, in one coherent foreground group. The seated person and chair form a separate intact middle-ground group behind the foreground deer. The forest and foliage form a clean separate background. No deer or person is duplicated across layers. Preserve the original composition and overlapping visible silhouettes when the layers are composited. Keep the fawn head connected to its body.",
+      "seed": 20261123,
+      "priority": 94,
+      "minimum_layers": 2
     },
     {
       "code": "4040",
