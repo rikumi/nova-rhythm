@@ -17,7 +17,7 @@ import subprocess
 import sys
 
 from pipeline_paths import REPOSITORY, protect_output
-from story_mapping import apply_mapping, to_mapping
+from story_mapping import apply_mapping, to_mapping, ordered_groups
 
 REFS = REPOSITORY/'references'
 CATEGORIES = {'Music_Outfit': 'outfit', 'Music_AVG': 'story',
@@ -235,7 +235,7 @@ def build_manifests(results, annotations, raw_names):
         locations = music_locations.get(identifier, [])
         if locations:
             for code, old in locations:
-                playback = music | {'title': override.get('title', raw_title if raw_names else old['title'])}
+                playback = old | music | {'title': override.get('title', raw_title if raw_names else old['title'])}
                 if all(old[k] == music[k] for k in ['sample_rate', 'channels', 'number_of_samples']):
                     playback['loop'] = copy.deepcopy(old['loop'])
                 outfits[code]['music'].append(playback)
@@ -268,7 +268,12 @@ def build_manifests(results, annotations, raw_names):
             pending.append({'id': identifier, 'suggested_title': raw_title, 'outfit_codes': sorted({c for c, _ in linked}),
                             'route_ids': [r['id'] for r in routes], 'reason': 'new_outfit_state_or_audio'})
             continue
-        if music['duration_seconds'] < 60:
+        cookie_group = 'mode-甜心梦工坊'
+        is_cookie = any(str(s.get('value', '')).lower().startswith('cookie') or str(s.get('group', '')).lower() == 'cookie'
+                        for r in routes for s in r['gamesyncs'])
+        target_group = known.get(identifier, {}).get('group_id') or (cookie_group if is_cookie else '')
+        minimum_duration = groups.get(target_group, {}).get('minimum_duration_seconds', 60)
+        if music['duration_seconds'] < minimum_duration:
             continue
         if identifier in known and not raw_names:
             track = copy.deepcopy(known[identifier]) | music
@@ -277,7 +282,7 @@ def build_manifests(results, annotations, raw_names):
             if all(known[identifier][k] == music[k] for k in ['sample_rate', 'channels', 'number_of_samples']):
                 track['loop'] = copy.deepcopy(known[identifier]['loop'])
         else:
-            group_id = 'raw-'+source['bank']
+            group_id = cookie_group if is_cookie and minimum_duration == 0 else 'raw-'+source['bank']
             groups.setdefault(group_id, {'id': group_id, 'name': source['bank'], 'date': '', 'track_ids': [], 'outfit_references': []})
             track = music | {'title': raw_title, 'source_title': raw_title, 'group_id': group_id,
                              'uses': [], 'aliases': [r['filename'] for r in routes]}
@@ -298,7 +303,7 @@ def build_manifests(results, annotations, raw_names):
         technical_ids = {t['id'] for t in technical_library['tracks']}
         available_ids = {t['id'] for t in tracks}
         for track in baseline_library['tracks']:
-            manual = track['id'] not in technical_ids or track['path'] != f'/audio/{track["id"]}.opus'
+            manual = not re.fullmatch(r'audio-[0-9a-f]{64}', track['id']) or track['id'] not in technical_ids or track['path'] != f'/audio/{track["id"]}.opus'
             if manual and track['id'] not in available_ids:
                 tracks.append(copy.deepcopy(track))
                 groups[track['group_id']]['track_ids'].append(track['id'])
@@ -327,7 +332,7 @@ def build_manifests(results, annotations, raw_names):
                                                'content_ids': [m['id'] for m in outfit['music']], 'basis': 'explicit first-release annotation'})
     items.sort(key=lambda o: (o['activity'].get('date', ''), o['activity'].get('id', 0), int(o['code'])), reverse=True)
     selected_groups = [g for g in groups.values() if g['track_ids'] or g['outfit_references']]
-    selected_groups.sort(key=lambda g: g.get('date', ''), reverse=True)
+    selected_groups = ordered_groups(selected_groups)
     track_order = {t['id']: index for index, t in enumerate(baseline_library['tracks'])}
     group_orders = {g['id']: {identifier: index for index, identifier in enumerate(g['track_ids'])} for g in baseline_library['groups']}
     for group in selected_groups:
@@ -430,8 +435,10 @@ def main():
     eligible = [r for r in rows if r['status'] == 'inventoried']
     if args.selected_only:
         selection = read(REFS/'selection.json')['contents']
+        curated = apply_mapping(read(source_public/'data/story-melodies.json'), read(source_public/'data/library.json'))
+        explicit_ids = {track['id'] for track in curated['tracks']}
         available = {r['id'] for r in eligible}
-        chosen = {next((route for route in content['route_ids'] if route in available), '') for content in selection if content['selected']}
+        chosen = {next((route for route in content['route_ids'] if route in available), '') for content in selection if content['selected'] or content['id'] in explicit_ids}
         old_ids = {r['id'] for r in read(REFS/'routes.json')['entries'] if r.get('id')}
         eligible = [r for r in eligible if r['id'] in chosen or r['id'] not in old_ids or r.get('snapshot_recipe_unchanged') is False]
     if args.route:

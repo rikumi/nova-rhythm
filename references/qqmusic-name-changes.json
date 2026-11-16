@@ -1,0 +1,1125 @@
+{
+  "schema_version": 1,
+  "changes": [
+    {
+      "scope": "story",
+      "group_id": "mode-速度与机擎",
+      "file": "/audio/audio-4323fe1ed2d6c9ece6954b0f1b855fad69b85ac2bdccb2a3107c14297c5a7fd5.opus",
+      "old_name": "速度与机擎 · 界面配乐",
+      "name": "速度与机擎（速度与机擎 · 界面配乐）",
+      "audio_id": "audio-4323fe1ed2d6c9ece6954b0f1b855fad69b85ac2bdccb2a3107c14297c5a7fd5",
+      "qq_mid": "001TtLYa1f7pu6",
+      "official_title": "速度与机擎"
+    },
+    {
+      "scope": "story",
+      "group_id": "activity-20104",
+      "file": "/audio/audio-b011eee66b31b83229cb463a04d451df24e63462e414d43667e6b3e8a1061597.opus",
+      "old_name": "特别篇 · 昨日重现",
+      "name": "并非不慌不忙的一天（特别篇 · 昨日重现）",
+      "audio_id": "audio-b011eee66b31b83229cb463a04d451df24e63462e414d43667e6b3e8a1061597",
+      "qq_mid": "002z3nPU1XkjWs",
+      "official_title": "并非不慌不忙的一天"
+    },
+    {
+      "scope": "story",
+      "group_id": "activity-10112",
+      "file": "/audio/audio-825ee41f22f6546ca56a37b56baa865eab3fa0cb3ddf62e2b1a9f6f7f6f79561.opus",
+      "old_name": "第九章 · 引线 · 第2音轨",
+      "name": "心的障壁（第九章 · 引线 · 第2音轨）",
+      "audio_id": "audio-825ee41f22f6546ca56a37b56baa865eab3fa0cb3ddf62e2b1a9f6f7f6f79561",
+      "qq_mid": "0039lyNl0HlspC",
+      "official_title": "心的障壁"
+    },
+    {
+      "scope": "story",
+      "group_id": "activity-10112",
+      "file": "/audio/audio-e782fb9c549bde7e1a1100e29f2a5f8be7db202cdd46665198777dca6d14321a.opus",
+      "old_name": "第九章 · 点燃 · 第1音轨",
+      "name": "来自阴影的警告（第九章 · 点燃 · 第1音轨）",
+      "audio_id": "audio-e782fb9c549bde7e1a1100e29f2a5f8be7db202cdd46665198777dca6d14321a",
+      "qq_mid": "0026WH6T0V6WIH",
+      "official_title": "来自阴影的警告"
+    },
+    {
+      "scope": "story",
+      "group_id": "activity-10112",
+      "file": "/audio/audio-8cd24bfd396f31fc154be4ba1bee195496bf780d973c025cbc0ed9205834c099.opus",
+      "old_name": "第九章 · 伤痕暂停",
+      "name": "妈妈（第九章 · 伤痕暂停）",
+      "audio_id": "audio-8cd24bfd396f31fc154be4ba1bee195496bf780d973c025cbc0ed9205834c099",
+      "qq_mid": "003oHGhw15mhy1",
+      "official_title": "妈妈"
+    },
+    {
+      "scope": "story",
+      "group_id": "activity-10112",
+      "file": "/audio/audio-1a952b32f4af32c93c7b99d50d222cf5e43050dd0990c4f85fb73e177627be69.opus",
+      "old_name": "第九章 · 薯条和情报 · 第1音轨",
+      "name": "这下……麻烦大了？（第九章 · 薯条和情报 · 第1音轨）",
+      "audio_id": "audio-1a952b32f4af32c93c7b99d50d222cf5e43050dd0990c4f85fb73e177627be69",
+      "qq_mid": "0022UyXh0kBQYs",
+      "official_title": "这下……麻烦大了？"
+    },
+    {
+      "scope": "story",
+      "group_id": "activity-10112",
+      "file": "/audio/audio-56bc338ba73ef396d4a9e4c1394682aaf6060e60beb776e4d4227daa2bc60d48.opus",
+      "old_name": "第九章 · 不变之物",
+      "name": "揭开尘封的往昔（第九章 · 不变之物）",
+      "audio_id": "audio-56bc338ba73ef396d4a9e4c1394682aaf6060e60beb776e4d4227daa2bc60d48",
+      "qq_mid": "003A5ZMW00Mrwl",
+      "official_title": "揭开尘封的往昔"
+    },
+    {
+      "scope": "story",
+      "group_id": "mode-沁凉补给站",
+      "file": "/audio/audio-272c021ce3fa82facf267aa8f55ff5894934b1d28c7abe17ee6e5adc9c970e32.opus",
+      "old_name": "沁凉补给站 · 界面配乐",
+      "name": "沁凉补给站（沁凉补给站 · 界面配乐）",
+      "audio_id": "audio-272c021ce3fa82facf267aa8f55ff5894934b1d28c7abe17ee6e5adc9c970e32",
+      "qq_mid": "002l9Ugc4Wgcww",
+      "official_title": "沁凉补给站"
+    },
+    {
+      "scope": "story",
+      "group_id": "activity-20103",
+      "file": "/audio/audio-e0b47be4da1419de36e562cd5e7b6cd72f3bebe4bb50aff7cb475bd773f33567.opus",
+      "old_name": "晴风碧海 · 悠哉盛夏依然打卡~ · 首领战",
+      "name": "渊海主宰（晴风碧海 · 悠哉盛夏依然打卡~ · 首领战）",
+      "audio_id": "audio-e0b47be4da1419de36e562cd5e7b6cd72f3bebe4bb50aff7cb475bd773f33567",
+      "qq_mid": "000Vw4R326r8Pg",
+      "official_title": "渊海主宰"
+    },
+    {
+      "scope": "story",
+      "group_id": "mode-尖兵陷阵",
+      "file": "/audio/audio-d405cc543ea930f2528ee47d13356ae9564c1a1f2e639e877e5a76ecd585d698.opus",
+      "old_name": "尖兵陷阵",
+      "name": "尊者调查（尖兵陷阵）",
+      "audio_id": "audio-d405cc543ea930f2528ee47d13356ae9564c1a1f2e639e877e5a76ecd585d698",
+      "qq_mid": "000SmamC14PdMO",
+      "official_title": "尊者调查"
+    },
+    {
+      "scope": "story",
+      "group_id": "mode-尖兵陷阵",
+      "file": "/audio/audio-aa81f2c41828e84b9159f8098685b1464da204af088ba4bb6b6b4bcb317120dd.opus",
+      "old_name": "尖兵陷阵 · 普通战斗",
+      "name": "尖兵陷阵（尖兵陷阵 · 普通战斗）",
+      "audio_id": "audio-aa81f2c41828e84b9159f8098685b1464da204af088ba4bb6b6b4bcb317120dd",
+      "qq_mid": "000KXCAq44JlVk",
+      "official_title": "尖兵陷阵"
+    },
+    {
+      "scope": "story",
+      "group_id": "mode-尖兵陷阵",
+      "file": "/audio/audio-2b330641b9f9ceecc5dad7515cee8cdc228c4a36ad700339c44dbc966ac68ed7.opus",
+      "old_name": "尖兵陷阵 · 精英战斗",
+      "name": "云见雾散（尖兵陷阵 · 精英战斗）",
+      "audio_id": "audio-2b330641b9f9ceecc5dad7515cee8cdc228c4a36ad700339c44dbc966ac68ed7",
+      "qq_mid": "001cXqRA2draTB",
+      "official_title": "云见雾散"
+    },
+    {
+      "scope": "story",
+      "group_id": "mode-尖兵陷阵",
+      "file": "/audio/audio-8b079c853ebaf858377b7a7a1a86821da2e6880b8446bb759013e31572b4bb26.opus",
+      "old_name": "尖兵陷阵 · 首领战",
+      "name": "完璧的残响（尖兵陷阵 · 首领战）",
+      "audio_id": "audio-8b079c853ebaf858377b7a7a1a86821da2e6880b8446bb759013e31572b4bb26",
+      "qq_mid": "002tDrkM020YfA",
+      "official_title": "完璧的残响"
+    },
+    {
+      "scope": "story",
+      "group_id": "activity-10109",
+      "file": "/audio/audio-10b8fd621d0863b30edd2c8f9e0cad0a55753da8100bf9ed19d6e91f1998c344.opus",
+      "old_name": "枪林弹雨覆黄沙 · 作战",
+      "name": "枪林弹雨覆黄沙（枪林弹雨覆黄沙 · 作战）",
+      "audio_id": "audio-10b8fd621d0863b30edd2c8f9e0cad0a55753da8100bf9ed19d6e91f1998c344",
+      "qq_mid": "004ftK053Rp4zP",
+      "official_title": "枪林弹雨覆黄沙"
+    },
+    {
+      "scope": "story",
+      "group_id": "activity-10108",
+      "file": "/audio/audio-ef4cdaafa834cfbab8a9ad07aae2d5a3899e160cb21aa06d1a21861f62d08bab.opus",
+      "old_name": "心跳！柔光狂想曲 · 首领战",
+      "name": "柔光猎犬（心跳！柔光狂想曲 · 首领战）",
+      "audio_id": "audio-ef4cdaafa834cfbab8a9ad07aae2d5a3899e160cb21aa06d1a21861f62d08bab",
+      "qq_mid": "002DWTun4dE4QQ",
+      "official_title": "柔光猎犬"
+    },
+    {
+      "scope": "story",
+      "group_id": "activity-10107",
+      "file": "/audio/audio-cd53cd1dad7ee023d7d48c61bf5f0bfcb988e4048f81f596217673258d0628ee.opus",
+      "old_name": "穿透心壁的取景框 · 再遇",
+      "name": "又是日行千里的一天（穿透心壁的取景框 · 再遇）",
+      "audio_id": "audio-cd53cd1dad7ee023d7d48c61bf5f0bfcb988e4048f81f596217673258d0628ee",
+      "qq_mid": "003VXU6V1pAiBH",
+      "official_title": "又是日行千里的一天"
+    },
+    {
+      "scope": "story",
+      "group_id": "activity-10103",
+      "file": "/audio/audio-aedbbd5da460dd8fc75807c498adbfb7a301aca8131a63b9331e6248eea7ae8f.opus",
+      "old_name": "微火的奇迹 · 作战",
+      "name": "迷雾与利爪（微火的奇迹 · 作战）",
+      "audio_id": "audio-aedbbd5da460dd8fc75807c498adbfb7a301aca8131a63b9331e6248eea7ae8f",
+      "qq_mid": "0046jcyV0To1xK",
+      "official_title": "迷雾与利爪"
+    },
+    {
+      "scope": "story",
+      "group_id": "activity-10102",
+      "file": "/audio/audio-053a02abdbfacac67fb59aff7ca7742602ecff09f0e6e774d65fd90287c4780e.opus",
+      "old_name": "第四章 · 单兵作战",
+      "name": "疑神疑鬼（第四章 · 单兵作战）",
+      "audio_id": "audio-053a02abdbfacac67fb59aff7ca7742602ecff09f0e6e774d65fd90287c4780e",
+      "qq_mid": "002GHIkI0dvIEO",
+      "official_title": "疑神疑鬼"
+    },
+    {
+      "scope": "story",
+      "group_id": "activity-10102",
+      "file": "/audio/audio-32a475316abd571010caeefe0be75573e990efd5ec7236e15adddd149b1d4448.opus",
+      "old_name": "第四章 · 想要保护的东西",
+      "name": "温暖残阳（第四章 · 想要保护的东西）",
+      "audio_id": "audio-32a475316abd571010caeefe0be75573e990efd5ec7236e15adddd149b1d4448",
+      "qq_mid": "003Uo4oj2CPo31",
+      "official_title": "温暖残阳"
+    },
+    {
+      "scope": "story",
+      "group_id": "mode-甜心梦工坊",
+      "file": "/audio/audio-fbe9e2f83a8466734b87710ec16657d48ae31736261d58ebc898197039336544.opus",
+      "old_name": "甜心梦工坊-变体4",
+      "name": "机巧梦工坊（甜心梦工坊-变体4）",
+      "audio_id": "audio-fbe9e2f83a8466734b87710ec16657d48ae31736261d58ebc898197039336544",
+      "qq_mid": "001rslxY32BVjF",
+      "official_title": "机巧梦工坊"
+    },
+    {
+      "scope": "story",
+      "group_id": "mode-甜心梦工坊",
+      "file": "/audio/audio-4f54438f693c7ec189e15910bd9878fd2f874f89877004638be828936d05a5d6.opus",
+      "old_name": "甜心梦工坊-变体4 · 自由演奏",
+      "name": "机巧梦工坊（甜心梦工坊-变体4 · 自由演奏）",
+      "audio_id": "audio-4f54438f693c7ec189e15910bd9878fd2f874f89877004638be828936d05a5d6",
+      "qq_mid": "001rslxY32BVjF",
+      "official_title": "机巧梦工坊"
+    },
+    {
+      "scope": "story",
+      "group_id": "mode-甜心梦工坊",
+      "file": "/audio/audio-e558b519650a737a9661df0674b2d6abec138737a55bcb3f501e3e79017ad330.opus",
+      "old_name": "甜心梦工坊-变体4 · 每分钟75拍",
+      "name": "机巧梦工坊（甜心梦工坊-变体4 · 每分钟75拍）",
+      "audio_id": "audio-e558b519650a737a9661df0674b2d6abec138737a55bcb3f501e3e79017ad330",
+      "qq_mid": "001rslxY32BVjF",
+      "official_title": "机巧梦工坊"
+    },
+    {
+      "scope": "story",
+      "group_id": "mode-甜心梦工坊",
+      "file": "/audio/audio-1e5e20a515644d56155c8c3efedde44a4dd2208779741f5eacf749d7ff7bd447.opus",
+      "old_name": "甜心梦工坊-变体4 · 每分钟68拍",
+      "name": "机巧梦工坊（甜心梦工坊-变体4 · 每分钟68拍）",
+      "audio_id": "audio-1e5e20a515644d56155c8c3efedde44a4dd2208779741f5eacf749d7ff7bd447",
+      "qq_mid": "001rslxY32BVjF",
+      "official_title": "机巧梦工坊"
+    },
+    {
+      "scope": "story",
+      "group_id": "mode-甜心梦工坊",
+      "file": "/audio/audio-d380fa92c6ed1d590c0082e5b97bf867ed2d687d615951dadf0aecd8e3184d14.opus",
+      "old_name": "甜心梦工坊-变体4 · 每分钟65拍",
+      "name": "机巧梦工坊（甜心梦工坊-变体4 · 每分钟65拍）",
+      "audio_id": "audio-d380fa92c6ed1d590c0082e5b97bf867ed2d687d615951dadf0aecd8e3184d14",
+      "qq_mid": "001rslxY32BVjF",
+      "official_title": "机巧梦工坊"
+    },
+    {
+      "scope": "story",
+      "group_id": "mode-甜心梦工坊",
+      "file": "/audio/audio-082c2a46e12ad00414a7aaaa48fab03425475bdf3d81336e38905461abda97d1.opus",
+      "old_name": "甜心梦工坊-变体4 · 每分钟50拍",
+      "name": "机巧梦工坊（甜心梦工坊-变体4 · 每分钟50拍）",
+      "audio_id": "audio-082c2a46e12ad00414a7aaaa48fab03425475bdf3d81336e38905461abda97d1",
+      "qq_mid": "001rslxY32BVjF",
+      "official_title": "机巧梦工坊"
+    },
+    {
+      "scope": "story",
+      "group_id": "mode-甜心梦工坊",
+      "file": "/audio/audio-1065ec7b635d45aafb770219c85732e254934e84964b11ec5692c213a28bdc94.opus",
+      "old_name": "甜心梦工坊-变体4 · 每分钟40拍",
+      "name": "机巧梦工坊（甜心梦工坊-变体4 · 每分钟40拍）",
+      "audio_id": "audio-1065ec7b635d45aafb770219c85732e254934e84964b11ec5692c213a28bdc94",
+      "qq_mid": "001rslxY32BVjF",
+      "official_title": "机巧梦工坊"
+    },
+    {
+      "scope": "story",
+      "group_id": "activity-10101",
+      "file": "/audio/audio-792547d1a08417cb57edfa8678ba150e7411287749440ecf07663b0ea627116a.opus",
+      "old_name": "第三章 · 手机",
+      "name": "娓娓道来的你（第三章 · 手机）",
+      "audio_id": "audio-792547d1a08417cb57edfa8678ba150e7411287749440ecf07663b0ea627116a",
+      "qq_mid": "003d4sHJ18LaUU",
+      "official_title": "娓娓道来的你"
+    },
+    {
+      "scope": "story",
+      "group_id": "activity-10101",
+      "file": "/audio/audio-c733d485bd17b0ce0bd5d79e72015334052097504c9bb7e88cbe7f38811438f2.opus",
+      "old_name": "第三章 · 森林深处的“仙人”",
+      "name": "总之……也只能上了吧？（第三章 · 森林深处的“仙人”）",
+      "audio_id": "audio-c733d485bd17b0ce0bd5d79e72015334052097504c9bb7e88cbe7f38811438f2",
+      "qq_mid": "003KLYkf2G9JNi",
+      "official_title": "总之……也只能上了吧？"
+    },
+    {
+      "scope": "story",
+      "group_id": "activity-10101",
+      "file": "/audio/audio-64e0a57250aa9d58d707cff75451988bb38c77fd37c321c5e6d87cd464743440.opus",
+      "old_name": "第三章 · 花令旅团",
+      "name": "温暖如初的心（第三章 · 花令旅团）",
+      "audio_id": "audio-64e0a57250aa9d58d707cff75451988bb38c77fd37c321c5e6d87cd464743440",
+      "qq_mid": "001qNW5m3pha3L",
+      "official_title": "温暖如初的心"
+    },
+    {
+      "scope": "story",
+      "group_id": "activity-10101",
+      "file": "/audio/audio-8f21c7e025d6e58baa8680235ad10e3bd77d47d8461a01c1423bec5e6b9b8504.opus",
+      "old_name": "第三章 · 不被需要的弱者",
+      "name": "褪色的回忆（第三章 · 不被需要的弱者）",
+      "audio_id": "audio-8f21c7e025d6e58baa8680235ad10e3bd77d47d8461a01c1423bec5e6b9b8504",
+      "qq_mid": "001Qhify0lXJ4d",
+      "official_title": "褪色的回忆"
+    },
+    {
+      "scope": "story",
+      "group_id": "mode-灾变防线",
+      "file": "/audio/audio-6db21b4af15b3a0d7d2515cf23ef761d8c0155e20fd7ab48ba1ba1c65a762d3e.opus",
+      "old_name": "灾变防线·森林 · 普通战斗",
+      "name": "流水与暗影（灾变防线·森林 · 普通战斗）",
+      "audio_id": "audio-6db21b4af15b3a0d7d2515cf23ef761d8c0155e20fd7ab48ba1ba1c65a762d3e",
+      "qq_mid": "001CxqfW1JwXFP",
+      "official_title": "流水与暗影"
+    },
+    {
+      "scope": "story",
+      "group_id": "mode-灾变防线",
+      "file": "/audio/audio-ef379564e8ad7c3d145e71d86c2fe6c5cb1890646cf5a0631c5da91b9e8f3cc0.opus",
+      "old_name": "灾变防线·遗迹 · 普通战斗",
+      "name": "风暴与闪电（灾变防线·遗迹 · 普通战斗）",
+      "audio_id": "audio-ef379564e8ad7c3d145e71d86c2fe6c5cb1890646cf5a0631c5da91b9e8f3cc0",
+      "qq_mid": "002jTUWs0OqPeC",
+      "official_title": "风暴与闪电"
+    },
+    {
+      "scope": "story",
+      "group_id": "mode-灾变防线",
+      "file": "/audio/audio-f59f6f075fcfa1a5e27d4e82710d64a556ee4ed9f999d906ce131bab55383b8b.opus",
+      "old_name": "灾变防线 · 界面配乐",
+      "name": "灾厄的异动（灾变防线 · 界面配乐）",
+      "audio_id": "audio-f59f6f075fcfa1a5e27d4e82710d64a556ee4ed9f999d906ce131bab55383b8b",
+      "qq_mid": "004a3kly4XiKth",
+      "official_title": "灾厄的异动"
+    },
+    {
+      "scope": "story",
+      "group_id": "activity-10100",
+      "file": "/audio/audio-2e09ba213a7b30f0175720175d7355218b8efdd8684f62a12f18368b25eadb58.opus",
+      "old_name": "惊奇冒险！渊海幽灵船传说！ · 战斗配乐",
+      "name": "滑越浪尖（惊奇冒险！渊海幽灵船传说！ · 战斗配乐）",
+      "audio_id": "audio-2e09ba213a7b30f0175720175d7355218b8efdd8684f62a12f18368b25eadb58",
+      "qq_mid": "003dQV3q19pwcV",
+      "official_title": "滑越浪尖"
+    },
+    {
+      "scope": "story",
+      "group_id": "activity-10100",
+      "file": "/audio/audio-abc9e01dfa588dc14581a904736e6dfa48da5370281a9338ab164a318146f4ad.opus",
+      "old_name": "惊奇冒险！渊海幽灵船传说！ · 谜团与气味",
+      "name": "长雨未停（惊奇冒险！渊海幽灵船传说！ · 谜团与气味）",
+      "audio_id": "audio-abc9e01dfa588dc14581a904736e6dfa48da5370281a9338ab164a318146f4ad",
+      "qq_mid": "00194f7g1xYSEN",
+      "official_title": "长雨未停"
+    },
+    {
+      "scope": "story",
+      "group_id": "activity-10100",
+      "file": "/audio/audio-c3fc4903b125c039c46f88b413b9a48abe30af1ac5998ad950b55d4b0a0db04c.opus",
+      "old_name": "惊奇冒险！渊海幽灵船传说！ · 探索",
+      "name": "夏日梦工坊（惊奇冒险！渊海幽灵船传说！ · 探索）",
+      "audio_id": "audio-c3fc4903b125c039c46f88b413b9a48abe30af1ac5998ad950b55d4b0a0db04c",
+      "qq_mid": "003CTej80mgQ4N",
+      "official_title": "夏日梦工坊"
+    },
+    {
+      "scope": "story",
+      "group_id": "activity-10100",
+      "file": "/audio/audio-2d545eccb841142d776f6e5ea25debab579c0b4470e3558bea8491ff69cf26e5.opus",
+      "old_name": "惊奇冒险！渊海幽灵船传说！ · 界面配乐",
+      "name": "夏日栖息地（惊奇冒险！渊海幽灵船传说！ · 界面配乐）",
+      "audio_id": "audio-2d545eccb841142d776f6e5ea25debab579c0b4470e3558bea8491ff69cf26e5",
+      "qq_mid": "004aN0aX1Ks8DG",
+      "official_title": "夏日栖息地"
+    },
+    {
+      "scope": "story",
+      "group_id": "story-我思，故魔王在 · 第二章",
+      "file": "/audio/audio-ad9d5a5b687fd000b1737755a8e88a8abbd37bf525a6e51837646f92c1eef9bd.opus",
+      "old_name": "第二章 · 公司与绿洲",
+      "name": "抽丝剥茧（第二章 · 公司与绿洲）",
+      "audio_id": "audio-ad9d5a5b687fd000b1737755a8e88a8abbd37bf525a6e51837646f92c1eef9bd",
+      "qq_mid": "002XPaDS3ziu5B",
+      "official_title": "抽丝剥茧"
+    },
+    {
+      "scope": "story",
+      "group_id": "story-我思，故魔王在 · 第二章",
+      "file": "/audio/audio-1a11186c302e4bfc84f8b21cf5171d3a64dea7dc8d9c087db661a2f2ffa65fb7.opus",
+      "old_name": "第二章 · 深夜潜入",
+      "name": "又是大声密谋的一天（第二章 · 深夜潜入）",
+      "audio_id": "audio-1a11186c302e4bfc84f8b21cf5171d3a64dea7dc8d9c087db661a2f2ffa65fb7",
+      "qq_mid": "000sOvqB1UwZvE",
+      "official_title": "又是大声密谋的一天"
+    },
+    {
+      "scope": "story",
+      "group_id": "story-我思，故魔王在 · 第二章",
+      "file": "/audio/audio-e90d96952741cb42db90aaa46e1898f16e27eb045fe072fa8f9595d99a4035e8.opus",
+      "old_name": "第二章 · 变装侦查",
+      "name": "又是有些无聊的一天（第二章 · 变装侦查）",
+      "audio_id": "audio-e90d96952741cb42db90aaa46e1898f16e27eb045fe072fa8f9595d99a4035e8",
+      "qq_mid": "003aO6qW3GPpMQ",
+      "official_title": "又是有些无聊的一天"
+    },
+    {
+      "scope": "story",
+      "group_id": "story-我思，故魔王在 · 第二章",
+      "file": "/audio/audio-26c12c8a1dbe908dbd44ccd832ec3a7c8b3eed945603c788379490085c55bf3b.opus",
+      "old_name": "第二章 · 永恒",
+      "name": "算无遗策（第二章 · 永恒）",
+      "audio_id": "audio-26c12c8a1dbe908dbd44ccd832ec3a7c8b3eed945603c788379490085c55bf3b",
+      "qq_mid": "0016yz2w0xGYNr",
+      "official_title": "算无遗策"
+    },
+    {
+      "scope": "story",
+      "group_id": "story-我思，故魔王在 · 第二章",
+      "file": "/audio/audio-e9a36f1a456219dd185bf259ac03edff8e9af87b2fa5e3e210a8489ec3e19a2d.opus",
+      "old_name": "第二章 · 暗夜中的视线",
+      "name": "危急时刻（第二章 · 暗夜中的视线）",
+      "audio_id": "audio-e9a36f1a456219dd185bf259ac03edff8e9af87b2fa5e3e210a8489ec3e19a2d",
+      "qq_mid": "001BIFv60gDtYJ",
+      "official_title": "危急时刻"
+    },
+    {
+      "scope": "story",
+      "group_id": "story-我思，故魔王在 · 第二章",
+      "file": "/audio/audio-00fdecea08d4081bd0ea2825d8b2a82ad1e2143e0db634bad455ee142286e930.opus",
+      "old_name": "第二章 · 黑色少女 · 第2音轨",
+      "name": "剑风如歌（第二章 · 黑色少女 · 第2音轨）",
+      "audio_id": "audio-00fdecea08d4081bd0ea2825d8b2a82ad1e2143e0db634bad455ee142286e930",
+      "qq_mid": "003HEFm91k8xn2",
+      "official_title": "剑风如歌"
+    },
+    {
+      "scope": "story",
+      "group_id": "story-我思，故魔王在 · 第二章",
+      "file": "/audio/audio-dc032f936b5cb60abe5b9448d291f41338c5b5000e71cf3fb9c70c8a113605ad.opus",
+      "old_name": "第二章 · 仁义与刀 · 第1音轨",
+      "name": "雨过天晴的你（第二章 · 仁义与刀 · 第1音轨）",
+      "audio_id": "audio-dc032f936b5cb60abe5b9448d291f41338c5b5000e71cf3fb9c70c8a113605ad",
+      "qq_mid": "0025I2jR0JF912",
+      "official_title": "雨过天晴的你"
+    },
+    {
+      "scope": "story",
+      "group_id": "story-我思，故魔王在 · 第二章",
+      "file": "/audio/audio-eab7afe0fbe236ef936aba9c41e12aa2d08280d44538177abab37aa37916487b.opus",
+      "old_name": "第二章 · 仁义与刀 · 第2音轨",
+      "name": "这下……真的搞砸了？!（第二章 · 仁义与刀 · 第2音轨）",
+      "audio_id": "audio-eab7afe0fbe236ef936aba9c41e12aa2d08280d44538177abab37aa37916487b",
+      "qq_mid": "000O4OQH0EPr5P",
+      "official_title": "这下……真的搞砸了？!"
+    },
+    {
+      "scope": "story",
+      "group_id": "story-我思，故魔王在 · 第二章",
+      "file": "/audio/audio-2696e1a843e1113dee8af2479341c0eca74283ddbadd6f06ba328c4205d10605.opus",
+      "old_name": "第二章 · 特许经营",
+      "name": "星光与勇气（第二章 · 特许经营）",
+      "audio_id": "audio-2696e1a843e1113dee8af2479341c0eca74283ddbadd6f06ba328c4205d10605",
+      "qq_mid": "0015DSBL29SAPd",
+      "official_title": "星光与勇气"
+    },
+    {
+      "scope": "story",
+      "group_id": "story-我思，故魔王在 · 第一章",
+      "file": "/audio/audio-57e4213c5b72ed6f32bd163581c705c9087c9101f68b961f93dfc7815feb09c6.opus",
+      "old_name": "第一章 · 梦醒时分 · 第3音轨",
+      "name": "又是不慌不忙的一天（第一章 · 梦醒时分 · 第3音轨）",
+      "audio_id": "audio-57e4213c5b72ed6f32bd163581c705c9087c9101f68b961f93dfc7815feb09c6",
+      "qq_mid": "000k35GN1Fz6XE",
+      "official_title": "又是不慌不忙的一天"
+    },
+    {
+      "scope": "story",
+      "group_id": "story-我思，故魔王在 · 第一章",
+      "file": "/audio/audio-9ec2fc17f8dfbb04c031c631b08d41ee5d7dea5b13a8d375b3b836e06b76e18e.opus",
+      "old_name": "第一章 · 过去的痕迹 · 第1音轨",
+      "name": "又是稀松平常的一天（第一章 · 过去的痕迹 · 第1音轨）",
+      "audio_id": "audio-9ec2fc17f8dfbb04c031c631b08d41ee5d7dea5b13a8d375b3b836e06b76e18e",
+      "qq_mid": "001xXrtj096sLF",
+      "official_title": "又是稀松平常的一天"
+    },
+    {
+      "scope": "story",
+      "group_id": "story-我思，故魔王在 · 第一章",
+      "file": "/audio/audio-21450e386114c0bc8183f3690374a1c09a87261f80a2d5f4bdfa7493af7d14f5.opus",
+      "old_name": "第一章 · 过去的痕迹 · 第2音轨",
+      "name": "又是丢三落四的一天（第一章 · 过去的痕迹 · 第2音轨）",
+      "audio_id": "audio-21450e386114c0bc8183f3690374a1c09a87261f80a2d5f4bdfa7493af7d14f5",
+      "qq_mid": "003Hkp9W4QMjga",
+      "official_title": "又是丢三落四的一天"
+    },
+    {
+      "scope": "story",
+      "group_id": "story-我思，故魔王在 · 第一章",
+      "file": "/audio/audio-1a2c34a528abc1400cc8b079d5a9c6f558822bb4ac1ef8b209470a40b87a0333.opus",
+      "old_name": "第一章 · 消失的绿洲 · 第1音轨",
+      "name": "诡谲忽现（第一章 · 消失的绿洲 · 第1音轨）",
+      "audio_id": "audio-1a2c34a528abc1400cc8b079d5a9c6f558822bb4ac1ef8b209470a40b87a0333",
+      "qq_mid": "004Wgpeo3DqVLD",
+      "official_title": "诡谲忽现"
+    },
+    {
+      "scope": "story",
+      "group_id": "story-我思，故魔王在 · 第一章",
+      "file": "/audio/audio-d35ba185ff0d3025b0766dd67bcf3d757f0a8fcd959a0524f1fe6d4755ed1850.opus",
+      "old_name": "第一章 · 消失的绿洲 · 第2音轨",
+      "name": "这就是……胡闹的下场？（第一章 · 消失的绿洲 · 第2音轨）",
+      "audio_id": "audio-d35ba185ff0d3025b0766dd67bcf3d757f0a8fcd959a0524f1fe6d4755ed1850",
+      "qq_mid": "0024vWCr3nGU9c",
+      "official_title": "这就是……胡闹的下场？"
+    },
+    {
+      "scope": "story",
+      "group_id": "story-我思，故魔王在 · 第一章",
+      "file": "/audio/audio-7cc7da136259fb4fe14ec3bb894fd9502047298eb930e7b795a35de40d81e8c4.opus",
+      "old_name": "第一章 · 桥洞下 · 第1音轨",
+      "name": "心伤难愈（第一章 · 桥洞下 · 第1音轨）",
+      "audio_id": "audio-7cc7da136259fb4fe14ec3bb894fd9502047298eb930e7b795a35de40d81e8c4",
+      "qq_mid": "0025RvXb3LjQlh",
+      "official_title": "心伤难愈"
+    },
+    {
+      "scope": "story",
+      "group_id": "story-我思，故魔王在 · 第一章",
+      "file": "/audio/audio-9071876fc33c81bf43563f3f9f1f85c95e5f61dff7e37ff0e8ded9568da674e8.opus",
+      "old_name": "第一章 · 桥洞下 · 第2音轨",
+      "name": "这下……糟糕了？（第一章 · 桥洞下 · 第2音轨）",
+      "audio_id": "audio-9071876fc33c81bf43563f3f9f1f85c95e5f61dff7e37ff0e8ded9568da674e8",
+      "qq_mid": "0048Menq31ieCc",
+      "official_title": "这下……糟糕了？"
+    },
+    {
+      "scope": "story",
+      "group_id": "story-我思，故魔王在 · 第一章",
+      "file": "/audio/audio-fd095e082318094b0a62e1e53e318aea64869d456b191c39d8afcc640f0f2820.opus",
+      "old_name": "第一章 · 桥洞下 · 第3音轨",
+      "name": "握紧你的手（第一章 · 桥洞下 · 第3音轨）",
+      "audio_id": "audio-fd095e082318094b0a62e1e53e318aea64869d456b191c39d8afcc640f0f2820",
+      "qq_mid": "000cRRaY1W3DuX",
+      "official_title": "握紧你的手"
+    },
+    {
+      "scope": "story",
+      "group_id": "story-我思，故魔王在 · 第一章",
+      "file": "/audio/audio-003965b19a98939644b9dd4f94e9e59d86ed6a747b33e9162dabbb4f738aaa5d.opus",
+      "old_name": "第一章 · 灰城区的风 · 第1音轨",
+      "name": "又是叽叽喳喳的一天（第一章 · 灰城区的风 · 第1音轨）",
+      "audio_id": "audio-003965b19a98939644b9dd4f94e9e59d86ed6a747b33e9162dabbb4f738aaa5d",
+      "qq_mid": "002PXVpe30WlV2",
+      "official_title": "又是叽叽喳喳的一天"
+    },
+    {
+      "scope": "story",
+      "group_id": "story-我思，故魔王在 · 第一章",
+      "file": "/audio/audio-9bb83533656a796224fd2c2e0aff1befe50f0d71bfbe39811d88c56c72deb7c4.opus",
+      "old_name": "第一章 · 飞翔的选择 · 第1音轨",
+      "name": "大战将临（第一章 · 飞翔的选择 · 第1音轨）",
+      "audio_id": "audio-9bb83533656a796224fd2c2e0aff1befe50f0d71bfbe39811d88c56c72deb7c4",
+      "qq_mid": "000fFztT4MhrhC",
+      "official_title": "大战将临"
+    },
+    {
+      "scope": "story",
+      "group_id": "story-我思，故魔王在 · 第一章",
+      "file": "/audio/audio-3c92f173b6c40e3f4937c843d3cf8576bbae82e1d1bdde12c62986ad96746603.opus",
+      "old_name": "第一章 · 飞翔的选择 · 第2音轨",
+      "name": "决断之刻（第一章 · 飞翔的选择 · 第2音轨）",
+      "audio_id": "audio-3c92f173b6c40e3f4937c843d3cf8576bbae82e1d1bdde12c62986ad96746603",
+      "qq_mid": "0006IoRf25rsYe",
+      "official_title": "决断之刻"
+    },
+    {
+      "scope": "story",
+      "group_id": "story-我思，故魔王在 · 第一章",
+      "file": "/audio/audio-50f1d5d8bf4d983b3aec251c765f27847c7acc36dbe28c2a0ce4d12714e61b73.opus",
+      "old_name": "第一章 · 不同的许愿",
+      "name": "惊梦易觉（第一章 · 不同的许愿）",
+      "audio_id": "audio-50f1d5d8bf4d983b3aec251c765f27847c7acc36dbe28c2a0ce4d12714e61b73",
+      "qq_mid": "004SSCOa2a2TLs",
+      "official_title": "惊梦易觉"
+    },
+    {
+      "scope": "story",
+      "group_id": "story-我思，故魔王在 · 第一章",
+      "file": "/audio/audio-6b5bccf1f4782c622ad8c66d22556f635dc5a55f28ceaa5d72748cc22932d1ef.opus",
+      "old_name": "第一章 · 调查结果",
+      "name": "这就是……无巧不成书？（第一章 · 调查结果）",
+      "audio_id": "audio-6b5bccf1f4782c622ad8c66d22556f635dc5a55f28ceaa5d72748cc22932d1ef",
+      "qq_mid": "0003Zs4c4M3Ifm",
+      "official_title": "这就是……无巧不成书？"
+    },
+    {
+      "scope": "story",
+      "group_id": "story-我思，故魔王在 · 第一章",
+      "file": "/audio/audio-0bc27082d923883e8c39935c32525d41b99d3de91ea663c42d6becd9735c3521.opus",
+      "old_name": "第一章 · 没有旅人的未来 · 第1音轨",
+      "name": "轻声密语的你（第一章 · 没有旅人的未来 · 第1音轨）",
+      "audio_id": "audio-0bc27082d923883e8c39935c32525d41b99d3de91ea663c42d6becd9735c3521",
+      "qq_mid": "003ARmFp1z21gw",
+      "official_title": "轻声密语的你"
+    },
+    {
+      "scope": "story",
+      "group_id": "story-我思，故魔王在 · 第一章",
+      "file": "/audio/audio-16eb7fab8fec231b9e995c4ef840d6fb5ead174689568a8d4d1c896ed924f4ac.opus",
+      "old_name": "第一章 · 没有旅人的未来 · 第3音轨",
+      "name": "白色房间（第一章 · 没有旅人的未来 · 第3音轨）",
+      "audio_id": "audio-16eb7fab8fec231b9e995c4ef840d6fb5ead174689568a8d4d1c896ed924f4ac",
+      "qq_mid": "004Gplj70iHGd5",
+      "official_title": "白色房间"
+    },
+    {
+      "scope": "story",
+      "group_id": "story-我思，故魔王在 · 第一章",
+      "file": "/audio/audio-a9d191cbc9c22246ba0b14fde1b6450b35806cb9ce569713276e4860bbdea196.opus",
+      "old_name": "第一章 · 填补记忆的方式",
+      "name": "又是精神饱满的一天（第一章 · 填补记忆的方式）",
+      "audio_id": "audio-a9d191cbc9c22246ba0b14fde1b6450b35806cb9ce569713276e4860bbdea196",
+      "qq_mid": "004ew8lV0AHco7",
+      "official_title": "又是精神饱满的一天"
+    },
+    {
+      "scope": "story",
+      "group_id": "story-我思，故魔王在 · 第一章",
+      "file": "/audio/audio-7a9d90a816b55b1de508426288b8505298852925ac9ed3988da86f4d352888b0.opus",
+      "old_name": "第一章 · 最终解释权",
+      "name": "微微刺痛的心（第一章 · 最终解释权）",
+      "audio_id": "audio-7a9d90a816b55b1de508426288b8505298852925ac9ed3988da86f4d352888b0",
+      "qq_mid": "004O7Dch0RBJWI",
+      "official_title": "微微刺痛的心"
+    },
+    {
+      "scope": "story",
+      "group_id": "permanent-system",
+      "file": "/audio/audio-06c451261061dc504b101745a1cc396322797e0c91fcb023a3ebd00084259653.opus",
+      "old_name": "后宅",
+      "name": "想起，轻声密语的你（后宅）",
+      "audio_id": "audio-06c451261061dc504b101745a1cc396322797e0c91fcb023a3ebd00084259653",
+      "qq_mid": "002HR5VT31FyeN",
+      "official_title": "想起，轻声密语的你"
+    },
+    {
+      "scope": "story",
+      "group_id": "permanent-system",
+      "file": "/audio/audio-83d9ff037fbf062591be19e9ac328a409ba52dc7b94dd342f30e5cdf428e5626.opus",
+      "old_name": "登录",
+      "name": "梦的再启（登录）",
+      "audio_id": "audio-83d9ff037fbf062591be19e9ac328a409ba52dc7b94dd342f30e5cdf428e5626",
+      "qq_mid": "003kKWdG3WwnYn",
+      "official_title": "梦的再启"
+    },
+    {
+      "scope": "story",
+      "group_id": "permanent-system",
+      "file": "/audio/audio-f95ecf455e5ac897fc4a799c823e1798446294551f3acd2b19e7f1bd16def7f5.opus",
+      "old_name": "营地",
+      "name": "总会再见（营地）",
+      "audio_id": "audio-f95ecf455e5ac897fc4a799c823e1798446294551f3acd2b19e7f1bd16def7f5",
+      "qq_mid": "0033Rh9U1x4dhP",
+      "official_title": "总会再见"
+    },
+    {
+      "scope": "story",
+      "group_id": "permanent-system",
+      "file": "/audio/audio-5003a6494ac260936d0468e5a2221eb3d89e0a108a125878023a0494ef679eab.opus",
+      "old_name": "登录与主界面",
+      "name": "旅人的歌谣（登录与主界面）",
+      "audio_id": "audio-5003a6494ac260936d0468e5a2221eb3d89e0a108a125878023a0494ef679eab",
+      "qq_mid": "004TZgWs2dLORf",
+      "official_title": "旅人的歌谣"
+    },
+    {
+      "scope": "story",
+      "group_id": "permanent-system",
+      "file": "/audio/audio-e666df02ade3f0e78c8d96bee92be24f6792b0b9eae792125082a27f0105073e.opus",
+      "old_name": "关卡选择",
+      "name": "荒野的呼吸（关卡选择）",
+      "audio_id": "audio-e666df02ade3f0e78c8d96bee92be24f6792b0b9eae792125082a27f0105073e",
+      "qq_mid": "001BQXgT1ijmDO",
+      "official_title": "荒野的呼吸"
+    },
+    {
+      "scope": "story",
+      "group_id": "permanent-system",
+      "file": "/audio/audio-a1b6aaefba83ee7cdcdd04a08b07fd9eaaeac0a89f2b7f24d2873bdaf2d23d4a.opus",
+      "old_name": "启动画面",
+      "name": "梦的开幕（启动画面）",
+      "audio_id": "audio-a1b6aaefba83ee7cdcdd04a08b07fd9eaaeac0a89f2b7f24d2873bdaf2d23d4a",
+      "qq_mid": "000OtnMi2WCXn1",
+      "official_title": "梦的开幕"
+    },
+    {
+      "scope": "story",
+      "group_id": "permanent-system",
+      "file": "/audio/audio-4772e6bd500715da24ebb568297129b133c4467910c7821864826f8bee75c6e7.opus",
+      "old_name": "采购商店",
+      "name": "琳琅满目（采购商店）",
+      "audio_id": "audio-4772e6bd500715da24ebb568297129b133c4467910c7821864826f8bee75c6e7",
+      "qq_mid": "004GsoLM4Z937h",
+      "official_title": "琳琅满目"
+    },
+    {
+      "scope": "story",
+      "group_id": "permanent-system",
+      "file": "/audio/audio-8c53a6b84c2714dd15436172216d0a21279723146e96dd0e99b0b2400da5ab0a.opus",
+      "old_name": "尖兵陷阵",
+      "name": "莉莉贝尔的疗愈屋（尖兵陷阵）",
+      "audio_id": "audio-8c53a6b84c2714dd15436172216d0a21279723146e96dd0e99b0b2400da5ab0a",
+      "qq_mid": "004gT4ax0GbTvG",
+      "official_title": "莉莉贝尔的疗愈屋"
+    },
+    {
+      "scope": "story",
+      "group_id": "permanent-system",
+      "file": "/audio/audio-065ba01de7343a87524f6c6d982737ac1ac24053b00e9ab0a26dfb199994c43a.opus",
+      "old_name": "无尽之塔",
+      "name": "惑心的蜜语（无尽之塔）",
+      "audio_id": "audio-065ba01de7343a87524f6c6d982737ac1ac24053b00e9ab0a26dfb199994c43a",
+      "qq_mid": "0019rSnO2MVdFm",
+      "official_title": "惑心的蜜语"
+    },
+    {
+      "scope": "story",
+      "group_id": "permanent-system",
+      "file": "/audio/audio-2f078d15eaff79a35a219ec41b6435cbc829ead9add597c7533c144e0df6ce0a.opus",
+      "old_name": "招募过程 · 旅人招募",
+      "name": "不期而遇（招募过程 · 旅人招募）",
+      "audio_id": "audio-2f078d15eaff79a35a219ec41b6435cbc829ead9add597c7533c144e0df6ce0a",
+      "qq_mid": "001tKbGE4GaQu6",
+      "official_title": "不期而遇"
+    },
+    {
+      "scope": "story",
+      "group_id": "permanent-system",
+      "file": "/audio/audio-42a6cb5ec3ae46fad6d4f9b52d508a724dac636e478b59e515939d1607c637ec.opus",
+      "old_name": "招募过程 · 秘纹招募 · R",
+      "name": "不期而遇（招募过程 · 秘纹招募 · R）",
+      "audio_id": "audio-42a6cb5ec3ae46fad6d4f9b52d508a724dac636e478b59e515939d1607c637ec",
+      "qq_mid": "001tKbGE4GaQu6",
+      "official_title": "不期而遇"
+    },
+    {
+      "scope": "story",
+      "group_id": "permanent-system",
+      "file": "/audio/audio-f8f91439680069155942b8932e6ba39cd6791dbe14fb0734dc510c55b8aa8ece.opus",
+      "old_name": "招募过程",
+      "name": "不期而遇（招募过程）",
+      "audio_id": "audio-f8f91439680069155942b8932e6ba39cd6791dbe14fb0734dc510c55b8aa8ece",
+      "qq_mid": "001tKbGE4GaQu6",
+      "official_title": "不期而遇"
+    },
+    {
+      "scope": "story",
+      "group_id": "permanent-system",
+      "file": "/audio/audio-8f99ade168c4523c437e838f33fcbc35eec41e13f87eb9e6d23492959e8cbd81.opus",
+      "old_name": "编队",
+      "name": "星塔的召唤（编队）",
+      "audio_id": "audio-8f99ade168c4523c437e838f33fcbc35eec41e13f87eb9e6d23492959e8cbd81",
+      "qq_mid": "0031927n3eFxvj",
+      "official_title": "星塔的召唤"
+    },
+    {
+      "scope": "story",
+      "group_id": "permanent-system",
+      "file": "/audio/audio-14ef894390ac14419ebb34d676bf65fffced0aae138413ef0a2f78995b93a50b.opus",
+      "old_name": "后宅",
+      "name": "并非不慌不忙的一天（后宅）",
+      "audio_id": "audio-14ef894390ac14419ebb34d676bf65fffced0aae138413ef0a2f78995b93a50b",
+      "qq_mid": "002z3nPU1XkjWs",
+      "official_title": "并非不慌不忙的一天"
+    },
+    {
+      "scope": "story",
+      "group_id": "permanent-system",
+      "file": "/audio/audio-a326fb8958c77204c5572ecf0d051d660713071b2628d2e315dd7bbc3581aba0.opus",
+      "old_name": "后宅",
+      "name": "梦的再启（后宅）",
+      "audio_id": "audio-a326fb8958c77204c5572ecf0d051d660713071b2628d2e315dd7bbc3581aba0",
+      "qq_mid": "003kKWdG3WwnYn",
+      "official_title": "梦的再启"
+    },
+    {
+      "scope": "story",
+      "group_id": "permanent-combat",
+      "file": "/audio/audio-7f1e9b71265dd28af5fd764191423dca22db94b8a728aa677b4a7065515d4be5.opus",
+      "old_name": "暗林 · 首领战",
+      "name": "寄生之庭（暗林 · 首领战）",
+      "audio_id": "audio-7f1e9b71265dd28af5fd764191423dca22db94b8a728aa677b4a7065515d4be5",
+      "qq_mid": "002AR95y40zT0T",
+      "official_title": "寄生之庭"
+    },
+    {
+      "scope": "story",
+      "group_id": "permanent-combat",
+      "file": "/audio/audio-afddf3e90f0e57823cbb823a656cdd72568a3a32b72742dc6c9d2ff38aa89c42.opus",
+      "old_name": "首领战",
+      "name": "星骸降临（首领战）",
+      "audio_id": "audio-afddf3e90f0e57823cbb823a656cdd72568a3a32b72742dc6c9d2ff38aa89c42",
+      "qq_mid": "0035DPIf2DZ3DS",
+      "official_title": "星骸降临"
+    },
+    {
+      "scope": "story",
+      "group_id": "permanent-combat",
+      "file": "/audio/audio-3acad708e3938e377517ab63ef4d20945fa6499ae65452bd5f43db0068e106be.opus",
+      "old_name": "火垂-变体2",
+      "name": "雾境突围（火垂-变体2）",
+      "audio_id": "audio-3acad708e3938e377517ab63ef4d20945fa6499ae65452bd5f43db0068e106be",
+      "qq_mid": "004eLiTc1BY3fa",
+      "official_title": "雾境突围"
+    },
+    {
+      "scope": "story",
+      "group_id": "permanent-combat",
+      "file": "/audio/audio-8ef68aa63b5754c2f7e904dd9a4d7d53082c33a2f8a34867921e0c05f0d5d456.opus",
+      "old_name": "尖兵陷阵 · 猫眼 · 首领战",
+      "name": "猫临城下（尖兵陷阵 · 猫眼 · 首领战）",
+      "audio_id": "audio-8ef68aa63b5754c2f7e904dd9a4d7d53082c33a2f8a34867921e0c05f0d5d456",
+      "qq_mid": "002xdPm924E12r",
+      "official_title": "猫临城下"
+    },
+    {
+      "scope": "story",
+      "group_id": "permanent-combat",
+      "file": "/audio/audio-2231f8a9ca321edda3f71927aac39ef2178b519cc33ca1ffb110bfd57e65c615.opus",
+      "old_name": "首领战 · 首领击败",
+      "name": "终宵萤辉（首领战 · 首领击败）",
+      "audio_id": "audio-2231f8a9ca321edda3f71927aac39ef2178b519cc33ca1ffb110bfd57e65c615",
+      "qq_mid": "002ggxtr1kNSyK",
+      "official_title": "终宵萤辉"
+    },
+    {
+      "scope": "story",
+      "group_id": "permanent-combat",
+      "file": "/audio/audio-c2f5e52fed28781c4e9ea4910649473cbf3504885e8b466e6f5871c6c1c95404.opus",
+      "old_name": "首领战 · 咕噜六角鲸-变体2",
+      "name": "咕噜六角鲸（首领战 · 咕噜六角鲸-变体2）",
+      "audio_id": "audio-c2f5e52fed28781c4e9ea4910649473cbf3504885e8b466e6f5871c6c1c95404",
+      "qq_mid": "003VGY2g3LuYum",
+      "official_title": "咕噜六角鲸"
+    },
+    {
+      "scope": "story",
+      "group_id": "permanent-combat",
+      "file": "/audio/audio-82de09b6cfbc1c3bb2ae6a542856ca11e9fad0352cf7f544526aa9554a21c5ee.opus",
+      "old_name": "首领战 · 禁断丽容-变体2 · 首领战",
+      "name": "禁断丽容（首领战 · 禁断丽容-变体2 · 首领战）",
+      "audio_id": "audio-82de09b6cfbc1c3bb2ae6a542856ca11e9fad0352cf7f544526aa9554a21c5ee",
+      "qq_mid": "004egOn74HbeMK",
+      "official_title": "禁断丽容"
+    },
+    {
+      "scope": "story",
+      "group_id": "permanent-combat",
+      "file": "/audio/audio-4d7f4b07362758760d04bba8f3c99766bbb46d478f8841ba3b78b9ca99bd67b6.opus",
+      "old_name": "首领战 · 吹灰夫人 · 首领战",
+      "name": "吹灰夫人（首领战 · 吹灰夫人 · 首领战）",
+      "audio_id": "audio-4d7f4b07362758760d04bba8f3c99766bbb46d478f8841ba3b78b9ca99bd67b6",
+      "qq_mid": "003ZBVP53XJaju",
+      "official_title": "吹灰夫人"
+    },
+    {
+      "scope": "story",
+      "group_id": "permanent-combat",
+      "file": "/audio/audio-99b26155a95a1e3b2da84fcf795b197bb1b273b15238561b1303e5ff14e4d2bf.opus",
+      "old_name": "首领战 · 禁断丽容 · 首领战",
+      "name": "禁断丽容（首领战 · 禁断丽容 · 首领战）",
+      "audio_id": "audio-99b26155a95a1e3b2da84fcf795b197bb1b273b15238561b1303e5ff14e4d2bf",
+      "qq_mid": "004egOn74HbeMK",
+      "official_title": "禁断丽容"
+    },
+    {
+      "scope": "story",
+      "group_id": "permanent-combat",
+      "file": "/audio/audio-735e07acfb4472b084c36eddd107f2286179c3ca97dd7f5bb3d5efbe489e465c.opus",
+      "old_name": "首领战 · 崇高傀儡-变体2 · 首领战",
+      "name": "无暇的庆典（首领战 · 崇高傀儡-变体2 · 首领战）",
+      "audio_id": "audio-735e07acfb4472b084c36eddd107f2286179c3ca97dd7f5bb3d5efbe489e465c",
+      "qq_mid": "000at6ea3GWzuc",
+      "official_title": "无暇的庆典"
+    },
+    {
+      "scope": "story",
+      "group_id": "permanent-combat",
+      "file": "/audio/audio-fd9445f93fff716840718bd833122e17e9c607bdb70cad80c527a5f75018fd99.opus",
+      "old_name": "首领战 · 崇高傀儡 · 科佩里乌斯与奥林匹娅 · 首领战",
+      "name": "无暇的庆典（首领战 · 崇高傀儡 · 科佩里乌斯与奥林匹娅 · 首领战）",
+      "audio_id": "audio-fd9445f93fff716840718bd833122e17e9c607bdb70cad80c527a5f75018fd99",
+      "qq_mid": "000at6ea3GWzuc",
+      "official_title": "无暇的庆典"
+    },
+    {
+      "scope": "story",
+      "group_id": "permanent-combat",
+      "file": "/audio/audio-68e569661f1075cf64d69aec9f7a6baf4a42d85633262814f384946fe5f2cf87.opus",
+      "old_name": "首领战 · 吹灰夫人-变体2 · 首领战",
+      "name": "吹灰夫人（首领战 · 吹灰夫人-变体2 · 首领战）",
+      "audio_id": "audio-68e569661f1075cf64d69aec9f7a6baf4a42d85633262814f384946fe5f2cf87",
+      "qq_mid": "003ZBVP53XJaju",
+      "official_title": "吹灰夫人"
+    },
+    {
+      "scope": "story",
+      "group_id": "permanent-combat",
+      "file": "/audio/audio-33809a21ee980554459da5013128e07fbd694d5aa21200fb8d0aadcb2fb532b2.opus",
+      "old_name": "首领战 · 热嘟噜噗男爵 · 首领战",
+      "name": "热嘟噜噗男爵（首领战 · 热嘟噜噗男爵 · 首领战）",
+      "audio_id": "audio-33809a21ee980554459da5013128e07fbd694d5aa21200fb8d0aadcb2fb532b2",
+      "qq_mid": "000Yh8sQ43iMuJ",
+      "official_title": "热嘟噜噗男爵"
+    },
+    {
+      "scope": "story",
+      "group_id": "permanent-combat",
+      "file": "/audio/audio-127c8e918c80d896a95c4bbb46818c0e94e53e130c615053ce697ad3cbd6ded3.opus",
+      "old_name": "首领战 · 终宵萤辉-变体2 · 首领战",
+      "name": "终宵萤辉（首领战 · 终宵萤辉-变体2 · 首领战）",
+      "audio_id": "audio-127c8e918c80d896a95c4bbb46818c0e94e53e130c615053ce697ad3cbd6ded3",
+      "qq_mid": "002ggxtr1kNSyK",
+      "official_title": "终宵萤辉"
+    },
+    {
+      "scope": "story",
+      "group_id": "permanent-combat",
+      "file": "/audio/audio-49ca78e8ac82730e63c52be9f95a4283029250c5196963335c19d446843f44df.opus",
+      "old_name": "首领战 · 冻冻王三世-变体2 · 首领战",
+      "name": "冻冻王Ⅲ世（首领战 · 冻冻王三世-变体2 · 首领战）",
+      "audio_id": "audio-49ca78e8ac82730e63c52be9f95a4283029250c5196963335c19d446843f44df",
+      "qq_mid": "004UAnZQ0lNGdz",
+      "official_title": "冻冻王Ⅲ世"
+    },
+    {
+      "scope": "story",
+      "group_id": "permanent-combat",
+      "file": "/audio/audio-14389850a3b31729ece7aa961b7862df1a78a61cd2ba4d51cd77ba1c1445c1c3.opus",
+      "old_name": "首领战 · 热嘟噜噗男爵-变体2 · 首领战",
+      "name": "热嘟噜噗男爵（首领战 · 热嘟噜噗男爵-变体2 · 首领战）",
+      "audio_id": "audio-14389850a3b31729ece7aa961b7862df1a78a61cd2ba4d51cd77ba1c1445c1c3",
+      "qq_mid": "000Yh8sQ43iMuJ",
+      "official_title": "热嘟噜噗男爵"
+    },
+    {
+      "scope": "story",
+      "group_id": "permanent-combat",
+      "file": "/audio/audio-4be0f3b12170b1a96283e3fa8b5965888a456202d7bc1a27b098a7106716fb68.opus",
+      "old_name": "尖兵陷阵 · 雾语 · 首领战",
+      "name": "闻香识魔女（尖兵陷阵 · 雾语 · 首领战）",
+      "audio_id": "audio-4be0f3b12170b1a96283e3fa8b5965888a456202d7bc1a27b098a7106716fb68",
+      "qq_mid": "002rbpU01RDeqt",
+      "official_title": "闻香识魔女"
+    },
+    {
+      "scope": "story",
+      "group_id": "story-undated",
+      "file": "/audio/audio-921276a7f5bca3969d7b39e841943ddf9f152eff7f4f18f4f3a8c438c2bdce07.opus",
+      "old_name": "未使用曲 · m63 · 第1音轨",
+      "name": "悠然芬芳（未使用曲 · m63 · 第1音轨）",
+      "audio_id": "audio-921276a7f5bca3969d7b39e841943ddf9f152eff7f4f18f4f3a8c438c2bdce07",
+      "qq_mid": "003b6mAU3ypNV9",
+      "official_title": "悠然芬芳"
+    },
+    {
+      "scope": "story",
+      "group_id": "story-undated",
+      "file": "/audio/audio-9d047279ef45c7e69c01e2b70e91a5d43366da98a335f6fd6406ab8a5e728388.opus",
+      "old_name": "未使用曲 · m63 · 第2音轨",
+      "name": "悠然芬芳（未使用曲 · m63 · 第2音轨）",
+      "audio_id": "audio-9d047279ef45c7e69c01e2b70e91a5d43366da98a335f6fd6406ab8a5e728388",
+      "qq_mid": "003b6mAU3ypNV9",
+      "official_title": "悠然芬芳"
+    },
+    {
+      "scope": "outfit",
+      "outfit_id": 214049,
+      "variant": "核心旋律",
+      "old_name": "星光的印记",
+      "name": "星光的印记 (伴奏)（星光的印记）",
+      "audio_id": "audio-bc1d05537f6196d27a3532f11ebc011d728b8209a39c8a2179ddbb6cea3ce98e",
+      "qq_mid": "004824Qp23YyLn",
+      "official_title": "星光的印记 (伴奏)"
+    }
+  ],
+  "source_mapping_sha256": "1420e5fd6a725e6debda8c08b307c83e2c60d9a2ed8dd841b9ec5e6c7429ae64",
+  "name_format": "official title（previous current title）",
+  "policy": "Verified names only; optional explicit Cookie short-cue restoration. Existing descriptions, dates, file paths and game core/victory labels are preserved.",
+  "restored_cookie": [
+    {
+      "audio_id": "audio-b20afce217bfbc5f6a2862ec6a3517c0668985a16d216093f209cca54f1f0664",
+      "name": "甜心梦工坊 · 开始",
+      "duration_seconds": 8.0
+    },
+    {
+      "audio_id": "audio-569ad2e75c5af97e2f054eec92753eb3fb2f28464760de81cb3897348a9787b6",
+      "name": "甜心梦工坊 · 每分钟75拍",
+      "duration_seconds": 26.335
+    },
+    {
+      "audio_id": "audio-68b5ec41a88512eb71549e00bb1104c6b85bb28236e29721fb3b73432c17ed53",
+      "name": "甜心梦工坊 · 每分钟68拍",
+      "duration_seconds": 29.045979166666665
+    },
+    {
+      "audio_id": "audio-90a204e7fbe90abd9dce9357beee84a7daca7b4c2c4b68187c7b804ee35b5d85",
+      "name": "甜心梦工坊 · 每分钟60拍",
+      "duration_seconds": 32.91875
+    },
+    {
+      "audio_id": "audio-102ae24076b8f313aada3e552627edd91d418cde33c70e77bc2091aa543efeaa",
+      "name": "甜心梦工坊 · 每分钟65拍",
+      "duration_seconds": 30.386541666666666
+    },
+    {
+      "audio_id": "audio-6412631b3250104ff502a87d03489aad98411e5acbec46019ef4e0338f56a4f2",
+      "name": "甜心梦工坊 · 每分钟40拍",
+      "duration_seconds": 49.348416666666665
+    },
+    {
+      "audio_id": "audio-5bd4da07535a262b393c0c374f37be3bf7abb3a3bba19c1cf67bb0a0e348d622",
+      "name": "甜心梦工坊 · 自由演奏",
+      "duration_seconds": 32.0
+    },
+    {
+      "audio_id": "audio-b53e80251291025656ee88e6bc8f0b037ccccbf9f54c53428833aef85552a777",
+      "name": "甜心梦工坊",
+      "duration_seconds": 44.090875
+    },
+    {
+      "audio_id": "audio-bb2e77853f38145249b3d1467f1bd885dc478a1f1335648acbc8fa518a1bca03",
+      "name": "甜心梦工坊-变体3 · 开始",
+      "duration_seconds": 8.0
+    },
+    {
+      "audio_id": "audio-12779fd2ee377163619c8b485d41bf15ba6036e85395367d69c92e36955dee3a",
+      "name": "甜心梦工坊-变体3 · 每分钟75拍",
+      "duration_seconds": 25.6
+    },
+    {
+      "audio_id": "audio-59878827251ca4d5db1956669724b87108b5350212190ba3285ce6125c38535f",
+      "name": "甜心梦工坊-变体3 · 每分钟68拍",
+      "duration_seconds": 28.235291666666665
+    },
+    {
+      "audio_id": "audio-f4f2bab1011b1feaf30118e79036962969cea79754649e748c851a0b1c273cac",
+      "name": "甜心梦工坊-变体3",
+      "duration_seconds": 48.0
+    },
+    {
+      "audio_id": "audio-023732d501a08dc5346cbd70291211b3334d8fb6c9e83d89ad73804f09e34a06",
+      "name": "甜心梦工坊-变体3 · 每分钟50拍",
+      "duration_seconds": 28.8
+    },
+    {
+      "audio_id": "audio-bce1f182e758bef31c738c09df3d276ace0c21df8b616b55334231dbff01f5c6",
+      "name": "甜心梦工坊-变体3 · 每分钟40拍",
+      "duration_seconds": 24.0
+    },
+    {
+      "audio_id": "audio-cc7aa6cb3c730500cbb11b47e96f7cc2095e549f3092c91240dc1889c3fca960",
+      "name": "甜心梦工坊-变体2 · 开始",
+      "duration_seconds": 9.049104166666666
+    },
+    {
+      "audio_id": "audio-c48fa7df057632af3ec593c775d1f5758ad498ecb22ba55a1f7f8778d91bf61e",
+      "name": "甜心梦工坊-变体2 · 每分钟75拍",
+      "duration_seconds": 28.8
+    },
+    {
+      "audio_id": "audio-6b1ffacf317ddaf31db0e6e47e28a36f7c27f0163e1881d10884a0dbf23af84a",
+      "name": "甜心梦工坊-变体2 · 每分钟68拍",
+      "duration_seconds": 28.235291666666665
+    },
+    {
+      "audio_id": "audio-4148ea1b453bcaca2e3de2a8dd81116dca40361608d0f06ec43f526647be1093",
+      "name": "甜心梦工坊-变体2 · 每分钟60拍",
+      "duration_seconds": 47.75
+    },
+    {
+      "audio_id": "audio-ad7c4f3106b652198343af7f2a577668d5bb9c7695f98694c3e92dc0179b3c01",
+      "name": "甜心梦工坊-变体2 · 每分钟50拍",
+      "duration_seconds": 28.8
+    },
+    {
+      "audio_id": "audio-b96898ac7a94efd735c8e8007b971409c583cb6f1ffc88fbb0e3024638ff0447",
+      "name": "甜心梦工坊-变体2 · 每分钟40拍",
+      "duration_seconds": 30.0
+    },
+    {
+      "audio_id": "audio-d489981dcfd007b25d61b5a5cd7f3ee2dbe1211a42744725419255956fec9946",
+      "name": "甜心梦工坊-变体2 · 自由演奏",
+      "duration_seconds": 48.0
+    },
+    {
+      "audio_id": "audio-4e561b7834e29966b87cf235a677f6a0b877bf1431ac46f1904ae5cf22f274b1",
+      "name": "甜心梦工坊-变体4 · 开始",
+      "duration_seconds": 7.4
+    },
+    {
+      "audio_id": "audio-e558b519650a737a9661df0674b2d6abec138737a55bcb3f501e3e79017ad330",
+      "name": "甜心梦工坊-变体4 · 每分钟75拍",
+      "duration_seconds": 44.8
+    },
+    {
+      "audio_id": "audio-1e5e20a515644d56155c8c3efedde44a4dd2208779741f5eacf749d7ff7bd447",
+      "name": "甜心梦工坊-变体4 · 每分钟68拍",
+      "duration_seconds": 35.29410416666666
+    },
+    {
+      "audio_id": "audio-d380fa92c6ed1d590c0082e5b97bf867ed2d687d615951dadf0aecd8e3184d14",
+      "name": "甜心梦工坊-变体4 · 每分钟65拍",
+      "duration_seconds": 29.5384375
+    },
+    {
+      "audio_id": "audio-082c2a46e12ad00414a7aaaa48fab03425475bdf3d81336e38905461abda97d1",
+      "name": "甜心梦工坊-变体4 · 每分钟50拍",
+      "duration_seconds": 19.2
+    },
+    {
+      "audio_id": "audio-1065ec7b635d45aafb770219c85732e254934e84964b11ec5692c213a28bdc94",
+      "name": "甜心梦工坊-变体4 · 每分钟40拍",
+      "duration_seconds": 24.0
+    }
+  ]
+}

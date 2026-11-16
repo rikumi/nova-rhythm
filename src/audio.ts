@@ -36,15 +36,29 @@ class Player {
     this.value = { ...this.value, ...patch };
     this.listeners.forEach(fn => fn());
   }
-  private async ready() {
+  private getContext() {
     if (!this.context) {
       this.context = new AudioContext();
       this.musicGain = this.context.createGain();
       this.musicGain.gain.value = this.value.volume;
       this.musicGain.connect(this.context.destination);
     }
-    if (this.context.state === 'suspended') await this.context.resume();
     return this.context;
+  }
+  private async ready() {
+    const context = this.getContext();
+    if (context.state === 'suspended') await context.resume();
+    return context;
+  }
+  async selectFromLink(track: Music) {
+    await this.select(track);
+    if (this.value.playing) return true;
+    const context = this.getContext();
+    // A cold mobile/browser tab may require a gesture. Leave a usable play
+    // button rather than hanging in loading while resume() waits for permission.
+    if (context.state !== 'running' && !navigator.userActivation?.hasBeenActive) return false;
+    await this.play();
+    return this.value.playing;
   }
   private stopSource() {
     const source = this.source; const gain = this.sourceGain;

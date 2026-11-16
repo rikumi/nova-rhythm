@@ -1,0 +1,2561 @@
+{
+  "schema_version": 1,
+  "moves": [
+    {
+      "file": "/audio/audio-e0b47be4da1419de36e562cd5e7b6cd72f3bebe4bb50aff7cb475bd773f33567.opus",
+      "old_name": "渊海主宰",
+      "name": "渊海主宰",
+      "from": "activity-20103",
+      "to": "mode-联合讨伐",
+      "basis": [
+        "ScoreBossFloor:1001005 BGM=roguelike_combatShasha_setState",
+        "ScoreBossFloor:1001011 BGM=roguelike_combatShasha_setState",
+        "ScoreBossFloor:1001031 BGM=roguelike_combatShasha_setState"
+      ]
+    },
+    {
+      "file": "/audio/audio-6db21b4af15b3a0d7d2515cf23ef761d8c0155e20fd7ab48ba1ba1c65a762d3e.opus",
+      "old_name": "流水与暗影",
+      "name": "流水与暗影",
+      "from": "mode-灾变防线",
+      "to": "mode-星塔探索",
+      "basis": [
+        "User specified exploration theme family"
+      ]
+    },
+    {
+      "file": "/audio/audio-ef379564e8ad7c3d145e71d86c2fe6c5cb1890646cf5a0631c5da91b9e8f3cc0.opus",
+      "old_name": "风暴与闪电",
+      "name": "风暴与闪电",
+      "from": "mode-灾变防线",
+      "to": "mode-星塔探索",
+      "basis": [
+        "User specified exploration theme family"
+      ]
+    },
+    {
+      "file": "/audio/audio-cb04c9fdbfac7cd113fb3d89464476c2c8cb4bfd9ba8b71bd8de0e6ccab995ba.opus",
+      "old_name": "咕噜六角鲸",
+      "name": "咕噜六角鲸",
+      "from": "activity-10100",
+      "to": "mode-真格挑战",
+      "basis": [
+        "WeekBossFloor:6206101 BGM=haiTu_realChallenge_setState",
+        "WeekBossFloor:6206102 BGM=haiTu_realChallenge_setState",
+        "WeekBossFloor:6206103 BGM=haiTu_realChallenge_setState"
+      ]
+    },
+    {
+      "file": "/audio/audio-06592bd073fb3d13643936433b78b02d4a9255209a690f14b54f928df10a8a8b.opus",
+      "old_name": "区域首领",
+      "name": "区域首领",
+      "from": "permanent-system",
+      "to": "mode-晋升试炼",
+      "basis": [
+        "Wwise system=regionBoss; UIText.LevelMenu_Region",
+        "Wwise system=regionBoss; UIText.LevelMenu_Region"
+      ]
+    },
+    {
+      "file": "/audio/audio-8c53a6b84c2714dd15436172216d0a21279723146e96dd0e99b0b2400da5ab0a.opus",
+      "old_name": "莉莉贝尔的疗愈屋",
+      "name": "莉莉贝尔的疗愈屋",
+      "from": "permanent-system",
+      "to": "mode-巅峰秀场",
+      "basis": [
+        "Wwise system=duel; UIText.LevelMenu_TravelerDuel",
+        "Wwise system=duel; UIText.LevelMenu_TravelerDuel"
+      ]
+    },
+    {
+      "file": "/audio/audio-065ba01de7343a87524f6c6d982737ac1ac24053b00e9ab0a26dfb199994c43a.opus",
+      "old_name": "惑心的蜜语",
+      "name": "惑心的蜜语",
+      "from": "permanent-system",
+      "to": "mode-心危擂台",
+      "basis": [
+        "Wwise system=endlesstower",
+        "Wwise system=endlesstower"
+      ]
+    },
+    {
+      "file": "/audio/audio-e2bd40e7ca979351fd18530d8f8494aa29d960fbf035df40cde4e232464d5915.opus",
+      "old_name": "巅峰猎场",
+      "name": "巅峰猎场",
+      "from": "permanent-system",
+      "to": "mode-真格挑战",
+      "basis": [
+        "WeeklyCopies UI bossRank audio / WeekBoss gameplay",
+        "WeeklyCopies UI bossRank audio / WeekBoss gameplay"
+      ]
+    },
+    {
+      "file": "/audio/audio-39ed4667ad1078cf5663d01ce0d32621613755d8871d077f6335ded3619f462a.opus",
+      "old_name": "烈焰与尘埃",
+      "name": "烈焰与尘埃",
+      "from": "permanent-combat",
+      "to": "mode-星塔探索",
+      "basis": [
+        "User specified exploration theme family"
+      ]
+    },
+    {
+      "file": "/audio/audio-a27cc7e34440288cfcef04225f61bd027b2a5f9329c763c5c15422c3f0203c37.opus",
+      "old_name": "烈焰与尘埃 · 挑战战斗",
+      "name": "烈焰与尘埃 · 挑战战斗",
+      "from": "permanent-combat",
+      "to": "mode-星塔探索",
+      "basis": [
+        "User specified exploration theme family"
+      ]
+    },
+    {
+      "file": "/audio/audio-4aeaf5f0781dea8662fbca291d0938e9b9ceb5bf4e7bdd0e503608cc1931ff30.opus",
+      "old_name": "烈焰与尘埃 · 精英战斗",
+      "name": "烈焰与尘埃 · 精英战斗",
+      "from": "permanent-combat",
+      "to": "mode-星塔探索",
+      "basis": [
+        "User specified exploration theme family"
+      ]
+    },
+    {
+      "file": "/audio/audio-bf471b1a1b45e16784c1892a323214c30293798a635c7eb238aa010b59da5d24.opus",
+      "old_name": "高难挑战",
+      "name": "高难挑战",
+      "from": "permanent-combat",
+      "to": "mode-真格挑战",
+      "basis": [
+        "WeekBossFloor:6201101 BGM=banshenShu_realChallenge_setState",
+        "WeekBossFloor:6201102 BGM=banshenShu_realChallenge_setState",
+        "WeekBossFloor:6201103 BGM=banshenShu_realChallenge_setState",
+        "WeekBossFloor:6203101 BGM=mechaBoss_realChallenge_setState",
+        "WeekBossFloor:6203102 BGM=mechaBoss_realChallenge_setState",
+        "WeekBossFloor:6203103 BGM=mechaBoss_realChallenge_setState",
+        "WeekBossFloor:6202101 BGM=yezhuWang_realChallenge_setState",
+        "WeekBossFloor:6202102 BGM=yezhuWang_realChallenge_setState",
+        "WeekBossFloor:6202103 BGM=yezhuWang_realChallenge_setState",
+        "WeekBossFloor:6205101 BGM=fengNiao_realChallenge_setState",
+        "WeekBossFloor:6205102 BGM=fengNiao_realChallenge_setState",
+        "WeekBossFloor:6205103 BGM=fengNiao_realChallenge_setState",
+        "WeekBossFloor:6204101 BGM=fengCao_realChallenge_setState",
+        "WeekBossFloor:6204102 BGM=fengCao_realChallenge_setState",
+        "WeekBossFloor:6204103 BGM=fengCao_realChallenge_setState"
+      ]
+    },
+    {
+      "file": "/audio/audio-16bc5e3da1d2fe5b4f367823b704c53f791e6ad685979b54bebd9450007419c2.opus",
+      "old_name": "流水与暗影",
+      "name": "流水与暗影",
+      "from": "permanent-combat",
+      "to": "mode-星塔探索",
+      "basis": [
+        "User specified exploration theme family"
+      ]
+    },
+    {
+      "file": "/audio/audio-9757200a15b16846f8e735aee5ae0a039afb47e39a7df9ab091d9864e7a71815.opus",
+      "old_name": "风暴与闪电",
+      "name": "风暴与闪电",
+      "from": "permanent-combat",
+      "to": "mode-星塔探索",
+      "basis": [
+        "User specified exploration theme family"
+      ]
+    },
+    {
+      "file": "/audio/audio-172ce969c65aff62f5f9a75c3f96a651a5db454987aac662f451c65ea036284c.opus",
+      "old_name": "心危擂台",
+      "name": "心危擂台",
+      "from": "permanent-combat",
+      "to": "mode-心危擂台",
+      "basis": [
+        "Wwise level=endlesstower",
+        "Wwise level=endlesstower"
+      ]
+    },
+    {
+      "file": "/audio/audio-8ef68aa63b5754c2f7e904dd9a4d7d53082c33a2f8a34867921e0c05f0d5d456.opus",
+      "old_name": "猫临城下",
+      "name": "猫临城下",
+      "from": "permanent-combat",
+      "to": "mode-巅峰秀场",
+      "basis": [
+        "Wwise level=travelerduel; UIText.LevelMenu_TravelerDuel",
+        "TravelerDuelFloor:6004101 BGM=travelerDuel_maoYan_combatBoss_setState",
+        "TravelerDuelFloor:6004102 BGM=travelerDuel_maoYan_combatBoss_setState",
+        "TravelerDuelFloor:6004103 BGM=travelerDuel_maoYan_combatBoss_setState",
+        "TravelerDuelFloor:6004111 BGM=travelerDuel_maoYan_combatBoss_setState"
+      ]
+    },
+    {
+      "file": "/audio/audio-a3ebe404bf68877f81bce698a94cb5ff04523e68fc453f23dfad585d408419ce.opus",
+      "old_name": "尖兵陷阵 · 花原 · 首领战",
+      "name": "巅峰秀场 · 花原 · 首领战",
+      "from": "permanent-combat",
+      "to": "mode-巅峰秀场",
+      "basis": [
+        "Wwise level=travelerduel; UIText.LevelMenu_TravelerDuel",
+        "TravelerDuelFloor:6005101 BGM=travelerDuel_huaYuan_combatBoss_setState",
+        "TravelerDuelFloor:6005102 BGM=travelerDuel_huaYuan_combatBoss_setState",
+        "TravelerDuelFloor:6005103 BGM=travelerDuel_huaYuan_combatBoss_setState",
+        "TravelerDuelFloor:6005111 BGM=travelerDuel_huaYuan_combatBoss_setState"
+      ]
+    },
+    {
+      "file": "/audio/audio-109b3c4b3ffa7d92fb91d7a19c41424e81ae421ef1d2cb6cde041b977a50c689.opus",
+      "old_name": "尖兵陷阵 · 火垂 · 首领战",
+      "name": "巅峰秀场 · 火垂 · 首领战",
+      "from": "permanent-combat",
+      "to": "mode-巅峰秀场",
+      "basis": [
+        "Wwise level=travelerduel; UIText.LevelMenu_TravelerDuel"
+      ]
+    },
+    {
+      "file": "/audio/audio-fb3b923b93018fbfa8547e7a9bc202278b8287fe2ad08918916b64561f2a494b.opus",
+      "old_name": "尖兵陷阵 · 火垂-变体3 · 首领战",
+      "name": "巅峰秀场 · 火垂-变体3 · 首领战",
+      "from": "permanent-combat",
+      "to": "mode-巅峰秀场",
+      "basis": [
+        "Wwise level=travelerduel; UIText.LevelMenu_TravelerDuel"
+      ]
+    },
+    {
+      "file": "/audio/audio-5b1e0f5599dd48e0eca400616f5e7f6f136a6cd9ad6b7faa8ea13953cf902672.opus",
+      "old_name": "尖兵陷阵 · 火垂 · 首领战",
+      "name": "巅峰秀场 · 火垂 · 首领战",
+      "from": "permanent-combat",
+      "to": "mode-巅峰秀场",
+      "basis": [
+        "Wwise level=travelerduel; UIText.LevelMenu_TravelerDuel",
+        "TravelerDuelFloor:6006101 BGM=travelerDuel_huoChui_combatBoss_setState"
+      ]
+    },
+    {
+      "file": "/audio/audio-4d7f4b07362758760d04bba8f3c99766bbb46d478f8841ba3b78b9ca99bd67b6.opus",
+      "old_name": "吹灰夫人",
+      "name": "吹灰夫人",
+      "from": "permanent-combat",
+      "to": "mode-联合讨伐",
+      "basis": [
+        "ScoreBossFloor:1001006 BGM=roguelike_combatFan_setState",
+        "ScoreBossFloor:1001019 BGM=roguelike_combatFan_setState"
+      ]
+    },
+    {
+      "file": "/audio/audio-1055a218981b6fd0d5c0d94ddd13763f5ba7a1bdf32833b28a3cfde74d51db8f.opus",
+      "old_name": "味觉惊惧",
+      "name": "味觉惊惧",
+      "from": "permanent-combat",
+      "to": "mode-联合讨伐",
+      "basis": [
+        "ScoreBossFloor:1001003 BGM=roguelike_combatChuZi_setState",
+        "ScoreBossFloor:1001007 BGM=roguelike_combatChuZi_setState",
+        "ScoreBossFloor:1001020 BGM=roguelike_combatChuZi_setState"
+      ]
+    },
+    {
+      "file": "/audio/audio-99b26155a95a1e3b2da84fcf795b197bb1b273b15238561b1303e5ff14e4d2bf.opus",
+      "old_name": "禁断丽容",
+      "name": "禁断丽容",
+      "from": "permanent-combat",
+      "to": "mode-联合讨伐",
+      "basis": [
+        "ScoreBossFloor:1001004 BGM=roguelike_combatLiRong_setState",
+        "ScoreBossFloor:1001017 BGM=roguelike_combatLiRong_setState",
+        "ScoreBossFloor:1001029 BGM=roguelike_combatLiRong_setState"
+      ]
+    },
+    {
+      "file": "/audio/audio-33809a21ee980554459da5013128e07fbd694d5aa21200fb8d0aadcb2fb532b2.opus",
+      "old_name": "热嘟噜噗男爵",
+      "name": "热嘟噜噗男爵",
+      "from": "permanent-combat",
+      "to": "mode-联合讨伐",
+      "basis": [
+        "ScoreBossFloor:1001009 BGM=roguelike_combatGuanzi_setState",
+        "ScoreBossFloor:1001032 BGM=roguelike_combatGuanzi_setState"
+      ]
+    },
+    {
+      "file": "/audio/audio-a9803d118fcced72498d6a0abfff285eb75ba97a5186e6a8a5edcf91fbf71438.opus",
+      "old_name": "流风美人",
+      "name": "流风美人",
+      "from": "permanent-combat",
+      "to": "mode-联合讨伐",
+      "basis": [
+        "ScoreBossFloor:1001002 BGM=fengCao_combatBoss_setState",
+        "ScoreBossFloor:1001014 BGM=fengCao_combatBoss_setState",
+        "ScoreBossFloor:1001026 BGM=fengCao_combatBoss_setState",
+        "ScoreBossFloor:1001033 BGM=fengCao_combatBoss_setState"
+      ]
+    },
+    {
+      "file": "/audio/audio-eb41225cf7624d1a5927a9bb82c253e9b3d9327fc6aafa91b825e10c996667df.opus",
+      "old_name": "终宵萤辉",
+      "name": "终宵萤辉",
+      "from": "permanent-combat",
+      "to": "mode-联合讨伐",
+      "basis": [
+        "ScoreBossFloor:1001010 BGM=roguelike_combatLamp_setState",
+        "ScoreBossFloor:1001016 BGM=roguelike_combatLamp_setState"
+      ]
+    },
+    {
+      "file": "/audio/audio-e167725c3224ad87f7adae9ef2db31e19b950d2c87af4838eda642b6abd13136.opus",
+      "old_name": "猎影合围",
+      "name": "猎影合围",
+      "from": "permanent-combat",
+      "to": "mode-猎影合围",
+      "basis": [
+        "TraceHuntFloor:10011 BGM=city_combatBoss_setState",
+        "TraceHuntFloor:10012 BGM=city_combatBoss_setState",
+        "TraceHuntFloor:10013 BGM=city_combatBoss_setState",
+        "TraceHuntFloor:10021 BGM=city_combatBoss_setState",
+        "TraceHuntFloor:10022 BGM=city_combatBoss_setState",
+        "TraceHuntFloor:10031 BGM=city_combatBoss_setState",
+        "TraceHuntFloor:10032 BGM=city_combatBoss_setState",
+        "TraceHuntFloor:10033 BGM=city_combatBoss_setState",
+        "TraceHuntFloor:10034 BGM=city_combatBoss_setState",
+        "TraceHuntFloor:10035 BGM=city_combatBoss_setState",
+        "TraceHuntFloor:10036 BGM=city_combatBoss_setState",
+        "TraceHuntFloor:10037 BGM=city_combatBoss_setState",
+        "TraceHuntFloor:10038 BGM=city_combatBoss_setState",
+        "TraceHuntFloor:10039 BGM=city_combatBoss_setState",
+        "TraceHuntFloor:10040 BGM=city_combatBoss_setState",
+        "TraceHuntFloor:10041 BGM=city_combatBoss_setState",
+        "TraceHuntFloor:10042 BGM=city_combatBoss_setState",
+        "TraceHuntFloor:10043 BGM=city_combatBoss_setState",
+        "TraceHuntFloor:10044 BGM=city_combatBoss_setState"
+      ]
+    },
+    {
+      "file": "/audio/audio-4be0f3b12170b1a96283e3fa8b5965888a456202d7bc1a27b098a7106716fb68.opus",
+      "old_name": "闻香识魔女",
+      "name": "闻香识魔女",
+      "from": "permanent-combat",
+      "to": "mode-巅峰秀场",
+      "basis": [
+        "Wwise level=travelerduel; UIText.LevelMenu_TravelerDuel",
+        "TravelerDuelFloor:6007101 BGM=travelerDuel_wuyu_combatBoss_setState"
+      ]
+    },
+    {
+      "file": "/audio/audio-b8153144ee45cb07cbc55f1d7f790f5335a93ad5f401d192dd053c13db3fa51c.opus",
+      "old_name": "心危擂台",
+      "name": "心危擂台",
+      "from": "permanent-combat",
+      "to": "mode-心危擂台",
+      "basis": [
+        "Wwise level=endlesstower"
+      ]
+    },
+    {
+      "file": "/audio/audio-cc8e831fb9e91d0ba8c3ae4e65a1f120e13661f0076dda7f4c103868d033f1c0.opus",
+      "old_name": "心危擂台",
+      "name": "心危擂台",
+      "from": "permanent-combat",
+      "to": "mode-心危擂台",
+      "basis": [
+        "Wwise level=endlesstower"
+      ]
+    },
+    {
+      "file": "/audio/audio-7d8446fdfa79d67b1e00dbff5ec449d982aebfd4fb512934c3a7e2a0b7b24537.opus",
+      "old_name": "心危擂台",
+      "name": "心危擂台",
+      "from": "permanent-combat",
+      "to": "mode-心危擂台",
+      "basis": [
+        "Wwise level=endlesstower"
+      ]
+    },
+    {
+      "file": "/audio/audio-06c345af41fac3e170988a38b7051a4a75c5b2b4e5e82b0dadaafd9105fae3b1.opus",
+      "old_name": "心危擂台",
+      "name": "心危擂台",
+      "from": "permanent-combat",
+      "to": "mode-心危擂台",
+      "basis": [
+        "Wwise level=endlesstower"
+      ]
+    },
+    {
+      "file": "/audio/audio-919aed8dc7e698beef6195f99d76219267a9d5de3c158d0ee7451be24cb7d305.opus",
+      "old_name": "心危擂台",
+      "name": "心危擂台",
+      "from": "permanent-combat",
+      "to": "mode-心危擂台",
+      "basis": [
+        "Wwise level=endlesstower"
+      ]
+    },
+    {
+      "file": "/audio/audio-987406f690b720191a33b51c8fa8a613e26fcffe3a777f7cb93f1b6480820b9f.opus",
+      "old_name": "心危擂台",
+      "name": "心危擂台",
+      "from": "permanent-combat",
+      "to": "mode-心危擂台",
+      "basis": [
+        "Wwise level=endlesstower"
+      ]
+    },
+    {
+      "file": "/audio/audio-ec3491595162c534a39125d7b2e18e2bacb6106cb862d3af639130725cd674e1.opus",
+      "old_name": "心危擂台",
+      "name": "心危擂台",
+      "from": "permanent-combat",
+      "to": "mode-心危擂台",
+      "basis": [
+        "Wwise level=endlesstower"
+      ]
+    },
+    {
+      "file": "/audio/audio-5e0cbbf1288a3e8b2614db19334bf5f07ada286062b45213febe0a2bac033ca5.opus",
+      "old_name": "心危擂台",
+      "name": "心危擂台",
+      "from": "permanent-combat",
+      "to": "mode-心危擂台",
+      "basis": [
+        "Wwise level=endlesstower"
+      ]
+    },
+    {
+      "file": "/audio/audio-11e6a3f164a6f3b6ba71ea9d09be9c1113131bacb4004e6a98a979d0e7cd6a81.opus",
+      "old_name": "心危擂台",
+      "name": "心危擂台",
+      "from": "permanent-combat",
+      "to": "mode-心危擂台",
+      "basis": [
+        "Wwise level=endlesstower"
+      ]
+    },
+    {
+      "file": "/audio/audio-501242dece909f7a47407e17f40c9186593a0eb74835e09600d8406ac79126cb.opus",
+      "old_name": "心危擂台",
+      "name": "心危擂台",
+      "from": "permanent-combat",
+      "to": "mode-心危擂台",
+      "basis": [
+        "Wwise level=endlesstower"
+      ]
+    },
+    {
+      "file": "/audio/audio-a0959d82aa30feb73c078ac4bf4f092a27b926ceb27f8152773d90fe2ea49d8b.opus",
+      "old_name": "心危擂台",
+      "name": "心危擂台",
+      "from": "permanent-combat",
+      "to": "mode-心危擂台",
+      "basis": [
+        "Wwise level=endlesstower"
+      ]
+    },
+    {
+      "file": "/audio/audio-3813ca508dc98d58fc7f25274c734a36d8111d8093fa01119cdee0dc167b2220.opus",
+      "old_name": "心危擂台",
+      "name": "心危擂台",
+      "from": "permanent-combat",
+      "to": "mode-心危擂台",
+      "basis": [
+        "Wwise level=endlesstower"
+      ]
+    },
+    {
+      "file": "/audio/audio-857e9a757481c850ed608693d4c93f4d0a33e7b485ae949f4dd5b2cc04594a00.opus",
+      "old_name": "心危擂台",
+      "name": "心危擂台",
+      "from": "permanent-combat",
+      "to": "mode-心危擂台",
+      "basis": [
+        "Wwise level=endlesstower"
+      ]
+    },
+    {
+      "file": "/audio/audio-60b9e4d4c4f1506b24e658de4c2701c9441c2f36670eebc22df0d2bd732a3e2c.opus",
+      "old_name": "心危擂台",
+      "name": "心危擂台",
+      "from": "permanent-combat",
+      "to": "mode-心危擂台",
+      "basis": [
+        "Wwise level=endlesstower"
+      ]
+    },
+    {
+      "file": "/audio/audio-f992218a4d650d4c079d66ade0b1d7d960ce888e72b873428778e1eadf1ee50e.opus",
+      "old_name": "心危擂台",
+      "name": "心危擂台",
+      "from": "permanent-combat",
+      "to": "mode-心危擂台",
+      "basis": [
+        "Wwise level=endlesstower"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "file": "/audio/audio-4323fe1ed2d6c9ece6954b0f1b855fad69b85ac2bdccb2a3107c14297c5a7fd5.opus",
+      "name": "速度与机擎",
+      "original_group": "mode-速度与机擎",
+      "target_group": "mode-速度与机擎",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-b011eee66b31b83229cb463a04d451df24e63462e414d43667e6b3e8a1061597.opus",
+      "name": "并非不慌不忙的一天",
+      "original_group": "activity-20104",
+      "target_group": "activity-20104",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-29d23edcb066d719e3fca8887a7de976318529dd8b2dfe28af9f6bbe7291d02c.opus",
+      "name": "特别篇 · 完璧之城",
+      "original_group": "activity-20104",
+      "target_group": "activity-20104",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-df105457f9b6758df8ce91b1cbbd27b6b718f4a3f16e438a60af29c82e8b7b93.opus",
+      "name": "特别篇 · 高塔之下",
+      "original_group": "activity-20104",
+      "target_group": "activity-20104",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-d51e3d08d9ec0935f5eb40c98f4644b4e860d5910f8001460824d3f665eec008.opus",
+      "name": "特别篇 · 过去之事正如未来之事",
+      "original_group": "activity-20104",
+      "target_group": "activity-20104",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-b72ee62d977da6e8134cddc2d5adf56822bc31a7e2e83c29d0978fc867280e23.opus",
+      "name": "第九章 · 引线 · 第1音轨",
+      "original_group": "activity-10112",
+      "target_group": "activity-10112",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-825ee41f22f6546ca56a37b56baa865eab3fa0cb3ddf62e2b1a9f6f7f6f79561.opus",
+      "name": "心的障壁（第九章 · 引线 · 第2音轨）",
+      "original_group": "activity-10112",
+      "target_group": "activity-10112",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-1ff673e63403569280ff4d4cea7e544facbe6e9f3f7450c852ef1d0377b3a592.opus",
+      "name": "第九章 · 引线 · 第3音轨",
+      "original_group": "activity-10112",
+      "target_group": "activity-10112",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-e782fb9c549bde7e1a1100e29f2a5f8be7db202cdd46665198777dca6d14321a.opus",
+      "name": "来自阴影的警告（第九章 · 点燃 · 第1音轨）",
+      "original_group": "activity-10112",
+      "target_group": "activity-10112",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-0b2df83299d31ae25a1c3b2eccd7d649e1b0834ded9eae1703f5a2c5bcbf4d96.opus",
+      "name": "第九章 · 点燃 · 第2音轨",
+      "original_group": "activity-10112",
+      "target_group": "activity-10112",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-8cd24bfd396f31fc154be4ba1bee195496bf780d973c025cbc0ed9205834c099.opus",
+      "name": "妈妈（第九章 · 伤痕暂停）",
+      "original_group": "activity-10112",
+      "target_group": "activity-10112",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-1a952b32f4af32c93c7b99d50d222cf5e43050dd0990c4f85fb73e177627be69.opus",
+      "name": "这下……麻烦大了？（第九章 · 薯条和情报 · 第1音轨）",
+      "original_group": "activity-10112",
+      "target_group": "activity-10112",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-37f88b48aacb01e866d69335d74b6490df87b7849fb4e725faae5b499fabd9e1.opus",
+      "name": "第九章 · 薯条和情报 · 第2音轨",
+      "original_group": "activity-10112",
+      "target_group": "activity-10112",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-4ec9c00725a8303ee04413a9b1b22a2bd1f6657905cd081f64ad68c69dd1f293.opus",
+      "name": "第九章 · 请君入瓮",
+      "original_group": "activity-10112",
+      "target_group": "activity-10112",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-c807642029b198aa7c0db3a915f58a33aaa5cdde675c6e530eb43c6741b1a576.opus",
+      "name": "第九章 · 魔王之塔",
+      "original_group": "activity-10112",
+      "target_group": "activity-10112",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-56bc338ba73ef396d4a9e4c1394682aaf6060e60beb776e4d4227daa2bc60d48.opus",
+      "name": "揭开尘封的往昔（第九章 · 不变之物）",
+      "original_group": "activity-10112",
+      "target_group": "activity-10112",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-ab024e65135cb149ee5e32dd31a5317eb3df192d5db62d44632bf59eddcedb25.opus",
+      "name": "旅人故事 · 结婚过家家 中",
+      "original_group": "activity-10112",
+      "target_group": "activity-10112",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-e6d69fc29425cb2c1a7f35e17b302672ea2aa580bb2ec7e32527740246a2acfc.opus",
+      "name": "欢歌劲浪 · 闪耀假日惊涛探险！ · 首领战",
+      "original_group": "activity-10110",
+      "target_group": "activity-10110",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-272c021ce3fa82facf267aa8f55ff5894934b1d28c7abe17ee6e5adc9c970e32.opus",
+      "name": "沁凉补给站",
+      "original_group": "mode-沁凉补给站",
+      "target_group": "mode-沁凉补给站",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-e0b47be4da1419de36e562cd5e7b6cd72f3bebe4bb50aff7cb475bd773f33567.opus",
+      "name": "渊海主宰",
+      "original_group": "activity-20103",
+      "target_group": "mode-联合讨伐",
+      "candidate_groups": {
+        "mode-联合讨伐": [
+          "ScoreBossFloor:1001005 BGM=roguelike_combatShasha_setState",
+          "ScoreBossFloor:1001011 BGM=roguelike_combatShasha_setState",
+          "ScoreBossFloor:1001031 BGM=roguelike_combatShasha_setState"
+        ]
+      }
+    },
+    {
+      "file": "/audio/audio-d405cc543ea930f2528ee47d13356ae9564c1a1f2e639e877e5a76ecd585d698.opus",
+      "name": "尊者调查",
+      "original_group": "mode-尖兵陷阵",
+      "target_group": "mode-尖兵陷阵",
+      "candidate_groups": {
+        "mode-尖兵陷阵": [
+          "Wwise system=zizousub",
+          "Existing curated permanent gameplay group"
+        ]
+      }
+    },
+    {
+      "file": "/audio/audio-aa81f2c41828e84b9159f8098685b1464da204af088ba4bb6b6b4bcb317120dd.opus",
+      "name": "尖兵陷阵",
+      "original_group": "mode-尖兵陷阵",
+      "target_group": "mode-尖兵陷阵",
+      "candidate_groups": {
+        "mode-尖兵陷阵": [
+          "Wwise level=zizou",
+          "Wwise level=zizou",
+          "SoldierFloor:1 BGM=amb_900001_combatNormal_setState",
+          "SoldierFloor:2 BGM=amb_900001_combatNormal_setState",
+          "SoldierFloor:3 BGM=amb_900001_combatNormal_setState",
+          "SoldierFloor:4 BGM=amb_900001_combatNormal_setState",
+          "SoldierFloor:5 BGM=amb_900001_combatNormal_setState",
+          "SoldierFloor:6 BGM=amb_900001_combatNormal_setState",
+          "SoldierFloor:8 BGM=amb_900001_combatNormal_setState",
+          "SoldierFloor:9 BGM=amb_900001_combatNormal_setState",
+          "SoldierFloor:10 BGM=amb_900001_combatNormal_setState",
+          "SoldierFloor:11 BGM=amb_900001_combatNormal_setState",
+          "SoldierFloor:12 BGM=amb_900001_combatNormal_setState",
+          "SoldierFloor:13 BGM=amb_900001_combatNormal_setState",
+          "SoldierFloor:16 BGM=amb_900001_combatNormal_setState",
+          "SoldierFloor:17 BGM=amb_900001_combatNormal_setState",
+          "SoldierFloor:18 BGM=amb_900001_combatNormal_setState",
+          "SoldierFloor:19 BGM=amb_900001_combatNormal_setState",
+          "SoldierFloor:20 BGM=amb_900001_combatNormal_setState",
+          "SoldierFloor:21 BGM=amb_900001_combatNormal_setState",
+          "SoldierFloor:99 BGM=amb_900001_combatNormal_setState",
+          "Existing curated permanent gameplay group"
+        ]
+      }
+    },
+    {
+      "file": "/audio/audio-2b330641b9f9ceecc5dad7515cee8cdc228c4a36ad700339c44dbc966ac68ed7.opus",
+      "name": "云见雾散",
+      "original_group": "mode-尖兵陷阵",
+      "target_group": "mode-尖兵陷阵",
+      "candidate_groups": {
+        "mode-尖兵陷阵": [
+          "Wwise level=zizou",
+          "Wwise level=zizou",
+          "Wwise level=zizou",
+          "SoldierFloor:7 BGM=amb_900001_combatElite_setState",
+          "SoldierFloor:14 BGM=amb_900001_combatElite_setState",
+          "SoldierFloor:15 BGM=amb_900001_combatElite_setState",
+          "Existing curated permanent gameplay group"
+        ]
+      }
+    },
+    {
+      "file": "/audio/audio-8b079c853ebaf858377b7a7a1a86821da2e6880b8446bb759013e31572b4bb26.opus",
+      "name": "完璧的残响",
+      "original_group": "mode-尖兵陷阵",
+      "target_group": "mode-尖兵陷阵",
+      "candidate_groups": {
+        "mode-尖兵陷阵": [
+          "Wwise level=zizou",
+          "SoldierFloor:22 BGM=amb_900001_combatBoss_setState",
+          "SoldierFloor:23 BGM=amb_900001_combatBoss_setState",
+          "SoldierFloor:24 BGM=amb_900001_combatBoss_setState",
+          "Existing curated permanent gameplay group"
+        ],
+        "mode-联合讨伐": [
+          "ScoreBossFloor:1001028 BGM=amb_900001_combatBoss_setState",
+          "ScoreBossFloor:1001030 BGM=amb_900001_combatBoss_setState"
+        ]
+      }
+    },
+    {
+      "file": "/audio/audio-9d66ee3de7e3cbc919c816178ffab3ef70c7ff16bc90904776085cc9dded0b1d.opus",
+      "name": "尖兵陷阵 · 氛围音乐",
+      "original_group": "mode-尖兵陷阵",
+      "target_group": "mode-尖兵陷阵",
+      "candidate_groups": {
+        "mode-尖兵陷阵": [
+          "Wwise system=zizou",
+          "Existing curated permanent gameplay group"
+        ]
+      }
+    },
+    {
+      "file": "/audio/audio-10b8fd621d0863b30edd2c8f9e0cad0a55753da8100bf9ed19d6e91f1998c344.opus",
+      "name": "枪林弹雨覆黄沙",
+      "original_group": "activity-10109",
+      "target_group": "activity-10109",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-ef4cdaafa834cfbab8a9ad07aae2d5a3899e160cb21aa06d1a21861f62d08bab.opus",
+      "name": "柔光猎犬",
+      "original_group": "activity-10108",
+      "target_group": "activity-10108",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-e3a3bda9e3f54a797ae277ef975905cbbd19dd1bc99caa0954b02be2e621b633.opus",
+      "name": "旅人故事 · 斯帕克拉的烦恼 中",
+      "original_group": "activity-10108",
+      "target_group": "activity-10108",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-ea1829cf39b28db41563d51235089479574adffc89c101a897a81ce82681b83c.opus",
+      "name": "穿透心壁的取景框 · 作战",
+      "original_group": "activity-10107",
+      "target_group": "activity-10107",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-cd53cd1dad7ee023d7d48c61bf5f0bfcb988e4048f81f596217673258d0628ee.opus",
+      "name": "又是日行千里的一天",
+      "original_group": "activity-10107",
+      "target_group": "activity-10107",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-9d529a5cddc4cc9ca92636d575af9249955d06d1ebaec37495d2e9c6a12808b1.opus",
+      "name": "跨越星声的对话 · 第一话",
+      "original_group": "story-荒野快讯 · 跨越星声的对话",
+      "target_group": "story-荒野快讯 · 跨越星声的对话",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-d683181a25f3a1c63cc49f8f27a8e76154877043c92391bc7cc45ba11cec951a.opus",
+      "name": "特别篇 · 不日之约",
+      "original_group": "story-我思，故魔王在 · 特别篇",
+      "target_group": "story-我思，故魔王在 · 特别篇",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-86c282d7fed8204c1c9eed1191aa9d2c4cd4e88ad1691fd4853575f327e8290b.opus",
+      "name": "幽夜独舞孤影乱 · 作战",
+      "original_group": "activity-20102",
+      "target_group": "activity-20102",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-026f75c540a4ee90cbbe544555a8157793cc33eb4b1f1d97ad0953aaeba2a7ac.opus",
+      "name": "幽夜独舞孤影乱 · 首领战",
+      "original_group": "activity-20102",
+      "target_group": "activity-20102",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-69feaa5eb422cdd356ea004ae5e34dc11def78369367394198dde18f00d856e8.opus",
+      "name": "敬启，致珍重的你 · 作战",
+      "original_group": "activity-10106",
+      "target_group": "activity-10106",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-739bc3d49c9b40865226a5984945752dc7967c94ca00dcd0a13b6fd0f6238ff8.opus",
+      "name": "命运星牌局",
+      "original_group": "mode-命运星牌局",
+      "target_group": "mode-命运星牌局",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-7b5ea72f1456bc537e75fc2f91387fcb4731195e857527d77c6d684389842925.opus",
+      "name": "豪礼抛物线",
+      "original_group": "mode-豪礼抛物线",
+      "target_group": "mode-豪礼抛物线",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-ab25e6f97d6405d74cbb6cc500e18adf35b79a1041b34d1981c1e5e0278ebd50.opus",
+      "name": "冬夜镇魂曲与破晓扳机",
+      "original_group": "activity-10105",
+      "target_group": "activity-10105",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-8d3cec957e0bea7bb1959306d99c9993b9d814630d2dabf36019ad46a2724e72.opus",
+      "name": "冬夜镇魂曲与破晓扳机 · 作战",
+      "original_group": "activity-10105",
+      "target_group": "activity-10105",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-c7c8b52f30b6752b5972aa5e1ea5312f557f360b59a89910e2dd558edb0605a2.opus",
+      "name": "冬夜镇魂曲与破晓扳机 · 首领战",
+      "original_group": "activity-10105",
+      "target_group": "activity-10105",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-8b1272a09733157def9026f39986c22c46821527f84bc3d76c0e9040f7ad64ac.opus",
+      "name": "烟火绮丽寻春意 · 作战",
+      "original_group": "activity-10104",
+      "target_group": "activity-10104",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-627abfb332a03c401b0c2f794a2c02c582fbebd4e62cc424170f7c406e5d3da1.opus",
+      "name": "烟火绮丽寻春意 · 首领战",
+      "original_group": "activity-10104",
+      "target_group": "activity-10104",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-a31914f3953a681e908ad40d23409814fb4504ce73649fbd25767135f260a127.opus",
+      "name": "烟火绮丽寻春意 · 寻幽探奇",
+      "original_group": "activity-10104",
+      "target_group": "activity-10104",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-3aa28d42eaff8525662e3a9088af80532c4f5e3be41b974a75296de458a47d78.opus",
+      "name": "烟火绮丽寻春意 · 此去经年",
+      "original_group": "activity-10104",
+      "target_group": "activity-10104",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-aedbbd5da460dd8fc75807c498adbfb7a301aca8131a63b9331e6248eea7ae8f.opus",
+      "name": "迷雾与利爪",
+      "original_group": "activity-10103",
+      "target_group": "activity-10103",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-1958edd7a1b0789dfa38de36982e4554734f7328fef214bcb1758f552296af28.opus",
+      "name": "第六章 · 否认的代价",
+      "original_group": "activity-10103",
+      "target_group": "activity-10103",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-b81e6ff58177028ad18c1af15f1f2ed837af74dada16b29be36f2c3ad687bab1.opus",
+      "name": "第六章 · 天下静谧",
+      "original_group": "activity-10103",
+      "target_group": "activity-10103",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-aa7d9dca099fdee9398a885199d318452880a003811584ba55eebd3c669d2204.opus",
+      "name": "第六章 · 困兽犹斗",
+      "original_group": "activity-10103",
+      "target_group": "activity-10103",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-283045663b3d79a9fc124ceb350bd04e7489988d86cdf2a968721142f5e59df1.opus",
+      "name": "第六章 · 未知的明天",
+      "original_group": "activity-10103",
+      "target_group": "activity-10103",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-6a206cff7aafc356a31db95d420dece9bf13bb9f819e8cc11ded69c1c6bdefa7.opus",
+      "name": "主线第六章 · 界面配乐",
+      "original_group": "activity-10103",
+      "target_group": "activity-10103",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-aeaa2dfca29dadbc7edba9a3579fded3dccc1d0bb8e6c476a0414ef9314b3d1d.opus",
+      "name": "闪耀的使者与圣夜的精灵",
+      "original_group": "activity-20101",
+      "target_group": "activity-20101",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-4bc4d46ca219a32d9e2f9f739ef6c74e502a0a848c2b7e9b35fd6792fe5128fe.opus",
+      "name": "闪耀的使者与圣夜的精灵 · 作战",
+      "original_group": "activity-20101",
+      "target_group": "activity-20101",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-728567b8050735296dbc5b96ffc7ef1826294a52abdc528e8e5062a8a680f025.opus",
+      "name": "闪耀的使者与圣夜的精灵 · 首领战",
+      "original_group": "activity-20101",
+      "target_group": "activity-20101",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-72a6256ff722117b92bb1795b24ecaa5f352cce87ea8c95c4864bce8f6c2a154.opus",
+      "name": "主线第五章-探索",
+      "original_group": "mainline-5",
+      "target_group": "mainline-5",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-f40db32aa2f9cc5f916facc2be9144fd445a451286e558bf1f9f234f58f3c6c2.opus",
+      "name": "梦的彼岸",
+      "original_group": "activity-10102",
+      "target_group": "activity-10102",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-092d48159f80ec07c23fd7442a7f5d7125f6c14c4824ad2060ab5037c1d3b0f0.opus",
+      "name": "第四章 · 旅人往事",
+      "original_group": "activity-10102",
+      "target_group": "activity-10102",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-ab1caa6ba7f20818091470a4f4a01adde8255bc013cdd24b149d81e3e95249a0.opus",
+      "name": "第四章 · 野营",
+      "original_group": "activity-10102",
+      "target_group": "activity-10102",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-053a02abdbfacac67fb59aff7ca7742602ecff09f0e6e774d65fd90287c4780e.opus",
+      "name": "疑神疑鬼（第四章 · 单兵作战）",
+      "original_group": "activity-10102",
+      "target_group": "activity-10102",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-32a475316abd571010caeefe0be75573e990efd5ec7236e15adddd149b1d4448.opus",
+      "name": "温暖残阳（第四章 · 想要保护的东西）",
+      "original_group": "activity-10102",
+      "target_group": "activity-10102",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-fbe9e2f83a8466734b87710ec16657d48ae31736261d58ebc898197039336544.opus",
+      "name": "机巧梦工坊（甜心梦工坊-变体4）",
+      "original_group": "mode-甜心梦工坊",
+      "target_group": "mode-甜心梦工坊",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-4f54438f693c7ec189e15910bd9878fd2f874f89877004638be828936d05a5d6.opus",
+      "name": "机巧梦工坊（甜心梦工坊-变体4 · 自由演奏）",
+      "original_group": "mode-甜心梦工坊",
+      "target_group": "mode-甜心梦工坊",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-b20afce217bfbc5f6a2862ec6a3517c0668985a16d216093f209cca54f1f0664.opus",
+      "name": "甜心梦工坊 · 开始",
+      "original_group": "mode-甜心梦工坊",
+      "target_group": "mode-甜心梦工坊",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-569ad2e75c5af97e2f054eec92753eb3fb2f28464760de81cb3897348a9787b6.opus",
+      "name": "甜心梦工坊 · 每分钟75拍",
+      "original_group": "mode-甜心梦工坊",
+      "target_group": "mode-甜心梦工坊",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-68b5ec41a88512eb71549e00bb1104c6b85bb28236e29721fb3b73432c17ed53.opus",
+      "name": "甜心梦工坊 · 每分钟68拍",
+      "original_group": "mode-甜心梦工坊",
+      "target_group": "mode-甜心梦工坊",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-90a204e7fbe90abd9dce9357beee84a7daca7b4c2c4b68187c7b804ee35b5d85.opus",
+      "name": "甜心梦工坊 · 每分钟60拍",
+      "original_group": "mode-甜心梦工坊",
+      "target_group": "mode-甜心梦工坊",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-102ae24076b8f313aada3e552627edd91d418cde33c70e77bc2091aa543efeaa.opus",
+      "name": "甜心梦工坊 · 每分钟65拍",
+      "original_group": "mode-甜心梦工坊",
+      "target_group": "mode-甜心梦工坊",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-6412631b3250104ff502a87d03489aad98411e5acbec46019ef4e0338f56a4f2.opus",
+      "name": "甜心梦工坊 · 每分钟40拍",
+      "original_group": "mode-甜心梦工坊",
+      "target_group": "mode-甜心梦工坊",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-5bd4da07535a262b393c0c374f37be3bf7abb3a3bba19c1cf67bb0a0e348d622.opus",
+      "name": "甜心梦工坊 · 自由演奏",
+      "original_group": "mode-甜心梦工坊",
+      "target_group": "mode-甜心梦工坊",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-b53e80251291025656ee88e6bc8f0b037ccccbf9f54c53428833aef85552a777.opus",
+      "name": "甜心梦工坊",
+      "original_group": "mode-甜心梦工坊",
+      "target_group": "mode-甜心梦工坊",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-bb2e77853f38145249b3d1467f1bd885dc478a1f1335648acbc8fa518a1bca03.opus",
+      "name": "甜心梦工坊-变体3 · 开始",
+      "original_group": "mode-甜心梦工坊",
+      "target_group": "mode-甜心梦工坊",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-12779fd2ee377163619c8b485d41bf15ba6036e85395367d69c92e36955dee3a.opus",
+      "name": "甜心梦工坊-变体3 · 每分钟75拍",
+      "original_group": "mode-甜心梦工坊",
+      "target_group": "mode-甜心梦工坊",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-59878827251ca4d5db1956669724b87108b5350212190ba3285ce6125c38535f.opus",
+      "name": "甜心梦工坊-变体3 · 每分钟68拍",
+      "original_group": "mode-甜心梦工坊",
+      "target_group": "mode-甜心梦工坊",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-f4f2bab1011b1feaf30118e79036962969cea79754649e748c851a0b1c273cac.opus",
+      "name": "甜心梦工坊-变体3",
+      "original_group": "mode-甜心梦工坊",
+      "target_group": "mode-甜心梦工坊",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-023732d501a08dc5346cbd70291211b3334d8fb6c9e83d89ad73804f09e34a06.opus",
+      "name": "甜心梦工坊-变体3 · 每分钟50拍",
+      "original_group": "mode-甜心梦工坊",
+      "target_group": "mode-甜心梦工坊",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-bce1f182e758bef31c738c09df3d276ace0c21df8b616b55334231dbff01f5c6.opus",
+      "name": "甜心梦工坊-变体3 · 每分钟40拍",
+      "original_group": "mode-甜心梦工坊",
+      "target_group": "mode-甜心梦工坊",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-cc7aa6cb3c730500cbb11b47e96f7cc2095e549f3092c91240dc1889c3fca960.opus",
+      "name": "甜心梦工坊 · 开始",
+      "original_group": "mode-甜心梦工坊",
+      "target_group": "mode-甜心梦工坊",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-c48fa7df057632af3ec593c775d1f5758ad498ecb22ba55a1f7f8778d91bf61e.opus",
+      "name": "甜心梦工坊 · 每分钟75拍",
+      "original_group": "mode-甜心梦工坊",
+      "target_group": "mode-甜心梦工坊",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-6b1ffacf317ddaf31db0e6e47e28a36f7c27f0163e1881d10884a0dbf23af84a.opus",
+      "name": "甜心梦工坊 · 每分钟68拍",
+      "original_group": "mode-甜心梦工坊",
+      "target_group": "mode-甜心梦工坊",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-4148ea1b453bcaca2e3de2a8dd81116dca40361608d0f06ec43f526647be1093.opus",
+      "name": "甜心梦工坊 · 每分钟60拍",
+      "original_group": "mode-甜心梦工坊",
+      "target_group": "mode-甜心梦工坊",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-ad7c4f3106b652198343af7f2a577668d5bb9c7695f98694c3e92dc0179b3c01.opus",
+      "name": "甜心梦工坊 · 每分钟50拍",
+      "original_group": "mode-甜心梦工坊",
+      "target_group": "mode-甜心梦工坊",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-b96898ac7a94efd735c8e8007b971409c583cb6f1ffc88fbb0e3024638ff0447.opus",
+      "name": "甜心梦工坊 · 每分钟40拍",
+      "original_group": "mode-甜心梦工坊",
+      "target_group": "mode-甜心梦工坊",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-d489981dcfd007b25d61b5a5cd7f3ee2dbe1211a42744725419255956fec9946.opus",
+      "name": "甜心梦工坊 · 自由演奏",
+      "original_group": "mode-甜心梦工坊",
+      "target_group": "mode-甜心梦工坊",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-4e561b7834e29966b87cf235a677f6a0b877bf1431ac46f1904ae5cf22f274b1.opus",
+      "name": "甜心梦工坊-变体4 · 开始",
+      "original_group": "mode-甜心梦工坊",
+      "target_group": "mode-甜心梦工坊",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-e558b519650a737a9661df0674b2d6abec138737a55bcb3f501e3e79017ad330.opus",
+      "name": "机巧梦工坊（甜心梦工坊-变体4 · 每分钟75拍）",
+      "original_group": "mode-甜心梦工坊",
+      "target_group": "mode-甜心梦工坊",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-1e5e20a515644d56155c8c3efedde44a4dd2208779741f5eacf749d7ff7bd447.opus",
+      "name": "机巧梦工坊（甜心梦工坊-变体4 · 每分钟68拍）",
+      "original_group": "mode-甜心梦工坊",
+      "target_group": "mode-甜心梦工坊",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-d380fa92c6ed1d590c0082e5b97bf867ed2d687d615951dadf0aecd8e3184d14.opus",
+      "name": "机巧梦工坊（甜心梦工坊-变体4 · 每分钟65拍）",
+      "original_group": "mode-甜心梦工坊",
+      "target_group": "mode-甜心梦工坊",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-082c2a46e12ad00414a7aaaa48fab03425475bdf3d81336e38905461abda97d1.opus",
+      "name": "机巧梦工坊（甜心梦工坊-变体4 · 每分钟50拍）",
+      "original_group": "mode-甜心梦工坊",
+      "target_group": "mode-甜心梦工坊",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-1065ec7b635d45aafb770219c85732e254934e84964b11ec5692c213a28bdc94.opus",
+      "name": "机巧梦工坊（甜心梦工坊-变体4 · 每分钟40拍）",
+      "original_group": "mode-甜心梦工坊",
+      "target_group": "mode-甜心梦工坊",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-9a9588a7f9f7f49b00c0b63464705de9bbae4a58e58c93880396bf7fdccad3a5.opus",
+      "name": "第三章 · 作战",
+      "original_group": "activity-10101",
+      "target_group": "activity-10101",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-792547d1a08417cb57edfa8678ba150e7411287749440ecf07663b0ea627116a.opus",
+      "name": "娓娓道来的你（第三章 · 手机）",
+      "original_group": "activity-10101",
+      "target_group": "activity-10101",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-c1e700749508b5af4bdbfd6fe8dd6dd13931a9f83ec9e81d88b7f95624e75d4a.opus",
+      "name": "第三章 · 维塔",
+      "original_group": "activity-10101",
+      "target_group": "activity-10101",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-4b4fa2db989f55540ee45f9b0b5a6818ce019b64ebd89fb9e7df0d49f3ae5af0.opus",
+      "name": "第三章 · 三大魔物 · 第1音轨",
+      "original_group": "activity-10101",
+      "target_group": "activity-10101",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-dce53a49f2a12c24f3e9cd8aa50a24496b6c581c7576263a4913ae82e05e5a37.opus",
+      "name": "第三章 · 三大魔物 · 第2音轨",
+      "original_group": "activity-10101",
+      "target_group": "activity-10101",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-c733d485bd17b0ce0bd5d79e72015334052097504c9bb7e88cbe7f38811438f2.opus",
+      "name": "总之……也只能上了吧？（第三章 · 森林深处的“仙人”）",
+      "original_group": "activity-10101",
+      "target_group": "activity-10101",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-64e0a57250aa9d58d707cff75451988bb38c77fd37c321c5e6d87cd464743440.opus",
+      "name": "温暖如初的心（第三章 · 花令旅团）",
+      "original_group": "activity-10101",
+      "target_group": "activity-10101",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-8f21c7e025d6e58baa8680235ad10e3bd77d47d8461a01c1423bec5e6b9b8504.opus",
+      "name": "褪色的回忆（第三章 · 不被需要的弱者）",
+      "original_group": "activity-10101",
+      "target_group": "activity-10101",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-32a51b093c233b2ead257e79417cbf48ae8cd398deb40b4a98d44b3aae4667e5.opus",
+      "name": "终焉绝响 · 首领配乐 · 变体2",
+      "original_group": "mode-终焉绝响",
+      "target_group": "mode-终焉绝响",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-2750fb57ed5b9edde18decaa587fb06da307acdfbbdb2e5ccaf367d0f5fc7767.opus",
+      "name": "终焉绝响 · 首领配乐",
+      "original_group": "mode-终焉绝响",
+      "target_group": "mode-终焉绝响",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-a126b8c81c3d205e71ce07a9901224ba05ce4ecadd169a277ac691073630743c.opus",
+      "name": "灾变防线",
+      "original_group": "mode-灾变防线",
+      "target_group": "mode-灾变防线",
+      "candidate_groups": {
+        "mode-灾变防线": [
+          "Wwise level=zombie",
+          "Existing curated permanent gameplay group"
+        ]
+      }
+    },
+    {
+      "file": "/audio/audio-4c788acc49f5e19dd5cdb7fa0337b0458b7d9d7f41866f57a389fa425bbae7eb.opus",
+      "name": "灾变防线·森林 · 首领战",
+      "original_group": "mode-灾变防线",
+      "target_group": "mode-灾变防线",
+      "candidate_groups": {
+        "mode-灾变防线": [
+          "Wwise level=zombieforest",
+          "Wwise level=zombie",
+          "Wwise level=zombieruins",
+          "Existing curated permanent gameplay group"
+        ]
+      }
+    },
+    {
+      "file": "/audio/audio-6db21b4af15b3a0d7d2515cf23ef761d8c0155e20fd7ab48ba1ba1c65a762d3e.opus",
+      "name": "流水与暗影",
+      "original_group": "mode-灾变防线",
+      "target_group": "mode-星塔探索",
+      "candidate_groups": {
+        "mode-星塔探索": [
+          "User specified exploration theme family"
+        ],
+        "mode-灾变防线": [
+          "Wwise level=zombieforest",
+          "Existing curated permanent gameplay group"
+        ]
+      }
+    },
+    {
+      "file": "/audio/audio-ef379564e8ad7c3d145e71d86c2fe6c5cb1890646cf5a0631c5da91b9e8f3cc0.opus",
+      "name": "风暴与闪电",
+      "original_group": "mode-灾变防线",
+      "target_group": "mode-星塔探索",
+      "candidate_groups": {
+        "mode-星塔探索": [
+          "User specified exploration theme family"
+        ],
+        "mode-灾变防线": [
+          "Wwise level=zombieruins",
+          "Existing curated permanent gameplay group"
+        ]
+      }
+    },
+    {
+      "file": "/audio/audio-f59f6f075fcfa1a5e27d4e82710d64a556ee4ed9f999d906ce131bab55383b8b.opus",
+      "name": "灾厄的异动",
+      "original_group": "mode-灾变防线",
+      "target_group": "mode-灾变防线",
+      "candidate_groups": {
+        "mode-灾变防线": [
+          "Existing curated permanent gameplay group"
+        ]
+      }
+    },
+    {
+      "file": "/audio/audio-2e09ba213a7b30f0175720175d7355218b8efdd8684f62a12f18368b25eadb58.opus",
+      "name": "滑越浪尖",
+      "original_group": "activity-10100",
+      "target_group": "activity-10100",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-cb04c9fdbfac7cd113fb3d89464476c2c8cb4bfd9ba8b71bd8de0e6ccab995ba.opus",
+      "name": "咕噜六角鲸",
+      "original_group": "activity-10100",
+      "target_group": "mode-真格挑战",
+      "candidate_groups": {
+        "mode-真格挑战": [
+          "WeekBossFloor:6206101 BGM=haiTu_realChallenge_setState",
+          "WeekBossFloor:6206102 BGM=haiTu_realChallenge_setState",
+          "WeekBossFloor:6206103 BGM=haiTu_realChallenge_setState"
+        ]
+      }
+    },
+    {
+      "file": "/audio/audio-abc9e01dfa588dc14581a904736e6dfa48da5370281a9338ab164a318146f4ad.opus",
+      "name": "长雨未停",
+      "original_group": "activity-10100",
+      "target_group": "activity-10100",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-c3fc4903b125c039c46f88b413b9a48abe30af1ac5998ad950b55d4b0a0db04c.opus",
+      "name": "夏日梦工坊",
+      "original_group": "activity-10100",
+      "target_group": "activity-10100",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-29f7c96afec5cb78c67bca274ec30187ad21d6a7fbe044c6d09ea4e1ff0ebb07.opus",
+      "name": "闻香识魔女 · 界面配乐",
+      "original_group": "mode-闻香识魔女",
+      "target_group": "mode-闻香识魔女",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-ad9d5a5b687fd000b1737755a8e88a8abbd37bf525a6e51837646f92c1eef9bd.opus",
+      "name": "抽丝剥茧（第二章 · 公司与绿洲）",
+      "original_group": "story-我思，故魔王在 · 第二章",
+      "target_group": "story-我思，故魔王在 · 第二章",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-1a11186c302e4bfc84f8b21cf5171d3a64dea7dc8d9c087db661a2f2ffa65fb7.opus",
+      "name": "又是大声密谋的一天（第二章 · 深夜潜入）",
+      "original_group": "story-我思，故魔王在 · 第二章",
+      "target_group": "story-我思，故魔王在 · 第二章",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-e90d96952741cb42db90aaa46e1898f16e27eb045fe072fa8f9595d99a4035e8.opus",
+      "name": "又是有些无聊的一天（第二章 · 变装侦查）",
+      "original_group": "story-我思，故魔王在 · 第二章",
+      "target_group": "story-我思，故魔王在 · 第二章",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-26c12c8a1dbe908dbd44ccd832ec3a7c8b3eed945603c788379490085c55bf3b.opus",
+      "name": "算无遗策（第二章 · 永恒）",
+      "original_group": "story-我思，故魔王在 · 第二章",
+      "target_group": "story-我思，故魔王在 · 第二章",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-e9a36f1a456219dd185bf259ac03edff8e9af87b2fa5e3e210a8489ec3e19a2d.opus",
+      "name": "危急时刻（第二章 · 暗夜中的视线）",
+      "original_group": "story-我思，故魔王在 · 第二章",
+      "target_group": "story-我思，故魔王在 · 第二章",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-b1717e174c4cd99db8f605f4c9d05e2a29b8ef0d5ef499f6eee823e8da40acc3.opus",
+      "name": "第二章 · 黑色少女 · 第1音轨",
+      "original_group": "story-我思，故魔王在 · 第二章",
+      "target_group": "story-我思，故魔王在 · 第二章",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-00fdecea08d4081bd0ea2825d8b2a82ad1e2143e0db634bad455ee142286e930.opus",
+      "name": "剑风如歌（第二章 · 黑色少女 · 第2音轨）",
+      "original_group": "story-我思，故魔王在 · 第二章",
+      "target_group": "story-我思，故魔王在 · 第二章",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-10ada5e100bb793416ea648e56a2898e9dd04048cd6cd5185afd75e2628f1813.opus",
+      "name": "第二章 · 黑色少女 · 第3音轨",
+      "original_group": "story-我思，故魔王在 · 第二章",
+      "target_group": "story-我思，故魔王在 · 第二章",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-5ecf192bbaa0729c9f1f769658312ddcadf25d1cb33d795ff278755755c72a07.opus",
+      "name": "第二章 · 黑色少女 · 第4音轨",
+      "original_group": "story-我思，故魔王在 · 第二章",
+      "target_group": "story-我思，故魔王在 · 第二章",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-88da21223cee630edc923873bc9e9c967684cb876c45da64bf56af8ddd7e5c6d.opus",
+      "name": "第二章 · 黑色少女 · 第5音轨",
+      "original_group": "story-我思，故魔王在 · 第二章",
+      "target_group": "story-我思，故魔王在 · 第二章",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-dc032f936b5cb60abe5b9448d291f41338c5b5000e71cf3fb9c70c8a113605ad.opus",
+      "name": "雨过天晴的你（第二章 · 仁义与刀 · 第1音轨）",
+      "original_group": "story-我思，故魔王在 · 第二章",
+      "target_group": "story-我思，故魔王在 · 第二章",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-eab7afe0fbe236ef936aba9c41e12aa2d08280d44538177abab37aa37916487b.opus",
+      "name": "这下……真的搞砸了？!（第二章 · 仁义与刀 · 第2音轨）",
+      "original_group": "story-我思，故魔王在 · 第二章",
+      "target_group": "story-我思，故魔王在 · 第二章",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-2696e1a843e1113dee8af2479341c0eca74283ddbadd6f06ba328c4205d10605.opus",
+      "name": "星光与勇气（第二章 · 特许经营）",
+      "original_group": "story-我思，故魔王在 · 第二章",
+      "target_group": "story-我思，故魔王在 · 第二章",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-8e319a2bf6feae89ec27d35c8bcc9399103c88c5392aad8f5ee15eaa98631c5b.opus",
+      "name": "第二章 · 新的起点",
+      "original_group": "story-我思，故魔王在 · 第二章",
+      "target_group": "story-我思，故魔王在 · 第二章",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-3e5725481d24690da5693eac1d78b435b107ff8b2561204bccbf959522d2f3f8.opus",
+      "name": "第一章 · 梦醒时分 · 第1音轨",
+      "original_group": "story-我思，故魔王在 · 第一章",
+      "target_group": "story-我思，故魔王在 · 第一章",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-05d88e4db02cef40263db9407b92e70de33c3a8de68130c8bd9bebc8ed8abe20.opus",
+      "name": "第一章 · 梦醒时分 · 第2音轨",
+      "original_group": "story-我思，故魔王在 · 第一章",
+      "target_group": "story-我思，故魔王在 · 第一章",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-57e4213c5b72ed6f32bd163581c705c9087c9101f68b961f93dfc7815feb09c6.opus",
+      "name": "又是不慌不忙的一天（第一章 · 梦醒时分 · 第3音轨）",
+      "original_group": "story-我思，故魔王在 · 第一章",
+      "target_group": "story-我思，故魔王在 · 第一章",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-9ec2fc17f8dfbb04c031c631b08d41ee5d7dea5b13a8d375b3b836e06b76e18e.opus",
+      "name": "又是稀松平常的一天（第一章 · 过去的痕迹 · 第1音轨）",
+      "original_group": "story-我思，故魔王在 · 第一章",
+      "target_group": "story-我思，故魔王在 · 第一章",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-21450e386114c0bc8183f3690374a1c09a87261f80a2d5f4bdfa7493af7d14f5.opus",
+      "name": "又是丢三落四的一天（第一章 · 过去的痕迹 · 第2音轨）",
+      "original_group": "story-我思，故魔王在 · 第一章",
+      "target_group": "story-我思，故魔王在 · 第一章",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-24587f1639cf113d7fa6f1dce1359dfe95fd4324df3cb3186f354fa8fc0893cc.opus",
+      "name": "第一章 · 过去的痕迹 · 第3音轨",
+      "original_group": "story-我思，故魔王在 · 第一章",
+      "target_group": "story-我思，故魔王在 · 第一章",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-1a2c34a528abc1400cc8b079d5a9c6f558822bb4ac1ef8b209470a40b87a0333.opus",
+      "name": "诡谲忽现（第一章 · 消失的绿洲 · 第1音轨）",
+      "original_group": "story-我思，故魔王在 · 第一章",
+      "target_group": "story-我思，故魔王在 · 第一章",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-d35ba185ff0d3025b0766dd67bcf3d757f0a8fcd959a0524f1fe6d4755ed1850.opus",
+      "name": "这就是……胡闹的下场？（第一章 · 消失的绿洲 · 第2音轨）",
+      "original_group": "story-我思，故魔王在 · 第一章",
+      "target_group": "story-我思，故魔王在 · 第一章",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-be06c508a6be79435384e9aee0d61e4df5c5a7a18af54a5a1fd51ad8e9d80276.opus",
+      "name": "第一章 · 消失的绿洲 · 第3音轨",
+      "original_group": "story-我思，故魔王在 · 第一章",
+      "target_group": "story-我思，故魔王在 · 第一章",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-7cc7da136259fb4fe14ec3bb894fd9502047298eb930e7b795a35de40d81e8c4.opus",
+      "name": "心伤难愈（第一章 · 桥洞下 · 第1音轨）",
+      "original_group": "story-我思，故魔王在 · 第一章",
+      "target_group": "story-我思，故魔王在 · 第一章",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-9071876fc33c81bf43563f3f9f1f85c95e5f61dff7e37ff0e8ded9568da674e8.opus",
+      "name": "这下……糟糕了？（第一章 · 桥洞下 · 第2音轨）",
+      "original_group": "story-我思，故魔王在 · 第一章",
+      "target_group": "story-我思，故魔王在 · 第一章",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-fd095e082318094b0a62e1e53e318aea64869d456b191c39d8afcc640f0f2820.opus",
+      "name": "握紧你的手（第一章 · 桥洞下 · 第3音轨）",
+      "original_group": "story-我思，故魔王在 · 第一章",
+      "target_group": "story-我思，故魔王在 · 第一章",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-003965b19a98939644b9dd4f94e9e59d86ed6a747b33e9162dabbb4f738aaa5d.opus",
+      "name": "又是叽叽喳喳的一天（第一章 · 灰城区的风 · 第1音轨）",
+      "original_group": "story-我思，故魔王在 · 第一章",
+      "target_group": "story-我思，故魔王在 · 第一章",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-1af25470e8d75a51b9dff3895c8a2e053910571a9212e15cb51cd83580d3f617.opus",
+      "name": "第一章 · 灰城区的风 · 第2音轨",
+      "original_group": "story-我思，故魔王在 · 第一章",
+      "target_group": "story-我思，故魔王在 · 第一章",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-9bb83533656a796224fd2c2e0aff1befe50f0d71bfbe39811d88c56c72deb7c4.opus",
+      "name": "大战将临（第一章 · 飞翔的选择 · 第1音轨）",
+      "original_group": "story-我思，故魔王在 · 第一章",
+      "target_group": "story-我思，故魔王在 · 第一章",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-3c92f173b6c40e3f4937c843d3cf8576bbae82e1d1bdde12c62986ad96746603.opus",
+      "name": "决断之刻（第一章 · 飞翔的选择 · 第2音轨）",
+      "original_group": "story-我思，故魔王在 · 第一章",
+      "target_group": "story-我思，故魔王在 · 第一章",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-50f1d5d8bf4d983b3aec251c765f27847c7acc36dbe28c2a0ce4d12714e61b73.opus",
+      "name": "惊梦易觉（第一章 · 不同的许愿）",
+      "original_group": "story-我思，故魔王在 · 第一章",
+      "target_group": "story-我思，故魔王在 · 第一章",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-6b5bccf1f4782c622ad8c66d22556f635dc5a55f28ceaa5d72748cc22932d1ef.opus",
+      "name": "这就是……无巧不成书？（第一章 · 调查结果）",
+      "original_group": "story-我思，故魔王在 · 第一章",
+      "target_group": "story-我思，故魔王在 · 第一章",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-0bc27082d923883e8c39935c32525d41b99d3de91ea663c42d6becd9735c3521.opus",
+      "name": "轻声密语的你（第一章 · 没有旅人的未来 · 第1音轨）",
+      "original_group": "story-我思，故魔王在 · 第一章",
+      "target_group": "story-我思，故魔王在 · 第一章",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-06890401058931a07ec83b0aaf2fd6675b3045f189ad0f5da5562a55e3078f14.opus",
+      "name": "第一章 · 没有旅人的未来 · 第2音轨",
+      "original_group": "story-我思，故魔王在 · 第一章",
+      "target_group": "story-我思，故魔王在 · 第一章",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-16eb7fab8fec231b9e995c4ef840d6fb5ead174689568a8d4d1c896ed924f4ac.opus",
+      "name": "白色房间（第一章 · 没有旅人的未来 · 第3音轨）",
+      "original_group": "story-我思，故魔王在 · 第一章",
+      "target_group": "story-我思，故魔王在 · 第一章",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-a9d191cbc9c22246ba0b14fde1b6450b35806cb9ce569713276e4860bbdea196.opus",
+      "name": "又是精神饱满的一天（第一章 · 填补记忆的方式）",
+      "original_group": "story-我思，故魔王在 · 第一章",
+      "target_group": "story-我思，故魔王在 · 第一章",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-7a9d90a816b55b1de508426288b8505298852925ac9ed3988da86f4d352888b0.opus",
+      "name": "微微刺痛的心（第一章 · 最终解释权）",
+      "original_group": "story-我思，故魔王在 · 第一章",
+      "target_group": "story-我思，故魔王在 · 第一章",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-058254bcd0b5742f1ba04c23bcbcbe41f0f1f7c2b3a02245604d4b31ce7a8abe.opus",
+      "name": "开篇 · 战斗配乐",
+      "original_group": "prologue",
+      "target_group": "prologue",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-d3ccf925a20ddb0195a1a1f509c8d666a82469945ad3eef590bf9c82eb969745.opus",
+      "name": "开篇 · 探索",
+      "original_group": "prologue",
+      "target_group": "prologue",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-902473681981b9cbe94b3210cd3e33189fa855a42ccada24458ab647de51d659.opus",
+      "name": "挑战成功",
+      "original_group": "permanent-system",
+      "target_group": "permanent-system",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-06c451261061dc504b101745a1cc396322797e0c91fcb023a3ebd00084259653.opus",
+      "name": "想起，轻声密语的你",
+      "original_group": "permanent-system",
+      "target_group": "permanent-system",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-83d9ff037fbf062591be19e9ac328a409ba52dc7b94dd342f30e5cdf428e5626.opus",
+      "name": "梦的再启（2.0 登录界面）",
+      "original_group": "permanent-system",
+      "target_group": "permanent-system",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-b50d33dfe08dc4b22f251d28d2e0e8eefd5c8275cf072609e91d2b56234f75fb.opus",
+      "name": "加载画面 · 常规",
+      "original_group": "permanent-system",
+      "target_group": "permanent-system",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-f95ecf455e5ac897fc4a799c823e1798446294551f3acd2b19e7f1bd16def7f5.opus",
+      "name": "总会再见",
+      "original_group": "permanent-system",
+      "target_group": "permanent-system",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-5003a6494ac260936d0468e5a2221eb3d89e0a108a125878023a0494ef679eab.opus",
+      "name": "旅人的歌谣",
+      "original_group": "permanent-system",
+      "target_group": "permanent-system",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-e666df02ade3f0e78c8d96bee92be24f6792b0b9eae792125082a27f0105073e.opus",
+      "name": "荒野的呼吸",
+      "original_group": "permanent-system",
+      "target_group": "permanent-system",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-a1b6aaefba83ee7cdcdd04a08b07fd9eaaeac0a89f2b7f24d2873bdaf2d23d4a.opus",
+      "name": "梦的开幕",
+      "original_group": "permanent-system",
+      "target_group": "permanent-system",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-06592bd073fb3d13643936433b78b02d4a9255209a690f14b54f928df10a8a8b.opus",
+      "name": "区域首领",
+      "original_group": "permanent-system",
+      "target_group": "mode-晋升试炼",
+      "candidate_groups": {
+        "mode-晋升试炼": [
+          "Wwise system=regionBoss; UIText.LevelMenu_Region",
+          "Wwise system=regionBoss; UIText.LevelMenu_Region"
+        ]
+      }
+    },
+    {
+      "file": "/audio/audio-4772e6bd500715da24ebb568297129b133c4467910c7821864826f8bee75c6e7.opus",
+      "name": "琳琅满目",
+      "original_group": "permanent-system",
+      "target_group": "permanent-system",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-8c53a6b84c2714dd15436172216d0a21279723146e96dd0e99b0b2400da5ab0a.opus",
+      "name": "莉莉贝尔的疗愈屋",
+      "original_group": "permanent-system",
+      "target_group": "mode-巅峰秀场",
+      "candidate_groups": {
+        "mode-巅峰秀场": [
+          "Wwise system=duel; UIText.LevelMenu_TravelerDuel",
+          "Wwise system=duel; UIText.LevelMenu_TravelerDuel"
+        ]
+      }
+    },
+    {
+      "file": "/audio/audio-065ba01de7343a87524f6c6d982737ac1ac24053b00e9ab0a26dfb199994c43a.opus",
+      "name": "惑心的蜜语",
+      "original_group": "permanent-system",
+      "target_group": "mode-心危擂台",
+      "candidate_groups": {
+        "mode-心危擂台": [
+          "Wwise system=endlesstower",
+          "Wwise system=endlesstower"
+        ]
+      }
+    },
+    {
+      "file": "/audio/audio-e2bd40e7ca979351fd18530d8f8494aa29d960fbf035df40cde4e232464d5915.opus",
+      "name": "巅峰猎场",
+      "original_group": "permanent-system",
+      "target_group": "mode-真格挑战",
+      "candidate_groups": {
+        "mode-真格挑战": [
+          "WeeklyCopies UI bossRank audio / WeekBoss gameplay",
+          "WeeklyCopies UI bossRank audio / WeekBoss gameplay"
+        ]
+      }
+    },
+    {
+      "file": "/audio/audio-f8f91439680069155942b8932e6ba39cd6791dbe14fb0734dc510c55b8aa8ece.opus",
+      "name": "不期而遇（招募过程）",
+      "original_group": "permanent-system",
+      "target_group": "permanent-system",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-2f078d15eaff79a35a219ec41b6435cbc829ead9add597c7533c144e0df6ce0a.opus",
+      "name": "不期而遇（招募结果 · 旅人）",
+      "original_group": "permanent-system",
+      "target_group": "permanent-system",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-42a6cb5ec3ae46fad6d4f9b52d508a724dac636e478b59e515939d1607c637ec.opus",
+      "name": "不期而遇（招募结果 · 秘纹）",
+      "original_group": "permanent-system",
+      "target_group": "permanent-system",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-8f99ade168c4523c437e838f33fcbc35eec41e13f87eb9e6d23492959e8cbd81.opus",
+      "name": "星塔的召唤",
+      "original_group": "permanent-system",
+      "target_group": "permanent-system",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-14ef894390ac14419ebb34d676bf65fffced0aae138413ef0a2f78995b93a50b.opus",
+      "name": "并非不慌不忙的一天",
+      "original_group": "permanent-system",
+      "target_group": "permanent-system",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-0c7255d498963165f82bd3c864a8d83a973d406cc0ae33069850fba94855a285.opus",
+      "name": "游棋保卫战",
+      "original_group": "permanent-combat",
+      "target_group": "permanent-combat",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-39ed4667ad1078cf5663d01ce0d32621613755d8871d077f6335ded3619f462a.opus",
+      "name": "烈焰与尘埃",
+      "original_group": "permanent-combat",
+      "target_group": "mode-星塔探索",
+      "candidate_groups": {
+        "mode-星塔探索": [
+          "User specified exploration theme family"
+        ]
+      }
+    },
+    {
+      "file": "/audio/audio-a27cc7e34440288cfcef04225f61bd027b2a5f9329c763c5c15422c3f0203c37.opus",
+      "name": "烈焰与尘埃 · 挑战战斗",
+      "original_group": "permanent-combat",
+      "target_group": "mode-星塔探索",
+      "candidate_groups": {
+        "mode-星塔探索": [
+          "User specified exploration theme family"
+        ]
+      }
+    },
+    {
+      "file": "/audio/audio-257bad628dc942ea833c91fcda17d43ecbdec487b86acf6fa33361a18357320b.opus",
+      "name": "首领战",
+      "original_group": "permanent-combat",
+      "target_group": "permanent-combat",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-4aeaf5f0781dea8662fbca291d0938e9b9ceb5bf4e7bdd0e503608cc1931ff30.opus",
+      "name": "烈焰与尘埃 · 精英战斗",
+      "original_group": "permanent-combat",
+      "target_group": "mode-星塔探索",
+      "candidate_groups": {
+        "mode-星塔探索": [
+          "User specified exploration theme family"
+        ]
+      }
+    },
+    {
+      "file": "/audio/audio-3cdc45420abe5ff58356eef8212a699aac9e00dd7b1ede78a21c2cb17659ffe5.opus",
+      "name": "暗林",
+      "original_group": "permanent-combat",
+      "target_group": "permanent-combat",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-bf471b1a1b45e16784c1892a323214c30293798a635c7eb238aa010b59da5d24.opus",
+      "name": "高难挑战",
+      "original_group": "permanent-combat",
+      "target_group": "mode-真格挑战",
+      "candidate_groups": {
+        "mode-真格挑战": [
+          "WeekBossFloor:6201101 BGM=banshenShu_realChallenge_setState",
+          "WeekBossFloor:6201102 BGM=banshenShu_realChallenge_setState",
+          "WeekBossFloor:6201103 BGM=banshenShu_realChallenge_setState",
+          "WeekBossFloor:6203101 BGM=mechaBoss_realChallenge_setState",
+          "WeekBossFloor:6203102 BGM=mechaBoss_realChallenge_setState",
+          "WeekBossFloor:6203103 BGM=mechaBoss_realChallenge_setState",
+          "WeekBossFloor:6202101 BGM=yezhuWang_realChallenge_setState",
+          "WeekBossFloor:6202102 BGM=yezhuWang_realChallenge_setState",
+          "WeekBossFloor:6202103 BGM=yezhuWang_realChallenge_setState",
+          "WeekBossFloor:6205101 BGM=fengNiao_realChallenge_setState",
+          "WeekBossFloor:6205102 BGM=fengNiao_realChallenge_setState",
+          "WeekBossFloor:6205103 BGM=fengNiao_realChallenge_setState",
+          "WeekBossFloor:6204101 BGM=fengCao_realChallenge_setState",
+          "WeekBossFloor:6204102 BGM=fengCao_realChallenge_setState",
+          "WeekBossFloor:6204103 BGM=fengCao_realChallenge_setState"
+        ],
+        "mode-联合讨伐": [
+          "ScoreBossFloor:1001008 BGM=fengNiao_realChallenge_setState",
+          "ScoreBossFloor:1001027 BGM=fengNiao_realChallenge_setState"
+        ]
+      }
+    },
+    {
+      "file": "/audio/audio-7f1e9b71265dd28af5fd764191423dca22db94b8a728aa677b4a7065515d4be5.opus",
+      "name": "寄生之庭（暗林 · 首领战）",
+      "original_group": "permanent-combat",
+      "target_group": "permanent-combat",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-e624da51d47ac0e42b309892ac0b691955992c7550a036ed9eaa500bcb2c5e13.opus",
+      "name": "森林遗迹 · 领袖战斗",
+      "original_group": "permanent-combat",
+      "target_group": "permanent-combat",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-afddf3e90f0e57823cbb823a656cdd72568a3a32b72742dc6c9d2ff38aa89c42.opus",
+      "name": "星骸降临（首领战）",
+      "original_group": "permanent-combat",
+      "target_group": "permanent-combat",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-dbcf9af476c7b2103660db1d4dc35f99e752f6d8e96461e8b126b114fc70f3f3.opus",
+      "name": "乡野 · 探索",
+      "original_group": "permanent-combat",
+      "target_group": "permanent-combat",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-16bc5e3da1d2fe5b4f367823b704c53f791e6ad685979b54bebd9450007419c2.opus",
+      "name": "流水与暗影",
+      "original_group": "permanent-combat",
+      "target_group": "mode-星塔探索",
+      "candidate_groups": {
+        "mode-星塔探索": [
+          "User specified exploration theme family"
+        ]
+      }
+    },
+    {
+      "file": "/audio/audio-9757200a15b16846f8e735aee5ae0a039afb47e39a7df9ab091d9864e7a71815.opus",
+      "name": "风暴与闪电",
+      "original_group": "permanent-combat",
+      "target_group": "mode-星塔探索",
+      "candidate_groups": {
+        "mode-星塔探索": [
+          "User specified exploration theme family"
+        ]
+      }
+    },
+    {
+      "file": "/audio/audio-3acad708e3938e377517ab63ef4d20945fa6499ae65452bd5f43db0068e106be.opus",
+      "name": "雾境突围",
+      "original_group": "permanent-combat",
+      "target_group": "permanent-combat",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-172ce969c65aff62f5f9a75c3f96a651a5db454987aac662f451c65ea036284c.opus",
+      "name": "心危擂台",
+      "original_group": "permanent-combat",
+      "target_group": "mode-心危擂台",
+      "candidate_groups": {
+        "mode-心危擂台": [
+          "Wwise level=endlesstower",
+          "Wwise level=endlesstower"
+        ]
+      }
+    },
+    {
+      "file": "/audio/audio-5b735ed59b96838375ae480773ea9de5e4fb6edd0d998d002e6ebe9c6e5adb1a.opus",
+      "name": "沙漠",
+      "original_group": "permanent-combat",
+      "target_group": "permanent-combat",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-ebb6cff2e16f8ad017779ee8fbe2c8cb62bace5cd63aec1eb7f31b576b4c22d6.opus",
+      "name": "水城",
+      "original_group": "permanent-combat",
+      "target_group": "permanent-combat",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-27907e8770dd27fcf528078a70d225cc02a9744b06afcd7fcf488da40876371a.opus",
+      "name": "水城 · 首领战",
+      "original_group": "permanent-combat",
+      "target_group": "permanent-combat",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-ef7e4e2219288163a2c73408a63a420482f3a5a82b6060147b17677a22fadeb8.opus",
+      "name": "探索",
+      "original_group": "permanent-combat",
+      "target_group": "permanent-combat",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-d630296ac31299ae81bff0a58c24430f47632829e16f7e8b93228db9e5e95836.opus",
+      "name": "游棋保卫战",
+      "original_group": "permanent-combat",
+      "target_group": "permanent-combat",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-8ef68aa63b5754c2f7e904dd9a4d7d53082c33a2f8a34867921e0c05f0d5d456.opus",
+      "name": "猫临城下",
+      "original_group": "permanent-combat",
+      "target_group": "mode-巅峰秀场",
+      "candidate_groups": {
+        "mode-巅峰秀场": [
+          "Wwise level=travelerduel; UIText.LevelMenu_TravelerDuel",
+          "TravelerDuelFloor:6004101 BGM=travelerDuel_maoYan_combatBoss_setState",
+          "TravelerDuelFloor:6004102 BGM=travelerDuel_maoYan_combatBoss_setState",
+          "TravelerDuelFloor:6004103 BGM=travelerDuel_maoYan_combatBoss_setState",
+          "TravelerDuelFloor:6004111 BGM=travelerDuel_maoYan_combatBoss_setState"
+        ]
+      }
+    },
+    {
+      "file": "/audio/audio-a3ebe404bf68877f81bce698a94cb5ff04523e68fc453f23dfad585d408419ce.opus",
+      "name": "巅峰秀场 · 花原 · 首领战",
+      "original_group": "permanent-combat",
+      "target_group": "mode-巅峰秀场",
+      "candidate_groups": {
+        "mode-巅峰秀场": [
+          "Wwise level=travelerduel; UIText.LevelMenu_TravelerDuel",
+          "TravelerDuelFloor:6005101 BGM=travelerDuel_huaYuan_combatBoss_setState",
+          "TravelerDuelFloor:6005102 BGM=travelerDuel_huaYuan_combatBoss_setState",
+          "TravelerDuelFloor:6005103 BGM=travelerDuel_huaYuan_combatBoss_setState",
+          "TravelerDuelFloor:6005111 BGM=travelerDuel_huaYuan_combatBoss_setState"
+        ]
+      }
+    },
+    {
+      "file": "/audio/audio-109b3c4b3ffa7d92fb91d7a19c41424e81ae421ef1d2cb6cde041b977a50c689.opus",
+      "name": "巅峰秀场 · 火垂 · 首领战",
+      "original_group": "permanent-combat",
+      "target_group": "mode-巅峰秀场",
+      "candidate_groups": {
+        "mode-巅峰秀场": [
+          "Wwise level=travelerduel; UIText.LevelMenu_TravelerDuel"
+        ]
+      }
+    },
+    {
+      "file": "/audio/audio-fb3b923b93018fbfa8547e7a9bc202278b8287fe2ad08918916b64561f2a494b.opus",
+      "name": "巅峰秀场 · 火垂-变体3 · 首领战",
+      "original_group": "permanent-combat",
+      "target_group": "mode-巅峰秀场",
+      "candidate_groups": {
+        "mode-巅峰秀场": [
+          "Wwise level=travelerduel; UIText.LevelMenu_TravelerDuel"
+        ]
+      }
+    },
+    {
+      "file": "/audio/audio-5b1e0f5599dd48e0eca400616f5e7f6f136a6cd9ad6b7faa8ea13953cf902672.opus",
+      "name": "巅峰秀场 · 火垂 · 首领战",
+      "original_group": "permanent-combat",
+      "target_group": "mode-巅峰秀场",
+      "candidate_groups": {
+        "mode-巅峰秀场": [
+          "Wwise level=travelerduel; UIText.LevelMenu_TravelerDuel",
+          "TravelerDuelFloor:6006101 BGM=travelerDuel_huoChui_combatBoss_setState"
+        ]
+      }
+    },
+    {
+      "file": "/audio/audio-5004967f5df4350bf568a19af747cc6f39b6e863dfb5b4b5fb974de69c0f6650.opus",
+      "name": "公司",
+      "original_group": "permanent-combat",
+      "target_group": "permanent-combat",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-770332c11b2dcfa538cd42e5edb8f0592ed79d67f988ec8677f736e5f561e3b1.opus",
+      "name": "森林",
+      "original_group": "permanent-combat",
+      "target_group": "permanent-combat",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-e6e8eadd20a1b4f44b0543053c0bb83349585bf0390e8e14f03c9f1c0092ee58.opus",
+      "name": "森林 · 首领战",
+      "original_group": "permanent-combat",
+      "target_group": "permanent-combat",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-9c9e22fa6803392a9f9a1e8a4d37eafd127beadebddc377f2f562fb3c34163aa.opus",
+      "name": "森林 · 探索",
+      "original_group": "permanent-combat",
+      "target_group": "permanent-combat",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-d127039736a21aa315f6c5d680575cae40dbe12bf0ba9d21cc09a1bec8febe03.opus",
+      "name": "年兽",
+      "original_group": "permanent-combat",
+      "target_group": "permanent-combat",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-2231f8a9ca321edda3f71927aac39ef2178b519cc33ca1ffb110bfd57e65c615.opus",
+      "name": "终宵萤辉",
+      "original_group": "permanent-combat",
+      "target_group": "permanent-combat",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-c2f5e52fed28781c4e9ea4910649473cbf3504885e8b466e6f5871c6c1c95404.opus",
+      "name": "咕噜六角鲸",
+      "original_group": "permanent-combat",
+      "target_group": "permanent-combat",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-82de09b6cfbc1c3bb2ae6a542856ca11e9fad0352cf7f544526aa9554a21c5ee.opus",
+      "name": "禁断丽容",
+      "original_group": "permanent-combat",
+      "target_group": "permanent-combat",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-4d7f4b07362758760d04bba8f3c99766bbb46d478f8841ba3b78b9ca99bd67b6.opus",
+      "name": "吹灰夫人",
+      "original_group": "permanent-combat",
+      "target_group": "mode-联合讨伐",
+      "candidate_groups": {
+        "mode-联合讨伐": [
+          "ScoreBossFloor:1001006 BGM=roguelike_combatFan_setState",
+          "ScoreBossFloor:1001019 BGM=roguelike_combatFan_setState"
+        ]
+      }
+    },
+    {
+      "file": "/audio/audio-1c969ae243cb1677fe92f252f24a2d57da559fb5fb1b5c7b6ff1b30bdfe0f59d.opus",
+      "name": "赛尔西亚 · 疯狂战车",
+      "original_group": "permanent-combat",
+      "target_group": "permanent-combat",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-c087b4284dcd1b480c0fe0c63a28b3ba6de74b23806187423ec9fbd7bc1a4fb0.opus",
+      "name": "赛尔西亚 · 绝望战车",
+      "original_group": "permanent-combat",
+      "target_group": "permanent-combat",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-1055a218981b6fd0d5c0d94ddd13763f5ba7a1bdf32833b28a3cfde74d51db8f.opus",
+      "name": "味觉惊惧",
+      "original_group": "permanent-combat",
+      "target_group": "mode-联合讨伐",
+      "candidate_groups": {
+        "mode-联合讨伐": [
+          "ScoreBossFloor:1001003 BGM=roguelike_combatChuZi_setState",
+          "ScoreBossFloor:1001007 BGM=roguelike_combatChuZi_setState",
+          "ScoreBossFloor:1001020 BGM=roguelike_combatChuZi_setState"
+        ]
+      }
+    },
+    {
+      "file": "/audio/audio-834d25270db6d10d6f8dd2bcde4886995cf70ca766652a01e001d4247c83574a.opus",
+      "name": "味觉惊惧",
+      "original_group": "permanent-combat",
+      "target_group": "permanent-combat",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-99b26155a95a1e3b2da84fcf795b197bb1b273b15238561b1303e5ff14e4d2bf.opus",
+      "name": "禁断丽容",
+      "original_group": "permanent-combat",
+      "target_group": "mode-联合讨伐",
+      "candidate_groups": {
+        "mode-联合讨伐": [
+          "ScoreBossFloor:1001004 BGM=roguelike_combatLiRong_setState",
+          "ScoreBossFloor:1001017 BGM=roguelike_combatLiRong_setState",
+          "ScoreBossFloor:1001029 BGM=roguelike_combatLiRong_setState"
+        ]
+      }
+    },
+    {
+      "file": "/audio/audio-735e07acfb4472b084c36eddd107f2286179c3ca97dd7f5bb3d5efbe489e465c.opus",
+      "name": "无暇的庆典（崇高傀儡）",
+      "original_group": "permanent-combat",
+      "target_group": "permanent-combat",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-fd9445f93fff716840718bd833122e17e9c607bdb70cad80c527a5f75018fd99.opus",
+      "name": "无暇的庆典（崇高傀儡 · 科佩里乌斯与奥林匹娅）",
+      "original_group": "permanent-combat",
+      "target_group": "permanent-combat",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-68e569661f1075cf64d69aec9f7a6baf4a42d85633262814f384946fe5f2cf87.opus",
+      "name": "吹灰夫人",
+      "original_group": "permanent-combat",
+      "target_group": "permanent-combat",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-33809a21ee980554459da5013128e07fbd694d5aa21200fb8d0aadcb2fb532b2.opus",
+      "name": "热嘟噜噗男爵",
+      "original_group": "permanent-combat",
+      "target_group": "mode-联合讨伐",
+      "candidate_groups": {
+        "mode-晋升试炼": [
+          "RegionBossFloor:6010101 BGM=roguelike_combatGuanzi_setState",
+          "RegionBossFloor:6010102 BGM=roguelike_combatGuanzi_setState",
+          "RegionBossFloor:6010103 BGM=roguelike_combatGuanzi_setState",
+          "RegionBossFloor:6010104 BGM=roguelike_combatGuanzi_setState",
+          "RegionBossFloor:6010105 BGM=roguelike_combatGuanzi_setState",
+          "RegionBossFloor:6010106 BGM=roguelike_combatGuanzi_setState",
+          "RegionBossFloor:6010107 BGM=roguelike_combatGuanzi_setState",
+          "RegionBossFloor:6010108 BGM=roguelike_combatGuanzi_setState",
+          "RegionBossFloor:6010109 BGM=roguelike_combatGuanzi_setState"
+        ],
+        "mode-联合讨伐": [
+          "ScoreBossFloor:1001009 BGM=roguelike_combatGuanzi_setState",
+          "ScoreBossFloor:1001032 BGM=roguelike_combatGuanzi_setState"
+        ]
+      }
+    },
+    {
+      "file": "/audio/audio-c523389d7345a432b1305f7a85eec62a504b2a3c7cb42b24f02d4327e847a880.opus",
+      "name": "企鹅狩猎",
+      "original_group": "permanent-combat",
+      "target_group": "permanent-combat",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-a9803d118fcced72498d6a0abfff285eb75ba97a5186e6a8a5edcf91fbf71438.opus",
+      "name": "流风美人",
+      "original_group": "permanent-combat",
+      "target_group": "mode-联合讨伐",
+      "candidate_groups": {
+        "mode-联合讨伐": [
+          "ScoreBossFloor:1001002 BGM=fengCao_combatBoss_setState",
+          "ScoreBossFloor:1001014 BGM=fengCao_combatBoss_setState",
+          "ScoreBossFloor:1001026 BGM=fengCao_combatBoss_setState",
+          "ScoreBossFloor:1001033 BGM=fengCao_combatBoss_setState"
+        ]
+      }
+    },
+    {
+      "file": "/audio/audio-823656a64c778a526f119a9c3a0d46f8fa22098aec050a7dbd7ac19f1596eb07.opus",
+      "name": "怪诞舞者-战斗",
+      "original_group": "permanent-combat",
+      "target_group": "permanent-combat",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-127c8e918c80d896a95c4bbb46818c0e94e53e130c615053ce697ad3cbd6ded3.opus",
+      "name": "终宵萤辉",
+      "original_group": "permanent-combat",
+      "target_group": "permanent-combat",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-49ca78e8ac82730e63c52be9f95a4283029250c5196963335c19d446843f44df.opus",
+      "name": "冻冻王Ⅲ世",
+      "original_group": "permanent-combat",
+      "target_group": "permanent-combat",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-14389850a3b31729ece7aa961b7862df1a78a61cd2ba4d51cd77ba1c1445c1c3.opus",
+      "name": "热嘟噜噗男爵",
+      "original_group": "permanent-combat",
+      "target_group": "permanent-combat",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-882f042d3de6effa92811362e542bbcce64996f2b699e0b44c5403ab62801100.opus",
+      "name": "流风美人",
+      "original_group": "permanent-combat",
+      "target_group": "permanent-combat",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-eb41225cf7624d1a5927a9bb82c253e9b3d9327fc6aafa91b825e10c996667df.opus",
+      "name": "终宵萤辉",
+      "original_group": "permanent-combat",
+      "target_group": "mode-联合讨伐",
+      "candidate_groups": {
+        "mode-晋升试炼": [
+          "RegionBossFloor:6009101 BGM=roguelike_combatLamp_setState",
+          "RegionBossFloor:6009102 BGM=roguelike_combatLamp_setState",
+          "RegionBossFloor:6009103 BGM=roguelike_combatLamp_setState",
+          "RegionBossFloor:6009104 BGM=roguelike_combatLamp_setState",
+          "RegionBossFloor:6009105 BGM=roguelike_combatLamp_setState",
+          "RegionBossFloor:6009106 BGM=roguelike_combatLamp_setState",
+          "RegionBossFloor:6009107 BGM=roguelike_combatLamp_setState",
+          "RegionBossFloor:6009108 BGM=roguelike_combatLamp_setState",
+          "RegionBossFloor:6009109 BGM=roguelike_combatLamp_setState"
+        ],
+        "mode-联合讨伐": [
+          "ScoreBossFloor:1001010 BGM=roguelike_combatLamp_setState",
+          "ScoreBossFloor:1001016 BGM=roguelike_combatLamp_setState"
+        ]
+      }
+    },
+    {
+      "file": "/audio/audio-efeb83ed09730a1699347692887c3617ae6f65dd435b6ea7e0f686f341ae8d23.opus",
+      "name": "突围玩法",
+      "original_group": "permanent-combat",
+      "target_group": "permanent-combat",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-14515f07353d6f9e18adcd67fb4616dc3900284a439b614f1c4c002ced44aeab.opus",
+      "name": "突围玩法",
+      "original_group": "permanent-combat",
+      "target_group": "permanent-combat",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-e167725c3224ad87f7adae9ef2db31e19b950d2c87af4838eda642b6abd13136.opus",
+      "name": "猎影合围",
+      "original_group": "permanent-combat",
+      "target_group": "mode-猎影合围",
+      "candidate_groups": {
+        "mode-联合讨伐": [
+          "ScoreBossFloor:1001001 BGM=city_combatBoss_setState",
+          "ScoreBossFloor:1001012 BGM=city_combatBoss_setState",
+          "ScoreBossFloor:1001013 BGM=city_combatBoss_setState",
+          "ScoreBossFloor:1001022 BGM=city_combatBoss_setState",
+          "ScoreBossFloor:1001023 BGM=city_combatBoss_setState",
+          "ScoreBossFloor:1001024 BGM=city_combatBoss_setState",
+          "ScoreBossFloor:1001025 BGM=city_combatBoss_setState"
+        ],
+        "mode-猎影合围": [
+          "TraceHuntFloor:10011 BGM=city_combatBoss_setState",
+          "TraceHuntFloor:10012 BGM=city_combatBoss_setState",
+          "TraceHuntFloor:10013 BGM=city_combatBoss_setState",
+          "TraceHuntFloor:10021 BGM=city_combatBoss_setState",
+          "TraceHuntFloor:10022 BGM=city_combatBoss_setState",
+          "TraceHuntFloor:10031 BGM=city_combatBoss_setState",
+          "TraceHuntFloor:10032 BGM=city_combatBoss_setState",
+          "TraceHuntFloor:10033 BGM=city_combatBoss_setState",
+          "TraceHuntFloor:10034 BGM=city_combatBoss_setState",
+          "TraceHuntFloor:10035 BGM=city_combatBoss_setState",
+          "TraceHuntFloor:10036 BGM=city_combatBoss_setState",
+          "TraceHuntFloor:10037 BGM=city_combatBoss_setState",
+          "TraceHuntFloor:10038 BGM=city_combatBoss_setState",
+          "TraceHuntFloor:10039 BGM=city_combatBoss_setState",
+          "TraceHuntFloor:10040 BGM=city_combatBoss_setState",
+          "TraceHuntFloor:10041 BGM=city_combatBoss_setState",
+          "TraceHuntFloor:10042 BGM=city_combatBoss_setState",
+          "TraceHuntFloor:10043 BGM=city_combatBoss_setState",
+          "TraceHuntFloor:10044 BGM=city_combatBoss_setState"
+        ],
+        "mode-巅峰秀场": [
+          "TravelerDuelFloor:6001101 BGM=city_combatBoss_setState",
+          "TravelerDuelFloor:6001102 BGM=city_combatBoss_setState",
+          "TravelerDuelFloor:6002101 BGM=city_combatBoss_setState",
+          "TravelerDuelFloor:6003101 BGM=city_combatBoss_setState",
+          "TravelerDuelFloor:6003102 BGM=city_combatBoss_setState"
+        ]
+      }
+    },
+    {
+      "file": "/audio/audio-4be0f3b12170b1a96283e3fa8b5965888a456202d7bc1a27b098a7106716fb68.opus",
+      "name": "闻香识魔女",
+      "original_group": "permanent-combat",
+      "target_group": "mode-巅峰秀场",
+      "candidate_groups": {
+        "mode-巅峰秀场": [
+          "Wwise level=travelerduel; UIText.LevelMenu_TravelerDuel",
+          "TravelerDuelFloor:6007101 BGM=travelerDuel_wuyu_combatBoss_setState"
+        ]
+      }
+    },
+    {
+      "file": "/audio/audio-b8153144ee45cb07cbc55f1d7f790f5335a93ad5f401d192dd053c13db3fa51c.opus",
+      "name": "心危擂台",
+      "original_group": "permanent-combat",
+      "target_group": "mode-心危擂台",
+      "candidate_groups": {
+        "mode-心危擂台": [
+          "Wwise level=endlesstower"
+        ]
+      }
+    },
+    {
+      "file": "/audio/audio-cc8e831fb9e91d0ba8c3ae4e65a1f120e13661f0076dda7f4c103868d033f1c0.opus",
+      "name": "心危擂台",
+      "original_group": "permanent-combat",
+      "target_group": "mode-心危擂台",
+      "candidate_groups": {
+        "mode-心危擂台": [
+          "Wwise level=endlesstower"
+        ]
+      }
+    },
+    {
+      "file": "/audio/audio-7d8446fdfa79d67b1e00dbff5ec449d982aebfd4fb512934c3a7e2a0b7b24537.opus",
+      "name": "心危擂台",
+      "original_group": "permanent-combat",
+      "target_group": "mode-心危擂台",
+      "candidate_groups": {
+        "mode-心危擂台": [
+          "Wwise level=endlesstower"
+        ]
+      }
+    },
+    {
+      "file": "/audio/audio-06c345af41fac3e170988a38b7051a4a75c5b2b4e5e82b0dadaafd9105fae3b1.opus",
+      "name": "心危擂台",
+      "original_group": "permanent-combat",
+      "target_group": "mode-心危擂台",
+      "candidate_groups": {
+        "mode-心危擂台": [
+          "Wwise level=endlesstower"
+        ]
+      }
+    },
+    {
+      "file": "/audio/audio-919aed8dc7e698beef6195f99d76219267a9d5de3c158d0ee7451be24cb7d305.opus",
+      "name": "心危擂台",
+      "original_group": "permanent-combat",
+      "target_group": "mode-心危擂台",
+      "candidate_groups": {
+        "mode-心危擂台": [
+          "Wwise level=endlesstower"
+        ]
+      }
+    },
+    {
+      "file": "/audio/audio-987406f690b720191a33b51c8fa8a613e26fcffe3a777f7cb93f1b6480820b9f.opus",
+      "name": "心危擂台",
+      "original_group": "permanent-combat",
+      "target_group": "mode-心危擂台",
+      "candidate_groups": {
+        "mode-心危擂台": [
+          "Wwise level=endlesstower"
+        ]
+      }
+    },
+    {
+      "file": "/audio/audio-ec3491595162c534a39125d7b2e18e2bacb6106cb862d3af639130725cd674e1.opus",
+      "name": "心危擂台",
+      "original_group": "permanent-combat",
+      "target_group": "mode-心危擂台",
+      "candidate_groups": {
+        "mode-心危擂台": [
+          "Wwise level=endlesstower"
+        ]
+      }
+    },
+    {
+      "file": "/audio/audio-5e0cbbf1288a3e8b2614db19334bf5f07ada286062b45213febe0a2bac033ca5.opus",
+      "name": "心危擂台",
+      "original_group": "permanent-combat",
+      "target_group": "mode-心危擂台",
+      "candidate_groups": {
+        "mode-心危擂台": [
+          "Wwise level=endlesstower"
+        ]
+      }
+    },
+    {
+      "file": "/audio/audio-11e6a3f164a6f3b6ba71ea9d09be9c1113131bacb4004e6a98a979d0e7cd6a81.opus",
+      "name": "心危擂台",
+      "original_group": "permanent-combat",
+      "target_group": "mode-心危擂台",
+      "candidate_groups": {
+        "mode-心危擂台": [
+          "Wwise level=endlesstower"
+        ]
+      }
+    },
+    {
+      "file": "/audio/audio-501242dece909f7a47407e17f40c9186593a0eb74835e09600d8406ac79126cb.opus",
+      "name": "心危擂台",
+      "original_group": "permanent-combat",
+      "target_group": "mode-心危擂台",
+      "candidate_groups": {
+        "mode-心危擂台": [
+          "Wwise level=endlesstower"
+        ]
+      }
+    },
+    {
+      "file": "/audio/audio-a0959d82aa30feb73c078ac4bf4f092a27b926ceb27f8152773d90fe2ea49d8b.opus",
+      "name": "心危擂台",
+      "original_group": "permanent-combat",
+      "target_group": "mode-心危擂台",
+      "candidate_groups": {
+        "mode-心危擂台": [
+          "Wwise level=endlesstower"
+        ]
+      }
+    },
+    {
+      "file": "/audio/audio-3813ca508dc98d58fc7f25274c734a36d8111d8093fa01119cdee0dc167b2220.opus",
+      "name": "心危擂台",
+      "original_group": "permanent-combat",
+      "target_group": "mode-心危擂台",
+      "candidate_groups": {
+        "mode-心危擂台": [
+          "Wwise level=endlesstower"
+        ]
+      }
+    },
+    {
+      "file": "/audio/audio-857e9a757481c850ed608693d4c93f4d0a33e7b485ae949f4dd5b2cc04594a00.opus",
+      "name": "心危擂台",
+      "original_group": "permanent-combat",
+      "target_group": "mode-心危擂台",
+      "candidate_groups": {
+        "mode-心危擂台": [
+          "Wwise level=endlesstower"
+        ]
+      }
+    },
+    {
+      "file": "/audio/audio-60b9e4d4c4f1506b24e658de4c2701c9441c2f36670eebc22df0d2bd732a3e2c.opus",
+      "name": "心危擂台",
+      "original_group": "permanent-combat",
+      "target_group": "mode-心危擂台",
+      "candidate_groups": {
+        "mode-心危擂台": [
+          "Wwise level=endlesstower"
+        ]
+      }
+    },
+    {
+      "file": "/audio/audio-f992218a4d650d4c079d66ade0b1d7d960ce888e72b873428778e1eadf1ee50e.opus",
+      "name": "心危擂台",
+      "original_group": "permanent-combat",
+      "target_group": "mode-心危擂台",
+      "candidate_groups": {
+        "mode-心危擂台": [
+          "Wwise level=endlesstower"
+        ]
+      }
+    },
+    {
+      "file": "/audio/audio-921276a7f5bca3969d7b39e841943ddf9f152eff7f4f18f4f3a8c438c2bdce07.opus",
+      "name": "悠然芬芳",
+      "original_group": "story-undated",
+      "target_group": "story-undated",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-dc66453ff8cdc9a21c946b56f132a4c26644ccf329f49ab98510cb85f97ce3cc.opus",
+      "name": "未使用曲 · m82 · 第1音轨",
+      "original_group": "story-undated",
+      "target_group": "story-undated",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-010f64338b0b67612986b439da4bedd685697e43fb121a49d3366df3d78093c3.opus",
+      "name": "未使用曲 · m84",
+      "original_group": "story-undated",
+      "target_group": "story-undated",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-7c4b1c0966f304b6688f4de4e9691cce5db6457c2496ac8aae62db927c4b1d27.opus",
+      "name": "未使用曲 · m94 · 第1音轨",
+      "original_group": "story-undated",
+      "target_group": "story-undated",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-6fb4c5d1bea36790f23254c239fad63071cf1bc16072a62d7f2eb5c37c08494a.opus",
+      "name": "未使用曲 · m82 · 第2音轨",
+      "original_group": "story-undated",
+      "target_group": "story-undated",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-9d047279ef45c7e69c01e2b70e91a5d43366da98a335f6fd6406ab8a5e728388.opus",
+      "name": "悠然芬芳",
+      "original_group": "story-undated",
+      "target_group": "story-undated",
+      "candidate_groups": {}
+    },
+    {
+      "file": "/audio/audio-eecb960d3ed4a30303902aad764a27948771d09b94e6be835844ef5a9f955e7a.opus",
+      "name": "未使用曲 · m94 · 第2音轨",
+      "original_group": "story-undated",
+      "target_group": "story-undated",
+      "candidate_groups": {}
+    }
+  ],
+  "permanent_order": [
+    "mode-星塔探索",
+    "mode-心危擂台",
+    "mode-真格挑战",
+    "mode-灾变防线",
+    "mode-猎影合围",
+    "mode-尖兵陷阵",
+    "mode-联合讨伐",
+    "mode-巅峰秀场",
+    "mode-晋升试炼"
+  ],
+  "policy": "Specific permanent gameplay groups appear before permanent-combat; existing metadata/dates and user names are preserved.",
+  "source_mapping_sha256": "74cb9fd11c40e04a34b346a1dea269065f7aed174d659b677dec85c377ab4030"
+}

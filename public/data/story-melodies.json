@@ -39,7 +39,7 @@
       "tracks": [
         {
           "id": "audio-4323fe1ed2d6c9ece6954b0f1b855fad69b85ac2bdccb2a3107c14297c5a7fd5",
-          "name": "速度与机擎 · 界面配乐",
+          "name": "速度与机擎",
           "file": "/audio/audio-4323fe1ed2d6c9ece6954b0f1b855fad69b85ac2bdccb2a3107c14297c5a7fd5.opus",
           "description": ""
         }
@@ -74,14 +74,8 @@
       ],
       "tracks": [
         {
-          "id": "audio-88eaa4400e38c2d311b18c13916ae1880d586fc355f22b4827c2da00adf1205f",
-          "name": "特别篇 · 昨日重现 · 第1音轨",
-          "file": "/audio/audio-88eaa4400e38c2d311b18c13916ae1880d586fc355f22b4827c2da00adf1205f.opus",
-          "description": ""
-        },
-        {
           "id": "audio-b011eee66b31b83229cb463a04d451df24e63462e414d43667e6b3e8a1061597",
-          "name": "特别篇 · 昨日重现 · 第2音轨",
+          "name": "并非不慌不忙的一天",
           "file": "/audio/audio-b011eee66b31b83229cb463a04d451df24e63462e414d43667e6b3e8a1061597.opus",
           "description": ""
         },
@@ -92,33 +86,15 @@
           "description": ""
         },
         {
-          "id": "audio-d3980acc19508fef2e8231dc51d69dde2bc078e6b4d3c606db2429b83b5ef418",
-          "name": "特别篇 · 短暂的日常",
-          "file": "/audio/audio-d3980acc19508fef2e8231dc51d69dde2bc078e6b4d3c606db2429b83b5ef418.opus",
-          "description": ""
-        },
-        {
           "id": "audio-df105457f9b6758df8ce91b1cbbd27b6b718f4a3f16e438a60af29c82e8b7b93",
           "name": "特别篇 · 高塔之下",
           "file": "/audio/audio-df105457f9b6758df8ce91b1cbbd27b6b718f4a3f16e438a60af29c82e8b7b93.opus",
           "description": ""
         },
         {
-          "id": "audio-328a1b1a78e5b57a06f1a28d26edd190e236df8774caa1741432ea525a297151",
-          "name": "特别篇 · 一粒沙的愿望",
-          "file": "/audio/audio-328a1b1a78e5b57a06f1a28d26edd190e236df8774caa1741432ea525a297151.opus",
-          "description": ""
-        },
-        {
           "id": "audio-d51e3d08d9ec0935f5eb40c98f4644b4e860d5910f8001460824d3f665eec008",
-          "name": "特别篇 · 过去之事正如未来之事 · 第1音轨",
+          "name": "特别篇 · 过去之事正如未来之事",
           "file": "/audio/audio-d51e3d08d9ec0935f5eb40c98f4644b4e860d5910f8001460824d3f665eec008.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-cd2f18a8b55c5a5a84e30e56580bbf4f3ff15078e20037cd99b4ca97c22d50f5",
-          "name": "特别篇 · 过去之事正如未来之事 · 第2音轨",
-          "file": "/audio/audio-cd2f18a8b55c5a5a84e30e56580bbf4f3ff15078e20037cd99b4ca97c22d50f5.opus",
           "description": ""
         }
       ]
@@ -159,7 +135,7 @@
         },
         {
           "id": "audio-825ee41f22f6546ca56a37b56baa865eab3fa0cb3ddf62e2b1a9f6f7f6f79561",
-          "name": "第九章 · 引线 · 第2音轨",
+          "name": "心的障壁（第九章 · 引线 · 第2音轨）",
           "file": "/audio/audio-825ee41f22f6546ca56a37b56baa865eab3fa0cb3ddf62e2b1a9f6f7f6f79561.opus",
           "description": ""
         },
@@ -171,7 +147,7 @@
         },
         {
           "id": "audio-e782fb9c549bde7e1a1100e29f2a5f8be7db202cdd46665198777dca6d14321a",
-          "name": "第九章 · 点燃 · 第1音轨",
+          "name": "来自阴影的警告（第九章 · 点燃 · 第1音轨）",
           "file": "/audio/audio-e782fb9c549bde7e1a1100e29f2a5f8be7db202cdd46665198777dca6d14321a.opus",
           "description": ""
         },
@@ -183,13 +159,13 @@
         },
         {
           "id": "audio-8cd24bfd396f31fc154be4ba1bee195496bf780d973c025cbc0ed9205834c099",
-          "name": "第九章 · 伤痕暂停",
+          "name": "妈妈（第九章 · 伤痕暂停）",
           "file": "/audio/audio-8cd24bfd396f31fc154be4ba1bee195496bf780d973c025cbc0ed9205834c099.opus",
           "description": ""
         },
         {
           "id": "audio-1a952b32f4af32c93c7b99d50d222cf5e43050dd0990c4f85fb73e177627be69",
-          "name": "第九章 · 薯条和情报 · 第1音轨",
+          "name": "这下……麻烦大了？（第九章 · 薯条和情报 · 第1音轨）",
           "file": "/audio/audio-1a952b32f4af32c93c7b99d50d222cf5e43050dd0990c4f85fb73e177627be69.opus",
           "description": ""
         },
@@ -197,18 +173,6 @@
           "id": "audio-37f88b48aacb01e866d69335d74b6490df87b7849fb4e725faae5b499fabd9e1",
           "name": "第九章 · 薯条和情报 · 第2音轨",
           "file": "/audio/audio-37f88b48aacb01e866d69335d74b6490df87b7849fb4e725faae5b499fabd9e1.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-e45e4946045ac6e8bad39d3ada07b7cf91df49e0416fd13fc190f82166792f56",
-          "name": "第九章 · 身旁的她 · 第1音轨",
-          "file": "/audio/audio-e45e4946045ac6e8bad39d3ada07b7cf91df49e0416fd13fc190f82166792f56.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-4b8024d41b85449dd0238450982485a3bd43901422d8d932df61d411b23a448f",
-          "name": "第九章 · 身旁的她 · 第2音轨",
-          "file": "/audio/audio-4b8024d41b85449dd0238450982485a3bd43901422d8d932df61d411b23a448f.opus",
           "description": ""
         },
         {
@@ -225,13 +189,13 @@
         },
         {
           "id": "audio-56bc338ba73ef396d4a9e4c1394682aaf6060e60beb776e4d4227daa2bc60d48",
-          "name": "第九章 · 不变之物",
+          "name": "揭开尘封的往昔（第九章 · 不变之物）",
           "file": "/audio/audio-56bc338ba73ef396d4a9e4c1394682aaf6060e60beb776e4d4227daa2bc60d48.opus",
           "description": ""
         },
         {
           "id": "audio-ab024e65135cb149ee5e32dd31a5317eb3df192d5db62d44632bf59eddcedb25",
-          "name": "艾蕾·旅人故事 · 结婚过家家 中",
+          "name": "旅人故事 · 结婚过家家 中",
           "file": "/audio/audio-ab024e65135cb149ee5e32dd31a5317eb3df192d5db62d44632bf59eddcedb25.opus",
           "description": ""
         }
@@ -296,7 +260,7 @@
       "tracks": [
         {
           "id": "audio-e6d69fc29425cb2c1a7f35e17b302672ea2aa580bb2ec7e32527740246a2acfc",
-          "name": "首领战 · 冻冻王三世 · 首领战斗",
+          "name": "欢歌劲浪 · 闪耀假日惊涛探险！ · 首领战",
           "file": "/audio/audio-e6d69fc29425cb2c1a7f35e17b302672ea2aa580bb2ec7e32527740246a2acfc.opus",
           "description": ""
         }
@@ -311,7 +275,7 @@
       "tracks": [
         {
           "id": "audio-272c021ce3fa82facf267aa8f55ff5894934b1d28c7abe17ee6e5adc9c970e32",
-          "name": "沁凉补给站 · 界面配乐",
+          "name": "沁凉补给站",
           "file": "/audio/audio-272c021ce3fa82facf267aa8f55ff5894934b1d28c7abe17ee6e5adc9c970e32.opus",
           "description": ""
         }
@@ -344,53 +308,7 @@
           "basis": "first known outfit release in this activity; not shared-music reuse"
         }
       ],
-      "tracks": [
-        {
-          "id": "audio-e0b47be4da1419de36e562cd5e7b6cd72f3bebe4bb50aff7cb475bd773f33567",
-          "name": "首领战斗",
-          "file": "/audio/audio-e0b47be4da1419de36e562cd5e7b6cd72f3bebe4bb50aff7cb475bd773f33567.opus",
-          "description": ""
-        }
-      ]
-    },
-    {
-      "id": "mode-尖兵陷阵",
-      "name": "尖兵陷阵",
-      "date": "2026-07-21T12:00:00+08:00",
-      "description": "",
-      "outfit_references": [],
-      "tracks": [
-        {
-          "id": "audio-2b330641b9f9ceecc5dad7515cee8cdc228c4a36ad700339c44dbc966ac68ed7",
-          "name": "尖兵陷阵 · 战斗配乐",
-          "file": "/audio/audio-2b330641b9f9ceecc5dad7515cee8cdc228c4a36ad700339c44dbc966ac68ed7.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-aa81f2c41828e84b9159f8098685b1464da204af088ba4bb6b6b4bcb317120dd",
-          "name": "尖兵陷阵 · 战斗配乐",
-          "file": "/audio/audio-aa81f2c41828e84b9159f8098685b1464da204af088ba4bb6b6b4bcb317120dd.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-8b079c853ebaf858377b7a7a1a86821da2e6880b8446bb759013e31572b4bb26",
-          "name": "尖兵陷阵 · 首领战斗",
-          "file": "/audio/audio-8b079c853ebaf858377b7a7a1a86821da2e6880b8446bb759013e31572b4bb26.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-9d66ee3de7e3cbc919c816178ffab3ef70c7ff16bc90904776085cc9dded0b1d",
-          "name": "尖兵陷阵 · 界面配乐",
-          "file": "/audio/audio-9d66ee3de7e3cbc919c816178ffab3ef70c7ff16bc90904776085cc9dded0b1d.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-d405cc543ea930f2528ee47d13356ae9564c1a1f2e639e877e5a76ecd585d698",
-          "name": "尖兵陷阵 · 副段",
-          "file": "/audio/audio-d405cc543ea930f2528ee47d13356ae9564c1a1f2e639e877e5a76ecd585d698.opus",
-          "description": ""
-        }
-      ]
+      "tracks": []
     },
     {
       "id": "activity-10109",
@@ -412,7 +330,7 @@
       "tracks": [
         {
           "id": "audio-10b8fd621d0863b30edd2c8f9e0cad0a55753da8100bf9ed19d6e91f1998c344",
-          "name": "枪林弹雨覆黄沙 · 普通战斗",
+          "name": "枪林弹雨覆黄沙",
           "file": "/audio/audio-10b8fd621d0863b30edd2c8f9e0cad0a55753da8100bf9ed19d6e91f1998c344.opus",
           "description": ""
         }
@@ -448,13 +366,13 @@
       "tracks": [
         {
           "id": "audio-ef4cdaafa834cfbab8a9ad07aae2d5a3899e160cb21aa06d1a21861f62d08bab",
-          "name": "首领战 · 首领战斗",
+          "name": "柔光猎犬",
           "file": "/audio/audio-ef4cdaafa834cfbab8a9ad07aae2d5a3899e160cb21aa06d1a21861f62d08bab.opus",
           "description": ""
         },
         {
           "id": "audio-e3a3bda9e3f54a797ae277ef975905cbbd19dd1bc99caa0954b02be2e621b633",
-          "name": "斯帕克拉·旅人故事 · 斯帕克拉的烦恼 中",
+          "name": "旅人故事 · 斯帕克拉的烦恼 中",
           "file": "/audio/audio-e3a3bda9e3f54a797ae277ef975905cbbd19dd1bc99caa0954b02be2e621b633.opus",
           "description": ""
         }
@@ -490,20 +408,14 @@
       "tracks": [
         {
           "id": "audio-ea1829cf39b28db41563d51235089479574adffc89c101a897a81ce82681b83c",
-          "name": "穿透心壁的取景框 · 探索",
+          "name": "穿透心壁的取景框 · 作战",
           "file": "/audio/audio-ea1829cf39b28db41563d51235089479574adffc89c101a897a81ce82681b83c.opus",
           "description": ""
         },
         {
           "id": "audio-cd53cd1dad7ee023d7d48c61bf5f0bfcb988e4048f81f596217673258d0628ee",
-          "name": "穿透心壁的取景框 · 再遇",
+          "name": "又是日行千里的一天",
           "file": "/audio/audio-cd53cd1dad7ee023d7d48c61bf5f0bfcb988e4048f81f596217673258d0628ee.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-e5fce82f1e1d599472dfbb59c8ea0659899cdb2b2e7ce111daa045299c9b40fa",
-          "name": "穿透心壁的取景框 · 界面配乐",
-          "file": "/audio/audio-e5fce82f1e1d599472dfbb59c8ea0659899cdb2b2e7ce111daa045299c9b40fa.opus",
           "description": ""
         }
       ]
@@ -567,15 +479,15 @@
       ],
       "tracks": [
         {
-          "id": "audio-026f75c540a4ee90cbbe544555a8157793cc33eb4b1f1d97ad0953aaeba2a7ac",
-          "name": "首领战",
-          "file": "/audio/audio-026f75c540a4ee90cbbe544555a8157793cc33eb4b1f1d97ad0953aaeba2a7ac.opus",
+          "id": "audio-86c282d7fed8204c1c9eed1191aa9d2c4cd4e88ad1691fd4853575f327e8290b",
+          "name": "幽夜独舞孤影乱 · 作战",
+          "file": "/audio/audio-86c282d7fed8204c1c9eed1191aa9d2c4cd4e88ad1691fd4853575f327e8290b.opus",
           "description": ""
         },
         {
-          "id": "audio-86c282d7fed8204c1c9eed1191aa9d2c4cd4e88ad1691fd4853575f327e8290b",
-          "name": "幽夜独舞孤影乱 · 战斗配乐",
-          "file": "/audio/audio-86c282d7fed8204c1c9eed1191aa9d2c4cd4e88ad1691fd4853575f327e8290b.opus",
+          "id": "audio-026f75c540a4ee90cbbe544555a8157793cc33eb4b1f1d97ad0953aaeba2a7ac",
+          "name": "幽夜独舞孤影乱 · 首领战",
+          "file": "/audio/audio-026f75c540a4ee90cbbe544555a8157793cc33eb4b1f1d97ad0953aaeba2a7ac.opus",
           "description": ""
         }
       ]
@@ -609,14 +521,8 @@
       ],
       "tracks": [
         {
-          "id": "audio-e167725c3224ad87f7adae9ef2db31e19b950d2c87af4838eda642b6abd13136",
-          "name": "敬启，致珍重的你 · 首领战斗",
-          "file": "/audio/audio-e167725c3224ad87f7adae9ef2db31e19b950d2c87af4838eda642b6abd13136.opus",
-          "description": ""
-        },
-        {
           "id": "audio-69feaa5eb422cdd356ea004ae5e34dc11def78369367394198dde18f00d856e8",
-          "name": "敬启，致珍重的你 · 战斗配乐",
+          "name": "敬启，致珍重的你 · 作战",
           "file": "/audio/audio-69feaa5eb422cdd356ea004ae5e34dc11def78369367394198dde18f00d856e8.opus",
           "description": ""
         }
@@ -631,7 +537,7 @@
       "tracks": [
         {
           "id": "audio-739bc3d49c9b40865226a5984945752dc7967c94ca00dcd0a13b6fd0f6238ff8",
-          "name": "命运星牌局-入场",
+          "name": "命运星牌局",
           "file": "/audio/audio-739bc3d49c9b40865226a5984945752dc7967c94ca00dcd0a13b6fd0f6238ff8.opus",
           "description": ""
         }
@@ -646,7 +552,7 @@
       "tracks": [
         {
           "id": "audio-7b5ea72f1456bc537e75fc2f91387fcb4731195e857527d77c6d684389842925",
-          "name": "豪礼抛物线-序奏",
+          "name": "豪礼抛物线",
           "file": "/audio/audio-7b5ea72f1456bc537e75fc2f91387fcb4731195e857527d77c6d684389842925.opus",
           "description": ""
         }
@@ -681,27 +587,21 @@
       ],
       "tracks": [
         {
+          "id": "audio-ab25e6f97d6405d74cbb6cc500e18adf35b79a1041b34d1981c1e5e0278ebd50",
+          "name": "冬夜镇魂曲与破晓扳机",
+          "file": "/audio/audio-ab25e6f97d6405d74cbb6cc500e18adf35b79a1041b34d1981c1e5e0278ebd50.opus",
+          "description": ""
+        },
+        {
           "id": "audio-8d3cec957e0bea7bb1959306d99c9993b9d814630d2dabf36019ad46a2724e72",
-          "name": "冬夜镇魂曲与破晓扳机 · 战斗配乐",
+          "name": "冬夜镇魂曲与破晓扳机 · 作战",
           "file": "/audio/audio-8d3cec957e0bea7bb1959306d99c9993b9d814630d2dabf36019ad46a2724e72.opus",
           "description": ""
         },
         {
           "id": "audio-c7c8b52f30b6752b5972aa5e1ea5312f557f360b59a89910e2dd558edb0605a2",
-          "name": "冬夜镇魂曲与破晓扳机 · 首领战斗",
+          "name": "冬夜镇魂曲与破晓扳机 · 首领战",
           "file": "/audio/audio-c7c8b52f30b6752b5972aa5e1ea5312f557f360b59a89910e2dd558edb0605a2.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-ab25e6f97d6405d74cbb6cc500e18adf35b79a1041b34d1981c1e5e0278ebd50",
-          "name": "冬夜镇魂曲与破晓扳机 · 前往北境之城",
-          "file": "/audio/audio-ab25e6f97d6405d74cbb6cc500e18adf35b79a1041b34d1981c1e5e0278ebd50.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-ec649f2936c6ef032c286653bc8e7a335408cae5618479e4e9cf0ec67f2ff074",
-          "name": "春日纪事",
-          "file": "/audio/audio-ec649f2936c6ef032c286653bc8e7a335408cae5618479e4e9cf0ec67f2ff074.opus",
           "description": ""
         }
       ]
@@ -713,16 +613,6 @@
       "description": "",
       "outfit_references": [
         {
-          "outfit_id": 214044,
-          "name": "罗帷春染岁朝新",
-          "cover": "/art/4044/thumb.webp",
-          "content_ids": [
-            "audio-f3b1c2362836f639ef46f5f1fa394b493f5470e18834af8803ab894f6dcef3a8",
-            "audio-fbd6784dd82f4a84fff4e12a9d4a5389b7bcec325ebbdc55b173d8dced2a82d8"
-          ],
-          "basis": "first known outfit release in this activity; not shared-music reuse"
-        },
-        {
           "outfit_id": 214042,
           "name": "酒暖灯明时",
           "cover": "/art/4042/thumb.webp",
@@ -731,30 +621,34 @@
             "audio-078d3baad308252b72e3cb45194fe98efa79e484e77099036f128b4305556a4e"
           ],
           "basis": "first known outfit release in this activity; not shared-music reuse"
+        },
+        {
+          "outfit_id": 214044,
+          "name": "罗帷春染岁朝新",
+          "cover": "/art/4044/thumb.webp",
+          "content_ids": [
+            "audio-f3b1c2362836f639ef46f5f1fa394b493f5470e18834af8803ab894f6dcef3a8",
+            "audio-fbd6784dd82f4a84fff4e12a9d4a5389b7bcec325ebbdc55b173d8dced2a82d8"
+          ],
+          "basis": "first known outfit release in this activity; not shared-music reuse"
         }
       ],
       "tracks": [
         {
-          "id": "audio-627abfb332a03c401b0c2f794a2c02c582fbebd4e62cc424170f7c406e5d3da1",
-          "name": "烟火绮丽寻春意 · 首领战斗",
-          "file": "/audio/audio-627abfb332a03c401b0c2f794a2c02c582fbebd4e62cc424170f7c406e5d3da1.opus",
-          "description": ""
-        },
-        {
           "id": "audio-8b1272a09733157def9026f39986c22c46821527f84bc3d76c0e9040f7ad64ac",
-          "name": "烟火绮丽寻春意 · 战斗配乐",
+          "name": "烟火绮丽寻春意 · 作战",
           "file": "/audio/audio-8b1272a09733157def9026f39986c22c46821527f84bc3d76c0e9040f7ad64ac.opus",
           "description": ""
         },
         {
-          "id": "audio-cb2a1c5d9365aa4faad3d5c2654566c51d9b211907b027393e92df0fe5b04f06",
-          "name": "烟火绮丽寻春意 · 寻幽探奇 · 第1音轨",
-          "file": "/audio/audio-cb2a1c5d9365aa4faad3d5c2654566c51d9b211907b027393e92df0fe5b04f06.opus",
+          "id": "audio-627abfb332a03c401b0c2f794a2c02c582fbebd4e62cc424170f7c406e5d3da1",
+          "name": "烟火绮丽寻春意 · 首领战",
+          "file": "/audio/audio-627abfb332a03c401b0c2f794a2c02c582fbebd4e62cc424170f7c406e5d3da1.opus",
           "description": ""
         },
         {
           "id": "audio-a31914f3953a681e908ad40d23409814fb4504ce73649fbd25767135f260a127",
-          "name": "烟火绮丽寻春意 · 寻幽探奇 · 第2音轨",
+          "name": "烟火绮丽寻春意 · 寻幽探奇",
           "file": "/audio/audio-a31914f3953a681e908ad40d23409814fb4504ce73649fbd25767135f260a127.opus",
           "description": ""
         },
@@ -762,12 +656,6 @@
           "id": "audio-3aa28d42eaff8525662e3a9088af80532c4f5e3be41b974a75296de458a47d78",
           "name": "烟火绮丽寻春意 · 此去经年",
           "file": "/audio/audio-3aa28d42eaff8525662e3a9088af80532c4f5e3be41b974a75296de458a47d78.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-f5cd31e3d7268cb1151d47d89f9febb4fc3f59cbd32df919786c2ae29c0eb9c8",
-          "name": "烟火绮丽寻春意 · 界面配乐",
-          "file": "/audio/audio-f5cd31e3d7268cb1151d47d89f9febb4fc3f59cbd32df919786c2ae29c0eb9c8.opus",
           "description": ""
         }
       ]
@@ -802,7 +690,7 @@
       "tracks": [
         {
           "id": "audio-aedbbd5da460dd8fc75807c498adbfb7a301aca8131a63b9331e6248eea7ae8f",
-          "name": "微火的奇迹 · 普通战斗",
+          "name": "迷雾与利爪",
           "file": "/audio/audio-aedbbd5da460dd8fc75807c498adbfb7a301aca8131a63b9331e6248eea7ae8f.opus",
           "description": ""
         },
@@ -867,33 +755,36 @@
       ],
       "tracks": [
         {
+          "id": "audio-aeaa2dfca29dadbc7edba9a3579fded3dccc1d0bb8e6c476a0414ef9314b3d1d",
+          "name": "闪耀的使者与圣夜的精灵",
+          "file": "/audio/audio-aeaa2dfca29dadbc7edba9a3579fded3dccc1d0bb8e6c476a0414ef9314b3d1d.opus",
+          "description": ""
+        },
+        {
           "id": "audio-4bc4d46ca219a32d9e2f9f739ef6c74e502a0a848c2b7e9b35fd6792fe5128fe",
-          "name": "闪耀的使者与圣夜的精灵 · 普通战斗",
+          "name": "闪耀的使者与圣夜的精灵 · 作战",
           "file": "/audio/audio-4bc4d46ca219a32d9e2f9f739ef6c74e502a0a848c2b7e9b35fd6792fe5128fe.opus",
           "description": ""
         },
         {
           "id": "audio-728567b8050735296dbc5b96ffc7ef1826294a52abdc528e8e5062a8a680f025",
-          "name": "闪耀的使者与圣夜的精灵 · 首领战斗",
+          "name": "闪耀的使者与圣夜的精灵 · 首领战",
           "file": "/audio/audio-728567b8050735296dbc5b96ffc7ef1826294a52abdc528e8e5062a8a680f025.opus",
           "description": ""
-        },
+        }
+      ]
+    },
+    {
+      "id": "mainline-5",
+      "name": "主线 · 落于暗夜的荧光",
+      "date": "",
+      "description": "",
+      "outfit_references": [],
+      "tracks": [
         {
-          "id": "audio-13c8f367dd9be719f01d9edd2bdfe2743d6738c00b64ba61e9ffcd360856dc60",
-          "name": "闪耀的使者与圣夜的精灵 · 送礼大作战",
-          "file": "/audio/audio-13c8f367dd9be719f01d9edd2bdfe2743d6738c00b64ba61e9ffcd360856dc60.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-ab10de4ccee1798299d1212804eb70abafb7ba973c3751985e5ee29508524b04",
-          "name": "闪耀的使者与圣夜的精灵 · 庆典时分，盛大登场",
-          "file": "/audio/audio-ab10de4ccee1798299d1212804eb70abafb7ba973c3751985e5ee29508524b04.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-aeaa2dfca29dadbc7edba9a3579fded3dccc1d0bb8e6c476a0414ef9314b3d1d",
-          "name": "闪耀的使者与圣夜的精灵 · 界面配乐",
-          "file": "/audio/audio-aeaa2dfca29dadbc7edba9a3579fded3dccc1d0bb8e6c476a0414ef9314b3d1d.opus",
+          "id": "audio-72a6256ff722117b92bb1795b24ecaa5f352cce87ea8c95c4864bce8f6c2a154",
+          "name": "主线第五章-探索",
+          "file": "/audio/audio-72a6256ff722117b92bb1795b24ecaa5f352cce87ea8c95c4864bce8f6c2a154.opus",
           "description": ""
         }
       ]
@@ -927,6 +818,12 @@
       ],
       "tracks": [
         {
+          "id": "audio-f40db32aa2f9cc5f916facc2be9144fd445a451286e558bf1f9f234f58f3c6c2",
+          "name": "梦的彼岸",
+          "file": "/audio/audio-f40db32aa2f9cc5f916facc2be9144fd445a451286e558bf1f9f234f58f3c6c2.opus",
+          "description": ""
+        },
+        {
           "id": "audio-092d48159f80ec07c23fd7442a7f5d7125f6c14c4824ad2060ab5037c1d3b0f0",
           "name": "第四章 · 旅人往事",
           "file": "/audio/audio-092d48159f80ec07c23fd7442a7f5d7125f6c14c4824ad2060ab5037c1d3b0f0.opus",
@@ -940,20 +837,14 @@
         },
         {
           "id": "audio-053a02abdbfacac67fb59aff7ca7742602ecff09f0e6e774d65fd90287c4780e",
-          "name": "第四章 · 单兵作战",
+          "name": "疑神疑鬼（第四章 · 单兵作战）",
           "file": "/audio/audio-053a02abdbfacac67fb59aff7ca7742602ecff09f0e6e774d65fd90287c4780e.opus",
           "description": ""
         },
         {
           "id": "audio-32a475316abd571010caeefe0be75573e990efd5ec7236e15adddd149b1d4448",
-          "name": "第四章 · 想要保护的东西",
+          "name": "温暖残阳（第四章 · 想要保护的东西）",
           "file": "/audio/audio-32a475316abd571010caeefe0be75573e990efd5ec7236e15adddd149b1d4448.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-f40db32aa2f9cc5f916facc2be9144fd445a451286e558bf1f9f234f58f3c6c2",
-          "name": "主线第四章 · 界面配乐",
-          "file": "/audio/audio-f40db32aa2f9cc5f916facc2be9144fd445a451286e558bf1f9f234f58f3c6c2.opus",
           "description": ""
         }
       ]
@@ -967,17 +858,180 @@
       "tracks": [
         {
           "id": "audio-fbe9e2f83a8466734b87710ec16657d48ae31736261d58ebc898197039336544",
-          "name": "甜心梦工坊-变体4",
+          "name": "机巧梦工坊（甜心梦工坊-变体4）",
           "file": "/audio/audio-fbe9e2f83a8466734b87710ec16657d48ae31736261d58ebc898197039336544.opus",
           "description": ""
         },
         {
           "id": "audio-4f54438f693c7ec189e15910bd9878fd2f874f89877004638be828936d05a5d6",
-          "name": "甜心梦工坊-变体4 · 自由演奏",
+          "name": "机巧梦工坊（甜心梦工坊-变体4 · 自由演奏）",
           "file": "/audio/audio-4f54438f693c7ec189e15910bd9878fd2f874f89877004638be828936d05a5d6.opus",
           "description": ""
+        },
+        {
+          "id": "audio-b20afce217bfbc5f6a2862ec6a3517c0668985a16d216093f209cca54f1f0664",
+          "name": "甜心梦工坊 · 开始",
+          "file": "/audio/audio-b20afce217bfbc5f6a2862ec6a3517c0668985a16d216093f209cca54f1f0664.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-569ad2e75c5af97e2f054eec92753eb3fb2f28464760de81cb3897348a9787b6",
+          "name": "甜心梦工坊 · 每分钟75拍",
+          "file": "/audio/audio-569ad2e75c5af97e2f054eec92753eb3fb2f28464760de81cb3897348a9787b6.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-68b5ec41a88512eb71549e00bb1104c6b85bb28236e29721fb3b73432c17ed53",
+          "name": "甜心梦工坊 · 每分钟68拍",
+          "file": "/audio/audio-68b5ec41a88512eb71549e00bb1104c6b85bb28236e29721fb3b73432c17ed53.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-90a204e7fbe90abd9dce9357beee84a7daca7b4c2c4b68187c7b804ee35b5d85",
+          "name": "甜心梦工坊 · 每分钟60拍",
+          "file": "/audio/audio-90a204e7fbe90abd9dce9357beee84a7daca7b4c2c4b68187c7b804ee35b5d85.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-102ae24076b8f313aada3e552627edd91d418cde33c70e77bc2091aa543efeaa",
+          "name": "甜心梦工坊 · 每分钟65拍",
+          "file": "/audio/audio-102ae24076b8f313aada3e552627edd91d418cde33c70e77bc2091aa543efeaa.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-6412631b3250104ff502a87d03489aad98411e5acbec46019ef4e0338f56a4f2",
+          "name": "甜心梦工坊 · 每分钟40拍",
+          "file": "/audio/audio-6412631b3250104ff502a87d03489aad98411e5acbec46019ef4e0338f56a4f2.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-5bd4da07535a262b393c0c374f37be3bf7abb3a3bba19c1cf67bb0a0e348d622",
+          "name": "甜心梦工坊 · 自由演奏",
+          "file": "/audio/audio-5bd4da07535a262b393c0c374f37be3bf7abb3a3bba19c1cf67bb0a0e348d622.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-b53e80251291025656ee88e6bc8f0b037ccccbf9f54c53428833aef85552a777",
+          "name": "甜心梦工坊",
+          "file": "/audio/audio-b53e80251291025656ee88e6bc8f0b037ccccbf9f54c53428833aef85552a777.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-bb2e77853f38145249b3d1467f1bd885dc478a1f1335648acbc8fa518a1bca03",
+          "name": "甜心梦工坊-变体3 · 开始",
+          "file": "/audio/audio-bb2e77853f38145249b3d1467f1bd885dc478a1f1335648acbc8fa518a1bca03.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-12779fd2ee377163619c8b485d41bf15ba6036e85395367d69c92e36955dee3a",
+          "name": "甜心梦工坊-变体3 · 每分钟75拍",
+          "file": "/audio/audio-12779fd2ee377163619c8b485d41bf15ba6036e85395367d69c92e36955dee3a.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-59878827251ca4d5db1956669724b87108b5350212190ba3285ce6125c38535f",
+          "name": "甜心梦工坊-变体3 · 每分钟68拍",
+          "file": "/audio/audio-59878827251ca4d5db1956669724b87108b5350212190ba3285ce6125c38535f.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-f4f2bab1011b1feaf30118e79036962969cea79754649e748c851a0b1c273cac",
+          "name": "甜心梦工坊-变体3",
+          "file": "/audio/audio-f4f2bab1011b1feaf30118e79036962969cea79754649e748c851a0b1c273cac.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-023732d501a08dc5346cbd70291211b3334d8fb6c9e83d89ad73804f09e34a06",
+          "name": "甜心梦工坊-变体3 · 每分钟50拍",
+          "file": "/audio/audio-023732d501a08dc5346cbd70291211b3334d8fb6c9e83d89ad73804f09e34a06.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-bce1f182e758bef31c738c09df3d276ace0c21df8b616b55334231dbff01f5c6",
+          "name": "甜心梦工坊-变体3 · 每分钟40拍",
+          "file": "/audio/audio-bce1f182e758bef31c738c09df3d276ace0c21df8b616b55334231dbff01f5c6.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-cc7aa6cb3c730500cbb11b47e96f7cc2095e549f3092c91240dc1889c3fca960",
+          "name": "甜心梦工坊 · 开始",
+          "file": "/audio/audio-cc7aa6cb3c730500cbb11b47e96f7cc2095e549f3092c91240dc1889c3fca960.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-c48fa7df057632af3ec593c775d1f5758ad498ecb22ba55a1f7f8778d91bf61e",
+          "name": "甜心梦工坊 · 每分钟75拍",
+          "file": "/audio/audio-c48fa7df057632af3ec593c775d1f5758ad498ecb22ba55a1f7f8778d91bf61e.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-6b1ffacf317ddaf31db0e6e47e28a36f7c27f0163e1881d10884a0dbf23af84a",
+          "name": "甜心梦工坊 · 每分钟68拍",
+          "file": "/audio/audio-6b1ffacf317ddaf31db0e6e47e28a36f7c27f0163e1881d10884a0dbf23af84a.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-4148ea1b453bcaca2e3de2a8dd81116dca40361608d0f06ec43f526647be1093",
+          "name": "甜心梦工坊 · 每分钟60拍",
+          "file": "/audio/audio-4148ea1b453bcaca2e3de2a8dd81116dca40361608d0f06ec43f526647be1093.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-ad7c4f3106b652198343af7f2a577668d5bb9c7695f98694c3e92dc0179b3c01",
+          "name": "甜心梦工坊 · 每分钟50拍",
+          "file": "/audio/audio-ad7c4f3106b652198343af7f2a577668d5bb9c7695f98694c3e92dc0179b3c01.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-b96898ac7a94efd735c8e8007b971409c583cb6f1ffc88fbb0e3024638ff0447",
+          "name": "甜心梦工坊 · 每分钟40拍",
+          "file": "/audio/audio-b96898ac7a94efd735c8e8007b971409c583cb6f1ffc88fbb0e3024638ff0447.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-d489981dcfd007b25d61b5a5cd7f3ee2dbe1211a42744725419255956fec9946",
+          "name": "甜心梦工坊 · 自由演奏",
+          "file": "/audio/audio-d489981dcfd007b25d61b5a5cd7f3ee2dbe1211a42744725419255956fec9946.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-4e561b7834e29966b87cf235a677f6a0b877bf1431ac46f1904ae5cf22f274b1",
+          "name": "甜心梦工坊-变体4 · 开始",
+          "file": "/audio/audio-4e561b7834e29966b87cf235a677f6a0b877bf1431ac46f1904ae5cf22f274b1.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-e558b519650a737a9661df0674b2d6abec138737a55bcb3f501e3e79017ad330",
+          "name": "机巧梦工坊（甜心梦工坊-变体4 · 每分钟75拍）",
+          "file": "/audio/audio-e558b519650a737a9661df0674b2d6abec138737a55bcb3f501e3e79017ad330.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-1e5e20a515644d56155c8c3efedde44a4dd2208779741f5eacf749d7ff7bd447",
+          "name": "机巧梦工坊（甜心梦工坊-变体4 · 每分钟68拍）",
+          "file": "/audio/audio-1e5e20a515644d56155c8c3efedde44a4dd2208779741f5eacf749d7ff7bd447.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-d380fa92c6ed1d590c0082e5b97bf867ed2d687d615951dadf0aecd8e3184d14",
+          "name": "机巧梦工坊（甜心梦工坊-变体4 · 每分钟65拍）",
+          "file": "/audio/audio-d380fa92c6ed1d590c0082e5b97bf867ed2d687d615951dadf0aecd8e3184d14.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-082c2a46e12ad00414a7aaaa48fab03425475bdf3d81336e38905461abda97d1",
+          "name": "机巧梦工坊（甜心梦工坊-变体4 · 每分钟50拍）",
+          "file": "/audio/audio-082c2a46e12ad00414a7aaaa48fab03425475bdf3d81336e38905461abda97d1.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-1065ec7b635d45aafb770219c85732e254934e84964b11ec5692c213a28bdc94",
+          "name": "机巧梦工坊（甜心梦工坊-变体4 · 每分钟40拍）",
+          "file": "/audio/audio-1065ec7b635d45aafb770219c85732e254934e84964b11ec5692c213a28bdc94.opus",
+          "description": ""
         }
-      ]
+      ],
+      "minimum_duration_seconds": 0
     },
     {
       "id": "activity-10101",
@@ -1008,15 +1062,15 @@
       ],
       "tracks": [
         {
-          "id": "audio-792547d1a08417cb57edfa8678ba150e7411287749440ecf07663b0ea627116a",
-          "name": "第三章 · 手机 · 第1音轨",
-          "file": "/audio/audio-792547d1a08417cb57edfa8678ba150e7411287749440ecf07663b0ea627116a.opus",
+          "id": "audio-9a9588a7f9f7f49b00c0b63464705de9bbae4a58e58c93880396bf7fdccad3a5",
+          "name": "第三章 · 作战",
+          "file": "/audio/audio-9a9588a7f9f7f49b00c0b63464705de9bbae4a58e58c93880396bf7fdccad3a5.opus",
           "description": ""
         },
         {
-          "id": "audio-9d6b9de64b05ce76b3a736404bcea38965141965e83d796b7b706fcd9298a6ee",
-          "name": "第三章 · 手机 · 第2音轨",
-          "file": "/audio/audio-9d6b9de64b05ce76b3a736404bcea38965141965e83d796b7b706fcd9298a6ee.opus",
+          "id": "audio-792547d1a08417cb57edfa8678ba150e7411287749440ecf07663b0ea627116a",
+          "name": "娓娓道来的你（第三章 · 手机）",
+          "file": "/audio/audio-792547d1a08417cb57edfa8678ba150e7411287749440ecf07663b0ea627116a.opus",
           "description": ""
         },
         {
@@ -1039,32 +1093,20 @@
         },
         {
           "id": "audio-c733d485bd17b0ce0bd5d79e72015334052097504c9bb7e88cbe7f38811438f2",
-          "name": "第三章 · 森林深处的“仙人”",
+          "name": "总之……也只能上了吧？（第三章 · 森林深处的“仙人”）",
           "file": "/audio/audio-c733d485bd17b0ce0bd5d79e72015334052097504c9bb7e88cbe7f38811438f2.opus",
           "description": ""
         },
         {
           "id": "audio-64e0a57250aa9d58d707cff75451988bb38c77fd37c321c5e6d87cd464743440",
-          "name": "第三章 · 花令旅团",
+          "name": "温暖如初的心（第三章 · 花令旅团）",
           "file": "/audio/audio-64e0a57250aa9d58d707cff75451988bb38c77fd37c321c5e6d87cd464743440.opus",
           "description": ""
         },
         {
           "id": "audio-8f21c7e025d6e58baa8680235ad10e3bd77d47d8461a01c1423bec5e6b9b8504",
-          "name": "第三章 · 不被需要的弱者",
+          "name": "褪色的回忆（第三章 · 不被需要的弱者）",
           "file": "/audio/audio-8f21c7e025d6e58baa8680235ad10e3bd77d47d8461a01c1423bec5e6b9b8504.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-03da4ad009d7baa1b2907886dff8b43a5955c152e6a890c7baea5c74d6fd1a9d",
-          "name": "主线第三章 · 界面配乐",
-          "file": "/audio/audio-03da4ad009d7baa1b2907886dff8b43a5955c152e6a890c7baea5c74d6fd1a9d.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-9a9588a7f9f7f49b00c0b63464705de9bbae4a58e58c93880396bf7fdccad3a5",
-          "name": "探索",
-          "file": "/audio/audio-9a9588a7f9f7f49b00c0b63464705de9bbae4a58e58c93880396bf7fdccad3a5.opus",
           "description": ""
         }
       ]
@@ -1078,53 +1120,14 @@
       "tracks": [
         {
           "id": "audio-32a51b093c233b2ead257e79417cbf48ae8cd398deb40b4a98d44b3aae4667e5",
-          "name": "首领战 · 终焉绝响 · 首领配乐 · 变体2 · 首领战斗",
+          "name": "终焉绝响 · 首领配乐 · 变体2",
           "file": "/audio/audio-32a51b093c233b2ead257e79417cbf48ae8cd398deb40b4a98d44b3aae4667e5.opus",
           "description": ""
         },
         {
           "id": "audio-2750fb57ed5b9edde18decaa587fb06da307acdfbbdb2e5ccaf367d0f5fc7767",
-          "name": "首领战 · 终焉绝响 · 首领配乐 · 首领战斗",
+          "name": "终焉绝响 · 首领配乐",
           "file": "/audio/audio-2750fb57ed5b9edde18decaa587fb06da307acdfbbdb2e5ccaf367d0f5fc7767.opus",
-          "description": ""
-        }
-      ]
-    },
-    {
-      "id": "mode-灾变防线",
-      "name": "灾变防线",
-      "date": "2025-10-28T12:00:00+08:00",
-      "description": "",
-      "outfit_references": [],
-      "tracks": [
-        {
-          "id": "audio-a126b8c81c3d205e71ce07a9901224ba05ce4ecadd169a277ac691073630743c",
-          "name": "灾变防线 · 普通战斗",
-          "file": "/audio/audio-a126b8c81c3d205e71ce07a9901224ba05ce4ecadd169a277ac691073630743c.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-6db21b4af15b3a0d7d2515cf23ef761d8c0155e20fd7ab48ba1ba1c65a762d3e",
-          "name": "灾变防线·森林 · 普通战斗",
-          "file": "/audio/audio-6db21b4af15b3a0d7d2515cf23ef761d8c0155e20fd7ab48ba1ba1c65a762d3e.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-4c788acc49f5e19dd5cdb7fa0337b0458b7d9d7f41866f57a389fa425bbae7eb",
-          "name": "灾变防线·森林 · 首领战斗",
-          "file": "/audio/audio-4c788acc49f5e19dd5cdb7fa0337b0458b7d9d7f41866f57a389fa425bbae7eb.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-ef379564e8ad7c3d145e71d86c2fe6c5cb1890646cf5a0631c5da91b9e8f3cc0",
-          "name": "灾变防线·遗迹 · 普通战斗",
-          "file": "/audio/audio-ef379564e8ad7c3d145e71d86c2fe6c5cb1890646cf5a0631c5da91b9e8f3cc0.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-f59f6f075fcfa1a5e27d4e82710d64a556ee4ed9f999d906ce131bab55383b8b",
-          "name": "灾变防线 · 界面配乐",
-          "file": "/audio/audio-f59f6f075fcfa1a5e27d4e82710d64a556ee4ed9f999d906ce131bab55383b8b.opus",
           "description": ""
         }
       ]
@@ -1159,32 +1162,20 @@
       "tracks": [
         {
           "id": "audio-2e09ba213a7b30f0175720175d7355218b8efdd8684f62a12f18368b25eadb58",
-          "name": "惊奇冒险！渊海幽灵船传说！ · 战斗配乐",
+          "name": "滑越浪尖",
           "file": "/audio/audio-2e09ba213a7b30f0175720175d7355218b8efdd8684f62a12f18368b25eadb58.opus",
           "description": ""
         },
         {
-          "id": "audio-cb04c9fdbfac7cd113fb3d89464476c2c8cb4bfd9ba8b71bd8de0e6ccab995ba",
-          "name": "首领战 · 咕噜六角鲸",
-          "file": "/audio/audio-cb04c9fdbfac7cd113fb3d89464476c2c8cb4bfd9ba8b71bd8de0e6ccab995ba.opus",
-          "description": ""
-        },
-        {
           "id": "audio-abc9e01dfa588dc14581a904736e6dfa48da5370281a9338ab164a318146f4ad",
-          "name": "惊奇冒险！渊海幽灵船传说！ · 谜团与气味",
+          "name": "长雨未停",
           "file": "/audio/audio-abc9e01dfa588dc14581a904736e6dfa48da5370281a9338ab164a318146f4ad.opus",
           "description": ""
         },
         {
           "id": "audio-c3fc4903b125c039c46f88b413b9a48abe30af1ac5998ad950b55d4b0a0db04c",
-          "name": "惊奇冒险！渊海幽灵船传说！ · 探索",
+          "name": "夏日梦工坊",
           "file": "/audio/audio-c3fc4903b125c039c46f88b413b9a48abe30af1ac5998ad950b55d4b0a0db04c.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-2d545eccb841142d776f6e5ea25debab579c0b4470e3558bea8491ff69cf26e5",
-          "name": "惊奇冒险！渊海幽灵船传说！ · 界面配乐",
-          "file": "/audio/audio-2d545eccb841142d776f6e5ea25debab579c0b4470e3558bea8491ff69cf26e5.opus",
           "description": ""
         }
       ]
@@ -1213,31 +1204,31 @@
       "tracks": [
         {
           "id": "audio-ad9d5a5b687fd000b1737755a8e88a8abbd37bf525a6e51837646f92c1eef9bd",
-          "name": "第二章 · 公司与绿洲",
+          "name": "抽丝剥茧（第二章 · 公司与绿洲）",
           "file": "/audio/audio-ad9d5a5b687fd000b1737755a8e88a8abbd37bf525a6e51837646f92c1eef9bd.opus",
           "description": ""
         },
         {
           "id": "audio-1a11186c302e4bfc84f8b21cf5171d3a64dea7dc8d9c087db661a2f2ffa65fb7",
-          "name": "第二章 · 深夜潜入",
+          "name": "又是大声密谋的一天（第二章 · 深夜潜入）",
           "file": "/audio/audio-1a11186c302e4bfc84f8b21cf5171d3a64dea7dc8d9c087db661a2f2ffa65fb7.opus",
           "description": ""
         },
         {
           "id": "audio-e90d96952741cb42db90aaa46e1898f16e27eb045fe072fa8f9595d99a4035e8",
-          "name": "第二章 · 变装侦查",
+          "name": "又是有些无聊的一天（第二章 · 变装侦查）",
           "file": "/audio/audio-e90d96952741cb42db90aaa46e1898f16e27eb045fe072fa8f9595d99a4035e8.opus",
           "description": ""
         },
         {
           "id": "audio-26c12c8a1dbe908dbd44ccd832ec3a7c8b3eed945603c788379490085c55bf3b",
-          "name": "第二章 · 永恒",
+          "name": "算无遗策（第二章 · 永恒）",
           "file": "/audio/audio-26c12c8a1dbe908dbd44ccd832ec3a7c8b3eed945603c788379490085c55bf3b.opus",
           "description": ""
         },
         {
           "id": "audio-e9a36f1a456219dd185bf259ac03edff8e9af87b2fa5e3e210a8489ec3e19a2d",
-          "name": "第二章 · 暗夜中的视线",
+          "name": "危急时刻（第二章 · 暗夜中的视线）",
           "file": "/audio/audio-e9a36f1a456219dd185bf259ac03edff8e9af87b2fa5e3e210a8489ec3e19a2d.opus",
           "description": ""
         },
@@ -1249,7 +1240,7 @@
         },
         {
           "id": "audio-00fdecea08d4081bd0ea2825d8b2a82ad1e2143e0db634bad455ee142286e930",
-          "name": "第二章 · 黑色少女 · 第2音轨",
+          "name": "剑风如歌（第二章 · 黑色少女 · 第2音轨）",
           "file": "/audio/audio-00fdecea08d4081bd0ea2825d8b2a82ad1e2143e0db634bad455ee142286e930.opus",
           "description": ""
         },
@@ -1273,19 +1264,19 @@
         },
         {
           "id": "audio-dc032f936b5cb60abe5b9448d291f41338c5b5000e71cf3fb9c70c8a113605ad",
-          "name": "第二章 · 仁义与刀 · 第1音轨",
+          "name": "雨过天晴的你（第二章 · 仁义与刀 · 第1音轨）",
           "file": "/audio/audio-dc032f936b5cb60abe5b9448d291f41338c5b5000e71cf3fb9c70c8a113605ad.opus",
           "description": ""
         },
         {
           "id": "audio-eab7afe0fbe236ef936aba9c41e12aa2d08280d44538177abab37aa37916487b",
-          "name": "第二章 · 仁义与刀 · 第2音轨",
+          "name": "这下……真的搞砸了？!（第二章 · 仁义与刀 · 第2音轨）",
           "file": "/audio/audio-eab7afe0fbe236ef936aba9c41e12aa2d08280d44538177abab37aa37916487b.opus",
           "description": ""
         },
         {
           "id": "audio-2696e1a843e1113dee8af2479341c0eca74283ddbadd6f06ba328c4205d10605",
-          "name": "第二章 · 特许经营",
+          "name": "星光与勇气（第二章 · 特许经营）",
           "file": "/audio/audio-2696e1a843e1113dee8af2479341c0eca74283ddbadd6f06ba328c4205d10605.opus",
           "description": ""
         },
@@ -1318,19 +1309,19 @@
         },
         {
           "id": "audio-57e4213c5b72ed6f32bd163581c705c9087c9101f68b961f93dfc7815feb09c6",
-          "name": "第一章 · 梦醒时分 · 第3音轨",
+          "name": "又是不慌不忙的一天（第一章 · 梦醒时分 · 第3音轨）",
           "file": "/audio/audio-57e4213c5b72ed6f32bd163581c705c9087c9101f68b961f93dfc7815feb09c6.opus",
           "description": ""
         },
         {
           "id": "audio-9ec2fc17f8dfbb04c031c631b08d41ee5d7dea5b13a8d375b3b836e06b76e18e",
-          "name": "第一章 · 过去的痕迹 · 第1音轨",
+          "name": "又是稀松平常的一天（第一章 · 过去的痕迹 · 第1音轨）",
           "file": "/audio/audio-9ec2fc17f8dfbb04c031c631b08d41ee5d7dea5b13a8d375b3b836e06b76e18e.opus",
           "description": ""
         },
         {
           "id": "audio-21450e386114c0bc8183f3690374a1c09a87261f80a2d5f4bdfa7493af7d14f5",
-          "name": "第一章 · 过去的痕迹 · 第2音轨",
+          "name": "又是丢三落四的一天（第一章 · 过去的痕迹 · 第2音轨）",
           "file": "/audio/audio-21450e386114c0bc8183f3690374a1c09a87261f80a2d5f4bdfa7493af7d14f5.opus",
           "description": ""
         },
@@ -1342,13 +1333,13 @@
         },
         {
           "id": "audio-1a2c34a528abc1400cc8b079d5a9c6f558822bb4ac1ef8b209470a40b87a0333",
-          "name": "第一章 · 消失的绿洲 · 第1音轨",
+          "name": "诡谲忽现（第一章 · 消失的绿洲 · 第1音轨）",
           "file": "/audio/audio-1a2c34a528abc1400cc8b079d5a9c6f558822bb4ac1ef8b209470a40b87a0333.opus",
           "description": ""
         },
         {
           "id": "audio-d35ba185ff0d3025b0766dd67bcf3d757f0a8fcd959a0524f1fe6d4755ed1850",
-          "name": "第一章 · 消失的绿洲 · 第2音轨",
+          "name": "这就是……胡闹的下场？（第一章 · 消失的绿洲 · 第2音轨）",
           "file": "/audio/audio-d35ba185ff0d3025b0766dd67bcf3d757f0a8fcd959a0524f1fe6d4755ed1850.opus",
           "description": ""
         },
@@ -1360,25 +1351,25 @@
         },
         {
           "id": "audio-7cc7da136259fb4fe14ec3bb894fd9502047298eb930e7b795a35de40d81e8c4",
-          "name": "第一章 · 桥洞下 · 第1音轨",
+          "name": "心伤难愈（第一章 · 桥洞下 · 第1音轨）",
           "file": "/audio/audio-7cc7da136259fb4fe14ec3bb894fd9502047298eb930e7b795a35de40d81e8c4.opus",
           "description": ""
         },
         {
           "id": "audio-9071876fc33c81bf43563f3f9f1f85c95e5f61dff7e37ff0e8ded9568da674e8",
-          "name": "第一章 · 桥洞下 · 第2音轨",
+          "name": "这下……糟糕了？（第一章 · 桥洞下 · 第2音轨）",
           "file": "/audio/audio-9071876fc33c81bf43563f3f9f1f85c95e5f61dff7e37ff0e8ded9568da674e8.opus",
           "description": ""
         },
         {
           "id": "audio-fd095e082318094b0a62e1e53e318aea64869d456b191c39d8afcc640f0f2820",
-          "name": "第一章 · 桥洞下 · 第3音轨",
+          "name": "握紧你的手（第一章 · 桥洞下 · 第3音轨）",
           "file": "/audio/audio-fd095e082318094b0a62e1e53e318aea64869d456b191c39d8afcc640f0f2820.opus",
           "description": ""
         },
         {
           "id": "audio-003965b19a98939644b9dd4f94e9e59d86ed6a747b33e9162dabbb4f738aaa5d",
-          "name": "第一章 · 灰城区的风 · 第1音轨",
+          "name": "又是叽叽喳喳的一天（第一章 · 灰城区的风 · 第1音轨）",
           "file": "/audio/audio-003965b19a98939644b9dd4f94e9e59d86ed6a747b33e9162dabbb4f738aaa5d.opus",
           "description": ""
         },
@@ -1390,31 +1381,31 @@
         },
         {
           "id": "audio-9bb83533656a796224fd2c2e0aff1befe50f0d71bfbe39811d88c56c72deb7c4",
-          "name": "第一章 · 飞翔的选择 · 第1音轨",
+          "name": "大战将临（第一章 · 飞翔的选择 · 第1音轨）",
           "file": "/audio/audio-9bb83533656a796224fd2c2e0aff1befe50f0d71bfbe39811d88c56c72deb7c4.opus",
           "description": ""
         },
         {
           "id": "audio-3c92f173b6c40e3f4937c843d3cf8576bbae82e1d1bdde12c62986ad96746603",
-          "name": "第一章 · 飞翔的选择 · 第2音轨",
+          "name": "决断之刻（第一章 · 飞翔的选择 · 第2音轨）",
           "file": "/audio/audio-3c92f173b6c40e3f4937c843d3cf8576bbae82e1d1bdde12c62986ad96746603.opus",
           "description": ""
         },
         {
           "id": "audio-50f1d5d8bf4d983b3aec251c765f27847c7acc36dbe28c2a0ce4d12714e61b73",
-          "name": "第一章 · 不同的许愿",
+          "name": "惊梦易觉（第一章 · 不同的许愿）",
           "file": "/audio/audio-50f1d5d8bf4d983b3aec251c765f27847c7acc36dbe28c2a0ce4d12714e61b73.opus",
           "description": ""
         },
         {
           "id": "audio-6b5bccf1f4782c622ad8c66d22556f635dc5a55f28ceaa5d72748cc22932d1ef",
-          "name": "第一章 · 调查结果",
+          "name": "这就是……无巧不成书？（第一章 · 调查结果）",
           "file": "/audio/audio-6b5bccf1f4782c622ad8c66d22556f635dc5a55f28ceaa5d72748cc22932d1ef.opus",
           "description": ""
         },
         {
           "id": "audio-0bc27082d923883e8c39935c32525d41b99d3de91ea663c42d6becd9735c3521",
-          "name": "第一章 · 没有旅人的未来 · 第1音轨",
+          "name": "轻声密语的你（第一章 · 没有旅人的未来 · 第1音轨）",
           "file": "/audio/audio-0bc27082d923883e8c39935c32525d41b99d3de91ea663c42d6becd9735c3521.opus",
           "description": ""
         },
@@ -1426,19 +1417,19 @@
         },
         {
           "id": "audio-16eb7fab8fec231b9e995c4ef840d6fb5ead174689568a8d4d1c896ed924f4ac",
-          "name": "第一章 · 没有旅人的未来 · 第3音轨",
+          "name": "白色房间（第一章 · 没有旅人的未来 · 第3音轨）",
           "file": "/audio/audio-16eb7fab8fec231b9e995c4ef840d6fb5ead174689568a8d4d1c896ed924f4ac.opus",
           "description": ""
         },
         {
           "id": "audio-a9d191cbc9c22246ba0b14fde1b6450b35806cb9ce569713276e4860bbdea196",
-          "name": "第一章 · 填补记忆的方式",
+          "name": "又是精神饱满的一天（第一章 · 填补记忆的方式）",
           "file": "/audio/audio-a9d191cbc9c22246ba0b14fde1b6450b35806cb9ce569713276e4860bbdea196.opus",
           "description": ""
         },
         {
           "id": "audio-7a9d90a816b55b1de508426288b8505298852925ac9ed3988da86f4d352888b0",
-          "name": "第一章 · 最终解释权",
+          "name": "微微刺痛的心（第一章 · 最终解释权）",
           "file": "/audio/audio-7a9d90a816b55b1de508426288b8505298852925ac9ed3988da86f4d352888b0.opus",
           "description": ""
         }
@@ -1480,13 +1471,13 @@
         },
         {
           "id": "audio-06c451261061dc504b101745a1cc396322797e0c91fcb023a3ebd00084259653",
-          "name": "后宅",
+          "name": "想起，轻声密语的你",
           "file": "/audio/audio-06c451261061dc504b101745a1cc396322797e0c91fcb023a3ebd00084259653.opus",
           "description": ""
         },
         {
           "id": "audio-83d9ff037fbf062591be19e9ac328a409ba52dc7b94dd342f30e5cdf428e5626",
-          "name": "登录",
+          "name": "梦的再启（2.0 登录界面）",
           "file": "/audio/audio-83d9ff037fbf062591be19e9ac328a409ba52dc7b94dd342f30e5cdf428e5626.opus",
           "description": ""
         },
@@ -1498,107 +1489,83 @@
         },
         {
           "id": "audio-f95ecf455e5ac897fc4a799c823e1798446294551f3acd2b19e7f1bd16def7f5",
-          "name": "营地",
+          "name": "总会再见",
           "file": "/audio/audio-f95ecf455e5ac897fc4a799c823e1798446294551f3acd2b19e7f1bd16def7f5.opus",
           "description": ""
         },
         {
           "id": "audio-5003a6494ac260936d0468e5a2221eb3d89e0a108a125878023a0494ef679eab",
-          "name": "登录与主界面",
+          "name": "旅人的歌谣",
           "file": "/audio/audio-5003a6494ac260936d0468e5a2221eb3d89e0a108a125878023a0494ef679eab.opus",
           "description": ""
         },
         {
           "id": "audio-e666df02ade3f0e78c8d96bee92be24f6792b0b9eae792125082a27f0105073e",
-          "name": "关卡选择",
+          "name": "荒野的呼吸",
           "file": "/audio/audio-e666df02ade3f0e78c8d96bee92be24f6792b0b9eae792125082a27f0105073e.opus",
           "description": ""
         },
         {
           "id": "audio-a1b6aaefba83ee7cdcdd04a08b07fd9eaaeac0a89f2b7f24d2873bdaf2d23d4a",
-          "name": "启动画面",
+          "name": "梦的开幕",
           "file": "/audio/audio-a1b6aaefba83ee7cdcdd04a08b07fd9eaaeac0a89f2b7f24d2873bdaf2d23d4a.opus",
           "description": ""
         },
         {
-          "id": "audio-06592bd073fb3d13643936433b78b02d4a9255209a690f14b54f928df10a8a8b",
-          "name": "区域首领",
-          "file": "/audio/audio-06592bd073fb3d13643936433b78b02d4a9255209a690f14b54f928df10a8a8b.opus",
-          "description": ""
-        },
-        {
           "id": "audio-4772e6bd500715da24ebb568297129b133c4467910c7821864826f8bee75c6e7",
-          "name": "采购商店",
+          "name": "琳琅满目",
           "file": "/audio/audio-4772e6bd500715da24ebb568297129b133c4467910c7821864826f8bee75c6e7.opus",
           "description": ""
         },
         {
-          "id": "audio-8c53a6b84c2714dd15436172216d0a21279723146e96dd0e99b0b2400da5ab0a",
-          "name": "尖兵陷阵",
-          "file": "/audio/audio-8c53a6b84c2714dd15436172216d0a21279723146e96dd0e99b0b2400da5ab0a.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-065ba01de7343a87524f6c6d982737ac1ac24053b00e9ab0a26dfb199994c43a",
-          "name": "无尽之塔",
-          "file": "/audio/audio-065ba01de7343a87524f6c6d982737ac1ac24053b00e9ab0a26dfb199994c43a.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-e2bd40e7ca979351fd18530d8f8494aa29d960fbf035df40cde4e232464d5915",
-          "name": "巅峰猎场",
-          "file": "/audio/audio-e2bd40e7ca979351fd18530d8f8494aa29d960fbf035df40cde4e232464d5915.opus",
+          "id": "audio-f8f91439680069155942b8932e6ba39cd6791dbe14fb0734dc510c55b8aa8ece",
+          "name": "不期而遇（招募过程）",
+          "file": "/audio/audio-f8f91439680069155942b8932e6ba39cd6791dbe14fb0734dc510c55b8aa8ece.opus",
           "description": ""
         },
         {
           "id": "audio-2f078d15eaff79a35a219ec41b6435cbc829ead9add597c7533c144e0df6ce0a",
-          "name": "招募过程 · 旅人招募",
+          "name": "不期而遇（招募结果 · 旅人）",
           "file": "/audio/audio-2f078d15eaff79a35a219ec41b6435cbc829ead9add597c7533c144e0df6ce0a.opus",
           "description": ""
         },
         {
           "id": "audio-42a6cb5ec3ae46fad6d4f9b52d508a724dac636e478b59e515939d1607c637ec",
-          "name": "招募过程 · 秘纹招募 · R",
+          "name": "不期而遇（招募结果 · 秘纹）",
           "file": "/audio/audio-42a6cb5ec3ae46fad6d4f9b52d508a724dac636e478b59e515939d1607c637ec.opus",
           "description": ""
         },
         {
-          "id": "audio-f8f91439680069155942b8932e6ba39cd6791dbe14fb0734dc510c55b8aa8ece",
-          "name": "招募过程",
-          "file": "/audio/audio-f8f91439680069155942b8932e6ba39cd6791dbe14fb0734dc510c55b8aa8ece.opus",
-          "description": ""
-        },
-        {
           "id": "audio-8f99ade168c4523c437e838f33fcbc35eec41e13f87eb9e6d23492959e8cbd81",
-          "name": "编队",
+          "name": "星塔的召唤",
           "file": "/audio/audio-8f99ade168c4523c437e838f33fcbc35eec41e13f87eb9e6d23492959e8cbd81.opus",
           "description": ""
         },
         {
           "id": "audio-14ef894390ac14419ebb34d676bf65fffced0aae138413ef0a2f78995b93a50b",
-          "name": "后宅",
+          "name": "并非不慌不忙的一天",
           "file": "/audio/audio-14ef894390ac14419ebb34d676bf65fffced0aae138413ef0a2f78995b93a50b.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-a326fb8958c77204c5572ecf0d051d660713071b2628d2e315dd7bbc3581aba0",
-          "name": "后宅",
-          "file": "/audio/audio-a326fb8958c77204c5572ecf0d051d660713071b2628d2e315dd7bbc3581aba0.opus",
           "description": ""
         }
       ]
     },
     {
-      "id": "permanent-combat",
-      "name": "常驻玩法",
+      "id": "mode-星塔探索",
+      "name": "星塔探索",
       "date": "",
       "description": "",
       "outfit_references": [],
       "tracks": [
         {
-          "id": "audio-0c7255d498963165f82bd3c864a8d83a973d406cc0ae33069850fba94855a285",
-          "name": "游棋保卫战-变体2 · 普通战斗",
-          "file": "/audio/audio-0c7255d498963165f82bd3c864a8d83a973d406cc0ae33069850fba94855a285.opus",
+          "id": "audio-6db21b4af15b3a0d7d2515cf23ef761d8c0155e20fd7ab48ba1ba1c65a762d3e",
+          "name": "流水与暗影",
+          "file": "/audio/audio-6db21b4af15b3a0d7d2515cf23ef761d8c0155e20fd7ab48ba1ba1c65a762d3e.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-ef379564e8ad7c3d145e71d86c2fe6c5cb1890646cf5a0631c5da91b9e8f3cc0",
+          "name": "风暴与闪电",
+          "file": "/audio/audio-ef379564e8ad7c3d145e71d86c2fe6c5cb1890646cf5a0631c5da91b9e8f3cc0.opus",
           "description": ""
         },
         {
@@ -1614,51 +1581,9 @@
           "description": ""
         },
         {
-          "id": "audio-257bad628dc942ea833c91fcda17d43ecbdec487b86acf6fa33361a18357320b",
-          "name": "首领战斗",
-          "file": "/audio/audio-257bad628dc942ea833c91fcda17d43ecbdec487b86acf6fa33361a18357320b.opus",
-          "description": ""
-        },
-        {
           "id": "audio-4aeaf5f0781dea8662fbca291d0938e9b9ceb5bf4e7bdd0e503608cc1931ff30",
           "name": "烈焰与尘埃 · 精英战斗",
           "file": "/audio/audio-4aeaf5f0781dea8662fbca291d0938e9b9ceb5bf4e7bdd0e503608cc1931ff30.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-3cdc45420abe5ff58356eef8212a699aac9e00dd7b1ede78a21c2cb17659ffe5",
-          "name": "暗林",
-          "file": "/audio/audio-3cdc45420abe5ff58356eef8212a699aac9e00dd7b1ede78a21c2cb17659ffe5.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-bf471b1a1b45e16784c1892a323214c30293798a635c7eb238aa010b59da5d24",
-          "name": "高难挑战",
-          "file": "/audio/audio-bf471b1a1b45e16784c1892a323214c30293798a635c7eb238aa010b59da5d24.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-7f1e9b71265dd28af5fd764191423dca22db94b8a728aa677b4a7065515d4be5",
-          "name": "暗林 · 首领战斗",
-          "file": "/audio/audio-7f1e9b71265dd28af5fd764191423dca22db94b8a728aa677b4a7065515d4be5.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-e624da51d47ac0e42b309892ac0b691955992c7550a036ed9eaa500bcb2c5e13",
-          "name": "森林遗迹 · 领袖战斗",
-          "file": "/audio/audio-e624da51d47ac0e42b309892ac0b691955992c7550a036ed9eaa500bcb2c5e13.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-afddf3e90f0e57823cbb823a656cdd72568a3a32b72742dc6c9d2ff38aa89c42",
-          "name": "首领战斗",
-          "file": "/audio/audio-afddf3e90f0e57823cbb823a656cdd72568a3a32b72742dc6c9d2ff38aa89c42.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-dbcf9af476c7b2103660db1d4dc35f99e752f6d8e96461e8b126b114fc70f3f3",
-          "name": "乡野 · 探索",
-          "file": "/audio/audio-dbcf9af476c7b2103660db1d4dc35f99e752f6d8e96461e8b126b114fc70f3f3.opus",
           "description": ""
         },
         {
@@ -1672,34 +1597,424 @@
           "name": "风暴与闪电",
           "file": "/audio/audio-9757200a15b16846f8e735aee5ae0a039afb47e39a7df9ab091d9864e7a71815.opus",
           "description": ""
-        },
+        }
+      ],
+      "before_group": "permanent-combat"
+    },
+    {
+      "id": "mode-心危擂台",
+      "name": "心危擂台",
+      "date": "",
+      "description": "",
+      "outfit_references": [],
+      "tracks": [
         {
-          "id": "audio-3acad708e3938e377517ab63ef4d20945fa6499ae65452bd5f43db0068e106be",
-          "name": "火垂-变体2",
-          "file": "/audio/audio-3acad708e3938e377517ab63ef4d20945fa6499ae65452bd5f43db0068e106be.opus",
+          "id": "audio-065ba01de7343a87524f6c6d982737ac1ac24053b00e9ab0a26dfb199994c43a",
+          "name": "惑心的蜜语",
+          "file": "/audio/audio-065ba01de7343a87524f6c6d982737ac1ac24053b00e9ab0a26dfb199994c43a.opus",
           "description": ""
         },
         {
           "id": "audio-172ce969c65aff62f5f9a75c3f96a651a5db454987aac662f451c65ea036284c",
-          "name": "无尽之塔 · 普通战斗",
+          "name": "心危擂台",
           "file": "/audio/audio-172ce969c65aff62f5f9a75c3f96a651a5db454987aac662f451c65ea036284c.opus",
           "description": ""
         },
         {
+          "id": "audio-b8153144ee45cb07cbc55f1d7f790f5335a93ad5f401d192dd053c13db3fa51c",
+          "name": "心危擂台",
+          "file": "/audio/audio-b8153144ee45cb07cbc55f1d7f790f5335a93ad5f401d192dd053c13db3fa51c.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-cc8e831fb9e91d0ba8c3ae4e65a1f120e13661f0076dda7f4c103868d033f1c0",
+          "name": "心危擂台",
+          "file": "/audio/audio-cc8e831fb9e91d0ba8c3ae4e65a1f120e13661f0076dda7f4c103868d033f1c0.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-7d8446fdfa79d67b1e00dbff5ec449d982aebfd4fb512934c3a7e2a0b7b24537",
+          "name": "心危擂台",
+          "file": "/audio/audio-7d8446fdfa79d67b1e00dbff5ec449d982aebfd4fb512934c3a7e2a0b7b24537.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-06c345af41fac3e170988a38b7051a4a75c5b2b4e5e82b0dadaafd9105fae3b1",
+          "name": "心危擂台",
+          "file": "/audio/audio-06c345af41fac3e170988a38b7051a4a75c5b2b4e5e82b0dadaafd9105fae3b1.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-919aed8dc7e698beef6195f99d76219267a9d5de3c158d0ee7451be24cb7d305",
+          "name": "心危擂台",
+          "file": "/audio/audio-919aed8dc7e698beef6195f99d76219267a9d5de3c158d0ee7451be24cb7d305.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-987406f690b720191a33b51c8fa8a613e26fcffe3a777f7cb93f1b6480820b9f",
+          "name": "心危擂台",
+          "file": "/audio/audio-987406f690b720191a33b51c8fa8a613e26fcffe3a777f7cb93f1b6480820b9f.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-ec3491595162c534a39125d7b2e18e2bacb6106cb862d3af639130725cd674e1",
+          "name": "心危擂台",
+          "file": "/audio/audio-ec3491595162c534a39125d7b2e18e2bacb6106cb862d3af639130725cd674e1.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-5e0cbbf1288a3e8b2614db19334bf5f07ada286062b45213febe0a2bac033ca5",
+          "name": "心危擂台",
+          "file": "/audio/audio-5e0cbbf1288a3e8b2614db19334bf5f07ada286062b45213febe0a2bac033ca5.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-11e6a3f164a6f3b6ba71ea9d09be9c1113131bacb4004e6a98a979d0e7cd6a81",
+          "name": "心危擂台",
+          "file": "/audio/audio-11e6a3f164a6f3b6ba71ea9d09be9c1113131bacb4004e6a98a979d0e7cd6a81.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-501242dece909f7a47407e17f40c9186593a0eb74835e09600d8406ac79126cb",
+          "name": "心危擂台",
+          "file": "/audio/audio-501242dece909f7a47407e17f40c9186593a0eb74835e09600d8406ac79126cb.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-a0959d82aa30feb73c078ac4bf4f092a27b926ceb27f8152773d90fe2ea49d8b",
+          "name": "心危擂台",
+          "file": "/audio/audio-a0959d82aa30feb73c078ac4bf4f092a27b926ceb27f8152773d90fe2ea49d8b.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-3813ca508dc98d58fc7f25274c734a36d8111d8093fa01119cdee0dc167b2220",
+          "name": "心危擂台",
+          "file": "/audio/audio-3813ca508dc98d58fc7f25274c734a36d8111d8093fa01119cdee0dc167b2220.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-857e9a757481c850ed608693d4c93f4d0a33e7b485ae949f4dd5b2cc04594a00",
+          "name": "心危擂台",
+          "file": "/audio/audio-857e9a757481c850ed608693d4c93f4d0a33e7b485ae949f4dd5b2cc04594a00.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-60b9e4d4c4f1506b24e658de4c2701c9441c2f36670eebc22df0d2bd732a3e2c",
+          "name": "心危擂台",
+          "file": "/audio/audio-60b9e4d4c4f1506b24e658de4c2701c9441c2f36670eebc22df0d2bd732a3e2c.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-f992218a4d650d4c079d66ade0b1d7d960ce888e72b873428778e1eadf1ee50e",
+          "name": "心危擂台",
+          "file": "/audio/audio-f992218a4d650d4c079d66ade0b1d7d960ce888e72b873428778e1eadf1ee50e.opus",
+          "description": ""
+        }
+      ],
+      "before_group": "permanent-combat"
+    },
+    {
+      "id": "mode-真格挑战",
+      "name": "真格挑战",
+      "date": "",
+      "description": "",
+      "outfit_references": [],
+      "tracks": [
+        {
+          "id": "audio-cb04c9fdbfac7cd113fb3d89464476c2c8cb4bfd9ba8b71bd8de0e6ccab995ba",
+          "name": "咕噜六角鲸",
+          "file": "/audio/audio-cb04c9fdbfac7cd113fb3d89464476c2c8cb4bfd9ba8b71bd8de0e6ccab995ba.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-e2bd40e7ca979351fd18530d8f8494aa29d960fbf035df40cde4e232464d5915",
+          "name": "巅峰猎场",
+          "file": "/audio/audio-e2bd40e7ca979351fd18530d8f8494aa29d960fbf035df40cde4e232464d5915.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-bf471b1a1b45e16784c1892a323214c30293798a635c7eb238aa010b59da5d24",
+          "name": "高难挑战",
+          "file": "/audio/audio-bf471b1a1b45e16784c1892a323214c30293798a635c7eb238aa010b59da5d24.opus",
+          "description": ""
+        }
+      ],
+      "before_group": "permanent-combat"
+    },
+    {
+      "id": "mode-灾变防线",
+      "name": "灾变防线",
+      "date": "2025-10-28T12:00:00+08:00",
+      "description": "",
+      "outfit_references": [],
+      "tracks": [
+        {
+          "id": "audio-a126b8c81c3d205e71ce07a9901224ba05ce4ecadd169a277ac691073630743c",
+          "name": "灾变防线",
+          "file": "/audio/audio-a126b8c81c3d205e71ce07a9901224ba05ce4ecadd169a277ac691073630743c.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-4c788acc49f5e19dd5cdb7fa0337b0458b7d9d7f41866f57a389fa425bbae7eb",
+          "name": "灾变防线·森林 · 首领战",
+          "file": "/audio/audio-4c788acc49f5e19dd5cdb7fa0337b0458b7d9d7f41866f57a389fa425bbae7eb.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-f59f6f075fcfa1a5e27d4e82710d64a556ee4ed9f999d906ce131bab55383b8b",
+          "name": "灾厄的异动",
+          "file": "/audio/audio-f59f6f075fcfa1a5e27d4e82710d64a556ee4ed9f999d906ce131bab55383b8b.opus",
+          "description": ""
+        }
+      ],
+      "before_group": "permanent-combat"
+    },
+    {
+      "id": "mode-猎影合围",
+      "name": "猎影合围",
+      "date": "",
+      "description": "",
+      "outfit_references": [],
+      "tracks": [
+        {
+          "id": "audio-e167725c3224ad87f7adae9ef2db31e19b950d2c87af4838eda642b6abd13136",
+          "name": "猎影合围",
+          "file": "/audio/audio-e167725c3224ad87f7adae9ef2db31e19b950d2c87af4838eda642b6abd13136.opus",
+          "description": ""
+        }
+      ],
+      "before_group": "permanent-combat"
+    },
+    {
+      "id": "mode-尖兵陷阵",
+      "name": "尖兵陷阵",
+      "date": "2026-07-21T12:00:00+08:00",
+      "description": "",
+      "outfit_references": [],
+      "tracks": [
+        {
+          "id": "audio-d405cc543ea930f2528ee47d13356ae9564c1a1f2e639e877e5a76ecd585d698",
+          "name": "尊者调查",
+          "file": "/audio/audio-d405cc543ea930f2528ee47d13356ae9564c1a1f2e639e877e5a76ecd585d698.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-aa81f2c41828e84b9159f8098685b1464da204af088ba4bb6b6b4bcb317120dd",
+          "name": "尖兵陷阵",
+          "file": "/audio/audio-aa81f2c41828e84b9159f8098685b1464da204af088ba4bb6b6b4bcb317120dd.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-2b330641b9f9ceecc5dad7515cee8cdc228c4a36ad700339c44dbc966ac68ed7",
+          "name": "云见雾散",
+          "file": "/audio/audio-2b330641b9f9ceecc5dad7515cee8cdc228c4a36ad700339c44dbc966ac68ed7.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-8b079c853ebaf858377b7a7a1a86821da2e6880b8446bb759013e31572b4bb26",
+          "name": "完璧的残响",
+          "file": "/audio/audio-8b079c853ebaf858377b7a7a1a86821da2e6880b8446bb759013e31572b4bb26.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-9d66ee3de7e3cbc919c816178ffab3ef70c7ff16bc90904776085cc9dded0b1d",
+          "name": "尖兵陷阵 · 氛围音乐",
+          "file": "/audio/audio-9d66ee3de7e3cbc919c816178ffab3ef70c7ff16bc90904776085cc9dded0b1d.opus",
+          "description": ""
+        }
+      ],
+      "before_group": "permanent-combat"
+    },
+    {
+      "id": "mode-联合讨伐",
+      "name": "联合讨伐",
+      "date": "",
+      "description": "",
+      "outfit_references": [],
+      "tracks": [
+        {
+          "id": "audio-e0b47be4da1419de36e562cd5e7b6cd72f3bebe4bb50aff7cb475bd773f33567",
+          "name": "渊海主宰",
+          "file": "/audio/audio-e0b47be4da1419de36e562cd5e7b6cd72f3bebe4bb50aff7cb475bd773f33567.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-4d7f4b07362758760d04bba8f3c99766bbb46d478f8841ba3b78b9ca99bd67b6",
+          "name": "吹灰夫人",
+          "file": "/audio/audio-4d7f4b07362758760d04bba8f3c99766bbb46d478f8841ba3b78b9ca99bd67b6.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-1055a218981b6fd0d5c0d94ddd13763f5ba7a1bdf32833b28a3cfde74d51db8f",
+          "name": "味觉惊惧",
+          "file": "/audio/audio-1055a218981b6fd0d5c0d94ddd13763f5ba7a1bdf32833b28a3cfde74d51db8f.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-99b26155a95a1e3b2da84fcf795b197bb1b273b15238561b1303e5ff14e4d2bf",
+          "name": "禁断丽容",
+          "file": "/audio/audio-99b26155a95a1e3b2da84fcf795b197bb1b273b15238561b1303e5ff14e4d2bf.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-33809a21ee980554459da5013128e07fbd694d5aa21200fb8d0aadcb2fb532b2",
+          "name": "热嘟噜噗男爵",
+          "file": "/audio/audio-33809a21ee980554459da5013128e07fbd694d5aa21200fb8d0aadcb2fb532b2.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-a9803d118fcced72498d6a0abfff285eb75ba97a5186e6a8a5edcf91fbf71438",
+          "name": "流风美人",
+          "file": "/audio/audio-a9803d118fcced72498d6a0abfff285eb75ba97a5186e6a8a5edcf91fbf71438.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-eb41225cf7624d1a5927a9bb82c253e9b3d9327fc6aafa91b825e10c996667df",
+          "name": "终宵萤辉",
+          "file": "/audio/audio-eb41225cf7624d1a5927a9bb82c253e9b3d9327fc6aafa91b825e10c996667df.opus",
+          "description": ""
+        }
+      ],
+      "before_group": "permanent-combat"
+    },
+    {
+      "id": "mode-巅峰秀场",
+      "name": "巅峰秀场",
+      "date": "",
+      "description": "",
+      "outfit_references": [],
+      "tracks": [
+        {
+          "id": "audio-8c53a6b84c2714dd15436172216d0a21279723146e96dd0e99b0b2400da5ab0a",
+          "name": "莉莉贝尔的疗愈屋",
+          "file": "/audio/audio-8c53a6b84c2714dd15436172216d0a21279723146e96dd0e99b0b2400da5ab0a.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-8ef68aa63b5754c2f7e904dd9a4d7d53082c33a2f8a34867921e0c05f0d5d456",
+          "name": "猫临城下",
+          "file": "/audio/audio-8ef68aa63b5754c2f7e904dd9a4d7d53082c33a2f8a34867921e0c05f0d5d456.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-a3ebe404bf68877f81bce698a94cb5ff04523e68fc453f23dfad585d408419ce",
+          "name": "巅峰秀场 · 花原 · 首领战",
+          "file": "/audio/audio-a3ebe404bf68877f81bce698a94cb5ff04523e68fc453f23dfad585d408419ce.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-109b3c4b3ffa7d92fb91d7a19c41424e81ae421ef1d2cb6cde041b977a50c689",
+          "name": "巅峰秀场 · 火垂 · 首领战",
+          "file": "/audio/audio-109b3c4b3ffa7d92fb91d7a19c41424e81ae421ef1d2cb6cde041b977a50c689.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-fb3b923b93018fbfa8547e7a9bc202278b8287fe2ad08918916b64561f2a494b",
+          "name": "巅峰秀场 · 火垂-变体3 · 首领战",
+          "file": "/audio/audio-fb3b923b93018fbfa8547e7a9bc202278b8287fe2ad08918916b64561f2a494b.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-5b1e0f5599dd48e0eca400616f5e7f6f136a6cd9ad6b7faa8ea13953cf902672",
+          "name": "巅峰秀场 · 火垂 · 首领战",
+          "file": "/audio/audio-5b1e0f5599dd48e0eca400616f5e7f6f136a6cd9ad6b7faa8ea13953cf902672.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-4be0f3b12170b1a96283e3fa8b5965888a456202d7bc1a27b098a7106716fb68",
+          "name": "闻香识魔女",
+          "file": "/audio/audio-4be0f3b12170b1a96283e3fa8b5965888a456202d7bc1a27b098a7106716fb68.opus",
+          "description": ""
+        }
+      ],
+      "before_group": "permanent-combat"
+    },
+    {
+      "id": "mode-晋升试炼",
+      "name": "晋升试炼",
+      "date": "",
+      "description": "",
+      "outfit_references": [],
+      "tracks": [
+        {
+          "id": "audio-06592bd073fb3d13643936433b78b02d4a9255209a690f14b54f928df10a8a8b",
+          "name": "区域首领",
+          "file": "/audio/audio-06592bd073fb3d13643936433b78b02d4a9255209a690f14b54f928df10a8a8b.opus",
+          "description": ""
+        }
+      ],
+      "before_group": "permanent-combat"
+    },
+    {
+      "id": "permanent-combat",
+      "name": "常驻玩法",
+      "date": "",
+      "description": "",
+      "outfit_references": [],
+      "tracks": [
+        {
+          "id": "audio-0c7255d498963165f82bd3c864a8d83a973d406cc0ae33069850fba94855a285",
+          "name": "游棋保卫战",
+          "file": "/audio/audio-0c7255d498963165f82bd3c864a8d83a973d406cc0ae33069850fba94855a285.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-257bad628dc942ea833c91fcda17d43ecbdec487b86acf6fa33361a18357320b",
+          "name": "首领战",
+          "file": "/audio/audio-257bad628dc942ea833c91fcda17d43ecbdec487b86acf6fa33361a18357320b.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-3cdc45420abe5ff58356eef8212a699aac9e00dd7b1ede78a21c2cb17659ffe5",
+          "name": "暗林",
+          "file": "/audio/audio-3cdc45420abe5ff58356eef8212a699aac9e00dd7b1ede78a21c2cb17659ffe5.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-7f1e9b71265dd28af5fd764191423dca22db94b8a728aa677b4a7065515d4be5",
+          "name": "寄生之庭（暗林 · 首领战）",
+          "file": "/audio/audio-7f1e9b71265dd28af5fd764191423dca22db94b8a728aa677b4a7065515d4be5.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-e624da51d47ac0e42b309892ac0b691955992c7550a036ed9eaa500bcb2c5e13",
+          "name": "森林遗迹 · 领袖战斗",
+          "file": "/audio/audio-e624da51d47ac0e42b309892ac0b691955992c7550a036ed9eaa500bcb2c5e13.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-afddf3e90f0e57823cbb823a656cdd72568a3a32b72742dc6c9d2ff38aa89c42",
+          "name": "星骸降临（首领战）",
+          "file": "/audio/audio-afddf3e90f0e57823cbb823a656cdd72568a3a32b72742dc6c9d2ff38aa89c42.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-dbcf9af476c7b2103660db1d4dc35f99e752f6d8e96461e8b126b114fc70f3f3",
+          "name": "乡野 · 探索",
+          "file": "/audio/audio-dbcf9af476c7b2103660db1d4dc35f99e752f6d8e96461e8b126b114fc70f3f3.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-3acad708e3938e377517ab63ef4d20945fa6499ae65452bd5f43db0068e106be",
+          "name": "雾境突围",
+          "file": "/audio/audio-3acad708e3938e377517ab63ef4d20945fa6499ae65452bd5f43db0068e106be.opus",
+          "description": ""
+        },
+        {
           "id": "audio-5b735ed59b96838375ae480773ea9de5e4fb6edd0d998d002e6ebe9c6e5adb1a",
-          "name": "沙漠-变体2",
+          "name": "沙漠",
           "file": "/audio/audio-5b735ed59b96838375ae480773ea9de5e4fb6edd0d998d002e6ebe9c6e5adb1a.opus",
           "description": ""
         },
         {
           "id": "audio-ebb6cff2e16f8ad017779ee8fbe2c8cb62bace5cd63aec1eb7f31b576b4c22d6",
-          "name": "水城 · 普通战斗",
+          "name": "水城",
           "file": "/audio/audio-ebb6cff2e16f8ad017779ee8fbe2c8cb62bace5cd63aec1eb7f31b576b4c22d6.opus",
           "description": ""
         },
         {
           "id": "audio-27907e8770dd27fcf528078a70d225cc02a9744b06afcd7fcf488da40876371a",
-          "name": "水城 · 首领战斗",
+          "name": "水城 · 首领战",
           "file": "/audio/audio-27907e8770dd27fcf528078a70d225cc02a9744b06afcd7fcf488da40876371a.opus",
           "description": ""
         },
@@ -1711,38 +2026,8 @@
         },
         {
           "id": "audio-d630296ac31299ae81bff0a58c24430f47632829e16f7e8b93228db9e5e95836",
-          "name": "游棋保卫战 · 普通战斗",
+          "name": "游棋保卫战",
           "file": "/audio/audio-d630296ac31299ae81bff0a58c24430f47632829e16f7e8b93228db9e5e95836.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-8ef68aa63b5754c2f7e904dd9a4d7d53082c33a2f8a34867921e0c05f0d5d456",
-          "name": "尖兵陷阵 · 猫眼 · 首领战斗",
-          "file": "/audio/audio-8ef68aa63b5754c2f7e904dd9a4d7d53082c33a2f8a34867921e0c05f0d5d456.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-a3ebe404bf68877f81bce698a94cb5ff04523e68fc453f23dfad585d408419ce",
-          "name": "尖兵陷阵 · 花原 · 首领战斗",
-          "file": "/audio/audio-a3ebe404bf68877f81bce698a94cb5ff04523e68fc453f23dfad585d408419ce.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-109b3c4b3ffa7d92fb91d7a19c41424e81ae421ef1d2cb6cde041b977a50c689",
-          "name": "尖兵陷阵 · 火垂-变体2 · 首领战斗",
-          "file": "/audio/audio-109b3c4b3ffa7d92fb91d7a19c41424e81ae421ef1d2cb6cde041b977a50c689.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-fb3b923b93018fbfa8547e7a9bc202278b8287fe2ad08918916b64561f2a494b",
-          "name": "尖兵陷阵 · 火垂-变体3 · 首领战斗",
-          "file": "/audio/audio-fb3b923b93018fbfa8547e7a9bc202278b8287fe2ad08918916b64561f2a494b.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-5b1e0f5599dd48e0eca400616f5e7f6f136a6cd9ad6b7faa8ea13953cf902672",
-          "name": "尖兵陷阵 · 火垂 · 首领战斗",
-          "file": "/audio/audio-5b1e0f5599dd48e0eca400616f5e7f6f136a6cd9ad6b7faa8ea13953cf902672.opus",
           "description": ""
         },
         {
@@ -1759,7 +2044,7 @@
         },
         {
           "id": "audio-e6e8eadd20a1b4f44b0543053c0bb83349585bf0390e8e14f03c9f1c0092ee58",
-          "name": "森林 · 首领战斗",
+          "name": "森林 · 首领战",
           "file": "/audio/audio-e6e8eadd20a1b4f44b0543053c0bb83349585bf0390e8e14f03c9f1c0092ee58.opus",
           "description": ""
         },
@@ -1771,308 +2056,161 @@
         },
         {
           "id": "audio-d127039736a21aa315f6c5d680575cae40dbe12bf0ba9d21cc09a1bec8febe03",
-          "name": "首领战 · 年兽-变体2",
+          "name": "年兽",
           "file": "/audio/audio-d127039736a21aa315f6c5d680575cae40dbe12bf0ba9d21cc09a1bec8febe03.opus",
           "description": ""
         },
         {
           "id": "audio-2231f8a9ca321edda3f71927aac39ef2178b519cc33ca1ffb110bfd57e65c615",
-          "name": "首领战 · 首领击败",
+          "name": "终宵萤辉",
           "file": "/audio/audio-2231f8a9ca321edda3f71927aac39ef2178b519cc33ca1ffb110bfd57e65c615.opus",
           "description": ""
         },
         {
           "id": "audio-c2f5e52fed28781c4e9ea4910649473cbf3504885e8b466e6f5871c6c1c95404",
-          "name": "首领战 · 咕噜六角鲸-变体2",
+          "name": "咕噜六角鲸",
           "file": "/audio/audio-c2f5e52fed28781c4e9ea4910649473cbf3504885e8b466e6f5871c6c1c95404.opus",
           "description": ""
         },
         {
           "id": "audio-82de09b6cfbc1c3bb2ae6a542856ca11e9fad0352cf7f544526aa9554a21c5ee",
-          "name": "首领战 · 禁断丽容-变体2 · 首领战斗",
+          "name": "禁断丽容",
           "file": "/audio/audio-82de09b6cfbc1c3bb2ae6a542856ca11e9fad0352cf7f544526aa9554a21c5ee.opus",
           "description": ""
         },
         {
-          "id": "audio-4d7f4b07362758760d04bba8f3c99766bbb46d478f8841ba3b78b9ca99bd67b6",
-          "name": "首领战 · 吹灰夫人 · 首领战斗",
-          "file": "/audio/audio-4d7f4b07362758760d04bba8f3c99766bbb46d478f8841ba3b78b9ca99bd67b6.opus",
-          "description": ""
-        },
-        {
           "id": "audio-1c969ae243cb1677fe92f252f24a2d57da559fb5fb1b5c7b6ff1b30bdfe0f59d",
-          "name": "首领战 · 赛尔西亚 · 疯狂战车 · 首领战斗",
+          "name": "赛尔西亚 · 疯狂战车",
           "file": "/audio/audio-1c969ae243cb1677fe92f252f24a2d57da559fb5fb1b5c7b6ff1b30bdfe0f59d.opus",
           "description": ""
         },
         {
           "id": "audio-c087b4284dcd1b480c0fe0c63a28b3ba6de74b23806187423ec9fbd7bc1a4fb0",
-          "name": "首领战 · 赛尔西亚 · 绝望战车 · 首领战斗",
+          "name": "赛尔西亚 · 绝望战车",
           "file": "/audio/audio-c087b4284dcd1b480c0fe0c63a28b3ba6de74b23806187423ec9fbd7bc1a4fb0.opus",
           "description": ""
         },
         {
-          "id": "audio-1055a218981b6fd0d5c0d94ddd13763f5ba7a1bdf32833b28a3cfde74d51db8f",
-          "name": "首领战 · 味觉惊惧 · 首领战斗",
-          "file": "/audio/audio-1055a218981b6fd0d5c0d94ddd13763f5ba7a1bdf32833b28a3cfde74d51db8f.opus",
-          "description": ""
-        },
-        {
           "id": "audio-834d25270db6d10d6f8dd2bcde4886995cf70ca766652a01e001d4247c83574a",
-          "name": "首领战 · 味觉惊惧-变体2 · 首领战斗",
+          "name": "味觉惊惧",
           "file": "/audio/audio-834d25270db6d10d6f8dd2bcde4886995cf70ca766652a01e001d4247c83574a.opus",
           "description": ""
         },
         {
-          "id": "audio-99b26155a95a1e3b2da84fcf795b197bb1b273b15238561b1303e5ff14e4d2bf",
-          "name": "首领战 · 禁断丽容 · 首领战斗",
-          "file": "/audio/audio-99b26155a95a1e3b2da84fcf795b197bb1b273b15238561b1303e5ff14e4d2bf.opus",
-          "description": ""
-        },
-        {
           "id": "audio-735e07acfb4472b084c36eddd107f2286179c3ca97dd7f5bb3d5efbe489e465c",
-          "name": "首领战 · 崇高傀儡-变体2 · 首领战斗",
+          "name": "无暇的庆典（崇高傀儡）",
           "file": "/audio/audio-735e07acfb4472b084c36eddd107f2286179c3ca97dd7f5bb3d5efbe489e465c.opus",
           "description": ""
         },
         {
           "id": "audio-fd9445f93fff716840718bd833122e17e9c607bdb70cad80c527a5f75018fd99",
-          "name": "首领战 · 崇高傀儡 · 科佩里乌斯与奥林匹娅 · 首领战斗",
+          "name": "无暇的庆典（崇高傀儡 · 科佩里乌斯与奥林匹娅）",
           "file": "/audio/audio-fd9445f93fff716840718bd833122e17e9c607bdb70cad80c527a5f75018fd99.opus",
           "description": ""
         },
         {
           "id": "audio-68e569661f1075cf64d69aec9f7a6baf4a42d85633262814f384946fe5f2cf87",
-          "name": "首领战 · 吹灰夫人-变体2 · 首领战斗",
+          "name": "吹灰夫人",
           "file": "/audio/audio-68e569661f1075cf64d69aec9f7a6baf4a42d85633262814f384946fe5f2cf87.opus",
           "description": ""
         },
         {
-          "id": "audio-33809a21ee980554459da5013128e07fbd694d5aa21200fb8d0aadcb2fb532b2",
-          "name": "首领战 · 热嘟噜噗男爵 · 首领战斗",
-          "file": "/audio/audio-33809a21ee980554459da5013128e07fbd694d5aa21200fb8d0aadcb2fb532b2.opus",
-          "description": ""
-        },
-        {
           "id": "audio-c523389d7345a432b1305f7a85eec62a504b2a3c7cb42b24f02d4327e847a880",
-          "name": "首领战 · 企鹅狩猎 · 首领战斗",
+          "name": "企鹅狩猎",
           "file": "/audio/audio-c523389d7345a432b1305f7a85eec62a504b2a3c7cb42b24f02d4327e847a880.opus",
           "description": ""
         },
         {
-          "id": "audio-a9803d118fcced72498d6a0abfff285eb75ba97a5186e6a8a5edcf91fbf71438",
-          "name": "首领战 · 流风美人 · 首领战斗",
-          "file": "/audio/audio-a9803d118fcced72498d6a0abfff285eb75ba97a5186e6a8a5edcf91fbf71438.opus",
-          "description": ""
-        },
-        {
           "id": "audio-823656a64c778a526f119a9c3a0d46f8fa22098aec050a7dbd7ac19f1596eb07",
-          "name": "首领战 · 怪诞舞者-战斗 · 首领战斗",
+          "name": "怪诞舞者-战斗",
           "file": "/audio/audio-823656a64c778a526f119a9c3a0d46f8fa22098aec050a7dbd7ac19f1596eb07.opus",
           "description": ""
         },
         {
           "id": "audio-127c8e918c80d896a95c4bbb46818c0e94e53e130c615053ce697ad3cbd6ded3",
-          "name": "首领战 · 终宵萤辉-变体2 · 首领战斗",
+          "name": "终宵萤辉",
           "file": "/audio/audio-127c8e918c80d896a95c4bbb46818c0e94e53e130c615053ce697ad3cbd6ded3.opus",
           "description": ""
         },
         {
           "id": "audio-49ca78e8ac82730e63c52be9f95a4283029250c5196963335c19d446843f44df",
-          "name": "首领战 · 冻冻王三世-变体2 · 首领战斗",
+          "name": "冻冻王Ⅲ世",
           "file": "/audio/audio-49ca78e8ac82730e63c52be9f95a4283029250c5196963335c19d446843f44df.opus",
           "description": ""
         },
         {
           "id": "audio-14389850a3b31729ece7aa961b7862df1a78a61cd2ba4d51cd77ba1c1445c1c3",
-          "name": "首领战 · 热嘟噜噗男爵-变体2 · 首领战斗",
+          "name": "热嘟噜噗男爵",
           "file": "/audio/audio-14389850a3b31729ece7aa961b7862df1a78a61cd2ba4d51cd77ba1c1445c1c3.opus",
           "description": ""
         },
         {
           "id": "audio-882f042d3de6effa92811362e542bbcce64996f2b699e0b44c5403ab62801100",
-          "name": "首领战 · 流风美人-变体2 · 首领战斗",
+          "name": "流风美人",
           "file": "/audio/audio-882f042d3de6effa92811362e542bbcce64996f2b699e0b44c5403ab62801100.opus",
           "description": ""
         },
         {
-          "id": "audio-eb41225cf7624d1a5927a9bb82c253e9b3d9327fc6aafa91b825e10c996667df",
-          "name": "首领战 · 终宵萤辉 · 首领战斗",
-          "file": "/audio/audio-eb41225cf7624d1a5927a9bb82c253e9b3d9327fc6aafa91b825e10c996667df.opus",
-          "description": ""
-        },
-        {
           "id": "audio-efeb83ed09730a1699347692887c3617ae6f65dd435b6ea7e0f686f341ae8d23",
-          "name": "突围玩法 · 普通战斗",
+          "name": "突围玩法",
           "file": "/audio/audio-efeb83ed09730a1699347692887c3617ae6f65dd435b6ea7e0f686f341ae8d23.opus",
           "description": ""
         },
         {
           "id": "audio-14515f07353d6f9e18adcd67fb4616dc3900284a439b614f1c4c002ced44aeab",
-          "name": "突围玩法 · 首领战斗",
+          "name": "突围玩法",
           "file": "/audio/audio-14515f07353d6f9e18adcd67fb4616dc3900284a439b614f1c4c002ced44aeab.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-4be0f3b12170b1a96283e3fa8b5965888a456202d7bc1a27b098a7106716fb68",
-          "name": "尖兵陷阵 · 雾语 · 首领战斗",
-          "file": "/audio/audio-4be0f3b12170b1a96283e3fa8b5965888a456202d7bc1a27b098a7106716fb68.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-b8153144ee45cb07cbc55f1d7f790f5335a93ad5f401d192dd053c13db3fa51c",
-          "name": "无尽之塔 · 普通战斗",
-          "file": "/audio/audio-b8153144ee45cb07cbc55f1d7f790f5335a93ad5f401d192dd053c13db3fa51c.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-cc8e831fb9e91d0ba8c3ae4e65a1f120e13661f0076dda7f4c103868d033f1c0",
-          "name": "无尽之塔 · 普通战斗",
-          "file": "/audio/audio-cc8e831fb9e91d0ba8c3ae4e65a1f120e13661f0076dda7f4c103868d033f1c0.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-7d8446fdfa79d67b1e00dbff5ec449d982aebfd4fb512934c3a7e2a0b7b24537",
-          "name": "无尽之塔 · 普通战斗",
-          "file": "/audio/audio-7d8446fdfa79d67b1e00dbff5ec449d982aebfd4fb512934c3a7e2a0b7b24537.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-06c345af41fac3e170988a38b7051a4a75c5b2b4e5e82b0dadaafd9105fae3b1",
-          "name": "无尽之塔 · 普通战斗",
-          "file": "/audio/audio-06c345af41fac3e170988a38b7051a4a75c5b2b4e5e82b0dadaafd9105fae3b1.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-919aed8dc7e698beef6195f99d76219267a9d5de3c158d0ee7451be24cb7d305",
-          "name": "无尽之塔 · 普通战斗",
-          "file": "/audio/audio-919aed8dc7e698beef6195f99d76219267a9d5de3c158d0ee7451be24cb7d305.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-987406f690b720191a33b51c8fa8a613e26fcffe3a777f7cb93f1b6480820b9f",
-          "name": "无尽之塔 · 普通战斗",
-          "file": "/audio/audio-987406f690b720191a33b51c8fa8a613e26fcffe3a777f7cb93f1b6480820b9f.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-ec3491595162c534a39125d7b2e18e2bacb6106cb862d3af639130725cd674e1",
-          "name": "无尽之塔 · 普通战斗",
-          "file": "/audio/audio-ec3491595162c534a39125d7b2e18e2bacb6106cb862d3af639130725cd674e1.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-5e0cbbf1288a3e8b2614db19334bf5f07ada286062b45213febe0a2bac033ca5",
-          "name": "无尽之塔 · 普通战斗",
-          "file": "/audio/audio-5e0cbbf1288a3e8b2614db19334bf5f07ada286062b45213febe0a2bac033ca5.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-11e6a3f164a6f3b6ba71ea9d09be9c1113131bacb4004e6a98a979d0e7cd6a81",
-          "name": "无尽之塔 · 普通战斗",
-          "file": "/audio/audio-11e6a3f164a6f3b6ba71ea9d09be9c1113131bacb4004e6a98a979d0e7cd6a81.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-501242dece909f7a47407e17f40c9186593a0eb74835e09600d8406ac79126cb",
-          "name": "无尽之塔 · 普通战斗",
-          "file": "/audio/audio-501242dece909f7a47407e17f40c9186593a0eb74835e09600d8406ac79126cb.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-a0959d82aa30feb73c078ac4bf4f092a27b926ceb27f8152773d90fe2ea49d8b",
-          "name": "无尽之塔 · 普通战斗",
-          "file": "/audio/audio-a0959d82aa30feb73c078ac4bf4f092a27b926ceb27f8152773d90fe2ea49d8b.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-3813ca508dc98d58fc7f25274c734a36d8111d8093fa01119cdee0dc167b2220",
-          "name": "无尽之塔 · 普通战斗",
-          "file": "/audio/audio-3813ca508dc98d58fc7f25274c734a36d8111d8093fa01119cdee0dc167b2220.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-857e9a757481c850ed608693d4c93f4d0a33e7b485ae949f4dd5b2cc04594a00",
-          "name": "无尽之塔 · 普通战斗",
-          "file": "/audio/audio-857e9a757481c850ed608693d4c93f4d0a33e7b485ae949f4dd5b2cc04594a00.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-60b9e4d4c4f1506b24e658de4c2701c9441c2f36670eebc22df0d2bd732a3e2c",
-          "name": "无尽之塔 · 普通战斗",
-          "file": "/audio/audio-60b9e4d4c4f1506b24e658de4c2701c9441c2f36670eebc22df0d2bd732a3e2c.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-f992218a4d650d4c079d66ade0b1d7d960ce888e72b873428778e1eadf1ee50e",
-          "name": "无尽之塔 · 普通战斗",
-          "file": "/audio/audio-f992218a4d650d4c079d66ade0b1d7d960ce888e72b873428778e1eadf1ee50e.opus",
           "description": ""
         }
       ]
     },
     {
       "id": "story-undated",
-      "name": "剧情音乐 · 首次出现待考",
+      "name": "剧情音乐 · 未使用曲",
       "date": "",
       "description": "",
       "outfit_references": [],
       "tracks": [
         {
           "id": "audio-921276a7f5bca3969d7b39e841943ddf9f152eff7f4f18f4f3a8c438c2bdce07",
-          "name": "首次出现待考 · m63 · 第1音轨",
+          "name": "悠然芬芳",
           "file": "/audio/audio-921276a7f5bca3969d7b39e841943ddf9f152eff7f4f18f4f3a8c438c2bdce07.opus",
           "description": ""
         },
         {
           "id": "audio-dc66453ff8cdc9a21c946b56f132a4c26644ccf329f49ab98510cb85f97ce3cc",
-          "name": "首次出现待考 · m82 · 第1音轨",
+          "name": "未使用曲 · m82 · 第1音轨",
           "file": "/audio/audio-dc66453ff8cdc9a21c946b56f132a4c26644ccf329f49ab98510cb85f97ce3cc.opus",
           "description": ""
         },
         {
           "id": "audio-010f64338b0b67612986b439da4bedd685697e43fb121a49d3366df3d78093c3",
-          "name": "首次出现待考 · m84",
+          "name": "未使用曲 · m84",
           "file": "/audio/audio-010f64338b0b67612986b439da4bedd685697e43fb121a49d3366df3d78093c3.opus",
           "description": ""
         },
         {
           "id": "audio-7c4b1c0966f304b6688f4de4e9691cce5db6457c2496ac8aae62db927c4b1d27",
-          "name": "首次出现待考 · m94 · 第1音轨",
+          "name": "未使用曲 · m94 · 第1音轨",
           "file": "/audio/audio-7c4b1c0966f304b6688f4de4e9691cce5db6457c2496ac8aae62db927c4b1d27.opus",
           "description": ""
         },
         {
           "id": "audio-6fb4c5d1bea36790f23254c239fad63071cf1bc16072a62d7f2eb5c37c08494a",
-          "name": "首次出现待考 · m82 · 第2音轨",
+          "name": "未使用曲 · m82 · 第2音轨",
           "file": "/audio/audio-6fb4c5d1bea36790f23254c239fad63071cf1bc16072a62d7f2eb5c37c08494a.opus",
           "description": ""
         },
         {
           "id": "audio-9d047279ef45c7e69c01e2b70e91a5d43366da98a335f6fd6406ab8a5e728388",
-          "name": "首次出现待考 · m63 · 第2音轨",
+          "name": "悠然芬芳",
           "file": "/audio/audio-9d047279ef45c7e69c01e2b70e91a5d43366da98a335f6fd6406ab8a5e728388.opus",
           "description": ""
         },
         {
           "id": "audio-eecb960d3ed4a30303902aad764a27948771d09b94e6be835844ef5a9f955e7a",
-          "name": "首次出现待考 · m94 · 第2音轨",
+          "name": "未使用曲 · m94 · 第2音轨",
           "file": "/audio/audio-eecb960d3ed4a30303902aad764a27948771d09b94e6be835844ef5a9f955e7a.opus",
-          "description": ""
-        }
-      ]
-    },
-    {
-      "id": "mainline-5",
-      "name": "主线 · 落于暗夜的荧光",
-      "date": "",
-      "description": "",
-      "outfit_references": [],
-      "tracks": [
-        {
-          "id": "audio-72a6256ff722117b92bb1795b24ecaa5f352cce87ea8c95c4864bce8f6c2a154",
-          "name": "主线第五章-探索",
-          "file": "/audio/audio-72a6256ff722117b92bb1795b24ecaa5f352cce87ea8c95c4864bce8f6c2a154.opus",
           "description": ""
         }
       ]

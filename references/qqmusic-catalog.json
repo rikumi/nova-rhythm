@@ -1,0 +1,3935 @@
+{
+  "schema_version": 1,
+  "fetched_at": "2026-11-16T05:01:00.269842+00:00",
+  "artist": {
+    "name": "星塔唱片",
+    "mid": "001Rt7AK0ImjcV",
+    "url": "https://y.qq.com/n/ryqq_v2/singer/001Rt7AK0ImjcV"
+  },
+  "api": "https://u.y.qq.com/cgi-bin/musicu.fcg",
+  "catalog_method": "musichall.song_list_server.GetSingerSongList",
+  "advertised_total": 126,
+  "unique_total": 126,
+  "songs": [
+    {
+      "id": 705606237,
+      "mid": "004aN0aX1Ks8DG",
+      "title": "夏日栖息地",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 83,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 22806213,
+          "mid": "003MxiwS3NykmT",
+          "name": "dDedalus"
+        }
+      ],
+      "album": {
+        "id": 96882819,
+        "mid": "002QeFX92n6cPg",
+        "name": "惊奇冒险！渊海幽灵船传说！- 希娅旅人EP",
+        "time_public": "2026-07-10"
+      },
+      "publish_date": "2026-07-10",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/004aN0aX1Ks8DG",
+      "media_mid": "004aN0aX1Ks8DG",
+      "expected_mp3_bytes": 1332289,
+      "play_requires_payment": false
+    },
+    {
+      "id": 738427547,
+      "mid": "003kKWdG3WwnYn",
+      "title": "梦的再启",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 100,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 2855350,
+          "mid": "000izEVB1NogxY",
+          "name": "Estimate, LLC."
+        },
+        {
+          "id": 15017809,
+          "mid": "001YwCJy0mz6W9",
+          "name": "Nevia"
+        },
+        {
+          "id": 15017777,
+          "mid": "0043VsXm2YkSKZ",
+          "name": "Dash Sound"
+        }
+      ],
+      "album": {
+        "id": 106269137,
+        "mid": "003XhZm32H5kiR",
+        "name": "完璧之庭 微尘破晓 – 尘沙 (源初) 旅人EP",
+        "time_public": "2026-11-02"
+      },
+      "publish_date": "2026-11-02",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/003kKWdG3WwnYn",
+      "media_mid": "003kKWdG3WwnYn",
+      "expected_mp3_bytes": 1601505,
+      "play_requires_payment": false
+    },
+    {
+      "id": 693975133,
+      "mid": "002lL5A70lJIyx",
+      "title": "奇迹一触",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 97,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 15017777,
+          "mid": "0043VsXm2YkSKZ",
+          "name": "Dash Sound"
+        },
+        {
+          "id": 3538014,
+          "mid": "004fxwrW2WX31T",
+          "name": "VeetaCrush"
+        }
+      ],
+      "album": {
+        "id": 96042497,
+        "mid": "000Hd7FJ0CmRtJ",
+        "name": "心跳！柔光狂想曲 - 斯帕克拉旅人EP",
+        "time_public": "2026-06-29"
+      },
+      "publish_date": "2026-06-29",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/002lL5A70lJIyx",
+      "media_mid": "002lL5A70lJIyx",
+      "expected_mp3_bytes": 1561351,
+      "play_requires_payment": false
+    },
+    {
+      "id": 724433821,
+      "mid": "003HUAi540ehS6",
+      "title": "夏日进行曲",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 137,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 16108637,
+          "mid": "002ckL8Y0quqcZ",
+          "name": "VISION SOUND"
+        },
+        {
+          "id": 15396354,
+          "mid": "0032JvQ01VlpHt",
+          "name": "trashyboi"
+        }
+      ],
+      "album": {
+        "id": 102234165,
+        "mid": "003Tzteu4Hc0wk",
+        "name": "欢歌劲浪·闪耀假日惊涛探险 - 花铃旅人EP",
+        "time_public": "2026-09-14"
+      },
+      "publish_date": "2026-09-14",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/003HUAi540ehS6",
+      "media_mid": "003HUAi540ehS6",
+      "expected_mp3_bytes": 2193315,
+      "play_requires_payment": false
+    },
+    {
+      "id": 710416498,
+      "mid": "004LIxqj487jJc",
+      "title": "斑驳夏影",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 106,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 16108637,
+          "mid": "002ckL8Y0quqcZ",
+          "name": "VISION SOUND"
+        },
+        {
+          "id": 3434938,
+          "mid": "00278Ziy2fdWY3",
+          "name": "3A"
+        },
+        {
+          "id": 22806213,
+          "mid": "003MxiwS3NykmT",
+          "name": "dDedalus"
+        }
+      ],
+      "album": {
+        "id": 98199698,
+        "mid": "000edE6g0Mhbg9",
+        "name": "晴风碧海 · 悠哉盛夏依然打卡~ - 薇洛 (盛夏) 旅人EP",
+        "time_public": "2026-07-28"
+      },
+      "publish_date": "2026-07-28",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/004LIxqj487jJc",
+      "media_mid": "004LIxqj487jJc",
+      "expected_mp3_bytes": 1711428,
+      "play_requires_payment": false
+    },
+    {
+      "id": 716349698,
+      "mid": "002zxbUt4OvNyk",
+      "title": "梦的彼岸",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 103,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 22806213,
+          "mid": "003MxiwS3NykmT",
+          "name": "dDedalus"
+        }
+      ],
+      "album": {
+        "id": 99960032,
+        "mid": "000iYQ0d04XCrA",
+        "name": "梦的彼岸 - 夏花旅人EP",
+        "time_public": "2026-08-17"
+      },
+      "publish_date": "2026-08-17",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/002zxbUt4OvNyk",
+      "media_mid": "002zxbUt4OvNyk",
+      "expected_mp3_bytes": 1653664,
+      "play_requires_payment": false
+    },
+    {
+      "id": 726897821,
+      "mid": "000at6ea3GWzuc",
+      "title": "无暇的庆典",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 177,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 22806213,
+          "mid": "003MxiwS3NykmT",
+          "name": "dDedalus"
+        }
+      ],
+      "album": {
+        "id": 102810147,
+        "mid": "0003Razw3ytyJP",
+        "name": "奋斗吧！大小姐的旅人修炼手册！- 埃莉诺旅人EP",
+        "time_public": "2026-09-21"
+      },
+      "publish_date": "2026-09-21",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/000at6ea3GWzuc",
+      "media_mid": "000at6ea3GWzuc",
+      "expected_mp3_bytes": 2840710,
+      "play_requires_payment": false
+    },
+    {
+      "id": 655721237,
+      "mid": "001tKbGE4GaQu6",
+      "title": "不期而遇",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 172,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 15017777,
+          "mid": "0043VsXm2YkSKZ",
+          "name": "Dash Sound"
+        }
+      ],
+      "album": {
+        "id": 89417087,
+        "mid": "000q7f0C0bQyWx",
+        "name": "星塔旅人 - 游戏原声带 Vol.1",
+        "time_public": "2026-04-11"
+      },
+      "publish_date": "2026-04-11",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/001tKbGE4GaQu6",
+      "media_mid": "001tKbGE4GaQu6",
+      "expected_mp3_bytes": 2762542,
+      "play_requires_payment": false
+    },
+    {
+      "id": 657501966,
+      "mid": "002zHCrQ03xz8r",
+      "title": "Stream or Scream!",
+      "subtitle": "",
+      "duration_seconds": 175,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 3194042,
+          "mid": "00490Y9l0H2H2d",
+          "name": "Redux"
+        },
+        {
+          "id": 16108637,
+          "mid": "002ckL8Y0quqcZ",
+          "name": "VISION SOUND"
+        }
+      ],
+      "album": {
+        "id": 89935952,
+        "mid": "001cqYs02yH6MM",
+        "name": "Stream or Scream!",
+        "time_public": "2026-04-18"
+      },
+      "publish_date": "2026-04-18",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/002zHCrQ03xz8r",
+      "media_mid": "002zHCrQ03xz8r",
+      "expected_mp3_bytes": 2812733,
+      "play_requires_payment": false
+    },
+    {
+      "id": 673227565,
+      "mid": "000Cr3pZ38WfjG",
+      "title": "你与我相似",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 109,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 15017777,
+          "mid": "0043VsXm2YkSKZ",
+          "name": "Dash Sound"
+        },
+        {
+          "id": 15017809,
+          "mid": "001YwCJy0mz6W9",
+          "name": "Nevia"
+        }
+      ],
+      "album": {
+        "id": 93964654,
+        "mid": "002IBAr51o5thG",
+        "name": "穿透心壁的取景框 - 火垂旅人EP",
+        "time_public": "2026-06-05"
+      },
+      "publish_date": "2026-06-05",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/000Cr3pZ38WfjG",
+      "media_mid": "000Cr3pZ38WfjG",
+      "expected_mp3_bytes": 1751895,
+      "play_requires_payment": false
+    },
+    {
+      "id": 688129403,
+      "mid": "0009s61P14ssT6",
+      "title": "CANDY",
+      "subtitle": "",
+      "duration_seconds": 155,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 23565574,
+          "mid": "00054FcU37fbcg",
+          "name": "Aso"
+        },
+        {
+          "id": 3194042,
+          "mid": "00490Y9l0H2H2d",
+          "name": "Redux"
+        }
+      ],
+      "album": {
+        "id": 95032149,
+        "mid": "00015IeP3CeAa8",
+        "name": "CANDY",
+        "time_public": "2026-06-16"
+      },
+      "publish_date": "2026-06-16",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/0009s61P14ssT6",
+      "media_mid": "0009s61P14ssT6",
+      "expected_mp3_bytes": 2482471,
+      "play_requires_payment": false
+    },
+    {
+      "id": 714305964,
+      "mid": "002bLPDG0ilUFD",
+      "title": "Summer Starlight Journey",
+      "subtitle": "",
+      "duration_seconds": 170,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 15652,
+          "mid": "000sX1qV46zRze",
+          "name": "辻诗音"
+        }
+      ],
+      "album": {
+        "id": 99340573,
+        "mid": "002sH2NY0RVyzw",
+        "name": "Summer Starlight Journey",
+        "time_public": "2026-08-07"
+      },
+      "publish_date": "2026-08-07",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/002bLPDG0ilUFD",
+      "media_mid": "002bLPDG0ilUFD",
+      "expected_mp3_bytes": 2728725,
+      "play_requires_payment": false
+    },
+    {
+      "id": 664661850,
+      "mid": "002ggxtr1kNSyK",
+      "title": "终宵萤辉",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 298,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 16108637,
+          "mid": "002ckL8Y0quqcZ",
+          "name": "VISION SOUND"
+        },
+        {
+          "id": 5165903,
+          "mid": "0040pnxa1Uy9uL",
+          "name": "Salty Salt"
+        }
+      ],
+      "album": {
+        "id": 92055817,
+        "mid": "002BwY972nF0G2",
+        "name": "星塔旅人 - 游戏原声带 Vol.2",
+        "time_public": "2026-05-15"
+      },
+      "publish_date": "2026-05-15",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/002ggxtr1kNSyK",
+      "media_mid": "002ggxtr1kNSyK",
+      "expected_mp3_bytes": 4781311,
+      "play_requires_payment": false
+    },
+    {
+      "id": 722012838,
+      "mid": "004Gplj70iHGd5",
+      "title": "白色房间",
+      "subtitle": "",
+      "duration_seconds": 176,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 16108637,
+          "mid": "002ckL8Y0quqcZ",
+          "name": "VISION SOUND"
+        },
+        {
+          "id": 3434938,
+          "mid": "00278Ziy2fdWY3",
+          "name": "3A"
+        }
+      ],
+      "album": {
+        "id": 101607005,
+        "mid": "000I4sgE24Ua5Q",
+        "name": "星塔旅人 - 游戏原声带 Vol.4",
+        "time_public": "2026-09-04"
+      },
+      "publish_date": "2026-09-04",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/004Gplj70iHGd5",
+      "media_mid": "004Gplj70iHGd5",
+      "expected_mp3_bytes": 2820198,
+      "play_requires_payment": false
+    },
+    {
+      "id": 741632386,
+      "mid": "001LkR2n3Fvet1",
+      "title": "Those with Ambition",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 186,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 3194042,
+          "mid": "00490Y9l0H2H2d",
+          "name": "Redux"
+        }
+      ],
+      "album": {
+        "id": 107113336,
+        "mid": "000JW2SR0KeqmS",
+        "name": "Those with Ambition",
+        "time_public": "2026-11-11"
+      },
+      "publish_date": "2026-11-11",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/001LkR2n3Fvet1",
+      "media_mid": "001LkR2n3Fvet1",
+      "expected_mp3_bytes": 2987870,
+      "play_requires_payment": false
+    },
+    {
+      "id": 741001022,
+      "mid": "001dOzSN1V2RwT",
+      "title": "跨越千年的光",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 168,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 175428,
+          "mid": "001oSs0x2D8FAG",
+          "name": "小林未郁"
+        },
+        {
+          "id": 3194042,
+          "mid": "00490Y9l0H2H2d",
+          "name": "Redux"
+        },
+        {
+          "id": 16108637,
+          "mid": "002ckL8Y0quqcZ",
+          "name": "VISION SOUND"
+        }
+      ],
+      "album": {
+        "id": 106269137,
+        "mid": "003XhZm32H5kiR",
+        "name": "完璧之庭 微尘破晓 – 尘沙 (源初) 旅人EP",
+        "time_public": "2026-11-02"
+      },
+      "publish_date": "2026-11-02",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/001dOzSN1V2RwT",
+      "media_mid": "001dOzSN1V2RwT",
+      "expected_mp3_bytes": 2703652,
+      "play_requires_payment": false
+    },
+    {
+      "id": 738427626,
+      "mid": "000SmamC14PdMO",
+      "title": "尊者调查",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 186,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 22806213,
+          "mid": "003MxiwS3NykmT",
+          "name": "dDedalus"
+        },
+        {
+          "id": 24891767,
+          "mid": "0013TS3o102HCi",
+          "name": "星舟爱乐乐团"
+        }
+      ],
+      "album": {
+        "id": 106269137,
+        "mid": "003XhZm32H5kiR",
+        "name": "完璧之庭 微尘破晓 – 尘沙 (源初) 旅人EP",
+        "time_public": "2026-11-02"
+      },
+      "publish_date": "2026-11-02",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/000SmamC14PdMO",
+      "media_mid": "000SmamC14PdMO",
+      "expected_mp3_bytes": 2992859,
+      "play_requires_payment": false
+    },
+    {
+      "id": 738427624,
+      "mid": "001ZQ8cY4Vjpa5",
+      "title": "永恒的闪耀",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 197,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 22806213,
+          "mid": "003MxiwS3NykmT",
+          "name": "dDedalus"
+        },
+        {
+          "id": 24891767,
+          "mid": "0013TS3o102HCi",
+          "name": "星舟爱乐乐团"
+        }
+      ],
+      "album": {
+        "id": 106269137,
+        "mid": "003XhZm32H5kiR",
+        "name": "完璧之庭 微尘破晓 – 尘沙 (源初) 旅人EP",
+        "time_public": "2026-11-02"
+      },
+      "publish_date": "2026-11-02",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/001ZQ8cY4Vjpa5",
+      "media_mid": "001ZQ8cY4Vjpa5",
+      "expected_mp3_bytes": 3161299,
+      "play_requires_payment": false
+    },
+    {
+      "id": 738427623,
+      "mid": "002E8ca104eTJI",
+      "title": "尊者调查 - Vocal",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 186,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 22806213,
+          "mid": "003MxiwS3NykmT",
+          "name": "dDedalus"
+        },
+        {
+          "id": 24891767,
+          "mid": "0013TS3o102HCi",
+          "name": "星舟爱乐乐团"
+        }
+      ],
+      "album": {
+        "id": 106269137,
+        "mid": "003XhZm32H5kiR",
+        "name": "完璧之庭 微尘破晓 – 尘沙 (源初) 旅人EP",
+        "time_public": "2026-11-02"
+      },
+      "publish_date": "2026-11-02",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/002E8ca104eTJI",
+      "media_mid": "002E8ca104eTJI",
+      "expected_mp3_bytes": 2992875,
+      "play_requires_payment": false
+    },
+    {
+      "id": 738427574,
+      "mid": "002tDrkM020YfA",
+      "title": "完璧的残响",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 134,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 3371113,
+          "mid": "0015xhdq3tIgwF",
+          "name": "MatChA"
+        },
+        {
+          "id": 16108637,
+          "mid": "002ckL8Y0quqcZ",
+          "name": "VISION SOUND"
+        }
+      ],
+      "album": {
+        "id": 106269137,
+        "mid": "003XhZm32H5kiR",
+        "name": "完璧之庭 微尘破晓 – 尘沙 (源初) 旅人EP",
+        "time_public": "2026-11-02"
+      },
+      "publish_date": "2026-11-02",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/002tDrkM020YfA",
+      "media_mid": "002tDrkM020YfA",
+      "expected_mp3_bytes": 2150264,
+      "play_requires_payment": false
+    },
+    {
+      "id": 738427556,
+      "mid": "002rbpU01RDeqt",
+      "title": "闻香识魔女",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 122,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 22806213,
+          "mid": "003MxiwS3NykmT",
+          "name": "dDedalus"
+        }
+      ],
+      "album": {
+        "id": 106269137,
+        "mid": "003XhZm32H5kiR",
+        "name": "完璧之庭 微尘破晓 – 尘沙 (源初) 旅人EP",
+        "time_public": "2026-11-02"
+      },
+      "publish_date": "2026-11-02",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/002rbpU01RDeqt",
+      "media_mid": "002rbpU01RDeqt",
+      "expected_mp3_bytes": 1956309,
+      "play_requires_payment": false
+    },
+    {
+      "id": 738427549,
+      "mid": "001cXqRA2draTB",
+      "title": "云见雾散",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 92,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 14599099,
+          "mid": "004ASmOh1o6dpH",
+          "name": "Vencent-文森特"
+        },
+        {
+          "id": 16108637,
+          "mid": "002ckL8Y0quqcZ",
+          "name": "VISION SOUND"
+        }
+      ],
+      "album": {
+        "id": 106269137,
+        "mid": "003XhZm32H5kiR",
+        "name": "完璧之庭 微尘破晓 – 尘沙 (源初) 旅人EP",
+        "time_public": "2026-11-02"
+      },
+      "publish_date": "2026-11-02",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/001cXqRA2draTB",
+      "media_mid": "001cXqRA2draTB",
+      "expected_mp3_bytes": 1474850,
+      "play_requires_payment": false
+    },
+    {
+      "id": 738427545,
+      "mid": "002z3nPU1XkjWs",
+      "title": "并非不慌不忙的一天",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 96,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 2855350,
+          "mid": "000izEVB1NogxY",
+          "name": "Estimate, LLC."
+        },
+        {
+          "id": 15017809,
+          "mid": "001YwCJy0mz6W9",
+          "name": "Nevia"
+        },
+        {
+          "id": 15017777,
+          "mid": "0043VsXm2YkSKZ",
+          "name": "Dash Sound"
+        }
+      ],
+      "album": {
+        "id": 106269137,
+        "mid": "003XhZm32H5kiR",
+        "name": "完璧之庭 微尘破晓 – 尘沙 (源初) 旅人EP",
+        "time_public": "2026-11-02"
+      },
+      "publish_date": "2026-11-02",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/002z3nPU1XkjWs",
+      "media_mid": "002z3nPU1XkjWs",
+      "expected_mp3_bytes": 1543419,
+      "play_requires_payment": false
+    },
+    {
+      "id": 738427544,
+      "mid": "001TtLYa1f7pu6",
+      "title": "速度与机擎",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 103,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 22806213,
+          "mid": "003MxiwS3NykmT",
+          "name": "dDedalus"
+        }
+      ],
+      "album": {
+        "id": 106269137,
+        "mid": "003XhZm32H5kiR",
+        "name": "完璧之庭 微尘破晓 – 尘沙 (源初) 旅人EP",
+        "time_public": "2026-11-02"
+      },
+      "publish_date": "2026-11-02",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/001TtLYa1f7pu6",
+      "media_mid": "001TtLYa1f7pu6",
+      "expected_mp3_bytes": 1662901,
+      "play_requires_payment": false
+    },
+    {
+      "id": 738427543,
+      "mid": "002HR5VT31FyeN",
+      "title": "想起，轻声密语的你",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 97,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 2855350,
+          "mid": "000izEVB1NogxY",
+          "name": "Estimate, LLC."
+        },
+        {
+          "id": 15017809,
+          "mid": "001YwCJy0mz6W9",
+          "name": "Nevia"
+        },
+        {
+          "id": 15017777,
+          "mid": "0043VsXm2YkSKZ",
+          "name": "Dash Sound"
+        }
+      ],
+      "album": {
+        "id": 106269137,
+        "mid": "003XhZm32H5kiR",
+        "name": "完璧之庭 微尘破晓 – 尘沙 (源初) 旅人EP",
+        "time_public": "2026-11-02"
+      },
+      "publish_date": "2026-11-02",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/002HR5VT31FyeN",
+      "media_mid": "002HR5VT31FyeN",
+      "expected_mp3_bytes": 1561391,
+      "play_requires_payment": false
+    },
+    {
+      "id": 738427524,
+      "mid": "000KXCAq44JlVk",
+      "title": "尖兵陷阵",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 90,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 22891285,
+          "mid": "003fCURg37YbGQ",
+          "name": "Celesnica"
+        },
+        {
+          "id": 16108637,
+          "mid": "002ckL8Y0quqcZ",
+          "name": "VISION SOUND"
+        }
+      ],
+      "album": {
+        "id": 106269137,
+        "mid": "003XhZm32H5kiR",
+        "name": "完璧之庭 微尘破晓 – 尘沙 (源初) 旅人EP",
+        "time_public": "2026-11-02"
+      },
+      "publish_date": "2026-11-02",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/000KXCAq44JlVk",
+      "media_mid": "000KXCAq44JlVk",
+      "expected_mp3_bytes": 1441409,
+      "play_requires_payment": false
+    },
+    {
+      "id": 737317584,
+      "mid": "0046DWAy1SwgA7",
+      "title": "幸腹晚餐",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 129,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 3538014,
+          "mid": "004fxwrW2WX31T",
+          "name": "VeetaCrush"
+        },
+        {
+          "id": 15017777,
+          "mid": "0043VsXm2YkSKZ",
+          "name": "Dash Sound"
+        }
+      ],
+      "album": {
+        "id": 105936601,
+        "mid": "0006iEGn2RcCTk",
+        "name": "遥远的塔 – 特别EP",
+        "time_public": "2026-10-28"
+      },
+      "publish_date": "2026-10-28",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/0046DWAy1SwgA7",
+      "media_mid": "0046DWAy1SwgA7",
+      "expected_mp3_bytes": 2074589,
+      "play_requires_payment": false
+    },
+    {
+      "id": 737317539,
+      "mid": "003A5ZMW00Mrwl",
+      "title": "揭开尘封的往昔",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 80,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 22806213,
+          "mid": "003MxiwS3NykmT",
+          "name": "dDedalus"
+        }
+      ],
+      "album": {
+        "id": 105936601,
+        "mid": "0006iEGn2RcCTk",
+        "name": "遥远的塔 – 特别EP",
+        "time_public": "2026-10-28"
+      },
+      "publish_date": "2026-10-28",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/003A5ZMW00Mrwl",
+      "media_mid": "003A5ZMW00Mrwl",
+      "expected_mp3_bytes": 1294012,
+      "play_requires_payment": false
+    },
+    {
+      "id": 737317505,
+      "mid": "003oHGhw15mhy1",
+      "title": "妈妈",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 111,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 22806213,
+          "mid": "003MxiwS3NykmT",
+          "name": "dDedalus"
+        }
+      ],
+      "album": {
+        "id": 105936601,
+        "mid": "0006iEGn2RcCTk",
+        "name": "遥远的塔 – 特别EP",
+        "time_public": "2026-10-28"
+      },
+      "publish_date": "2026-10-28",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/003oHGhw15mhy1",
+      "media_mid": "003oHGhw15mhy1",
+      "expected_mp3_bytes": 1777808,
+      "play_requires_payment": false
+    },
+    {
+      "id": 737317503,
+      "mid": "001TGUyr3lAQaO",
+      "title": "美好，尽在昨日",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 103,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 14599099,
+          "mid": "004ASmOh1o6dpH",
+          "name": "Vencent-文森特"
+        },
+        {
+          "id": 16108637,
+          "mid": "002ckL8Y0quqcZ",
+          "name": "VISION SOUND"
+        }
+      ],
+      "album": {
+        "id": 105936601,
+        "mid": "0006iEGn2RcCTk",
+        "name": "遥远的塔 – 特别EP",
+        "time_public": "2026-10-28"
+      },
+      "publish_date": "2026-10-28",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/001TGUyr3lAQaO",
+      "media_mid": "001TGUyr3lAQaO",
+      "expected_mp3_bytes": 1652462,
+      "play_requires_payment": false
+    },
+    {
+      "id": 726897623,
+      "mid": "001uPEED3iS9vG",
+      "title": "荣誉时刻",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 107,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 22806213,
+          "mid": "003MxiwS3NykmT",
+          "name": "dDedalus"
+        }
+      ],
+      "album": {
+        "id": 102810147,
+        "mid": "0003Razw3ytyJP",
+        "name": "奋斗吧！大小姐的旅人修炼手册！- 埃莉诺旅人EP",
+        "time_public": "2026-09-21"
+      },
+      "publish_date": "2026-09-21",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/001uPEED3iS9vG",
+      "media_mid": "001uPEED3iS9vG",
+      "expected_mp3_bytes": 1714726,
+      "play_requires_payment": false
+    },
+    {
+      "id": 726897593,
+      "mid": "002wSSG028EEE1",
+      "title": "为梦着色的勇气",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 78,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 12888848,
+          "mid": "003Jz2OT3DW7ir",
+          "name": "Ceru_"
+        }
+      ],
+      "album": {
+        "id": 102810147,
+        "mid": "0003Razw3ytyJP",
+        "name": "奋斗吧！大小姐的旅人修炼手册！- 埃莉诺旅人EP",
+        "time_public": "2026-09-21"
+      },
+      "publish_date": "2026-09-21",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/002wSSG028EEE1",
+      "media_mid": "002wSSG028EEE1",
+      "expected_mp3_bytes": 1249956,
+      "play_requires_payment": false
+    },
+    {
+      "id": 724433785,
+      "mid": "002pXHtf1GqZZi",
+      "title": "蟹了一大跳！",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 134,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 3946420,
+          "mid": "000CQa7T0cSPHM",
+          "name": "HJLL"
+        },
+        {
+          "id": 15017777,
+          "mid": "0043VsXm2YkSKZ",
+          "name": "Dash Sound"
+        }
+      ],
+      "album": {
+        "id": 102234165,
+        "mid": "003Tzteu4Hc0wk",
+        "name": "欢歌劲浪·闪耀假日惊涛探险 - 花铃旅人EP",
+        "time_public": "2026-09-14"
+      },
+      "publish_date": "2026-09-14",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/002pXHtf1GqZZi",
+      "media_mid": "002pXHtf1GqZZi",
+      "expected_mp3_bytes": 2160285,
+      "play_requires_payment": false
+    },
+    {
+      "id": 722012522,
+      "mid": "003VXU6V1pAiBH",
+      "title": "又是日行千里的一天",
+      "subtitle": "",
+      "duration_seconds": 137,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 22806213,
+          "mid": "003MxiwS3NykmT",
+          "name": "dDedalus"
+        }
+      ],
+      "album": {
+        "id": 101607005,
+        "mid": "000I4sgE24Ua5Q",
+        "name": "星塔旅人 - 游戏原声带 Vol.4",
+        "time_public": "2026-09-04"
+      },
+      "publish_date": "2026-09-04",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/003VXU6V1pAiBH",
+      "media_mid": "003VXU6V1pAiBH",
+      "expected_mp3_bytes": 2200375,
+      "play_requires_payment": false
+    },
+    {
+      "id": 722012521,
+      "mid": "003KLYkf2G9JNi",
+      "title": "总之……也只能上了吧？",
+      "subtitle": "",
+      "duration_seconds": 91,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 15017777,
+          "mid": "0043VsXm2YkSKZ",
+          "name": "Dash Sound"
+        },
+        {
+          "id": 15017809,
+          "mid": "001YwCJy0mz6W9",
+          "name": "Nevia"
+        }
+      ],
+      "album": {
+        "id": 101607005,
+        "mid": "000I4sgE24Ua5Q",
+        "name": "星塔旅人 - 游戏原声带 Vol.4",
+        "time_public": "2026-09-04"
+      },
+      "publish_date": "2026-09-04",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/003KLYkf2G9JNi",
+      "media_mid": "003KLYkf2G9JNi",
+      "expected_mp3_bytes": 1466367,
+      "play_requires_payment": false
+    },
+    {
+      "id": 722012520,
+      "mid": "004SSCOa2a2TLs",
+      "title": "惊梦易觉",
+      "subtitle": "",
+      "duration_seconds": 126,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 22806213,
+          "mid": "003MxiwS3NykmT",
+          "name": "dDedalus"
+        }
+      ],
+      "album": {
+        "id": 101607005,
+        "mid": "000I4sgE24Ua5Q",
+        "name": "星塔旅人 - 游戏原声带 Vol.4",
+        "time_public": "2026-09-04"
+      },
+      "publish_date": "2026-09-04",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/004SSCOa2a2TLs",
+      "media_mid": "004SSCOa2a2TLs",
+      "expected_mp3_bytes": 2022314,
+      "play_requires_payment": false
+    },
+    {
+      "id": 722012500,
+      "mid": "000sOvqB1UwZvE",
+      "title": "又是大声密谋的一天",
+      "subtitle": "",
+      "duration_seconds": 87,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 3926829,
+          "mid": "004B5imk3oMqhL",
+          "name": "UraniumW"
+        },
+        {
+          "id": 15017777,
+          "mid": "0043VsXm2YkSKZ",
+          "name": "Dash Sound"
+        }
+      ],
+      "album": {
+        "id": 101607005,
+        "mid": "000I4sgE24Ua5Q",
+        "name": "星塔旅人 - 游戏原声带 Vol.4",
+        "time_public": "2026-09-04"
+      },
+      "publish_date": "2026-09-04",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/000sOvqB1UwZvE",
+      "media_mid": "000sOvqB1UwZvE",
+      "expected_mp3_bytes": 1403128,
+      "play_requires_payment": false
+    },
+    {
+      "id": 722012475,
+      "mid": "002XPaDS3ziu5B",
+      "title": "抽丝剥茧",
+      "subtitle": "",
+      "duration_seconds": 117,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 22806213,
+          "mid": "003MxiwS3NykmT",
+          "name": "dDedalus"
+        }
+      ],
+      "album": {
+        "id": 101607005,
+        "mid": "000I4sgE24Ua5Q",
+        "name": "星塔旅人 - 游戏原声带 Vol.4",
+        "time_public": "2026-09-04"
+      },
+      "publish_date": "2026-09-04",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/002XPaDS3ziu5B",
+      "media_mid": "002XPaDS3ziu5B",
+      "expected_mp3_bytes": 1881880,
+      "play_requires_payment": false
+    },
+    {
+      "id": 722012459,
+      "mid": "003HEFm91k8xn2",
+      "title": "剑风如歌",
+      "subtitle": "",
+      "duration_seconds": 130,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 22806213,
+          "mid": "003MxiwS3NykmT",
+          "name": "dDedalus"
+        }
+      ],
+      "album": {
+        "id": 101607005,
+        "mid": "000I4sgE24Ua5Q",
+        "name": "星塔旅人 - 游戏原声带 Vol.4",
+        "time_public": "2026-09-04"
+      },
+      "publish_date": "2026-09-04",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/003HEFm91k8xn2",
+      "media_mid": "003HEFm91k8xn2",
+      "expected_mp3_bytes": 2081246,
+      "play_requires_payment": false
+    },
+    {
+      "id": 722012406,
+      "mid": "002GHIkI0dvIEO",
+      "title": "疑神疑鬼",
+      "subtitle": "",
+      "duration_seconds": 108,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 22806213,
+          "mid": "003MxiwS3NykmT",
+          "name": "dDedalus"
+        }
+      ],
+      "album": {
+        "id": 101607005,
+        "mid": "000I4sgE24Ua5Q",
+        "name": "星塔旅人 - 游戏原声带 Vol.4",
+        "time_public": "2026-09-04"
+      },
+      "publish_date": "2026-09-04",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/002GHIkI0dvIEO",
+      "media_mid": "002GHIkI0dvIEO",
+      "expected_mp3_bytes": 1729325,
+      "play_requires_payment": false
+    },
+    {
+      "id": 722012405,
+      "mid": "004ew8lV0AHco7",
+      "title": "又是精神饱满的一天",
+      "subtitle": "",
+      "duration_seconds": 102,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 22806213,
+          "mid": "003MxiwS3NykmT",
+          "name": "dDedalus"
+        }
+      ],
+      "album": {
+        "id": 101607005,
+        "mid": "000I4sgE24Ua5Q",
+        "name": "星塔旅人 - 游戏原声带 Vol.4",
+        "time_public": "2026-09-04"
+      },
+      "publish_date": "2026-09-04",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/004ew8lV0AHco7",
+      "media_mid": "004ew8lV0AHco7",
+      "expected_mp3_bytes": 1646809,
+      "play_requires_payment": false
+    },
+    {
+      "id": 722012404,
+      "mid": "0015DSBL29SAPd",
+      "title": "星光与勇气",
+      "subtitle": "",
+      "duration_seconds": 96,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 22806213,
+          "mid": "003MxiwS3NykmT",
+          "name": "dDedalus"
+        }
+      ],
+      "album": {
+        "id": 101607005,
+        "mid": "000I4sgE24Ua5Q",
+        "name": "星塔旅人 - 游戏原声带 Vol.4",
+        "time_public": "2026-09-04"
+      },
+      "publish_date": "2026-09-04",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/0015DSBL29SAPd",
+      "media_mid": "0015DSBL29SAPd",
+      "expected_mp3_bytes": 1537065,
+      "play_requires_payment": false
+    },
+    {
+      "id": 722012403,
+      "mid": "003Uo4oj2CPo31",
+      "title": "温暖残阳",
+      "subtitle": "",
+      "duration_seconds": 100,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 22806213,
+          "mid": "003MxiwS3NykmT",
+          "name": "dDedalus"
+        }
+      ],
+      "album": {
+        "id": 101607005,
+        "mid": "000I4sgE24Ua5Q",
+        "name": "星塔旅人 - 游戏原声带 Vol.4",
+        "time_public": "2026-09-04"
+      },
+      "publish_date": "2026-09-04",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/003Uo4oj2CPo31",
+      "media_mid": "003Uo4oj2CPo31",
+      "expected_mp3_bytes": 1601429,
+      "play_requires_payment": false
+    },
+    {
+      "id": 722012401,
+      "mid": "0033Rh9U1x4dhP",
+      "title": "总会再见",
+      "subtitle": "",
+      "duration_seconds": 78,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 22806213,
+          "mid": "003MxiwS3NykmT",
+          "name": "dDedalus"
+        }
+      ],
+      "album": {
+        "id": 101607005,
+        "mid": "000I4sgE24Ua5Q",
+        "name": "星塔旅人 - 游戏原声带 Vol.4",
+        "time_public": "2026-09-04"
+      },
+      "publish_date": "2026-09-04",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/0033Rh9U1x4dhP",
+      "media_mid": "0033Rh9U1x4dhP",
+      "expected_mp3_bytes": 1249090,
+      "play_requires_payment": false
+    },
+    {
+      "id": 722012390,
+      "mid": "0022UyXh0kBQYs",
+      "title": "这下……麻烦大了？",
+      "subtitle": "",
+      "duration_seconds": 79,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 22806213,
+          "mid": "003MxiwS3NykmT",
+          "name": "dDedalus"
+        }
+      ],
+      "album": {
+        "id": 101607005,
+        "mid": "000I4sgE24Ua5Q",
+        "name": "星塔旅人 - 游戏原声带 Vol.4",
+        "time_public": "2026-09-04"
+      },
+      "publish_date": "2026-09-04",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/0022UyXh0kBQYs",
+      "media_mid": "0022UyXh0kBQYs",
+      "expected_mp3_bytes": 1266236,
+      "play_requires_payment": false
+    },
+    {
+      "id": 722012388,
+      "mid": "00194f7g1xYSEN",
+      "title": "长雨未停",
+      "subtitle": "",
+      "duration_seconds": 91,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 22806213,
+          "mid": "003MxiwS3NykmT",
+          "name": "dDedalus"
+        }
+      ],
+      "album": {
+        "id": 101607005,
+        "mid": "000I4sgE24Ua5Q",
+        "name": "星塔旅人 - 游戏原声带 Vol.4",
+        "time_public": "2026-09-04"
+      },
+      "publish_date": "2026-09-04",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/00194f7g1xYSEN",
+      "media_mid": "00194f7g1xYSEN",
+      "expected_mp3_bytes": 1457651,
+      "play_requires_payment": false
+    },
+    {
+      "id": 722012384,
+      "mid": "001kuHS63H1Ber",
+      "title": "这下……又搞错了？",
+      "subtitle": "",
+      "duration_seconds": 86,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 22806213,
+          "mid": "003MxiwS3NykmT",
+          "name": "dDedalus"
+        }
+      ],
+      "album": {
+        "id": 101607005,
+        "mid": "000I4sgE24Ua5Q",
+        "name": "星塔旅人 - 游戏原声带 Vol.4",
+        "time_public": "2026-09-04"
+      },
+      "publish_date": "2026-09-04",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/001kuHS63H1Ber",
+      "media_mid": "001kuHS63H1Ber",
+      "expected_mp3_bytes": 1387862,
+      "play_requires_payment": false
+    },
+    {
+      "id": 722012358,
+      "mid": "003aO6qW3GPpMQ",
+      "title": "又是有些无聊的一天",
+      "subtitle": "",
+      "duration_seconds": 65,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 22806213,
+          "mid": "003MxiwS3NykmT",
+          "name": "dDedalus"
+        }
+      ],
+      "album": {
+        "id": 101607005,
+        "mid": "000I4sgE24Ua5Q",
+        "name": "星塔旅人 - 游戏原声带 Vol.4",
+        "time_public": "2026-09-04"
+      },
+      "publish_date": "2026-09-04",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/003aO6qW3GPpMQ",
+      "media_mid": "003aO6qW3GPpMQ",
+      "expected_mp3_bytes": 1046807,
+      "play_requires_payment": false
+    },
+    {
+      "id": 722012352,
+      "mid": "0016yz2w0xGYNr",
+      "title": "算无遗策",
+      "subtitle": "",
+      "duration_seconds": 61,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 22806213,
+          "mid": "003MxiwS3NykmT",
+          "name": "dDedalus"
+        }
+      ],
+      "album": {
+        "id": 101607005,
+        "mid": "000I4sgE24Ua5Q",
+        "name": "星塔旅人 - 游戏原声带 Vol.4",
+        "time_public": "2026-09-04"
+      },
+      "publish_date": "2026-09-04",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/0016yz2w0xGYNr",
+      "media_mid": "0016yz2w0xGYNr",
+      "expected_mp3_bytes": 985775,
+      "play_requires_payment": false
+    },
+    {
+      "id": 722012324,
+      "mid": "004Wgpeo3DqVLD",
+      "title": "诡谲忽现",
+      "subtitle": "",
+      "duration_seconds": 73,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 22806213,
+          "mid": "003MxiwS3NykmT",
+          "name": "dDedalus"
+        }
+      ],
+      "album": {
+        "id": 101607005,
+        "mid": "000I4sgE24Ua5Q",
+        "name": "星塔旅人 - 游戏原声带 Vol.4",
+        "time_public": "2026-09-04"
+      },
+      "publish_date": "2026-09-04",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/004Wgpeo3DqVLD",
+      "media_mid": "004Wgpeo3DqVLD",
+      "expected_mp3_bytes": 1177201,
+      "play_requires_payment": false
+    },
+    {
+      "id": 722012320,
+      "mid": "0025RvXb3LjQlh",
+      "title": "心伤难愈",
+      "subtitle": "",
+      "duration_seconds": 56,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 22806213,
+          "mid": "003MxiwS3NykmT",
+          "name": "dDedalus"
+        }
+      ],
+      "album": {
+        "id": 101607005,
+        "mid": "000I4sgE24Ua5Q",
+        "name": "星塔旅人 - 游戏原声带 Vol.4",
+        "time_public": "2026-09-04"
+      },
+      "publish_date": "2026-09-04",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/0025RvXb3LjQlh",
+      "media_mid": "0025RvXb3LjQlh",
+      "expected_mp3_bytes": 912215,
+      "play_requires_payment": false
+    },
+    {
+      "id": 722012318,
+      "mid": "003rCmw23yFPiI",
+      "title": "步步谨慎",
+      "subtitle": "",
+      "duration_seconds": 53,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 22806213,
+          "mid": "003MxiwS3NykmT",
+          "name": "dDedalus"
+        }
+      ],
+      "album": {
+        "id": 101607005,
+        "mid": "000I4sgE24Ua5Q",
+        "name": "星塔旅人 - 游戏原声带 Vol.4",
+        "time_public": "2026-09-04"
+      },
+      "publish_date": "2026-09-04",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/003rCmw23yFPiI",
+      "media_mid": "003rCmw23yFPiI",
+      "expected_mp3_bytes": 854536,
+      "play_requires_payment": false
+    },
+    {
+      "id": 716349726,
+      "mid": "002AR95y40zT0T",
+      "title": "寄生之庭",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 120,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 2855350,
+          "mid": "000izEVB1NogxY",
+          "name": "Estimate, LLC."
+        },
+        {
+          "id": 22806213,
+          "mid": "003MxiwS3NykmT",
+          "name": "dDedalus"
+        }
+      ],
+      "album": {
+        "id": 99960032,
+        "mid": "000iYQ0d04XCrA",
+        "name": "梦的彼岸 - 夏花旅人EP",
+        "time_public": "2026-08-17"
+      },
+      "publish_date": "2026-08-17",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/002AR95y40zT0T",
+      "media_mid": "002AR95y40zT0T",
+      "expected_mp3_bytes": 1929099,
+      "play_requires_payment": false
+    },
+    {
+      "id": 716349708,
+      "mid": "001F7FVZ2mQ9uZ",
+      "title": "放晴后的真心",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 115,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 15017777,
+          "mid": "0043VsXm2YkSKZ",
+          "name": "Dash Sound"
+        },
+        {
+          "id": 15017809,
+          "mid": "001YwCJy0mz6W9",
+          "name": "Nevia"
+        }
+      ],
+      "album": {
+        "id": 99960032,
+        "mid": "000iYQ0d04XCrA",
+        "name": "梦的彼岸 - 夏花旅人EP",
+        "time_public": "2026-08-17"
+      },
+      "publish_date": "2026-08-17",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/001F7FVZ2mQ9uZ",
+      "media_mid": "001F7FVZ2mQ9uZ",
+      "expected_mp3_bytes": 1849691,
+      "play_requires_payment": false
+    },
+    {
+      "id": 716349694,
+      "mid": "001lRAq01LeDjs",
+      "title": "秘境探宝",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 112,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 22806213,
+          "mid": "003MxiwS3NykmT",
+          "name": "dDedalus"
+        }
+      ],
+      "album": {
+        "id": 99960032,
+        "mid": "000iYQ0d04XCrA",
+        "name": "梦的彼岸 - 夏花旅人EP",
+        "time_public": "2026-08-17"
+      },
+      "publish_date": "2026-08-17",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/001lRAq01LeDjs",
+      "media_mid": "001lRAq01LeDjs",
+      "expected_mp3_bytes": 1797442,
+      "play_requires_payment": false
+    },
+    {
+      "id": 716349692,
+      "mid": "004eLiTc1BY3fa",
+      "title": "雾境突围",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 111,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 2855350,
+          "mid": "000izEVB1NogxY",
+          "name": "Estimate, LLC."
+        }
+      ],
+      "album": {
+        "id": 99960032,
+        "mid": "000iYQ0d04XCrA",
+        "name": "梦的彼岸 - 夏花旅人EP",
+        "time_public": "2026-08-17"
+      },
+      "publish_date": "2026-08-17",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/004eLiTc1BY3fa",
+      "media_mid": "004eLiTc1BY3fa",
+      "expected_mp3_bytes": 1785739,
+      "play_requires_payment": false
+    },
+    {
+      "id": 716349686,
+      "mid": "003ffRSF2cVcw5",
+      "title": "一二三，跳！",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 93,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 15017777,
+          "mid": "0043VsXm2YkSKZ",
+          "name": "Dash Sound"
+        },
+        {
+          "id": 3926829,
+          "mid": "004B5imk3oMqhL",
+          "name": "UraniumW"
+        }
+      ],
+      "album": {
+        "id": 99960032,
+        "mid": "000iYQ0d04XCrA",
+        "name": "梦的彼岸 - 夏花旅人EP",
+        "time_public": "2026-08-17"
+      },
+      "publish_date": "2026-08-17",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/003ffRSF2cVcw5",
+      "media_mid": "003ffRSF2cVcw5",
+      "expected_mp3_bytes": 1504875,
+      "play_requires_payment": false
+    },
+    {
+      "id": 714305969,
+      "mid": "000oqeNs0SLiTY",
+      "title": "Summer Starlight Journey (Instrumental)",
+      "subtitle": "",
+      "duration_seconds": 180,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 15652,
+          "mid": "000sX1qV46zRze",
+          "name": "辻诗音"
+        }
+      ],
+      "album": {
+        "id": 99340573,
+        "mid": "002sH2NY0RVyzw",
+        "name": "Summer Starlight Journey",
+        "time_public": "2026-08-07"
+      },
+      "publish_date": "2026-08-07",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/000oqeNs0SLiTY",
+      "media_mid": "000oqeNs0SLiTY",
+      "expected_mp3_bytes": 2894237,
+      "play_requires_payment": false
+    },
+    {
+      "id": 711803435,
+      "mid": "002uCC1V258pO0",
+      "title": "No Game No 喵~",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 150,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 15017777,
+          "mid": "0043VsXm2YkSKZ",
+          "name": "Dash Sound"
+        },
+        {
+          "id": 3946420,
+          "mid": "000CQa7T0cSPHM",
+          "name": "HJLL"
+        }
+      ],
+      "album": {
+        "id": 98646717,
+        "mid": "002C73YR3W9r5B",
+        "name": "枪林弹雨覆黄沙 - 猫眼旅人EP",
+        "time_public": "2026-07-31"
+      },
+      "publish_date": "2026-07-31",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/002uCC1V258pO0",
+      "media_mid": "002uCC1V258pO0",
+      "expected_mp3_bytes": 2406465,
+      "play_requires_payment": false
+    },
+    {
+      "id": 711803410,
+      "mid": "004ftK053Rp4zP",
+      "title": "枪林弹雨覆黄沙",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 101,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 22806213,
+          "mid": "003MxiwS3NykmT",
+          "name": "dDedalus"
+        }
+      ],
+      "album": {
+        "id": 98646717,
+        "mid": "002C73YR3W9r5B",
+        "name": "枪林弹雨覆黄沙 - 猫眼旅人EP",
+        "time_public": "2026-07-31"
+      },
+      "publish_date": "2026-07-31",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/004ftK053Rp4zP",
+      "media_mid": "004ftK053Rp4zP",
+      "expected_mp3_bytes": 1627781,
+      "play_requires_payment": false
+    },
+    {
+      "id": 711803385,
+      "mid": "0026WH6T0V6WIH",
+      "title": "来自阴影的警告",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 75,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 22806213,
+          "mid": "003MxiwS3NykmT",
+          "name": "dDedalus"
+        }
+      ],
+      "album": {
+        "id": 98646717,
+        "mid": "002C73YR3W9r5B",
+        "name": "枪林弹雨覆黄沙 - 猫眼旅人EP",
+        "time_public": "2026-07-31"
+      },
+      "publish_date": "2026-07-31",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/0026WH6T0V6WIH",
+      "media_mid": "0026WH6T0V6WIH",
+      "expected_mp3_bytes": 1214001,
+      "play_requires_payment": false
+    },
+    {
+      "id": 711803372,
+      "mid": "002L1u022Kp1fw",
+      "title": "欢聚时刻",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 96,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 22806213,
+          "mid": "003MxiwS3NykmT",
+          "name": "dDedalus"
+        }
+      ],
+      "album": {
+        "id": 98646717,
+        "mid": "002C73YR3W9r5B",
+        "name": "枪林弹雨覆黄沙 - 猫眼旅人EP",
+        "time_public": "2026-07-31"
+      },
+      "publish_date": "2026-07-31",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/002L1u022Kp1fw",
+      "media_mid": "002L1u022Kp1fw",
+      "expected_mp3_bytes": 1537077,
+      "play_requires_payment": false
+    },
+    {
+      "id": 710416554,
+      "mid": "002xdPm924E12r",
+      "title": "猫临城下",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 157,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 22806213,
+          "mid": "003MxiwS3NykmT",
+          "name": "dDedalus"
+        }
+      ],
+      "album": {
+        "id": 98199698,
+        "mid": "000edE6g0Mhbg9",
+        "name": "晴风碧海 · 悠哉盛夏依然打卡~ - 薇洛 (盛夏) 旅人EP",
+        "time_public": "2026-07-28"
+      },
+      "publish_date": "2026-07-28",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/002xdPm924E12r",
+      "media_mid": "002xdPm924E12r",
+      "expected_mp3_bytes": 2525581,
+      "play_requires_payment": false
+    },
+    {
+      "id": 710416526,
+      "mid": "002l9Ugc4Wgcww",
+      "title": "沁凉补给站",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 68,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 22806213,
+          "mid": "003MxiwS3NykmT",
+          "name": "dDedalus"
+        }
+      ],
+      "album": {
+        "id": 98199698,
+        "mid": "000edE6g0Mhbg9",
+        "name": "晴风碧海 · 悠哉盛夏依然打卡~ - 薇洛 (盛夏) 旅人EP",
+        "time_public": "2026-07-28"
+      },
+      "publish_date": "2026-07-28",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/002l9Ugc4Wgcww",
+      "media_mid": "002l9Ugc4Wgcww",
+      "expected_mp3_bytes": 1098670,
+      "play_requires_payment": false
+    },
+    {
+      "id": 710416507,
+      "mid": "001BbqTA0F40xs",
+      "title": "与盛夏共同闪耀",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 129,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 12634019,
+          "mid": "002wrTJS3oCCSR",
+          "name": "Zhengtao Pan"
+        }
+      ],
+      "album": {
+        "id": 98199698,
+        "mid": "000edE6g0Mhbg9",
+        "name": "晴风碧海 · 悠哉盛夏依然打卡~ - 薇洛 (盛夏) 旅人EP",
+        "time_public": "2026-07-28"
+      },
+      "publish_date": "2026-07-28",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/001BbqTA0F40xs",
+      "media_mid": "000PkAeR3jyYfQ",
+      "expected_mp3_bytes": 2074617,
+      "play_requires_payment": false
+    },
+    {
+      "id": 710416449,
+      "mid": "003CTej80mgQ4N",
+      "title": "夏日梦工坊",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 76,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 22806213,
+          "mid": "003MxiwS3NykmT",
+          "name": "dDedalus"
+        }
+      ],
+      "album": {
+        "id": 98199698,
+        "mid": "000edE6g0Mhbg9",
+        "name": "晴风碧海 · 悠哉盛夏依然打卡~ - 薇洛 (盛夏) 旅人EP",
+        "time_public": "2026-07-28"
+      },
+      "publish_date": "2026-07-28",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/003CTej80mgQ4N",
+      "media_mid": "003CTej80mgQ4N",
+      "expected_mp3_bytes": 1231999,
+      "play_requires_payment": false
+    },
+    {
+      "id": 705606387,
+      "mid": "003VGY2g3LuYum",
+      "title": "咕噜六角鲸",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 193,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 22806213,
+          "mid": "003MxiwS3NykmT",
+          "name": "dDedalus"
+        }
+      ],
+      "album": {
+        "id": 96882819,
+        "mid": "002QeFX92n6cPg",
+        "name": "惊奇冒险！渊海幽灵船传说！- 希娅旅人EP",
+        "time_public": "2026-07-10"
+      },
+      "publish_date": "2026-07-10",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/003VGY2g3LuYum",
+      "media_mid": "003VGY2g3LuYum",
+      "expected_mp3_bytes": 3090644,
+      "play_requires_payment": false
+    },
+    {
+      "id": 705606247,
+      "mid": "003b6mAU3ypNV9",
+      "title": "悠然芬芳",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 88,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 22806213,
+          "mid": "003MxiwS3NykmT",
+          "name": "dDedalus"
+        }
+      ],
+      "album": {
+        "id": 96882819,
+        "mid": "002QeFX92n6cPg",
+        "name": "惊奇冒险！渊海幽灵船传说！- 希娅旅人EP",
+        "time_public": "2026-07-10"
+      },
+      "publish_date": "2026-07-10",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/003b6mAU3ypNV9",
+      "media_mid": "003b6mAU3ypNV9",
+      "expected_mp3_bytes": 1417133,
+      "play_requires_payment": false
+    },
+    {
+      "id": 705606222,
+      "mid": "004ZREYT413U8m",
+      "title": "海浪在心间翻涌",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 86,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 15017777,
+          "mid": "0043VsXm2YkSKZ",
+          "name": "Dash Sound"
+        },
+        {
+          "id": 3538014,
+          "mid": "004fxwrW2WX31T",
+          "name": "VeetaCrush"
+        }
+      ],
+      "album": {
+        "id": 96882819,
+        "mid": "002QeFX92n6cPg",
+        "name": "惊奇冒险！渊海幽灵船传说！- 希娅旅人EP",
+        "time_public": "2026-07-10"
+      },
+      "publish_date": "2026-07-10",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/004ZREYT413U8m",
+      "media_mid": "004ZREYT413U8m",
+      "expected_mp3_bytes": 1381221,
+      "play_requires_payment": false
+    },
+    {
+      "id": 705606175,
+      "mid": "003dQV3q19pwcV",
+      "title": "滑越浪尖",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 85,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 22806213,
+          "mid": "003MxiwS3NykmT",
+          "name": "dDedalus"
+        }
+      ],
+      "album": {
+        "id": 96882819,
+        "mid": "002QeFX92n6cPg",
+        "name": "惊奇冒险！渊海幽灵船传说！- 希娅旅人EP",
+        "time_public": "2026-07-10"
+      },
+      "publish_date": "2026-07-10",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/003dQV3q19pwcV",
+      "media_mid": "003dQV3q19pwcV",
+      "expected_mp3_bytes": 1374501,
+      "play_requires_payment": false
+    },
+    {
+      "id": 694079021,
+      "mid": "003ARmFp1z21gw",
+      "title": "轻声密语的你",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 213,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 2855350,
+          "mid": "000izEVB1NogxY",
+          "name": "Estimate, LLC."
+        }
+      ],
+      "album": {
+        "id": 96058886,
+        "mid": "001hrDK40zktuV",
+        "name": "星塔旅人 - 游戏原声带 Vol.3",
+        "time_public": "2026-06-30"
+      },
+      "publish_date": "2026-06-30",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/003ARmFp1z21gw",
+      "media_mid": "003ARmFp1z21gw",
+      "expected_mp3_bytes": 3409107,
+      "play_requires_payment": false
+    },
+    {
+      "id": 694078914,
+      "mid": "003d4sHJ18LaUU",
+      "title": "娓娓道来的你",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 152,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 22806213,
+          "mid": "003MxiwS3NykmT",
+          "name": "dDedalus"
+        }
+      ],
+      "album": {
+        "id": 96058886,
+        "mid": "001hrDK40zktuV",
+        "name": "星塔旅人 - 游戏原声带 Vol.3",
+        "time_public": "2026-06-30"
+      },
+      "publish_date": "2026-06-30",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/003d4sHJ18LaUU",
+      "media_mid": "003d4sHJ18LaUU",
+      "expected_mp3_bytes": 2436516,
+      "play_requires_payment": false
+    },
+    {
+      "id": 694078854,
+      "mid": "003KAhfc1O4QSk",
+      "title": "迷雾重重",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 166,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 2855350,
+          "mid": "000izEVB1NogxY",
+          "name": "Estimate, LLC."
+        }
+      ],
+      "album": {
+        "id": 96058886,
+        "mid": "001hrDK40zktuV",
+        "name": "星塔旅人 - 游戏原声带 Vol.3",
+        "time_public": "2026-06-30"
+      },
+      "publish_date": "2026-06-30",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/003KAhfc1O4QSk",
+      "media_mid": "003KAhfc1O4QSk",
+      "expected_mp3_bytes": 2670569,
+      "play_requires_payment": false
+    },
+    {
+      "id": 694078842,
+      "mid": "002PXVpe30WlV2",
+      "title": "又是叽叽喳喳的一天",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 114,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 2855350,
+          "mid": "000izEVB1NogxY",
+          "name": "Estimate, LLC."
+        }
+      ],
+      "album": {
+        "id": 96058886,
+        "mid": "001hrDK40zktuV",
+        "name": "星塔旅人 - 游戏原声带 Vol.3",
+        "time_public": "2026-06-30"
+      },
+      "publish_date": "2026-06-30",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/002PXVpe30WlV2",
+      "media_mid": "002PXVpe30WlV2",
+      "expected_mp3_bytes": 1825465,
+      "play_requires_payment": false
+    },
+    {
+      "id": 694078700,
+      "mid": "004VNzvP07TDUb",
+      "title": "魔王的圣座",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 109,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 22806213,
+          "mid": "003MxiwS3NykmT",
+          "name": "dDedalus"
+        }
+      ],
+      "album": {
+        "id": 96058886,
+        "mid": "001hrDK40zktuV",
+        "name": "星塔旅人 - 游戏原声带 Vol.3",
+        "time_public": "2026-06-30"
+      },
+      "publish_date": "2026-06-30",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/004VNzvP07TDUb",
+      "media_mid": "004VNzvP07TDUb",
+      "expected_mp3_bytes": 1756494,
+      "play_requires_payment": false
+    },
+    {
+      "id": 694078682,
+      "mid": "0006IoRf25rsYe",
+      "title": "决断之刻",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 84,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 2855350,
+          "mid": "000izEVB1NogxY",
+          "name": "Estimate, LLC."
+        }
+      ],
+      "album": {
+        "id": 96058886,
+        "mid": "001hrDK40zktuV",
+        "name": "星塔旅人 - 游戏原声带 Vol.3",
+        "time_public": "2026-06-30"
+      },
+      "publish_date": "2026-06-30",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/0006IoRf25rsYe",
+      "media_mid": "0006IoRf25rsYe",
+      "expected_mp3_bytes": 1345220,
+      "play_requires_payment": false
+    },
+    {
+      "id": 694078678,
+      "mid": "001qNW5m3pha3L",
+      "title": "温暖如初的心",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 121,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 2855350,
+          "mid": "000izEVB1NogxY",
+          "name": "Estimate, LLC."
+        }
+      ],
+      "album": {
+        "id": 96058886,
+        "mid": "001hrDK40zktuV",
+        "name": "星塔旅人 - 游戏原声带 Vol.3",
+        "time_public": "2026-06-30"
+      },
+      "publish_date": "2026-06-30",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/001qNW5m3pha3L",
+      "media_mid": "001qNW5m3pha3L",
+      "expected_mp3_bytes": 1952101,
+      "play_requires_payment": false
+    },
+    {
+      "id": 694078673,
+      "mid": "001BIFv60gDtYJ",
+      "title": "危急时刻",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 108,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 22806213,
+          "mid": "003MxiwS3NykmT",
+          "name": "dDedalus"
+        }
+      ],
+      "album": {
+        "id": 96058886,
+        "mid": "001hrDK40zktuV",
+        "name": "星塔旅人 - 游戏原声带 Vol.3",
+        "time_public": "2026-06-30"
+      },
+      "publish_date": "2026-06-30",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/001BIFv60gDtYJ",
+      "media_mid": "001BIFv60gDtYJ",
+      "expected_mp3_bytes": 1735176,
+      "play_requires_payment": false
+    },
+    {
+      "id": 694078672,
+      "mid": "003Hkp9W4QMjga",
+      "title": "又是丢三落四的一天",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 88,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 2855350,
+          "mid": "000izEVB1NogxY",
+          "name": "Estimate, LLC."
+        }
+      ],
+      "album": {
+        "id": 96058886,
+        "mid": "001hrDK40zktuV",
+        "name": "星塔旅人 - 游戏原声带 Vol.3",
+        "time_public": "2026-06-30"
+      },
+      "publish_date": "2026-06-30",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/003Hkp9W4QMjga",
+      "media_mid": "003Hkp9W4QMjga",
+      "expected_mp3_bytes": 1420045,
+      "play_requires_payment": false
+    },
+    {
+      "id": 694078670,
+      "mid": "001xXrtj096sLF",
+      "title": "又是稀松平常的一天",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 92,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 2855350,
+          "mid": "000izEVB1NogxY",
+          "name": "Estimate, LLC."
+        }
+      ],
+      "album": {
+        "id": 96058886,
+        "mid": "001hrDK40zktuV",
+        "name": "星塔旅人 - 游戏原声带 Vol.3",
+        "time_public": "2026-06-30"
+      },
+      "publish_date": "2026-06-30",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/001xXrtj096sLF",
+      "media_mid": "001xXrtj096sLF",
+      "expected_mp3_bytes": 1481485,
+      "play_requires_payment": false
+    },
+    {
+      "id": 694078667,
+      "mid": "0025I2jR0JF912",
+      "title": "雨过天晴的你",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 123,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 2855350,
+          "mid": "000izEVB1NogxY",
+          "name": "Estimate, LLC."
+        }
+      ],
+      "album": {
+        "id": 96058886,
+        "mid": "001hrDK40zktuV",
+        "name": "星塔旅人 - 游戏原声带 Vol.3",
+        "time_public": "2026-06-30"
+      },
+      "publish_date": "2026-06-30",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/0025I2jR0JF912",
+      "media_mid": "0025I2jR0JF912",
+      "expected_mp3_bytes": 1982194,
+      "play_requires_payment": false
+    },
+    {
+      "id": 694078660,
+      "mid": "000k35GN1Fz6XE",
+      "title": "又是不慌不忙的一天",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 90,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 2855350,
+          "mid": "000izEVB1NogxY",
+          "name": "Estimate, LLC."
+        }
+      ],
+      "album": {
+        "id": 96058886,
+        "mid": "001hrDK40zktuV",
+        "name": "星塔旅人 - 游戏原声带 Vol.3",
+        "time_public": "2026-06-30"
+      },
+      "publish_date": "2026-06-30",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/000k35GN1Fz6XE",
+      "media_mid": "000k35GN1Fz6XE",
+      "expected_mp3_bytes": 1452646,
+      "play_requires_payment": false
+    },
+    {
+      "id": 694078610,
+      "mid": "004O7Dch0RBJWI",
+      "title": "微微刺痛的心",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 111,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 2855350,
+          "mid": "000izEVB1NogxY",
+          "name": "Estimate, LLC."
+        }
+      ],
+      "album": {
+        "id": 96058886,
+        "mid": "001hrDK40zktuV",
+        "name": "星塔旅人 - 游戏原声带 Vol.3",
+        "time_public": "2026-06-30"
+      },
+      "publish_date": "2026-06-30",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/004O7Dch0RBJWI",
+      "media_mid": "004O7Dch0RBJWI",
+      "expected_mp3_bytes": 1791605,
+      "play_requires_payment": false
+    },
+    {
+      "id": 694078609,
+      "mid": "001Qhify0lXJ4d",
+      "title": "褪色的回忆",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 92,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 2855350,
+          "mid": "000izEVB1NogxY",
+          "name": "Estimate, LLC."
+        }
+      ],
+      "album": {
+        "id": 96058886,
+        "mid": "001hrDK40zktuV",
+        "name": "星塔旅人 - 游戏原声带 Vol.3",
+        "time_public": "2026-06-30"
+      },
+      "publish_date": "2026-06-30",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/001Qhify0lXJ4d",
+      "media_mid": "001Qhify0lXJ4d",
+      "expected_mp3_bytes": 1473954,
+      "play_requires_payment": false
+    },
+    {
+      "id": 694078550,
+      "mid": "000O4OQH0EPr5P",
+      "title": "这下……真的搞砸了？!",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 86,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 2855350,
+          "mid": "000izEVB1NogxY",
+          "name": "Estimate, LLC."
+        }
+      ],
+      "album": {
+        "id": 96058886,
+        "mid": "001hrDK40zktuV",
+        "name": "星塔旅人 - 游戏原声带 Vol.3",
+        "time_public": "2026-06-30"
+      },
+      "publish_date": "2026-06-30",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/000O4OQH0EPr5P",
+      "media_mid": "000O4OQH0EPr5P",
+      "expected_mp3_bytes": 1389120,
+      "play_requires_payment": false
+    },
+    {
+      "id": 694078549,
+      "mid": "0003Zs4c4M3Ifm",
+      "title": "这就是……无巧不成书？",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 98,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 2855350,
+          "mid": "000izEVB1NogxY",
+          "name": "Estimate, LLC."
+        }
+      ],
+      "album": {
+        "id": 96058886,
+        "mid": "001hrDK40zktuV",
+        "name": "星塔旅人 - 游戏原声带 Vol.3",
+        "time_public": "2026-06-30"
+      },
+      "publish_date": "2026-06-30",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/0003Zs4c4M3Ifm",
+      "media_mid": "0003Zs4c4M3Ifm",
+      "expected_mp3_bytes": 1583053,
+      "play_requires_payment": false
+    },
+    {
+      "id": 694078548,
+      "mid": "0048Menq31ieCc",
+      "title": "这下……糟糕了？",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 92,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 2855350,
+          "mid": "000izEVB1NogxY",
+          "name": "Estimate, LLC."
+        }
+      ],
+      "album": {
+        "id": 96058886,
+        "mid": "001hrDK40zktuV",
+        "name": "星塔旅人 - 游戏原声带 Vol.3",
+        "time_public": "2026-06-30"
+      },
+      "publish_date": "2026-06-30",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/0048Menq31ieCc",
+      "media_mid": "0048Menq31ieCc",
+      "expected_mp3_bytes": 1475631,
+      "play_requires_payment": false
+    },
+    {
+      "id": 694078547,
+      "mid": "000fFztT4MhrhC",
+      "title": "大战将临",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 89,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 2855350,
+          "mid": "000izEVB1NogxY",
+          "name": "Estimate, LLC."
+        }
+      ],
+      "album": {
+        "id": 96058886,
+        "mid": "001hrDK40zktuV",
+        "name": "星塔旅人 - 游戏原声带 Vol.3",
+        "time_public": "2026-06-30"
+      },
+      "publish_date": "2026-06-30",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/000fFztT4MhrhC",
+      "media_mid": "000fFztT4MhrhC",
+      "expected_mp3_bytes": 1430066,
+      "play_requires_payment": false
+    },
+    {
+      "id": 694078487,
+      "mid": "000cRRaY1W3DuX",
+      "title": "握紧你的手",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 81,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 2855350,
+          "mid": "000izEVB1NogxY",
+          "name": "Estimate, LLC."
+        }
+      ],
+      "album": {
+        "id": 96058886,
+        "mid": "001hrDK40zktuV",
+        "name": "星塔旅人 - 游戏原声带 Vol.3",
+        "time_public": "2026-06-30"
+      },
+      "publish_date": "2026-06-30",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/000cRRaY1W3DuX",
+      "media_mid": "000cRRaY1W3DuX",
+      "expected_mp3_bytes": 1306694,
+      "play_requires_payment": false
+    },
+    {
+      "id": 694078477,
+      "mid": "0024vWCr3nGU9c",
+      "title": "这就是……胡闹的下场？",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 82,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 2855350,
+          "mid": "000izEVB1NogxY",
+          "name": "Estimate, LLC."
+        }
+      ],
+      "album": {
+        "id": 96058886,
+        "mid": "001hrDK40zktuV",
+        "name": "星塔旅人 - 游戏原声带 Vol.3",
+        "time_public": "2026-06-30"
+      },
+      "publish_date": "2026-06-30",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/0024vWCr3nGU9c",
+      "media_mid": "0024vWCr3nGU9c",
+      "expected_mp3_bytes": 1320575,
+      "play_requires_payment": false
+    },
+    {
+      "id": 693976070,
+      "mid": "001rslxY32BVjF",
+      "title": "机巧梦工坊",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 232,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 22806213,
+          "mid": "003MxiwS3NykmT",
+          "name": "dDedalus"
+        }
+      ],
+      "album": {
+        "id": 96042497,
+        "mid": "000Hd7FJ0CmRtJ",
+        "name": "心跳！柔光狂想曲 - 斯帕克拉旅人EP",
+        "time_public": "2026-06-29"
+      },
+      "publish_date": "2026-06-29",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/001rslxY32BVjF",
+      "media_mid": "001rslxY32BVjF",
+      "expected_mp3_bytes": 3726774,
+      "play_requires_payment": false
+    },
+    {
+      "id": 693975516,
+      "mid": "002DWTun4dE4QQ",
+      "title": "柔光猎犬",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 135,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 22806213,
+          "mid": "003MxiwS3NykmT",
+          "name": "dDedalus"
+        }
+      ],
+      "album": {
+        "id": 96042497,
+        "mid": "000Hd7FJ0CmRtJ",
+        "name": "心跳！柔光狂想曲 - 斯帕克拉旅人EP",
+        "time_public": "2026-06-29"
+      },
+      "publish_date": "2026-06-29",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/002DWTun4dE4QQ",
+      "media_mid": "002DWTun4dE4QQ",
+      "expected_mp3_bytes": 2164858,
+      "play_requires_payment": false
+    },
+    {
+      "id": 693975394,
+      "mid": "000g3gM50gUWwD",
+      "title": "可爱本源",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 93,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 15017777,
+          "mid": "0043VsXm2YkSKZ",
+          "name": "Dash Sound"
+        },
+        {
+          "id": 15017809,
+          "mid": "001YwCJy0mz6W9",
+          "name": "Nevia"
+        }
+      ],
+      "album": {
+        "id": 96042497,
+        "mid": "000Hd7FJ0CmRtJ",
+        "name": "心跳！柔光狂想曲 - 斯帕克拉旅人EP",
+        "time_public": "2026-06-29"
+      },
+      "publish_date": "2026-06-29",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/000g3gM50gUWwD",
+      "media_mid": "000g3gM50gUWwD",
+      "expected_mp3_bytes": 1501155,
+      "play_requires_payment": false
+    },
+    {
+      "id": 693975154,
+      "mid": "0046jcyV0To1xK",
+      "title": "迷雾与利爪",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 108,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 22806213,
+          "mid": "003MxiwS3NykmT",
+          "name": "dDedalus"
+        }
+      ],
+      "album": {
+        "id": 96042497,
+        "mid": "000Hd7FJ0CmRtJ",
+        "name": "心跳！柔光狂想曲 - 斯帕克拉旅人EP",
+        "time_public": "2026-06-29"
+      },
+      "publish_date": "2026-06-29",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/0046jcyV0To1xK",
+      "media_mid": "0046jcyV0To1xK",
+      "expected_mp3_bytes": 1738960,
+      "play_requires_payment": false
+    },
+    {
+      "id": 688129545,
+      "mid": "002KFWJh4FcmFc",
+      "title": "CANDY (Instrumental)",
+      "subtitle": "",
+      "duration_seconds": 155,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 23565574,
+          "mid": "00054FcU37fbcg",
+          "name": "Aso"
+        },
+        {
+          "id": 3194042,
+          "mid": "00490Y9l0H2H2d",
+          "name": "Redux"
+        }
+      ],
+      "album": {
+        "id": 95032149,
+        "mid": "00015IeP3CeAa8",
+        "name": "CANDY",
+        "time_public": "2026-06-16"
+      },
+      "publish_date": "2026-06-16",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/002KFWJh4FcmFc",
+      "media_mid": "002KFWJh4FcmFc",
+      "expected_mp3_bytes": 2482471,
+      "play_requires_payment": false
+    },
+    {
+      "id": 673227489,
+      "mid": "000gYEZX3DjyZ8",
+      "title": "可爱依赖症候群",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 106,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 16108637,
+          "mid": "002ckL8Y0quqcZ",
+          "name": "VISION SOUND"
+        },
+        {
+          "id": 15396354,
+          "mid": "0032JvQ01VlpHt",
+          "name": "trashyboi"
+        },
+        {
+          "id": 22806213,
+          "mid": "003MxiwS3NykmT",
+          "name": "dDedalus"
+        }
+      ],
+      "album": {
+        "id": 93964654,
+        "mid": "002IBAr51o5thG",
+        "name": "穿透心壁的取景框 - 火垂旅人EP",
+        "time_public": "2026-06-05"
+      },
+      "publish_date": "2026-06-05",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/000gYEZX3DjyZ8",
+      "media_mid": "000gYEZX3DjyZ8",
+      "expected_mp3_bytes": 1698818,
+      "play_requires_payment": false
+    },
+    {
+      "id": 673227330,
+      "mid": "000sgLqS08WUQm",
+      "title": "天晴烂漫飞高高",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 70,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        }
+      ],
+      "album": {
+        "id": 93964654,
+        "mid": "002IBAr51o5thG",
+        "name": "穿透心壁的取景框 - 火垂旅人EP",
+        "time_public": "2026-06-05"
+      },
+      "publish_date": "2026-06-05",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/000sgLqS08WUQm",
+      "media_mid": "000sgLqS08WUQm",
+      "expected_mp3_bytes": 1128721,
+      "play_requires_payment": false
+    },
+    {
+      "id": 673227321,
+      "mid": "0039lyNl0HlspC",
+      "title": "心的障壁",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 77,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 22806213,
+          "mid": "003MxiwS3NykmT",
+          "name": "dDedalus"
+        }
+      ],
+      "album": {
+        "id": 93964654,
+        "mid": "002IBAr51o5thG",
+        "name": "穿透心壁的取景框 - 火垂旅人EP",
+        "time_public": "2026-06-05"
+      },
+      "publish_date": "2026-06-05",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/0039lyNl0HlspC",
+      "media_mid": "0039lyNl0HlspC",
+      "expected_mp3_bytes": 1238639,
+      "play_requires_payment": false
+    },
+    {
+      "id": 664661824,
+      "mid": "002jTUWs0OqPeC",
+      "title": "风暴与闪电",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 299,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 16108637,
+          "mid": "002ckL8Y0quqcZ",
+          "name": "VISION SOUND"
+        },
+        {
+          "id": 5165903,
+          "mid": "0040pnxa1Uy9uL",
+          "name": "Salty Salt"
+        }
+      ],
+      "album": {
+        "id": 92055817,
+        "mid": "002BwY972nF0G2",
+        "name": "星塔旅人 - 游戏原声带 Vol.2",
+        "time_public": "2026-05-15"
+      },
+      "publish_date": "2026-05-15",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/002jTUWs0OqPeC",
+      "media_mid": "002jTUWs0OqPeC",
+      "expected_mp3_bytes": 4790090,
+      "play_requires_payment": false
+    },
+    {
+      "id": 664661723,
+      "mid": "003KlDco2DtFGm",
+      "title": "烈焰与尘埃",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 227,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 22806213,
+          "mid": "003MxiwS3NykmT",
+          "name": "dDedalus"
+        }
+      ],
+      "album": {
+        "id": 92055817,
+        "mid": "002BwY972nF0G2",
+        "name": "星塔旅人 - 游戏原声带 Vol.2",
+        "time_public": "2026-05-15"
+      },
+      "publish_date": "2026-05-15",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/003KlDco2DtFGm",
+      "media_mid": "003KlDco2DtFGm",
+      "expected_mp3_bytes": 3643531,
+      "play_requires_payment": false
+    },
+    {
+      "id": 664661714,
+      "mid": "001CxqfW1JwXFP",
+      "title": "流水与暗影",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 230,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 15017777,
+          "mid": "0043VsXm2YkSKZ",
+          "name": "Dash Sound"
+        },
+        {
+          "id": 3946420,
+          "mid": "000CQa7T0cSPHM",
+          "name": "HJLL"
+        }
+      ],
+      "album": {
+        "id": 92055817,
+        "mid": "002BwY972nF0G2",
+        "name": "星塔旅人 - 游戏原声带 Vol.2",
+        "time_public": "2026-05-15"
+      },
+      "publish_date": "2026-05-15",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/001CxqfW1JwXFP",
+      "media_mid": "001CxqfW1JwXFP",
+      "expected_mp3_bytes": 3687497,
+      "play_requires_payment": false
+    },
+    {
+      "id": 664661713,
+      "mid": "000FofB943g4eT",
+      "title": "味觉惊惧",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 220,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 22806213,
+          "mid": "003MxiwS3NykmT",
+          "name": "dDedalus"
+        }
+      ],
+      "album": {
+        "id": 92055817,
+        "mid": "002BwY972nF0G2",
+        "name": "星塔旅人 - 游戏原声带 Vol.2",
+        "time_public": "2026-05-15"
+      },
+      "publish_date": "2026-05-15",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/000FofB943g4eT",
+      "media_mid": "000FofB943g4eT",
+      "expected_mp3_bytes": 3534090,
+      "play_requires_payment": false
+    },
+    {
+      "id": 664661695,
+      "mid": "003ZBVP53XJaju",
+      "title": "吹灰夫人",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 224,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        }
+      ],
+      "album": {
+        "id": 92055817,
+        "mid": "002BwY972nF0G2",
+        "name": "星塔旅人 - 游戏原声带 Vol.2",
+        "time_public": "2026-05-15"
+      },
+      "publish_date": "2026-05-15",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/003ZBVP53XJaju",
+      "media_mid": "003ZBVP53XJaju",
+      "expected_mp3_bytes": 3585063,
+      "play_requires_payment": false
+    },
+    {
+      "id": 664661662,
+      "mid": "003t3sLq1uRm1E",
+      "title": "原初的迷途",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 217,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 23290335,
+          "mid": "002IgG1i46uip1",
+          "name": "舒奕"
+        }
+      ],
+      "album": {
+        "id": 92055817,
+        "mid": "002BwY972nF0G2",
+        "name": "星塔旅人 - 游戏原声带 Vol.2",
+        "time_public": "2026-05-15"
+      },
+      "publish_date": "2026-05-15",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/003t3sLq1uRm1E",
+      "media_mid": "003t3sLq1uRm1E",
+      "expected_mp3_bytes": 3481418,
+      "play_requires_payment": false
+    },
+    {
+      "id": 664661649,
+      "mid": "000Yh8sQ43iMuJ",
+      "title": "热嘟噜噗男爵",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 161,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 3194042,
+          "mid": "00490Y9l0H2H2d",
+          "name": "Redux"
+        }
+      ],
+      "album": {
+        "id": 92055817,
+        "mid": "002BwY972nF0G2",
+        "name": "星塔旅人 - 游戏原声带 Vol.2",
+        "time_public": "2026-05-15"
+      },
+      "publish_date": "2026-05-15",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/000Yh8sQ43iMuJ",
+      "media_mid": "000Yh8sQ43iMuJ",
+      "expected_mp3_bytes": 2591591,
+      "play_requires_payment": false
+    },
+    {
+      "id": 664661633,
+      "mid": "004egOn74HbeMK",
+      "title": "禁断丽容",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 150,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 22806213,
+          "mid": "003MxiwS3NykmT",
+          "name": "dDedalus"
+        }
+      ],
+      "album": {
+        "id": 92055817,
+        "mid": "002BwY972nF0G2",
+        "name": "星塔旅人 - 游戏原声带 Vol.2",
+        "time_public": "2026-05-15"
+      },
+      "publish_date": "2026-05-15",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/004egOn74HbeMK",
+      "media_mid": "004egOn74HbeMK",
+      "expected_mp3_bytes": 2404347,
+      "play_requires_payment": false
+    },
+    {
+      "id": 664661622,
+      "mid": "0035DPIf2DZ3DS",
+      "title": "星骸降临",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 154,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 15017777,
+          "mid": "0043VsXm2YkSKZ",
+          "name": "Dash Sound"
+        },
+        {
+          "id": 3946420,
+          "mid": "000CQa7T0cSPHM",
+          "name": "HJLL"
+        }
+      ],
+      "album": {
+        "id": 92055817,
+        "mid": "002BwY972nF0G2",
+        "name": "星塔旅人 - 游戏原声带 Vol.2",
+        "time_public": "2026-05-15"
+      },
+      "publish_date": "2026-05-15",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/0035DPIf2DZ3DS",
+      "media_mid": "0035DPIf2DZ3DS",
+      "expected_mp3_bytes": 2472488,
+      "play_requires_payment": false
+    },
+    {
+      "id": 664661621,
+      "mid": "000Vw4R326r8Pg",
+      "title": "渊海主宰",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 138,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 2855350,
+          "mid": "000izEVB1NogxY",
+          "name": "Estimate, LLC."
+        }
+      ],
+      "album": {
+        "id": 92055817,
+        "mid": "002BwY972nF0G2",
+        "name": "星塔旅人 - 游戏原声带 Vol.2",
+        "time_public": "2026-05-15"
+      },
+      "publish_date": "2026-05-15",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/000Vw4R326r8Pg",
+      "media_mid": "000Vw4R326r8Pg",
+      "expected_mp3_bytes": 2209172,
+      "play_requires_payment": false
+    },
+    {
+      "id": 664661608,
+      "mid": "004UAnZQ0lNGdz",
+      "title": "冻冻王Ⅲ世",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 123,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 22806213,
+          "mid": "003MxiwS3NykmT",
+          "name": "dDedalus"
+        }
+      ],
+      "album": {
+        "id": 92055817,
+        "mid": "002BwY972nF0G2",
+        "name": "星塔旅人 - 游戏原声带 Vol.2",
+        "time_public": "2026-05-15"
+      },
+      "publish_date": "2026-05-15",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/004UAnZQ0lNGdz",
+      "media_mid": "004UAnZQ0lNGdz",
+      "expected_mp3_bytes": 1983046,
+      "play_requires_payment": false
+    },
+    {
+      "id": 664661607,
+      "mid": "000X8Gsh3N8r8i",
+      "title": "腐朽之谵妄",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 104,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 2855350,
+          "mid": "000izEVB1NogxY",
+          "name": "Estimate, LLC."
+        }
+      ],
+      "album": {
+        "id": 92055817,
+        "mid": "002BwY972nF0G2",
+        "name": "星塔旅人 - 游戏原声带 Vol.2",
+        "time_public": "2026-05-15"
+      },
+      "publish_date": "2026-05-15",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/000X8Gsh3N8r8i",
+      "media_mid": "000X8Gsh3N8r8i",
+      "expected_mp3_bytes": 1668753,
+      "play_requires_payment": false
+    },
+    {
+      "id": 664661588,
+      "mid": "003i0VSj3pY5j4",
+      "title": "怪诞舞者",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 97,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 22806213,
+          "mid": "003MxiwS3NykmT",
+          "name": "dDedalus"
+        }
+      ],
+      "album": {
+        "id": 92055817,
+        "mid": "002BwY972nF0G2",
+        "name": "星塔旅人 - 游戏原声带 Vol.2",
+        "time_public": "2026-05-15"
+      },
+      "publish_date": "2026-05-15",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/003i0VSj3pY5j4",
+      "media_mid": "003i0VSj3pY5j4",
+      "expected_mp3_bytes": 1561323,
+      "play_requires_payment": false
+    },
+    {
+      "id": 658431661,
+      "mid": "000odGWH43KyfW",
+      "title": "Toward the light",
+      "subtitle": "",
+      "duration_seconds": 214,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        }
+      ],
+      "album": {
+        "id": 90241101,
+        "mid": "002ez6jc3eiJoA",
+        "name": "Toward the light",
+        "time_public": "2026-04-22"
+      },
+      "publish_date": "2026-04-22",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/000odGWH43KyfW",
+      "media_mid": "000odGWH43KyfW",
+      "expected_mp3_bytes": 3430021,
+      "play_requires_payment": false
+    },
+    {
+      "id": 657501900,
+      "mid": "0049wPBl3CyYsD",
+      "title": "Stream or Scream! (Instrumental)",
+      "subtitle": "",
+      "duration_seconds": 175,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 3194042,
+          "mid": "00490Y9l0H2H2d",
+          "name": "Redux"
+        },
+        {
+          "id": 16108637,
+          "mid": "002ckL8Y0quqcZ",
+          "name": "VISION SOUND"
+        }
+      ],
+      "album": {
+        "id": 89935952,
+        "mid": "001cqYs02yH6MM",
+        "name": "Stream or Scream!",
+        "time_public": "2026-04-18"
+      },
+      "publish_date": "2026-04-18",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/0049wPBl3CyYsD",
+      "media_mid": "0049wPBl3CyYsD",
+      "expected_mp3_bytes": 2812733,
+      "play_requires_payment": false
+    },
+    {
+      "id": 657186445,
+      "mid": "003RHZVA1nsLKB",
+      "title": "星光的印记",
+      "subtitle": "《星塔旅人》中文纪念曲",
+      "duration_seconds": 217,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 1154610,
+          "mid": "003z8jah4VjPco",
+          "name": "佐々木李子"
+        }
+      ],
+      "album": {
+        "id": 89849372,
+        "mid": "003BzJoR0s7uCQ",
+        "name": "星光的印记",
+        "time_public": "2026-04-17"
+      },
+      "publish_date": "2026-04-17",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/003RHZVA1nsLKB",
+      "media_mid": "003RHZVA1nsLKB",
+      "expected_mp3_bytes": 3478042,
+      "play_requires_payment": false
+    },
+    {
+      "id": 657184957,
+      "mid": "004824Qp23YyLn",
+      "title": "星光的印记 (伴奏)",
+      "subtitle": "",
+      "duration_seconds": 216,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 1154610,
+          "mid": "003z8jah4VjPco",
+          "name": "佐々木李子"
+        }
+      ],
+      "album": {
+        "id": 89849372,
+        "mid": "003BzJoR0s7uCQ",
+        "name": "星光的印记",
+        "time_public": "2026-04-17"
+      },
+      "publish_date": "2026-04-17",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/004824Qp23YyLn",
+      "media_mid": "004824Qp23YyLn",
+      "expected_mp3_bytes": 3460488,
+      "play_requires_payment": false
+    },
+    {
+      "id": 655721304,
+      "mid": "001BQXgT1ijmDO",
+      "title": "荒野的呼吸",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 193,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        }
+      ],
+      "album": {
+        "id": 89417087,
+        "mid": "000q7f0C0bQyWx",
+        "name": "星塔旅人 - 游戏原声带 Vol.1",
+        "time_public": "2026-04-11"
+      },
+      "publish_date": "2026-04-11",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/001BQXgT1ijmDO",
+      "media_mid": "001BQXgT1ijmDO",
+      "expected_mp3_bytes": 3097307,
+      "play_requires_payment": false
+    },
+    {
+      "id": 655721259,
+      "mid": "0019rSnO2MVdFm",
+      "title": "惑心的蜜语",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 160,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        }
+      ],
+      "album": {
+        "id": 89417087,
+        "mid": "000q7f0C0bQyWx",
+        "name": "星塔旅人 - 游戏原声带 Vol.1",
+        "time_public": "2026-04-11"
+      },
+      "publish_date": "2026-04-11",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/0019rSnO2MVdFm",
+      "media_mid": "0019rSnO2MVdFm",
+      "expected_mp3_bytes": 2561065,
+      "play_requires_payment": false
+    },
+    {
+      "id": 655721182,
+      "mid": "004GsoLM4Z937h",
+      "title": "琳琅满目",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 142,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        },
+        {
+          "id": 16108637,
+          "mid": "002ckL8Y0quqcZ",
+          "name": "VISION SOUND"
+        }
+      ],
+      "album": {
+        "id": 89417087,
+        "mid": "000q7f0C0bQyWx",
+        "name": "星塔旅人 - 游戏原声带 Vol.1",
+        "time_public": "2026-04-11"
+      },
+      "publish_date": "2026-04-11",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/004GsoLM4Z937h",
+      "media_mid": "004GsoLM4Z937h",
+      "expected_mp3_bytes": 2287744,
+      "play_requires_payment": false
+    },
+    {
+      "id": 655721154,
+      "mid": "004a3kly4XiKth",
+      "title": "灾厄的异动",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 121,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        }
+      ],
+      "album": {
+        "id": 89417087,
+        "mid": "000q7f0C0bQyWx",
+        "name": "星塔旅人 - 游戏原声带 Vol.1",
+        "time_public": "2026-04-11"
+      },
+      "publish_date": "2026-04-11",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/004a3kly4XiKth",
+      "media_mid": "004a3kly4XiKth",
+      "expected_mp3_bytes": 1950009,
+      "play_requires_payment": false
+    },
+    {
+      "id": 655721126,
+      "mid": "004gT4ax0GbTvG",
+      "title": "莉莉贝尔的疗愈屋",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 119,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        }
+      ],
+      "album": {
+        "id": 89417087,
+        "mid": "000q7f0C0bQyWx",
+        "name": "星塔旅人 - 游戏原声带 Vol.1",
+        "time_public": "2026-04-11"
+      },
+      "publish_date": "2026-04-11",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/004gT4ax0GbTvG",
+      "media_mid": "004gT4ax0GbTvG",
+      "expected_mp3_bytes": 1906965,
+      "play_requires_payment": false
+    },
+    {
+      "id": 655721096,
+      "mid": "000OtnMi2WCXn1",
+      "title": "梦的开幕",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 152,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        }
+      ],
+      "album": {
+        "id": 89417087,
+        "mid": "000q7f0C0bQyWx",
+        "name": "星塔旅人 - 游戏原声带 Vol.1",
+        "time_public": "2026-04-11"
+      },
+      "publish_date": "2026-04-11",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/000OtnMi2WCXn1",
+      "media_mid": "000OtnMi2WCXn1",
+      "expected_mp3_bytes": 2439437,
+      "play_requires_payment": false
+    },
+    {
+      "id": 655721093,
+      "mid": "004TZgWs2dLORf",
+      "title": "旅人的歌谣",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 151,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        }
+      ],
+      "album": {
+        "id": 89417087,
+        "mid": "000q7f0C0bQyWx",
+        "name": "星塔旅人 - 游戏原声带 Vol.1",
+        "time_public": "2026-04-11"
+      },
+      "publish_date": "2026-04-11",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/004TZgWs2dLORf",
+      "media_mid": "004TZgWs2dLORf",
+      "expected_mp3_bytes": 2417288,
+      "play_requires_payment": false
+    },
+    {
+      "id": 655721064,
+      "mid": "001Ciqky4F8bSc",
+      "title": "终焉绝响 - 剧院魅影",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 96,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        }
+      ],
+      "album": {
+        "id": 89417087,
+        "mid": "000q7f0C0bQyWx",
+        "name": "星塔旅人 - 游戏原声带 Vol.1",
+        "time_public": "2026-04-11"
+      },
+      "publish_date": "2026-04-11",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/001Ciqky4F8bSc",
+      "media_mid": "001Ciqky4F8bSc",
+      "expected_mp3_bytes": 1549616,
+      "play_requires_payment": false
+    },
+    {
+      "id": 655721063,
+      "mid": "000Nhu510X7EdR",
+      "title": "甜心梦工坊",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 85,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        }
+      ],
+      "album": {
+        "id": 89417087,
+        "mid": "000q7f0C0bQyWx",
+        "name": "星塔旅人 - 游戏原声带 Vol.1",
+        "time_public": "2026-04-11"
+      },
+      "publish_date": "2026-04-11",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/000Nhu510X7EdR",
+      "media_mid": "000Nhu510X7EdR",
+      "expected_mp3_bytes": 1361105,
+      "play_requires_payment": false
+    },
+    {
+      "id": 655720965,
+      "mid": "0031927n3eFxvj",
+      "title": "星塔的召唤",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 94,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        }
+      ],
+      "album": {
+        "id": 89417087,
+        "mid": "000q7f0C0bQyWx",
+        "name": "星塔旅人 - 游戏原声带 Vol.1",
+        "time_public": "2026-04-11"
+      },
+      "publish_date": "2026-04-11",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/0031927n3eFxvj",
+      "media_mid": "0031927n3eFxvj",
+      "expected_mp3_bytes": 1510734,
+      "play_requires_payment": false
+    },
+    {
+      "id": 655720915,
+      "mid": "001l29vq45gRYR",
+      "title": "游棋保卫战",
+      "subtitle": "《星塔旅人》游戏原声",
+      "duration_seconds": 88,
+      "artists": [
+        {
+          "id": 22913544,
+          "mid": "001Rt7AK0ImjcV",
+          "name": "星塔唱片"
+        }
+      ],
+      "album": {
+        "id": 89417087,
+        "mid": "000q7f0C0bQyWx",
+        "name": "星塔旅人 - 游戏原声带 Vol.1",
+        "time_public": "2026-04-11"
+      },
+      "publish_date": "2026-04-11",
+      "url": "https://y.qq.com/n/ryqq_v2/songDetail/001l29vq45gRYR",
+      "media_mid": "001l29vq45gRYR",
+      "expected_mp3_bytes": 1417111,
+      "play_requires_payment": false
+    }
+  ]
+}

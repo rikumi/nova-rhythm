@@ -8,15 +8,18 @@ export interface Music {
   duration_seconds: number;
   loop: { start: number; end: number } | null;
   content_id?: string; shared_uses?: string[];
+  display_title?: string;
 }
 export interface MusicGroup {
   id: string; name: string; date: string; track_ids: string[];
   description?: string;
+  before_group?: string;
   outfit_references?: { outfit_id: number; name: string; cover: string; content_ids: string[] }[];
 }
 export interface LibraryMusic extends Music {
   group_id: string; source_title: string; route_ids: string[];
   description?: string;
+  legacy_ids?: string[];
   uses: string[]; aliases: string[];
 }
 export interface CardLayer {

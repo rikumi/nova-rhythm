@@ -14,8 +14,11 @@ const fixture = { schema_version: 1, groups: [
 test('editable mapping preserves the current reviewed library', () => {
   const result = resolveStoryLibrary(mapping, metadata);
   assert.equal(result.tracks.length, mapping.groups.reduce((n, g) => n+g.tracks.length, 0));
-  const ordered = [...mapping.groups].sort((a, b) => (b.date || '').localeCompare(a.date || ''));
-  assert.deepEqual(result.groups.map(g => g.id), ordered.map(g => g.id));
+  assert.deepEqual(new Set(result.groups.map(g => g.id)), new Set(mapping.groups.map(g => g.id)));
+  for (const group of mapping.groups.filter(g => g.before_group)) {
+    const anchor = result.groups.findIndex(g => g.id === group.before_group);
+    if (anchor >= 0) assert.ok(result.groups.findIndex(g => g.id === group.id) < anchor);
+  }
   for (const group of result.groups) {
     const entries = mapping.groups.find(g => g.id === group.id).tracks;
     assert.deepEqual(group.track_ids, entries.map(t => t.id || metadata.tracks.find(m => m.path === t.file)?.id || t.file));

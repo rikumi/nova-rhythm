@@ -12,6 +12,7 @@ interface StoryGroup {
   date?: string;
   description?: string;
   outfit_references?: MusicGroup['outfit_references'];
+  before_group?: string;
   tracks?: StoryTrack[];
 }
 export interface StoryMapping {
@@ -21,6 +22,23 @@ export interface StoryMapping {
 export interface StoryLibrary {
   groups: MusicGroup[];
   tracks: LibraryMusic[];
+}
+
+export function orderLibraryGroups(groups: MusicGroup[]): MusicGroup[] {
+  const byId = new Map(groups.map(group => [group.id, group]));
+  const result: MusicGroup[] = [], seen = new Set<string>(), visiting = new Set<string>();
+  const emit = (group: MusicGroup) => {
+    if (visiting.has(group.id)) throw new Error('分类排序关系存在循环');
+    if (seen.has(group.id)) return;
+    visiting.add(group.id);
+    for (const child of groups.filter(candidate => candidate.before_group === group.id)) emit(child);
+    visiting.delete(group.id); seen.add(group.id); result.push(group);
+  };
+  for (const group of [...groups].sort((a, b) => b.date.localeCompare(a.date))) {
+    if (!group.before_group || !byId.has(group.before_group)) emit(group);
+  }
+  for (const group of groups) emit(group);
+  return result;
 }
 
 /** The editable mapping controls membership, names, dates and display order. */
@@ -33,7 +51,7 @@ export function resolveStoryLibrary(mapping: StoryMapping, metadata: { tracks?: 
     if (!raw.id || !raw.name || groupIds.has(raw.id)) throw new Error(`故事集编号缺失或重复：${raw.id || ''}`);
     if (raw.date && !/^\d{4}-\d{2}-\d{2}(?:T.*)?$/.test(raw.date)) throw new Error(`故事集日期格式错误：${raw.name}`);
     groupIds.add(raw.id);
-    const group: MusicGroup = { id: raw.id, name: raw.name, date: raw.date || '', description: raw.description,
+    const group: MusicGroup = { id: raw.id, name: raw.name, date: raw.date || '', description: raw.description, before_group: raw.before_group,
       track_ids: [], outfit_references: raw.outfit_references || [] };
     for (const entry of raw.tracks || []) {
       if (!entry.file || !(entry.file.startsWith('/') || entry.file.startsWith('https://')) || entry.file.startsWith('//') || entry.file.split('/').includes('..')) throw new Error(`音频文件路径错误：${entry.file || ''}`);
@@ -48,6 +66,6 @@ export function resolveStoryLibrary(mapping: StoryMapping, metadata: { tracks?: 
       group.track_ids.push(id);
     }
     return group;
-  }).sort((a, b) => b.date.localeCompare(a.date));
-  return { groups, tracks };
+  });
+  return { groups: orderLibraryGroups(groups), tracks };
 }
