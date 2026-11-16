@@ -2,6 +2,7 @@
 import datetime
 import json
 import shutil
+import shlex
 import subprocess
 import time
 from pathlib import Path
@@ -83,7 +84,7 @@ def publish(batch):
     paths=['public/data/experimental-layering.json','references/experimental-layering-results.json']
     subprocess.run(['git','add','--',*paths],cwd=ROOT,check=True)
     subprocess.run(['git','commit','--only','-m','Publish experimental Qwen layers for static outfits','--',*paths],cwd=ROOT,check=True)
-    helper='!'+str(Path(gh).resolve()).replace('\\','/')+' auth git-credential'
+    helper='!'+shlex.quote(str(Path(gh).resolve()).replace('\\','/'))+' auth git-credential'
     subprocess.run(['git','-c','credential.helper=','-c','credential.helper='+helper,'push','origin','main'],cwd=ROOT,check=True)
     sha=subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT,text=True).strip()
     write(batch.batch/'publication.json',{'tag':tag,'releaseUrl':manifest['releaseUrl'],'commit':sha,'asset_count':len(assets),'verified':True})
