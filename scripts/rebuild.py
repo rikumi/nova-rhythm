@@ -507,6 +507,10 @@ def main():
         if encoded_count % 25 == 0:
             print(f'Encoded or verified {encoded_count}/{len(published)} audio files', flush=True)
     errors.extend(extract_new_art(outfits, game, work, output))
+    from apply_artwork_patches import apply_patches
+    artwork_patches = apply_patches(outfits, game, output, work/'patched-originals', apply=True)
+    write(work/'artwork-patches.json', artwork_patches)
+    errors.extend(artwork_patches['errors'])
     for track in library['tracks']:
         if track['id'] in published or track['path'].startswith('https://'):
             continue

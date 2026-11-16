@@ -26,9 +26,13 @@
     AssetBundles/
       audio.unity3d
       disc_*.unity3d
+  Patch_Store/AssetBundles/         # 可选，游戏已下载的替换素材
+    disc_*.unity3d
 ```
 
 重建入口读取两套现有解包 TXTP，并补充仓库中冻结的缺失状态配方；它不负责下载安装游戏或自动解密所有版本的配置表。原始 BNK 没有解包成 TXTP 时，需先用 [wwiser](https://github.com/bnnm/wwiser) 在游戏目录以外生成配方，或参考本仓库提供的配方。
+
+已安装的秘纹补丁会在导出后只读核对并应用，比较记录和单独更新方法见[秘纹补丁素材](artwork-patches.md)。
 
 ```powershell
 python -m venv .venv
