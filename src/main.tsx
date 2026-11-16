@@ -129,9 +129,9 @@ function Card({ outfit, full = false, onExpand }: { outfit: Outfit; full?: boole
     if(next===undefined || !readyLayers.has(next) || startedLayers<visibleLayers)return;
     const timer=window.setTimeout(()=>{
       setVisibleLayers(count=>count+1);
-    },Math.max(0,20-(performance.now()-lastReveal.current)));
+    },Math.max(0,500/total-(performance.now()-lastReveal.current)));
     return ()=>window.clearTimeout(timer);
-  },[readyLayers,visibleLayers,startedLayers,revealOrder]);
+  },[readyLayers,visibleLayers,startedLayers,revealOrder,total]);
   useEffect(() => {
     const preference = window.matchMedia('(prefers-reduced-motion: reduce)');
     const updatePreference = () => { reduced.current = preference.matches; };
