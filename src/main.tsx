@@ -129,7 +129,7 @@ function Card({ outfit, full = false, onExpand }: { outfit: Outfit; full?: boole
     if(next===undefined || !readyLayers.has(next) || startedLayers<visibleLayers)return;
     const timer=window.setTimeout(()=>{
       setVisibleLayers(count=>count+1);
-    },Math.max(0,500/total-(performance.now()-lastReveal.current)));
+    },Math.max(0,200/total-(performance.now()-lastReveal.current)));
     return ()=>window.clearTimeout(timer);
   },[readyLayers,visibleLayers,startedLayers,revealOrder,total]);
   useEffect(() => {
