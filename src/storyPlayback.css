@@ -1,6 +1,11 @@
 .library-playback .story-playback-buttons{display:flex;align-items:center;gap:10px;flex-shrink:0}
 .library-group-heading{display:flex;align-items:center;gap:10px;flex:1;min-width:0}
 .library-group-heading>strong{min-width:0;font-size:18px;line-height:1.5}
+.music-title-line{display:block;min-width:0}
+.music-subtitle{display:block;margin-top:3px;font-size:12px;font-weight:400;line-height:1.5;color:#b8d2e9;white-space:normal}
+.library-track.selected .music-subtitle{color:#52738b}
+.library-playback.story-player>strong:has(.music-subtitle){white-space:normal}
+.library-playback.story-player .music-title-line,.transport-meta .music-title-line,.transport-meta .music-subtitle{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .library-group-kind{display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;min-width:42px;padding:3px 7px;border:1px solid #b3deed66;border-radius:8px;background:#a8dce91a;color:#d1eff7;font-size:12px;font-weight:500;line-height:1.5;white-space:nowrap}
 .library-group.is-open>.library-group-toggle .library-group-kind{color:#294976;border-color:#638caf80;background:#d1e5ef}
 .library-playback .story-playback-buttons .icon-button{flex-shrink:0}

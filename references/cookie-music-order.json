@@ -1,0 +1,1334 @@
+{
+  "basis": "Wwise system cookie/cookie2/cookie3/cookie4 and cookie_bpmNN; CookieBoardCtrl.GetSwitchBoxSoundEvent and CookieFloor.RhythmlTime.",
+  "policy": "Shared menu first, then variants 1–4, each with start, ascending BPM and free/end; identical audio used by multiple states remains a single cue.",
+  "entries": [
+    {
+      "id": "audio-b53e80251291025656ee88e6bc8f0b037ccccbf9f54c53428833aef85552a777",
+      "file": "/audio/audio-b53e80251291025656ee88e6bc8f0b037ccccbf9f54c53428833aef85552a777.opus",
+      "name": "甜心梦工坊",
+      "sort_key": [
+        0,
+        -1,
+        0
+      ],
+      "states": [
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 2245481451,
+          "value": "cookie",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 2245481451,
+          "value": "cookie",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 2245481451,
+          "value": "cookie",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2245481451,
+          "group": "cookie",
+          "value_id": 748895195,
+          "value": "None",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 2633571011,
+          "value": "cookie2",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2245481451,
+          "group": "cookie",
+          "value_id": 748895195,
+          "value": "None",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 2633571013,
+          "value": "cookie4",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2245481451,
+          "group": "cookie",
+          "value_id": 748895195,
+          "value": "None",
+          "name_evidence": "local audio.unity3d"
+        }
+      ]
+    },
+    {
+      "id": "audio-b20afce217bfbc5f6a2862ec6a3517c0668985a16d216093f209cca54f1f0664",
+      "file": "/audio/audio-b20afce217bfbc5f6a2862ec6a3517c0668985a16d216093f209cca54f1f0664.opus",
+      "name": "甜心梦工坊 · 开始",
+      "sort_key": [
+        1,
+        0,
+        0
+      ],
+      "states": [
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 2245481451,
+          "value": "cookie",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2245481451,
+          "group": "cookie",
+          "value_id": 1628499686,
+          "value": "cookie_start",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 2245481451,
+          "value": "cookie",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2245481451,
+          "group": "cookie",
+          "value_id": 1628499686,
+          "value": "cookie_start",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 328030455,
+          "value": "cookietrans",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2245481451,
+          "group": "cookie",
+          "value_id": 1628499686,
+          "value": "cookie_start",
+          "name_evidence": "local audio.unity3d"
+        }
+      ]
+    },
+    {
+      "id": "audio-6412631b3250104ff502a87d03489aad98411e5acbec46019ef4e0338f56a4f2",
+      "file": "/audio/audio-6412631b3250104ff502a87d03489aad98411e5acbec46019ef4e0338f56a4f2.opus",
+      "name": "甜心梦工坊 · 每分钟40拍",
+      "sort_key": [
+        1,
+        1,
+        40
+      ],
+      "states": [
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 2245481451,
+          "value": "cookie",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2245481451,
+          "group": "cookie",
+          "value_id": 353868433,
+          "value": "cookie_bpm40",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 2245481451,
+          "value": "cookie",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2245481451,
+          "group": "cookie",
+          "value_id": 353868433,
+          "value": "cookie_bpm40",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 328030455,
+          "value": "cookietrans",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2245481451,
+          "group": "cookie",
+          "value_id": 353868433,
+          "value": "cookie_bpm40",
+          "name_evidence": "local audio.unity3d"
+        }
+      ]
+    },
+    {
+      "id": "audio-90a204e7fbe90abd9dce9357beee84a7daca7b4c2c4b68187c7b804ee35b5d85",
+      "file": "/audio/audio-90a204e7fbe90abd9dce9357beee84a7daca7b4c2c4b68187c7b804ee35b5d85.opus",
+      "name": "甜心梦工坊 · 每分钟60拍",
+      "sort_key": [
+        1,
+        1,
+        60
+      ],
+      "states": [
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 2245481451,
+          "value": "cookie",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2245481451,
+          "group": "cookie",
+          "value_id": 320313163,
+          "value": "cookie_bpm60",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 2245481451,
+          "value": "cookie",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2245481451,
+          "group": "cookie",
+          "value_id": 320313163,
+          "value": "cookie_bpm60",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 328030455,
+          "value": "cookietrans",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2245481451,
+          "group": "cookie",
+          "value_id": 320313163,
+          "value": "cookie_bpm60",
+          "name_evidence": "local audio.unity3d"
+        }
+      ]
+    },
+    {
+      "id": "audio-102ae24076b8f313aada3e552627edd91d418cde33c70e77bc2091aa543efeaa",
+      "file": "/audio/audio-102ae24076b8f313aada3e552627edd91d418cde33c70e77bc2091aa543efeaa.opus",
+      "name": "甜心梦工坊 · 每分钟65拍",
+      "sort_key": [
+        1,
+        1,
+        65
+      ],
+      "states": [
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 2245481451,
+          "value": "cookie",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2245481451,
+          "group": "cookie",
+          "value_id": 320313166,
+          "value": "cookie_bpm65",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 2245481451,
+          "value": "cookie",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2245481451,
+          "group": "cookie",
+          "value_id": 320313166,
+          "value": "cookie_bpm65",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 328030455,
+          "value": "cookietrans",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2245481451,
+          "group": "cookie",
+          "value_id": 320313166,
+          "value": "cookie_bpm65",
+          "name_evidence": "local audio.unity3d"
+        }
+      ]
+    },
+    {
+      "id": "audio-68b5ec41a88512eb71549e00bb1104c6b85bb28236e29721fb3b73432c17ed53",
+      "file": "/audio/audio-68b5ec41a88512eb71549e00bb1104c6b85bb28236e29721fb3b73432c17ed53.opus",
+      "name": "甜心梦工坊 · 每分钟68拍",
+      "sort_key": [
+        1,
+        1,
+        68
+      ],
+      "states": [
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 2245481451,
+          "value": "cookie",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2245481451,
+          "group": "cookie",
+          "value_id": 320313155,
+          "value": "cookie_bpm68",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 2245481451,
+          "value": "cookie",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2245481451,
+          "group": "cookie",
+          "value_id": 320313155,
+          "value": "cookie_bpm68",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 328030455,
+          "value": "cookietrans",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2245481451,
+          "group": "cookie",
+          "value_id": 320313155,
+          "value": "cookie_bpm68",
+          "name_evidence": "local audio.unity3d"
+        }
+      ]
+    },
+    {
+      "id": "audio-569ad2e75c5af97e2f054eec92753eb3fb2f28464760de81cb3897348a9787b6",
+      "file": "/audio/audio-569ad2e75c5af97e2f054eec92753eb3fb2f28464760de81cb3897348a9787b6.opus",
+      "name": "甜心梦工坊 · 每分钟75拍",
+      "sort_key": [
+        1,
+        1,
+        75
+      ],
+      "states": [
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 2245481451,
+          "value": "cookie",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2245481451,
+          "group": "cookie",
+          "value_id": 303535581,
+          "value": "cookie_bpm75",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 2245481451,
+          "value": "cookie",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2245481451,
+          "group": "cookie",
+          "value_id": 303535581,
+          "value": "cookie_bpm75",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 328030455,
+          "value": "cookietrans",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2245481451,
+          "group": "cookie",
+          "value_id": 303535581,
+          "value": "cookie_bpm75",
+          "name_evidence": "local audio.unity3d"
+        }
+      ]
+    },
+    {
+      "id": "audio-5bd4da07535a262b393c0c374f37be3bf7abb3a3bba19c1cf67bb0a0e348d622",
+      "file": "/audio/audio-5bd4da07535a262b393c0c374f37be3bf7abb3a3bba19c1cf67bb0a0e348d622.opus",
+      "name": "甜心梦工坊 · 自由演奏",
+      "sort_key": [
+        1,
+        2,
+        0
+      ],
+      "states": [
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 2245481451,
+          "value": "cookie",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2245481451,
+          "group": "cookie",
+          "value_id": 663531552,
+          "value": "cookie_free",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 2245481451,
+          "value": "cookie",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2245481451,
+          "group": "cookie",
+          "value_id": 663531552,
+          "value": "cookie_free",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 328030455,
+          "value": "cookietrans",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2245481451,
+          "group": "cookie",
+          "value_id": 663531552,
+          "value": "cookie_free",
+          "name_evidence": "local audio.unity3d"
+        }
+      ]
+    },
+    {
+      "id": "audio-cc7aa6cb3c730500cbb11b47e96f7cc2095e549f3092c91240dc1889c3fca960",
+      "file": "/audio/audio-cc7aa6cb3c730500cbb11b47e96f7cc2095e549f3092c91240dc1889c3fca960.opus",
+      "name": "甜心梦工坊-变体2 · 开始",
+      "sort_key": [
+        2,
+        0,
+        0
+      ],
+      "states": [
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 2633571011,
+          "value": "cookie2",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2245481451,
+          "group": "cookie",
+          "value_id": 1628499686,
+          "value": "cookie_start",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 2633571011,
+          "value": "cookie2",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2245481451,
+          "group": "cookie",
+          "value_id": 1628499686,
+          "value": "cookie_start",
+          "name_evidence": "local audio.unity3d"
+        }
+      ]
+    },
+    {
+      "id": "audio-b96898ac7a94efd735c8e8007b971409c583cb6f1ffc88fbb0e3024638ff0447",
+      "file": "/audio/audio-b96898ac7a94efd735c8e8007b971409c583cb6f1ffc88fbb0e3024638ff0447.opus",
+      "name": "甜心梦工坊-变体2 · 每分钟40拍",
+      "sort_key": [
+        2,
+        1,
+        40
+      ],
+      "states": [
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 2633571011,
+          "value": "cookie2",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2245481451,
+          "group": "cookie",
+          "value_id": 353868433,
+          "value": "cookie_bpm40",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 2633571011,
+          "value": "cookie2",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2245481451,
+          "group": "cookie",
+          "value_id": 353868433,
+          "value": "cookie_bpm40",
+          "name_evidence": "local audio.unity3d"
+        }
+      ]
+    },
+    {
+      "id": "audio-ad7c4f3106b652198343af7f2a577668d5bb9c7695f98694c3e92dc0179b3c01",
+      "file": "/audio/audio-ad7c4f3106b652198343af7f2a577668d5bb9c7695f98694c3e92dc0179b3c01.opus",
+      "name": "甜心梦工坊-变体2 · 每分钟50拍",
+      "sort_key": [
+        2,
+        1,
+        50
+      ],
+      "states": [
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 2633571011,
+          "value": "cookie2",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2245481451,
+          "group": "cookie",
+          "value_id": 337090878,
+          "value": "cookie_bpm50",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 2633571011,
+          "value": "cookie2",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2245481451,
+          "group": "cookie",
+          "value_id": 337090878,
+          "value": "cookie_bpm50",
+          "name_evidence": "local audio.unity3d"
+        }
+      ]
+    },
+    {
+      "id": "audio-4148ea1b453bcaca2e3de2a8dd81116dca40361608d0f06ec43f526647be1093",
+      "file": "/audio/audio-4148ea1b453bcaca2e3de2a8dd81116dca40361608d0f06ec43f526647be1093.opus",
+      "name": "甜心梦工坊-变体2 · 每分钟60拍",
+      "sort_key": [
+        2,
+        1,
+        60
+      ],
+      "states": [
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 2633571011,
+          "value": "cookie2",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2245481451,
+          "group": "cookie",
+          "value_id": 320313163,
+          "value": "cookie_bpm60",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 2633571011,
+          "value": "cookie2",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2245481451,
+          "group": "cookie",
+          "value_id": 320313163,
+          "value": "cookie_bpm60",
+          "name_evidence": "local audio.unity3d"
+        }
+      ]
+    },
+    {
+      "id": "audio-6b1ffacf317ddaf31db0e6e47e28a36f7c27f0163e1881d10884a0dbf23af84a",
+      "file": "/audio/audio-6b1ffacf317ddaf31db0e6e47e28a36f7c27f0163e1881d10884a0dbf23af84a.opus",
+      "name": "甜心梦工坊-变体2 · 每分钟68拍",
+      "sort_key": [
+        2,
+        1,
+        68
+      ],
+      "states": [
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 2633571011,
+          "value": "cookie2",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2245481451,
+          "group": "cookie",
+          "value_id": 320313155,
+          "value": "cookie_bpm68",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 2633571011,
+          "value": "cookie2",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2245481451,
+          "group": "cookie",
+          "value_id": 320313155,
+          "value": "cookie_bpm68",
+          "name_evidence": "local audio.unity3d"
+        }
+      ]
+    },
+    {
+      "id": "audio-c48fa7df057632af3ec593c775d1f5758ad498ecb22ba55a1f7f8778d91bf61e",
+      "file": "/audio/audio-c48fa7df057632af3ec593c775d1f5758ad498ecb22ba55a1f7f8778d91bf61e.opus",
+      "name": "甜心梦工坊-变体2 · 每分钟75拍",
+      "sort_key": [
+        2,
+        1,
+        75
+      ],
+      "states": [
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 2633571011,
+          "value": "cookie2",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2245481451,
+          "group": "cookie",
+          "value_id": 303535581,
+          "value": "cookie_bpm75",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 2633571011,
+          "value": "cookie2",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2245481451,
+          "group": "cookie",
+          "value_id": 303535581,
+          "value": "cookie_bpm75",
+          "name_evidence": "local audio.unity3d"
+        }
+      ]
+    },
+    {
+      "id": "audio-d489981dcfd007b25d61b5a5cd7f3ee2dbe1211a42744725419255956fec9946",
+      "file": "/audio/audio-d489981dcfd007b25d61b5a5cd7f3ee2dbe1211a42744725419255956fec9946.opus",
+      "name": "甜心梦工坊-变体2 · 自由演奏",
+      "sort_key": [
+        2,
+        2,
+        0
+      ],
+      "states": [
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 2633571011,
+          "value": "cookie2",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2245481451,
+          "group": "cookie",
+          "value_id": 663531552,
+          "value": "cookie_free",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 2633571011,
+          "value": "cookie2",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2245481451,
+          "group": "cookie",
+          "value_id": 663531552,
+          "value": "cookie_free",
+          "name_evidence": "local audio.unity3d"
+        }
+      ]
+    },
+    {
+      "id": "audio-bb2e77853f38145249b3d1467f1bd885dc478a1f1335648acbc8fa518a1bca03",
+      "file": "/audio/audio-bb2e77853f38145249b3d1467f1bd885dc478a1f1335648acbc8fa518a1bca03.opus",
+      "name": "甜心梦工坊-变体3 · 开始",
+      "sort_key": [
+        3,
+        0,
+        0
+      ],
+      "states": [
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 2633571010,
+          "value": "cookie3",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2245481451,
+          "group": "cookie",
+          "value_id": 1628499686,
+          "value": "cookie_start",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 2633571010,
+          "value": "cookie3",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2245481451,
+          "group": "cookie",
+          "value_id": 1628499686,
+          "value": "cookie_start",
+          "name_evidence": "local audio.unity3d"
+        }
+      ]
+    },
+    {
+      "id": "audio-bce1f182e758bef31c738c09df3d276ace0c21df8b616b55334231dbff01f5c6",
+      "file": "/audio/audio-bce1f182e758bef31c738c09df3d276ace0c21df8b616b55334231dbff01f5c6.opus",
+      "name": "甜心梦工坊-变体3 · 每分钟40拍",
+      "sort_key": [
+        3,
+        1,
+        40
+      ],
+      "states": [
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 2633571010,
+          "value": "cookie3",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2245481451,
+          "group": "cookie",
+          "value_id": 353868433,
+          "value": "cookie_bpm40",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 2633571010,
+          "value": "cookie3",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2245481451,
+          "group": "cookie",
+          "value_id": 353868433,
+          "value": "cookie_bpm40",
+          "name_evidence": "local audio.unity3d"
+        }
+      ]
+    },
+    {
+      "id": "audio-023732d501a08dc5346cbd70291211b3334d8fb6c9e83d89ad73804f09e34a06",
+      "file": "/audio/audio-023732d501a08dc5346cbd70291211b3334d8fb6c9e83d89ad73804f09e34a06.opus",
+      "name": "甜心梦工坊-变体3 · 每分钟50拍",
+      "sort_key": [
+        3,
+        1,
+        50
+      ],
+      "states": [
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 2633571010,
+          "value": "cookie3",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2245481451,
+          "group": "cookie",
+          "value_id": 337090878,
+          "value": "cookie_bpm50",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 2633571010,
+          "value": "cookie3",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2245481451,
+          "group": "cookie",
+          "value_id": 337090878,
+          "value": "cookie_bpm50",
+          "name_evidence": "local audio.unity3d"
+        }
+      ]
+    },
+    {
+      "id": "audio-f4f2bab1011b1feaf30118e79036962969cea79754649e748c851a0b1c273cac",
+      "file": "/audio/audio-f4f2bab1011b1feaf30118e79036962969cea79754649e748c851a0b1c273cac.opus",
+      "name": "甜心梦工坊-变体3",
+      "sort_key": [
+        3,
+        1,
+        60
+      ],
+      "states": [
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 2633571010,
+          "value": "cookie3",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2245481451,
+          "group": "cookie",
+          "value_id": 320313163,
+          "value": "cookie_bpm60",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 2633571010,
+          "value": "cookie3",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2245481451,
+          "group": "cookie",
+          "value_id": 320313163,
+          "value": "cookie_bpm60",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 2633571010,
+          "value": "cookie3",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2245481451,
+          "group": "cookie",
+          "value_id": 437616493,
+          "value": "cookie_end",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 2633571010,
+          "value": "cookie3",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2245481451,
+          "group": "cookie",
+          "value_id": 663531552,
+          "value": "cookie_free",
+          "name_evidence": "local audio.unity3d"
+        }
+      ]
+    },
+    {
+      "id": "audio-59878827251ca4d5db1956669724b87108b5350212190ba3285ce6125c38535f",
+      "file": "/audio/audio-59878827251ca4d5db1956669724b87108b5350212190ba3285ce6125c38535f.opus",
+      "name": "甜心梦工坊-变体3 · 每分钟68拍",
+      "sort_key": [
+        3,
+        1,
+        68
+      ],
+      "states": [
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 2633571010,
+          "value": "cookie3",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2245481451,
+          "group": "cookie",
+          "value_id": 320313155,
+          "value": "cookie_bpm68",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 2633571010,
+          "value": "cookie3",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2245481451,
+          "group": "cookie",
+          "value_id": 320313155,
+          "value": "cookie_bpm68",
+          "name_evidence": "local audio.unity3d"
+        }
+      ]
+    },
+    {
+      "id": "audio-12779fd2ee377163619c8b485d41bf15ba6036e85395367d69c92e36955dee3a",
+      "file": "/audio/audio-12779fd2ee377163619c8b485d41bf15ba6036e85395367d69c92e36955dee3a.opus",
+      "name": "甜心梦工坊-变体3 · 每分钟75拍",
+      "sort_key": [
+        3,
+        1,
+        75
+      ],
+      "states": [
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 2633571010,
+          "value": "cookie3",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2245481451,
+          "group": "cookie",
+          "value_id": 303535581,
+          "value": "cookie_bpm75",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 2633571010,
+          "value": "cookie3",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2245481451,
+          "group": "cookie",
+          "value_id": 303535581,
+          "value": "cookie_bpm75",
+          "name_evidence": "local audio.unity3d"
+        }
+      ]
+    },
+    {
+      "id": "audio-4e561b7834e29966b87cf235a677f6a0b877bf1431ac46f1904ae5cf22f274b1",
+      "file": "/audio/audio-4e561b7834e29966b87cf235a677f6a0b877bf1431ac46f1904ae5cf22f274b1.opus",
+      "name": "甜心梦工坊-变体4 · 开始",
+      "sort_key": [
+        4,
+        0,
+        0
+      ],
+      "states": [
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 2633571013,
+          "value": "cookie4",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2245481451,
+          "group": "cookie",
+          "value_id": 1628499686,
+          "value": "cookie_start",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 2633571013,
+          "value": "cookie4",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2245481451,
+          "group": "cookie",
+          "value_id": 1628499686,
+          "value": "cookie_start",
+          "name_evidence": "local audio.unity3d"
+        }
+      ]
+    },
+    {
+      "id": "audio-1065ec7b635d45aafb770219c85732e254934e84964b11ec5692c213a28bdc94",
+      "file": "/audio/audio-1065ec7b635d45aafb770219c85732e254934e84964b11ec5692c213a28bdc94.opus",
+      "name": "机巧梦工坊（甜心梦工坊-变体4 · 每分钟40拍）",
+      "sort_key": [
+        4,
+        1,
+        40
+      ],
+      "states": [
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 2633571013,
+          "value": "cookie4",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2245481451,
+          "group": "cookie",
+          "value_id": 353868433,
+          "value": "cookie_bpm40",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 2633571013,
+          "value": "cookie4",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2245481451,
+          "group": "cookie",
+          "value_id": 353868433,
+          "value": "cookie_bpm40",
+          "name_evidence": "local audio.unity3d"
+        }
+      ]
+    },
+    {
+      "id": "audio-082c2a46e12ad00414a7aaaa48fab03425475bdf3d81336e38905461abda97d1",
+      "file": "/audio/audio-082c2a46e12ad00414a7aaaa48fab03425475bdf3d81336e38905461abda97d1.opus",
+      "name": "机巧梦工坊（甜心梦工坊-变体4 · 每分钟50拍）",
+      "sort_key": [
+        4,
+        1,
+        50
+      ],
+      "states": [
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 2633571013,
+          "value": "cookie4",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2245481451,
+          "group": "cookie",
+          "value_id": 337090878,
+          "value": "cookie_bpm50",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 2633571013,
+          "value": "cookie4",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2245481451,
+          "group": "cookie",
+          "value_id": 337090878,
+          "value": "cookie_bpm50",
+          "name_evidence": "local audio.unity3d"
+        }
+      ]
+    },
+    {
+      "id": "audio-fbe9e2f83a8466734b87710ec16657d48ae31736261d58ebc898197039336544",
+      "file": "/audio/audio-fbe9e2f83a8466734b87710ec16657d48ae31736261d58ebc898197039336544.opus",
+      "name": "机巧梦工坊（甜心梦工坊-变体4）",
+      "sort_key": [
+        4,
+        1,
+        60
+      ],
+      "states": [
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 2633571013,
+          "value": "cookie4",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2245481451,
+          "group": "cookie",
+          "value_id": 320313163,
+          "value": "cookie_bpm60",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 2633571013,
+          "value": "cookie4",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2245481451,
+          "group": "cookie",
+          "value_id": 320313163,
+          "value": "cookie_bpm60",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 2633571013,
+          "value": "cookie4",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2245481451,
+          "group": "cookie",
+          "value_id": 437616493,
+          "value": "cookie_end",
+          "name_evidence": "local audio.unity3d"
+        }
+      ]
+    },
+    {
+      "id": "audio-d380fa92c6ed1d590c0082e5b97bf867ed2d687d615951dadf0aecd8e3184d14",
+      "file": "/audio/audio-d380fa92c6ed1d590c0082e5b97bf867ed2d687d615951dadf0aecd8e3184d14.opus",
+      "name": "机巧梦工坊（甜心梦工坊-变体4 · 每分钟65拍）",
+      "sort_key": [
+        4,
+        1,
+        65
+      ],
+      "states": [
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 2633571013,
+          "value": "cookie4",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2245481451,
+          "group": "cookie",
+          "value_id": 320313166,
+          "value": "cookie_bpm65",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 2633571013,
+          "value": "cookie4",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2245481451,
+          "group": "cookie",
+          "value_id": 320313166,
+          "value": "cookie_bpm65",
+          "name_evidence": "local audio.unity3d"
+        }
+      ]
+    },
+    {
+      "id": "audio-1e5e20a515644d56155c8c3efedde44a4dd2208779741f5eacf749d7ff7bd447",
+      "file": "/audio/audio-1e5e20a515644d56155c8c3efedde44a4dd2208779741f5eacf749d7ff7bd447.opus",
+      "name": "机巧梦工坊（甜心梦工坊-变体4 · 每分钟68拍）",
+      "sort_key": [
+        4,
+        1,
+        68
+      ],
+      "states": [
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 2633571013,
+          "value": "cookie4",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2245481451,
+          "group": "cookie",
+          "value_id": 320313155,
+          "value": "cookie_bpm68",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 2633571013,
+          "value": "cookie4",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2245481451,
+          "group": "cookie",
+          "value_id": 320313155,
+          "value": "cookie_bpm68",
+          "name_evidence": "local audio.unity3d"
+        }
+      ]
+    },
+    {
+      "id": "audio-e558b519650a737a9661df0674b2d6abec138737a55bcb3f501e3e79017ad330",
+      "file": "/audio/audio-e558b519650a737a9661df0674b2d6abec138737a55bcb3f501e3e79017ad330.opus",
+      "name": "机巧梦工坊（甜心梦工坊-变体4 · 每分钟75拍）",
+      "sort_key": [
+        4,
+        1,
+        75
+      ],
+      "states": [
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 2633571013,
+          "value": "cookie4",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2245481451,
+          "group": "cookie",
+          "value_id": 303535581,
+          "value": "cookie_bpm75",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 2633571013,
+          "value": "cookie4",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2245481451,
+          "group": "cookie",
+          "value_id": 303535581,
+          "value": "cookie_bpm75",
+          "name_evidence": "local audio.unity3d"
+        }
+      ]
+    },
+    {
+      "id": "audio-4f54438f693c7ec189e15910bd9878fd2f874f89877004638be828936d05a5d6",
+      "file": "/audio/audio-4f54438f693c7ec189e15910bd9878fd2f874f89877004638be828936d05a5d6.opus",
+      "name": "机巧梦工坊（甜心梦工坊-变体4 · 自由演奏）",
+      "sort_key": [
+        4,
+        2,
+        0
+      ],
+      "states": [
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 2633571013,
+          "value": "cookie4",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2245481451,
+          "group": "cookie",
+          "value_id": 663531552,
+          "value": "cookie_free",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 2633571013,
+          "value": "cookie4",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2245481451,
+          "group": "cookie",
+          "value_id": 663531552,
+          "value": "cookie_free",
+          "name_evidence": "local audio.unity3d"
+        }
+      ]
+    }
+  ]
+}

@@ -156,3 +156,11 @@ python scripts/describe_activity_releases.py --tables .build/analysis/data/upstr
 ## 单曲小游戏归属
 
 只有一首音乐的豪礼抛物线、沁凉补给站、速度与机擎、命运星牌局，放在首次所属剧情活动的曲目末尾，移除原独立分组；甜心梦工坊等多曲小游戏保留独立分类。`references/single-track-minigames.json` 记录 `Activity.ActivityType`、最早有效 `MidGroupId` 与日期依据。命运星牌局最早在 2026-03-10 独立开放，首次挂靠剧情活动是 2026-04-16 的幽夜独舞孤影乱，两种日期分别记录。
+
+## 后续整理与显示
+
+`references/permanent-usage-cleanup.json` 记录从常驻玩法移入具体玩法或活动的依据。同一发行曲的不同游戏片段归入同一玩法，保留各自素材；缺少可靠归属的条目继续留在常驻玩法。“闻香识魔女”仅保留秘纹端，不再收录故事旋律。
+
+甜心梦工坊先放共用界面曲，再按变体 1–4 排列；各变体依次是开始、BPM 由低到高、自由演奏或结束。同一音频对应多个状态时只保留一个条目，优先按其 BPM 排序。`scripts/cookie_order.py` 与 `references/cookie-music-order.json` 保存排序规则和状态依据。
+
+曲名末尾的括号用于两行显示：括号内为主标题、括号外为第二行副标题，兼容中英文括号和嵌套内容；核心 JSON 仍保存完整名称。曲目说明继续保存在 `description` 中。

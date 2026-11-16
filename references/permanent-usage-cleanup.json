@@ -1,0 +1,2259 @@
+{
+  "moves": [
+    {
+      "id": "audio-257bad628dc942ea833c91fcda17d43ecbdec487b86acf6fa33361a18357320b",
+      "name": "首领战",
+      "candidates": {
+        "mode-星塔探索": [
+          {
+            "table": "StarTowerMap",
+            "id": 301168,
+            "event": "rogueFire_combatBoss_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "StarTowerMap",
+            "id": 301169,
+            "event": "rogueFire_combatBoss_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "StarTowerMap",
+            "id": 301269,
+            "event": "rogueFire_combatBoss_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "StarTowerMap",
+            "id": 301369,
+            "event": "rogueFire_combatBoss_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          }
+        ]
+      },
+      "existing_official_recording": [],
+      "target": "mode-星塔探索",
+      "policy": "Move the existing audio without deleting distinct game segments or changing IDs."
+    },
+    {
+      "id": "audio-3cdc45420abe5ff58356eef8212a699aac9e00dd7b1ede78a21c2cb17659ffe5",
+      "name": "暗林",
+      "candidates": {
+        "activity-10102": [
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 300301,
+            "event": "mode_Xiahua_combatNormal_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 300302,
+            "event": "mode_Xiahua_combatNormal_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 300303,
+            "event": "mode_Xiahua_combatNormal_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 300304,
+            "event": "mode_Xiahua_combatNormal_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 300305,
+            "event": "mode_Xiahua_combatNormal_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 300306,
+            "event": "mode_Xiahua_combatNormal_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 300307,
+            "event": "mode_Xiahua_combatNormal_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 300308,
+            "event": "mode_Xiahua_combatNormal_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 300309,
+            "event": "mode_Xiahua_combatNormal_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 300310,
+            "event": "mode_Xiahua_combatNormal_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 300311,
+            "event": "mode_Xiahua_combatNormal_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 300312,
+            "event": "mode_Xiahua_combatNormal_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          }
+        ]
+      },
+      "existing_official_recording": [],
+      "target": "activity-10102",
+      "policy": "Move the existing audio without deleting distinct game segments or changing IDs."
+    },
+    {
+      "id": "audio-7f1e9b71265dd28af5fd764191423dca22db94b8a728aa677b4a7065515d4be5",
+      "name": "寄生之庭（暗林 · 首领战）",
+      "candidates": {
+        "mode-心危擂台": [
+          {
+            "table": "InfinityTowerMap",
+            "id": 301090,
+            "event": "DarkForest_combatBoss_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "InfinityTowerMap",
+            "id": 301100,
+            "event": "DarkForest_combatBoss_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          }
+        ]
+      },
+      "existing_official_recording": [],
+      "target": "mode-心危擂台",
+      "policy": "Move the existing audio without deleting distinct game segments or changing IDs."
+    },
+    {
+      "id": "audio-e624da51d47ac0e42b309892ac0b691955992c7550a036ed9eaa500bcb2c5e13",
+      "name": "森林遗迹 · 领袖战斗",
+      "candidates": {
+        "mode-星塔探索": [
+          {
+            "table": "StarTowerMap",
+            "id": 401001,
+            "event": "roguelike_combatNomal_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "StarTowerMap",
+            "id": 401003,
+            "event": "roguelike_combatNomal_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          }
+        ]
+      },
+      "existing_official_recording": [],
+      "target": "mode-星塔探索",
+      "policy": "Move the existing audio without deleting distinct game segments or changing IDs."
+    },
+    {
+      "id": "audio-afddf3e90f0e57823cbb823a656cdd72568a3a32b72742dc6c9d2ff38aa89c42",
+      "name": "星骸降临（首领战）",
+      "candidates": {
+        "mode-星塔探索": [
+          {
+            "table": "StarTowerMap",
+            "id": 301163,
+            "event": "forestRuins_combatBoss_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "StarTowerMap",
+            "id": 301164,
+            "event": "forestRuins_combatBoss_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "StarTowerMap",
+            "id": 301165,
+            "event": "forestRuins_combatBoss_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "StarTowerMap",
+            "id": 301166,
+            "event": "forestRuins_combatBoss_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "StarTowerMap",
+            "id": 301167,
+            "event": "forestRuins_combatBoss_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "StarTowerMap",
+            "id": 311163,
+            "event": "forestRuins_combatBoss_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "StarTowerMap",
+            "id": 311164,
+            "event": "forestRuins_combatBoss_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "StarTowerMap",
+            "id": 311165,
+            "event": "forestRuins_combatBoss_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "StarTowerMap",
+            "id": 311166,
+            "event": "forestRuins_combatBoss_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "StarTowerMap",
+            "id": 321163,
+            "event": "forestRuins_combatBoss_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "StarTowerMap",
+            "id": 321164,
+            "event": "forestRuins_combatBoss_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "StarTowerMap",
+            "id": 321165,
+            "event": "forestRuins_combatBoss_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "StarTowerMap",
+            "id": 321166,
+            "event": "forestRuins_combatBoss_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "StarTowerMap",
+            "id": 401167,
+            "event": "forestRuins_combatBoss_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          }
+        ],
+        "mode-心危擂台": [
+          {
+            "table": "InfinityTowerMap",
+            "id": 101010,
+            "event": "endlessTower_combatBoss_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "InfinityTowerMap",
+            "id": 101020,
+            "event": "endlessTower_combatBoss_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "InfinityTowerMap",
+            "id": 201020,
+            "event": "endlessTower_combatBoss_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "InfinityTowerMap",
+            "id": 201030,
+            "event": "endlessTower_combatBoss_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "InfinityTowerMap",
+            "id": 201040,
+            "event": "endlessTower_combatBoss_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "InfinityTowerMap",
+            "id": 201050,
+            "event": "endlessTower_combatBoss_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "InfinityTowerMap",
+            "id": 201070,
+            "event": "endlessTower_combatBoss_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "InfinityTowerMap",
+            "id": 201080,
+            "event": "endlessTower_combatBoss_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "InfinityTowerMap",
+            "id": 201090,
+            "event": "endlessTower_combatBoss_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "InfinityTowerMap",
+            "id": 201100,
+            "event": "endlessTower_combatBoss_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "InfinityTowerMap",
+            "id": 401020,
+            "event": "endlessTower_combatBoss_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "InfinityTowerMap",
+            "id": 401050,
+            "event": "endlessTower_combatBoss_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "InfinityTowerMap",
+            "id": 401051,
+            "event": "endlessTower_combatBoss_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "InfinityTowerMap",
+            "id": 401021,
+            "event": "endlessTower_combatBoss_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "InfinityTowerMap",
+            "id": 401030,
+            "event": "endlessTower_combatBoss_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "InfinityTowerMap",
+            "id": 501040,
+            "event": "endlessTower_combatBoss_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "InfinityTowerMap",
+            "id": 501050,
+            "event": "endlessTower_combatBoss_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "InfinityTowerMap",
+            "id": 501060,
+            "event": "endlessTower_combatBoss_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "InfinityTowerMap",
+            "id": 501100,
+            "event": "endlessTower_combatBoss_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "InfinityTowerMap",
+            "id": 501020,
+            "event": "endlessTower_combatBoss_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "InfinityTowerMap",
+            "id": 301020,
+            "event": "endlessTower_combatBoss_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "InfinityTowerMap",
+            "id": 301030,
+            "event": "endlessTower_combatBoss_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "InfinityTowerMap",
+            "id": 301050,
+            "event": "endlessTower_combatBoss_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "InfinityTowerMap",
+            "id": 301040,
+            "event": "endlessTower_combatBoss_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "InfinityTowerMap",
+            "id": 301060,
+            "event": "endlessTower_combatBoss_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "InfinityTowerMap",
+            "id": 701020,
+            "event": "endlessTower_combatBoss_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "InfinityTowerMap",
+            "id": 701030,
+            "event": "endlessTower_combatBoss_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "InfinityTowerMap",
+            "id": 701040,
+            "event": "endlessTower_combatBoss_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "InfinityTowerMap",
+            "id": 701050,
+            "event": "endlessTower_combatBoss_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "InfinityTowerMap",
+            "id": 701090,
+            "event": "endlessTower_combatBoss_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "InfinityTowerMap",
+            "id": 701100,
+            "event": "endlessTower_combatBoss_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "InfinityTowerMap",
+            "id": 701060,
+            "event": "endlessTower_combatBoss_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "InfinityTowerMap",
+            "id": 601020,
+            "event": "endlessTower_combatBoss_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "InfinityTowerMap",
+            "id": 601070,
+            "event": "endlessTower_combatBoss_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "InfinityTowerMap",
+            "id": 601080,
+            "event": "endlessTower_combatBoss_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "InfinityTowerMap",
+            "id": 601090,
+            "event": "endlessTower_combatBoss_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "InfinityTowerMap",
+            "id": 601030,
+            "event": "endlessTower_combatBoss_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          }
+        ]
+      },
+      "existing_official_recording": [],
+      "target": "mode-星塔探索",
+      "policy": "Move the existing audio without deleting distinct game segments or changing IDs."
+    },
+    {
+      "id": "audio-ef7e4e2219288163a2c73408a63a420482f3a5a82b6060147b17677a22fadeb8",
+      "name": "探索",
+      "candidates": {
+        "activity-10111": [
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 301502,
+            "event": "city_explore_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 301504,
+            "event": "city_explore_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 301506,
+            "event": "city_explore_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 301508,
+            "event": "city_explore_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 301510,
+            "event": "city_explore_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 301514,
+            "event": "city_explore_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 301516,
+            "event": "city_explore_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 301518,
+            "event": "city_explore_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 301522,
+            "event": "city_explore_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          }
+        ]
+      },
+      "existing_official_recording": [],
+      "target": "activity-10111",
+      "policy": "Move the existing audio without deleting distinct game segments or changing IDs."
+    },
+    {
+      "id": "audio-5004967f5df4350bf568a19af747cc6f39b6e863dfb5b4b5fb974de69c0f6650",
+      "name": "公司",
+      "candidates": {
+        "activity-10103": [
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 300501,
+            "event": "company_explore_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 300502,
+            "event": "company_explore_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 300503,
+            "event": "company_explore_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 300504,
+            "event": "company_explore_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 300505,
+            "event": "company_explore_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 300506,
+            "event": "company_explore_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 300507,
+            "event": "company_explore_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 300509,
+            "event": "company_explore_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 300510,
+            "event": "company_explore_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 300511,
+            "event": "company_explore_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 300513,
+            "event": "company_explore_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 300514,
+            "event": "company_explore_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 300515,
+            "event": "company_explore_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          }
+        ]
+      },
+      "existing_official_recording": [],
+      "target": "activity-10103",
+      "policy": "Move the existing audio without deleting distinct game segments or changing IDs."
+    },
+    {
+      "id": "audio-770332c11b2dcfa538cd42e5edb8f0592ed79d67f988ec8677f736e5f561e3b1",
+      "name": "森林",
+      "candidates": {
+        "activity-10101": [
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 300201,
+            "event": "mode_Dongxiang_combatNormal_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 300202,
+            "event": "mode_Dongxiang_combatNormal_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 300203,
+            "event": "mode_Dongxiang_combatNormal_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 300204,
+            "event": "mode_Dongxiang_combatNormal_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 300205,
+            "event": "mode_Dongxiang_combatNormal_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 300206,
+            "event": "mode_Dongxiang_combatNormal_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 300207,
+            "event": "mode_Dongxiang_combatNormal_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 300208,
+            "event": "mode_Dongxiang_combatNormal_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 300209,
+            "event": "mode_Dongxiang_combatNormal_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 300210,
+            "event": "mode_Dongxiang_combatNormal_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 300211,
+            "event": "mode_Dongxiang_combatNormal_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 300212,
+            "event": "mode_Dongxiang_combatNormal_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          }
+        ]
+      },
+      "existing_official_recording": [],
+      "target": "activity-10101",
+      "policy": "Move the existing audio without deleting distinct game segments or changing IDs."
+    },
+    {
+      "id": "audio-9c9e22fa6803392a9f9a1e8a4d37eafd127beadebddc377f2f562fb3c34163aa",
+      "name": "森林 · 探索",
+      "candidates": {
+        "activity-10111": [
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 301501,
+            "event": "forest_explore_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 301503,
+            "event": "forest_explore_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 301505,
+            "event": "forest_explore_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 301507,
+            "event": "forest_explore_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 301509,
+            "event": "forest_explore_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 301511,
+            "event": "forest_explore_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 301513,
+            "event": "forest_explore_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 301515,
+            "event": "forest_explore_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 301517,
+            "event": "forest_explore_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 301519,
+            "event": "forest_explore_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 301521,
+            "event": "forest_explore_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 301523,
+            "event": "forest_explore_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          }
+        ],
+        "activity-10113": [
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 301801,
+            "event": "forest_explore_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 301802,
+            "event": "forest_explore_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 301803,
+            "event": "forest_explore_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 301804,
+            "event": "forest_explore_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 301805,
+            "event": "forest_explore_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 301806,
+            "event": "forest_explore_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 301807,
+            "event": "forest_explore_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 301808,
+            "event": "forest_explore_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 301809,
+            "event": "forest_explore_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 301810,
+            "event": "forest_explore_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 301811,
+            "event": "forest_explore_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 301813,
+            "event": "forest_explore_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 301814,
+            "event": "forest_explore_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 301815,
+            "event": "forest_explore_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 301816,
+            "event": "forest_explore_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 301817,
+            "event": "forest_explore_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 301818,
+            "event": "forest_explore_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 301819,
+            "event": "forest_explore_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 301821,
+            "event": "forest_explore_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 301822,
+            "event": "forest_explore_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "ActivityLevelsFloor",
+            "id": 301823,
+            "event": "forest_explore_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "level",
+              "combat"
+            ]
+          }
+        ]
+      },
+      "existing_official_recording": [],
+      "target": "activity-10111",
+      "policy": "Move the existing audio without deleting distinct game segments or changing IDs."
+    },
+    {
+      "id": "audio-82de09b6cfbc1c3bb2ae6a542856ca11e9fad0352cf7f544526aa9554a21c5ee",
+      "name": "禁断丽容",
+      "candidates": {},
+      "existing_official_recording": [
+        {
+          "group": "mode-联合讨伐",
+          "name": "禁断丽容",
+          "id": "audio-99b26155a95a1e3b2da84fcf795b197bb1b273b15238561b1303e5ff14e4d2bf"
+        }
+      ],
+      "target": "mode-联合讨伐",
+      "policy": "Move the existing audio without deleting distinct game segments or changing IDs."
+    },
+    {
+      "id": "audio-1c969ae243cb1677fe92f252f24a2d57da559fb5fb1b5c7b6ff1b30bdfe0f59d",
+      "name": "赛尔西亚 · 疯狂战车",
+      "candidates": {
+        "mode-终焉绝响": [
+          {
+            "table": "JointDrill_2_Floor",
+            "id": 1000111,
+            "event": "Mode_JointDrill_Chariot_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "bossType",
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "JointDrill_2_Floor",
+            "id": 1000121,
+            "event": "Mode_JointDrill_Chariot_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "bossType",
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "JointDrill_2_Floor",
+            "id": 1000131,
+            "event": "Mode_JointDrill_Chariot_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "bossType",
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "JointDrill_2_Floor",
+            "id": 1000141,
+            "event": "Mode_JointDrill_Chariot_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "bossType",
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "JointDrill_2_Floor",
+            "id": 1000151,
+            "event": "Mode_JointDrill_Chariot_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "bossType",
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "JointDrill_2_Floor",
+            "id": 1000211,
+            "event": "Mode_JointDrill_Chariot_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "bossType",
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "JointDrill_2_Floor",
+            "id": 1000221,
+            "event": "Mode_JointDrill_Chariot_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "bossType",
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "JointDrill_2_Floor",
+            "id": 1000231,
+            "event": "Mode_JointDrill_Chariot_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "bossType",
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "JointDrill_2_Floor",
+            "id": 1000241,
+            "event": "Mode_JointDrill_Chariot_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "bossType",
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "JointDrill_2_Floor",
+            "id": 1000251,
+            "event": "Mode_JointDrill_Chariot_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "bossType",
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "JointDrill_2_Floor",
+            "id": 1000311,
+            "event": "Mode_JointDrill_Chariot_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "bossType",
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "JointDrill_2_Floor",
+            "id": 1000321,
+            "event": "Mode_JointDrill_Chariot_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "bossType",
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "JointDrill_2_Floor",
+            "id": 1000331,
+            "event": "Mode_JointDrill_Chariot_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "bossType",
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "JointDrill_2_Floor",
+            "id": 1000341,
+            "event": "Mode_JointDrill_Chariot_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "bossType",
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "JointDrill_2_Floor",
+            "id": 1000351,
+            "event": "Mode_JointDrill_Chariot_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "bossType",
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "JointDrill_2_Floor",
+            "id": 1000361,
+            "event": "Mode_JointDrill_Chariot_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "bossType",
+              "level",
+              "combat"
+            ]
+          }
+        ]
+      },
+      "existing_official_recording": [],
+      "target": "mode-终焉绝响",
+      "policy": "Move the existing audio without deleting distinct game segments or changing IDs."
+    },
+    {
+      "id": "audio-c087b4284dcd1b480c0fe0c63a28b3ba6de74b23806187423ec9fbd7bc1a4fb0",
+      "name": "赛尔西亚 · 绝望战车",
+      "candidates": {
+        "mode-终焉绝响": [
+          {
+            "table": "JointDrill_2_Floor",
+            "id": 1000112,
+            "event": "Mode_JointDrill_Chariot2_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "bossType",
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "JointDrill_2_Floor",
+            "id": 1000113,
+            "event": "Mode_JointDrill_Chariot2_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "bossType",
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "JointDrill_2_Floor",
+            "id": 1000122,
+            "event": "Mode_JointDrill_Chariot2_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "bossType",
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "JointDrill_2_Floor",
+            "id": 1000123,
+            "event": "Mode_JointDrill_Chariot2_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "bossType",
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "JointDrill_2_Floor",
+            "id": 1000132,
+            "event": "Mode_JointDrill_Chariot2_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "bossType",
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "JointDrill_2_Floor",
+            "id": 1000133,
+            "event": "Mode_JointDrill_Chariot2_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "bossType",
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "JointDrill_2_Floor",
+            "id": 1000142,
+            "event": "Mode_JointDrill_Chariot2_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "bossType",
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "JointDrill_2_Floor",
+            "id": 1000143,
+            "event": "Mode_JointDrill_Chariot2_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "bossType",
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "JointDrill_2_Floor",
+            "id": 1000152,
+            "event": "Mode_JointDrill_Chariot2_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "bossType",
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "JointDrill_2_Floor",
+            "id": 1000153,
+            "event": "Mode_JointDrill_Chariot2_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "bossType",
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "JointDrill_2_Floor",
+            "id": 1000212,
+            "event": "Mode_JointDrill_Chariot2_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "bossType",
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "JointDrill_2_Floor",
+            "id": 1000213,
+            "event": "Mode_JointDrill_Chariot2_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "bossType",
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "JointDrill_2_Floor",
+            "id": 1000222,
+            "event": "Mode_JointDrill_Chariot2_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "bossType",
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "JointDrill_2_Floor",
+            "id": 1000223,
+            "event": "Mode_JointDrill_Chariot2_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "bossType",
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "JointDrill_2_Floor",
+            "id": 1000232,
+            "event": "Mode_JointDrill_Chariot2_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "bossType",
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "JointDrill_2_Floor",
+            "id": 1000233,
+            "event": "Mode_JointDrill_Chariot2_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "bossType",
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "JointDrill_2_Floor",
+            "id": 1000242,
+            "event": "Mode_JointDrill_Chariot2_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "bossType",
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "JointDrill_2_Floor",
+            "id": 1000243,
+            "event": "Mode_JointDrill_Chariot2_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "bossType",
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "JointDrill_2_Floor",
+            "id": 1000252,
+            "event": "Mode_JointDrill_Chariot2_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "bossType",
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "JointDrill_2_Floor",
+            "id": 1000253,
+            "event": "Mode_JointDrill_Chariot2_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "bossType",
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "JointDrill_2_Floor",
+            "id": 1000312,
+            "event": "Mode_JointDrill_Chariot2_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "bossType",
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "JointDrill_2_Floor",
+            "id": 1000313,
+            "event": "Mode_JointDrill_Chariot2_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "bossType",
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "JointDrill_2_Floor",
+            "id": 1000322,
+            "event": "Mode_JointDrill_Chariot2_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "bossType",
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "JointDrill_2_Floor",
+            "id": 1000323,
+            "event": "Mode_JointDrill_Chariot2_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "bossType",
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "JointDrill_2_Floor",
+            "id": 1000332,
+            "event": "Mode_JointDrill_Chariot2_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "bossType",
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "JointDrill_2_Floor",
+            "id": 1000333,
+            "event": "Mode_JointDrill_Chariot2_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "bossType",
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "JointDrill_2_Floor",
+            "id": 1000342,
+            "event": "Mode_JointDrill_Chariot2_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "bossType",
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "JointDrill_2_Floor",
+            "id": 1000343,
+            "event": "Mode_JointDrill_Chariot2_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "bossType",
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "JointDrill_2_Floor",
+            "id": 1000352,
+            "event": "Mode_JointDrill_Chariot2_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "bossType",
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "JointDrill_2_Floor",
+            "id": 1000353,
+            "event": "Mode_JointDrill_Chariot2_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "bossType",
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "JointDrill_2_Floor",
+            "id": 1000362,
+            "event": "Mode_JointDrill_Chariot2_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "bossType",
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "JointDrill_2_Floor",
+            "id": 1000363,
+            "event": "Mode_JointDrill_Chariot2_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "bossType",
+              "level",
+              "combat"
+            ]
+          }
+        ]
+      },
+      "existing_official_recording": [],
+      "target": "mode-终焉绝响",
+      "policy": "Move the existing audio without deleting distinct game segments or changing IDs."
+    },
+    {
+      "id": "audio-735e07acfb4472b084c36eddd107f2286179c3ca97dd7f5bb3d5efbe489e465c",
+      "name": "无暇的庆典（崇高傀儡）",
+      "candidates": {
+        "mode-终焉绝响": [
+          {
+            "table": "JointDrillFloor",
+            "id": 2000112,
+            "event": "Mode_JointDrill_magician2_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "bossType",
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "JointDrillFloor",
+            "id": 2000122,
+            "event": "Mode_JointDrill_magician2_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "bossType",
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "JointDrillFloor",
+            "id": 2000132,
+            "event": "Mode_JointDrill_magician2_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "bossType",
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "JointDrillFloor",
+            "id": 2000142,
+            "event": "Mode_JointDrill_magician2_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "bossType",
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "JointDrillFloor",
+            "id": 2000152,
+            "event": "Mode_JointDrill_magician2_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "bossType",
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "JointDrillFloor",
+            "id": 2000162,
+            "event": "Mode_JointDrill_magician2_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "bossType",
+              "level",
+              "combat"
+            ]
+          }
+        ]
+      },
+      "existing_official_recording": [],
+      "target": "mode-终焉绝响",
+      "policy": "Move the existing audio without deleting distinct game segments or changing IDs."
+    },
+    {
+      "id": "audio-fd9445f93fff716840718bd833122e17e9c607bdb70cad80c527a5f75018fd99",
+      "name": "无暇的庆典（崇高傀儡 · 科佩里乌斯与奥林匹娅）",
+      "candidates": {
+        "mode-终焉绝响": [
+          {
+            "table": "JointDrillFloor",
+            "id": 2000111,
+            "event": "Mode_JointDrill_magician_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "bossType",
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "JointDrillFloor",
+            "id": 2000121,
+            "event": "Mode_JointDrill_magician_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "bossType",
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "JointDrillFloor",
+            "id": 2000131,
+            "event": "Mode_JointDrill_magician_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "bossType",
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "JointDrillFloor",
+            "id": 2000141,
+            "event": "Mode_JointDrill_magician_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "bossType",
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "JointDrillFloor",
+            "id": 2000151,
+            "event": "Mode_JointDrill_magician_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "bossType",
+              "level",
+              "combat"
+            ]
+          },
+          {
+            "table": "JointDrillFloor",
+            "id": 2000161,
+            "event": "Mode_JointDrill_magician_setState",
+            "match": "all_recipe_fields",
+            "matched_groups": [
+              "bossType",
+              "level",
+              "combat"
+            ]
+          }
+        ]
+      },
+      "existing_official_recording": [],
+      "target": "mode-终焉绝响",
+      "policy": "Move the existing audio without deleting distinct game segments or changing IDs."
+    },
+    {
+      "id": "audio-68e569661f1075cf64d69aec9f7a6baf4a42d85633262814f384946fe5f2cf87",
+      "name": "吹灰夫人",
+      "candidates": {},
+      "existing_official_recording": [
+        {
+          "group": "mode-联合讨伐",
+          "name": "吹灰夫人",
+          "id": "audio-4d7f4b07362758760d04bba8f3c99766bbb46d478f8841ba3b78b9ca99bd67b6"
+        }
+      ],
+      "target": "mode-联合讨伐",
+      "policy": "Move the existing audio without deleting distinct game segments or changing IDs."
+    },
+    {
+      "id": "audio-14389850a3b31729ece7aa961b7862df1a78a61cd2ba4d51cd77ba1c1445c1c3",
+      "name": "热嘟噜噗男爵",
+      "candidates": {},
+      "existing_official_recording": [
+        {
+          "group": "mode-联合讨伐",
+          "name": "热嘟噜噗男爵",
+          "id": "audio-33809a21ee980554459da5013128e07fbd694d5aa21200fb8d0aadcb2fb532b2"
+        }
+      ],
+      "target": "mode-联合讨伐",
+      "policy": "Move the existing audio without deleting distinct game segments or changing IDs."
+    }
+  ],
+  "retained": [
+    "audio-d630296ac31299ae81bff0a58c24430f47632829e16f7e8b93228db9e5e95836",
+    "audio-0c7255d498963165f82bd3c864a8d83a973d406cc0ae33069850fba94855a285",
+    "audio-dbcf9af476c7b2103660db1d4dc35f99e752f6d8e96461e8b126b114fc70f3f3",
+    "audio-3acad708e3938e377517ab63ef4d20945fa6499ae65452bd5f43db0068e106be",
+    "audio-5b735ed59b96838375ae480773ea9de5e4fb6edd0d998d002e6ebe9c6e5adb1a",
+    "audio-ebb6cff2e16f8ad017779ee8fbe2c8cb62bace5cd63aec1eb7f31b576b4c22d6",
+    "audio-27907e8770dd27fcf528078a70d225cc02a9744b06afcd7fcf488da40876371a",
+    "audio-e6e8eadd20a1b4f44b0543053c0bb83349585bf0390e8e14f03c9f1c0092ee58",
+    "audio-d127039736a21aa315f6c5d680575cae40dbe12bf0ba9d21cc09a1bec8febe03",
+    "audio-2231f8a9ca321edda3f71927aac39ef2178b519cc33ca1ffb110bfd57e65c615",
+    "audio-c2f5e52fed28781c4e9ea4910649473cbf3504885e8b466e6f5871c6c1c95404",
+    "audio-834d25270db6d10d6f8dd2bcde4886995cf70ca766652a01e001d4247c83574a",
+    "audio-c523389d7345a432b1305f7a85eec62a504b2a3c7cb42b24f02d4327e847a880",
+    "audio-823656a64c778a526f119a9c3a0d46f8fa22098aec050a7dbd7ac19f1596eb07",
+    "audio-127c8e918c80d896a95c4bbb46818c0e94e53e130c615053ce697ad3cbd6ded3",
+    "audio-49ca78e8ac82730e63c52be9f95a4283029250c5196963335c19d446843f44df",
+    "audio-882f042d3de6effa92811362e542bbcce64996f2b699e0b44c5403ab62801100",
+    "audio-efeb83ed09730a1699347692887c3617ae6f65dd435b6ea7e0f686f341ae8d23",
+    "audio-14515f07353d6f9e18adcd67fb4616dc3900284a439b614f1c4c002ced44aeab"
+  ],
+  "notes": "Exact Wwise recipe state/config references take precedence; verified same-official-recording matches place distinct audio sections together without deleting them. Unresolved uses remain in the catch-all.",
+  "youqi_order": [
+    "audio-d630296ac31299ae81bff0a58c24430f47632829e16f7e8b93228db9e5e95836",
+    "audio-0c7255d498963165f82bd3c864a8d83a973d406cc0ae33069850fba94855a285"
+  ]
+}
