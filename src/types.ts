@@ -11,10 +11,12 @@ export interface Music {
 }
 export interface MusicGroup {
   id: string; name: string; date: string; track_ids: string[];
+  description?: string;
   outfit_references?: { outfit_id: number; name: string; cover: string; content_ids: string[] }[];
 }
 export interface LibraryMusic extends Music {
   group_id: string; source_title: string; route_ids: string[];
+  description?: string;
   uses: string[]; aliases: string[];
 }
 export interface CardLayer {

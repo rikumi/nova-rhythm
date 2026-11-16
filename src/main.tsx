@@ -6,6 +6,7 @@ import type { Outfit, LibraryMusic, MusicGroup } from './types';
 import { player } from './audio';
 import { PHONOGRAPH_HARDWARE, PHONOGRAPH_NOTE } from './nativePhonograph';
 import { deviceTilt } from './deviceTilt';
+import { resolveStoryLibrary } from './storyLibrary';
 import './style.css';
 
 const ELEMENTS = ['无', '水', '火', '风', '地', '光', '暗', '无'];
@@ -273,11 +274,14 @@ function MusicLibrary({ onBack, onOpenOutfit }: { onBack: () => void; onOpenOutf
   const section = SECTIONS.find(s => s.id === 'library')!;
   useEffect(() => {
     const controller = new AbortController();
-    fetch('/data/library.json', { signal: controller.signal }).then(r => { if (!r.ok) throw new Error('音乐读取失败'); return r.json(); }).then(d => { setTracks(d.tracks); setGroups(d.groups); }).catch(e => { if (e.name !== 'AbortError') setError(e.message); });
+    Promise.all([
+      fetch('/data/story-melodies.json', { signal: controller.signal }).then(r => { if (!r.ok) throw new Error('故事旋律映射读取失败'); return r.json(); }),
+      fetch('/data/library.json', { signal: controller.signal }).then(r => { if (!r.ok) throw new Error('音乐读取失败'); return r.json(); }),
+    ]).then(([mapping, metadata]) => { const d = resolveStoryLibrary(mapping, metadata); setTracks(d.tracks); setGroups(d.groups); }).catch(e => { if (e.name !== 'AbortError') setError(e.message); });
     return () => controller.abort();
   }, []);
   const search = query.trim().toLowerCase();
-  const visibleGroups = groups.map(group => ({ ...group, outfit_references: (group.outfit_references || []).filter(r => !search || `${group.name} ${r.name}`.toLowerCase().includes(search)), tracks: tracks.filter(t => t.group_id === group.id && (!search || `${group.name} ${t.title} ${t.source_title} ${t.uses.join(' ')}`.toLowerCase().includes(search))) })).filter(g => g.tracks.length || g.outfit_references.length);
+  const visibleGroups = groups.map(group => ({ ...group, outfit_references: (group.outfit_references || []).filter(r => !search || `${group.name} ${group.description || ''} ${r.name}`.toLowerCase().includes(search)), tracks: tracks.filter(t => t.group_id === group.id && (!search || `${group.name} ${group.description || ''} ${t.title} ${t.description || ''} ${t.source_title} ${t.uses.join(' ')}`.toLowerCase().includes(search))) })).filter(g => g.tracks.length || g.outfit_references.length);
   useEffect(() => {
     if (search) setOpenGroup(visibleGroups[0]?.id || null);
   }, [search, groups, tracks]);
@@ -287,7 +291,7 @@ function MusicLibrary({ onBack, onOpenOutfit }: { onBack: () => void; onOpenOutf
       {error && <p role="alert">{error}</p>}
       <div className="library-groups">{visibleGroups.map(group => <section className={`library-group ${openGroup === group.id ? 'is-open' : ''}`} key={group.id} data-date={group.date}>
         <button className="library-group-toggle" aria-expanded={openGroup === group.id} aria-controls={`group-${encodeURIComponent(group.id)}`} onClick={() => { if (readStorage('nova-sfx', true)) void player.sound('ui_common_menu'); setOpenGroup(current => current === group.id ? null : group.id); }}><strong>{group.name}</strong><span className="library-group-date">{group.date ? group.date.slice(0, 10).replaceAll('-', '.') : '常驻 / 日期待考'}</span><span className="library-group-count">{group.tracks.length + group.outfit_references.length}</span><ChevronDown size={19} /></button>
-        {openGroup === group.id && <div className="library-group-panel" id={`group-${encodeURIComponent(group.id)}`}><div className="library-tracks">{group.outfit_references.map(reference => <button className="library-outfit-reference" key={reference.outfit_id} onClick={() => onOpenOutfit(reference.outfit_id)}><img src={reference.cover} alt="" /><strong>{reference.name}</strong><span>秘纹旋律</span></button>)}{group.tracks.map(t => <div className="library-track-entry" key={t.id} data-content-id={t.id}><button className={`library-track ${selected?.id === t.id ? 'selected' : ''}`} onClick={() => { setSelected(t); void player.select(t, true); }}><strong>{t.title}</strong><span>{time(t.duration_seconds)}</span>{selected?.id === t.id && playback.playing ? <AudioLines size={18} /> : <Play size={18} />}</button></div>)}</div></div>}
+        {openGroup === group.id && <div className="library-group-panel" id={`group-${encodeURIComponent(group.id)}`}>{group.description && <p style={{ margin: '0 0 12px', fontSize: 12, lineHeight: 1.8, whiteSpace: 'pre-wrap' }}>{group.description}</p>}<div className="library-tracks">{group.outfit_references.map(reference => <button className="library-outfit-reference" key={reference.outfit_id} onClick={() => onOpenOutfit(reference.outfit_id)}><img src={reference.cover} alt="" /><strong>{reference.name}</strong><span>秘纹旋律</span></button>)}{group.tracks.map(t => <div className="library-track-entry" key={t.id} data-content-id={t.id}><button className={`library-track ${selected?.id === t.id ? 'selected' : ''}`} onClick={() => { setSelected(t); void player.select(t, true); }}><strong>{t.title}{t.description && <small style={{ display: 'block', fontSize: 12, fontWeight: 400, opacity: .8, whiteSpace: 'pre-wrap' }}>{t.description}</small>}</strong><span>{t.duration_seconds > 0 ? time(t.duration_seconds) : '--:--'}</span>{selected?.id === t.id && playback.playing ? <AudioLines size={18} /> : <Play size={18} />}</button></div>)}</div></div>}
       </section>)}{search && !visibleGroups.length && <p className="library-empty">没有找到音乐</p>}</div>
     </main>
     {selected && playback.trackId === selected.id && <section className="library-playback" aria-label="音乐播放控制"><strong>{selected.title}</strong><button className="play-button" aria-label={playback.playing ? '暂停播放' : '播放音乐'} disabled={playback.loading} onClick={() => void player.toggle()}>{playback.loading ? <LoaderCircle className="spinner" /> : playback.playing ? <Pause /> : <Play />}</button><span>{time(playback.position)}</span><input className="seek" aria-label="播放进度" type="range" min="0" max={playback.duration || 1} step=".05" value={playback.position} onChange={e => player.seek(Number(e.target.value))} /><span>{time(playback.duration)}</span></section>}

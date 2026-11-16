@@ -23,6 +23,7 @@ jobs:
       - name: Validate portable import references
         run: python3 -m unittest discover -s scripts/tests -v
       - run: npm ci
+      - run: npm test
       - run: npm run build
       - uses: actions/upload-pages-artifact@v5
         with:

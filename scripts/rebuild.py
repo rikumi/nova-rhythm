@@ -17,6 +17,7 @@ import subprocess
 import sys
 
 from pipeline_paths import REPOSITORY, protect_output
+from story_mapping import apply_mapping, to_mapping
 
 REFS = REPOSITORY/'references'
 CATEGORIES = {'Music_Outfit': 'outfit', 'Music_AVG': 'story',
@@ -200,7 +201,10 @@ def render(row, game, work, cli, ffmpeg, cache, input_hashes, tool_signature):
 
 def build_manifests(results, annotations, raw_names):
     baseline_outfits = read(REPOSITORY/'public/data/outfits.json')['items']
-    baseline_library = read(REPOSITORY/'public/data/library.json')
+    technical_library = read(REPOSITORY/'public/data/library.json')
+    mapping = read(REPOSITORY/'public/data/story-melodies.json')
+    baseline_library = apply_mapping(mapping, technical_library) if mapping else technical_library
+    removed_ids = {t['id'] for t in technical_library['tracks']} - {t['id'] for t in baseline_library['tracks']}
     known = {t['id']: t for t in baseline_library['tracks']}
     groups = {g['id']: copy.deepcopy(g) | {'track_ids': [], 'outfit_references': []} for g in baseline_library['groups']}
     outfits = {o['code']: copy.deepcopy(o) | {'music': []} for o in baseline_outfits}
@@ -217,6 +221,10 @@ def build_manifests(results, annotations, raw_names):
     tracks, pending, published = [], [], {}
     for pcm, routes in sorted(by_pcm.items()):
         identifier = 'audio-'+pcm
+        if identifier in removed_ids:
+            continue
+        if identifier in known and known[identifier]['path'] != f'/audio/{identifier}.opus':
+            continue  # Explicit replacement file in the human mapping takes precedence.
         routes.sort(key=lambda r: (r['source'] != 'version', r['source'] != 'regenerated_version', r['filename']))
         source = routes[0]
         override = annotations.get('tracks', {}).get(identifier, {})
@@ -284,6 +292,16 @@ def build_manifests(results, annotations, raw_names):
             track['group_id'] = group['id']
         tracks.append(track); groups[track['group_id']]['track_ids'].append(identifier)
         published[identifier] = source
+    if not raw_names:
+        # Manually supplied assets need no game route or AI annotation. Keep them
+        # in staged sites, while decoded game tracks still follow render results.
+        technical_ids = {t['id'] for t in technical_library['tracks']}
+        available_ids = {t['id'] for t in tracks}
+        for track in baseline_library['tracks']:
+            manual = track['id'] not in technical_ids or track['path'] != f'/audio/{track["id"]}.opus'
+            if manual and track['id'] not in available_ids:
+                tracks.append(copy.deepcopy(track))
+                groups[track['group_id']]['track_ids'].append(track['id'])
     items = []
     for code, outfit in outfits.items():
         if not outfit['music']:
@@ -480,14 +498,26 @@ def main():
         if encoded_count % 25 == 0:
             print(f'Encoded or verified {encoded_count}/{len(published)} audio files', flush=True)
     errors.extend(extract_new_art(outfits, game, work, output))
+    for track in library['tracks']:
+        if track['id'] in published or track['path'].startswith('https://'):
+            continue
+        source = (source_public/track['path'].lstrip('/')).resolve()
+        if not source.is_relative_to(source_public.resolve()) or not source.is_file():
+            errors.append({'id': track['id'], 'error': 'Missing manually mapped audio: '+track['path']})
+            continue
+        target = output/track['path'].lstrip('/'); target.parent.mkdir(parents=True, exist_ok=True)
+        if not target.exists() or digest(target) != digest(source):
+            shutil.copy2(source, target)
     # Remove obsolete generated audio only, never recursively remove an output tree.
     audio_dir = output/'audio'
     if audio_dir.is_dir():
+        needed_paths = {t['path'] for t in library['tracks']}
         for file in audio_dir.glob('audio-*.opus'):
-            if file.stem not in published:
+            if file.stem not in published and '/audio/'+file.name not in needed_paths:
                 file.unlink()
     write(output/'data/outfits.json', outfits)
     write(output/'data/library.json', library)
+    write(output/'data/story-melodies.json', to_mapping(library, read(source_public/'data/story-melodies.json')))
     write(work/'pending_annotations.json', pending)
     write(work/'report.json', {'routes': len(rows), 'rendered_routes': len(results), 'cache_hits': sum(r.get('cache_hit', False) for r in results),
                              'published_audio': len(published), 'pending_annotations': len(pending), 'errors': errors})

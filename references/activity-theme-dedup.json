@@ -1,0 +1,454 @@
+{
+  "schema_version": 1,
+  "comparison": "Decoded lossless FLAC, normalized stereo 44100 Hz signed PCM16; exact first 60 seconds SHA-256, or full PCM identity",
+  "policy": "Unique exchangeable outfit in the activity shop; only source-proven system BGM; core melody only, no lossy Opus comparisons",
+  "activities": [
+    {
+      "group_id": "activity-10100",
+      "name": "惊奇冒险！渊海幽灵船传说！",
+      "shop_status": "unique_shop_outfit",
+      "comparisons": [
+        {
+          "audio_id": "audio-c3fc4903b125c039c46f88b413b9a48abe30af1ac5998ad950b55d4b0a0db04c",
+          "name": "惊奇冒险！渊海幽灵船传说！ · 探索",
+          "file": "/audio/audio-c3fc4903b125c039c46f88b413b9a48abe30af1ac5998ad950b55d4b0a0db04c.opus",
+          "main_audio_id": "audio-032bb9a0ecce98e4974eaffab647c9df4741273f9ea450b3c1e43414226048c1",
+          "match": null,
+          "activity_prefix_sha256": "3aa6aeaf0830fc0b6f12fe875e6cbfe747a195b36e31597f1e66a49b167708cb",
+          "main_prefix_sha256": "6c62f411ab02b5e9b2c80d7407e8a96798d9890c83ac05c297f8d48527074c31"
+        },
+        {
+          "audio_id": "audio-2d545eccb841142d776f6e5ea25debab579c0b4470e3558bea8491ff69cf26e5",
+          "name": "惊奇冒险！渊海幽灵船传说！",
+          "file": "/audio/audio-2d545eccb841142d776f6e5ea25debab579c0b4470e3558bea8491ff69cf26e5.opus",
+          "main_audio_id": "audio-032bb9a0ecce98e4974eaffab647c9df4741273f9ea450b3c1e43414226048c1",
+          "match": null,
+          "activity_prefix_sha256": "1d871a787ee8a7c458300f883906f29b38c7363e4094ef942e9470619a6590d7",
+          "main_prefix_sha256": "6c62f411ab02b5e9b2c80d7407e8a96798d9890c83ac05c297f8d48527074c31"
+        }
+      ],
+      "main_outfit": {
+        "outfit_id": 214039,
+        "code": "4039",
+        "name": "夏日栖息地"
+      },
+      "main_audio_id": "audio-032bb9a0ecce98e4974eaffab647c9df4741273f9ea450b3c1e43414226048c1",
+      "main_core_has_system_alias": false
+    },
+    {
+      "group_id": "activity-10101",
+      "name": "我们的旅团",
+      "shop_status": "unique_shop_outfit",
+      "comparisons": [
+        {
+          "audio_id": "audio-03da4ad009d7baa1b2907886dff8b43a5955c152e6a890c7baea5c74d6fd1a9d",
+          "name": "主线第三章",
+          "file": "/audio/audio-03da4ad009d7baa1b2907886dff8b43a5955c152e6a890c7baea5c74d6fd1a9d.opus",
+          "main_audio_id": "audio-6e54466babfa165d8d5a2a5cce80b3daa7e2a397c889c758432da38ad43897dd",
+          "match": null,
+          "activity_prefix_sha256": "8b768018ddcdbe1513948ceac008845db90d5bd492ff31b8501f8d2fa9fc27e7",
+          "main_prefix_sha256": "a8b5120b7cba6ba3936d55dcef0ea58535c2be077fbe8856812754862f0ff6bc"
+        },
+        {
+          "audio_id": "audio-9a9588a7f9f7f49b00c0b63464705de9bbae4a58e58c93880396bf7fdccad3a5",
+          "name": "探索",
+          "file": "/audio/audio-9a9588a7f9f7f49b00c0b63464705de9bbae4a58e58c93880396bf7fdccad3a5.opus",
+          "main_audio_id": "audio-6e54466babfa165d8d5a2a5cce80b3daa7e2a397c889c758432da38ad43897dd",
+          "match": null,
+          "activity_prefix_sha256": "66d935e51bab5d58165864029b919c2fdd5b0414d4df4752f46f3a65d6f74db6",
+          "main_prefix_sha256": "a8b5120b7cba6ba3936d55dcef0ea58535c2be077fbe8856812754862f0ff6bc"
+        }
+      ],
+      "main_outfit": {
+        "outfit_id": 214040,
+        "code": "4040",
+        "name": "勇气之拳"
+      },
+      "main_audio_id": "audio-6e54466babfa165d8d5a2a5cce80b3daa7e2a397c889c758432da38ad43897dd",
+      "main_core_has_system_alias": false
+    },
+    {
+      "group_id": "activity-10102",
+      "name": "梦的彼岸",
+      "shop_status": "unique_shop_outfit",
+      "comparisons": [
+        {
+          "audio_id": "audio-f40db32aa2f9cc5f916facc2be9144fd445a451286e558bf1f9f234f58f3c6c2",
+          "name": "主线第四章",
+          "file": "/audio/audio-f40db32aa2f9cc5f916facc2be9144fd445a451286e558bf1f9f234f58f3c6c2.opus",
+          "main_audio_id": "audio-f7fc60808a46ad317d90de1a8bee4c299fcec17161de422cb2b9175166137528",
+          "match": null,
+          "activity_prefix_sha256": "67be75de54fc7e33e5ae9095ff6acaf52809ae4b0be575cafe2e2bbb7c7ef87e",
+          "main_prefix_sha256": "3147bdf09295f122f6fdb91478820c96f30a05da85c7d9c8ef0a5aa8127c9ac0"
+        }
+      ],
+      "main_outfit": {
+        "outfit_id": 214024,
+        "code": "4024",
+        "name": "一二三，跳！"
+      },
+      "main_audio_id": "audio-f7fc60808a46ad317d90de1a8bee4c299fcec17161de422cb2b9175166137528",
+      "main_core_has_system_alias": false
+    },
+    {
+      "group_id": "activity-20101",
+      "name": "闪耀的使者与圣夜的精灵",
+      "shop_status": "unique_shop_outfit",
+      "comparisons": [
+        {
+          "audio_id": "audio-aeaa2dfca29dadbc7edba9a3579fded3dccc1d0bb8e6c476a0414ef9314b3d1d",
+          "name": "闪耀的使者与圣夜的精灵",
+          "file": "/audio/audio-aeaa2dfca29dadbc7edba9a3579fded3dccc1d0bb8e6c476a0414ef9314b3d1d.opus",
+          "main_audio_id": "audio-751a7ecf6da78971bcab43eb03adba4588ab365eb10f59fafa17304f70cf571a",
+          "match": null,
+          "activity_prefix_sha256": "dd49e7c54a2b387e1f4d79d8ef2659f9ee54d98c7935beff97e9e08e4ea57eb0",
+          "main_prefix_sha256": "050269401ac7043f12dcffcac5fdee92f67be63215daf3d46683ada7b6ffc3ed"
+        }
+      ],
+      "main_outfit": {
+        "outfit_id": 214041,
+        "code": "4041",
+        "name": "启程的礼物"
+      },
+      "main_audio_id": "audio-751a7ecf6da78971bcab43eb03adba4588ab365eb10f59fafa17304f70cf571a",
+      "main_core_has_system_alias": false
+    },
+    {
+      "group_id": "activity-10103",
+      "name": "微火的奇迹",
+      "shop_status": "unique_shop_outfit",
+      "comparisons": [
+        {
+          "audio_id": "audio-6a206cff7aafc356a31db95d420dece9bf13bb9f819e8cc11ded69c1c6bdefa7",
+          "name": "主线第六章",
+          "file": "/audio/audio-6a206cff7aafc356a31db95d420dece9bf13bb9f819e8cc11ded69c1c6bdefa7.opus",
+          "main_audio_id": "audio-34df08fcac9d21603182283ef8b140f6b16c676ed7cbe287c71bdb81418a0cb7",
+          "match": null,
+          "activity_prefix_sha256": "7d389a5b3181d64aad08570557e81dc39db7eaae4496dd56e84b6fd8c69c3728",
+          "main_prefix_sha256": "5b2504b0994f7cab2435c157313629d3998ec563558fae0a5e6db71f4ee028d5"
+        }
+      ],
+      "main_outfit": {
+        "outfit_id": 214043,
+        "code": "4043",
+        "name": "革新的萌芽"
+      },
+      "main_audio_id": "audio-34df08fcac9d21603182283ef8b140f6b16c676ed7cbe287c71bdb81418a0cb7",
+      "main_core_has_system_alias": false
+    },
+    {
+      "group_id": "activity-10104",
+      "name": "烟火绮丽寻春意",
+      "shop_status": "unique_shop_outfit",
+      "comparisons": [
+        {
+          "audio_id": "audio-f5cd31e3d7268cb1151d47d89f9febb4fc3f59cbd32df919786c2ae29c0eb9c8",
+          "name": "烟火绮丽寻春意",
+          "file": "/audio/audio-f5cd31e3d7268cb1151d47d89f9febb4fc3f59cbd32df919786c2ae29c0eb9c8.opus",
+          "main_audio_id": "audio-65644786fa7ff5019df2c1066ba5bd130aca9e8fedba362d8fefbc65b3336e61",
+          "match": null,
+          "activity_prefix_sha256": "7359592e95ec57a87d62167f69721e35225ab3c302592f8d8c9bb6022b196d50",
+          "main_prefix_sha256": "9132de6219c4b2510dfe5332f5fc8df83502fca4872639c8136e9ee42113bbb2"
+        }
+      ],
+      "main_outfit": {
+        "outfit_id": 214042,
+        "code": "4042",
+        "name": "酒暖灯明时"
+      },
+      "main_audio_id": "audio-65644786fa7ff5019df2c1066ba5bd130aca9e8fedba362d8fefbc65b3336e61",
+      "main_core_has_system_alias": false
+    },
+    {
+      "group_id": "activity-30101",
+      "name": "activity-30101",
+      "shop_status": "no_shop_outfit",
+      "comparisons": []
+    },
+    {
+      "group_id": "activity-10105",
+      "name": "冬夜镇魂曲与破晓扳机",
+      "shop_status": "unique_shop_outfit",
+      "comparisons": [
+        {
+          "audio_id": "audio-ab25e6f97d6405d74cbb6cc500e18adf35b79a1041b34d1981c1e5e0278ebd50",
+          "name": "冬夜镇魂曲与破晓扳机",
+          "file": "/audio/audio-ab25e6f97d6405d74cbb6cc500e18adf35b79a1041b34d1981c1e5e0278ebd50.opus",
+          "main_audio_id": "audio-fcc198627f4f1442603e2779483cfdfdbc2a5796447b7e226c53464659e1a8d8",
+          "match": null,
+          "activity_prefix_sha256": "638c4ffd740045bfec432899bb3b2c746f94caa8a2f09b7eee2978a877b6ec13",
+          "main_prefix_sha256": "6073b227e2003d19ae290acf0d78655e59b3bdda296421f936f6dd64d77010c4"
+        }
+      ],
+      "main_outfit": {
+        "outfit_id": 214046,
+        "code": "4046",
+        "name": "冬夜后的黎明"
+      },
+      "main_audio_id": "audio-fcc198627f4f1442603e2779483cfdfdbc2a5796447b7e226c53464659e1a8d8",
+      "main_core_has_system_alias": false
+    },
+    {
+      "group_id": "activity-10106",
+      "name": "敬启，致珍重的你",
+      "shop_status": "unique_shop_outfit",
+      "comparisons": [],
+      "main_outfit": {
+        "outfit_id": 214047,
+        "code": "4047",
+        "name": "信笺乘风而去"
+      },
+      "main_audio_id": "audio-108eb6174c38a729db6df4ad9c566572e120b99c7a921a245c591f12e4ef0e7a",
+      "main_core_has_system_alias": true
+    },
+    {
+      "group_id": "activity-20102",
+      "name": "幽夜独舞孤影乱",
+      "shop_status": "unique_shop_outfit",
+      "comparisons": [],
+      "main_outfit": {
+        "outfit_id": 214050,
+        "code": "4050",
+        "name": "夜宴谜影"
+      },
+      "main_audio_id": "audio-320311f522c0a0fb6373f84b9a4969eef0a86ea9a683e9b8be244bb4900c61fc",
+      "main_core_has_system_alias": true
+    },
+    {
+      "group_id": "activity-30102",
+      "name": "activity-30102",
+      "shop_status": "no_shop_outfit",
+      "comparisons": []
+    },
+    {
+      "group_id": "activity-10107",
+      "name": "穿透心壁的取景框",
+      "shop_status": "unique_shop_outfit",
+      "comparisons": [
+        {
+          "audio_id": "audio-e5fce82f1e1d599472dfbb59c8ea0659899cdb2b2e7ce111daa045299c9b40fa",
+          "name": "穿透心壁的取景框",
+          "file": "/audio/audio-e5fce82f1e1d599472dfbb59c8ea0659899cdb2b2e7ce111daa045299c9b40fa.opus",
+          "main_audio_id": "audio-e8d0bf748fd6c864e33024f03f3ec8db2c320ae3a7ed3ca7660a44fe31a18eac",
+          "match": null,
+          "activity_prefix_sha256": "fa5be5d5138d3dce616d46619a2df6184c4fbb7238613ddcc7df53d5ed061cd7",
+          "main_prefix_sha256": "0252749a564e24b73f65efc8c9043788e2313d5dd56ad9a9b3d3681fab67a5b0"
+        }
+      ],
+      "main_outfit": {
+        "outfit_id": 214003,
+        "code": "4003",
+        "name": "你与我相似"
+      },
+      "main_audio_id": "audio-e8d0bf748fd6c864e33024f03f3ec8db2c320ae3a7ed3ca7660a44fe31a18eac",
+      "main_core_has_system_alias": false
+    },
+    {
+      "group_id": "activity-10108",
+      "name": "心跳！柔光狂想曲",
+      "shop_status": "unique_shop_outfit",
+      "comparisons": [],
+      "main_outfit": {
+        "outfit_id": 214052,
+        "code": "4052",
+        "name": "奇迹一触"
+      },
+      "main_audio_id": "audio-5f30e64f2634aad63984461b7a865cdfbc9cc45346344d2069b17b55a4c48df0",
+      "main_core_has_system_alias": true
+    },
+    {
+      "group_id": "activity-11100",
+      "name": "activity-11100",
+      "shop_status": "unique_shop_outfit",
+      "comparisons": [],
+      "main_outfit": {
+        "outfit_id": 214039,
+        "code": "4039",
+        "name": "夏日栖息地"
+      },
+      "main_audio_id": "audio-032bb9a0ecce98e4974eaffab647c9df4741273f9ea450b3c1e43414226048c1",
+      "status": "no_displayed_group",
+      "main_core_has_system_alias": false
+    },
+    {
+      "group_id": "activity-10109",
+      "name": "枪林弹雨覆黄沙",
+      "shop_status": "unique_shop_outfit",
+      "comparisons": [
+        {
+          "audio_id": "audio-d5204891a81290dc55c249dc6cb9321b7fd69eaaa91a09fd871dcf55bc1b22eb",
+          "name": "枪林弹雨覆黄沙",
+          "file": "/audio/audio-d5204891a81290dc55c249dc6cb9321b7fd69eaaa91a09fd871dcf55bc1b22eb.opus",
+          "main_audio_id": "audio-0ccb31444e7569d3961f0a85bd78c3d2687669b0183a967c08f8b978f5914da9",
+          "match": "identical_first_60_seconds_pcm",
+          "activity_prefix_sha256": "b79b057aea1e52f05f0ef34447a92f0852dabca89805b4aaec93fbf17b3cf146",
+          "main_prefix_sha256": "b79b057aea1e52f05f0ef34447a92f0852dabca89805b4aaec93fbf17b3cf146"
+        }
+      ],
+      "main_outfit": {
+        "outfit_id": 214053,
+        "code": "4053",
+        "name": "欢聚时刻"
+      },
+      "main_audio_id": "audio-0ccb31444e7569d3961f0a85bd78c3d2687669b0183a967c08f8b978f5914da9",
+      "main_core_has_system_alias": false
+    },
+    {
+      "group_id": "activity-20103",
+      "name": "晴风碧海 · 悠哉盛夏依然打卡~",
+      "shop_status": "unique_shop_outfit",
+      "comparisons": [
+        {
+          "audio_id": "audio-c020b534906a2dd006f13c7d3aeef49dece4a57a21f85d631282fa3b0f50af87",
+          "name": "晴风碧海 · 悠哉盛夏依然打卡~",
+          "file": "/audio/audio-c020b534906a2dd006f13c7d3aeef49dece4a57a21f85d631282fa3b0f50af87.opus",
+          "main_audio_id": "audio-e0697fb4f7d2d49a570734f28219d9639956cd214aa9d5d1fbefb98e791eac5e",
+          "match": "identical_first_60_seconds_pcm",
+          "activity_prefix_sha256": "49c488494c25b5e68ac6868c6d8b9ab52199825822582b45337656088facd0a2",
+          "main_prefix_sha256": "49c488494c25b5e68ac6868c6d8b9ab52199825822582b45337656088facd0a2"
+        }
+      ],
+      "main_outfit": {
+        "outfit_id": 214056,
+        "code": "4056",
+        "name": "斑驳夏影"
+      },
+      "main_audio_id": "audio-e0697fb4f7d2d49a570734f28219d9639956cd214aa9d5d1fbefb98e791eac5e",
+      "main_core_has_system_alias": false
+    },
+    {
+      "group_id": "activity-10110",
+      "name": "欢歌劲浪 · 闪耀假日惊涛探险！",
+      "shop_status": "unique_shop_outfit",
+      "comparisons": [],
+      "main_outfit": {
+        "outfit_id": 214058,
+        "code": "4058",
+        "name": "夏日进行曲"
+      },
+      "main_audio_id": "audio-a793626e742d2af713697164fdd5017a3cc37c1d1010294fbdf76a4a22c056e1",
+      "main_core_has_system_alias": true
+    },
+    {
+      "group_id": "activity-30103",
+      "name": "activity-30103",
+      "shop_status": "no_shop_outfit",
+      "comparisons": []
+    },
+    {
+      "group_id": "activity-10111",
+      "name": "奋斗吧！大小姐的旅人修炼手册！",
+      "shop_status": "unique_shop_outfit",
+      "comparisons": [],
+      "main_outfit": {
+        "outfit_id": 214060,
+        "code": "4060",
+        "name": "荣誉时刻"
+      },
+      "main_audio_id": "audio-1b18c55f4e30ee90bf407ff47eecbba5d46b82e94bfc3b8f9d17a0735055cb78",
+      "main_core_has_system_alias": true
+    },
+    {
+      "group_id": "activity-10112",
+      "name": "遥远的塔",
+      "shop_status": "unique_shop_outfit",
+      "comparisons": [
+        {
+          "audio_id": "audio-0b2df83299d31ae25a1c3b2eccd7d649e1b0834ded9eae1703f5a2c5bcbf4d96",
+          "name": "剧情配乐 101 · 第九章 · 点燃",
+          "file": "/audio/audio-0b2df83299d31ae25a1c3b2eccd7d649e1b0834ded9eae1703f5a2c5bcbf4d96.opus",
+          "main_audio_id": "audio-b1a9f66a1f1eacecff40c43c572750c33675cb380c001bfdb6e9b976fccdfee2",
+          "match": null,
+          "activity_prefix_sha256": "9caa60c4dcd6d2a6390b06197e86fa0c1e08441691e7650aebbc11e444c0ed94",
+          "main_prefix_sha256": "30b1c7c78e0752e046294779b5cbffb1b44d814818f23b5909fe02e554bf4f82"
+        }
+      ],
+      "main_outfit": {
+        "outfit_id": 214062,
+        "code": "4062",
+        "name": "美好，尽在昨日"
+      },
+      "main_audio_id": "audio-b1a9f66a1f1eacecff40c43c572750c33675cb380c001bfdb6e9b976fccdfee2",
+      "main_core_has_system_alias": true
+    },
+    {
+      "group_id": "activity-20104",
+      "name": "完璧之庭 · 微尘破晓",
+      "shop_status": "unique_shop_outfit",
+      "comparisons": [],
+      "main_outfit": {
+        "outfit_id": 214067,
+        "code": "4067",
+        "name": "永恒的闪耀"
+      },
+      "main_audio_id": "audio-73d51d62a343f4c91ec1a73e886e3234af0f3f5587d8c531bdbb4522f312604d",
+      "main_core_has_system_alias": true
+    },
+    {
+      "group_id": "activity-30104",
+      "name": "activity-30104",
+      "shop_status": "no_shop_outfit",
+      "comparisons": []
+    },
+    {
+      "group_id": "activity-10113",
+      "name": "执笔展卷，勾勒未名之境",
+      "shop_status": "unique_shop_outfit",
+      "comparisons": [],
+      "main_outfit": {
+        "outfit_id": 214069,
+        "code": "4069",
+        "name": "紧急救援"
+      },
+      "main_audio_id": "audio-fe2badc2b2a6494905f07ad134cf1dbc9d219c618c36a9b3ab038c0082cf67ea",
+      "main_core_has_system_alias": false
+    }
+  ],
+  "removed": [
+    {
+      "group_id": "activity-10109",
+      "group_name": "枪林弹雨覆黄沙",
+      "main_outfit": {
+        "outfit_id": 214053,
+        "code": "4053",
+        "name": "欢聚时刻"
+      },
+      "audio_id": "audio-d5204891a81290dc55c249dc6cb9321b7fd69eaaa91a09fd871dcf55bc1b22eb",
+      "name": "枪林弹雨覆黄沙",
+      "file": "/audio/audio-d5204891a81290dc55c249dc6cb9321b7fd69eaaa91a09fd871dcf55bc1b22eb.opus",
+      "main_audio_id": "audio-0ccb31444e7569d3961f0a85bd78c3d2687669b0183a967c08f8b978f5914da9",
+      "match": "identical_first_60_seconds_pcm",
+      "activity_prefix_sha256": "b79b057aea1e52f05f0ef34447a92f0852dabca89805b4aaec93fbf17b3cf146",
+      "main_prefix_sha256": "b79b057aea1e52f05f0ef34447a92f0852dabca89805b4aaec93fbf17b3cf146",
+      "removed_entry": {
+        "id": "audio-d5204891a81290dc55c249dc6cb9321b7fd69eaaa91a09fd871dcf55bc1b22eb",
+        "name": "枪林弹雨覆黄沙",
+        "file": "/audio/audio-d5204891a81290dc55c249dc6cb9321b7fd69eaaa91a09fd871dcf55bc1b22eb.opus",
+        "description": ""
+      }
+    },
+    {
+      "group_id": "activity-20103",
+      "group_name": "晴风碧海 · 悠哉盛夏依然打卡~",
+      "main_outfit": {
+        "outfit_id": 214056,
+        "code": "4056",
+        "name": "斑驳夏影"
+      },
+      "audio_id": "audio-c020b534906a2dd006f13c7d3aeef49dece4a57a21f85d631282fa3b0f50af87",
+      "name": "晴风碧海 · 悠哉盛夏依然打卡~",
+      "file": "/audio/audio-c020b534906a2dd006f13c7d3aeef49dece4a57a21f85d631282fa3b0f50af87.opus",
+      "main_audio_id": "audio-e0697fb4f7d2d49a570734f28219d9639956cd214aa9d5d1fbefb98e791eac5e",
+      "match": "identical_first_60_seconds_pcm",
+      "activity_prefix_sha256": "49c488494c25b5e68ac6868c6d8b9ab52199825822582b45337656088facd0a2",
+      "main_prefix_sha256": "49c488494c25b5e68ac6868c6d8b9ab52199825822582b45337656088facd0a2",
+      "removed_entry": {
+        "id": "audio-c020b534906a2dd006f13c7d3aeef49dece4a57a21f85d631282fa3b0f50af87",
+        "name": "晴风碧海 · 悠哉盛夏依然打卡~",
+        "file": "/audio/audio-c020b534906a2dd006f13c7d3aeef49dece4a57a21f85d631282fa3b0f50af87.opus",
+        "description": ""
+      }
+    }
+  ],
+  "errors": []
+}

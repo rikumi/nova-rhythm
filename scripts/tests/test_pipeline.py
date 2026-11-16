@@ -91,6 +91,8 @@ class PipelineTests(unittest.TestCase):
     def test_reviewed_catalog_preserves_order_and_canonical_loops(self):
         outfits = rebuild.read(rebuild.REPOSITORY/'public/data/outfits.json')
         library = rebuild.read(rebuild.REPOSITORY/'public/data/library.json')
+        from story_mapping import apply_mapping
+        expected_library = apply_mapping(rebuild.read(rebuild.REPOSITORY/'public/data/story-melodies.json'), library)
         songs = library['tracks']+[m for o in outfits['items'] for m in o['music']]
         fields = ['sample_rate', 'channels', 'number_of_samples', 'duration_seconds', 'loop']
         rows = []
@@ -101,7 +103,7 @@ class PipelineTests(unittest.TestCase):
             rows.append(self.row(song['id'][6:], audio=audio))
         actual_outfits, actual_library, pending, _ = rebuild.build_manifests(rows, {}, False)
         self.assertEqual(actual_outfits, outfits)
-        self.assertEqual(actual_library, library)
+        self.assertEqual(actual_library, expected_library)
         self.assertEqual(pending, [])
 
     def test_portable_reference_checksums(self):

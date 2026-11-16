@@ -1,0 +1,898 @@
+{
+  "schema_version": 1,
+  "basis": "ActivityGroup.Enter.Store -> ActivityShopControl.ShopIds -> ActivityGoods.ItemId -> DiscIP",
+  "source_table_sha256": {
+    "ActivityGroup": "140d2a2f7450063a3e22c5eae885329454aa7556970df2f98baa3ac25e2ee5ef",
+    "ActivityShopControl": "25cd63055ebe12d3343c9d156f08a84dabdb42e71e29a16247183a53b20aafe7",
+    "ActivityGoods": "1532619cddf4d03440abfc0e28c65c1ceb703cbece45de8af02bd49f7d902762",
+    "DiscIP": "d0ea05f0cdfdbf9a3f124864696b8322bc61789a918d0cea24eb77c1c327c4e9"
+  },
+  "entries": [
+    {
+      "group_id": "activity-10100",
+      "activity_id": 10100,
+      "name": "惊奇冒险！渊海幽灵船传说！",
+      "date": "2025-10-28T12:00:00+08:00",
+      "store_entry": [
+        1010004,
+        4,
+        172
+      ],
+      "shop_control": {
+        "Id": 1010004,
+        "ShopIds": [
+          1001
+        ],
+        "Npc": [
+          9155
+        ]
+      },
+      "candidates": [
+        {
+          "outfit_id": 214039,
+          "code": "4039",
+          "name": "夏日栖息地",
+          "goods": [
+            {
+              "Id": 100101,
+              "Name": "ActivityGoods.100101.1",
+              "Desc": "ActivityGoods.100101.2",
+              "ShopId": 1001,
+              "SaleNumber": 1,
+              "ItemId": 214039,
+              "ItemQuantity": 1,
+              "MaximumLimit": 1,
+              "Price": 8000,
+              "DisplayMode": 1
+            }
+          ]
+        }
+      ],
+      "status": "unique_shop_outfit"
+    },
+    {
+      "group_id": "activity-10101",
+      "activity_id": 10101,
+      "name": "我们的旅团",
+      "date": "2025-11-18T12:00:00+08:00",
+      "store_entry": [
+        1010104,
+        4,
+        189
+      ],
+      "shop_control": {
+        "Id": 1010104,
+        "ShopIds": [
+          1002
+        ],
+        "Npc": [
+          8134
+        ]
+      },
+      "candidates": [
+        {
+          "outfit_id": 214040,
+          "code": "4040",
+          "name": "勇气之拳",
+          "goods": [
+            {
+              "Id": 100201,
+              "Name": "ActivityGoods.100201.1",
+              "Desc": "ActivityGoods.100201.2",
+              "ShopId": 1002,
+              "SaleNumber": 1,
+              "ItemId": 214040,
+              "ItemQuantity": 1,
+              "MaximumLimit": 1,
+              "Price": 8000,
+              "DisplayMode": 1
+            }
+          ]
+        }
+      ],
+      "status": "unique_shop_outfit"
+    },
+    {
+      "group_id": "activity-10102",
+      "activity_id": 10102,
+      "name": "梦的彼岸",
+      "date": "2025-12-09T12:00:00+08:00",
+      "store_entry": [
+        1010204,
+        4,
+        191
+      ],
+      "shop_control": {
+        "Id": 1010204,
+        "ShopIds": [
+          1003
+        ],
+        "Npc": [
+          8133
+        ]
+      },
+      "candidates": [
+        {
+          "outfit_id": 214024,
+          "code": "4024",
+          "name": "一二三，跳！",
+          "goods": [
+            {
+              "Id": 100301,
+              "Name": "ActivityGoods.100301.1",
+              "Desc": "ActivityGoods.100301.2",
+              "ShopId": 1003,
+              "SaleNumber": 1,
+              "ItemId": 214024,
+              "ItemQuantity": 1,
+              "MaximumLimit": 1,
+              "Price": 8000,
+              "DisplayMode": 1
+            }
+          ]
+        }
+      ],
+      "status": "unique_shop_outfit"
+    },
+    {
+      "group_id": "activity-20101",
+      "activity_id": 20101,
+      "name": "闪耀的使者与圣夜的精灵",
+      "date": "2025-12-23T12:00:00+08:00",
+      "store_entry": [
+        2010104,
+        4,
+        379
+      ],
+      "shop_control": {
+        "Id": 2010104,
+        "ShopIds": [
+          1004
+        ],
+        "Npc": [
+          8158
+        ]
+      },
+      "candidates": [
+        {
+          "outfit_id": 214041,
+          "code": "4041",
+          "name": "启程的礼物",
+          "goods": [
+            {
+              "Id": 100401,
+              "Name": "ActivityGoods.100401.1",
+              "Desc": "ActivityGoods.100401.2",
+              "ShopId": 1004,
+              "SaleNumber": 1,
+              "ItemId": 214041,
+              "ItemQuantity": 1,
+              "MaximumLimit": 1,
+              "Price": 8000,
+              "DisplayMode": 1
+            }
+          ]
+        }
+      ],
+      "status": "unique_shop_outfit"
+    },
+    {
+      "group_id": "activity-10103",
+      "activity_id": 10103,
+      "name": "微火的奇迹",
+      "date": "2026-01-13T12:00:00+08:00",
+      "store_entry": [
+        1010304,
+        4,
+        373
+      ],
+      "shop_control": {
+        "Id": 1010304,
+        "ShopIds": [
+          1005
+        ],
+        "Npc": [
+          8110
+        ]
+      },
+      "candidates": [
+        {
+          "outfit_id": 214043,
+          "code": "4043",
+          "name": "革新的萌芽",
+          "goods": [
+            {
+              "Id": 100501,
+              "Name": "ActivityGoods.100501.1",
+              "Desc": "ActivityGoods.100501.2",
+              "ShopId": 1005,
+              "SaleNumber": 1,
+              "ItemId": 214043,
+              "ItemQuantity": 1,
+              "MaximumLimit": 1,
+              "Price": 8000,
+              "DisplayMode": 1
+            }
+          ]
+        }
+      ],
+      "status": "unique_shop_outfit"
+    },
+    {
+      "group_id": "activity-10104",
+      "activity_id": 10104,
+      "name": "烟火绮丽寻春意",
+      "date": "2026-02-03T12:00:00+08:00",
+      "store_entry": [
+        1010404,
+        4,
+        396
+      ],
+      "shop_control": {
+        "Id": 1010404,
+        "ShopIds": [
+          1006
+        ],
+        "Npc": [
+          8159
+        ]
+      },
+      "candidates": [
+        {
+          "outfit_id": 214042,
+          "code": "4042",
+          "name": "酒暖灯明时",
+          "goods": [
+            {
+              "Id": 100601,
+              "Name": "ActivityGoods.100601.1",
+              "Desc": "ActivityGoods.100601.2",
+              "ShopId": 1006,
+              "SaleNumber": 1,
+              "ItemId": 214042,
+              "ItemQuantity": 1,
+              "MaximumLimit": 1,
+              "Price": 8000,
+              "DisplayMode": 1
+            }
+          ]
+        }
+      ],
+      "status": "unique_shop_outfit"
+    },
+    {
+      "group_id": "activity-30101",
+      "activity_id": 30101,
+      "name": "activity-30101",
+      "date": "2026-02-17T12:00:00+08:00",
+      "store_entry": [
+        3010103,
+        4,
+        358
+      ],
+      "shop_control": {
+        "Id": 3010103,
+        "ShopIds": [
+          3001
+        ],
+        "Npc": [
+          9133
+        ]
+      },
+      "candidates": [],
+      "status": "no_shop_outfit"
+    },
+    {
+      "group_id": "activity-10105",
+      "activity_id": 10105,
+      "name": "冬夜镇魂曲与破晓扳机",
+      "date": "2026-02-24T12:00:00+08:00",
+      "store_entry": [
+        1010504,
+        4,
+        407
+      ],
+      "shop_control": {
+        "Id": 1010504,
+        "ShopIds": [
+          1007
+        ],
+        "Npc": [
+          8143
+        ]
+      },
+      "candidates": [
+        {
+          "outfit_id": 214046,
+          "code": "4046",
+          "name": "冬夜后的黎明",
+          "goods": [
+            {
+              "Id": 100701,
+              "Name": "ActivityGoods.100701.1",
+              "Desc": "ActivityGoods.100701.2",
+              "ShopId": 1007,
+              "SaleNumber": 1,
+              "ItemId": 214046,
+              "ItemQuantity": 1,
+              "MaximumLimit": 1,
+              "Price": 8000,
+              "DisplayMode": 1
+            }
+          ]
+        }
+      ],
+      "status": "unique_shop_outfit"
+    },
+    {
+      "group_id": "activity-10106",
+      "activity_id": 10106,
+      "name": "敬启，致珍重的你",
+      "date": "2026-03-17T12:00:00+08:00",
+      "store_entry": [
+        1010604,
+        4,
+        411
+      ],
+      "shop_control": {
+        "Id": 1010604,
+        "ShopIds": [
+          1008
+        ],
+        "Npc": [
+          8130
+        ]
+      },
+      "candidates": [
+        {
+          "outfit_id": 214047,
+          "code": "4047",
+          "name": "信笺乘风而去",
+          "goods": [
+            {
+              "Id": 100801,
+              "Name": "ActivityGoods.100801.1",
+              "Desc": "ActivityGoods.100801.2",
+              "ShopId": 1008,
+              "SaleNumber": 1,
+              "ItemId": 214047,
+              "ItemQuantity": 1,
+              "MaximumLimit": 1,
+              "Price": 8000,
+              "DisplayMode": 1
+            }
+          ]
+        }
+      ],
+      "status": "unique_shop_outfit"
+    },
+    {
+      "group_id": "activity-20102",
+      "activity_id": 20102,
+      "name": "幽夜独舞孤影乱",
+      "date": "2026-04-16T12:00:00+08:00",
+      "store_entry": [
+        2010204,
+        4,
+        427
+      ],
+      "shop_control": {
+        "Id": 2010204,
+        "ShopIds": [
+          1009
+        ],
+        "Npc": [
+          8145
+        ]
+      },
+      "candidates": [
+        {
+          "outfit_id": 214050,
+          "code": "4050",
+          "name": "夜宴谜影",
+          "goods": [
+            {
+              "Id": 100901,
+              "Name": "ActivityGoods.100901.1",
+              "Desc": "ActivityGoods.100901.2",
+              "ShopId": 1009,
+              "SaleNumber": 1,
+              "ItemId": 214050,
+              "ItemQuantity": 1,
+              "MaximumLimit": 1,
+              "Price": 8000,
+              "DisplayMode": 1
+            }
+          ]
+        }
+      ],
+      "status": "unique_shop_outfit"
+    },
+    {
+      "group_id": "activity-30102",
+      "activity_id": 30102,
+      "name": "activity-30102",
+      "date": "2026-05-26T12:00:00+08:00",
+      "store_entry": [
+        3010203,
+        4,
+        435
+      ],
+      "shop_control": {
+        "Id": 3010203,
+        "ShopIds": [
+          3002
+        ],
+        "Npc": [
+          9133
+        ]
+      },
+      "candidates": [],
+      "status": "no_shop_outfit"
+    },
+    {
+      "group_id": "activity-10107",
+      "activity_id": 10107,
+      "name": "穿透心壁的取景框",
+      "date": "2026-05-14T12:00:00+08:00",
+      "store_entry": [
+        1010704,
+        4,
+        434
+      ],
+      "shop_control": {
+        "Id": 1010704,
+        "ShopIds": [
+          1010
+        ],
+        "Npc": [
+          8115
+        ]
+      },
+      "candidates": [
+        {
+          "outfit_id": 214003,
+          "code": "4003",
+          "name": "你与我相似",
+          "goods": [
+            {
+              "Id": 101001,
+              "Name": "ActivityGoods.101001.1",
+              "Desc": "ActivityGoods.101001.2",
+              "ShopId": 1010,
+              "SaleNumber": 1,
+              "ItemId": 214003,
+              "ItemQuantity": 1,
+              "MaximumLimit": 1,
+              "Price": 8000,
+              "DisplayMode": 1
+            }
+          ]
+        }
+      ],
+      "status": "unique_shop_outfit"
+    },
+    {
+      "group_id": "activity-10108",
+      "activity_id": 10108,
+      "name": "心跳！柔光狂想曲",
+      "date": "2026-06-02T12:00:00+08:00",
+      "store_entry": [
+        1010804,
+        4,
+        452
+      ],
+      "shop_control": {
+        "Id": 1010804,
+        "ShopIds": [
+          1011
+        ],
+        "Npc": [
+          8140
+        ]
+      },
+      "candidates": [
+        {
+          "outfit_id": 214052,
+          "code": "4052",
+          "name": "奇迹一触",
+          "goods": [
+            {
+              "Id": 101101,
+              "Name": "ActivityGoods.101101.1",
+              "Desc": "ActivityGoods.101101.2",
+              "ShopId": 1011,
+              "SaleNumber": 1,
+              "ItemId": 214052,
+              "ItemQuantity": 1,
+              "MaximumLimit": 1,
+              "Price": 8000,
+              "DisplayMode": 1
+            }
+          ]
+        }
+      ],
+      "status": "unique_shop_outfit"
+    },
+    {
+      "group_id": "activity-11100",
+      "activity_id": 11100,
+      "name": "activity-11100",
+      "date": "2026-06-16T12:00:00+08:00",
+      "store_entry": [
+        1110004,
+        4,
+        447
+      ],
+      "shop_control": {
+        "Id": 1110004,
+        "ShopIds": [
+          1012
+        ],
+        "Npc": [
+          9155
+        ]
+      },
+      "candidates": [
+        {
+          "outfit_id": 214039,
+          "code": "4039",
+          "name": "夏日栖息地",
+          "goods": [
+            {
+              "Id": 101201,
+              "Name": "ActivityGoods.101201.1",
+              "Desc": "ActivityGoods.101201.2",
+              "ShopId": 1012,
+              "SaleNumber": 1,
+              "ItemId": 214039,
+              "ItemQuantity": 1,
+              "MaximumLimit": 1,
+              "Price": 8000,
+              "DisplayMode": 1
+            }
+          ]
+        }
+      ],
+      "status": "unique_shop_outfit"
+    },
+    {
+      "group_id": "activity-10109",
+      "activity_id": 10109,
+      "name": "枪林弹雨覆黄沙",
+      "date": "2026-06-30T12:00:00+08:00",
+      "store_entry": [
+        1010904,
+        4,
+        472
+      ],
+      "shop_control": {
+        "Id": 1010904,
+        "ShopIds": [
+          1013
+        ],
+        "Npc": [
+          8114
+        ]
+      },
+      "candidates": [
+        {
+          "outfit_id": 214053,
+          "code": "4053",
+          "name": "欢聚时刻",
+          "goods": [
+            {
+              "Id": 101301,
+              "Name": "ActivityGoods.101301.1",
+              "Desc": "ActivityGoods.101301.2",
+              "ShopId": 1013,
+              "SaleNumber": 1,
+              "ItemId": 214053,
+              "ItemQuantity": 1,
+              "MaximumLimit": 1,
+              "Price": 8000,
+              "DisplayMode": 1
+            }
+          ]
+        }
+      ],
+      "status": "unique_shop_outfit"
+    },
+    {
+      "group_id": "activity-20103",
+      "activity_id": 20103,
+      "name": "晴风碧海 · 悠哉盛夏依然打卡~",
+      "date": "2026-07-21T12:00:00+08:00",
+      "store_entry": [
+        2010304,
+        4,
+        494
+      ],
+      "shop_control": {
+        "Id": 2010304,
+        "ShopIds": [
+          1014
+        ],
+        "Npc": [
+          8160
+        ]
+      },
+      "candidates": [
+        {
+          "outfit_id": 214056,
+          "code": "4056",
+          "name": "斑驳夏影",
+          "goods": [
+            {
+              "Id": 101401,
+              "Name": "ActivityGoods.101401.1",
+              "Desc": "ActivityGoods.101401.2",
+              "ShopId": 1014,
+              "SaleNumber": 1,
+              "ItemId": 214056,
+              "ItemQuantity": 1,
+              "MaximumLimit": 1,
+              "Price": 8000,
+              "DisplayMode": 1
+            }
+          ]
+        }
+      ],
+      "status": "unique_shop_outfit"
+    },
+    {
+      "group_id": "activity-10110",
+      "activity_id": 10110,
+      "name": "欢歌劲浪 · 闪耀假日惊涛探险！",
+      "date": "2026-08-18T12:00:00+08:00",
+      "store_entry": [
+        1011004,
+        4,
+        511
+      ],
+      "shop_control": {
+        "Id": 1011004,
+        "ShopIds": [
+          1015
+        ],
+        "Npc": [
+          8157
+        ]
+      },
+      "candidates": [
+        {
+          "outfit_id": 214058,
+          "code": "4058",
+          "name": "夏日进行曲",
+          "goods": [
+            {
+              "Id": 101501,
+              "Name": "ActivityGoods.101501.1",
+              "Desc": "ActivityGoods.101501.2",
+              "ShopId": 1015,
+              "SaleNumber": 1,
+              "ItemId": 214058,
+              "ItemQuantity": 1,
+              "MaximumLimit": 1,
+              "Price": 8000,
+              "DisplayMode": 1
+            }
+          ]
+        }
+      ],
+      "status": "unique_shop_outfit"
+    },
+    {
+      "group_id": "activity-30103",
+      "activity_id": 30103,
+      "name": "activity-30103",
+      "date": "2026-09-01T12:00:00+08:00",
+      "store_entry": [
+        3010303,
+        4,
+        512
+      ],
+      "shop_control": {
+        "Id": 3010303,
+        "ShopIds": [
+          3003
+        ],
+        "Npc": [
+          9133
+        ]
+      },
+      "candidates": [],
+      "status": "no_shop_outfit"
+    },
+    {
+      "group_id": "activity-10111",
+      "activity_id": 10111,
+      "name": "奋斗吧！大小姐的旅人修炼手册！",
+      "date": "2026-09-08T12:00:00+08:00",
+      "store_entry": [
+        1011104,
+        4,
+        522
+      ],
+      "shop_control": {
+        "Id": 1011104,
+        "ShopIds": [
+          1016
+        ],
+        "Npc": [
+          8137
+        ]
+      },
+      "candidates": [
+        {
+          "outfit_id": 214060,
+          "code": "4060",
+          "name": "荣誉时刻",
+          "goods": [
+            {
+              "Id": 101601,
+              "Name": "ActivityGoods.101601.1",
+              "Desc": "ActivityGoods.101601.2",
+              "ShopId": 1016,
+              "SaleNumber": 1,
+              "ItemId": 214060,
+              "ItemQuantity": 1,
+              "MaximumLimit": 1,
+              "Price": 8000,
+              "DisplayMode": 1
+            }
+          ]
+        }
+      ],
+      "status": "unique_shop_outfit"
+    },
+    {
+      "group_id": "activity-10112",
+      "activity_id": 10112,
+      "name": "遥远的塔",
+      "date": "2026-09-29T12:00:00+08:00",
+      "store_entry": [
+        1011204,
+        4,
+        532
+      ],
+      "shop_control": {
+        "Id": 1011204,
+        "ShopIds": [
+          1017
+        ],
+        "Npc": [
+          8139
+        ]
+      },
+      "candidates": [
+        {
+          "outfit_id": 214062,
+          "code": "4062",
+          "name": "美好，尽在昨日",
+          "goods": [
+            {
+              "Id": 101701,
+              "Name": "ActivityGoods.101701.1",
+              "Desc": "ActivityGoods.101701.2",
+              "ShopId": 1017,
+              "SaleNumber": 1,
+              "ItemId": 214062,
+              "ItemQuantity": 1,
+              "MaximumLimit": 1,
+              "Price": 8000,
+              "DisplayMode": 1
+            }
+          ]
+        }
+      ],
+      "status": "unique_shop_outfit"
+    },
+    {
+      "group_id": "activity-20104",
+      "activity_id": 20104,
+      "name": "完璧之庭 · 微尘破晓",
+      "date": "2026-10-20T12:00:00+08:00",
+      "store_entry": [
+        2010404,
+        4,
+        579
+      ],
+      "shop_control": {
+        "Id": 2010404,
+        "ShopIds": [
+          1018
+        ],
+        "Npc": [
+          8162
+        ]
+      },
+      "candidates": [
+        {
+          "outfit_id": 214067,
+          "code": "4067",
+          "name": "永恒的闪耀",
+          "goods": [
+            {
+              "Id": 101801,
+              "Name": "ActivityGoods.101801.1",
+              "Desc": "ActivityGoods.101801.2",
+              "ShopId": 1018,
+              "SaleNumber": 1,
+              "ItemId": 214067,
+              "ItemQuantity": 1,
+              "MaximumLimit": 1,
+              "Price": 8000,
+              "DisplayMode": 1
+            }
+          ]
+        }
+      ],
+      "status": "unique_shop_outfit"
+    },
+    {
+      "group_id": "activity-30104",
+      "activity_id": 30104,
+      "name": "activity-30104",
+      "date": "2026-11-03T12:00:00+08:00",
+      "store_entry": [
+        3010403,
+        4,
+        533
+      ],
+      "shop_control": {
+        "Id": 3010403,
+        "ShopIds": [
+          3004
+        ],
+        "Npc": [
+          9133
+        ]
+      },
+      "candidates": [],
+      "status": "no_shop_outfit"
+    },
+    {
+      "group_id": "activity-10113",
+      "activity_id": 10113,
+      "name": "执笔展卷，勾勒未名之境",
+      "date": "2026-11-13T12:00:00+08:00",
+      "store_entry": [
+        1011304,
+        4,
+        588
+      ],
+      "shop_control": {
+        "Id": 1011304,
+        "ShopIds": [
+          1019
+        ],
+        "Npc": [
+          8161
+        ]
+      },
+      "candidates": [
+        {
+          "outfit_id": 214069,
+          "code": "4069",
+          "name": "紧急救援",
+          "goods": [
+            {
+              "Id": 101901,
+              "Name": "ActivityGoods.101901.1",
+              "Desc": "ActivityGoods.101901.2",
+              "ShopId": 1019,
+              "SaleNumber": 1,
+              "ItemId": 214069,
+              "ItemQuantity": 1,
+              "MaximumLimit": 1,
+              "Price": 8000,
+              "DisplayMode": 1
+            }
+          ]
+        }
+      ],
+      "status": "unique_shop_outfit"
+    }
+  ]
+}

@@ -38,6 +38,8 @@ npm run dev
 
 ## 仓库内容
 
+日常调整故事集、日期、曲名、描述和音频收录，只需编辑 [`public/data/story-melodies.json`](public/data/story-melodies.json)。详见[故事旋律编辑说明](docs/story-melodies.md)。
+
 | 路径 | 用途 |
 | --- | --- |
 | `src/`、`public/` | 当前网站源码与运行资源 |
