@@ -1,12 +1,8 @@
 import type { LibraryMusic, MusicGroup } from './types';
+import { musicUrl } from './musicRoutes.ts';
 
 export function libraryTrackUrl(href: string, trackId: string): URL {
-  const url = new URL(href);
-  url.hash = '/library';
-  url.searchParams.delete('disc');
-  url.searchParams.delete('mix');
-  url.searchParams.set('track', trackId);
-  return url;
+  return musicUrl(href,trackId);
 }
 
 /** Outfit references are navigation links, never entries in the playback queue. */

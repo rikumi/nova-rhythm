@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState, useSyncExternalStore } from 'react';
 import { createRoot } from 'react-dom/client';
-import { ArrowLeft, AudioLines, Check, ChevronDown, Disc3, Download, Expand, Heart, ListMusic, LoaderCircle, Music2, Pause, Play, Repeat, Repeat1, Shuffle, Search, SkipBack, SkipForward, Smartphone, Volume2, VolumeX, X } from 'lucide-react';
+import { ArrowLeft, AudioLines, Check, ChevronDown, Copy, Disc3, Download, Expand, Heart, ListMusic, LoaderCircle, Music2, Pause, Play, Repeat, Repeat1, Shuffle, Search, SkipBack, SkipForward, Smartphone, Volume2, VolumeX, X } from 'lucide-react';
 import type { CSSProperties, ReactNode } from 'react';
 import type { Outfit, LibraryMusic, MusicGroup } from './types';
 import { player } from './audio';
@@ -11,6 +11,7 @@ import { adjacentLibraryTrack, libraryQueue, libraryTrackUrl } from './libraryNa
 import { MODE_LABELS, nextPlaybackMode, nextQueueIndex } from './playbackMode';
 import { musicTitleParts } from './musicTitle';
 import { applyInfinityTowerMixer } from './infinitytowerMixer';
+import { musicIdFromPath, musicPage, musicPath, musicUrl, outfitMusicPage, registerMusicPages, storyMusicPage, updateMusicPageMetadata } from './musicRoutes';
 import './style.css';
 import './storyPlayback.css';
 import './pwa.css';
@@ -96,6 +97,7 @@ function FullscreenArtwork({ outfit, close }: { outfit: Outfit; close: () => voi
 function Card({ outfit, full = false, onExpand }: { outfit: Outfit; full?: boolean; onExpand?: () => void }) {
   const ref = useRef<HTMLDivElement>(null);
   const target = useRef({ x: 0, y: 0, active: false });
+  const dragPointer = useRef<number | null>(null);
   const reduced = useRef(false);
   useEffect(() => {
     const preference = window.matchMedia('(prefers-reduced-motion: reduce)');
@@ -105,7 +107,7 @@ function Card({ outfit, full = false, onExpand }: { outfit: Outfit; full?: boole
     let previous = performance.now();
     const tick = (now: number) => {
       const sensor = deviceTilt.read(now);
-      const input = sensor.active ? sensor : target.current;
+      const input = target.current.active ? target.current : sensor.active ? sensor : target.current;
       const idle = reduced.current || input.active || deviceTilt.snapshot().mobile ? 0 : Math.sin(now / 8000 * Math.PI) * .055;
       const smoothing = 1-Math.exp(-Math.min(now-previous, 100)/240); previous = now;
       x += ((input.x + idle) - x) * smoothing;
@@ -116,14 +118,29 @@ function Card({ outfit, full = false, onExpand }: { outfit: Outfit; full?: boole
     };
     frame = requestAnimationFrame(tick); return () => { cancelAnimationFrame(frame); preference.removeEventListener('change', updatePreference); };
   }, []);
+  useEffect(() => {
+    const element=ref.current;
+    const blockScroll=(event:TouchEvent)=>{if(event.cancelable)event.preventDefault();};
+    element?.addEventListener('touchmove',blockScroll,{passive:false});
+    return ()=>element?.removeEventListener('touchmove',blockScroll);
+  },[]);
   const move = (e: React.PointerEvent) => {
-    if (e.pointerType === 'touch') return;
+    if (e.pointerType !== 'mouse' && dragPointer.current !== e.pointerId) return;
     const box = e.currentTarget.getBoundingClientRect();
     target.current = { x: Math.max(-1, Math.min(1, (e.clientX - box.left) / box.width * 2 - 1)), y: Math.max(-1, Math.min(1, (e.clientY - box.top) / box.height * 2 - 1)), active: true };
   };
+  const beginDrag=(e:React.PointerEvent<HTMLDivElement>)=>{
+    if(e.pointerType==='mouse' || !e.isPrimary || (e.target instanceof Element && e.target.closest('button,a')))return;
+    dragPointer.current=e.pointerId;e.currentTarget.setPointerCapture(e.pointerId);move(e);
+  };
+  const endDrag=(e:React.PointerEvent<HTMLDivElement>)=>{
+    if(dragPointer.current!==e.pointerId)return;
+    dragPointer.current=null;target.current={x:0,y:0,active:false};
+    if(e.currentTarget.hasPointerCapture(e.pointerId))e.currentTarget.releasePointerCapture(e.pointerId);
+  };
   const base = outfit.card.mask_size || 712;
   const motion = outfit.card.motion || { rotation_x: 3, rotation_y: -8 };
-  return <div ref={ref} className={`live-card ${full ? 'full-card' : ''}`} style={{ '--tilt-x': `${-motion.rotation_x}deg`, '--tilt-y': `${-motion.rotation_y}deg` } as CSSProperties} onPointerMove={move} onPointerLeave={() => { target.current = { x: 0, y: 0, active: false }; }}>
+  return <div ref={ref} className={`live-card ${full ? 'full-card' : ''}`} style={{ '--tilt-x': `${-motion.rotation_x}deg`, '--tilt-y': `${-motion.rotation_y}deg` } as CSSProperties} onPointerDown={beginDrag} onPointerMove={move} onPointerUp={endDrag} onPointerCancel={endDrag} onLostPointerCapture={endDrag} onPointerLeave={() => { if(dragPointer.current===null)target.current = { x: 0, y: 0, active: false }; }}>
     <div className={`card-frame rarity-${outfit.rarity}`}>
       <div className="card-glint" />
       <div className="card-window" data-content-scale={CARD_CONTENT_SCALE}>
@@ -187,9 +204,9 @@ function ArchiveApp({ active, onBack, fromStory = false }: { active: boolean; on
   const [loadError, setLoadError] = useState('');
   const [selectedId, setSelectedId] = useState<number>(() => {
     const url = new URLSearchParams(location.search).get('disc');
-    return url ? Number(url) : readStorage('nova-selected', 214055);
+    return url ? Number(url) : musicPage()?.outfitId || readStorage('nova-selected', 214055);
   });
-  const [melody, setMelody] = useState(0);
+  const [melody, setMelody] = useState(()=>musicPage()?.melodyIndex || 0);
   const [showCollection, setShowCollection] = useState(false);
   const [showStory, setShowStory] = useState(false);
   const [full, setFull] = useState(false);
@@ -207,9 +224,18 @@ function ArchiveApp({ active, onBack, fromStory = false }: { active: boolean; on
   const favorite = chosen && favorites.includes(chosen.id);
   const timer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
-  useEffect(() => { fetch('/data/outfits.json').then(r => { if (!r.ok) throw new Error('秘纹档案暂时无法读取'); return r.json(); }).then(data => setItems(data.items)).catch(e => setLoadError(e.message)); }, []);
+  useEffect(() => { fetch('/data/outfits.json').then(r => { if (!r.ok) throw new Error('秘纹档案暂时无法读取'); return r.json(); }).then((data:{items:Outfit[]}) => {
+    registerMusicPages(data.items.flatMap(outfit=>outfit.music.map((music,index)=>outfitMusicPage(outfit,music,index))));
+    const requested=musicIdFromPath(location.pathname);
+    const outfit=data.items.find(outfit=>outfit.music.some(music=>music.id===requested));
+    if(outfit){setSelectedId(outfit.id);setMelody(outfit.music.findIndex(music=>music.id===requested));}
+    setItems(data.items);
+  }).catch(e => setLoadError(e.message)); }, []);
   useEffect(() => { if (active && currentMusic) void player.select(currentMusic); }, [active, currentMusic?.id]);
-  useEffect(() => { if (active && chosen) { writeStorage('nova-selected', chosen.id); const url = new URL(location.href); url.searchParams.set('disc', String(chosen.id)); history.replaceState(history.state, '', url); } }, [active, chosen?.id]);
+  useEffect(() => { if (active && chosen && currentMusic) {
+    writeStorage('nova-selected',chosen.id);history.replaceState(history.state,'',musicUrl(location.href,currentMusic.id));
+    updateMusicPageMetadata(outfitMusicPage(chosen,currentMusic,melody));
+  } }, [active, chosen?.id, currentMusic?.id]);
   useEffect(() => { writeStorage('nova-favorites', favorites); }, [favorites]);
   useEffect(() => { writeStorage('nova-sfx', soundEnabled); }, [soundEnabled]);
   useEffect(() => { writeStorage('nova-artwork-mode', artworkMode); }, [artworkMode]);
@@ -217,6 +243,23 @@ function ArchiveApp({ active, onBack, fromStory = false }: { active: boolean; on
   useEffect(() => { deviceTilt.setViewing(sensorViewing); return () => deviceTilt.setViewing(false); }, [sensorViewing]);
   const sound = (name: string) => { if (soundEnabled) void player.sound(name); };
   const notify = (message: string) => { setToast(message); if (timer.current) clearTimeout(timer.current); timer.current = setTimeout(() => setToast(''), 2400); };
+  const copyPageLink=async()=>{
+    if(!chosen || !currentMusic)return;
+    const url=musicUrl(location.href,currentMusic.id);
+    try {
+      if(!navigator.clipboard?.writeText)throw new Error('Clipboard API unavailable');
+      await navigator.clipboard.writeText(url.href);
+    } catch {
+      const input=document.createElement('textarea');input.value=url.href;input.readOnly=true;
+      input.style.cssText='position:fixed;left:-9999px;top:0';
+      const previous=document.activeElement;
+      document.body.append(input);input.select();
+      let copied=false;try{copied=document.execCommand('copy');}catch{/* denied */}
+      input.remove();if(previous instanceof HTMLElement)previous.focus({preventScroll:true});
+      if(!copied){notify('复制失败，请重试');return;}
+    }
+    notify('已复制链接');
+  };
   const select = (outfit: Outfit) => {
     if (chosen?.id === outfit.id) { setShowCollection(false); return; }
     const autoplay = playback.playing;
@@ -253,7 +296,7 @@ function ArchiveApp({ active, onBack, fromStory = false }: { active: boolean; on
     <div className="dust-field" aria-hidden="true">{Array.from({ length: 14 }, (_, i) => <i key={i} style={{ '--n': i } as CSSProperties} />)}</div>
     <header className="topbar">
       <div className="topbar-brand"><button className="back-button" aria-label={fromStory ? '返回故事旋律' : '返回主页面'} onClick={() => { sound('ui_common_back'); onBack(); }}><ArrowLeft /></button><div className="title-ribbon"><img src="/ui/zs_top_title.png" alt="" /><h1>秘纹</h1></div></div>
-      <div className="topbar-actions"><span className="collection-counter"><Disc3 size={17} />{String(selectedIndex + 1).padStart(3, '0')}<small>/ {items.length}</small></span><button className="collection-button" onClick={() => { sound('ui_common_menu'); setShowCollection(true); }}><ListMusic size={19} />秘纹一览<ChevronDown size={14} /></button></div>
+      <div className="topbar-actions"><span className="collection-counter"><Disc3 size={17} />{String(selectedIndex + 1).padStart(3, '0')}<small>/ {items.length}</small></span><button className="collection-button copy-link-button" aria-label="复制当前秘纹链接" title="复制链接" onClick={() => void copyPageLink()}><Copy size={19} /></button><button className="collection-button" onClick={() => { sound('ui_common_menu'); setShowCollection(true); }}><ListMusic size={19} />秘纹一览<ChevronDown size={14} /></button></div>
     </header>
 
     <main className="main-stage">
@@ -297,6 +340,8 @@ const SECTIONS = [
 ] as const;
 type Page = 'home' | typeof SECTIONS[number]['id'];
 function readPage(): Page {
+  const id=musicIdFromPath(location.pathname);
+  if(id)return musicPage(id)?.kind || 'library';
   const hash = location.hash.replace(/^#\/?/, '');
   if (['combat', 'story', 'system'].includes(hash)) return 'library';
   return SECTIONS.some(s => s.id === hash) ? hash as Page : hash === 'home' ? 'home' : new URLSearchParams(location.search).has('track') ? 'library' : new URLSearchParams(location.search).has('disc') ? 'outfit' : 'home';
@@ -318,7 +363,11 @@ function MusicLibrary({ active, onBack, onOpenOutfit }: { active: boolean; onBac
       fetch('/data/story-melodies.json', { signal: controller.signal }).then(r => { if (!r.ok) throw new Error('故事旋律映射读取失败'); return r.json(); }),
       fetch('/data/library.json', { signal: controller.signal }).then(r => { if (!r.ok) throw new Error('音乐读取失败'); return r.json(); }),
       fetch('/data/infinitytower-mixer.json', { signal: controller.signal }).then(r => r.ok ? r.json() : null).catch(()=>null),
-    ]).then(([mapping, metadata, mixer]) => { const d = applyInfinityTowerMixer(resolveStoryLibrary(mapping, metadata), mixer); setTracks(d.tracks); setGroups(d.groups); }).catch(e => { if (e.name !== 'AbortError') setError(e.message); });
+    ]).then(([mapping, metadata, mixer]) => {
+      const original=resolveStoryLibrary(mapping,metadata);const names=new Map(original.groups.map(group=>[group.id,group.name]));
+      registerMusicPages(original.tracks.map(track=>storyMusicPage(track,names.get(track.group_id)||'星塔唱片')));
+      const d=applyInfinityTowerMixer(original,mixer);setTracks(d.tracks);setGroups(d.groups);
+    }).catch(e => { if (e.name !== 'AbortError') setError(e.message); });
     return () => controller.abort();
   }, []);
   useEffect(() => {
@@ -328,17 +377,19 @@ function MusicLibrary({ active, onBack, onOpenOutfit }: { active: boolean; onBac
   }, []);
   useEffect(() => {
     if (!active || !tracks.length) return;
-    const requested = new URLSearchParams(location.search).get('track');
+    const requested = musicIdFromPath(location.pathname) || new URLSearchParams(location.search).get('track');
     if (!requested) return;
     const track = tracks.find(track => track.id === requested || track.legacy_ids?.includes(requested));
     if (!track) { setError('这首音乐已移除或链接无效'); return; }
     const mix=new URLSearchParams(location.search).get('mix');
     const choices=track.mixer && (mix && /^[01]{4}$/.test(mix) ? [...mix].map(Number) : track.mixer.combinations[requested]);
     if(choices)player.setMixerChoices(choices);
-    if (track.id !== requested) {
-      const url=libraryTrackUrl(location.href,track.id);if(choices)url.searchParams.set('mix',choices.join(''));
+    const pageId=track.mixer && choices ? Object.entries(track.mixer.combinations).find(([,value])=>value.join('')===choices.join(''))?.[0] || track.id : track.id;
+    if (location.pathname!==musicPath(pageId) || location.search.includes('track=') || mix || location.hash) {
+      const url=libraryTrackUrl(location.href,pageId);
       history.replaceState(history.state,'',url);
     }
+    const page=musicPage(pageId);if(page)updateMusicPageMetadata(page);
     setError(''); setSelected(track); setOpenGroup(track.group_id); setQuery('');
     if (player.snapshot().trackId !== track.id) void player.selectFromLink(track).catch(() => setError('音乐暂时无法播放，请点击播放重试'));
   }, [active, tracks, routeVersion]);
@@ -362,8 +413,9 @@ function MusicLibrary({ active, onBack, onOpenOutfit }: { active: boolean; onBac
   const queue = libraryQueue(groups, tracks);
   const playTrack = (track: LibraryMusic) => {
     setSelected(track); setOpenGroup(track.group_id); setQuery(''); setError('');
-    const url = libraryTrackUrl(location.href, track.id);
-    if(track.mixer)url.searchParams.set('mix',player.snapshot().mixerChoices.join(''));
+    const id=track.mixer ? Object.entries(track.mixer.combinations).find(([,choices])=>choices.join('')===player.snapshot().mixerChoices.join(''))?.[0] || track.id : track.id;
+    const url = libraryTrackUrl(location.href,id);
+    const page=musicPage(id);if(page)updateMusicPageMetadata(page);
     if (url.href !== location.href) history.pushState(history.state, '', url);
     setRouteVersion(version => version+1);
     void player.select(track, true);
@@ -400,10 +452,11 @@ function MusicLibrary({ active, onBack, onOpenOutfit }: { active: boolean; onBac
 function App() {
   const [page, setPage] = useState<Page>(readPage);
   const [archiveKey, setArchiveKey] = useState(0);
-  useEffect(() => { const change = () => { const next = readPage(); setPage(next); if (next === 'outfit') setArchiveKey(k => k + 1); }; window.addEventListener('popstate', change); window.addEventListener('hashchange', change); return () => { window.removeEventListener('popstate', change); window.removeEventListener('hashchange', change); }; }, []);
+  useEffect(()=>{if(page==='home')document.title='星塔旋律';},[page]);
+  useEffect(() => { const change = (event?:Event) => { const next = readPage(); setPage(next); if (next === 'outfit' && event?.type !== 'music-routes-ready') setArchiveKey(k => k + 1); }; window.addEventListener('popstate', change); window.addEventListener('hashchange', change); window.addEventListener('music-routes-ready',change); return () => { window.removeEventListener('popstate', change); window.removeEventListener('hashchange', change); window.removeEventListener('music-routes-ready',change); }; }, []);
   const navigate = (next: Page, discId?: number) => {
     if (readStorage('nova-sfx', true)) void player.sound(next === 'home' ? 'ui_common_back' : 'ui_common_menu');
-    const url = new URL(location.href); url.hash = next === 'home' ? '' : `/${next}`;
+    const url = new URL(location.href); url.pathname='/'; url.hash = next === 'home' ? '' : `/${next}`;
     if (next !== 'outfit') url.searchParams.delete('disc');
     if (next !== 'library') { url.searchParams.delete('track'); url.searchParams.delete('mix'); }
     if (discId) url.searchParams.set('disc', String(discId));

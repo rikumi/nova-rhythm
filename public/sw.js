@@ -23,7 +23,7 @@ self.addEventListener('fetch',event=>{
   if(request.method!=='GET' || url.origin!==self.location.origin || request.headers.has('range') || url.pathname.startsWith('/audio/') || url.pathname.startsWith('/art/'))return;
   if(request.mode==='navigate') {
     event.respondWith(fetch(request).then(async response=>{
-      if(response.ok){try {const cache=await caches.open(CACHE);await cache.put('/',response.clone());} catch {/* optional */}}
+      if(response.ok && url.pathname==='/'){try {const cache=await caches.open(CACHE);await cache.put('/',response.clone());} catch {/* optional */}}
       return response;
     }).catch(async()=>await caches.match('/') || Response.error()));
   } else if(url.pathname.startsWith('/data/') || url.pathname==='/manifest.webmanifest') {

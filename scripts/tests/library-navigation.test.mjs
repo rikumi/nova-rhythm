@@ -2,6 +2,7 @@ import assert from 'node:assert/strict';
 import test from 'node:test';
 import { adjacentLibraryTrack, libraryQueue, libraryTrackUrl } from '../../src/libraryNavigation.ts';
 import { orderLibraryGroups, libraryGroupLabel } from '../../src/storyLibrary.ts';
+import { musicIdFromPath } from '../../src/musicRoutes.ts';
 
 test('group labels follow prefixes and treat mainline-update activities as mainline', () => {
   assert.equal(libraryGroupLabel('activity-123'), '活动');
@@ -17,10 +18,10 @@ test('group labels follow prefixes and treat mainline-update activities as mainl
 
 test('share link identifies a story track and clears outfit navigation', () => {
   const url = libraryTrackUrl('https://xtxl.rkm.mx/?disc=214001#/outfit', 'audio-one');
-  assert.equal(url.searchParams.get('track'), 'audio-one');
+  assert.equal(musicIdFromPath(url.pathname), 'audio-one');
   assert.equal(url.searchParams.has('disc'), false);
-  assert.equal(url.hash, '#/library');
-  assert.equal(libraryTrackUrl('https://xtxl.rkm.mx/', '/audio/自定义 + 曲目.opus').searchParams.get('track'), '/audio/自定义 + 曲目.opus');
+  assert.equal(url.hash, '');
+  assert.equal(musicIdFromPath(libraryTrackUrl('https://xtxl.rkm.mx/', '/audio/自定义 + 曲目.opus').pathname), '/audio/自定义 + 曲目.opus');
 });
 
 test('permanent gameplay anchors override dates without changing stored dates', () => {
