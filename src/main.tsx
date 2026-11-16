@@ -305,6 +305,7 @@ function MusicLibrary({ active, onBack, onOpenOutfit }: { active: boolean; onBac
   const [tracks, setTracks] = useState<LibraryMusic[]>([]);
   const [groups, setGroups] = useState<MusicGroup[]>([]);
   const [openGroup, setOpenGroup] = useState<string | null>(null);
+  const pendingGroupHeader = useRef<string | null>(null);
   const [error, setError] = useState('');
   const [query, setQuery] = useState('');
   const playback = useSyncExternalStore(player.subscribe, player.snapshot);
@@ -342,7 +343,17 @@ function MusicLibrary({ active, onBack, onOpenOutfit }: { active: boolean; onBac
     if (player.snapshot().trackId !== track.id) void player.selectFromLink(track).catch(() => setError('音乐暂时无法播放，请点击播放重试'));
   }, [active, tracks, routeVersion]);
   useEffect(() => {
-    if (!active || !selected || openGroup !== selected.group_id) return;
+    if(!active || !openGroup || pendingGroupHeader.current!==openGroup)return;
+    const frame=requestAnimationFrame(()=>{
+      document.getElementById(`group-${encodeURIComponent(openGroup)}`)?.previousElementSibling?.scrollIntoView({
+        block:'nearest',inline:'nearest',behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth',
+      });
+      pendingGroupHeader.current=null;
+    });
+    return ()=>cancelAnimationFrame(frame);
+  },[active,openGroup]);
+  useEffect(() => {
+    if (!active || !selected || openGroup !== selected.group_id || pendingGroupHeader.current===openGroup) return;
     const frame = requestAnimationFrame(() => {
       document.querySelector(`[data-content-id="${CSS.escape(selected.id)}"]`)?.scrollIntoView({ block: 'nearest', inline: 'nearest', behavior: 'smooth' });
     });
@@ -378,7 +389,7 @@ function MusicLibrary({ active, onBack, onOpenOutfit }: { active: boolean; onBac
     <main className="library-content scene-enter"><label className="search-box"><Search size={18} /><input aria-label="搜索音乐" placeholder="搜索音乐" value={query} onChange={e => setQuery(e.target.value)} /></label>
       {error && <p role="alert">{error}</p>}
       <div className="library-groups">{visibleGroups.map(group => <section className={`library-group ${openGroup === group.id ? 'is-open' : ''}`} key={group.id} data-date={group.date}>
-        <button className="library-group-toggle" aria-expanded={openGroup === group.id} aria-controls={`group-${encodeURIComponent(group.id)}`} onClick={() => { if (readStorage('nova-sfx', true)) void player.sound('ui_common_menu'); setOpenGroup(current => current === group.id ? null : group.id); }}><span className="library-group-heading">{libraryGroupLabel(group.id, group.description) && <span className="library-group-kind">{libraryGroupLabel(group.id, group.description)}</span>}<strong>{group.name}</strong></span>{group.date && <span className="library-group-date">{group.date.slice(0, 10).replaceAll('-', '.')}</span>}<span className="library-group-count">{group.tracks.length + group.outfit_references.length}</span><ChevronDown size={19} /></button>
+        <button className="library-group-toggle" aria-expanded={openGroup === group.id} aria-controls={`group-${encodeURIComponent(group.id)}`} onClick={() => { if (readStorage('nova-sfx', true)) void player.sound('ui_common_menu'); pendingGroupHeader.current=openGroup===group.id ? null : group.id; setOpenGroup(current => current === group.id ? null : group.id); }}><span className="library-group-heading">{libraryGroupLabel(group.id, group.description) && <span className="library-group-kind">{libraryGroupLabel(group.id, group.description)}</span>}<strong>{group.name}</strong></span>{group.date && <span className="library-group-date">{group.date.slice(0, 10).replaceAll('-', '.')}</span>}<span className="library-group-count">{group.tracks.length + group.outfit_references.length}</span><ChevronDown size={19} /></button>
         {openGroup === group.id && <div className="library-group-panel" id={`group-${encodeURIComponent(group.id)}`}>{group.description && <p style={{ margin: '0 0 12px', fontSize: 12, lineHeight: 1.8, whiteSpace: 'pre-wrap' }}>{group.description}</p>}<div className="library-tracks">{group.outfit_references.map(reference => <button className="library-outfit-reference" key={reference.outfit_id} onClick={() => onOpenOutfit(reference.outfit_id)}><img src={reference.cover} alt="" /><strong>{reference.name}</strong><span>秘纹旋律</span></button>)}{group.tracks.map(t => t.mixer ? <InfinityTowerMixer key={t.id} track={t} onPlay={playTrack} /> : <div className="library-track-entry" key={t.id} data-content-id={t.id}><button className={`library-track ${selected?.id === t.id ? 'selected' : ''}`} onClick={() => playTrack(t)}><strong><MusicTitle title={t.title} />{t.description && <small style={{ display: 'block', fontSize: 12, fontWeight: 400, opacity: .8, whiteSpace: 'pre-wrap' }}>{t.description}</small>}</strong><span>{t.duration_seconds > 0 ? time(t.duration_seconds) : '--:--'}</span>{selected?.id === t.id && playback.playing ? <AudioLines size={18} /> : <Play size={18} />}</button></div>)}</div></div>}
       </section>)}{search && !visibleGroups.length && <p className="library-empty">没有找到音乐</p>}</div>
     </main>
