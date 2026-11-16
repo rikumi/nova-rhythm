@@ -40,6 +40,7 @@ class Batch:
 
     def fingerprint(self,item):
         value={key:self.plan[key] for key in ['model','quantization','seed','steps','cfg','maximum_dimension']}
+        value['seed']=item.get('seed',self.plan['seed'])
         value.update({key:item[key] for key in ['code','layers','caption']})
         return hashlib.sha256(json.dumps(value,sort_keys=True).encode()).hexdigest()
 
@@ -223,6 +224,7 @@ class Batch:
                 result=self.valid_result(item,hashes[item['code']])
                 if result:self.completed[item['code']]=result
                 else:remaining.append(item)
+            remaining.sort(key=lambda item:not item.get('priority',False))
             self.update_local();self.encode_captions(remaining)
             if remaining:self.start_server('sampling')
             for case_index,item in enumerate(remaining):
@@ -233,7 +235,7 @@ class Batch:
                 size=[round(width*scale/16)*16,round(height*scale/16)*16]
                 image=image.resize(size,Image.Resampling.LANCZOS);image.save(folder/'input.png');image.save(self.comfy/'input'/f'batch-{code}.png')
                 for attempt in range(3):
-                    layers=min(10,item['layers']+(1 if attempt==2 else 0));seed=self.plan['seed']+(1 if attempt==1 else 0)
+                    layers=min(10,item['layers']+(1 if attempt==2 else 0));seed=item.get('seed',self.plan['seed'])+(1 if attempt==1 else 0)
                     try:
                         if self.server is None or self.server.poll() is not None:self.start_server('sampling')
                         graph=self.graph(item,layers,seed,size);write(folder/'workflow-api.json',graph)

@@ -103,7 +103,9 @@
       "name": "仙踪良梦",
       "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4004.png",
       "layers": 4,
-      "caption": "An anime illustration of girls resting together in a sunlit garden, with dark clothing, long pale hair, grass, plants and flowers. Preserve the original composition, crop, colors and lettering. The visible people are intact continuous figures, with their hair, faces, limbs, clothing and accessories belonging together. Continuous objects and props have unbroken silhouettes."
+      "caption": "An anime illustration of a single tightly connected group of three girls resting together on green grass beneath a garden pergola. In the middle, a silver-haired woman in an elaborate black fantasy outfit is seated. A dark blue-haired girl sleeps against her lap on the left. A long blonde-haired girl lies across the lower right, resting her head against the same group. The three figures overlap and touch as one complete foreground group, with continuous bodies, hair, hands and clothing. Behind the group is a separate garden setting of grass, tiny white flowers and shaded foliage. Purple wisteria hangs from the upper left. A tea table with cups, cakes and flowers appears at the lower left, and a wicker basket of purple flowers is at the right. Preserve the original composition, crop, characters, costumes and colors. Keep all three girls together in front of the garden.",
+      "seed": 20261117,
+      "priority": true
     },
     {
       "code": "4005",

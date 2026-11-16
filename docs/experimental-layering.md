@@ -22,6 +22,8 @@ The runtime interpreter is `.build/layering-trial/venv/Scripts/python.exe`. Inst
 
 `references/experimental-layering-plan.json` lists the static outfits, original artwork URLs, captions and requested layer counts. Captions are manual or AI annotations and can be edited. Most images request four layers to favor intact semantic objects; crowded scenes request five or six. The supported range is four to ten. The approved first sample is retained.
 
+An item can specify `seed` to override the shared random seed and `priority: true` to place a pending regeneration ahead of other work. Changing its caption, seed or requested layer count invalidates only that item's cached result on the next run.
+
 Generate a fresh plan only when intentionally replacing its annotations:
 
 ```powershell

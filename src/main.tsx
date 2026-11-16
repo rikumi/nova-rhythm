@@ -200,9 +200,9 @@ function Card({ outfit, full = false, onExpand }: { outfit: Outfit; full?: boole
           const fit = background ? 1 : CARD_CONTENT_SCALE;
           const projectedZ = (layer.native_z || 0) * (layer.projection_factor || 1);
           const style = outfit.card.layout === 'canvas' ? {
-            left: '-3%', top: '-3%', width: '106%', height: '106%',
+            left: '-5%', top: '-5%', width: '110%', height: '110%',
             objectFit: full ? 'contain' : 'cover',
-            transform: `translate(calc(var(--mx) * ${-(total-i)/total*8}px),calc(var(--my) * ${(total-i)/total*5}px))`,
+            transform: `translate(calc(var(--mx) * ${-(total-i)/total*4}%),calc(var(--my) * ${(total-i)/total*2.8}%))`,
             '--layer-opacity': layer.opacity,
           } as CSSProperties : {
             left: full ? `calc(50% + ${layer.x / base * 100 * fit}dvh)` : `${50 + layer.x / base * 100 * fit}%`,
