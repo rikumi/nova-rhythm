@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "moves": [
+    {
+      "name": "豪礼抛物线",
+      "from": "mode-豪礼抛物线",
+      "to": "activity-10105",
+      "activity_name": "冬夜镇魂曲与破晓扳机",
+      "track_id": "audio-7b5ea72f1456bc537e75fc2f91387fcb4731195e857527d77c6d684389842925",
+      "activity_config_id": 400005,
+      "first_open_date": "2026-02-24T12:00:00+08:00",
+      "first_parent_activity_date": "2026-02-24T12:00:00+08:00",
+      "basis": "Activity.ActivityType -> earliest Activity.MidGroupId present in story mapping; append to parent tracks without changing ID or file."
+    },
+    {
+      "name": "沁凉补给站",
+      "from": "mode-沁凉补给站",
+      "to": "activity-20103",
+      "activity_name": "晴风碧海 · 悠哉盛夏依然打卡~",
+      "track_id": "audio-272c021ce3fa82facf267aa8f55ff5894934b1d28c7abe17ee6e5adc9c970e32",
+      "activity_config_id": 400013,
+      "first_open_date": "2026-07-21T12:00:00+08:00",
+      "first_parent_activity_date": "2026-07-21T12:00:00+08:00",
+      "basis": "Activity.ActivityType -> earliest Activity.MidGroupId present in story mapping; append to parent tracks without changing ID or file."
+    },
+    {
+      "name": "速度与机擎",
+      "from": "mode-速度与机擎",
+      "to": "activity-20104",
+      "activity_name": "完璧之庭 · 微尘破晓",
+      "track_id": "audio-4323fe1ed2d6c9ece6954b0f1b855fad69b85ac2bdccb2a3107c14297c5a7fd5",
+      "activity_config_id": 400018,
+      "first_open_date": "2026-10-20T12:00:00+08:00",
+      "first_parent_activity_date": "2026-10-20T12:00:00+08:00",
+      "basis": "Activity.ActivityType -> earliest Activity.MidGroupId present in story mapping; append to parent tracks without changing ID or file."
+    },
+    {
+      "name": "命运星牌局",
+      "from": "mode-命运星牌局",
+      "to": "activity-20102",
+      "activity_name": "幽夜独舞孤影乱",
+      "track_id": "audio-739bc3d49c9b40865226a5984945752dc7967c94ca00dcd0a13b6fd0f6238ff8",
+      "activity_config_id": 800002,
+      "first_open_date": "2026-03-10T12:00:00+08:00",
+      "first_parent_activity_date": "2026-04-16T12:00:00+08:00",
+      "basis": "Activity.ActivityType -> earliest Activity.MidGroupId present in story mapping; append to parent tracks without changing ID or file."
+    }
+  ],
+  "name_changes": [
+    {
+      "track_id": "audio-32a51b093c233b2ead257e79417cbf48ae8cd398deb40b4a98d44b3aae4667e5",
+      "old_name": "终焉绝响 · 首领配乐 · 变体2",
+      "name": "终焉绝响 · 首领 · 变体2"
+    },
+    {
+      "track_id": "audio-2750fb57ed5b9edde18decaa587fb06da307acdfbbdb2e5ccaf367d0f5fc7767",
+      "old_name": "终焉绝响 · 首领配乐",
+      "name": "终焉绝响 · 首领"
+    },
+    {
+      "track_id": "audio-29f7c96afec5cb78c67bca274ec30187ad21d6a7fbe044c6d09ea4e1ff0ebb07",
+      "old_name": "闻香识魔女 · 界面配乐",
+      "name": "闻香识魔女"
+    },
+    {
+      "track_id": "audio-058254bcd0b5742f1ba04c23bcbcbe41f0f1f7c2b3a02245604d4b31ce7a8abe",
+      "old_name": "开篇 · 战斗配乐",
+      "name": "开篇 · 战斗"
+    }
+  ],
+  "activity_table_sha256": "8712004b0a0fa846fc581d8f60b1bf0901b3ffacb3713215608200f2b51c795e",
+  "note": "Independent early openings are recorded separately from the first parent story event. Multi-track minigames and permanent combat modes are retained."
+}

@@ -152,3 +152,7 @@ python scripts/describe_activity_releases.py --tables .build/analysis/data/upstr
 该分组的界面曲用于塔、难度与关卡选择。16 个战斗变体均由 `endlessTower` / `combatNomal` 普通战斗状态触发；不是 16 种难度、楼层或 Boss 曲。战斗曲有固定引子和五个循环段落，其中第 1、2、4、5 段分别存在两种随机选择，因此导出得到 16 种组合。曲目说明中的 A/B 表示各处导出分支，不是游戏内的玩法名称。
 
 `references/infinitytower-music-usages.json` 记录状态、关卡配置引用、界面节点及各段素材。`python scripts/annotate_infinitytower_music.py` 可生成预览；通知编辑者后加 `--apply` 写入说明，完成后应重新载入核心 JSON。
+
+## 单曲小游戏归属
+
+只有一首音乐的豪礼抛物线、沁凉补给站、速度与机擎、命运星牌局，放在首次所属剧情活动的曲目末尾，移除原独立分组；甜心梦工坊等多曲小游戏保留独立分类。`references/single-track-minigames.json` 记录 `Activity.ActivityType`、最早有效 `MidGroupId` 与日期依据。命运星牌局最早在 2026-03-10 独立开放，首次挂靠剧情活动是 2026-04-16 的幽夜独舞孤影乱，两种日期分别记录。

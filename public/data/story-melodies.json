@@ -31,25 +31,10 @@
       "tracks": []
     },
     {
-      "id": "mode-速度与机擎",
-      "name": "速度与机擎",
-      "date": "2026-10-20T12:00:00+08:00",
-      "description": "",
-      "outfit_references": [],
-      "tracks": [
-        {
-          "id": "audio-4323fe1ed2d6c9ece6954b0f1b855fad69b85ac2bdccb2a3107c14297c5a7fd5",
-          "name": "速度与机擎",
-          "file": "/audio/audio-4323fe1ed2d6c9ece6954b0f1b855fad69b85ac2bdccb2a3107c14297c5a7fd5.opus",
-          "description": ""
-        }
-      ]
-    },
-    {
       "id": "activity-20104",
       "name": "完璧之庭 · 微尘破晓",
       "date": "2026-10-20T12:00:00+08:00",
-      "description": "主线更新剧情：尘沙（原初）",
+      "description": "主线更新剧情：尘沙（源初）",
       "outfit_references": [
         {
           "outfit_id": 214067,
@@ -95,6 +80,12 @@
           "id": "audio-d51e3d08d9ec0935f5eb40c98f4644b4e860d5910f8001460824d3f665eec008",
           "name": "特别篇 · 过去之事正如未来之事",
           "file": "/audio/audio-d51e3d08d9ec0935f5eb40c98f4644b4e860d5910f8001460824d3f665eec008.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-4323fe1ed2d6c9ece6954b0f1b855fad69b85ac2bdccb2a3107c14297c5a7fd5",
+          "name": "速度与机擎",
+          "file": "/audio/audio-4323fe1ed2d6c9ece6954b0f1b855fad69b85ac2bdccb2a3107c14297c5a7fd5.opus",
           "description": ""
         }
       ]
@@ -267,21 +258,6 @@
       ]
     },
     {
-      "id": "mode-沁凉补给站",
-      "name": "沁凉补给站",
-      "date": "2026-07-21T12:00:00+08:00",
-      "description": "",
-      "outfit_references": [],
-      "tracks": [
-        {
-          "id": "audio-272c021ce3fa82facf267aa8f55ff5894934b1d28c7abe17ee6e5adc9c970e32",
-          "name": "沁凉补给站",
-          "file": "/audio/audio-272c021ce3fa82facf267aa8f55ff5894934b1d28c7abe17ee6e5adc9c970e32.opus",
-          "description": ""
-        }
-      ]
-    },
-    {
       "id": "activity-20103",
       "name": "晴风碧海 · 悠哉盛夏依然打卡~",
       "date": "2026-07-21T12:00:00+08:00",
@@ -308,7 +284,14 @@
           "basis": "first known outfit release in this activity; not shared-music reuse"
         }
       ],
-      "tracks": []
+      "tracks": [
+        {
+          "id": "audio-272c021ce3fa82facf267aa8f55ff5894934b1d28c7abe17ee6e5adc9c970e32",
+          "name": "沁凉补给站",
+          "file": "/audio/audio-272c021ce3fa82facf267aa8f55ff5894934b1d28c7abe17ee6e5adc9c970e32.opus",
+          "description": ""
+        }
+      ]
     },
     {
       "id": "activity-10109",
@@ -489,6 +472,12 @@
           "name": "幽夜独舞孤影乱 · 首领战",
           "file": "/audio/audio-026f75c540a4ee90cbbe544555a8157793cc33eb4b1f1d97ad0953aaeba2a7ac.opus",
           "description": ""
+        },
+        {
+          "id": "audio-739bc3d49c9b40865226a5984945752dc7967c94ca00dcd0a13b6fd0f6238ff8",
+          "name": "命运星牌局",
+          "file": "/audio/audio-739bc3d49c9b40865226a5984945752dc7967c94ca00dcd0a13b6fd0f6238ff8.opus",
+          "description": ""
         }
       ]
     },
@@ -524,36 +513,6 @@
           "id": "audio-69feaa5eb422cdd356ea004ae5e34dc11def78369367394198dde18f00d856e8",
           "name": "敬启，致珍重的你 · 作战",
           "file": "/audio/audio-69feaa5eb422cdd356ea004ae5e34dc11def78369367394198dde18f00d856e8.opus",
-          "description": ""
-        }
-      ]
-    },
-    {
-      "id": "mode-命运星牌局",
-      "name": "命运星牌局",
-      "date": "2026-03-10T12:00:00+08:00",
-      "description": "",
-      "outfit_references": [],
-      "tracks": [
-        {
-          "id": "audio-739bc3d49c9b40865226a5984945752dc7967c94ca00dcd0a13b6fd0f6238ff8",
-          "name": "命运星牌局",
-          "file": "/audio/audio-739bc3d49c9b40865226a5984945752dc7967c94ca00dcd0a13b6fd0f6238ff8.opus",
-          "description": ""
-        }
-      ]
-    },
-    {
-      "id": "mode-豪礼抛物线",
-      "name": "豪礼抛物线",
-      "date": "2026-02-24T12:00:00+08:00",
-      "description": "",
-      "outfit_references": [],
-      "tracks": [
-        {
-          "id": "audio-7b5ea72f1456bc537e75fc2f91387fcb4731195e857527d77c6d684389842925",
-          "name": "豪礼抛物线",
-          "file": "/audio/audio-7b5ea72f1456bc537e75fc2f91387fcb4731195e857527d77c6d684389842925.opus",
           "description": ""
         }
       ]
@@ -602,6 +561,12 @@
           "id": "audio-c7c8b52f30b6752b5972aa5e1ea5312f557f360b59a89910e2dd558edb0605a2",
           "name": "冬夜镇魂曲与破晓扳机 · 首领战",
           "file": "/audio/audio-c7c8b52f30b6752b5972aa5e1ea5312f557f360b59a89910e2dd558edb0605a2.opus",
+          "description": ""
+        },
+        {
+          "id": "audio-7b5ea72f1456bc537e75fc2f91387fcb4731195e857527d77c6d684389842925",
+          "name": "豪礼抛物线",
+          "file": "/audio/audio-7b5ea72f1456bc537e75fc2f91387fcb4731195e857527d77c6d684389842925.opus",
           "description": ""
         }
       ]
@@ -1120,13 +1085,13 @@
       "tracks": [
         {
           "id": "audio-32a51b093c233b2ead257e79417cbf48ae8cd398deb40b4a98d44b3aae4667e5",
-          "name": "终焉绝响 · 首领配乐 · 变体2",
+          "name": "终焉绝响 · 首领 · 变体2",
           "file": "/audio/audio-32a51b093c233b2ead257e79417cbf48ae8cd398deb40b4a98d44b3aae4667e5.opus",
           "description": ""
         },
         {
           "id": "audio-2750fb57ed5b9edde18decaa587fb06da307acdfbbdb2e5ccaf367d0f5fc7767",
-          "name": "终焉绝响 · 首领配乐",
+          "name": "终焉绝响 · 首领",
           "file": "/audio/audio-2750fb57ed5b9edde18decaa587fb06da307acdfbbdb2e5ccaf367d0f5fc7767.opus",
           "description": ""
         }
@@ -1216,7 +1181,7 @@
       "tracks": [
         {
           "id": "audio-29f7c96afec5cb78c67bca274ec30187ad21d6a7fbe044c6d09ea4e1ff0ebb07",
-          "name": "闻香识魔女 · 界面配乐",
+          "name": "闻香识魔女",
           "file": "/audio/audio-29f7c96afec5cb78c67bca274ec30187ad21d6a7fbe044c6d09ea4e1ff0ebb07.opus",
           "description": ""
         }
@@ -1471,7 +1436,7 @@
       "tracks": [
         {
           "id": "audio-058254bcd0b5742f1ba04c23bcbcbe41f0f1f7c2b3a02245604d4b31ce7a8abe",
-          "name": "开篇 · 战斗配乐",
+          "name": "开篇 · 战斗",
           "file": "/audio/audio-058254bcd0b5742f1ba04c23bcbcbe41f0f1f7c2b3a02245604d4b31ce7a8abe.opus",
           "description": ""
         },
@@ -1936,7 +1901,7 @@
       "tracks": [
         {
           "id": "audio-06592bd073fb3d13643936433b78b02d4a9255209a690f14b54f928df10a8a8b",
-          "name": "区域首领",
+          "name": "晋升试炼",
           "file": "/audio/audio-06592bd073fb3d13643936433b78b02d4a9255209a690f14b54f928df10a8a8b.opus",
           "description": ""
         }
