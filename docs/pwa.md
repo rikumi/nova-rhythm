@@ -6,7 +6,7 @@ Android 安装模式若未提供有效底部安全区，`src/pwa.ts` 会补充�
 
 最大安全区的定义见 [CSS 环境变量规范](https://www.w3.org/TR/css-env-1/#safe-area-max-insets)，Chrome 的实现说明见 [edge-to-edge 文档](https://developer.chrome.com/docs/css-ui/edge-to-edge)。已有安装的显示模式由 Chrome 的安装清单更新机制刷新；修改清单不会主动关闭或重装用户应用。
 
-图标背景来自原生旋律按钮 `btn_outfit_music.png` 的内部区域（裁切范围 x=11..165、y=11..127），去除边框及内阴影。前景采用首页秘纹旋律的 `home-btn_main_system_outfit_L.png`，在 512 像素画布中央显示为 256 像素，完整放在 [maskable 图标安全区域](https://www.w3.org/TR/appmanifest/#icon-masks) 内。提供 32、180、192、512 像素 PNG。
+图标背景来自原生旋律按钮 `btn_outfit_music.png` 的内部区域（裁切范围 x=11..165、y=11..127），去除边框及内阴影。前景采用首页秘纹旋律的 `home-btn_main_system_outfit_L.png`，在 512 像素画布中央显示为 307.2 像素，较此前放大 1.2 倍，并保留桌面裁切余量。提供 32、180、192、512 像素 PNG；实际桌面遮罩效果取决于系统。
 
 `scripts/build_pwa_icons.mjs` 使用 SVG 组合原始游戏 UI 图片，再通过 Playwright/Chrome 渲染安装图标。日常构建直接使用已提交的 PNG，不需要 Playwright；重新生成图标时需准备 `@playwright/test` 和 Chrome，执行 `node scripts/build_pwa_icons.mjs`。图标素材未使用生成式重绘。
 

@@ -10,7 +10,7 @@ const [paper,outfit]=await Promise.all(['btn_outfit_music.png','home-btn_main_sy
 const svg=`<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
 <rect width="512" height="512" fill="#fafafa"/>
 <svg width="512" height="512" viewBox="11 11 154 116" preserveAspectRatio="none"><image href="${paper}" width="176" height="151"/></svg>
-<image href="${outfit}" x="128" y="128" width="256" height="256"/>
+<image href="${outfit}" x="102.4" y="102.4" width="307.2" height="307.2"/>
 </svg>`;
 const browser=await chromium.launch({channel:process.env.PWA_ICON_BROWSER || 'chrome',headless:true});
 const page=await browser.newPage({deviceScaleFactor:1});
