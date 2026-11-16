@@ -1,0 +1,1764 @@
+{
+  "schema_version": 1,
+  "basis": "Menu: ui_infinitytower towerList/diffListView/lvList system state; combat: InfinityTowerMap BGM and TXTP random group selectors.",
+  "random_selection": {
+    "source": "references/txtp/install/install-082d09f35a2d.txtp",
+    "intro_seconds": 1.71428571428574,
+    "loop_sections": [
+      {
+        "section": 1,
+        "selector": 1,
+        "A": "623406877.wem 42.857143–70.285714s",
+        "B": "623406877.wem 1.714286–29.142857s"
+      },
+      {
+        "section": 2,
+        "selector": 2,
+        "A": "623406877.wem 29.142857–42.857143s",
+        "B": "147622662.wem"
+      },
+      {
+        "section": 3,
+        "selector": null,
+        "fixed": "840557293.wem"
+      },
+      {
+        "section": 4,
+        "selector": 3,
+        "A": [
+          "690354636.wem",
+          "762396951.wem"
+        ],
+        "B": [
+          "573861789.wem",
+          "177005291.wem"
+        ]
+      },
+      {
+        "section": 5,
+        "selector": 4,
+        "A": "623406877.wem 29.142857–42.857143s",
+        "B": "147622662.wem"
+      }
+    ],
+    "note": "A/B denotes frozen export choices, not named gameplay states, floors or difficulties. The third loop section and intro are fixed; four independent binary selectors produce sixteen combinations."
+  },
+  "entries": [
+    {
+      "file": "/audio/audio-065ba01de7343a87524f6c6d982737ac1ac24053b00e9ab0a26dfb199994c43a.opus",
+      "name": "惑心的蜜语",
+      "description": "塔、难度及关卡选择界面。",
+      "random_choices": null,
+      "route_ids": [
+        "install-5078ffe12e62",
+        "install-3805c606394d"
+      ],
+      "states": [
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 3095578758,
+          "value": "endlessTower",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 3859886410,
+          "group": "system",
+          "value_id": 3095578758,
+          "value": "endlessTower",
+          "name_evidence": "local audio.unity3d"
+        }
+      ],
+      "config_usages": [],
+      "unity_state_usages": [
+        {
+          "bundle": "{{GAME}}\\Persistent_Store\\AssetBundles\\ui_infinitytower.unity3d",
+          "path_id": -8588230969353615095,
+          "game_object": "lvList",
+          "group": "system",
+          "value": "endlesstower",
+          "trigger_type": 0
+        },
+        {
+          "bundle": "{{GAME}}\\Persistent_Store\\AssetBundles\\ui_infinitytower.unity3d",
+          "path_id": -8261028294386061451,
+          "game_object": "towerList",
+          "group": "system",
+          "value": "endlesstower",
+          "trigger_type": 0
+        },
+        {
+          "bundle": "{{GAME}}\\Persistent_Store\\AssetBundles\\ui_infinitytower.unity3d",
+          "path_id": -4388767729401055288,
+          "game_object": "diffListView",
+          "group": "system",
+          "value": "endlesstower",
+          "trigger_type": 0
+        }
+      ]
+    },
+    {
+      "file": "/audio/audio-172ce969c65aff62f5f9a75c3f96a651a5db454987aac662f451c65ea036284c.opus",
+      "name": "心危擂台",
+      "description": "普通关卡战斗；随机段落组合 A / A / A / A（循环第 1、2、4、5 段）。",
+      "random_choices": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "route_ids": [
+        "install-082d09f35a2d",
+        "install-082d09f35a2d-r1111"
+      ],
+      "states": [
+        {
+          "group_id": 2782712965,
+          "group": "level",
+          "value_id": 3095578758,
+          "value": "endlessTower",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2764240573,
+          "group": "combat",
+          "value_id": 1329203162,
+          "value": "combatNomal",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2782712965,
+          "group": "level",
+          "value_id": 3095578758,
+          "value": "endlessTower",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2764240573,
+          "group": "combat",
+          "value_id": 1329203162,
+          "value": "combatNomal",
+          "name_evidence": "local audio.unity3d"
+        }
+      ],
+      "config_usages": [
+        {
+          "table": "InfinityTowerMap",
+          "id": 101001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 201001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 401001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 501001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 301001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 701001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 601001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        }
+      ],
+      "unity_state_usages": []
+    },
+    {
+      "file": "/audio/audio-b8153144ee45cb07cbc55f1d7f790f5335a93ad5f401d192dd053c13db3fa51c.opus",
+      "name": "心危擂台",
+      "description": "普通关卡战斗；随机段落组合 A / A / A / B（循环第 1、2、4、5 段）。",
+      "random_choices": [
+        1,
+        1,
+        1,
+        2
+      ],
+      "route_ids": [
+        "install-082d09f35a2d-r1112"
+      ],
+      "states": [
+        {
+          "group_id": 2782712965,
+          "group": "level",
+          "value_id": 3095578758,
+          "value": "endlessTower",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2764240573,
+          "group": "combat",
+          "value_id": 1329203162,
+          "value": "combatNomal",
+          "name_evidence": "local audio.unity3d"
+        }
+      ],
+      "config_usages": [
+        {
+          "table": "InfinityTowerMap",
+          "id": 101001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 201001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 401001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 501001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 301001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 701001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 601001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        }
+      ],
+      "unity_state_usages": []
+    },
+    {
+      "file": "/audio/audio-cc8e831fb9e91d0ba8c3ae4e65a1f120e13661f0076dda7f4c103868d033f1c0.opus",
+      "name": "心危擂台",
+      "description": "普通关卡战斗；随机段落组合 A / A / B / A（循环第 1、2、4、5 段）。",
+      "random_choices": [
+        1,
+        1,
+        2,
+        1
+      ],
+      "route_ids": [
+        "install-082d09f35a2d-r1121"
+      ],
+      "states": [
+        {
+          "group_id": 2782712965,
+          "group": "level",
+          "value_id": 3095578758,
+          "value": "endlessTower",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2764240573,
+          "group": "combat",
+          "value_id": 1329203162,
+          "value": "combatNomal",
+          "name_evidence": "local audio.unity3d"
+        }
+      ],
+      "config_usages": [
+        {
+          "table": "InfinityTowerMap",
+          "id": 101001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 201001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 401001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 501001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 301001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 701001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 601001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        }
+      ],
+      "unity_state_usages": []
+    },
+    {
+      "file": "/audio/audio-7d8446fdfa79d67b1e00dbff5ec449d982aebfd4fb512934c3a7e2a0b7b24537.opus",
+      "name": "心危擂台",
+      "description": "普通关卡战斗；随机段落组合 A / A / B / B（循环第 1、2、4、5 段）。",
+      "random_choices": [
+        1,
+        1,
+        2,
+        2
+      ],
+      "route_ids": [
+        "install-082d09f35a2d-r1122"
+      ],
+      "states": [
+        {
+          "group_id": 2782712965,
+          "group": "level",
+          "value_id": 3095578758,
+          "value": "endlessTower",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2764240573,
+          "group": "combat",
+          "value_id": 1329203162,
+          "value": "combatNomal",
+          "name_evidence": "local audio.unity3d"
+        }
+      ],
+      "config_usages": [
+        {
+          "table": "InfinityTowerMap",
+          "id": 101001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 201001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 401001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 501001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 301001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 701001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 601001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        }
+      ],
+      "unity_state_usages": []
+    },
+    {
+      "file": "/audio/audio-06c345af41fac3e170988a38b7051a4a75c5b2b4e5e82b0dadaafd9105fae3b1.opus",
+      "name": "心危擂台",
+      "description": "普通关卡战斗；随机段落组合 A / B / A / A（循环第 1、2、4、5 段）。",
+      "random_choices": [
+        1,
+        2,
+        1,
+        1
+      ],
+      "route_ids": [
+        "install-082d09f35a2d-r1211"
+      ],
+      "states": [
+        {
+          "group_id": 2782712965,
+          "group": "level",
+          "value_id": 3095578758,
+          "value": "endlessTower",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2764240573,
+          "group": "combat",
+          "value_id": 1329203162,
+          "value": "combatNomal",
+          "name_evidence": "local audio.unity3d"
+        }
+      ],
+      "config_usages": [
+        {
+          "table": "InfinityTowerMap",
+          "id": 101001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 201001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 401001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 501001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 301001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 701001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 601001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        }
+      ],
+      "unity_state_usages": []
+    },
+    {
+      "file": "/audio/audio-919aed8dc7e698beef6195f99d76219267a9d5de3c158d0ee7451be24cb7d305.opus",
+      "name": "心危擂台",
+      "description": "普通关卡战斗；随机段落组合 A / B / A / B（循环第 1、2、4、5 段）。",
+      "random_choices": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "route_ids": [
+        "install-082d09f35a2d-r1212"
+      ],
+      "states": [
+        {
+          "group_id": 2782712965,
+          "group": "level",
+          "value_id": 3095578758,
+          "value": "endlessTower",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2764240573,
+          "group": "combat",
+          "value_id": 1329203162,
+          "value": "combatNomal",
+          "name_evidence": "local audio.unity3d"
+        }
+      ],
+      "config_usages": [
+        {
+          "table": "InfinityTowerMap",
+          "id": 101001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 201001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 401001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 501001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 301001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 701001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 601001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        }
+      ],
+      "unity_state_usages": []
+    },
+    {
+      "file": "/audio/audio-987406f690b720191a33b51c8fa8a613e26fcffe3a777f7cb93f1b6480820b9f.opus",
+      "name": "心危擂台",
+      "description": "普通关卡战斗；随机段落组合 A / B / B / A（循环第 1、2、4、5 段）。",
+      "random_choices": [
+        1,
+        2,
+        2,
+        1
+      ],
+      "route_ids": [
+        "install-082d09f35a2d-r1221"
+      ],
+      "states": [
+        {
+          "group_id": 2782712965,
+          "group": "level",
+          "value_id": 3095578758,
+          "value": "endlessTower",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2764240573,
+          "group": "combat",
+          "value_id": 1329203162,
+          "value": "combatNomal",
+          "name_evidence": "local audio.unity3d"
+        }
+      ],
+      "config_usages": [
+        {
+          "table": "InfinityTowerMap",
+          "id": 101001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 201001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 401001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 501001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 301001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 701001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 601001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        }
+      ],
+      "unity_state_usages": []
+    },
+    {
+      "file": "/audio/audio-ec3491595162c534a39125d7b2e18e2bacb6106cb862d3af639130725cd674e1.opus",
+      "name": "心危擂台",
+      "description": "普通关卡战斗；随机段落组合 A / B / B / B（循环第 1、2、4、5 段）。",
+      "random_choices": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "route_ids": [
+        "install-082d09f35a2d-r1222"
+      ],
+      "states": [
+        {
+          "group_id": 2782712965,
+          "group": "level",
+          "value_id": 3095578758,
+          "value": "endlessTower",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2764240573,
+          "group": "combat",
+          "value_id": 1329203162,
+          "value": "combatNomal",
+          "name_evidence": "local audio.unity3d"
+        }
+      ],
+      "config_usages": [
+        {
+          "table": "InfinityTowerMap",
+          "id": 101001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 201001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 401001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 501001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 301001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 701001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 601001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        }
+      ],
+      "unity_state_usages": []
+    },
+    {
+      "file": "/audio/audio-5e0cbbf1288a3e8b2614db19334bf5f07ada286062b45213febe0a2bac033ca5.opus",
+      "name": "心危擂台",
+      "description": "普通关卡战斗；随机段落组合 B / A / A / A（循环第 1、2、4、5 段）。",
+      "random_choices": [
+        2,
+        1,
+        1,
+        1
+      ],
+      "route_ids": [
+        "install-082d09f35a2d-r2111"
+      ],
+      "states": [
+        {
+          "group_id": 2782712965,
+          "group": "level",
+          "value_id": 3095578758,
+          "value": "endlessTower",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2764240573,
+          "group": "combat",
+          "value_id": 1329203162,
+          "value": "combatNomal",
+          "name_evidence": "local audio.unity3d"
+        }
+      ],
+      "config_usages": [
+        {
+          "table": "InfinityTowerMap",
+          "id": 101001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 201001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 401001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 501001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 301001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 701001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 601001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        }
+      ],
+      "unity_state_usages": []
+    },
+    {
+      "file": "/audio/audio-11e6a3f164a6f3b6ba71ea9d09be9c1113131bacb4004e6a98a979d0e7cd6a81.opus",
+      "name": "心危擂台",
+      "description": "普通关卡战斗；随机段落组合 B / A / A / B（循环第 1、2、4、5 段）。",
+      "random_choices": [
+        2,
+        1,
+        1,
+        2
+      ],
+      "route_ids": [
+        "install-082d09f35a2d-r2112"
+      ],
+      "states": [
+        {
+          "group_id": 2782712965,
+          "group": "level",
+          "value_id": 3095578758,
+          "value": "endlessTower",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2764240573,
+          "group": "combat",
+          "value_id": 1329203162,
+          "value": "combatNomal",
+          "name_evidence": "local audio.unity3d"
+        }
+      ],
+      "config_usages": [
+        {
+          "table": "InfinityTowerMap",
+          "id": 101001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 201001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 401001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 501001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 301001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 701001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 601001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        }
+      ],
+      "unity_state_usages": []
+    },
+    {
+      "file": "/audio/audio-501242dece909f7a47407e17f40c9186593a0eb74835e09600d8406ac79126cb.opus",
+      "name": "心危擂台",
+      "description": "普通关卡战斗；随机段落组合 B / A / B / A（循环第 1、2、4、5 段）。",
+      "random_choices": [
+        2,
+        1,
+        2,
+        1
+      ],
+      "route_ids": [
+        "install-082d09f35a2d-r2121"
+      ],
+      "states": [
+        {
+          "group_id": 2782712965,
+          "group": "level",
+          "value_id": 3095578758,
+          "value": "endlessTower",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2764240573,
+          "group": "combat",
+          "value_id": 1329203162,
+          "value": "combatNomal",
+          "name_evidence": "local audio.unity3d"
+        }
+      ],
+      "config_usages": [
+        {
+          "table": "InfinityTowerMap",
+          "id": 101001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 201001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 401001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 501001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 301001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 701001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 601001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        }
+      ],
+      "unity_state_usages": []
+    },
+    {
+      "file": "/audio/audio-a0959d82aa30feb73c078ac4bf4f092a27b926ceb27f8152773d90fe2ea49d8b.opus",
+      "name": "心危擂台",
+      "description": "普通关卡战斗；随机段落组合 B / A / B / B（循环第 1、2、4、5 段）。",
+      "random_choices": [
+        2,
+        1,
+        2,
+        2
+      ],
+      "route_ids": [
+        "install-082d09f35a2d-r2122"
+      ],
+      "states": [
+        {
+          "group_id": 2782712965,
+          "group": "level",
+          "value_id": 3095578758,
+          "value": "endlessTower",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2764240573,
+          "group": "combat",
+          "value_id": 1329203162,
+          "value": "combatNomal",
+          "name_evidence": "local audio.unity3d"
+        }
+      ],
+      "config_usages": [
+        {
+          "table": "InfinityTowerMap",
+          "id": 101001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 201001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 401001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 501001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 301001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 701001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 601001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        }
+      ],
+      "unity_state_usages": []
+    },
+    {
+      "file": "/audio/audio-3813ca508dc98d58fc7f25274c734a36d8111d8093fa01119cdee0dc167b2220.opus",
+      "name": "心危擂台",
+      "description": "普通关卡战斗；随机段落组合 B / B / A / A（循环第 1、2、4、5 段）。",
+      "random_choices": [
+        2,
+        2,
+        1,
+        1
+      ],
+      "route_ids": [
+        "install-082d09f35a2d-r2211"
+      ],
+      "states": [
+        {
+          "group_id": 2782712965,
+          "group": "level",
+          "value_id": 3095578758,
+          "value": "endlessTower",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2764240573,
+          "group": "combat",
+          "value_id": 1329203162,
+          "value": "combatNomal",
+          "name_evidence": "local audio.unity3d"
+        }
+      ],
+      "config_usages": [
+        {
+          "table": "InfinityTowerMap",
+          "id": 101001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 201001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 401001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 501001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 301001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 701001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 601001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        }
+      ],
+      "unity_state_usages": []
+    },
+    {
+      "file": "/audio/audio-857e9a757481c850ed608693d4c93f4d0a33e7b485ae949f4dd5b2cc04594a00.opus",
+      "name": "心危擂台",
+      "description": "普通关卡战斗；随机段落组合 B / B / A / B（循环第 1、2、4、5 段）。",
+      "random_choices": [
+        2,
+        2,
+        1,
+        2
+      ],
+      "route_ids": [
+        "install-082d09f35a2d-r2212"
+      ],
+      "states": [
+        {
+          "group_id": 2782712965,
+          "group": "level",
+          "value_id": 3095578758,
+          "value": "endlessTower",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2764240573,
+          "group": "combat",
+          "value_id": 1329203162,
+          "value": "combatNomal",
+          "name_evidence": "local audio.unity3d"
+        }
+      ],
+      "config_usages": [
+        {
+          "table": "InfinityTowerMap",
+          "id": 101001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 201001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 401001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 501001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 301001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 701001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 601001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        }
+      ],
+      "unity_state_usages": []
+    },
+    {
+      "file": "/audio/audio-60b9e4d4c4f1506b24e658de4c2701c9441c2f36670eebc22df0d2bd732a3e2c.opus",
+      "name": "心危擂台",
+      "description": "普通关卡战斗；随机段落组合 B / B / B / A（循环第 1、2、4、5 段）。",
+      "random_choices": [
+        2,
+        2,
+        2,
+        1
+      ],
+      "route_ids": [
+        "install-082d09f35a2d-r2221"
+      ],
+      "states": [
+        {
+          "group_id": 2782712965,
+          "group": "level",
+          "value_id": 3095578758,
+          "value": "endlessTower",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2764240573,
+          "group": "combat",
+          "value_id": 1329203162,
+          "value": "combatNomal",
+          "name_evidence": "local audio.unity3d"
+        }
+      ],
+      "config_usages": [
+        {
+          "table": "InfinityTowerMap",
+          "id": 101001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 201001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 401001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 501001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 301001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 701001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 601001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        }
+      ],
+      "unity_state_usages": []
+    },
+    {
+      "file": "/audio/audio-f992218a4d650d4c079d66ade0b1d7d960ce888e72b873428778e1eadf1ee50e.opus",
+      "name": "心危擂台",
+      "description": "普通关卡战斗；随机段落组合 B / B / B / B（循环第 1、2、4、5 段）。",
+      "random_choices": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "route_ids": [
+        "install-082d09f35a2d-r2222"
+      ],
+      "states": [
+        {
+          "group_id": 2782712965,
+          "group": "level",
+          "value_id": 3095578758,
+          "value": "endlessTower",
+          "name_evidence": "local audio.unity3d"
+        },
+        {
+          "group_id": 2764240573,
+          "group": "combat",
+          "value_id": 1329203162,
+          "value": "combatNomal",
+          "name_evidence": "local audio.unity3d"
+        }
+      ],
+      "config_usages": [
+        {
+          "table": "InfinityTowerMap",
+          "id": 101001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 201001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 401001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 501001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 301001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 701001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        },
+        {
+          "table": "InfinityTowerMap",
+          "id": 601001,
+          "event": "endlessTower_combatNormal_setState",
+          "match": "all_recipe_fields",
+          "matched_groups": [
+            "level",
+            "combat"
+          ]
+        }
+      ],
+      "unity_state_usages": []
+    }
+  ]
+}

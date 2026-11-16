@@ -144,3 +144,11 @@ python scripts/describe_activity_releases.py --tables .build/analysis/data/upstr
 `references/activity-character-releases.json` 保留角色编号、卡池编号、日期和游戏说明等依据。首次 UP 时间是现有配置的证据范围；存在更早未收录卡池时需人工核实。补充说明不会修改曲目、素材路径或日期。
 
 页面根据分组 ID 前缀显示“活动 / 故事 / 主线 / 模式”标签；`activity-` 分组的说明以“主线更新剧情”开头时显示“主线”。这项显示规则保留原有 ID、引用关系和播放链接。
+
+“开篇”标为主线，“常驻系统”与“常驻玩法”标为模式。
+
+## 心危擂台变体
+
+该分组的界面曲用于塔、难度与关卡选择。16 个战斗变体均由 `endlessTower` / `combatNomal` 普通战斗状态触发；不是 16 种难度、楼层或 Boss 曲。战斗曲有固定引子和五个循环段落，其中第 1、2、4、5 段分别存在两种随机选择，因此导出得到 16 种组合。曲目说明中的 A/B 表示各处导出分支，不是游戏内的玩法名称。
+
+`references/infinitytower-music-usages.json` 记录状态、关卡配置引用、界面节点及各段素材。`python scripts/annotate_infinitytower_music.py` 可生成预览；通知编辑者后加 `--apply` 写入说明，完成后应重新载入核心 JSON。
