@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useRef, useState, useSyncExternalStore } from 'react';
+import React, { useCallback, useEffect, useMemo, useRef, useState, useSyncExternalStore } from 'react';
 import { createRoot } from 'react-dom/client';
 import { ArrowLeft, AudioLines, Check, ChevronDown, Copy, Disc3, Download, Expand, Heart, ListMusic, LoaderCircle, Music2, Pause, Play, Repeat, Repeat1, Shuffle, Search, SkipBack, SkipForward, Smartphone, Volume2, VolumeX, X } from 'lucide-react';
 import type { CSSProperties, ReactNode } from 'react';
@@ -113,21 +113,25 @@ function Card({ outfit, full = false, onExpand }: { outfit: Outfit; full?: boole
   const dragPointer = useRef<number | null>(null);
   const reduced = useRef(false);
   const total = outfit.card.layers.length || 1;
+  // The Unity camera faces positive Z: greater native Z is farther away.
+  const revealOrder=useMemo(()=>outfit.card.layers.length
+    ? outfit.card.layers.map((layer,index)=>({index,z:layer.native_z ?? 0})).sort((a,b)=>b.z-a.z || a.index-b.index).map(layer=>layer.index)
+    : [0],[outfit]);
   const [readyLayers,setReadyLayers]=useState<Set<number>>(()=>new Set());
   const [visibleLayers,setVisibleLayers]=useState(0);
   const [startedLayers,setStartedLayers]=useState(0);
   const lastReveal=useRef(-Infinity);
   const layerReady=useCallback((index:number)=>setReadyLayers(previous=>new Set(previous).add(index)),[]);
   // Wait for the actual animation start so hidden pages and delayed paints cannot batch arrivals.
-  const layerRevealed=(index:number)=>{lastReveal.current=performance.now();setStartedLayers(total-index);};
+  const layerRevealed=(index:number)=>{lastReveal.current=performance.now();setStartedLayers(revealOrder.indexOf(index)+1);};
   useEffect(()=>{
-    const next=total-visibleLayers-1;
-    if(next<0 || !readyLayers.has(next) || startedLayers<visibleLayers)return;
+    const next=revealOrder[visibleLayers];
+    if(next===undefined || !readyLayers.has(next) || startedLayers<visibleLayers)return;
     const timer=window.setTimeout(()=>{
       setVisibleLayers(count=>count+1);
     },Math.max(0,20-(performance.now()-lastReveal.current)));
     return ()=>window.clearTimeout(timer);
-  },[readyLayers,visibleLayers,startedLayers,total]);
+  },[readyLayers,visibleLayers,startedLayers,revealOrder]);
   useEffect(() => {
     const preference = window.matchMedia('(prefers-reduced-motion: reduce)');
     const updatePreference = () => { reduced.current = preference.matches; };
@@ -186,7 +190,7 @@ function Card({ outfit, full = false, onExpand }: { outfit: Outfit; full?: boole
             '--shift-y': `${-projectedZ * Math.sin(motion.rotation_x * Math.PI / 180) / layer.height * 100}%`,
             '--rz': `${-layer.rotation}deg`, '--layer-opacity':layer.opacity,
           } as CSSProperties;
-          return <CardLayer key={`${layer.path}-${i}`} src={layer.path} style={style} background={background} index={i} visible={i>=total-visibleLayers} onReady={layerReady} onReveal={layerRevealed} />;
+          return <CardLayer key={`${layer.path}-${i}`} src={layer.path} style={style} background={background} index={i} visible={revealOrder.indexOf(i)<visibleLayers} onReady={layerReady} onReveal={layerRevealed} />;
         }) : <CardLayer src={outfit.fullCover || outfit.cover} index={0} visible={visibleLayers>0} onReady={layerReady} onReveal={layerRevealed} flat />}
         {/* {!outfit.card.layers.some(l => l.is_title) && <div className="card-title-art"><b>{outfit.name}</b></div>} */}
         <div className="card-light" />
