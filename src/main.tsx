@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState, useSyncExternalStore } from 'react';
+import React, { useCallback, useEffect, useRef, useState, useSyncExternalStore } from 'react';
 import { createRoot } from 'react-dom/client';
 import { ArrowLeft, AudioLines, Check, ChevronDown, Copy, Disc3, Download, Expand, Heart, ListMusic, LoaderCircle, Music2, Pause, Play, Repeat, Repeat1, Shuffle, Search, SkipBack, SkipForward, Smartphone, Volume2, VolumeX, X } from 'lucide-react';
 import type { CSSProperties, ReactNode } from 'react';
@@ -94,18 +94,17 @@ function FullscreenArtwork({ outfit, close }: { outfit: Outfit; close: () => voi
   </dialog>;
 }
 
-function CardLayer({ src, style, background }: { src:string; style:CSSProperties; background:boolean }) {
+function CardLayer({ src, style, background, index, visible, onReady, onReveal, flat = false }: { src:string; style?:CSSProperties; background?:boolean; index:number; visible:boolean; onReady:(index:number)=>void; onReveal:(index:number)=>void; flat?:boolean }) {
   const ref=useRef<HTMLImageElement>(null);
-  const [loaded,setLoaded]=useState(false);
   useEffect(()=>{
     const image=ref.current;if(!image)return;
-    let mounted=true;
-    const ready=()=>{void image.decode().catch(()=>{}).then(()=>{if(mounted && image.naturalWidth)setLoaded(true);});};
+    let mounted=true,reported=false;
+    const ready=()=>{void image.decode().catch(()=>{}).then(()=>{if(mounted && !reported && image.naturalWidth){reported=true;onReady(index);}});};
     image.addEventListener('load',ready);
     if(image.complete && image.naturalWidth)ready();
     return ()=>{mounted=false;image.removeEventListener('load',ready);};
-  },[src]);
-  return <div className={`card-layer-stage ${loaded ? 'is-loaded' : ''}`}><img ref={ref} className="card-layer" data-background={background} src={src} alt="" style={style} draggable={false} /></div>;
+  },[src,index,onReady]);
+  return <div className={`card-layer-stage ${visible ? 'is-loaded' : ''}`} onAnimationStart={event=>{if(event.target===event.currentTarget && event.animationName==='card-layer-arrive')onReveal(index);}}><img ref={ref} className={flat ? 'flat-cover' : 'card-layer'} data-background={background} src={src} alt="" style={style} draggable={false} /></div>;
 }
 
 function Card({ outfit, full = false, onExpand }: { outfit: Outfit; full?: boolean; onExpand?: () => void }) {
@@ -113,6 +112,22 @@ function Card({ outfit, full = false, onExpand }: { outfit: Outfit; full?: boole
   const target = useRef({ x: 0, y: 0, active: false });
   const dragPointer = useRef<number | null>(null);
   const reduced = useRef(false);
+  const total = outfit.card.layers.length || 1;
+  const [readyLayers,setReadyLayers]=useState<Set<number>>(()=>new Set());
+  const [visibleLayers,setVisibleLayers]=useState(0);
+  const [startedLayers,setStartedLayers]=useState(0);
+  const lastReveal=useRef(-Infinity);
+  const layerReady=useCallback((index:number)=>setReadyLayers(previous=>new Set(previous).add(index)),[]);
+  // Wait for the actual animation start so hidden pages and delayed paints cannot batch arrivals.
+  const layerRevealed=(index:number)=>{lastReveal.current=performance.now();setStartedLayers(total-index);};
+  useEffect(()=>{
+    const next=total-visibleLayers-1;
+    if(next<0 || !readyLayers.has(next) || startedLayers<visibleLayers)return;
+    const timer=window.setTimeout(()=>{
+      setVisibleLayers(count=>count+1);
+    },Math.max(0,120-(performance.now()-lastReveal.current)));
+    return ()=>window.clearTimeout(timer);
+  },[readyLayers,visibleLayers,startedLayers,total]);
   useEffect(() => {
     const preference = window.matchMedia('(prefers-reduced-motion: reduce)');
     const updatePreference = () => { reduced.current = preference.matches; };
@@ -171,13 +186,14 @@ function Card({ outfit, full = false, onExpand }: { outfit: Outfit; full?: boole
             '--shift-y': `${-projectedZ * Math.sin(motion.rotation_x * Math.PI / 180) / layer.height * 100}%`,
             '--rz': `${-layer.rotation}deg`, '--layer-opacity':layer.opacity,
           } as CSSProperties;
-          return <CardLayer key={`${layer.path}-${i}`} src={layer.path} style={style} background={background} />;
-        }) : <img className="flat-cover" src={outfit.cover} alt="" draggable={false} />}
+          return <CardLayer key={`${layer.path}-${i}`} src={layer.path} style={style} background={background} index={i} visible={i>=total-visibleLayers} onReady={layerReady} onReveal={layerRevealed} />;
+        }) : <CardLayer src={outfit.fullCover || outfit.cover} index={0} visible={visibleLayers>0} onReady={layerReady} onReveal={layerRevealed} flat />}
         {/* {!outfit.card.layers.some(l => l.is_title) && <div className="card-title-art"><b>{outfit.name}</b></div>} */}
         <div className="card-light" />
       </div>
       <img className="native-frame" src="/ui/rare_outfit_5.png" alt="" />
     </div>
+    {outfit.card.layers.length>0 && readyLayers.size<total && <div className="card-loading-toast" role="status" aria-live="polite"><LoaderCircle className="spinner" size={16}/>正在加载图层 {readyLayers.size}/{total}…</div>}
     {!full && <ArtworkActions outfit={outfit} onExpand={() => onExpand?.()} />}
   </div>;
 }
@@ -274,13 +290,12 @@ function ArchiveApp({ active, onBack, fromStory = false }: { active: boolean; on
     }
     notify('已复制链接');
   };
-  const select = (outfit: Outfit) => {
-    if (chosen?.id === outfit.id) { setShowCollection(false); return; }
-    const autoplay = playback.playing;
+  const select = (outfit: Outfit, autoplay = playback.playing) => {
+    if (chosen?.id === outfit.id) { setShowCollection(false); if(autoplay && currentMusic)void player.select(currentMusic,true); return; }
     sound('ui_outfit_select'); setSelectedId(outfit.id); setMelody(0); setShowCollection(false);
     if (outfit.music[0]) void player.select(outfit.music[0], autoplay);
   };
-  const skip = (direction: -1 | 1) => { if (items.length) select(items[nextQueueIndex(items.length, selectedIndex, direction, playback.mode)]); };
+  const skip = (direction: -1 | 1) => { if (items.length) select(items[nextQueueIndex(items.length, selectedIndex, direction, playback.mode)],true); };
   useEffect(() => player.subscribeEnded(trackId => {
     if (!active || currentMusic?.id !== trackId || !items.length) return;
     const next = items[nextQueueIndex(items.length, selectedIndex, 1, player.snapshot().mode)];
