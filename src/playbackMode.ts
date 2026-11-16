@@ -1,5 +1,5 @@
 export type PlaybackMode = 'single' | 'sequence' | 'shuffle' | 'once';
-export const PLAYBACK_MODES: PlaybackMode[] = ['single', 'sequence', 'shuffle', 'once'];
+export const PLAYBACK_MODES: PlaybackMode[] = ['sequence', 'single', 'shuffle', 'once'];
 export const MODE_LABELS: Record<PlaybackMode, string> = {
   single: '单曲循环', sequence: '顺序循环', shuffle: '随机播放', once: '播放一次',
 };

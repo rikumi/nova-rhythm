@@ -3,10 +3,10 @@ import test from 'node:test';
 import { nextPlaybackMode, nextQueueIndex } from '../../src/playbackMode.ts';
 
 test('single repeat, queue repeat, shuffle and once have distinct modes', () => {
-  assert.equal(nextPlaybackMode('single'), 'sequence');
-  assert.equal(nextPlaybackMode('sequence'), 'shuffle');
+  assert.equal(nextPlaybackMode('sequence'), 'single');
+  assert.equal(nextPlaybackMode('single'), 'shuffle');
   assert.equal(nextPlaybackMode('shuffle'), 'once');
-  assert.equal(nextPlaybackMode('once'), 'single');
+  assert.equal(nextPlaybackMode('once'), 'sequence');
 });
 test('queue repeat wraps while shuffle excludes the currently playing track', () => {
   assert.equal(nextQueueIndex(3, 2, 1, 'sequence'), 0);
