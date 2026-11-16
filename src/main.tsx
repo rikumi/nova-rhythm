@@ -137,16 +137,19 @@ function Card({ outfit, full = false, onExpand }: { outfit: Outfit; full?: boole
     const updatePreference = () => { reduced.current = preference.matches; };
     updatePreference(); preference.addEventListener('change', updatePreference);
     let frame = 0; let x = 0; let y = 0;
+    let lastX: string | undefined; let lastY: string | undefined;
     let previous = performance.now();
     const tick = (now: number) => {
       const sensor = deviceTilt.read(now);
       const input = target.current.active ? target.current : sensor.active ? sensor : target.current;
-      const idle = reduced.current || input.active || deviceTilt.snapshot().mobile ? 0 : Math.sin(now / 8000 * Math.PI) * .055;
       const smoothing = 1-Math.exp(-Math.min(now-previous, 100)/240); previous = now;
-      x += ((input.x + idle) - x) * smoothing;
+      x += (input.x - x) * smoothing;
       y += (input.y - y) * smoothing;
-      ref.current?.style.setProperty('--mx', String(reduced.current ? 0 : x));
-      ref.current?.style.setProperty('--my', String(reduced.current ? 0 : y));
+      const nextX = String(Math.round((reduced.current ? 0 : x) * 1000) / 1000);
+      const nextY = String(Math.round((reduced.current ? 0 : y) * 1000) / 1000);
+      const style = ref.current?.style;
+      if (style && nextX !== lastX) { style.setProperty('--mx', nextX); lastX = nextX; }
+      if (style && nextY !== lastY) { style.setProperty('--my', nextY); lastY = nextY; }
       frame = requestAnimationFrame(tick);
     };
     frame = requestAnimationFrame(tick); return () => { cancelAnimationFrame(frame); preference.removeEventListener('change', updatePreference); };
