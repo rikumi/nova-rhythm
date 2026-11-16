@@ -5,6 +5,9 @@ type OrientationConstructor = typeof DeviceOrientationEvent & {
 };
 
 const radians = Math.PI / 180;
+const SETTLE_RANGE_DEGREES = 5;
+const SETTLE_DELAY_MS = 1000;
+const RECENTER_TIME_MS = 1500;
 const clamp = (value: number, min = -1, max = 1) => Math.max(min, Math.min(max, value));
 function multiply(a: Quaternion, b: Quaternion): Quaternion {
   return {
@@ -125,8 +128,8 @@ class DeviceTilt {
     if (!this.center) {
       this.center = this.motionAnchor = q;
       this.lastMotion = this.lastRead = now;
-    } else if (this.motionAnchor && 2*Math.acos(clamp(Math.abs(dot(q, this.motionAnchor))))/radians >= 2) {
-      // Compare to an anchor, so gradual deliberate movement also accumulates.
+    } else if (this.motionAnchor && 2*Math.acos(clamp(Math.abs(dot(q, this.motionAnchor))))/radians >= SETTLE_RANGE_DEGREES) {
+      // Ignore small hand tremors, while deliberate movement still accumulates against an anchor.
       this.motionAnchor = q;
       this.lastMotion = now;
     }
@@ -136,9 +139,9 @@ class DeviceTilt {
     if (!this.listening || !this.current || !this.center) return { x: 0, y: 0, active: this.state.status === 'enabled' };
     const elapsed = Math.min(Math.max(now-this.lastRead, 0), 100);
     this.lastRead = now;
-    if (now-this.lastMotion > 3000) {
+    if (now-this.lastMotion > SETTLE_DELAY_MS) {
       // Adopt the settled holding angle as neutral over a 1.5 second time scale.
-      this.center = interpolate(this.center, this.current, 1-Math.exp(-elapsed/1500));
+      this.center = interpolate(this.center, this.current, 1-Math.exp(-elapsed/RECENTER_TIME_MS));
     }
     const relative = multiply({ x: -this.center.x, y: -this.center.y, z: -this.center.z, w: this.center.w }, this.current);
     const forward = { x: 2*(relative.x*relative.z + relative.w*relative.y),

@@ -175,6 +175,7 @@ function Card({ outfit, full = false, onExpand }: { outfit: Outfit; full?: boole
   const motion = outfit.card.motion || { rotation_x: 3, rotation_y: -8 };
   return <div ref={ref} className={`live-card ${full ? 'full-card' : ''}`} style={{ '--tilt-x': `${-motion.rotation_x}deg`, '--tilt-y': `${-motion.rotation_y}deg` } as CSSProperties} onPointerDown={beginDrag} onPointerMove={move} onPointerUp={endDrag} onPointerCancel={endDrag} onLostPointerCapture={endDrag} onPointerLeave={() => { if(dragPointer.current===null)target.current = { x: 0, y: 0, active: false }; }}>
     <div className={`card-frame rarity-${outfit.rarity}`}>
+      <div className="card-backdrop-tint" aria-hidden="true" />
       <div className="card-glint" />
       <div className="card-window" data-content-scale={CARD_CONTENT_SCALE}>
         {outfit.card.layers.length ? outfit.card.layers.map((layer, i) => {

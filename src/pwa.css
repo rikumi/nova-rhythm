@@ -1,10 +1,15 @@
 :root{--safe-top:env(safe-area-inset-top,0px);--safe-bottom:max(env(safe-area-inset-bottom,0px),var(--pwa-bottom-inset,0px));--safe-left:env(safe-area-inset-left,0px);--safe-right:env(safe-area-inset-right,0px)}
 html,body,#root{min-height:100%;width:100%}
 body{background:#182d55 url('/ui/bg_outfit_02.png') center/cover fixed no-repeat}
-.live-card{touch-action:none;overscroll-behavior:none}
+.live-card{touch-action:none;overscroll-behavior:none;isolation:auto;perspective:none}
 .live-card .card-frame{user-select:none;-webkit-user-select:none;-webkit-touch-callout:none}
 .card-layer{opacity:var(--layer-opacity,1)}
-.live-card .card-frame{background:rgb(40 50 61 / 40%);-webkit-backdrop-filter:blur(40px);backdrop-filter:blur(40px)}
+/* Release the entrance animation's compositing layer so blur can sample the room. */
+.archive-scene.scene-enter{animation-fill-mode:backwards}
+.live-card .card-frame{background:transparent;filter:none;transform-style:flat;box-shadow:0 18px 24px #08172c80;-webkit-backdrop-filter:blur(40px);backdrop-filter:blur(40px)}
+.live-card:not(.full-card) .card-frame{transform:perspective(1200px) rotateX(calc(var(--my) * var(--tilt-x))) rotateY(calc(var(--mx) * var(--tilt-y)))}
+.card-backdrop-tint{position:absolute;inset:0;pointer-events:none;background:rgb(40 50 61 / 40%)}
+.full-card .card-frame{box-shadow:none}
 .live-card .card-window{background:transparent}
 .card-layer-stage{position:absolute;inset:0;pointer-events:none;transform-origin:50% 50%;opacity:0}
 .card-layer-stage.is-loaded{opacity:1;animation:card-layer-arrive .65s cubic-bezier(.2,.75,.25,1) backwards}
