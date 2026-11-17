@@ -1,33 +1,13 @@
 import { downloadScene } from './sharpTransport.ts';
 import type { SceneProgress } from './sharpTransport';
+import { readModelCache, rememberModel, discardModelCache } from './sharpModelCache.ts';
 
-const CACHE = 'nova-sharp-models-v1';
 let decoded: {url: string; bytes: ArrayBuffer} | undefined;
 interface Job {
   controller: AbortController; listeners: Set<(state: SceneProgress) => void>;
   promise: Promise<ArrayBuffer>; settled: boolean; state?: SceneProgress;
 }
 const jobs = new Map<string, Job>();
-
-async function cachedBlob(url: string, size?: number): Promise<Blob | undefined> {
-  try {
-    const response = await (await caches.open(CACHE)).match(url);
-    if(response) {
-      const blob = await response.blob();
-      if(!size || blob.size === size) return blob;
-      await (await caches.open(CACHE)).delete(url);
-    }
-  } catch { /* Storage may be disabled or full. Network loading remains available. */ }
-}
-
-async function storeBlob(url: string, blob: Blob): Promise<void> {
-  try {
-    const cache = await caches.open(CACHE);
-    await cache.put(url, new Response(blob));
-    const keys = await cache.keys();
-    await Promise.all(keys.slice(0, Math.max(0, keys.length - 2)).map(key => cache.delete(key)));
-  } catch { /* An optional cache must not prevent rendering. */ }
-}
 
 function decompress(blob: Blob, signal: AbortSignal): Promise<ArrayBuffer> {
   signal.throwIfAborted();
@@ -48,7 +28,7 @@ function decompress(blob: Blob, signal: AbortSignal): Promise<ArrayBuffer> {
 }
 
 export async function loadSceneData(url: string, total: number | undefined, signal: AbortSignal,
-  progress: (state: SceneProgress) => void): Promise<ArrayBuffer> {
+  progress: (state: SceneProgress) => void, gzip = true): Promise<ArrayBuffer> {
   signal.throwIfAborted();
   if(decoded?.url === url) { progress({phase: 'parse'}); return decoded.bytes; }
   let job = jobs.get(url);
@@ -57,25 +37,23 @@ export async function loadSceneData(url: string, total: number | undefined, sign
     const entry = {controller, listeners, settled: false} as Job;
     const report = (state: SceneProgress) => { entry.state = state; listeners.forEach(listener => listener(state)); };
     entry.promise = (async () => {
-      let blob = await cachedBlob(url, total);
+      let blob = await readModelCache(url, total);
       controller.signal.throwIfAborted();
       const fromCache = !!blob;
-      let needsStore = !fromCache;
       blob ??= await downloadScene(url, {signal: controller.signal, total, progress: report});
       report({phase: 'decompress'});
       let bytes: ArrayBuffer;
-      try { bytes = await decompress(blob, controller.signal); }
+      try { bytes = gzip ? await decompress(blob, controller.signal) : await blob.arrayBuffer(); }
       catch(error) {
         if(controller.signal.aborted || !fromCache) throw error;
         // A truncated/corrupt disk cache must recover without poisoning future visits.
-        try { await (await caches.open(CACHE)).delete(url); } catch { /* optional */ }
+        try { await discardModelCache(url); } catch { /* optional */ }
         blob = await downloadScene(url, {signal: controller.signal, total, progress: report});
-        needsStore = true;
-        report({phase: 'decompress'}); bytes = await decompress(blob, controller.signal);
+        report({phase: 'decompress'}); bytes = gzip ? await decompress(blob, controller.signal) : await blob.arrayBuffer();
       }
       controller.signal.throwIfAborted();
       decoded = {url, bytes};
-      if(needsStore)void storeBlob(url, blob);
+      rememberModel(url, blob);
       report({phase: 'parse'});
       return bytes;
     })();

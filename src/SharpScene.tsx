@@ -4,6 +4,7 @@ import { SparkRenderer, SplatMesh } from '@sparkjsdev/spark';
 import { deviceTilt } from './deviceTilt';
 import { loadSharpScene } from './sharpScenes';
 import { loadSceneData } from './sharpSceneData';
+import { bindModelSource } from './sharpModelCache';
 import './sharpScene.css';
 
 export default function SharpScene({full=false,suspended=false,code='4016',name='春日纪事'}:{full?:boolean;suspended?:boolean;code?:string;name?:string}){
@@ -25,17 +26,17 @@ export default function SharpScene({full=false,suspended=false,code='4016',name=
     void (async()=>{
       try{
         const info=await loadSharpScene(code,import.meta.env.DEV,abort.signal);if(disposed)return;
-        let bytes:ArrayBuffer|undefined;
-        if(info.scene_format==='ply+gzip'){
-          bytes=await loadSceneData(info.scene_url,info.compressed_bytes,abort.signal,state=>{
+        const compressed=info.scene_format==='ply+gzip';
+        const source=compressed||!info.scene_sha256?info.scene_url:`${info.scene_url}?v=${info.scene_sha256}`;
+        const bytes=await loadSceneData(source,compressed?info.compressed_bytes:info.scene_bytes,abort.signal,state=>{
             if(disposed)return;
             if(state.phase==='download')setStatus(state.total?`正在下载三维场景 ${Math.floor((state.loaded||0)/state.total*100)}%`:'正在下载三维场景…');
             else if(state.phase==='retry')setStatus(`正在重试下载 ${state.attempt}/3…`);
             else if(state.phase==='decompress')setStatus('正在解压三维场景…');
             else setStatus('正在解析三维场景…');
-          });
+          },compressed);
           if(disposed)return;
-        }
+        bindModelSource(code,source);
         element.dataset.source='precomputed';
         const scene=new THREE.Scene();scene.background=new THREE.Color(.012,.018,.028);
         const camera=new THREE.PerspectiveCamera(info.camera_fov_y_degrees,info.input_size[0]/info.input_size[1],.001,Math.max(100,info.focus_distance*100));

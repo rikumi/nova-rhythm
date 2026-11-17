@@ -28,7 +28,7 @@ export async function downloadScene(url: string, options: {
     }, Math.min(1000, idleMs));
     try {
       progress({phase: 'download', loaded, total});
-      const response = await fetcher(url, {signal: controller.signal,
+      const response = await fetcher(url, {signal: controller.signal, cache: 'no-store',
         headers: loaded ? {Range: `bytes=${loaded}-`} : undefined});
       activity = Date.now();
       if(!response.ok || !response.body) {

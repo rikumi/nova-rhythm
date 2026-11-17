@@ -2,6 +2,7 @@ export interface SharpSceneInfo {
   input_size: [number, number]; camera_fov_y_degrees: number; focus_distance: number;
   depth_percentiles?: number[]; gaussian_count: number; scene_url: string; scene_format?: string;
   compressed_bytes?: number;
+  scene_bytes?: number; scene_sha256?: string;
 }
 
 let manifest: Promise<{outfits: Record<string, SharpSceneInfo>}> | undefined;

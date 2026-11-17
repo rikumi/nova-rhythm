@@ -16,6 +16,7 @@ import { loadOutfits } from './experimentalLayering';
 import { CARD_CONTENT_SCALE, backgroundLayer, cardDepths } from './parallaxDepth';
 import { loadSharpManifest } from './sharpScenes';
 import { downloadArtwork } from './artworkDownload';
+import { SharpCacheButton } from './SharpCacheButton';
 import { applyInfinityTowerMixer } from './infinitytowerMixer';
 import { musicIdFromPath, musicPage, musicPath, musicUrl, outfitMusicPage, registerMusicPages, storyMusicPage, updateMusicPageMetadata } from './musicRoutes';
 import './style.css';
@@ -333,7 +334,7 @@ function ArchiveApp({ active, onBack, fromStory = false }: { active: boolean; on
   const sound = (name: string) => { if (soundEnabled) void player.sound(name); };
   const notify = (message: string) => { setToast(message); if (timer.current) clearTimeout(timer.current); timer.current = setTimeout(() => setToast(''), 2400); };
   const sharpLabel=`3D${sharpAvailable&&sharpSizes[chosen.code]>0?` (${(sharpSizes[chosen.code]/1000000).toFixed(1)}MB)`:''}`;
-  const artwork3DAction=sharpAvailable?<button className="save-card three-d-card" aria-label={sharpLabel} aria-pressed={useSharp} onClick={()=>{sound('ui_outfit_button_tap');setSharpCode(useSharp?null:chosen.code);setArtworkMode('difference');}}><Box size={17}/><span>{sharpLabel}</span></button>:undefined;
+  const artwork3DAction=sharpAvailable?<span className="model-actions"><button className="save-card three-d-card" aria-label={sharpLabel} aria-pressed={useSharp} onClick={()=>{sound('ui_outfit_button_tap');setSharpCode(useSharp?null:chosen.code);setArtworkMode('difference');}}><Box size={17}/><span>{sharpLabel}</span></button><SharpCacheButton code={chosen.code} onError={notify}/></span>:undefined;
   const copyPageLink=async()=>{
     if(!chosen || !currentMusic)return;
     const url=musicUrl(location.href,currentMusic.id);
