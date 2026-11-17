@@ -1,0 +1,2 @@
+.card-actions .three-d-card,.fullscreen-artwork-actions .three-d-card{display:flex;align-items:center;justify-content:center;gap:4px;width:auto;min-width:58px;flex-shrink:0;padding:0 8px;font-size:12px;white-space:nowrap}
+.three-d-card[aria-pressed=true]{background:#2b6289d9;border-color:#9ce8e7;color:#a5f5ee}

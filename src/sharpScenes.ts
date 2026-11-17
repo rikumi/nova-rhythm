@@ -4,10 +4,6 @@ export interface SharpSceneInfo {
   compressed_bytes?: number;
 }
 
-export function sharpPreference(search: string, stored: unknown): boolean {
-  return new URLSearchParams(search).get('sharp_3d') === '1' || stored === true;
-}
-
 let manifest: Promise<{outfits: Record<string, SharpSceneInfo>}> | undefined;
 export function loadSharpManifest(): Promise<{outfits: Record<string, SharpSceneInfo>}> {
   return manifest ??= fetch('/data/sharp-scenes.json').then(async response => {
