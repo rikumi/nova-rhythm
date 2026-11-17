@@ -1,0 +1,302 @@
+{
+  "schemaVersion": 1,
+  "measure": "focus_distance * (1 / depth_p01 - 1 / depth_p99)",
+  "minimum": 0.35,
+  "maximum": 1.25,
+  "outfits": {
+    "4027": {
+      "name": "龙飞凤舞",
+      "scale": 0.7675166610806919,
+      "original_relative_inverse_depth_span": 1.6286291404279793,
+      "target_relative_inverse_depth_span": 1.25,
+      "source_prediction_sha256": "6276e22f6bbb265e8072636b2b92e7bb2af0aae1643292bfdf632b086806ebe9"
+    },
+    "4043": {
+      "name": "革新的萌芽",
+      "scale": 0.1431232581910812,
+      "original_relative_inverse_depth_span": 8.733730742288916,
+      "target_relative_inverse_depth_span": 1.25,
+      "source_prediction_sha256": "fc2be8c92fcc1c133fb393a53e74d0ea1cfcf1d52fe595bc7f8d2821c19f0122"
+    },
+    "1001": {
+      "name": "朝霭",
+      "scale": 0.014396106071903975,
+      "original_relative_inverse_depth_span": 46.93800342070887,
+      "target_relative_inverse_depth_span": 0.6757244760479164,
+      "source_prediction_sha256": "2b12492ecd3db5532611f689437cdb336e10f9ca7c1bbdbde8b45978a92b3b97"
+    },
+    "1003": {
+      "name": "晚霞",
+      "scale": 0.025613401881585268,
+      "original_relative_inverse_depth_span": 26.38167624792269,
+      "target_relative_inverse_depth_span": 0.6757244760479164,
+      "source_prediction_sha256": "3333a80950014bb42b8f1367e370a7a157234393d69d27d2ee3ab6a11a21f6b9"
+    },
+    "1004": {
+      "name": "粉梦",
+      "exponent": 2.8807229297646937,
+      "original_relative_inverse_depth_span": 0.12189805221499642,
+      "target_relative_inverse_depth_span": 0.35,
+      "source_prediction_sha256": "76415158ab3cfa9d7160d6aefcc5036688668f8049d0b2c9086f6078603191c9"
+    },
+    "1005": {
+      "name": "孤烟",
+      "exponent": 1.1949079284259656,
+      "original_relative_inverse_depth_span": 0.2909025561699038,
+      "target_relative_inverse_depth_span": 0.35,
+      "source_prediction_sha256": "431008c67ea796a6624622ca6ae481d20fa6ebfa7e77c44ca191301e916d25ef"
+    },
+    "1006": {
+      "name": "甘露",
+      "scale": 0.8242408232058115,
+      "original_relative_inverse_depth_span": 1.5165470634398281,
+      "target_relative_inverse_depth_span": 1.25,
+      "source_prediction_sha256": "201beb806ee01ad0d1ea5f4aa88d1c51200767c98f10ce958af9b4bcc8f3a651"
+    },
+    "1007": {
+      "name": "希冀",
+      "scale": 0.03299759810699015,
+      "original_relative_inverse_depth_span": 20.477989757223337,
+      "target_relative_inverse_depth_span": 0.6757244760479164,
+      "source_prediction_sha256": "5d915bccaac4e2fac5ed5ad4c45897164b5781348c9c19f672f38e58d9cb5773"
+    },
+    "1008": {
+      "name": "归途",
+      "scale": 0.013021503285101474,
+      "original_relative_inverse_depth_span": 51.892969748050916,
+      "target_relative_inverse_depth_span": 0.6757244760479164,
+      "source_prediction_sha256": "88fce1d9231ff72b565c7e13e27a38e0da865b6dd77345b2efd0024242de9bbd"
+    },
+    "2001": {
+      "name": "盛宴",
+      "exponent": 2.5533577087881176,
+      "original_relative_inverse_depth_span": 0.14585300643456992,
+      "target_relative_inverse_depth_span": 0.35,
+      "source_prediction_sha256": "74eb68f5bc9470994e1a48ae7ceded9640205f8c1cae22565b3c2906acc03dd3"
+    },
+    "2002": {
+      "name": "喧哗",
+      "exponent": 3.171822731329406,
+      "original_relative_inverse_depth_span": 0.11726240829384951,
+      "target_relative_inverse_depth_span": 0.35,
+      "source_prediction_sha256": "b7e83c0f7a68a7e8ccb48bb1d2341c5f27200d1dd9a7c04a13773c3a3349199d"
+    },
+    "2003": {
+      "name": "极乐",
+      "exponent": 1.9523404785499072,
+      "original_relative_inverse_depth_span": 0.17662210241089507,
+      "target_relative_inverse_depth_span": 0.35,
+      "source_prediction_sha256": "cc8085b3876d7b1be3efbcf7eabef3d6d60863de13140655a1ff5b05ff0152ef"
+    },
+    "2005": {
+      "name": "情热",
+      "exponent": 1.6105130005029884,
+      "original_relative_inverse_depth_span": 0.21257537955919084,
+      "target_relative_inverse_depth_span": 0.35,
+      "source_prediction_sha256": "b02b767994e4555e3a556a21f831aa84ab76be52c0b7469592ec309b650a2e28"
+    },
+    "2006": {
+      "name": "吉光",
+      "exponent": 2.759701047144864,
+      "original_relative_inverse_depth_span": 0.126845680399527,
+      "target_relative_inverse_depth_span": 0.35,
+      "source_prediction_sha256": "67644f5d5387932fbc4ec5ce35c3e895046f6c871c9f133ef18b2e9a26c24b90"
+    },
+    "2007": {
+      "name": "乘风",
+      "exponent": 2.0846769379003605,
+      "original_relative_inverse_depth_span": 0.16814547067827168,
+      "target_relative_inverse_depth_span": 0.35,
+      "source_prediction_sha256": "f7ed85385b14fbbc14e369a6ba21ebd7337876924264ab16a44e20b031957438"
+    },
+    "3001": {
+      "name": "柠柚好奇",
+      "scale": 0.8343282554242912,
+      "original_relative_inverse_depth_span": 1.4982112758057344,
+      "target_relative_inverse_depth_span": 1.25,
+      "source_prediction_sha256": "eb9b27be5b0f7b5ee11e417c3d01defb930e42f21cbcf141076a0e4d14e35d53"
+    },
+    "3003": {
+      "name": "热夜的结束",
+      "scale": 0.7116250286891501,
+      "original_relative_inverse_depth_span": 1.7565430523186687,
+      "target_relative_inverse_depth_span": 1.25,
+      "source_prediction_sha256": "3af1bba8214d3cef14fa1e780f84f0e1b1daecc89a88df527f995ee476fe4ccf"
+    },
+    "3006": {
+      "name": "晚安",
+      "exponent": 1.7270750872502076,
+      "original_relative_inverse_depth_span": 0.1976801276632805,
+      "target_relative_inverse_depth_span": 0.35,
+      "source_prediction_sha256": "8234594824c50953d65a83b5a0b61f47131090ed57da5da532ac2a59d137d0c1"
+    },
+    "3007": {
+      "name": "翡翠隙境",
+      "exponent": 3.3447054527741478,
+      "original_relative_inverse_depth_span": 0.10331472234538365,
+      "target_relative_inverse_depth_span": 0.35,
+      "source_prediction_sha256": "95dbc82455687e760d1bce1bc884c08dbf9fe0dbe8aa7646caa9f2d1d987a868"
+    },
+    "3008": {
+      "name": "小憩片刻",
+      "scale": 0.6427985195538278,
+      "original_relative_inverse_depth_span": 1.9446217780147288,
+      "target_relative_inverse_depth_span": 1.25,
+      "source_prediction_sha256": "70fa8747677f5a1e7ff38df6ffd7081306589c367e9f869f880f5c627a8c3e08"
+    },
+    "3009": {
+      "name": "“雨中”曲",
+      "exponent": 1.976580599794834,
+      "original_relative_inverse_depth_span": 0.17445826645557103,
+      "target_relative_inverse_depth_span": 0.35,
+      "source_prediction_sha256": "deeb1d1cb72baa478756dd265c4a8f0b9980a3ce718c1f9b3a54d8dcd3d1caff"
+    },
+    "3013": {
+      "name": "秋日絮语",
+      "exponent": 2.120430114274653,
+      "original_relative_inverse_depth_span": 0.16618031626901814,
+      "target_relative_inverse_depth_span": 0.35,
+      "source_prediction_sha256": "a38ad0dc75fdd00749ec6ec30194db5aec800ecbd6d9ace8791d5996b90ae4e4"
+    },
+    "3017": {
+      "name": "★~转转人生~★",
+      "exponent": 1.021439999623666,
+      "original_relative_inverse_depth_span": 0.3428111892565083,
+      "target_relative_inverse_depth_span": 0.35,
+      "source_prediction_sha256": "42f77fec4f3a9a5cf65cbc6baec4d4210a417ab42c6ce197917895c70addbf6e"
+    },
+    "3018": {
+      "name": "饮料采购日",
+      "exponent": 2.2343296191994777,
+      "original_relative_inverse_depth_span": 0.16058692470128144,
+      "target_relative_inverse_depth_span": 0.35,
+      "source_prediction_sha256": "a4ff42cabd13e5b5d2e5e2af7c039c606a7b5897e7527afb6ba499a26cd5fce8"
+    },
+    "3019": {
+      "name": "妄语",
+      "exponent": 1.5440721547481755,
+      "original_relative_inverse_depth_span": 0.22736955793569197,
+      "target_relative_inverse_depth_span": 0.35,
+      "source_prediction_sha256": "9762e69d413409fd31e2056d134518f8d87abd58bcf8b608b2d8dd6f48b69854"
+    },
+    "3020": {
+      "name": "闪灵",
+      "exponent": 2.7298507081957877,
+      "original_relative_inverse_depth_span": 0.1299227103323075,
+      "target_relative_inverse_depth_span": 0.35,
+      "source_prediction_sha256": "9082e0ccbcc781ec263f61552e32b5b7b54bfbf5a9b07143bef6bdbb653d703e"
+    },
+    "3022": {
+      "name": "诅咒爱河",
+      "exponent": 1.1091777877847186,
+      "original_relative_inverse_depth_span": 0.3165356844467103,
+      "target_relative_inverse_depth_span": 0.35,
+      "source_prediction_sha256": "d985dc1867f4df869004b35cb4a11845bf18614cf8387ed7a38edc4bd53d3778"
+    },
+    "4002": {
+      "name": "空与花与诗",
+      "scale": 0.9478237656906758,
+      "original_relative_inverse_depth_span": 1.3188105692719463,
+      "target_relative_inverse_depth_span": 1.25,
+      "source_prediction_sha256": "05610871d76b312f6bd106336eb542a09d6809aa927dbb6ea529e549813dc25b"
+    },
+    "4003": {
+      "name": "你与我相似",
+      "scale": 0.790819324594852,
+      "original_relative_inverse_depth_span": 1.5806391689282413,
+      "target_relative_inverse_depth_span": 1.25,
+      "source_prediction_sha256": "e978dcf8d1e81e2ca6ccb6dc981c46966526a883691457985fdd20418649fe6b"
+    },
+    "4006": {
+      "name": "魔女的秋千",
+      "scale": 0.3405379765271927,
+      "original_relative_inverse_depth_span": 3.6706625579546333,
+      "target_relative_inverse_depth_span": 1.25,
+      "source_prediction_sha256": "985d7c060ac7e728b759f6d69f394a63ea84795727bfc9284aa6d260286e26ec"
+    },
+    "4008": {
+      "name": "飞越青空",
+      "scale": 0.48873859007703363,
+      "original_relative_inverse_depth_span": 2.5576044645931857,
+      "target_relative_inverse_depth_span": 1.25,
+      "source_prediction_sha256": "3fdc5e11b1b259b09d38c7dfba400acc21b781843a8dc91b4e89091437bf262a"
+    },
+    "4012": {
+      "name": "狼贪虎视",
+      "scale": 0.6641106276981706,
+      "original_relative_inverse_depth_span": 1.8822165281898007,
+      "target_relative_inverse_depth_span": 1.25,
+      "source_prediction_sha256": "26e359571ef0f7ba04201bb228557f1faac7c793292c81f53cd04d97d9d72595"
+    },
+    "4013": {
+      "name": "远航蓝图",
+      "scale": 0.2812107612314017,
+      "original_relative_inverse_depth_span": 4.445064600395589,
+      "target_relative_inverse_depth_span": 1.25,
+      "source_prediction_sha256": "65e1bec592fa2c50e7f3925c51dae18e42b9f6583f6ca58034d7c4e29a18aae7"
+    },
+    "4017": {
+      "name": "花火",
+      "scale": 0.15609067228050688,
+      "original_relative_inverse_depth_span": 8.008165905991195,
+      "target_relative_inverse_depth_span": 1.25,
+      "source_prediction_sha256": "a220a8aa56663636452aabef126ce34788cf3dc20f2ca9167874b40938db49fb"
+    },
+    "4024": {
+      "name": "一二三，跳！",
+      "scale": 0.39306853247408885,
+      "original_relative_inverse_depth_span": 3.1801070213688507,
+      "target_relative_inverse_depth_span": 1.25,
+      "source_prediction_sha256": "ee6c908783c222003be417f8670ad6ea0921cb75d73780fada78c55b5f841685"
+    },
+    "4030": {
+      "name": "午后间隙",
+      "scale": 0.18771851659062214,
+      "original_relative_inverse_depth_span": 6.6589062320687775,
+      "target_relative_inverse_depth_span": 1.25,
+      "source_prediction_sha256": "8f5c2ef49a132b5bf06d998aeda92fc6226a6968ea2e453339b571d5d168545e"
+    },
+    "4038": {
+      "name": "波光漫游",
+      "exponent": 1.2412397209144994,
+      "original_relative_inverse_depth_span": 0.28192950022870844,
+      "target_relative_inverse_depth_span": 0.35,
+      "source_prediction_sha256": "50de398b83f7602e1a50bd4dccdaeb42390c33b7de18b0ebafd6624b24af646c"
+    },
+    "4039": {
+      "name": "夏日栖息地",
+      "scale": 0.7318422280521583,
+      "original_relative_inverse_depth_span": 1.7080184117373898,
+      "target_relative_inverse_depth_span": 1.25,
+      "source_prediction_sha256": "588e64753e8a05956d7e787d06609dadb29f2a5049651524ce6f7a93eaa70700"
+    },
+    "4042": {
+      "name": "酒暖灯明时",
+      "scale": 0.6093952587957518,
+      "original_relative_inverse_depth_span": 2.0512138582603523,
+      "target_relative_inverse_depth_span": 1.25,
+      "source_prediction_sha256": "dce2a9ec1cc44aabe6b96081ee5e05d79d1b82d126c400814216de5fc3668302"
+    },
+    "4044": {
+      "name": "罗帷春染岁朝新",
+      "scale": 0.3573528070019962,
+      "original_relative_inverse_depth_span": 3.497943700196029,
+      "target_relative_inverse_depth_span": 1.25,
+      "source_prediction_sha256": "d3a63293c2cd67113fb258dff20f59c5b5b7e509ef04ce7354e997483a6130e9"
+    },
+    "4046": {
+      "name": "冬夜后的黎明",
+      "scale": 0.5497074795344429,
+      "original_relative_inverse_depth_span": 2.273936678210468,
+      "target_relative_inverse_depth_span": 1.25,
+      "source_prediction_sha256": "b7695193fe5bd0884c885b238ccc7ddf61d08e9baa56bd9c2fefcbba63e65398"
+    },
+    "4047": {
+      "name": "信笺乘风而去",
+      "scale": 0.8835289389673636,
+      "original_relative_inverse_depth_span": 1.414781050025316,
+      "target_relative_inverse_depth_span": 1.25,
+      "source_prediction_sha256": "4b1c859954d32bd9b8e2140c464910985940d0e1996f95588124d17bf1cce570"
+    }
+  }
+}

@@ -1,6 +1,6 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
-import { createReadStream, existsSync, readFileSync } from 'node:fs';
+import { createReadStream, existsSync, readFileSync, statSync } from 'node:fs';
 import { resolve } from 'node:path';
 export default defineConfig({
   plugins: [react(), {
@@ -10,6 +10,16 @@ export default defineConfig({
       const trialRoot = resolve('.build/layering-trial');
       server.middlewares.use((request, response, next) => {
         const path = request.url?.split('?')[0];
+        const sharpScene=path?.match(/^\/__sharp-3d\/(\d{4})\/(scene\.(?:ply(?:\.gz)?|json))$/);
+        if(sharpScene){
+          const file=resolve('.build/sharp-layering',sharpScene[1],sharpScene[2]);
+          if(!existsSync(file))return next();
+          response.setHeader('Content-Type',file.endsWith('.json')?'application/json; charset=utf-8':'application/octet-stream');
+          response.setHeader('Content-Length',statSync(file).size);
+          response.setHeader('Cache-Control','no-store');
+          if(request.method==='HEAD'){response.end();return;}
+          createReadStream(file).pipe(response);return;
+        }
         const image = path?.match(/^\/__(layering-trial|layering-hd|sharp-layering)\/(\d{4})\/(layer-\d{2}\.(?:png|webp))$/);
         if (image) {
           const file = resolve('.build', image[1], image[2], image[3]);

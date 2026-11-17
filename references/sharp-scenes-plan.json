@@ -1,0 +1,1419 @@
+{
+  "schemaVersion": 1,
+  "settings": {
+    "model": "apple/Sharp",
+    "checkpoint_sha256": "94211a75198c47f61fca7d739ba08a215418d8d398d48fddf023baccc24f073d",
+    "predictor_source_sha256": "e22c69610f74fb536d3bd4e1225f14d013da8988b3d6e5e419fb57e162130a20",
+    "internal_size": [
+      1536,
+      1536
+    ],
+    "focal_length_mm": 30,
+    "precision": "autocast bfloat16",
+    "export": "metric-covariance-v1"
+  },
+  "items": [
+    {
+      "code": "4016",
+      "outfit_id": 214016,
+      "name": "春日纪事",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4016.png",
+      "source_sha256": "c8d24fa68a3efb7e6e50b19f76af5e75502d9b390d8d49e783f81f48fadf22f2",
+      "source_size": [
+        2400,
+        1700
+      ]
+    },
+    {
+      "code": "4027",
+      "outfit_id": 214027,
+      "name": "龙飞凤舞",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4027.png",
+      "source_sha256": "ef993b56b0db8ed460002b2edae3f861ed567cf6f7f777e0887dcf27fadacb7b",
+      "source_size": [
+        2400,
+        1700
+      ]
+    },
+    {
+      "code": "4043",
+      "outfit_id": 214043,
+      "name": "革新的萌芽",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4043.png",
+      "source_sha256": "76ad24b272b69173f61e30ce94174d326d44f5f03b3a04e9a6517e2c1ee62e20",
+      "source_size": [
+        2400,
+        1700
+      ]
+    },
+    {
+      "code": "1001",
+      "outfit_id": 211001,
+      "name": "朝霭",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/1001.png",
+      "source_sha256": "eec987a9231c18f3b7504914c38a0a55ab8799838729ed1c716ebc1823805c92",
+      "source_size": [
+        1700,
+        1700
+      ]
+    },
+    {
+      "code": "1002",
+      "outfit_id": 211002,
+      "name": "和煦",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/1002.png",
+      "source_sha256": "f532e734d88e1802e77dcf6df292e88d7881a48ab68a39554881734eda525d2d",
+      "source_size": [
+        1700,
+        1700
+      ]
+    },
+    {
+      "code": "1003",
+      "outfit_id": 211003,
+      "name": "晚霞",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/1003.png",
+      "source_sha256": "19230d1c5163cf3365af168df1f5bf235abd208a121773415c050c4fb5d16d66",
+      "source_size": [
+        1700,
+        1700
+      ]
+    },
+    {
+      "code": "1004",
+      "outfit_id": 211004,
+      "name": "粉梦",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/1004.png",
+      "source_sha256": "f2747dee3b108b127f04437c328a0ded5fbd03059b6b82dba9dca66735770fc4",
+      "source_size": [
+        1700,
+        1700
+      ]
+    },
+    {
+      "code": "1005",
+      "outfit_id": 211005,
+      "name": "孤烟",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/1005.png",
+      "source_sha256": "6737f8da81d965edf8d4f23e8994abb7d5cdd7e07404d6159b9009d806a72a99",
+      "source_size": [
+        1700,
+        1700
+      ]
+    },
+    {
+      "code": "1006",
+      "outfit_id": 211006,
+      "name": "甘露",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/1006.png",
+      "source_sha256": "73f483b970e0efad8daa6afb091d275db922b7bfbdb646a50f8641d4dac1af5e",
+      "source_size": [
+        1700,
+        1700
+      ]
+    },
+    {
+      "code": "1007",
+      "outfit_id": 211007,
+      "name": "希冀",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/1007.png",
+      "source_sha256": "4186a1536bf4117d0a3b8af7d67719fe902029dbc93f47c7fcb6204b8c75a987",
+      "source_size": [
+        1700,
+        1700
+      ]
+    },
+    {
+      "code": "1008",
+      "outfit_id": 211008,
+      "name": "归途",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/1008.png",
+      "source_sha256": "78b1b7a48f70df4069787e6537b18bd4ff6818435db58af4384b5ba995011512",
+      "source_size": [
+        1700,
+        1700
+      ]
+    },
+    {
+      "code": "2001",
+      "outfit_id": 212001,
+      "name": "盛宴",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/2001.png",
+      "source_sha256": "0ee9db3a8891bddcb32b86567365f6d1fa338044d005015a5e94ed9795ef8d31",
+      "source_size": [
+        1700,
+        1700
+      ]
+    },
+    {
+      "code": "2002",
+      "outfit_id": 212002,
+      "name": "喧哗",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/2002.png",
+      "source_sha256": "290b3fe37a796ea05914ad38a44f9f976729b631426c0231bcd0d6da9fe53d30",
+      "source_size": [
+        1700,
+        1700
+      ]
+    },
+    {
+      "code": "2003",
+      "outfit_id": 212003,
+      "name": "极乐",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/2003.png",
+      "source_sha256": "162d46c67104831c35d36cc0216392d6fc07c9858284a79b90f9961ccf028c12",
+      "source_size": [
+        1700,
+        1700
+      ]
+    },
+    {
+      "code": "2005",
+      "outfit_id": 212005,
+      "name": "情热",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/2005.png",
+      "source_sha256": "240fd0ed85ba040a04d838145e725fbad950bc34466c20834e4814fbbe517ff6",
+      "source_size": [
+        1700,
+        1700
+      ]
+    },
+    {
+      "code": "2006",
+      "outfit_id": 212006,
+      "name": "吉光",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/2006.png",
+      "source_sha256": "fda1da4b4bc5b3317aab86bcfe7ddbf4d2641ec5513eeb09546c587727cda2cc",
+      "source_size": [
+        1700,
+        1700
+      ]
+    },
+    {
+      "code": "2007",
+      "outfit_id": 212007,
+      "name": "乘风",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/2007.png",
+      "source_sha256": "f512fc0f5ea5b2b285ea9248be6c63fa684799df5c87194145f7236333bdc842",
+      "source_size": [
+        1700,
+        1700
+      ]
+    },
+    {
+      "code": "2008",
+      "outfit_id": 212008,
+      "name": "泡沫",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/2008.png",
+      "source_sha256": "3743b0871569f59a417da07613c0cb58d05117104f6afab95af8f78dd2ca422f",
+      "source_size": [
+        1700,
+        1700
+      ]
+    },
+    {
+      "code": "2009",
+      "outfit_id": 212009,
+      "name": "黯灭",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/2009.png",
+      "source_sha256": "d54e52cf9c65d00b873fda8f991492d0ca35b54f9aee7c996400bc5f663ad436",
+      "source_size": [
+        1700,
+        1700
+      ]
+    },
+    {
+      "code": "2010",
+      "outfit_id": 212010,
+      "name": "坚韧",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/2010.png",
+      "source_sha256": "a1d2ce5bc4cc4e480137f00b6326292cb7bf12d9bffbe9cf4247400c111b80de",
+      "source_size": [
+        1700,
+        1700
+      ]
+    },
+    {
+      "code": "3001",
+      "outfit_id": 213001,
+      "name": "柠柚好奇",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/3001.png",
+      "source_sha256": "6ad14072010d64aeceb3e3ac46e71f6f463bc4fe7f20312ad09fe1c98f0c3a56",
+      "source_size": [
+        1700,
+        1700
+      ]
+    },
+    {
+      "code": "3002",
+      "outfit_id": 213002,
+      "name": "季节波形",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/3002.png",
+      "source_sha256": "ac6f55eab63b25e6689e99a4f0753fce25feb3aad8357cbddcc6ac77f64c04b3",
+      "source_size": [
+        1700,
+        1700
+      ]
+    },
+    {
+      "code": "3003",
+      "outfit_id": 213003,
+      "name": "热夜的结束",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/3003.png",
+      "source_sha256": "a6d69e6a8da3a4e764f850b495d900281d65935ea6f438123898cc7e12fd2768",
+      "source_size": [
+        1700,
+        1700
+      ]
+    },
+    {
+      "code": "3004",
+      "outfit_id": 213004,
+      "name": "双月怪盗",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/3004.png",
+      "source_sha256": "9dbca1d636815f078ad80e7dbb40d7c23ca2683cdc40c66fd76b10d5bc5a2077",
+      "source_size": [
+        1700,
+        1700
+      ]
+    },
+    {
+      "code": "3005",
+      "outfit_id": 213005,
+      "name": "★~嘭嘭少女~★",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/3005.png",
+      "source_sha256": "936982bed994482bf6a24f01e36706604c9f17185cbc833f560159f7bb9e8d0f",
+      "source_size": [
+        1700,
+        1700
+      ]
+    },
+    {
+      "code": "3006",
+      "outfit_id": 213006,
+      "name": "晚安",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/3006.png",
+      "source_sha256": "305961a7dae0f88bb761ec76d7dd966f31f9a22dc570ff2da11571618c67fc02",
+      "source_size": [
+        1700,
+        1700
+      ]
+    },
+    {
+      "code": "3007",
+      "outfit_id": 213007,
+      "name": "翡翠隙境",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/3007.png",
+      "source_sha256": "8fb0d7310e3fda1b7beee781d82037e9c98c7eb0b5e8eb302bd6c17c19ac4d87",
+      "source_size": [
+        1700,
+        1700
+      ]
+    },
+    {
+      "code": "3008",
+      "outfit_id": 213008,
+      "name": "小憩片刻",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/3008.png",
+      "source_sha256": "0bd82d5054381c2608fe0ea324f7f0cbe7f59fb15138bacf4bc7d03908526262",
+      "source_size": [
+        1700,
+        1700
+      ]
+    },
+    {
+      "code": "3009",
+      "outfit_id": 213009,
+      "name": "“雨中”曲",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/3009.png",
+      "source_sha256": "ddd40834d6cca6c3a6c3eab0178a5632fde3a1574b7f32cefb9be20ee1b3dd5a",
+      "source_size": [
+        1700,
+        1700
+      ]
+    },
+    {
+      "code": "3010",
+      "outfit_id": 213010,
+      "name": "水蒸汽症候群",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/3010.png",
+      "source_sha256": "c3583a7ddb866425d9e113c34fd573c35ccc32e7cabdc2486c3a85b3b7a4f04a",
+      "source_size": [
+        1700,
+        1700
+      ]
+    },
+    {
+      "code": "3011",
+      "outfit_id": 213011,
+      "name": "喵律动",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/3011.png",
+      "source_sha256": "35d72846cbdcd182dd25870b3f12a11b8077bfe554412f7763fb2be3b5fb21b7",
+      "source_size": [
+        1700,
+        1700
+      ]
+    },
+    {
+      "code": "3012",
+      "outfit_id": 213012,
+      "name": "问候星空",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/3012.png",
+      "source_sha256": "6cbca47b737165f905b7e244e664abf72fac226a5d4d26abb835ee73409d3980",
+      "source_size": [
+        1700,
+        1700
+      ]
+    },
+    {
+      "code": "3013",
+      "outfit_id": 213013,
+      "name": "秋日絮语",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/3013.png",
+      "source_sha256": "e99f38dd4a961e640c07b4723ca985073a41098e5565e320b1922f783d74ed69",
+      "source_size": [
+        1700,
+        1700
+      ]
+    },
+    {
+      "code": "3014",
+      "outfit_id": 213014,
+      "name": "骑士的铁匠",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/3014.png",
+      "source_sha256": "37f400bdfcd5b8ffbf1e7cb6466411a916821cd33f9bc2df67cacb4b12a64a7b",
+      "source_size": [
+        1700,
+        1700
+      ]
+    },
+    {
+      "code": "3015",
+      "outfit_id": 213015,
+      "name": "未闻芳名",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/3015.png",
+      "source_sha256": "f8f452e7a8fd44f67f9dde1f92e8a85b4a72e514c4927c6f2f61c8d2e5e3ea90",
+      "source_size": [
+        1700,
+        1700
+      ]
+    },
+    {
+      "code": "3016",
+      "outfit_id": 213016,
+      "name": "樊笼蔷薇",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/3016.png",
+      "source_sha256": "62d9ddc78878b0dd294785c49410f77090325d7e63d9ecd6e6dc4c91a3e36f78",
+      "source_size": [
+        1700,
+        1700
+      ]
+    },
+    {
+      "code": "3017",
+      "outfit_id": 213017,
+      "name": "★~转转人生~★",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/3017.png",
+      "source_sha256": "47a284b0275656f3b7a3ad75757e9fc882d176fdda91bbc307006281d0821eec",
+      "source_size": [
+        1700,
+        1700
+      ]
+    },
+    {
+      "code": "3018",
+      "outfit_id": 213018,
+      "name": "饮料采购日",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/3018.png",
+      "source_sha256": "35b2a66207915243736a8b9d830e31c8b0ba48be334dc46347718b4092a025c9",
+      "source_size": [
+        1700,
+        1700
+      ]
+    },
+    {
+      "code": "3019",
+      "outfit_id": 213019,
+      "name": "妄语",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/3019.png",
+      "source_sha256": "97b3311fa168a765b1499f6ed0539e96ad30597d6e87454ea72c14eee5736660",
+      "source_size": [
+        1700,
+        1700
+      ]
+    },
+    {
+      "code": "3020",
+      "outfit_id": 213020,
+      "name": "闪灵",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/3020.png",
+      "source_sha256": "a074502b064d9df2cbbc4ea422ad3409d6173179a743be50e711cc5b3df00b13",
+      "source_size": [
+        1700,
+        1700
+      ]
+    },
+    {
+      "code": "3021",
+      "outfit_id": 213021,
+      "name": "灵验颂歌",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/3021.png",
+      "source_sha256": "5a75926c3298e302b48448e1941ed167301c00824b6ac7f9093a2b1db3d0da09",
+      "source_size": [
+        1700,
+        1700
+      ]
+    },
+    {
+      "code": "3022",
+      "outfit_id": 213022,
+      "name": "诅咒爱河",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/3022.png",
+      "source_sha256": "cc295e3705afb9b9f1dcf2aa09472d75dfbdebd6e8fb869d1c4386418100c096",
+      "source_size": [
+        1700,
+        1700
+      ]
+    },
+    {
+      "code": "3023",
+      "outfit_id": 213023,
+      "name": "纯白",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/3023.png",
+      "source_sha256": "93a171017b51651342dc259e5ee319808680a485737067845b8ff2effdbcd0a5",
+      "source_size": [
+        1700,
+        1700
+      ]
+    },
+    {
+      "code": "3024",
+      "outfit_id": 213024,
+      "name": "假日泡影",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/3024.png",
+      "source_sha256": "56461c63189ca05a84d46781895e153b3b9cf9d5c994bd14ef8c8bec340453d2",
+      "source_size": [
+        1700,
+        1700
+      ]
+    },
+    {
+      "code": "3025",
+      "outfit_id": 213025,
+      "name": "甜蜜邀约",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/3025.png",
+      "source_sha256": "7e2ab63380cef077ef5d5ecba341b3798e39ccbe6c64b186709b6cc5ce36d9e2",
+      "source_size": [
+        1700,
+        1700
+      ]
+    },
+    {
+      "code": "3026",
+      "outfit_id": 213026,
+      "name": "清扫时间DA♥YO",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/3026.png",
+      "source_sha256": "e50fd963532607afd4f6057c71d5e16668cca4a0b39d24fc0d1ef7c2edd402cc",
+      "source_size": [
+        1700,
+        1700
+      ]
+    },
+    {
+      "code": "4001",
+      "outfit_id": 214001,
+      "name": "猫神降歌",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4001.png",
+      "source_sha256": "ef9e2e1c30d5bcbb5009c966765a75cfc9fbf5268dbdf02cacf58056c941185e",
+      "source_size": [
+        2400,
+        1700
+      ]
+    },
+    {
+      "code": "4002",
+      "outfit_id": 214002,
+      "name": "空与花与诗",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4002.png",
+      "source_sha256": "774bce9cdd7a9377c1195174f3bcf3adf2b1a4114c06cc0e7ecd57395ce4eb1b",
+      "source_size": [
+        2400,
+        1700
+      ]
+    },
+    {
+      "code": "4003",
+      "outfit_id": 214003,
+      "name": "你与我相似",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4003.png",
+      "source_sha256": "0bd54513aae0f0cfc118c4047306d9b1d7adbfbb12655e4b6c0fdd794d203bc7",
+      "source_size": [
+        2400,
+        1700
+      ]
+    },
+    {
+      "code": "4004",
+      "outfit_id": 214004,
+      "name": "仙踪良梦",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4004.png",
+      "source_sha256": "c7f311d3572ac25815c96ec375708619005e6f7b30e6df44b164e7bd3dea4c3c",
+      "source_size": [
+        2400,
+        1700
+      ]
+    },
+    {
+      "code": "4005",
+      "outfit_id": 214005,
+      "name": "晴之花",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4005.png",
+      "source_sha256": "2ceeaec86503531a47c0afd1ae1b920919cdb6d219b35588b4a33b01a162bbdb",
+      "source_size": [
+        2400,
+        1700
+      ]
+    },
+    {
+      "code": "4006",
+      "outfit_id": 214006,
+      "name": "魔女的秋千",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4006.png",
+      "source_sha256": "635fbcfd2a4e2d011972e2a4339918144a969d9d6732c550768a7dca7f82e549",
+      "source_size": [
+        2400,
+        1700
+      ]
+    },
+    {
+      "code": "4007",
+      "outfit_id": 214007,
+      "name": "午夜，堕天使",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4007.png",
+      "source_sha256": "73ad06543c60731632419b025bc0c4faddf5bb03ba0e0735fdfa0fb931f309f2",
+      "source_size": [
+        2400,
+        1700
+      ]
+    },
+    {
+      "code": "4008",
+      "outfit_id": 214008,
+      "name": "飞越青空",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4008.png",
+      "source_sha256": "76d9892f8a488c9262edf4666aa7bab1964b4b3fa7321c7267f2956412758323",
+      "source_size": [
+        2400,
+        1700
+      ]
+    },
+    {
+      "code": "4009",
+      "outfit_id": 214009,
+      "name": "“空白”的序章",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4009.png",
+      "source_sha256": "09910551e4e8a024d44a94b9cf5636361d11059cf86f710cf3956c8f908f3ddf",
+      "source_size": [
+        2400,
+        1700
+      ]
+    },
+    {
+      "code": "4011",
+      "outfit_id": 214011,
+      "name": "夏日午后的雨",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4011.png",
+      "source_sha256": "98eb3890891e59787f80e2332a4e4092486fa899ae5c54ff0796e61e49e73a9e",
+      "source_size": [
+        2400,
+        1700
+      ]
+    },
+    {
+      "code": "4012",
+      "outfit_id": 214012,
+      "name": "狼贪虎视",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4012.png",
+      "source_sha256": "96e3c96f9d45543d846dabd30a83a1c2f8c67797f26dde006dd131f446d58c76",
+      "source_size": [
+        2400,
+        1700
+      ]
+    },
+    {
+      "code": "4013",
+      "outfit_id": 214013,
+      "name": "远航蓝图",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4013.png",
+      "source_sha256": "d853f9fc789033db1690c5f50a55ffb17a560650e4d208d47655d203167657b6",
+      "source_size": [
+        2400,
+        1700
+      ]
+    },
+    {
+      "code": "4015",
+      "outfit_id": 214015,
+      "name": "鹿鸣",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4015.png",
+      "source_sha256": "7f5d75240a7c0b3f787a9591f9a72030b3650d6cf0723ebd83bf48ef09e23e47",
+      "source_size": [
+        2400,
+        1700
+      ]
+    },
+    {
+      "code": "4017",
+      "outfit_id": 214017,
+      "name": "花火",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4017.png",
+      "source_sha256": "af4e670ae8e8a7e14f5f0a3dda76c76c0ab457188f55174abf7f5c17d72c0b54",
+      "source_size": [
+        2400,
+        1700
+      ]
+    },
+    {
+      "code": "4022",
+      "outfit_id": 214022,
+      "name": "午夜喵铃",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4022.png",
+      "source_sha256": "f150dad705d3b0ba62985c842dd03a4b18ce766d14fcf7ea0906ee07b5224d78",
+      "source_size": [
+        2400,
+        1700
+      ]
+    },
+    {
+      "code": "4024",
+      "outfit_id": 214024,
+      "name": "一二三，跳！",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4024.png",
+      "source_sha256": "d72629ebb5fd95f746d35eb59e9680144ee24ca999f2d3af56b9a36ae2bcdc78",
+      "source_size": [
+        2400,
+        1700
+      ]
+    },
+    {
+      "code": "4030",
+      "outfit_id": 214030,
+      "name": "午后间隙",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4030.png",
+      "source_sha256": "ea642fa2ced62fba832245569858fabd8c5458c7595ec07f7cbe4ebb0d45e130",
+      "source_size": [
+        2400,
+        1700
+      ]
+    },
+    {
+      "code": "4033",
+      "outfit_id": 214033,
+      "name": "与骨共舞",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4033.png",
+      "source_sha256": "b60f51aa31aa772546cb6f046f5103e4c2ef75edd08c723345dea88d887ad3dd",
+      "source_size": [
+        2400,
+        1700
+      ]
+    },
+    {
+      "code": "4038",
+      "outfit_id": 214038,
+      "name": "波光漫游",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4038.png",
+      "source_sha256": "dc70522ed6f22efa5067ad96bfa21c14fc94320c3fec5c0ef4b7379a411101c9",
+      "source_size": [
+        2400,
+        1700
+      ]
+    },
+    {
+      "code": "4039",
+      "outfit_id": 214039,
+      "name": "夏日栖息地",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4039.png",
+      "source_sha256": "a89e5f198bd616f2086de7aeb3210c36d53c60c43589a7950420ca4bede03178",
+      "source_size": [
+        2400,
+        1700
+      ]
+    },
+    {
+      "code": "4040",
+      "outfit_id": 214040,
+      "name": "勇气之拳",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4040.png",
+      "source_sha256": "16bbd05f04c57800c3aefabc32f0c22d51c58862cce5ec7bea83b28eb2194fdb",
+      "source_size": [
+        2400,
+        1700
+      ]
+    },
+    {
+      "code": "4042",
+      "outfit_id": 214042,
+      "name": "酒暖灯明时",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4042.png",
+      "source_sha256": "cf47b0d1384f413322c4fd7a1784f192ce66c0f0fdd0b07c1f2d1ce884f152d1",
+      "source_size": [
+        2400,
+        1700
+      ]
+    },
+    {
+      "code": "4044",
+      "outfit_id": 214044,
+      "name": "罗帷春染岁朝新",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4044.png",
+      "source_sha256": "f09a21178c6be32fe16deca78ab92ff93cfeacf47fd19b47483bdfde9ede6730",
+      "source_size": [
+        2400,
+        1700
+      ]
+    },
+    {
+      "code": "4046",
+      "outfit_id": 214046,
+      "name": "冬夜后的黎明",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4046.png",
+      "source_sha256": "a3315c9442ef5802006be1200c937b42a18ab1822d98790f305c2bf058f60ce5",
+      "source_size": [
+        2400,
+        1700
+      ]
+    },
+    {
+      "code": "4047",
+      "outfit_id": 214047,
+      "name": "信笺乘风而去",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4047.png",
+      "source_sha256": "724cb2729c4aebb0d2b9ee38517ef7a0f892266e46703a91aba3c2e4b528e696",
+      "source_size": [
+        2400,
+        1700
+      ]
+    },
+    {
+      "code": "4048",
+      "outfit_id": 214048,
+      "name": "雪夜惊喜",
+      "source_url": "https://github.com/rikumi/nova-rhythm/releases/download/artwork/4048.png",
+      "source_sha256": "c7f10690ada7ed5918694e28ac6bd078e21fd2d58dc88d9fbc9dce07c29944c2",
+      "source_size": [
+        2400,
+        1700
+      ]
+    }
+  ],
+  "depth_overrides": {
+    "schemaVersion": 1,
+    "measure": "focus_distance * (1 / depth_p01 - 1 / depth_p99)",
+    "minimum": 0.35,
+    "maximum": 1.25,
+    "outfits": {
+      "4027": {
+        "name": "龙飞凤舞",
+        "scale": 0.7675166610806919,
+        "original_relative_inverse_depth_span": 1.6286291404279793,
+        "target_relative_inverse_depth_span": 1.25,
+        "source_prediction_sha256": "6276e22f6bbb265e8072636b2b92e7bb2af0aae1643292bfdf632b086806ebe9"
+      },
+      "4043": {
+        "name": "革新的萌芽",
+        "scale": 0.1431232581910812,
+        "original_relative_inverse_depth_span": 8.733730742288916,
+        "target_relative_inverse_depth_span": 1.25,
+        "source_prediction_sha256": "fc2be8c92fcc1c133fb393a53e74d0ea1cfcf1d52fe595bc7f8d2821c19f0122"
+      },
+      "1001": {
+        "name": "朝霭",
+        "scale": 0.014396106071903975,
+        "original_relative_inverse_depth_span": 46.93800342070887,
+        "target_relative_inverse_depth_span": 0.6757244760479164,
+        "source_prediction_sha256": "2b12492ecd3db5532611f689437cdb336e10f9ca7c1bbdbde8b45978a92b3b97"
+      },
+      "1003": {
+        "name": "晚霞",
+        "scale": 0.025613401881585268,
+        "original_relative_inverse_depth_span": 26.38167624792269,
+        "target_relative_inverse_depth_span": 0.6757244760479164,
+        "source_prediction_sha256": "3333a80950014bb42b8f1367e370a7a157234393d69d27d2ee3ab6a11a21f6b9"
+      },
+      "1004": {
+        "name": "粉梦",
+        "exponent": 2.8807229297646937,
+        "original_relative_inverse_depth_span": 0.12189805221499642,
+        "target_relative_inverse_depth_span": 0.35,
+        "source_prediction_sha256": "76415158ab3cfa9d7160d6aefcc5036688668f8049d0b2c9086f6078603191c9"
+      },
+      "1005": {
+        "name": "孤烟",
+        "exponent": 1.1949079284259656,
+        "original_relative_inverse_depth_span": 0.2909025561699038,
+        "target_relative_inverse_depth_span": 0.35,
+        "source_prediction_sha256": "431008c67ea796a6624622ca6ae481d20fa6ebfa7e77c44ca191301e916d25ef"
+      },
+      "1006": {
+        "name": "甘露",
+        "scale": 0.8242408232058115,
+        "original_relative_inverse_depth_span": 1.5165470634398281,
+        "target_relative_inverse_depth_span": 1.25,
+        "source_prediction_sha256": "201beb806ee01ad0d1ea5f4aa88d1c51200767c98f10ce958af9b4bcc8f3a651"
+      },
+      "1007": {
+        "name": "希冀",
+        "scale": 0.03299759810699015,
+        "original_relative_inverse_depth_span": 20.477989757223337,
+        "target_relative_inverse_depth_span": 0.6757244760479164,
+        "source_prediction_sha256": "5d915bccaac4e2fac5ed5ad4c45897164b5781348c9c19f672f38e58d9cb5773"
+      },
+      "1008": {
+        "name": "归途",
+        "scale": 0.013021503285101474,
+        "original_relative_inverse_depth_span": 51.892969748050916,
+        "target_relative_inverse_depth_span": 0.6757244760479164,
+        "source_prediction_sha256": "88fce1d9231ff72b565c7e13e27a38e0da865b6dd77345b2efd0024242de9bbd"
+      },
+      "2001": {
+        "name": "盛宴",
+        "exponent": 2.5533577087881176,
+        "original_relative_inverse_depth_span": 0.14585300643456992,
+        "target_relative_inverse_depth_span": 0.35,
+        "source_prediction_sha256": "74eb68f5bc9470994e1a48ae7ceded9640205f8c1cae22565b3c2906acc03dd3"
+      },
+      "2002": {
+        "name": "喧哗",
+        "exponent": 3.171822731329406,
+        "original_relative_inverse_depth_span": 0.11726240829384951,
+        "target_relative_inverse_depth_span": 0.35,
+        "source_prediction_sha256": "b7e83c0f7a68a7e8ccb48bb1d2341c5f27200d1dd9a7c04a13773c3a3349199d"
+      },
+      "2003": {
+        "name": "极乐",
+        "exponent": 1.9523404785499072,
+        "original_relative_inverse_depth_span": 0.17662210241089507,
+        "target_relative_inverse_depth_span": 0.35,
+        "source_prediction_sha256": "cc8085b3876d7b1be3efbcf7eabef3d6d60863de13140655a1ff5b05ff0152ef"
+      },
+      "2005": {
+        "name": "情热",
+        "exponent": 1.6105130005029884,
+        "original_relative_inverse_depth_span": 0.21257537955919084,
+        "target_relative_inverse_depth_span": 0.35,
+        "source_prediction_sha256": "b02b767994e4555e3a556a21f831aa84ab76be52c0b7469592ec309b650a2e28"
+      },
+      "2006": {
+        "name": "吉光",
+        "exponent": 2.759701047144864,
+        "original_relative_inverse_depth_span": 0.126845680399527,
+        "target_relative_inverse_depth_span": 0.35,
+        "source_prediction_sha256": "67644f5d5387932fbc4ec5ce35c3e895046f6c871c9f133ef18b2e9a26c24b90"
+      },
+      "2007": {
+        "name": "乘风",
+        "exponent": 2.0846769379003605,
+        "original_relative_inverse_depth_span": 0.16814547067827168,
+        "target_relative_inverse_depth_span": 0.35,
+        "source_prediction_sha256": "f7ed85385b14fbbc14e369a6ba21ebd7337876924264ab16a44e20b031957438"
+      },
+      "3001": {
+        "name": "柠柚好奇",
+        "scale": 0.8343282554242912,
+        "original_relative_inverse_depth_span": 1.4982112758057344,
+        "target_relative_inverse_depth_span": 1.25,
+        "source_prediction_sha256": "eb9b27be5b0f7b5ee11e417c3d01defb930e42f21cbcf141076a0e4d14e35d53"
+      },
+      "3003": {
+        "name": "热夜的结束",
+        "scale": 0.7116250286891501,
+        "original_relative_inverse_depth_span": 1.7565430523186687,
+        "target_relative_inverse_depth_span": 1.25,
+        "source_prediction_sha256": "3af1bba8214d3cef14fa1e780f84f0e1b1daecc89a88df527f995ee476fe4ccf"
+      },
+      "3006": {
+        "name": "晚安",
+        "exponent": 1.7270750872502076,
+        "original_relative_inverse_depth_span": 0.1976801276632805,
+        "target_relative_inverse_depth_span": 0.35,
+        "source_prediction_sha256": "8234594824c50953d65a83b5a0b61f47131090ed57da5da532ac2a59d137d0c1"
+      },
+      "3007": {
+        "name": "翡翠隙境",
+        "exponent": 3.3447054527741478,
+        "original_relative_inverse_depth_span": 0.10331472234538365,
+        "target_relative_inverse_depth_span": 0.35,
+        "source_prediction_sha256": "95dbc82455687e760d1bce1bc884c08dbf9fe0dbe8aa7646caa9f2d1d987a868"
+      },
+      "3008": {
+        "name": "小憩片刻",
+        "scale": 0.6427985195538278,
+        "original_relative_inverse_depth_span": 1.9446217780147288,
+        "target_relative_inverse_depth_span": 1.25,
+        "source_prediction_sha256": "70fa8747677f5a1e7ff38df6ffd7081306589c367e9f869f880f5c627a8c3e08"
+      },
+      "3009": {
+        "name": "“雨中”曲",
+        "exponent": 1.976580599794834,
+        "original_relative_inverse_depth_span": 0.17445826645557103,
+        "target_relative_inverse_depth_span": 0.35,
+        "source_prediction_sha256": "deeb1d1cb72baa478756dd265c4a8f0b9980a3ce718c1f9b3a54d8dcd3d1caff"
+      },
+      "3013": {
+        "name": "秋日絮语",
+        "exponent": 2.120430114274653,
+        "original_relative_inverse_depth_span": 0.16618031626901814,
+        "target_relative_inverse_depth_span": 0.35,
+        "source_prediction_sha256": "a38ad0dc75fdd00749ec6ec30194db5aec800ecbd6d9ace8791d5996b90ae4e4"
+      },
+      "3017": {
+        "name": "★~转转人生~★",
+        "exponent": 1.021439999623666,
+        "original_relative_inverse_depth_span": 0.3428111892565083,
+        "target_relative_inverse_depth_span": 0.35,
+        "source_prediction_sha256": "42f77fec4f3a9a5cf65cbc6baec4d4210a417ab42c6ce197917895c70addbf6e"
+      },
+      "3018": {
+        "name": "饮料采购日",
+        "exponent": 2.2343296191994777,
+        "original_relative_inverse_depth_span": 0.16058692470128144,
+        "target_relative_inverse_depth_span": 0.35,
+        "source_prediction_sha256": "a4ff42cabd13e5b5d2e5e2af7c039c606a7b5897e7527afb6ba499a26cd5fce8"
+      },
+      "3019": {
+        "name": "妄语",
+        "exponent": 1.5440721547481755,
+        "original_relative_inverse_depth_span": 0.22736955793569197,
+        "target_relative_inverse_depth_span": 0.35,
+        "source_prediction_sha256": "9762e69d413409fd31e2056d134518f8d87abd58bcf8b608b2d8dd6f48b69854"
+      },
+      "3020": {
+        "name": "闪灵",
+        "exponent": 2.7298507081957877,
+        "original_relative_inverse_depth_span": 0.1299227103323075,
+        "target_relative_inverse_depth_span": 0.35,
+        "source_prediction_sha256": "9082e0ccbcc781ec263f61552e32b5b7b54bfbf5a9b07143bef6bdbb653d703e"
+      },
+      "3022": {
+        "name": "诅咒爱河",
+        "exponent": 1.1091777877847186,
+        "original_relative_inverse_depth_span": 0.3165356844467103,
+        "target_relative_inverse_depth_span": 0.35,
+        "source_prediction_sha256": "d985dc1867f4df869004b35cb4a11845bf18614cf8387ed7a38edc4bd53d3778"
+      },
+      "4002": {
+        "name": "空与花与诗",
+        "scale": 0.9478237656906758,
+        "original_relative_inverse_depth_span": 1.3188105692719463,
+        "target_relative_inverse_depth_span": 1.25,
+        "source_prediction_sha256": "05610871d76b312f6bd106336eb542a09d6809aa927dbb6ea529e549813dc25b"
+      },
+      "4003": {
+        "name": "你与我相似",
+        "scale": 0.790819324594852,
+        "original_relative_inverse_depth_span": 1.5806391689282413,
+        "target_relative_inverse_depth_span": 1.25,
+        "source_prediction_sha256": "e978dcf8d1e81e2ca6ccb6dc981c46966526a883691457985fdd20418649fe6b"
+      },
+      "4006": {
+        "name": "魔女的秋千",
+        "scale": 0.3405379765271927,
+        "original_relative_inverse_depth_span": 3.6706625579546333,
+        "target_relative_inverse_depth_span": 1.25,
+        "source_prediction_sha256": "985d7c060ac7e728b759f6d69f394a63ea84795727bfc9284aa6d260286e26ec"
+      },
+      "4008": {
+        "name": "飞越青空",
+        "scale": 0.48873859007703363,
+        "original_relative_inverse_depth_span": 2.5576044645931857,
+        "target_relative_inverse_depth_span": 1.25,
+        "source_prediction_sha256": "3fdc5e11b1b259b09d38c7dfba400acc21b781843a8dc91b4e89091437bf262a"
+      },
+      "4012": {
+        "name": "狼贪虎视",
+        "scale": 0.6641106276981706,
+        "original_relative_inverse_depth_span": 1.8822165281898007,
+        "target_relative_inverse_depth_span": 1.25,
+        "source_prediction_sha256": "26e359571ef0f7ba04201bb228557f1faac7c793292c81f53cd04d97d9d72595"
+      },
+      "4013": {
+        "name": "远航蓝图",
+        "scale": 0.2812107612314017,
+        "original_relative_inverse_depth_span": 4.445064600395589,
+        "target_relative_inverse_depth_span": 1.25,
+        "source_prediction_sha256": "65e1bec592fa2c50e7f3925c51dae18e42b9f6583f6ca58034d7c4e29a18aae7"
+      },
+      "4017": {
+        "name": "花火",
+        "scale": 0.15609067228050688,
+        "original_relative_inverse_depth_span": 8.008165905991195,
+        "target_relative_inverse_depth_span": 1.25,
+        "source_prediction_sha256": "a220a8aa56663636452aabef126ce34788cf3dc20f2ca9167874b40938db49fb"
+      },
+      "4024": {
+        "name": "一二三，跳！",
+        "scale": 0.39306853247408885,
+        "original_relative_inverse_depth_span": 3.1801070213688507,
+        "target_relative_inverse_depth_span": 1.25,
+        "source_prediction_sha256": "ee6c908783c222003be417f8670ad6ea0921cb75d73780fada78c55b5f841685"
+      },
+      "4030": {
+        "name": "午后间隙",
+        "scale": 0.18771851659062214,
+        "original_relative_inverse_depth_span": 6.6589062320687775,
+        "target_relative_inverse_depth_span": 1.25,
+        "source_prediction_sha256": "8f5c2ef49a132b5bf06d998aeda92fc6226a6968ea2e453339b571d5d168545e"
+      },
+      "4038": {
+        "name": "波光漫游",
+        "exponent": 1.2412397209144994,
+        "original_relative_inverse_depth_span": 0.28192950022870844,
+        "target_relative_inverse_depth_span": 0.35,
+        "source_prediction_sha256": "50de398b83f7602e1a50bd4dccdaeb42390c33b7de18b0ebafd6624b24af646c"
+      },
+      "4039": {
+        "name": "夏日栖息地",
+        "scale": 0.7318422280521583,
+        "original_relative_inverse_depth_span": 1.7080184117373898,
+        "target_relative_inverse_depth_span": 1.25,
+        "source_prediction_sha256": "588e64753e8a05956d7e787d06609dadb29f2a5049651524ce6f7a93eaa70700"
+      },
+      "4042": {
+        "name": "酒暖灯明时",
+        "scale": 0.6093952587957518,
+        "original_relative_inverse_depth_span": 2.0512138582603523,
+        "target_relative_inverse_depth_span": 1.25,
+        "source_prediction_sha256": "dce2a9ec1cc44aabe6b96081ee5e05d79d1b82d126c400814216de5fc3668302"
+      },
+      "4044": {
+        "name": "罗帷春染岁朝新",
+        "scale": 0.3573528070019962,
+        "original_relative_inverse_depth_span": 3.497943700196029,
+        "target_relative_inverse_depth_span": 1.25,
+        "source_prediction_sha256": "d3a63293c2cd67113fb258dff20f59c5b5b7e509ef04ce7354e997483a6130e9"
+      },
+      "4046": {
+        "name": "冬夜后的黎明",
+        "scale": 0.5497074795344429,
+        "original_relative_inverse_depth_span": 2.273936678210468,
+        "target_relative_inverse_depth_span": 1.25,
+        "source_prediction_sha256": "b7695193fe5bd0884c885b238ccc7ddf61d08e9baa56bd9c2fefcbba63e65398"
+      },
+      "4047": {
+        "name": "信笺乘风而去",
+        "scale": 0.8835289389673636,
+        "original_relative_inverse_depth_span": 1.414781050025316,
+        "target_relative_inverse_depth_span": 1.25,
+        "source_prediction_sha256": "4b1c859954d32bd9b8e2140c464910985940d0e1996f95588124d17bf1cce570"
+      }
+    }
+  },
+  "semantic_overrides": {
+    "schemaVersion": 1,
+    "outfits": {
+      "4038": {
+        "name": "波光漫游",
+        "instruction": "从水下向上看：人物与游泳圈回收到四周水面附近，游泳圈与水面接近平齐；海豚及周边水下物体保留适度前景感。",
+        "foreground_depth": 0.9,
+        "background_depth": 0.85,
+        "foreground_detail_scale": 0.35,
+        "background_detail_scale": 0.75,
+        "feather": 0.015,
+        "polygons": [
+          [
+            [
+              0.217,
+              0.305
+            ],
+            [
+              0.27,
+              0.318
+            ],
+            [
+              0.341,
+              0.372
+            ],
+            [
+              0.412,
+              0.384
+            ],
+            [
+              0.466,
+              0.4
+            ],
+            [
+              0.475,
+              0.361
+            ],
+            [
+              0.45,
+              0.344
+            ],
+            [
+              0.455,
+              0.328
+            ],
+            [
+              0.515,
+              0.345
+            ],
+            [
+              0.53,
+              0.294
+            ],
+            [
+              0.466,
+              0.259
+            ],
+            [
+              0.452,
+              0.244
+            ],
+            [
+              0.471,
+              0.242
+            ],
+            [
+              0.515,
+              0.268
+            ],
+            [
+              0.56,
+              0.276
+            ],
+            [
+              0.614,
+              0.263
+            ],
+            [
+              0.671,
+              0.266
+            ],
+            [
+              0.704,
+              0.251
+            ],
+            [
+              0.731,
+              0.211
+            ],
+            [
+              0.752,
+              0.204
+            ],
+            [
+              0.788,
+              0.239
+            ],
+            [
+              0.805,
+              0.294
+            ],
+            [
+              0.809,
+              0.369
+            ],
+            [
+              0.789,
+              0.434
+            ],
+            [
+              0.831,
+              0.46
+            ],
+            [
+              0.828,
+              0.507
+            ],
+            [
+              0.815,
+              0.565
+            ],
+            [
+              0.799,
+              0.616
+            ],
+            [
+              0.761,
+              0.68
+            ],
+            [
+              0.714,
+              0.755
+            ],
+            [
+              0.689,
+              0.751
+            ],
+            [
+              0.678,
+              0.699
+            ],
+            [
+              0.653,
+              0.659
+            ],
+            [
+              0.584,
+              0.663
+            ],
+            [
+              0.531,
+              0.657
+            ],
+            [
+              0.503,
+              0.632
+            ],
+            [
+              0.477,
+              0.598
+            ],
+            [
+              0.437,
+              0.557
+            ],
+            [
+              0.355,
+              0.526
+            ],
+            [
+              0.278,
+              0.511
+            ],
+            [
+              0.228,
+              0.49
+            ],
+            [
+              0.212,
+              0.46
+            ],
+            [
+              0.229,
+              0.442
+            ],
+            [
+              0.26,
+              0.45
+            ],
+            [
+              0.342,
+              0.459
+            ],
+            [
+              0.399,
+              0.461
+            ],
+            [
+              0.447,
+              0.456
+            ],
+            [
+              0.468,
+              0.421
+            ],
+            [
+              0.394,
+              0.41
+            ],
+            [
+              0.326,
+              0.387
+            ],
+            [
+              0.258,
+              0.366
+            ],
+            [
+              0.226,
+              0.344
+            ]
+          ],
+          [
+            [
+              0.36,
+              0.43
+            ],
+            [
+              0.46,
+              0.405
+            ],
+            [
+              0.56,
+              0.418
+            ],
+            [
+              0.64,
+              0.455
+            ],
+            [
+              0.7,
+              0.5
+            ],
+            [
+              0.747,
+              0.56
+            ],
+            [
+              0.767,
+              0.64
+            ],
+            [
+              0.75,
+              0.72
+            ],
+            [
+              0.71,
+              0.79
+            ],
+            [
+              0.65,
+              0.85
+            ],
+            [
+              0.59,
+              0.894
+            ],
+            [
+              0.53,
+              0.91
+            ],
+            [
+              0.475,
+              0.898
+            ],
+            [
+              0.426,
+              0.86
+            ],
+            [
+              0.39,
+              0.815
+            ],
+            [
+              0.36,
+              0.76
+            ],
+            [
+              0.33,
+              0.69
+            ],
+            [
+              0.31,
+              0.62
+            ],
+            [
+              0.306,
+              0.55
+            ],
+            [
+              0.32,
+              0.485
+            ]
+          ]
+        ]
+      }
+    }
+  }
+}

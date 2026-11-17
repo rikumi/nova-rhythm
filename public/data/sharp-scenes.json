@@ -1,0 +1,1446 @@
+{
+  "schemaVersion": 1,
+  "asset_commit": "ba403ecf264fc2fd948066b0cc2329da64a92bb5",
+  "outfits": {
+    "4016": {
+      "input_size": [
+        2400,
+        1700
+      ],
+      "camera_fov_y_degrees": 45.25413744741106,
+      "focus_distance": 1.9401395320892334,
+      "depth_percentiles": [
+        1.2039490938186646,
+        1.9401395320892334,
+        3.637439012527466
+      ],
+      "gaussian_count": 1179648,
+      "scene_format": "ply+gzip",
+      "scene_sha256": "9123a2c79fe0eb1c65920c71cd8f07d7127247e0ae42e39d132b1c534a00c17e",
+      "compressed_sha256": "8327ac309188ff9c5f253855f77175cd71b898a1066f17e81d3e962d02d2bb0c",
+      "compressed_bytes": 59413109,
+      "name": "春日纪事",
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4016-9123a2c79fe0.ply.gz"
+    },
+    "4027": {
+      "input_size": [
+        2400,
+        1700
+      ],
+      "camera_fov_y_degrees": 45.25413744741106,
+      "focus_distance": 3.8630971908569336,
+      "depth_percentiles": [
+        2.580991123363618,
+        3.8630971908569336,
+        15.655946962239213
+      ],
+      "gaussian_count": 1179648,
+      "scene_format": "ply+gzip",
+      "scene_sha256": "2411f7e6b43b2cf112026c5876dd442d2254feda673cc28bb1e733d2cbce4926",
+      "compressed_sha256": "e22c03392f2b1bcde616876ed0f86d4b4f316871d79301a7f3ccd7b8cf273319",
+      "compressed_bytes": 60034438,
+      "name": "龙飞凤舞",
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4027-2411f7e6b43b.ply.gz"
+    },
+    "4043": {
+      "input_size": [
+        2400,
+        1700
+      ],
+      "camera_fov_y_degrees": 45.25413744741106,
+      "focus_distance": 13.042692184448242,
+      "depth_percentiles": [
+        5.999901055768747,
+        13.042692184448242,
+        14.118250455582569
+      ],
+      "gaussian_count": 1179648,
+      "scene_format": "ply+gzip",
+      "scene_sha256": "227a8a66f04c9f947518a12b4a2a80253bd0c7f464f14e92a24b3d8d8f976d17",
+      "compressed_sha256": "6313a84bc069a7746f6def2c61d117e7d67d0c4b53dbde2489fce9476c198b81",
+      "compressed_bytes": 60270690,
+      "name": "革新的萌芽",
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4043-227a8a66f04c.ply.gz"
+    },
+    "1001": {
+      "input_size": [
+        1700,
+        1700
+      ],
+      "camera_fov_y_degrees": 54.03424643570049,
+      "focus_distance": 125.32927703857422,
+      "depth_percentiles": [
+        75.08509778955894,
+        125.32927703857422,
+        126.15703668365818
+      ],
+      "gaussian_count": 1179648,
+      "scene_format": "ply+gzip",
+      "scene_sha256": "6a0c1b9dcd2053aa13d4393da9e8a4d00fca2b25d38c91f8bb4d7250b6abfdfd",
+      "compressed_sha256": "6d9a9cdf678ab8abf2ceef2b89dbe4733e902f3a5bc3ec8fa90dd8dcf6a14742",
+      "compressed_bytes": 59398694,
+      "name": "朝霭",
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/1001-6a0c1b9dcd20.ply.gz"
+    },
+    "1002": {
+      "input_size": [
+        1700,
+        1700
+      ],
+      "camera_fov_y_degrees": 54.03424643570049,
+      "focus_distance": 2.820631265640259,
+      "depth_percentiles": [
+        2.1539273262023926,
+        2.820631265640259,
+        3.160191679000904
+      ],
+      "gaussian_count": 1179648,
+      "scene_format": "ply+gzip",
+      "scene_sha256": "cf13dba7c109f7a2a599998ca675bc9058d1f19266b0df735c7e6cb924cb83a8",
+      "compressed_sha256": "2aa0ebcd7be697383a9b763ea3aa499c1642965fae915b3c9c0531c01c50dad2",
+      "compressed_bytes": 58587725,
+      "name": "和煦",
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/1002-cf13dba7c109.ply.gz"
+    },
+    "1003": {
+      "input_size": [
+        1700,
+        1700
+      ],
+      "camera_fov_y_degrees": 54.03424643570049,
+      "focus_distance": 128.10963439941406,
+      "depth_percentiles": [
+        77.03981600050687,
+        128.10963439941406,
+        129.7737046613533
+      ],
+      "gaussian_count": 1179648,
+      "scene_format": "ply+gzip",
+      "scene_sha256": "00f91426b2dd50b943e89e50caad7d8515468ec965ac328ddf4d40cb9a577e1d",
+      "compressed_sha256": "65592d5f066fc566e84b4f55c3d2e084bb3362fc971eb7add83629d8d0487c6f",
+      "compressed_bytes": 59140676,
+      "name": "晚霞",
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/1003-00f91426b2dd.ply.gz"
+    },
+    "1004": {
+      "input_size": [
+        1700,
+        1700
+      ],
+      "camera_fov_y_degrees": 54.03424643570049,
+      "focus_distance": 1.0948288440704346,
+      "depth_percentiles": [
+        0.929047102018787,
+        1.0948288440704346,
+        1.3215503574222573
+      ],
+      "gaussian_count": 1179648,
+      "scene_format": "ply+gzip",
+      "scene_sha256": "01ca21e0a45b99d1e19b20207ecb01f6baec4a24f28c01e2719b09ad370ba511",
+      "compressed_sha256": "427781948611702fa96bdfb0b3f54402aceebe5e24e2bea0b7a2e97152c7da90",
+      "compressed_bytes": 58084048,
+      "name": "粉梦",
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/1004-01ca21e0a45b.ply.gz"
+    },
+    "1005": {
+      "input_size": [
+        1700,
+        1700
+      ],
+      "camera_fov_y_degrees": 54.03424643570049,
+      "focus_distance": 2.7365481853485107,
+      "depth_percentiles": [
+        2.23619767392659,
+        2.7365481853485107,
+        3.1319558111383246
+      ],
+      "gaussian_count": 1179648,
+      "scene_format": "ply+gzip",
+      "scene_sha256": "a6a859e39ac7abae21e3c4fade62bd686312953fda67507e57a410a8af7cefbe",
+      "compressed_sha256": "241bb0ff480bca072481ef957a512512116df288b1a58f2fe1c51f0edc6157de",
+      "compressed_bytes": 58595515,
+      "name": "孤烟",
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/1005-a6a859e39ac7.ply.gz"
+    },
+    "1006": {
+      "input_size": [
+        1700,
+        1700
+      ],
+      "camera_fov_y_degrees": 54.03424643570049,
+      "focus_distance": 6.500906467437744,
+      "depth_percentiles": [
+        3.6560113613822605,
+        6.500906467437744,
+        12.309018129241617
+      ],
+      "gaussian_count": 1179648,
+      "scene_format": "ply+gzip",
+      "scene_sha256": "ef82093176231af8be8cc6894e5623e93175ab6b93e4322f370d8202c35708ae",
+      "compressed_sha256": "a4631fcde9c7b4194de5fd180efb0b98ff6a752d57acfcfefd5dbe655a1de4d9",
+      "compressed_bytes": 59743488,
+      "name": "甘露",
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/1006-ef8209317623.ply.gz"
+    },
+    "1007": {
+      "input_size": [
+        1700,
+        1700
+      ],
+      "camera_fov_y_degrees": 54.03424643570049,
+      "focus_distance": 128.85667419433594,
+      "depth_percentiles": [
+        77.95761719083433,
+        128.85667419433594,
+        131.86554172844376
+      ],
+      "gaussian_count": 1179648,
+      "scene_format": "ply+gzip",
+      "scene_sha256": "202a18fee935be45069e11cee263494e32defef196741e205e4d340c982f510e",
+      "compressed_sha256": "14c3a052ed331d09de14295e76b49104854b24ccdf0c755cd56fcca404d00961",
+      "compressed_bytes": 59203714,
+      "name": "希冀",
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/1007-202a18fee935.ply.gz"
+    },
+    "1008": {
+      "input_size": [
+        1700,
+        1700
+      ],
+      "camera_fov_y_degrees": 54.03424643570049,
+      "focus_distance": 251.54525756835938,
+      "depth_percentiles": [
+        150.5043619110338,
+        251.5452575683594,
+        252.65082121863387
+      ],
+      "gaussian_count": 1179648,
+      "scene_format": "ply+gzip",
+      "scene_sha256": "ad94fda094009358f33c3c482f515272aa703c19f72540f69b58a31b7ff61e3d",
+      "compressed_sha256": "3ba4a87a153838ac60f13a067ed60c63aa41bbb0c5d20702a44ed21b2da3021e",
+      "compressed_bytes": 58322857,
+      "name": "归途",
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/1008-ad94fda09400.ply.gz"
+    },
+    "2001": {
+      "input_size": [
+        1700,
+        1700
+      ],
+      "camera_fov_y_degrees": 54.03424643570049,
+      "focus_distance": 1.0376924276351929,
+      "depth_percentiles": [
+        0.9545664174827566,
+        1.0376924276351929,
+        1.407837598887057
+      ],
+      "gaussian_count": 1179648,
+      "scene_format": "ply+gzip",
+      "scene_sha256": "1e73fef28bba762fb6d2b679927608694825e54f99470be87e238f3892d06cc2",
+      "compressed_sha256": "e213dd764070a214064598aeb309af2bc59bbb0ca625ab93d4dad927847c9f35",
+      "compressed_bytes": 57845034,
+      "name": "盛宴",
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/2001-1e73fef28bba.ply.gz"
+    },
+    "2002": {
+      "input_size": [
+        1700,
+        1700
+      ],
+      "camera_fov_y_degrees": 54.03424643570049,
+      "focus_distance": 0.9413069486618042,
+      "depth_percentiles": [
+        0.8561698080271495,
+        0.9413069486618042,
+        1.2560145089315822
+      ],
+      "gaussian_count": 1179648,
+      "scene_format": "ply+gzip",
+      "scene_sha256": "4211c915760770e17642d8440fc0b81c130000bdc8ea4dd647143f4fab8f3ea7",
+      "compressed_sha256": "95261b464d68ac10faf183ef45363f51bfc59a4352fe59278b41e84d222233cb",
+      "compressed_bytes": 58595771,
+      "name": "喧哗",
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/2002-4211c9157607.ply.gz"
+    },
+    "2003": {
+      "input_size": [
+        1700,
+        1700
+      ],
+      "camera_fov_y_degrees": 54.03424643570049,
+      "focus_distance": 1.1087950468063354,
+      "depth_percentiles": [
+        0.9138177685027528,
+        1.1087950468063354,
+        1.2842705850517706
+      ],
+      "gaussian_count": 1179648,
+      "scene_format": "ply+gzip",
+      "scene_sha256": "c5355a5ed0413d28270d5e1cb36b59f8fedf008c85e11e6ba6c55fac21a854a5",
+      "compressed_sha256": "5565f55c8af501e4a717cbf9ded476018df575596763426f0b12b650874459ce",
+      "compressed_bytes": 58784639,
+      "name": "极乐",
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/2003-c5355a5ed041.ply.gz"
+    },
+    "2005": {
+      "input_size": [
+        1700,
+        1700
+      ],
+      "camera_fov_y_degrees": 54.03424643570049,
+      "focus_distance": 0.9626746773719788,
+      "depth_percentiles": [
+        0.7753315662941893,
+        0.9626746773719788,
+        1.079679948933619
+      ],
+      "gaussian_count": 1179648,
+      "scene_format": "ply+gzip",
+      "scene_sha256": "1585b85edb38bd26d5cb37e2f0da3e1204aee05bb1a2efc5ded2227a0e96be03",
+      "compressed_sha256": "0659e26155b413c81a16442b60764e74519dc643f36aca5fd1f72d71200e7940",
+      "compressed_bytes": 58598231,
+      "name": "情热",
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/2005-1585b85edb38.ply.gz"
+    },
+    "2006": {
+      "input_size": [
+        1700,
+        1700
+      ],
+      "camera_fov_y_degrees": 54.03424643570049,
+      "focus_distance": 0.7989848852157593,
+      "depth_percentiles": [
+        0.6753287779827916,
+        0.7989848852157593,
+        0.9590445870673492
+      ],
+      "gaussian_count": 1179648,
+      "scene_format": "ply+gzip",
+      "scene_sha256": "c6fa6209068072cca5df15be9ed8bc8efcc7ef27e54294e9693049af31603d6b",
+      "compressed_sha256": "ce228712ce1e3b70ccabdc37b5d88cdf35e883c200ec09c3beadd6894f0a9a2c",
+      "compressed_bytes": 57695042,
+      "name": "吉光",
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/2006-c6fa62090680.ply.gz"
+    },
+    "2007": {
+      "input_size": [
+        1700,
+        1700
+      ],
+      "camera_fov_y_degrees": 54.03424643570049,
+      "focus_distance": 1.0502865314483643,
+      "depth_percentiles": [
+        0.8901612045016958,
+        1.0502865314483643,
+        1.2655830748079337
+      ],
+      "gaussian_count": 1179648,
+      "scene_format": "ply+gzip",
+      "scene_sha256": "65ae3ad794be29bd8edc8b08a4420a03bcc77656aee7e3644afa02ca535a44fb",
+      "compressed_sha256": "7721fa3ad65a869683b23f8d8feaabc6cda04b0e5a89cdc00c049981ca7cc3f3",
+      "compressed_bytes": 58701887,
+      "name": "乘风",
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/2007-65ae3ad794be.ply.gz"
+    },
+    "2008": {
+      "input_size": [
+        1700,
+        1700
+      ],
+      "camera_fov_y_degrees": 54.03424643570049,
+      "focus_distance": 2.0832672119140625,
+      "depth_percentiles": [
+        1.3185268211364747,
+        2.0832672119140625,
+        3.106569528579712
+      ],
+      "gaussian_count": 1179648,
+      "scene_format": "ply+gzip",
+      "scene_sha256": "ecf29e15a30930a0f45ad3cfdf4dfb64e2dc1f3368771d720a1d5f1e08b3a505",
+      "compressed_sha256": "2ccac6ee654099ba7e44e914d8d0859dac57ef3cc6fd158fe6d9182ac1e08278",
+      "compressed_bytes": 59239839,
+      "name": "泡沫",
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/2008-ecf29e15a309.ply.gz"
+    },
+    "2009": {
+      "input_size": [
+        1700,
+        1700
+      ],
+      "camera_fov_y_degrees": 54.03424643570049,
+      "focus_distance": 1.0141171216964722,
+      "depth_percentiles": [
+        0.8300034403800964,
+        1.0141171216964722,
+        1.27103590965271
+      ],
+      "gaussian_count": 1179648,
+      "scene_format": "ply+gzip",
+      "scene_sha256": "1d85f3c56073bca63ded7d431f31802371003da18bcccc0fcf9831f0aeaf5b1a",
+      "compressed_sha256": "df7e087f850532a3d75a062478b1121c6fa3a83db8b028da4d6c8a5b08a99b23",
+      "compressed_bytes": 59739427,
+      "name": "黯灭",
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/2009-1d85f3c56073.ply.gz"
+    },
+    "2010": {
+      "input_size": [
+        1700,
+        1700
+      ],
+      "camera_fov_y_degrees": 54.03424643570049,
+      "focus_distance": 0.9768927693367004,
+      "depth_percentiles": [
+        0.6980440020561218,
+        0.9768927693367004,
+        1.3306668996810913
+      ],
+      "gaussian_count": 1179648,
+      "scene_format": "ply+gzip",
+      "scene_sha256": "0ad42b3cac289e854d191f74394589efece2c3a21f47e7ddf70c03a4994fb81d",
+      "compressed_sha256": "258e2ba48e6a664165b73e8f21f10db2467c5b5d6caa89f7b78595681eb33edf",
+      "compressed_bytes": 59281394,
+      "name": "坚韧",
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/2010-0ad42b3cac28.ply.gz"
+    },
+    "3001": {
+      "input_size": [
+        1700,
+        1700
+      ],
+      "camera_fov_y_degrees": 54.03424643570049,
+      "focus_distance": 1.1465262174606323,
+      "depth_percentiles": [
+        0.6865891464383824,
+        1.1465262174606323,
+        2.7305596645379064
+      ],
+      "gaussian_count": 1179648,
+      "scene_format": "ply+gzip",
+      "scene_sha256": "c1dddef2e4add6c12ec1e4dccbcd22601ac1f02998d41584da3bc199e134aa95",
+      "compressed_sha256": "76b5a0f5e562c566f332d224a5c614cef4d93b1b7d17c10af97b0394eab90c28",
+      "compressed_bytes": 60122335,
+      "name": "柠柚好奇",
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3001-c1dddef2e4ad.ply.gz"
+    },
+    "3002": {
+      "input_size": [
+        1700,
+        1700
+      ],
+      "camera_fov_y_degrees": 54.03424643570049,
+      "focus_distance": 1.4184883832931519,
+      "depth_percentiles": [
+        1.012018084526062,
+        1.4184883832931519,
+        1.6609020233154297
+      ],
+      "gaussian_count": 1179648,
+      "scene_format": "ply+gzip",
+      "scene_sha256": "9b20f485b36592e78e692459799f7604ecd1b7c63b9f125ad21256dcf2f2faeb",
+      "compressed_sha256": "c2214a9bdbc1c183a9531d75509150139dbfc373008bfbfc98448d9d75dfbab7",
+      "compressed_bytes": 58525959,
+      "name": "季节波形",
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3002-9b20f485b365.ply.gz"
+    },
+    "3003": {
+      "input_size": [
+        1700,
+        1700
+      ],
+      "camera_fov_y_degrees": 54.03424643570049,
+      "focus_distance": 1.7904614210128784,
+      "depth_percentiles": [
+        1.0638564274316635,
+        1.7904614210128784,
+        4.13509513747781
+      ],
+      "gaussian_count": 1179648,
+      "scene_format": "ply+gzip",
+      "scene_sha256": "11824c73457e39f5183831fd59fe7d7d578d223ed2fa3d9ee858b940a4c9c354",
+      "compressed_sha256": "576d371cc1599eddd6c326e217a46e0ddd35a8909e270800b0965bcee5c762e5",
+      "compressed_bytes": 59517203,
+      "name": "热夜的结束",
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3003-11824c73457e.ply.gz"
+    },
+    "3004": {
+      "input_size": [
+        1700,
+        1700
+      ],
+      "camera_fov_y_degrees": 54.03424643570049,
+      "focus_distance": 1.986614465713501,
+      "depth_percentiles": [
+        1.4294312000274658,
+        1.986614465713501,
+        2.7367103099823
+      ],
+      "gaussian_count": 1179648,
+      "scene_format": "ply+gzip",
+      "scene_sha256": "f64fa91ad62aefc1fa39e47a0f75391bac4390e78fa6bcdf84ee1967e0125f0d",
+      "compressed_sha256": "6f098d976720837dddf6c8ec4b29701a55a696b0f88081c4b62e914cc9436803",
+      "compressed_bytes": 59172842,
+      "name": "双月怪盗",
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3004-f64fa91ad62a.ply.gz"
+    },
+    "3005": {
+      "input_size": [
+        1700,
+        1700
+      ],
+      "camera_fov_y_degrees": 54.03424643570049,
+      "focus_distance": 1.1282905340194702,
+      "depth_percentiles": [
+        1.0043966579437256,
+        1.1282905340194702,
+        1.5711404085159302
+      ],
+      "gaussian_count": 1179648,
+      "scene_format": "ply+gzip",
+      "scene_sha256": "3b80b90899dd8f77cde351e04e87d0a0af520a915f8ed1c414b32500ee84360d",
+      "compressed_sha256": "9ef99df80d4e816032463de79ee8c2f345ba638b12d5b657ae5201133ff9bd74",
+      "compressed_bytes": 58391786,
+      "name": "★~嘭嘭少女~★",
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3005-3b80b90899dd.ply.gz"
+    },
+    "3006": {
+      "input_size": [
+        1700,
+        1700
+      ],
+      "camera_fov_y_degrees": 54.03424643570049,
+      "focus_distance": 1.0083194971084595,
+      "depth_percentiles": [
+        0.8114247846116223,
+        1.0083194971084595,
+        1.1295760184600603
+      ],
+      "gaussian_count": 1179648,
+      "scene_format": "ply+gzip",
+      "scene_sha256": "75ea6a6aab2fa451c29249d190a72263ef548dbe77d7fc63aae5c7b48febf201",
+      "compressed_sha256": "d360c222e4bfddd8ded57f5a5e642b0d03153387b2115f14313f26a8e14bcc54",
+      "compressed_bytes": 58001403,
+      "name": "晚安",
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3006-75ea6a6aab2f.ply.gz"
+    },
+    "3007": {
+      "input_size": [
+        1700,
+        1700
+      ],
+      "camera_fov_y_degrees": 54.03424643570049,
+      "focus_distance": 0.8038927316665649,
+      "depth_percentiles": [
+        0.6688464540988693,
+        0.8038927316665649,
+        0.9436365944370587
+      ],
+      "gaussian_count": 1179648,
+      "scene_format": "ply+gzip",
+      "scene_sha256": "ef0efc9b3ddf4292f26cdd4233a797b782ba3de77a1ca85393bb6bf5a4da7afd",
+      "compressed_sha256": "0d7c0011a45ae1fadc6836433d148564a9224f9fdf92d6a9a7623c3e792a7533",
+      "compressed_bytes": 58116467,
+      "name": "翡翠隙境",
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3007-ef0efc9b3ddf.ply.gz"
+    },
+    "3008": {
+      "input_size": [
+        1700,
+        1700
+      ],
+      "camera_fov_y_degrees": 54.03424643570049,
+      "focus_distance": 2.036702871322632,
+      "depth_percentiles": [
+        1.2561942587765418,
+        2.036702871322632,
+        5.4849165873284065
+      ],
+      "gaussian_count": 1179648,
+      "scene_format": "ply+gzip",
+      "scene_sha256": "6ad120736f6215b71666c2866e133b1f4ea1edc498e2d6c9957a3caf105d8105",
+      "compressed_sha256": "4ccc995df3c2ec3191669e88a9d591c098482bbb7d39cecb7ff0adca068d0606",
+      "compressed_bytes": 59605768,
+      "name": "小憩片刻",
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3008-6ad120736f62.ply.gz"
+    },
+    "3009": {
+      "input_size": [
+        1700,
+        1700
+      ],
+      "camera_fov_y_degrees": 54.03424643570049,
+      "focus_distance": 1.198632001876831,
+      "depth_percentiles": [
+        0.9881767943767091,
+        1.198632001876831,
+        1.3889561748616046
+      ],
+      "gaussian_count": 1179648,
+      "scene_format": "ply+gzip",
+      "scene_sha256": "fb84c3e9dd9dee43107ea5dc82c0ab2f3ccc01df9da53d99161306b8fc9f98c5",
+      "compressed_sha256": "4cc4268a0edcb34089a26f04be10df020c67f24451b21e60e05343f42526da80",
+      "compressed_bytes": 57734266,
+      "name": "“雨中”曲",
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3009-fb84c3e9dd9d.ply.gz"
+    },
+    "3010": {
+      "input_size": [
+        1700,
+        1700
+      ],
+      "camera_fov_y_degrees": 54.03424643570049,
+      "focus_distance": 1.099591851234436,
+      "depth_percentiles": [
+        0.8645525574684143,
+        1.099591851234436,
+        1.2334411144256592
+      ],
+      "gaussian_count": 1179648,
+      "scene_format": "ply+gzip",
+      "scene_sha256": "0426a34ceae5d075ce5df7bded208929ccf811bfb4d619d9577b5a125c55cce2",
+      "compressed_sha256": "346f4bec37cb50cd3d49d98f3e3f20367cf7043db5b89f44421cea3be3449041",
+      "compressed_bytes": 59201703,
+      "name": "水蒸汽症候群",
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3010-0426a34ceae5.ply.gz"
+    },
+    "3011": {
+      "input_size": [
+        1700,
+        1700
+      ],
+      "camera_fov_y_degrees": 54.03424643570049,
+      "focus_distance": 1.1499676704406738,
+      "depth_percentiles": [
+        0.9718703031539917,
+        1.1499676704406738,
+        2.3131799697875977
+      ],
+      "gaussian_count": 1179648,
+      "scene_format": "ply+gzip",
+      "scene_sha256": "d9e67b9daf0d1a1e427804496981aab496bcf81e00fb98b79cf29b7f3c415dd6",
+      "compressed_sha256": "16c59cfd7eba31e4f719ae80bab85c5c274dcb7d975e689e10614a42ee1468f6",
+      "compressed_bytes": 59747050,
+      "name": "喵律动",
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3011-d9e67b9daf0d.ply.gz"
+    },
+    "3012": {
+      "input_size": [
+        1700,
+        1700
+      ],
+      "camera_fov_y_degrees": 54.03424643570049,
+      "focus_distance": 1.6526426076889038,
+      "depth_percentiles": [
+        0.9415455460548401,
+        1.6526426076889038,
+        1.9893847703933716
+      ],
+      "gaussian_count": 1179648,
+      "scene_format": "ply+gzip",
+      "scene_sha256": "66817e5df49fef15e878d25099bba133953d1d7cd2de6cca7f06535fd21b45ae",
+      "compressed_sha256": "a2c5993306b9605da6a7731888017e20b47fa23fe318382f399fcb2dd4d766ab",
+      "compressed_bytes": 58824367,
+      "name": "问候星空",
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3012-66817e5df49f.ply.gz"
+    },
+    "3013": {
+      "input_size": [
+        1700,
+        1700
+      ],
+      "camera_fov_y_degrees": 54.03424643570049,
+      "focus_distance": 1.1301337480545044,
+      "depth_percentiles": [
+        0.9657691892941007,
+        1.1301337480545044,
+        1.377892097459864
+      ],
+      "gaussian_count": 1179648,
+      "scene_format": "ply+gzip",
+      "scene_sha256": "396784ea622b112fd86f01ab84480c83f4a61da38a23282c09646be5088564e2",
+      "compressed_sha256": "1611336b65ab1ecd1df5acb82da1f07ff2e682f773832c6485d5d4925a644815",
+      "compressed_bytes": 58681250,
+      "name": "秋日絮语",
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3013-396784ea622b.ply.gz"
+    },
+    "3014": {
+      "input_size": [
+        1700,
+        1700
+      ],
+      "camera_fov_y_degrees": 54.03424643570049,
+      "focus_distance": 1.9567703008651733,
+      "depth_percentiles": [
+        1.5684095621109009,
+        1.9567703008651733,
+        2.2402193546295166
+      ],
+      "gaussian_count": 1179648,
+      "scene_format": "ply+gzip",
+      "scene_sha256": "b17967dc7cab61f5e0a32fbddc86f072b39330bfd8295dc11b89947b0b917675",
+      "compressed_sha256": "0ddcf3c76ee6238ddfdc975cd12f7eb6e6fd9d678615ada5c08ac5b55312f7dd",
+      "compressed_bytes": 58948796,
+      "name": "骑士的铁匠",
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3014-b17967dc7cab.ply.gz"
+    },
+    "3015": {
+      "input_size": [
+        1700,
+        1700
+      ],
+      "camera_fov_y_degrees": 54.03424643570049,
+      "focus_distance": 1.4956963062286377,
+      "depth_percentiles": [
+        1.1066015946865082,
+        1.4956963062286377,
+        1.6211103808879859
+      ],
+      "gaussian_count": 1179648,
+      "scene_format": "ply+gzip",
+      "scene_sha256": "e43c88cdd33944a594f25a79a43d9801b0d6b924c21d61a18ec5c73c45134225",
+      "compressed_sha256": "a374a141d855921ed335aa313f39624ca085cdf167a09b8116f610f1d83ef3fe",
+      "compressed_bytes": 58980852,
+      "name": "未闻芳名",
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3015-e43c88cdd339.ply.gz"
+    },
+    "3016": {
+      "input_size": [
+        1700,
+        1700
+      ],
+      "camera_fov_y_degrees": 54.03424643570049,
+      "focus_distance": 0.6149109601974487,
+      "depth_percentiles": [
+        0.49256932735443115,
+        0.6149109601974487,
+        0.7863093614578247
+      ],
+      "gaussian_count": 1179648,
+      "scene_format": "ply+gzip",
+      "scene_sha256": "6b898c4deb64a4028c83b50cc2a40b95a300c172cbc14cda83c0d71cc49c8472",
+      "compressed_sha256": "204a9c482fa591bf053faa425f9f55638708101199ee4c2f533348cecc832a67",
+      "compressed_bytes": 58973710,
+      "name": "樊笼蔷薇",
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3016-6b898c4deb64.ply.gz"
+    },
+    "3017": {
+      "input_size": [
+        1700,
+        1700
+      ],
+      "camera_fov_y_degrees": 54.03424643570049,
+      "focus_distance": 1.0479437112808228,
+      "depth_percentiles": [
+        0.9044484197946019,
+        1.0479437112808228,
+        1.2959094693769273
+      ],
+      "gaussian_count": 1179648,
+      "scene_format": "ply+gzip",
+      "scene_sha256": "09e7b585bd6146aa3b11203863f1bb33dd6b75f72cbc03fe5808ca5a95dfd7cc",
+      "compressed_sha256": "feac44afcf10d27a55192816725d89119764c5dc052f86a5fd944f3904b188d6",
+      "compressed_bytes": 58014885,
+      "name": "★~转转人生~★",
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3017-09e7b585bd61.ply.gz"
+    },
+    "3018": {
+      "input_size": [
+        1700,
+        1700
+      ],
+      "camera_fov_y_degrees": 54.03424643570049,
+      "focus_distance": 1.0683995485305786,
+      "depth_percentiles": [
+        0.9377582976061258,
+        1.0683995485305786,
+        1.353582820458907
+      ],
+      "gaussian_count": 1179648,
+      "scene_format": "ply+gzip",
+      "scene_sha256": "9224e8f1367d1c3cdbdd485a88808c67ff03f49bc2c1095bf1b4ce6f46908bdf",
+      "compressed_sha256": "90bdbda4957e85ce9ad3bc2bf714d6eff9ecff33bc89c92fa3f48ff229436a1c",
+      "compressed_bytes": 58185824,
+      "name": "饮料采购日",
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3018-9224e8f1367d.ply.gz"
+    },
+    "3019": {
+      "input_size": [
+        1700,
+        1700
+      ],
+      "camera_fov_y_degrees": 54.03424643570049,
+      "focus_distance": 1.187644362449646,
+      "depth_percentiles": [
+        1.0122247775118414,
+        1.187644362449646,
+        1.4425396491682405
+      ],
+      "gaussian_count": 1179648,
+      "scene_format": "ply+gzip",
+      "scene_sha256": "b23cc249a32e71af69cce2d125541561d8c7425f85d2672375cbbb4dccb6a084",
+      "compressed_sha256": "e7b6ea3d1c0202a3a2eda4efa7f60322f5ba0838d352e47b1145e19f285d7fbd",
+      "compressed_bytes": 58918156,
+      "name": "妄语",
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3019-b23cc249a32e.ply.gz"
+    },
+    "3020": {
+      "input_size": [
+        1700,
+        1700
+      ],
+      "camera_fov_y_degrees": 54.03424643570049,
+      "focus_distance": 0.9413266777992249,
+      "depth_percentiles": [
+        0.8095257925153337,
+        0.9413266777992249,
+        1.1581105417760515
+      ],
+      "gaussian_count": 1179648,
+      "scene_format": "ply+gzip",
+      "scene_sha256": "90e6e366379636d1fcb151d3f49a9272c7e8379b9b7357a331480950ac802a8e",
+      "compressed_sha256": "b91f3fdaa2f0957023923d97565a044503456899262720b279703b105c9c565e",
+      "compressed_bytes": 58464404,
+      "name": "闪灵",
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3020-90e6e3663796.ply.gz"
+    },
+    "3021": {
+      "input_size": [
+        1700,
+        1700
+      ],
+      "camera_fov_y_degrees": 54.03424643570049,
+      "focus_distance": 0.8997435569763184,
+      "depth_percentiles": [
+        0.7304271459579468,
+        0.8997435569763184,
+        1.0855536460876465
+      ],
+      "gaussian_count": 1179648,
+      "scene_format": "ply+gzip",
+      "scene_sha256": "cedc8fd1e83d7c73e153163abf7e2f3b4aabf3575dea88e8b785041af9dc0c5a",
+      "compressed_sha256": "091e6e4c3d155ee7e95c429ea133d3f9c6a0479b886b47779c517900d971fdef",
+      "compressed_bytes": 57309377,
+      "name": "灵验颂歌",
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3021-cedc8fd1e83d.ply.gz"
+    },
+    "3022": {
+      "input_size": [
+        1700,
+        1700
+      ],
+      "camera_fov_y_degrees": 54.03424643570049,
+      "focus_distance": 1.129876732826233,
+      "depth_percentiles": [
+        0.9828631273497336,
+        1.129876732826233,
+        1.4130932913330774
+      ],
+      "gaussian_count": 1179648,
+      "scene_format": "ply+gzip",
+      "scene_sha256": "d4f808a65cd5d397e30d60d2f6e373a54fba100bfe6fbb45d7834ae6fd745c1c",
+      "compressed_sha256": "f5720b80cc01783514110439941ef9f853e8e2f2bec019ec2ae428c39e0b8e16",
+      "compressed_bytes": 59331112,
+      "name": "诅咒爱河",
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3022-d4f808a65cd5.ply.gz"
+    },
+    "3023": {
+      "input_size": [
+        1700,
+        1700
+      ],
+      "camera_fov_y_degrees": 54.03424643570049,
+      "focus_distance": 1.3895753622055054,
+      "depth_percentiles": [
+        0.8820008039474487,
+        1.3895753622055054,
+        1.9440261125564575
+      ],
+      "gaussian_count": 1179648,
+      "scene_format": "ply+gzip",
+      "scene_sha256": "4f02d3227bf31f9e0737d37b1f346d4b25ea7eff5b51a1d02360620b8b9425a2",
+      "compressed_sha256": "373f17391ebdd69ea3ffb3bc1e526618b8a7815a906400f009463581b79b7592",
+      "compressed_bytes": 58649720,
+      "name": "纯白",
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3023-4f02d3227bf3.ply.gz"
+    },
+    "3024": {
+      "input_size": [
+        1700,
+        1700
+      ],
+      "camera_fov_y_degrees": 54.03424643570049,
+      "focus_distance": 1.8209706544876099,
+      "depth_percentiles": [
+        1.3951442241668701,
+        1.8209706544876099,
+        2.5420095920562744
+      ],
+      "gaussian_count": 1179648,
+      "scene_format": "ply+gzip",
+      "scene_sha256": "4938399d803a2a6ffc1e4d160bfdc23de869923b0e22f4d429936db464262554",
+      "compressed_sha256": "581e0fc17187320182f09b945d053a0987c2e2b0e2520a0d22d3c313638a8013",
+      "compressed_bytes": 58900912,
+      "name": "假日泡影",
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3024-4938399d803a.ply.gz"
+    },
+    "3025": {
+      "input_size": [
+        1700,
+        1700
+      ],
+      "camera_fov_y_degrees": 54.03424643570049,
+      "focus_distance": 1.478827714920044,
+      "depth_percentiles": [
+        1.0948896408081055,
+        1.478827714920044,
+        1.9026384711265556
+      ],
+      "gaussian_count": 1179648,
+      "scene_format": "ply+gzip",
+      "scene_sha256": "b5167f80ec6ee395ae8422fb443a24a4d09875eb87bf40aa00756a649e80a159",
+      "compressed_sha256": "a825d339749be84f825535feaf022b93806e88b9604211f334f04dddfa165f0f",
+      "compressed_bytes": 59584434,
+      "name": "甜蜜邀约",
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3025-b5167f80ec6e.ply.gz"
+    },
+    "3026": {
+      "input_size": [
+        1700,
+        1700
+      ],
+      "camera_fov_y_degrees": 54.03424643570049,
+      "focus_distance": 1.1459146738052368,
+      "depth_percentiles": [
+        0.722973644733429,
+        1.1459146738052368,
+        1.5930297374725342
+      ],
+      "gaussian_count": 1179648,
+      "scene_format": "ply+gzip",
+      "scene_sha256": "3e1e9d0c10f1f5adc94810a763c08e17aaed72f98b6495eb198a7a1fdc619525",
+      "compressed_sha256": "62dd6b93f2ef64c3a081122e5da55d798e7064faa3d3a54aaf19d697893fdeab",
+      "compressed_bytes": 59091394,
+      "name": "清扫时间DA♥YO",
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3026-3e1e9d0c10f1.ply.gz"
+    },
+    "4001": {
+      "input_size": [
+        2400,
+        1700
+      ],
+      "camera_fov_y_degrees": 45.25413744741106,
+      "focus_distance": 2.370105504989624,
+      "depth_percentiles": [
+        1.6430995464324951,
+        2.370105504989624,
+        3.317131757736206
+      ],
+      "gaussian_count": 1179648,
+      "scene_format": "ply+gzip",
+      "scene_sha256": "efed0094dcf20d7f3e2c5a95362169c40323ae303a890ca82fdce80603853efd",
+      "compressed_sha256": "8d70193ae1dc50b75ba114e9c7a9c40fd5621bfbbdfde18dd75c2828b54bf6ee",
+      "compressed_bytes": 59751022,
+      "name": "猫神降歌",
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4001-efed0094dcf2.ply.gz"
+    },
+    "4002": {
+      "input_size": [
+        2400,
+        1700
+      ],
+      "camera_fov_y_degrees": 45.25413744741106,
+      "focus_distance": 1.9667733907699585,
+      "depth_percentiles": [
+        1.4947590791477952,
+        1.9667733907699585,
+        29.899477054331832
+      ],
+      "gaussian_count": 1179648,
+      "scene_format": "ply+gzip",
+      "scene_sha256": "ed2b728a9ca7f36e528496661cdabf2818ead604ab2c3037eb846beb5a795e7d",
+      "compressed_sha256": "ad36927198779af09b5b0544889af7d1debb797047f94aaec36142a83ed3d78e",
+      "compressed_bytes": 59687282,
+      "name": "空与花与诗",
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4002-ed2b728a9ca7.ply.gz"
+    },
+    "4003": {
+      "input_size": [
+        2400,
+        1700
+      ],
+      "camera_fov_y_degrees": 45.25413744741106,
+      "focus_distance": 2.4222559928894043,
+      "depth_percentiles": [
+        1.6402723908215142,
+        2.4222559928894043,
+        10.682963151667245
+      ],
+      "gaussian_count": 1179648,
+      "scene_format": "ply+gzip",
+      "scene_sha256": "685ea5f62ccec8f34b893f7a0f3acaf993f742a12635d6a945fe479ae0d5552d",
+      "compressed_sha256": "3b706838f5b313590e71d9bdf6d66abd4a48d8b746676e9f5cb3f214a05aa772",
+      "compressed_bytes": 59910444,
+      "name": "你与我相似",
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4003-685ea5f62cce.ply.gz"
+    },
+    "4004": {
+      "input_size": [
+        2400,
+        1700
+      ],
+      "camera_fov_y_degrees": 45.25413744741106,
+      "focus_distance": 2.3704402446746826,
+      "depth_percentiles": [
+        1.4483269453048706,
+        2.3704402446746826,
+        2.6911885738372803
+      ],
+      "gaussian_count": 1179648,
+      "scene_format": "ply+gzip",
+      "scene_sha256": "5d670e2b1c59bbc2ff012ea394c90111e340ade6ca42449f285bfad250d117ac",
+      "compressed_sha256": "a6a6b5788330e87a5fed77e0098e2e65685fd5f8bdf82d1cc7f22f5a66ab490b",
+      "compressed_bytes": 59434879,
+      "name": "仙踪良梦",
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4004-5d670e2b1c59.ply.gz"
+    },
+    "4005": {
+      "input_size": [
+        2400,
+        1700
+      ],
+      "camera_fov_y_degrees": 45.25413744741106,
+      "focus_distance": 2.2316243648529053,
+      "depth_percentiles": [
+        1.5075763463974,
+        2.2316243648529053,
+        2.5050761699676514
+      ],
+      "gaussian_count": 1179648,
+      "scene_format": "ply+gzip",
+      "scene_sha256": "b54692ef7e5a4aa91099ac6e26f8d390255c8239b13d9ef66e757520cb1eaaf1",
+      "compressed_sha256": "428d5f4b9a6c9b59e743bbb76c63d745dcc26db7bed67f9798f75a1fe94c3241",
+      "compressed_bytes": 58955117,
+      "name": "晴之花",
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4005-b54692ef7e5a.ply.gz"
+    },
+    "4006": {
+      "input_size": [
+        2400,
+        1700
+      ],
+      "camera_fov_y_degrees": 45.25413744741106,
+      "focus_distance": 6.885810375213623,
+      "depth_percentiles": [
+        3.3649032456692995,
+        6.885810375213623,
+        8.646582533483762
+      ],
+      "gaussian_count": 1179648,
+      "scene_format": "ply+gzip",
+      "scene_sha256": "2b61d36ac061cc639554b55b7bd5766a8d583ee9de0a99c5f92cbb716844be11",
+      "compressed_sha256": "aa584dfd3541380795cff9eae482a2f4999c2bea06ecb31a57312b27cf7fc531",
+      "compressed_bytes": 59925494,
+      "name": "魔女的秋千",
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4006-2b61d36ac061.ply.gz"
+    },
+    "4007": {
+      "input_size": [
+        2400,
+        1700
+      ],
+      "camera_fov_y_degrees": 45.25413744741106,
+      "focus_distance": 1.7481650114059448,
+      "depth_percentiles": [
+        1.4676040410995483,
+        1.7481650114059448,
+        2.117877244949341
+      ],
+      "gaussian_count": 1179648,
+      "scene_format": "ply+gzip",
+      "scene_sha256": "1ad6846b017e56847bdf2e507bf1e1a78a019ffc367a060fe691b8086818797e",
+      "compressed_sha256": "d3a8525e61c2b79ac2748f3bb35cccdb4ccd05c9e078e3e1f032de07b6008493",
+      "compressed_bytes": 59463834,
+      "name": "午夜，堕天使",
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4007-1ad6846b017e.ply.gz"
+    },
+    "4008": {
+      "input_size": [
+        2400,
+        1700
+      ],
+      "camera_fov_y_degrees": 45.25413744741106,
+      "focus_distance": 5.014975547790527,
+      "depth_percentiles": [
+        2.8251198587679465,
+        5.014975547790527,
+        9.549837449444247
+      ],
+      "gaussian_count": 1179648,
+      "scene_format": "ply+gzip",
+      "scene_sha256": "25f100a2fe5096f02d7b930f3263c3470809b3ef46c194ed4f790533ef92c9c2",
+      "compressed_sha256": "3a1308dba2cbdc21a44eb947378ed98b7a2e26493dfd128d9a356ca3542f22fc",
+      "compressed_bytes": 59928776,
+      "name": "飞越青空",
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4008-25f100a2fe50.ply.gz"
+    },
+    "4009": {
+      "input_size": [
+        2400,
+        1700
+      ],
+      "camera_fov_y_degrees": 45.25413744741106,
+      "focus_distance": 1.2593148946762085,
+      "depth_percentiles": [
+        1.0798321962356567,
+        1.2593148946762085,
+        10.54906177520752
+      ],
+      "gaussian_count": 1179648,
+      "scene_format": "ply+gzip",
+      "scene_sha256": "18eca0632b5afa50321c6726ff8e1ef56c3b84e76e934818c7eb0aa1d23e4236",
+      "compressed_sha256": "c5247b51e78e85416c761398c7411d784d03be457e6a7c3e926f5b4b2c199e06",
+      "compressed_bytes": 59788697,
+      "name": "“空白”的序章",
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4009-18eca0632b5a.ply.gz"
+    },
+    "4011": {
+      "input_size": [
+        2400,
+        1700
+      ],
+      "camera_fov_y_degrees": 45.25413744741106,
+      "focus_distance": 2.7623226642608643,
+      "depth_percentiles": [
+        1.7631642818450928,
+        2.7623226642608643,
+        6.299225807189941
+      ],
+      "gaussian_count": 1179648,
+      "scene_format": "ply+gzip",
+      "scene_sha256": "f0c873cebb21433216ab0099f39f44d9b8f4d5b5d83bc105eb0b2b521b9ce847",
+      "compressed_sha256": "0bdd2f68a0d2f703d2375500726b6fc3578653ea59d34adfa00d3e37f49b5ce5",
+      "compressed_bytes": 59709460,
+      "name": "夏日午后的雨",
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4011-f0c873cebb21.ply.gz"
+    },
+    "4012": {
+      "input_size": [
+        2400,
+        1700
+      ],
+      "camera_fov_y_degrees": 45.25413744741106,
+      "focus_distance": 3.3699331283569336,
+      "depth_percentiles": [
+        2.010949852961198,
+        3.3699330491887762,
+        7.914510567823068
+      ],
+      "gaussian_count": 1179648,
+      "scene_format": "ply+gzip",
+      "scene_sha256": "01c425e656b93ca2487c4ed42eef8cbd962a860123f42aae9a87faef01ba7ddc",
+      "compressed_sha256": "abeaed747982b5079552483388fb02bd437148f071afd76505ddd98cda90f38a",
+      "compressed_bytes": 60167599,
+      "name": "狼贪虎视",
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4012-01c425e656b9.ply.gz"
+    },
+    "4013": {
+      "input_size": [
+        2400,
+        1700
+      ],
+      "camera_fov_y_degrees": 45.25413744741106,
+      "focus_distance": 2.248185396194458,
+      "depth_percentiles": [
+        1.1221828010630166,
+        2.2481853961944576,
+        2.984037389169625
+      ],
+      "gaussian_count": 1179648,
+      "scene_format": "ply+gzip",
+      "scene_sha256": "f45730d5b1210ecd4866b2520f9ed82e89223f44a5553819a461f28c3cb2cdb9",
+      "compressed_sha256": "9533ca552a4d7a6e651ca4da875d89080dc02c75203193e3565393d0e69a77e6",
+      "compressed_bytes": 60216504,
+      "name": "远航蓝图",
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4013-f45730d5b121.ply.gz"
+    },
+    "4015": {
+      "input_size": [
+        2400,
+        1700
+      ],
+      "camera_fov_y_degrees": 45.25413744741106,
+      "focus_distance": 1.3595821857452393,
+      "depth_percentiles": [
+        1.1226332187652588,
+        1.3595821857452393,
+        5.688310146331787
+      ],
+      "gaussian_count": 1179648,
+      "scene_format": "ply+gzip",
+      "scene_sha256": "d028b14cc7804fec55731b024cc4ac7cd7495e7f22f9563a46fb298fbe793137",
+      "compressed_sha256": "583b4cfdac3eacd8c95e72efd89fe745edd08a4977261b2004f49cac3c3c8e70",
+      "compressed_bytes": 60081706,
+      "name": "鹿鸣",
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4015-d028b14cc780.ply.gz"
+    },
+    "4017": {
+      "input_size": [
+        2400,
+        1700
+      ],
+      "camera_fov_y_degrees": 45.25413744741106,
+      "focus_distance": 12.970569610595703,
+      "depth_percentiles": [
+        5.986194544979773,
+        12.970569610595703,
+        14.14847099257255
+      ],
+      "gaussian_count": 1179648,
+      "scene_format": "ply+gzip",
+      "scene_sha256": "cca8bf991e7649ae009dfd47a09d8158bbacd279f90cfec85392e3aed23cf3c3",
+      "compressed_sha256": "af72bdb77bb49dad06b653f80c4f6ce330a9a945b49b5fa5265f8273fb55ee70",
+      "compressed_bytes": 59422437,
+      "name": "花火",
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4017-cca8bf991e76.ply.gz"
+    },
+    "4022": {
+      "input_size": [
+        2400,
+        1700
+      ],
+      "camera_fov_y_degrees": 45.25413744741106,
+      "focus_distance": 2.7559385299682617,
+      "depth_percentiles": [
+        1.4865881204605103,
+        2.7559385299682617,
+        4.327496528625488
+      ],
+      "gaussian_count": 1179648,
+      "scene_format": "ply+gzip",
+      "scene_sha256": "8b386231d598ab34dab7eec11c4038f1885f98dc8910b5f311fe3c4471716213",
+      "compressed_sha256": "420f87a3a4fc1fbfe5bd2e34b0392e88a02ba9844ca8242677a6d230770cdb6c",
+      "compressed_bytes": 59452506,
+      "name": "午夜喵铃",
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4022-8b386231d598.ply.gz"
+    },
+    "4024": {
+      "input_size": [
+        2400,
+        1700
+      ],
+      "camera_fov_y_degrees": 45.25413744741106,
+      "focus_distance": 4.982998371124268,
+      "depth_percentiles": [
+        2.5000406136496314,
+        4.982998371124268,
+        6.705085912176983
+      ],
+      "gaussian_count": 1179648,
+      "scene_format": "ply+gzip",
+      "scene_sha256": "50bf134b91e72e9c72a4d2c65cac6365f933edf2d0bf0726df15be923b1b69b1",
+      "compressed_sha256": "61596d50e6cfffd5fea9faf21581e7819a30741831b8e4a516e2aecd7d826ea0",
+      "compressed_bytes": 59949493,
+      "name": "一二三，跳！",
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4024-50bf134b91e7.ply.gz"
+    },
+    "4030": {
+      "input_size": [
+        2400,
+        1700
+      ],
+      "camera_fov_y_degrees": 45.25413744741106,
+      "focus_distance": 2.355609178543091,
+      "depth_percentiles": [
+        1.1056322711910778,
+        2.355609178543091,
+        2.675144705025285
+      ],
+      "gaussian_count": 1179648,
+      "scene_format": "ply+gzip",
+      "scene_sha256": "7b0f3b3c36be9221b5a41d01b15cbe98488c2e40b737a747eb5601ebd6c47ced",
+      "compressed_sha256": "17d4ab28a996f259f2d1cde717e8f1335c17b769722d977183a541084598256f",
+      "compressed_bytes": 60243557,
+      "name": "午后间隙",
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4030-7b0f3b3c36be.ply.gz"
+    },
+    "4033": {
+      "input_size": [
+        2400,
+        1700
+      ],
+      "camera_fov_y_degrees": 45.25413744741106,
+      "focus_distance": 1.8441842794418335,
+      "depth_percentiles": [
+        1.2038406133651733,
+        1.8441842794418335,
+        1.9752432107925415
+      ],
+      "gaussian_count": 1179648,
+      "scene_format": "ply+gzip",
+      "scene_sha256": "d84fda8ebbc0ffb6051c5dd2deadddd98ee548a3bc5d9999338d2afdc7729c7c",
+      "compressed_sha256": "ca54f09efbcfb7266a6ab472b80bec758ee90b9432b2eaedab0299bc3c56e4d8",
+      "compressed_bytes": 59261283,
+      "name": "与骨共舞",
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4033-d84fda8ebbc0.ply.gz"
+    },
+    "4038": {
+      "input_size": [
+        2400,
+        1700
+      ],
+      "camera_fov_y_degrees": 45.25413744741106,
+      "focus_distance": 0.9438436627388,
+      "depth_percentiles": [
+        0.8006371855735779,
+        0.9438436627388,
+        1.091609239578247
+      ],
+      "gaussian_count": 1179648,
+      "scene_format": "ply+gzip",
+      "scene_sha256": "5747fd2c6401e47bf68ba0abc1db30f909ea7be7c11c9af1493b69c4660f682e",
+      "compressed_sha256": "e4d53adbce36a9cb7e0ddf38a9d2ab7493fd0668635125954172bff66583895e",
+      "compressed_bytes": 59730838,
+      "name": "波光漫游",
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4038-5747fd2c6401.ply.gz"
+    },
+    "4039": {
+      "input_size": [
+        2400,
+        1700
+      ],
+      "camera_fov_y_degrees": 45.25413744741106,
+      "focus_distance": 2.7529168128967285,
+      "depth_percentiles": [
+        1.797639146290046,
+        2.7529168128967285,
+        9.782694700855291
+      ],
+      "gaussian_count": 1179648,
+      "scene_format": "ply+gzip",
+      "scene_sha256": "d4b2b2cc7a7d5e19a00212581f6e508e69deb62f75f526090ddfb8ebb069e2fb",
+      "compressed_sha256": "62dbe3df018aeb11f48f99be952419f79e871f654502d36f2a63f2c93173ca31",
+      "compressed_bytes": 60039794,
+      "name": "夏日栖息地",
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4039-d4b2b2cc7a7d.ply.gz"
+    },
+    "4040": {
+      "input_size": [
+        2400,
+        1700
+      ],
+      "camera_fov_y_degrees": 45.25413744741106,
+      "focus_distance": 0.9303156733512878,
+      "depth_percentiles": [
+        0.6051071286201477,
+        0.9303156733512878,
+        1.1367619037628174
+      ],
+      "gaussian_count": 1179648,
+      "scene_format": "ply+gzip",
+      "scene_sha256": "09b9fb038a08894c3ff788e77859f1134d7428b7c3e7d361c6f33ed02668308d",
+      "compressed_sha256": "52f5364c63f2682278c314d93eff97957f76d6f154b4d3bfb8c71793f2f3f94c",
+      "compressed_bytes": 59889947,
+      "name": "勇气之拳",
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4040-09b9fb038a08.ply.gz"
+    },
+    "4042": {
+      "input_size": [
+        2400,
+        1700
+      ],
+      "camera_fov_y_degrees": 45.25413744741106,
+      "focus_distance": 2.2496414184570312,
+      "depth_percentiles": [
+        1.2635200301526512,
+        2.2496414184570312,
+        4.240960159207098
+      ],
+      "gaussian_count": 1179648,
+      "scene_format": "ply+gzip",
+      "scene_sha256": "e833d7e420091fea0fede9c48f7716ecc9a109e14869cf3007162b83e974d76b",
+      "compressed_sha256": "ee4ebf2f5a62a8a50a91ca15788c9fda803fa603f222af49acd1f1bf65502798",
+      "compressed_bytes": 60167378,
+      "name": "酒暖灯明时",
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4042-e833d7e42009.ply.gz"
+    },
+    "4044": {
+      "input_size": [
+        2400,
+        1700
+      ],
+      "camera_fov_y_degrees": 45.25413744741106,
+      "focus_distance": 2.0984323024749756,
+      "depth_percentiles": [
+        0.9833499066225814,
+        2.0984323024749756,
+        2.373891596167632
+      ],
+      "gaussian_count": 1179648,
+      "scene_format": "ply+gzip",
+      "scene_sha256": "ecbc750d01d35b2716a1713ab9d9dffac5f7c93cb64cde3f2cf17851a7f550d9",
+      "compressed_sha256": "ecd110bf3829dcf25b4430ce9e019d4c385f0752ea5c7bbafa7d51ec5a3e6c05",
+      "compressed_bytes": 60272802,
+      "name": "罗帷春染岁朝新",
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4044-ecbc750d01d3.ply.gz"
+    },
+    "4046": {
+      "input_size": [
+        2400,
+        1700
+      ],
+      "camera_fov_y_degrees": 45.25413744741106,
+      "focus_distance": 2.823883295059204,
+      "depth_percentiles": [
+        1.6474170217944148,
+        2.823883295059204,
+        6.084279738537683
+      ],
+      "gaussian_count": 1179648,
+      "scene_format": "ply+gzip",
+      "scene_sha256": "93c3a3a16392cd9c4523ec7c5feabb56d09818ed69d9fe69af3bc85b8f4876ac",
+      "compressed_sha256": "dee7cb3557620c4ca7b4ba04b830bec78163f01e9a952a809a10685982fc67d9",
+      "compressed_bytes": 59977441,
+      "name": "冬夜后的黎明",
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4046-93c3a3a16392.ply.gz"
+    },
+    "4047": {
+      "input_size": [
+        2400,
+        1700
+      ],
+      "camera_fov_y_degrees": 45.25413744741106,
+      "focus_distance": 2.3011653423309326,
+      "depth_percentiles": [
+        1.229232400982759,
+        2.3011653423309326,
+        3.6994181286776087
+      ],
+      "gaussian_count": 1179648,
+      "scene_format": "ply+gzip",
+      "scene_sha256": "693afde9b822630cb44b99625b5ffea7bbd403af27c82ae703ab286f9c19bdce",
+      "compressed_sha256": "5c58e453c4b0929b6dc33fe7acb23d77b3983021e2380fa5d2b43fcb94e720fe",
+      "compressed_bytes": 59838388,
+      "name": "信笺乘风而去",
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4047-693afde9b822.ply.gz"
+    },
+    "4048": {
+      "input_size": [
+        2400,
+        1700
+      ],
+      "camera_fov_y_degrees": 45.25413744741106,
+      "focus_distance": 1.5990408658981323,
+      "depth_percentiles": [
+        1.009091422557831,
+        1.5990408658981323,
+        2.07778597354889
+      ],
+      "gaussian_count": 1179648,
+      "scene_format": "ply+gzip",
+      "scene_sha256": "9e217c03206d3998e82c85b7df6c90b9bce87a5f4f6cb7188818e95dd46d6f62",
+      "compressed_sha256": "fc00ae99064f7399be8fe694fcd83b9cdaf171a7d583eb033ad262119d17850d",
+      "compressed_bytes": 59781390,
+      "name": "雪夜惊喜",
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4048-9e217c03206d.ply.gz"
+    }
+  }
+}
