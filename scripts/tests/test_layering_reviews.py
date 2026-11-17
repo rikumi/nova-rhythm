@@ -4,11 +4,16 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'layering'))
 from run_batch import apply_layer_order, review_for_result
-from publish_layers import approved_batch
+from publish_layers import approved_batch, require_original_dimensions
 from types import SimpleNamespace
 
 
 class LayerReviewTests(unittest.TestCase):
+    def test_publishing_requires_original_resolution(self):
+        require_original_dimensions((2400,1700),(2400,1700))
+        with self.assertRaisesRegex(RuntimeError,'Low-resolution'):
+            require_original_dimensions((2400,1700),(640,448))
+
     def setUp(self):
         self.result = {'layers': [{'file': name, 'sha256': name + '-hash'}
                                   for name in ['background', 'deer', 'person']]}

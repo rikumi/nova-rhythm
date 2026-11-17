@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "status": "rejected_edge_ownership",
+  "reason": "Native-resolution source pixels restore neutral-view detail, but low-resolution generated masks misassign parts of character outlines to background layers. Neutral-view reconstruction metrics do not validate parallax or semantic boundaries.",
+  "samples": {
+    "4016": {
+      "name": "春日纪事",
+      "source_sha256": "c8d24fa68a3efb7e6e50b19f76af5e75502d9b390d8d49e783f81f48fadf22f2",
+      "hd_backfill": {
+        "method": "original-pixel-visibility-backfill-v1",
+        "original_size": [
+          2400,
+          1700
+        ],
+        "mask_generation_size": [
+          640,
+          448
+        ],
+        "source_sha256": "c8d24fa68a3efb7e6e50b19f76af5e75502d9b390d8d49e783f81f48fadf22f2",
+        "mask_layer_hashes": {
+          "layer-00.png": "182b18126cb858d2d59c885663594452ca936a20293c94896a777ecdbde2b129",
+          "layer-01.png": "633363d373a46a3d6e828fa6cc9ad5db748b6b1b2e2a40b1f15fe70bd09da587",
+          "layer-02.png": "3da24f45c3e0ffe9991de2649ad28b6b06cf5fe1c1c89d8fc033d16c7bac9a7c"
+        },
+        "hidden_regions": "Generated occluded paint is interpolated; it is not original high-resolution artwork.",
+        "metrics": {
+          "width": 2400,
+          "height": 1700,
+          "mean_absolute_error": 0.004686192609369755,
+          "max_error": 1,
+          "psnr_db": 71.42260233452721,
+          "channels_within_one": 1.0,
+          "exact_pixels": 0.9895823529411765,
+          "elapsed_seconds": 5.0
+        }
+      }
+    },
+    "4027": {
+      "name": "龙飞凤舞",
+      "source_sha256": "ef993b56b0db8ed460002b2edae3f861ed567cf6f7f777e0887dcf27fadacb7b",
+      "hd_backfill": {
+        "method": "original-pixel-visibility-backfill-v1",
+        "original_size": [
+          2400,
+          1700
+        ],
+        "mask_generation_size": [
+          640,
+          448
+        ],
+        "source_sha256": "ef993b56b0db8ed460002b2edae3f861ed567cf6f7f777e0887dcf27fadacb7b",
+        "mask_layer_hashes": {
+          "layer-00.png": "95c35047322fbdfbb163236f9fcdff342ea5712213598602621bf3d7c75cf981",
+          "layer-01.png": "54e80fc132401bd116b48f4098bf9519ec9b626a8e0e82d5ba0a461528ceb6ba",
+          "layer-02.png": "14aa6295ed6983f4c22791d8b465be3d2fd6d4ed197b0044b1f5bd85b8ba3ea6",
+          "layer-03.png": "26e78e7643821b1c7acdb11db158dd726647a984e3877121a0faaed74380f166"
+        },
+        "hidden_regions": "Generated occluded paint is interpolated; it is not original high-resolution artwork.",
+        "metrics": {
+          "width": 2400,
+          "height": 1700,
+          "mean_absolute_error": 0.0028850489761680365,
+          "max_error": 1,
+          "psnr_db": 73.52927183495387,
+          "channels_within_one": 1.0,
+          "exact_pixels": 0.9939362745098039,
+          "elapsed_seconds": 6.4
+        }
+      }
+    },
+    "4043": {
+      "name": "革新的萌芽",
+      "source_sha256": "76ad24b272b69173f61e30ce94174d326d44f5f03b3a04e9a6517e2c1ee62e20",
+      "hd_backfill": {
+        "method": "original-pixel-visibility-backfill-v1",
+        "original_size": [
+          2400,
+          1700
+        ],
+        "mask_generation_size": [
+          640,
+          448
+        ],
+        "source_sha256": "76ad24b272b69173f61e30ce94174d326d44f5f03b3a04e9a6517e2c1ee62e20",
+        "mask_layer_hashes": {
+          "layer-00.png": "3685823dcb659b4ba88c115c49dd08c6f7533e5778246a06c50b8ca0197a89eb",
+          "layer-01.png": "bc76d32593fa3e8ebe1fd84d8472b3f633623098617f46f0d512a60c53e04c16",
+          "layer-02.png": "b80e338bcfafb5f4e6bfe6bca5806f935e25515d6ab198944b9078f311660510",
+          "layer-03.png": "230f7105d4650925db42ec6995909fd9813c59f61b7f497462ed47383c9231c6"
+        },
+        "hidden_regions": "Generated occluded paint is interpolated; it is not original high-resolution artwork.",
+        "metrics": {
+          "width": 2400,
+          "height": 1700,
+          "mean_absolute_error": 0.0002607843198347837,
+          "max_error": 1,
+          "psnr_db": 83.96798845564297,
+          "channels_within_one": 1.0,
+          "exact_pixels": 0.999428431372549,
+          "elapsed_seconds": 6.3
+        }
+      }
+    }
+  }
+}

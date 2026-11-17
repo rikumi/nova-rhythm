@@ -629,5 +629,9 @@
   "publication": {
     "enabled": false,
     "reason": "User requested no deployment until the generated outfit layers have been reviewed."
+  },
+  "generation": {
+    "enabled": false,
+    "reason": "AI layering suspended: foreground outline ownership is not reliable at original resolution."
   }
 }

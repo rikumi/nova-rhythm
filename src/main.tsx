@@ -321,12 +321,13 @@ function ArchiveApp({ active, onBack, fromStory = false }: { active: boolean; on
     const url = new URL(location.href);
     if (aiEnabled) url.searchParams.set('experimental_layering', '1'); else url.searchParams.delete('experimental_layering');
     if (url.href !== location.href) history.replaceState(history.state, '', url);
-    if (!aiEnabled) { setAiLoading(false); return; }
+  }, [aiEnabled]);
+  useEffect(() => {
     let disposed = false;
     setAiLoading(true);
     void loadGeneratedCards().then(cards => { if (!disposed) setGeneratedCards(cards); }).finally(() => { if (!disposed) setAiLoading(false); });
     return () => { disposed = true; };
-  }, [aiEnabled]);
+  }, []);
   const copyPageLink=async()=>{
     if(!chosen || !currentMusic)return;
     const url=musicUrl(location.href,currentMusic.id);
@@ -387,7 +388,7 @@ function ArchiveApp({ active, onBack, fromStory = false }: { active: boolean; on
     <main className="main-stage">
       <div className="archive-scene scene-enter" key={chosen.id}>
         <section className={`archive-artwork mode-${artworkMode}`} aria-label={`${chosen.name}专辑展示`}>
-          <div className="artwork-mode-switch" role="group" aria-label="专辑展示模式" style={{ flexWrap: 'wrap' }}><button aria-pressed={artworkMode === 'difference'} onClick={() => { sound('ui_outfit_button_tap'); setArtworkMode('difference'); }}><Expand size={16} />差分</button><button aria-pressed={artworkMode === 'phonograph'} onClick={() => { sound('ui_outfit_button_tap'); setArtworkMode('phonograph'); }}><Disc3 size={17} />唱机</button>{chosen.card.layers.length <= 1 && <button className="capsule-toggle ai-layer-toggle" aria-pressed={aiEnabled} aria-busy={aiLoading} onClick={() => { sound('ui_outfit_button_tap'); setAiEnabled(value => !value); }}><span className="capsule-checkbox" aria-hidden="true" />AI 生成差分</button>}{artworkMode === 'difference' && <SensorControl />}</div>
+          <div className="artwork-mode-switch" role="group" aria-label="专辑展示模式" style={{ flexWrap: 'wrap' }}><button aria-pressed={artworkMode === 'difference'} onClick={() => { sound('ui_outfit_button_tap'); setArtworkMode('difference'); }}><Expand size={16} />差分</button><button aria-pressed={artworkMode === 'phonograph'} onClick={() => { sound('ui_outfit_button_tap'); setArtworkMode('phonograph'); }}><Disc3 size={17} />唱机</button>{generatedCard && <button className="capsule-toggle ai-layer-toggle" aria-pressed={aiEnabled} aria-busy={aiLoading} onClick={() => { sound('ui_outfit_button_tap'); setAiEnabled(value => !value); }}><span className="capsule-checkbox" aria-hidden="true" />AI 生成差分</button>}{artworkMode === 'difference' && <SensorControl />}</div>
           <div className="archive-cover-wrap"><div className="card-aura" />{artworkMode === 'difference' ? <Card key={`${chosen.id}-${active}-${aiEnabled && generatedCard ? 'ai' : 'original'}`} outfit={artworkOutfit!} onExpand={() => { sound('ui_common_click_select'); setFull(true); }} /> : <Phonograph outfit={chosen} playing={playback.playing} onExpand={() => { sound('ui_common_click_select'); setFull(true); }} />}</div>
         </section>
         <aside className="archive-panel">

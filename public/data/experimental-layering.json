@@ -188,5 +188,7 @@
       "reviewed_at": "2026-11-16T23:26:49.752249+00:00",
       "reviewed_by": "user"
     }
-  }
+  },
+  "enabled": false,
+  "disabledReason": "Awaiting original-resolution backfill validation"
 }

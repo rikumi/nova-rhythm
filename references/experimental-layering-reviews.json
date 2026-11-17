@@ -99,7 +99,7 @@
       "reason": "人物、两侧飘带、底部地面同层。"
     },
     "4027": {
-      "status": "accepted",
+      "status": "revision_requested",
       "name": "龙飞凤舞",
       "source_sha256": "ef993b56b0db8ed460002b2edae3f861ed567cf6f7f777e0887dcf27fadacb7b",
       "layer_hashes": {
@@ -109,7 +109,11 @@
         "layer-03.png": "26e78e7643821b1c7acdb11db158dd726647a984e3877121a0faaed74380f166"
       },
       "reviewed_at": "2026-11-16T23:26:49.751887+00:00",
-      "reviewed_by": "user"
+      "reviewed_by": "user",
+      "previous_status": "accepted",
+      "layout_status": "accepted",
+      "image_quality_status": "rejected",
+      "reason": "The original generated textures are low resolution; HD source-pixel backfill still leaves some foreground outlines on background layers."
     },
     "4044": {
       "status": "revision_requested",
@@ -160,7 +164,7 @@
       "reason": "右侧魔法帽与人物同层。"
     },
     "4043": {
-      "status": "accepted",
+      "status": "revision_requested",
       "name": "革新的萌芽",
       "source_sha256": "76ad24b272b69173f61e30ce94174d326d44f5f03b3a04e9a6517e2c1ee62e20",
       "layer_hashes": {
@@ -170,7 +174,11 @@
         "layer-03.png": "230f7105d4650925db42ec6995909fd9813c59f61b7f497462ed47383c9231c6"
       },
       "reviewed_at": "2026-11-16T23:26:49.752249+00:00",
-      "reviewed_by": "user"
+      "reviewed_by": "user",
+      "previous_status": "accepted",
+      "layout_status": "accepted",
+      "image_quality_status": "rejected",
+      "reason": "The original generated textures are low resolution; HD source-pixel backfill still leaves some foreground outlines on background layers."
     },
     "4005": {
       "status": "revision_requested",

@@ -9,6 +9,11 @@ from pathlib import Path
 
 from run_batch import ROOT,card_for_result,digest,write,read,review_for_result
 
+
+def require_original_dimensions(original_size,layer_size):
+    if tuple(original_size)!=tuple(layer_size):
+        raise RuntimeError(f'Low-resolution layer publication refused: {layer_size}; original is {original_size}')
+
 def approved_batch(batch,reviews):
     from types import SimpleNamespace
     approved={code:result for code,result in batch.completed.items()
@@ -49,8 +54,10 @@ def publish(batch, approved_only=False):
     for item in batch.plan['items']:
         code=item['code'];result=batch.completed[code]
         card=card_for_result(code,result,'')
+        with Image.open(batch.runtime/code/'original.png') as original:original_size=original.size
         for entry,layer in zip(result['layers'],card['layers']):
             source=batch.runtime/code/entry['file']
+            with Image.open(source) as image:require_original_dimensions(original_size,image.size)
             temporary=output/f'{code}-{source.stem}.webp'
             with Image.open(source) as image:image.save(temporary,lossless=True,quality=100,method=6,exact=True)
             with Image.open(source) as before,Image.open(temporary) as after:
@@ -64,7 +71,7 @@ def publish(batch, approved_only=False):
         cards[code]=card
         details[code]={key:value for key,value in result.items() if key not in ('history','folder')}
         reviews[code]=review_for_result(result,requested_reviews.get(code))
-    manifest={'schemaVersion':1,'model':'Qwen-Image-Layered','releaseUrl':f'https://github.com/{repository}/releases/tag/{tag}',
+    manifest={'schemaVersion':1,'enabled':True,'model':'Qwen-Image-Layered','releaseUrl':f'https://github.com/{repository}/releases/tag/{tag}',
               'generatedAt':datetime.datetime.now(datetime.timezone.utc).isoformat(),'outfits':cards,'reviews':reviews}
     write(output/'experimental-layering.json',manifest)
     write(output/'generation-results.json',{'schemaVersion':1,'settings':batch.plan,'results':details})

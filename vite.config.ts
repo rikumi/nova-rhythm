@@ -10,7 +10,7 @@ export default defineConfig({
       const trialRoot = resolve('.build/layering-trial');
       server.middlewares.use((request, response, next) => {
         const path = request.url?.split('?')[0];
-        const image = path?.match(/^\/__(layering-trial|sharp-layering)\/(\d{4})\/(layer-\d{2}\.(?:png|webp))$/);
+        const image = path?.match(/^\/__(layering-trial|layering-hd|sharp-layering)\/(\d{4})\/(layer-\d{2}\.(?:png|webp))$/);
         if (image) {
           const file = resolve('.build', image[1], image[2], image[3]);
           if (!existsSync(file)) return next();
@@ -19,7 +19,8 @@ export default defineConfig({
           createReadStream(file).pipe(response);
           return;
         }
-        const manifest = resolve(trialRoot, 'local-overrides.json');
+        const hdManifest = resolve('.build/layering-hd/local-overrides.json');
+        const manifest = existsSync(hdManifest) ? hdManifest : resolve(trialRoot, 'local-overrides.json');
         if (path !== '/data/experimental-layering.json' || !existsSync(manifest)) return next();
         try {
           const overrides = JSON.parse(readFileSync(manifest, 'utf8'));

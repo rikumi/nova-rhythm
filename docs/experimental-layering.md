@@ -77,3 +77,11 @@ Apple SHARP was tested locally on three samples. Inference took about 1.7–2.0 
 An explicit reviewed-only publication can bypass the general publication hold: `python scripts/layering/publish_layers.py --approved-only`. It filters accepted entries against their exact saved layer hashes and uses a separate reviewed release tag. General automatic publication remains disabled.
 
 The runtime setup installs a streaming CPU safetensors reader when `--disable-mmap` is active. Ordinary tensor reads avoid the native mapped-reader fault observed on repeated Windows encoder loads. FP8 and BF16 tensor bytes are preserved and model weights are not modified.
+
+## Native-resolution backfill trial (suspended)
+
+`backfill_hd.py` was tested on 4016, 4027 and 4043. It refines model alpha boundaries with original-image guidance and restores visible RGB detail from the 2400x1700 original. Generated hidden-region paint is preserved separately. Run with the optional local Pillow/NumPy/SciPy analysis dependencies: `python scripts/layering/backfill_hd.py --codes 4016 4027 4043`. The ignored `.build/layering-hd` outputs can be previewed through Vite; original model outputs remain untouched.
+
+The neutral composites match the originals to at most one channel level, but this is insufficient: low-resolution model masks leave some character outlines on the background. Those errors become visible during parallax. The trial was rejected for edge ownership; this method must not be treated as a validated replacement for native game layers. Measurements and the rejection are recorded in `references/experimental-layering-hd-samples.json`.
+
+AI layer generation is disabled by the plan, automatic publication remains held, and the public manifest is disabled so existing links use the original artwork. The UI only offers the AI checkbox when an enabled manifest supplies a generated card. Publishing additionally rejects textures whose dimensions differ from the original artwork; matching dimensions alone do not establish acceptable boundaries. No further batch work should resume without a new explicit request.

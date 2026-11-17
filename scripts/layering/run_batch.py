@@ -265,6 +265,8 @@ class Batch:
                     except (OSError,ValueError):
                         if attempt==29:raise
                         time.sleep(1)
+                if self.plan.get('generation',{}).get('enabled') is False:
+                    self.phase='awaiting-hd-validation';self.status('awaiting-hd-validation');return
                 active_codes={item['code'] for item in self.plan['items']}
                 self.completed={code:result for code,result in self.completed.items() if code in active_codes}
                 remaining=[]

@@ -43,3 +43,7 @@ test('reviewed corrections may use fewer layers to keep complete figures togethe
   const api=server({schemaVersion:1,outfits:{'4016':corrected}});
   assert.deepEqual((await loadGeneratedCards(api.fetch))['4016'],corrected);
 });
+test('a disabled manifest cannot expose old low-resolution textures',async()=>{
+  const api=server({schemaVersion:1,enabled:false,outfits:{'4016':card}});
+  assert.deepEqual(await loadGeneratedCards(api.fetch),{});
+});
