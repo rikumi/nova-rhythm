@@ -1,0 +1,4 @@
+@font-face{font-family:MiSans;src:url('/fonts/NovaRhythmDigits-Semibold.woff2') format('woff2');font-weight:400 600;font-display:swap;unicode-range:U+0030-0039}
+@font-face{font-family:MiSans;src:url('/fonts/NovaRhythmDigits-Bold.woff2') format('woff2');font-weight:700 900;font-display:swap;unicode-range:U+0030-0039}
+:root{font-variant-numeric:tabular-nums;font-feature-settings:"tnum" 1}
+button,input,select,textarea{font-variant-numeric:inherit;font-feature-settings:inherit}

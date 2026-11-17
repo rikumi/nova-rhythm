@@ -1,11 +1,12 @@
 import React, { lazy, Suspense, useCallback, useEffect, useMemo, useRef, useState, useSyncExternalStore } from 'react';
 import { createRoot } from 'react-dom/client';
-import { ArrowLeft, AudioLines, Box, Check, ChevronDown, Copy, Disc3, Download, Expand, Heart, ListMusic, LoaderCircle, Music2, Pause, Play, Repeat, Repeat1, Shuffle, Search, SkipBack, SkipForward, Smartphone, Volume2, VolumeX, X } from 'lucide-react';
+import { ArrowLeft, AudioLines, Box, Check, ChevronDown, Copy, Disc3, Download, Expand, Heart, ListMusic, LoaderCircle, Music2, Pause, Play, Repeat, Repeat1, Shuffle, Search, SkipBack, SkipForward, Volume2, VolumeX, X } from 'lucide-react';
 import type { CSSProperties, ReactNode } from 'react';
 import type { Outfit, LibraryMusic, MusicGroup } from './types';
 import { player } from './audio';
 import { PHONOGRAPH_HARDWARE, PHONOGRAPH_NOTE } from './nativePhonograph';
 import { deviceTilt } from './deviceTilt';
+import { useArtworkPointer } from './useArtworkPointer';
 import { resolveStoryLibrary, libraryGroupLabel } from './storyLibrary';
 import { adjacentLibraryTrack, libraryQueue, libraryTrackUrl } from './libraryNavigation';
 import { MODE_LABELS, nextPlaybackMode, nextQueueIndex } from './playbackMode';
@@ -19,11 +20,14 @@ import type { SharpSceneInfo } from './sharpScenes';
 import { hasModelCache } from './sharpModelCache';
 import { downloadArtwork } from './artworkDownload';
 import { SharpCacheButton } from './SharpCacheButton';
+import { SensorControl } from './SensorControl';
 import { applyInfinityTowerMixer } from './infinitytowerMixer';
 import { musicIdFromPath, musicPage, musicPath, musicUrl, outfitMusicPage, registerMusicPages, storyMusicPage, updateMusicPageMetadata } from './musicRoutes';
 import './style.css';
 import './storyPlayback.css';
 import './pwa.css';
+import './mobileModals.css';
+import './typography.css';
 import './cardLighting.css';
 import './cardActions.css';
 import './mobilePlayback.css';
@@ -87,18 +91,6 @@ function ArtworkActions({ outfit, onExpand, action }: { outfit: Outfit; onExpand
   </div>;
 }
 
-function SensorControl({ full = false }: { full?: boolean }) {
-  const sensor = useSyncExternalStore(deviceTilt.subscribe, deviceTilt.snapshot);
-  if (!sensor.mobile || !sensor.supported) return null;
-  const enabled = sensor.status === 'enabled';
-  return <>
-    <button className="capsule-toggle" aria-label={enabled ? '关闭重力感应' : '开启重力感应'} title={enabled ? '关闭重力感应' : '开启重力感应'} aria-pressed={enabled} disabled={sensor.status === 'requesting'} onClick={() => { if (enabled) deviceTilt.disable(); else void deviceTilt.enable(); }} style={full && enabled ? { color: '#7ff6ed' } : undefined}>
-      <span className="capsule-checkbox" aria-hidden="true" />{full ? <Smartphone size={21} /> : sensor.status === 'requesting' ? '授权中' : sensor.status === 'denied' ? '重试感应' : '重力感应'}
-    </button>
-    {sensor.error && <span role="status" style={full ? { position: 'fixed', top: 80, right: 20, maxWidth: 'calc(100vw - 40px)', fontSize: 12, padding: '8px 12px', background: '#142440e6' } : { flexBasis: '100%', textAlign: 'center', fontSize: 12 }}>{sensor.error}</span>}
-  </>;
-}
-
 function SharpCard({outfit,full=false,suspended=false,onExpand,action}:{outfit:Outfit;full?:boolean;suspended?:boolean;onExpand?:()=>void;action?:ReactNode}){
   const motion=outfit.card.motion||{rotation_x:3,rotation_y:-8};
   return <div className={`live-card sharp-card ${full?'full-card':''}`} style={{'--tilt-x':`${-motion.rotation_x}deg`,'--tilt-y':`${-motion.rotation_y}deg`} as CSSProperties}>
@@ -135,6 +127,7 @@ function CardLayer({ src, style, background, index, visible, onReady, onReveal, 
 function Card({ outfit, full = false, onExpand, action }: { outfit: Outfit; full?: boolean; onExpand?: () => void; action?:ReactNode }) {
   const ref = useRef<HTMLDivElement>(null);
   const lightRef = useRef<HTMLDivElement>(null);
+  const artworkPointer=useArtworkPointer(ref,lightRef);
   const target = useRef({ x: 0, y: 0, active: false });
   const dragPointer = useRef<number | null>(null);
   const reduced = useRef(false);
@@ -188,20 +181,12 @@ function Card({ outfit, full = false, onExpand, action }: { outfit: Outfit; full
   },[]);
   const move = (e: React.PointerEvent) => {
     if (e.pointerType !== 'mouse' && dragPointer.current !== e.pointerId) return;
-    const box = e.currentTarget.getBoundingClientRect();
-    target.current = { x: Math.max(-1, Math.min(1, (e.clientX - box.left) / box.width * 2 - 1)), y: Math.max(-1, Math.min(1, (e.clientY - box.top) / box.height * 2 - 1)), active: true };
-    const light = lightRef.current;
-    if (light) {
-      const bounds = light.getBoundingClientRect();
-      const inside = e.clientX >= bounds.left && e.clientX <= bounds.right && e.clientY >= bounds.top && e.clientY <= bounds.bottom;
-      const values = { '--light-x': `${Math.round((e.clientX - bounds.left) / bounds.width * 1000) / 10}%`, '--light-y': `${Math.round((e.clientY - bounds.top) / bounds.height * 1000) / 10}%`, '--light-active': inside ? '1' : '0' };
-      for (const [name, value] of Object.entries(values)) if (light.style.getPropertyValue(name) !== value) light.style.setProperty(name, value);
-    }
+    target.current=artworkPointer.sample(e);
   };
-  const hideLight = () => { lightRef.current?.style.setProperty('--light-active', '0'); };
+  const hideLight = artworkPointer.hide;
   const beginDrag=(e:React.PointerEvent<HTMLDivElement>)=>{
     if(e.pointerType==='mouse' || !e.isPrimary || (e.target instanceof Element && e.target.closest('button,a')))return;
-    dragPointer.current=e.pointerId;e.currentTarget.setPointerCapture(e.pointerId);move(e);
+    artworkPointer.reset();dragPointer.current=e.pointerId;e.currentTarget.setPointerCapture(e.pointerId);move(e);
   };
   const endDrag=(e:React.PointerEvent<HTMLDivElement>)=>{
     if(dragPointer.current!==e.pointerId)return;

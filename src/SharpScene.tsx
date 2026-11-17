@@ -5,12 +5,14 @@ import { deviceTilt } from './deviceTilt';
 import { loadSharpScene, sharpSourceUrl } from './sharpScenes';
 import { loadSceneData } from './sharpSceneData';
 import { bindModelSource } from './sharpModelCache';
+import { useArtworkPointer } from './useArtworkPointer';
 import './sharpScene.css';
 
 export default function SharpScene({full=false,suspended=false,code='4016',name='春日纪事'}:{full?:boolean;suspended?:boolean;code?:string;name?:string}){
   const host=useRef<HTMLDivElement>(null);
   const canvasHost=useRef<HTMLDivElement>(null);
   const lightRef=useRef<HTMLDivElement>(null);
+  const artworkPointer=useArtworkPointer(host,lightRef);
   const pointer=useRef({x:0,y:0,active:false,id:-1});
   const paused=useRef(suspended);paused.current=suspended;
   const [status,setStatus]=useState('正在加载三维场景…');
@@ -117,26 +119,16 @@ export default function SharpScene({full=false,suspended=false,code='4016',name=
   },[full,code,name]);
   const move=(event:React.PointerEvent<HTMLDivElement>)=>{
     if(event.pointerType!=='mouse'&&pointer.current.id!==event.pointerId)return;
-    const bounds=event.currentTarget.getBoundingClientRect();
-    pointer.current={...pointer.current,x:Math.max(-1,Math.min(1,2*(event.clientX-bounds.left)/bounds.width-1)),
-      y:Math.max(-1,Math.min(1,2*(event.clientY-bounds.top)/bounds.height-1)),active:true};
-    const light=lightRef.current;
-    if(light){
-      const bounds=light.getBoundingClientRect();
-      const inside=event.clientX>=bounds.left&&event.clientX<=bounds.right&&event.clientY>=bounds.top&&event.clientY<=bounds.bottom;
-      const values={'--light-x':`${Math.round((event.clientX-bounds.left)/bounds.width*1000)/10}%`,
-        '--light-y':`${Math.round((event.clientY-bounds.top)/bounds.height*1000)/10}%`,'--light-active':inside?'1':'0'};
-      for(const [name,value] of Object.entries(values))if(light.style.getPropertyValue(name)!==value)light.style.setProperty(name,value);
-    }
+    pointer.current={...pointer.current,...artworkPointer.sample(event)};
   };
-  const hideLight=()=>{lightRef.current?.style.setProperty('--light-active','0');};
+  const hideLight=artworkPointer.hide;
   const release=(event:React.PointerEvent<HTMLDivElement>)=>{
     pointer.current={x:0,y:0,active:false,id:-1};
     if(event.pointerType!=='mouse')hideLight();
     if(event.currentTarget.hasPointerCapture(event.pointerId))event.currentTarget.releasePointerCapture(event.pointerId);
   };
   return <div ref={host} className="sharp-scene" data-renderer="webgl2-gaussian-splats" onPointerMove={move}
-    onPointerDown={event=>{if(event.target instanceof Element&&event.target.closest('button'))return;if(event.pointerType!=='mouse'){event.preventDefault();pointer.current.id=event.pointerId;event.currentTarget.setPointerCapture(event.pointerId);move(event);}}}
+    onPointerDown={event=>{if(event.target instanceof Element&&event.target.closest('button'))return;artworkPointer.reset();if(event.pointerType!=='mouse'){event.preventDefault();pointer.current.id=event.pointerId;event.currentTarget.setPointerCapture(event.pointerId);move(event);}}}
     onPointerUp={release} onPointerCancel={release} onLostPointerCapture={release}
     onPointerLeave={()=>{if(pointer.current.id===-1)pointer.current={x:0,y:0,active:false,id:-1};hideLight();}}>
     <div ref={canvasHost} className="sharp-canvas" />

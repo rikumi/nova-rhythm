@@ -1,3 +1,5 @@
+import { ARTWORK_MOTION_GAIN } from './artworkMotion';
+
 type Quaternion = { x: number; y: number; z: number; w: number };
 type SensorStatus = 'idle' | 'requesting' | 'enabled' | 'denied' | 'unavailable';
 type OrientationConstructor = typeof DeviceOrientationEvent & {
@@ -40,7 +42,7 @@ function interpolate(a: Quaternion, b: Quaternion, amount: number): Quaternion {
 
 class DeviceTilt {
   private listeners = new Set<() => void>();
-  private state = { status: 'idle' as SensorStatus, mobile: false, supported: false, error: '' };
+  private state = { status: 'idle' as SensorStatus, mobile: false, supported: false, error: '', direction: 'original' as 'original'|'reverse' };
   private viewing = false;
   private listening = false;
   private generation = 0;
@@ -64,6 +66,7 @@ class DeviceTilt {
   }
   subscribe = (listener: () => void) => { this.listeners.add(listener); return () => { this.listeners.delete(listener); }; };
   snapshot = () => this.state;
+  setDirection(direction:'original'|'reverse'){this.update({direction});}
   private update(patch: Partial<typeof this.state>) {
     this.state = { ...this.state, ...patch };
     this.listeners.forEach(listener => listener());
@@ -129,7 +132,6 @@ class DeviceTilt {
       this.center = this.motionAnchor = q;
       this.lastMotion = this.lastRead = now;
     } else if (this.motionAnchor && 2*Math.acos(clamp(Math.abs(dot(q, this.motionAnchor))))/radians >= SETTLE_RANGE_DEGREES) {
-      // Ignore small hand tremors, while deliberate movement still accumulates against an anchor.
       this.motionAnchor = q;
       this.lastMotion = now;
     }
@@ -149,8 +151,9 @@ class DeviceTilt {
     const yaw = Math.atan2(forward.x, forward.z)/radians;
     const pitch = Math.atan2(-forward.y, Math.hypot(forward.x, forward.z))/radians;
     const angle = (screen.orientation?.angle ?? (window as Window & { orientation?: number }).orientation ?? 0)*radians;
-    return { x: clamp((yaw*Math.cos(angle)+pitch*Math.sin(angle))/20),
-      y: clamp((pitch*Math.cos(angle)-yaw*Math.sin(angle))/20), active: true };
+    const gain=ARTWORK_MOTION_GAIN*(this.state.direction==='reverse'?-1:1);
+    return { x: gain*clamp((yaw*Math.cos(angle)+pitch*Math.sin(angle))/20),
+      y: gain*clamp((pitch*Math.cos(angle)-yaw*Math.sin(angle))/20), active: true };
   }
 }
 

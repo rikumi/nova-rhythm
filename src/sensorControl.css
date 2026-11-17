@@ -1,0 +1,9 @@
+.sensor-control{position:relative;display:inline-flex;align-items:center;height:34px;border:1px solid #aecde33b;border-radius:20px;background:#214475b0;color:#e2f1f8;font-size:12px;flex-shrink:0}
+.artwork-mode-switch>.sensor-control.capsule-toggle,.fullscreen-artwork-actions>.sensor-control.capsule-toggle{gap:0;padding:0;min-width:0}
+.sensor-control[data-enabled=true]{background:#f1f8f9;color:#294e77;border-color:#bad8e7}
+.sensor-control>.sensor-enable{display:flex;align-items:center;justify-content:center;gap:7px;height:100%;padding:0 8px;border-radius:20px;font-size:inherit}
+.sensor-control>.sensor-direction-trigger{height:22px;padding:0 10px 0 8px;border-left:1px solid currentColor;font-size:12px;border-radius:0;white-space:nowrap}
+.sensor-direction-menu{position:absolute;top:calc(100% + 6px);right:0;z-index:100;min-width:76px;padding:4px;border:1px solid #aecde366;border-radius:8px;background:#1d365bf2;box-shadow:0 6px 16px #10213c66;color:#e2f1f8}
+.sensor-direction-menu>button{display:block;width:100%;padding:7px 12px;border-radius:8px;font-size:12px;white-space:nowrap;text-align:center}
+.sensor-direction-menu>[aria-selected=true],.sensor-direction-menu>button:hover{background:#d1e5ef;color:#294976}
+.fullscreen-artwork-actions>.sensor-control.capsule-toggle{height:40px;border-radius:24px}
