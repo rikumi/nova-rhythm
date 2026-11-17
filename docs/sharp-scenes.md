@@ -18,7 +18,7 @@ Progress and failures are saved in `.build/sharp-layering/batch`. Interrupted or
 
 ## Local viewer
 
-Open `http://127.0.0.1:5174/?disc=214016&sharp_3d=1#/outfit` for Spring Chronicle. The SHARP toggle is available for original single-image outfits. `sharp_3d=1` enables it and saves the preference in `localStorage` under `nova-sharp-3d`. Otherwise the saved boolean is used, defaulting to false. Disabling the toggle removes an enabling query parameter, so a refresh respects the new choice. Other static outfits can be selected from the outfit list. A small metadata lookup and HEAD check determine whether the selected static outfit has a model. The model payload and large WebGL chunk are only requested when 3D is displayed. Missing entries, missing files and loading/rendering failures fall back to original static artwork and hide that outfit's 3D option, without clearing the saved global preference. Mouse movement, captured touch dragging and the existing device-tilt input move the camera; it recenters after input ends. Rendering stops when the view is stationary. Fullscreen uses the same actual 3D scene.
+Open `http://127.0.0.1:5174/?disc=214016&sharp_3d=1#/outfit` for Spring Chronicle. The SHARP toggle is available for original single-image outfits. `sharp_3d=1` enables it and saves the preference in `localStorage` under `nova-sharp-3d`. Otherwise the saved boolean is used, defaulting to false. Disabling the toggle removes an enabling query parameter, so a refresh respects the new choice. Other static outfits can be selected from the outfit list. The manifest alone determines support, with no per-model HEAD probes. Catalog and manifest are resolved together before displaying the first outfit. The model payload and large WebGL chunk are only requested when 3D is displayed. A missing manifest entry hides the option; payload failures keep the option and saved choice stable, showing original static artwork instead. Static artwork is displayed underneath centered status messages throughout module download, model download, worker decompression and parsing, and remains until the first 3D render. Mouse movement, captured touch dragging and the existing device-tilt input move the camera; it recenters after input ends. Rendering stops when the view is stationary. Fullscreen uses the same actual 3D scene.
 
 During development, scene files are exposed through the restricted Vite route `/__sharp-3d/<code>/scene.json` and `.ply`. Binary predictions, checkpoints and arbitrary filesystem paths are not served. No browser inference or model downloads are included: the browser loads a precomputed scene.
 
@@ -73,3 +73,10 @@ git worktree add --detach .build/repository-assets origin/site-assets
 ```
 
 Ordinary website builds do not need to check out that branch. Keep model filenames content-addressed and refresh the runtime manifest after changing resources. Record the verified revision for auditing while continuing to use branch URLs, so new model versions get new cache keys.
+
+
+## Reliable scene loading
+
+Download, decompression and parsing have separate status messages. Interrupted downloads retry up to three times with HTTP Range resume. A 45-second inactivity watchdog detects stalled connections; an actively progressing slow download has no total time limit. The Raw endpoint was checked to honor byte ranges.
+
+Gzip decompression runs in a short-lived Web Worker and transfers its result back without copying. Simultaneous normal/fullscreen loads share one job. The most recent decoded scene is retained in memory; at most two complete compressed scenes are stored in the optional `nova-sharp-models-v1` Cache Storage cache. A corrupt disk cache is discarded and downloaded again. Storage failure does not prevent network loading. GPU allocation starts after download and decompression complete.

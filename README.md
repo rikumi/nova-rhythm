@@ -16,7 +16,7 @@ npm run build
 npm run preview
 ```
 
-`public/` 已包含网站运行所需的图片、字体、音效、Opus 和 JSON；普通构建不需要游戏目录、Python 或分析缓存。推送到 `main` 后，GitHub Actions 将 `dist/` 部署到 GitHub Pages。原尺寸秘纹 PNG 与 Sharp 三维对象存放于本仓库的 `site-assets` 分支，通过引用分支名的 GitHub Raw 地址加载，不打包进 Pages。三维展示默认关闭，`sharp_3d=1` 可开启并保存偏好，之后也可在界面切换；资源缺失或加载失败时显示原图并隐藏对应的 3D 选项。详见 [Sharp 资源说明](docs/sharp-scenes.md)。
+`public/` 已包含网站运行所需的图片、字体、音效、Opus 和 JSON；普通构建不需要游戏目录、Python 或分析缓存。推送到 `main` 后，GitHub Actions 将 `dist/` 部署到 GitHub Pages。原尺寸秘纹 PNG 与 Sharp 三维对象存放于本仓库的 `site-assets` 分支，通过引用分支名的 GitHub Raw 地址加载，不打包进 Pages。三维展示默认关闭，`sharp_3d=1` 可开启并保存偏好，之后也可在界面切换。3D 支持情况仅由清单决定；加载时显示静态图和居中提示，失败时保留静态图与开关状态。详见 [Sharp 资源说明](docs/sharp-scenes.md)。
 
 ## 从自己的游戏目录增量生成
 

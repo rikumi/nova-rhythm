@@ -14,7 +14,7 @@ import { ScrollingText } from './ScrollingText';
 import { OutlinedName } from './OutlinedName';
 import { loadOutfits } from './experimentalLayering';
 import { CARD_CONTENT_SCALE, backgroundLayer, cardDepths } from './parallaxDepth';
-import { sharpPreference, sharpSceneAvailable } from './sharpScenes';
+import { sharpPreference, loadSharpManifest } from './sharpScenes';
 import { downloadArtwork } from './artworkDownload';
 import { applyInfinityTowerMixer } from './infinitytowerMixer';
 import { musicIdFromPath, musicPage, musicPath, musicUrl, outfitMusicPage, registerMusicPages, storyMusicPage, updateMusicPageMetadata } from './musicRoutes';
@@ -94,22 +94,22 @@ function SensorControl({ full = false }: { full?: boolean }) {
   </>;
 }
 
-function SharpCard({outfit,full=false,suspended=false,onExpand,onUnavailable}:{outfit:Outfit;full?:boolean;suspended?:boolean;onExpand?:()=>void;onUnavailable?:(code:string)=>void}){
+function SharpCard({outfit,full=false,suspended=false,onExpand}:{outfit:Outfit;full?:boolean;suspended?:boolean;onExpand?:()=>void}){
   const motion=outfit.card.motion||{rotation_x:3,rotation_y:-8};
   return <div className={`live-card sharp-card ${full?'full-card':''}`} style={{'--tilt-x':`${-motion.rotation_x}deg`,'--tilt-y':`${-motion.rotation_y}deg`} as CSSProperties}>
     <div className={`card-frame rarity-${outfit.rarity}`}><div className="card-backdrop-tint" aria-hidden="true" />
-      <div className="card-window"><Suspense fallback={<div className="card-loading-toast" role="status">正在加载三维场景…</div>}><SharpScene full={full} suspended={suspended} code={outfit.code} name={outfit.name} onUnavailable={onUnavailable}/></Suspense></div>
+      <div className="card-window"><img className="sharp-static" src={outfit.fullCover || outfit.staticImage} alt="" draggable={false} style={{position:'absolute',inset:0,width:'100%',height:'100%',objectFit:full?'contain':'cover',pointerEvents:'none'}}/><Suspense fallback={<div className="card-loading-toast" role="status">正在加载三维场景…</div>}><SharpScene full={full} suspended={suspended} code={outfit.code} name={outfit.name}/></Suspense></div>
       <img className="native-frame" src="/ui/rare_outfit_5.png" alt=""/>
     </div>
     {!full&&<ArtworkActions outfit={outfit} onExpand={()=>onExpand?.()}/>}
   </div>;
 }
 
-function FullscreenArtwork({ outfit, close, sharp=false, onSharpUnavailable }: { outfit: Outfit; close: () => void; sharp?:boolean; onSharpUnavailable?:(code:string)=>void }) {
+function FullscreenArtwork({ outfit, close, sharp=false }: { outfit: Outfit; close: () => void; sharp?:boolean }) {
   const ref = useRef<HTMLDialogElement>(null);
   useEffect(() => { ref.current?.showModal(); }, []);
   return <dialog ref={ref} className="fullscreen-artwork" aria-label={`${outfit.name}全屏差分`} onCancel={e => { e.preventDefault(); close(); }}>
-    {sharp?<SharpCard outfit={outfit} full onUnavailable={onSharpUnavailable}/>:<Card outfit={outfit} full />}
+    {sharp?<SharpCard outfit={outfit} full/>:<Card outfit={outfit} full />}
     <div className="fullscreen-artwork-actions"><SensorControl full /><a href={outfit.staticImage} download={`秘纹-${outfit.name}.png`} onClick={downloadArtwork} aria-label="保存秘纹静态图"><Download size={22} /></a><button aria-label="关闭全屏" onClick={close}><X size={25} /></button></div>
   </dialog>;
 }
@@ -292,8 +292,7 @@ function ArchiveApp({ active, onBack, fromStory = false }: { active: boolean; on
   const [showStory, setShowStory] = useState(false);
   const [full, setFull] = useState(false);
   const [sharpEnabled,setSharpEnabled]=useState(()=>sharpPreference(location.search,readStorage('nova-sharp-3d',false)));
-  const [sharpAvailability,setSharpAvailability]=useState<Record<string,boolean>>({});
-  const sharpUnavailable=useCallback((code:string)=>setSharpAvailability(previous=>({...previous,[code]:false})),[]);
+  const [sharpCodes,setSharpCodes]=useState<Set<string>>(()=>new Set());
   const [artworkMode, setArtworkMode] = useState<'difference' | 'phonograph'>(() => readStorage<string>('nova-artwork-mode', 'difference') === 'phonograph' ? 'phonograph' : 'difference');
   const [query, setQuery] = useState('');
   const [filter, setFilter] = useState('all');
@@ -303,16 +302,8 @@ function ArchiveApp({ active, onBack, fromStory = false }: { active: boolean; on
   const [toast, setToast] = useState('');
   const playback = useSyncExternalStore(player.subscribe, player.snapshot);
   const chosen = items.find(o => o.id === selectedId) || items[0];
-  const sharpAvailable=chosen?.card.layers.length<=1&&sharpAvailability[chosen.code]===true;
+  const sharpAvailable=!!chosen&&sharpCodes.has(chosen.code);
   const useSharp=sharpAvailable&&sharpEnabled;
-  useEffect(()=>{
-    if(!active||!chosen||chosen.card.layers.length>1||sharpAvailability[chosen.code]!==undefined)return;
-    const controller=new AbortController(),code=chosen.code;
-    void sharpSceneAvailable(code,import.meta.env.DEV,controller.signal).then(available=>{
-      if(!controller.signal.aborted)setSharpAvailability(previous=>({...previous,[code]:available}));
-    }).catch(()=>{if(!controller.signal.aborted)sharpUnavailable(code);});
-    return()=>controller.abort();
-  },[active,chosen?.code,sharpAvailability,sharpUnavailable]);
   useEffect(()=>{
     if(new URLSearchParams(location.search).get('sharp_3d')==='1')setArtworkMode('difference');
   },[]);
@@ -328,7 +319,8 @@ function ArchiveApp({ active, onBack, fromStory = false }: { active: boolean; on
   const favorite = chosen && favorites.includes(chosen.id);
   const timer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
-  useEffect(() => { loadOutfits(location.href).then((data:{items:Outfit[]}) => {
+  useEffect(() => { Promise.all([loadOutfits(location.href),loadSharpManifest().catch(()=>({outfits:{}}))]).then(([data,manifest]) => {
+    setSharpCodes(new Set(Object.keys(manifest.outfits)));
     registerMusicPages(data.items.flatMap(outfit=>outfit.music.map((music,index)=>outfitMusicPage(outfit,music,index))));
     const requested=musicIdFromPath(location.pathname);
     const outfit=data.items.find(outfit=>outfit.music.some(music=>music.id===requested));
@@ -408,7 +400,7 @@ function ArchiveApp({ active, onBack, fromStory = false }: { active: boolean; on
       <div className="archive-scene scene-enter" key={chosen.id}>
         <section className={`archive-artwork mode-${artworkMode}`} aria-label={`${chosen.name}专辑展示`}>
           <div className="artwork-mode-switch" role="group" aria-label="专辑展示模式" style={{ flexWrap: 'wrap' }}><button aria-pressed={artworkMode === 'difference'} onClick={() => { sound('ui_outfit_button_tap'); setArtworkMode('difference'); }}><Expand size={16} />差分</button><button aria-pressed={artworkMode === 'phonograph'} onClick={() => { sound('ui_outfit_button_tap'); setArtworkMode('phonograph'); }}><Disc3 size={17} />唱机</button>{sharpAvailable && <button className="capsule-toggle sharp-toggle" aria-pressed={sharpEnabled} onClick={()=>{sound('ui_outfit_button_tap');setSharpEnabled(value=>!value);setArtworkMode('difference');}}><span className="capsule-checkbox" aria-hidden="true"/>SHARP 3D</button>}{artworkMode === 'difference' && <SensorControl />}</div>
-          <div className="archive-cover-wrap"><div className="card-aura" />{artworkMode === 'difference' ? (useSharp ? <SharpCard outfit={chosen} onUnavailable={sharpUnavailable} suspended={full || !active} onExpand={() => { sound('ui_common_click_select'); setFull(true); }}/> : <Card key={`${chosen.id}-${active}`} outfit={chosen} onExpand={() => { sound('ui_common_click_select'); setFull(true); }} />) : <Phonograph outfit={chosen} playing={playback.playing} onExpand={() => { sound('ui_common_click_select'); setFull(true); }} />}</div>
+          <div className="archive-cover-wrap"><div className="card-aura" />{artworkMode === 'difference' ? (useSharp ? <SharpCard outfit={chosen} suspended={full || !active} onExpand={() => { sound('ui_common_click_select'); setFull(true); }}/> : <Card key={`${chosen.id}-${active}`} outfit={chosen} onExpand={() => { sound('ui_common_click_select'); setFull(true); }} />) : <Phonograph outfit={chosen} playing={playback.playing} onExpand={() => { sound('ui_common_click_select'); setFull(true); }} />}</div>
         </section>
         <aside className="archive-panel">
           <section className="native-archive-sheet" aria-label="秘纹档案">
@@ -435,7 +427,7 @@ function ArchiveApp({ active, onBack, fromStory = false }: { active: boolean; on
 
     {showCollection && <Modal title="秘纹一览" close={() => { sound('ui_common_back'); setShowCollection(false); }} className="collection-modal"><div className="collection-tools"><label className="search-box"><Search size={18} /><input autoFocus value={query} onChange={e => setQuery(e.target.value)} placeholder="搜索秘纹、旅人或标签" aria-label="搜索秘纹" />{query && <button aria-label="清除搜索" onClick={() => setQuery('')}><X size={14} /></button>}</label><span>{filtered.length} / {items.length}</span></div><div className="collection-filters"><button className={filter === 'all' ? 'active' : ''} onClick={() => setFilter('all')}>全部</button><button className={filter === 'favorites' ? 'active' : ''} onClick={() => setFilter('favorites')}><Heart size={13} />珍藏</button>{[1, 2, 3, 4, 5, 6, 7].map(element => <button className={filter === String(element) ? 'active' : ''} key={element} onClick={() => setFilter(String(element))}>{ELEMENTS[element]}</button>)}</div><div className="collection-grid">{filtered.map((item, i) => <React.Fragment key={item.id}>{(i === 0 || filtered[i - 1].activity.id !== item.activity.id || filtered[i - 1].activity.date !== item.activity.date) && <div className="collection-activity"><span>{item.activity.name}</span><small>{item.activity.date ? item.activity.date.slice(0, 10).replaceAll("-", ".") : "常驻"}</small></div>}<button className={`collection-item ${chosen.id === item.id ? 'selected' : ''}`} onClick={() => select(item)}><div className={`collection-image rarity-${item.rarity}`}><img src={item.thumbnail} alt="" loading="lazy" /><span className="collection-stars">{'★'.repeat(item.rarity)}</span>{favorites.includes(item.id) && <Heart className="collection-heart" size={13} fill="currentColor" />}{chosen.id === item.id && <span className="selected-check"><Check size={16} /></span>}</div><strong>{item.name}</strong><small>出镜旅人：{item.characters.filter(Boolean).join(' / ') || '未知'}</small></button></React.Fragment>)}{!filtered.length && <div className="empty-collection"><Search size={28} /><p>{filter === 'favorites' ? '还没有找到珍藏的秘纹' : '没有找到这枚秘纹'}</p><button onClick={() => { setQuery(''); setFilter('all'); }}>查看全部秘纹</button></div>}</div></Modal>}
     {showStory && <Modal title={chosen.storyTitle || chosen.name} close={() => setShowStory(false)} className="story-modal"><article className="full-story"><RichText text={chosen.story || chosen.literary} /></article><div className="story-ending">✦</div></Modal>}
-    {full && <FullscreenArtwork outfit={chosen} sharp={useSharp} onSharpUnavailable={sharpUnavailable} close={() => setFull(false)} />}
+    {full && <FullscreenArtwork outfit={chosen} sharp={useSharp} close={() => setFull(false)} />}
   </div>;
 }
 

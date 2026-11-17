@@ -3,13 +3,13 @@ import * as THREE from 'three';
 import { SparkRenderer, SplatMesh } from '@sparkjsdev/spark';
 import { deviceTilt } from './deviceTilt';
 import { loadSharpScene } from './sharpScenes';
+import { loadSceneData } from './sharpSceneData';
 import './sharpScene.css';
 
-export default function SharpScene({full=false,suspended=false,code='4016',name='春日纪事',onUnavailable}:{full?:boolean;suspended?:boolean;code?:string;name?:string;onUnavailable?:(code:string)=>void}){
+export default function SharpScene({full=false,suspended=false,code='4016',name='春日纪事'}:{full?:boolean;suspended?:boolean;code?:string;name?:string}){
   const host=useRef<HTMLDivElement>(null);
   const canvasHost=useRef<HTMLDivElement>(null);
   const lightRef=useRef<HTMLDivElement>(null);
-  const unavailable=useRef(onUnavailable);unavailable.current=onUnavailable;
   const pointer=useRef({x:0,y:0,active:false,id:-1});
   const paused=useRef(suspended);paused.current=suspended;
   const [status,setStatus]=useState('正在加载三维场景…');
@@ -21,10 +21,21 @@ export default function SharpScene({full=false,suspended=false,code='4016',name=
     let target:THREE.WebGLRenderTarget|undefined,plane:THREE.Mesh<THREE.PlaneGeometry,THREE.MeshBasicMaterial>|undefined;
     let observer:ResizeObserver|undefined;
     const abort=new AbortController();
-    const contextLost=(event:Event)=>{event.preventDefault();if(!disposed){if(unavailable.current)unavailable.current(code);else setError('WebGL 上下文已丢失，请重新打开三维测试');}};
+    const contextLost=(event:Event)=>{event.preventDefault();if(!disposed){delete element.dataset.ready;setError('三维画面暂时无法显示');}};
     void (async()=>{
       try{
         const info=await loadSharpScene(code,import.meta.env.DEV,abort.signal);if(disposed)return;
+        let bytes:ArrayBuffer|undefined;
+        if(info.scene_format==='ply+gzip'){
+          bytes=await loadSceneData(info.scene_url,info.compressed_bytes,abort.signal,state=>{
+            if(disposed)return;
+            if(state.phase==='download')setStatus(state.total?`正在下载三维场景 ${Math.floor((state.loaded||0)/state.total*100)}%`:'正在下载三维场景…');
+            else if(state.phase==='retry')setStatus(`正在重试下载 ${state.attempt}/3…`);
+            else if(state.phase==='decompress')setStatus('正在解压三维场景…');
+            else setStatus('正在解析三维场景…');
+          });
+          if(disposed)return;
+        }
         element.dataset.source='precomputed';
         const scene=new THREE.Scene();scene.background=new THREE.Color(.012,.018,.028);
         const camera=new THREE.PerspectiveCamera(info.camera_fov_y_degrees,info.input_size[0]/info.input_size[1],.001,Math.max(100,info.focus_distance*100));
@@ -43,19 +54,11 @@ export default function SharpScene({full=false,suspended=false,code='4016',name=
         plane.frustumCulled=false;postScene.add(plane);
         spark=new SparkRenderer({renderer,accumExtSplats:true,sortRadial:false,blurAmount:0,preBlurAmount:0,maxStdDev:3,onDirty:()=>{dirty=true;}});
         scene.add(spark);
-        let bytes:ArrayBuffer|undefined;
-        if(info.scene_format==='ply+gzip'){
-          setStatus('正在解压三维场景…');
-          const response=await fetch(info.scene_url,{signal:abort.signal});
-          if(!response.ok||!response.body)throw new Error('三维场景下载失败');
-          bytes=await new Response(response.body.pipeThrough(new DecompressionStream('gzip'))).arrayBuffer();
-          if(disposed)return;
-        }
         mesh=new SplatMesh({url:bytes?undefined:info.scene_url,fileBytes:bytes,fileName:`${code}.ply`,extSplats:true,lod:false,enableLod:false,raycastable:false,
-          onProgress:event=>{if(!disposed)setStatus(event.lengthComputable?`正在加载三维场景 ${Math.round(event.loaded/event.total*100)}%…`:'正在解析三维场景…');}});
+          onProgress:event=>{if(!disposed)setStatus(event.lengthComputable?`正在解析三维场景 ${Math.round(event.loaded/event.total*100)}%…`:'正在解析三维场景…');}});
         mesh.rotation.x=Math.PI;
         scene.add(mesh);
-        let x=0,y=0,previous=performance.now(),renders=0;
+        let x=0,y=0,previous=performance.now(),renders=0,initialized=false,painted=false;
         // Keep the rotation pivot in front of the useful scene depth range, so
         // foreground and background both shift opposite to the pointer.
         const pivotDistance=(info.depth_percentiles?.[0]||info.focus_distance*.65)*.7;
@@ -95,13 +98,14 @@ export default function SharpScene({full=false,suspended=false,code='4016',name=
             dirty=false;renderer.setRenderTarget(target);renderer.render(scene,camera);
             renderer.setRenderTarget(null);renderer.render(postScene,postCamera);
             element.dataset.renderCount=String(++renders);
+            if(initialized&&!painted){painted=true;element.dataset.ready='true';setStatus('');}
           }
         };
         frame=requestAnimationFrame(tick);
         await mesh.initialized;
         if(disposed){mesh.dispose();return;}
-        element.dataset.splatCount=String(info.gaussian_count);element.dataset.ready='true';setStatus('');dirty=true;
-      }catch(reason){if(!disposed&&!abort.signal.aborted){if(unavailable.current)unavailable.current(code);else setError(reason instanceof Error?reason.message:'三维场景加载失败');}}
+        element.dataset.splatCount=String(info.gaussian_count);initialized=true;dirty=true;
+      }catch(reason){if(!disposed&&!abort.signal.aborted){delete element.dataset.ready;setError(reason instanceof Error?reason.message:'三维场景加载失败');}}
     })();
     return()=>{
       disposed=true;abort.abort();cancelAnimationFrame(frame);observer?.disconnect();
