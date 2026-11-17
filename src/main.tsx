@@ -14,7 +14,9 @@ import { ScrollingText } from './ScrollingText';
 import { OutlinedName } from './OutlinedName';
 import { loadOutfits } from './experimentalLayering';
 import { CARD_CONTENT_SCALE, backgroundLayer, cardDepths } from './parallaxDepth';
-import { loadSharpManifest } from './sharpScenes';
+import { loadSharpManifest, loadSharpScene, sharpSourceUrl } from './sharpScenes';
+import type { SharpSceneInfo } from './sharpScenes';
+import { hasModelCache } from './sharpModelCache';
 import { downloadArtwork } from './artworkDownload';
 import { SharpCacheButton } from './SharpCacheButton';
 import { applyInfinityTowerMixer } from './infinitytowerMixer';
@@ -295,7 +297,8 @@ function ArchiveApp({ active, onBack, fromStory = false }: { active: boolean; on
   const [showStory, setShowStory] = useState(false);
   const [full, setFull] = useState(false);
   const [sharpCode,setSharpCode]=useState<string|null>(null);
-  const [sharpSizes,setSharpSizes]=useState<Record<string,number>>({});
+  const [sharpEntries,setSharpEntries]=useState<Record<string,SharpSceneInfo>>({});
+  const sharpInteraction=useRef(0);
   const [artworkMode, setArtworkMode] = useState<'difference' | 'phonograph'>(() => readStorage<string>('nova-artwork-mode', 'difference') === 'phonograph' ? 'phonograph' : 'difference');
   const [query, setQuery] = useState('');
   const [filter, setFilter] = useState('all');
@@ -305,16 +308,29 @@ function ArchiveApp({ active, onBack, fromStory = false }: { active: boolean; on
   const [toast, setToast] = useState('');
   const playback = useSyncExternalStore(player.subscribe, player.snapshot);
   const chosen = items.find(o => o.id === selectedId) || items[0];
-  const sharpAvailable=!!chosen&&Object.hasOwn(sharpSizes,chosen.code);
+  const sharpAvailable=!!chosen&&Object.hasOwn(sharpEntries,chosen.code);
   const useSharp=sharpAvailable&&sharpCode===chosen.code;
-  useEffect(()=>{setSharpCode(null);},[chosen?.code,active]);
   const selectedIndex = chosen ? items.indexOf(chosen) : 0;
   const currentMusic = chosen?.music[melody] || chosen?.music[0];
+  useEffect(()=>{
+    const code=chosen?.code;
+    setSharpCode(previous=>active&&previous===code?previous:null);
+    if(!active||!code||!sharpEntries[code])return;
+    const controller=new AbortController(),interaction=sharpInteraction.current;
+    void (async()=>{
+      const info=import.meta.env.DEV?await loadSharpScene(code,true,controller.signal):sharpEntries[code];
+      const cached=await hasModelCache(sharpSourceUrl(info));
+      if(cached&&!controller.signal.aborted&&interaction===sharpInteraction.current){
+        setSharpCode(code);setArtworkMode('difference');
+      }
+    })().catch(()=>{});
+    return()=>controller.abort();
+  },[chosen?.code,currentMusic?.id,active,sharpEntries]);
   const favorite = chosen && favorites.includes(chosen.id);
   const timer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   useEffect(() => { Promise.all([loadOutfits(location.href),loadSharpManifest().catch(()=>({outfits:{}}))]).then(([data,manifest]) => {
-    setSharpSizes(Object.fromEntries(Object.entries(manifest.outfits).map(([code,info])=>[code,info.compressed_bytes||0])));
+    setSharpEntries(manifest.outfits);
     registerMusicPages(data.items.flatMap(outfit=>outfit.music.map((music,index)=>outfitMusicPage(outfit,music,index))));
     const requested=musicIdFromPath(location.pathname);
     const outfit=data.items.find(outfit=>outfit.music.some(music=>music.id===requested));
@@ -333,8 +349,8 @@ function ArchiveApp({ active, onBack, fromStory = false }: { active: boolean; on
   useEffect(() => { deviceTilt.setViewing(sensorViewing); return () => deviceTilt.setViewing(false); }, [sensorViewing]);
   const sound = (name: string) => { if (soundEnabled) void player.sound(name); };
   const notify = (message: string) => { setToast(message); if (timer.current) clearTimeout(timer.current); timer.current = setTimeout(() => setToast(''), 2400); };
-  const sharpLabel=`3D${sharpAvailable&&sharpSizes[chosen.code]>0?` (${(sharpSizes[chosen.code]/1000000).toFixed(1)}MB)`:''}`;
-  const artwork3DAction=sharpAvailable?<span className="model-actions"><button className="save-card three-d-card" aria-label={sharpLabel} aria-pressed={useSharp} onClick={()=>{sound('ui_outfit_button_tap');setSharpCode(useSharp?null:chosen.code);setArtworkMode('difference');}}><Box size={17}/><span>{sharpLabel}</span></button><SharpCacheButton code={chosen.code} onError={notify}/></span>:undefined;
+  const sharpLabel=`3D${sharpAvailable&&(sharpEntries[chosen.code].compressed_bytes||0)>0?` (${((sharpEntries[chosen.code].compressed_bytes||0)/1000000).toFixed(1)}MB)`:''}`;
+  const artwork3DAction=sharpAvailable?<span className="model-actions"><button className="save-card three-d-card" aria-label={sharpLabel} aria-pressed={useSharp} onClick={()=>{sound('ui_outfit_button_tap');sharpInteraction.current++;setSharpCode(useSharp?null:chosen.code);setArtworkMode('difference');}}><Box size={17}/><span>{sharpLabel}</span></button><SharpCacheButton code={chosen.code} onError={notify}/></span>:undefined;
   const copyPageLink=async()=>{
     if(!chosen || !currentMusic)return;
     const url=musicUrl(location.href,currentMusic.id);
@@ -396,8 +412,8 @@ function ArchiveApp({ active, onBack, fromStory = false }: { active: boolean; on
       <div className="archive-scene scene-enter" key={chosen.id}>
         <section className={`archive-artwork mode-${artworkMode}`} aria-label={`${chosen.name}专辑展示`}>
           <div className="artwork-mode-switch" role="group" aria-label="专辑展示模式" style={{ flexWrap: 'wrap' }}>
-            <button aria-pressed={artworkMode === 'difference'&&!useSharp} onClick={() => { sound('ui_outfit_button_tap'); setSharpCode(null);setArtworkMode('difference'); }}><Expand size={16} />差分</button>
-            <button aria-pressed={artworkMode === 'phonograph'} onClick={() => { sound('ui_outfit_button_tap'); setSharpCode(null);setArtworkMode('phonograph'); }}><Disc3 size={17} />唱机</button>
+            <button aria-pressed={artworkMode === 'difference'&&!useSharp} onClick={() => { sound('ui_outfit_button_tap'); sharpInteraction.current++;setSharpCode(null);setArtworkMode('difference'); }}><Expand size={16} />差分</button>
+            <button aria-pressed={artworkMode === 'phonograph'} onClick={() => { sound('ui_outfit_button_tap'); sharpInteraction.current++;setSharpCode(null);setArtworkMode('phonograph'); }}><Disc3 size={17} />唱机</button>
             {artworkMode === 'difference' && <SensorControl />}
           </div>
           <div className="archive-cover-wrap"><div className="card-aura" />{artworkMode === 'difference' ? (useSharp ? <SharpCard outfit={chosen} action={artwork3DAction} suspended={full || !active} onExpand={() => { sound('ui_common_click_select'); setFull(true); }}/> : <Card key={`${chosen.id}-${active}`} outfit={chosen} action={artwork3DAction} onExpand={() => { sound('ui_common_click_select'); setFull(true); }} />) : <Phonograph outfit={chosen} action={artwork3DAction} playing={playback.playing} onExpand={() => { sound('ui_common_click_select'); setFull(true); }} />}</div>

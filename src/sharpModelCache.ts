@@ -27,6 +27,10 @@ export async function readModelCache(url: string, size?: number): Promise<Blob |
   } catch { /* Storage access is optional for previewing models. */ }
   update(url, {cached: false});
 }
+export async function hasModelCache(url: string): Promise<boolean> {
+  try { return !!(await (await caches.open(CACHE)).match(url)); }
+  catch { return false; }
+}
 export async function discardModelCache(url: string): Promise<void> {
   await (await caches.open(CACHE)).delete(url); update(url, {cached: false});
 }

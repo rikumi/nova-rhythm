@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import * as THREE from 'three';
 import { SparkRenderer, SplatMesh } from '@sparkjsdev/spark';
 import { deviceTilt } from './deviceTilt';
-import { loadSharpScene } from './sharpScenes';
+import { loadSharpScene, sharpSourceUrl } from './sharpScenes';
 import { loadSceneData } from './sharpSceneData';
 import { bindModelSource } from './sharpModelCache';
 import './sharpScene.css';
@@ -27,7 +27,7 @@ export default function SharpScene({full=false,suspended=false,code='4016',name=
       try{
         const info=await loadSharpScene(code,import.meta.env.DEV,abort.signal);if(disposed)return;
         const compressed=info.scene_format==='ply+gzip';
-        const source=compressed||!info.scene_sha256?info.scene_url:`${info.scene_url}?v=${info.scene_sha256}`;
+        const source=sharpSourceUrl(info);
         const bytes=await loadSceneData(source,compressed?info.compressed_bytes:info.scene_bytes,abort.signal,state=>{
             if(disposed)return;
             if(state.phase==='download')setStatus(state.total?`正在下载三维场景 ${Math.floor((state.loaded||0)/state.total*100)}%`:'正在下载三维场景…');

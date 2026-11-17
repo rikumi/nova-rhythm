@@ -4,6 +4,10 @@ export interface SharpSceneInfo {
   compressed_bytes?: number;
   scene_bytes?: number; scene_sha256?: string;
 }
+export function sharpSourceUrl(info: SharpSceneInfo): string {
+  return info.scene_format==='ply+gzip'||!info.scene_sha256 ? info.scene_url
+    : `${info.scene_url}${info.scene_url.includes('?')?'&':'?'}v=${info.scene_sha256}`;
+}
 
 let manifest: Promise<{outfits: Record<string, SharpSceneInfo>}> | undefined;
 export function loadSharpManifest(): Promise<{outfits: Record<string, SharpSceneInfo>}> {
