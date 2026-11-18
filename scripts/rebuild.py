@@ -348,6 +348,7 @@ def extract_new_art(outfits, game, work, output):
     from export_share_previews import save_preview
     import UnityPy
     from disc_layout import layout
+    from disc_mesh import layer_image
     errors = []
     baseline_codes = {o['code'] for o in read(REPOSITORY/'public/data/outfits.json')['items']}
     for outfit in outfits['items']:
@@ -380,7 +381,7 @@ def extract_new_art(outfits, game, work, output):
             native_sprites = {}
             outfit['card'] = layout({'code': code, 'artwork': art}, sprite_exports=native_sprites)
             for layer in outfit['card']['layers']:
-                native_sprites[layer['name']].read().image.save(folder/(layer['name']+'.webp'), 'WEBP', lossless=True, method=4, exact=True)
+                layer_image(layer, native_sprites[layer['name']]).save(folder/Path(layer['path']).name, 'WEBP', lossless=True, method=4, exact=True)
             write(work/f'art/{code}.json', {'bundle': bundle.relative_to(game).as_posix(),
                                           'source_sha256': digest(bundle), 'card': outfit['card']})
         except Exception as exc:

@@ -7,6 +7,7 @@ from pathlib import Path
 from PIL import Image
 
 from disc_layout import layout
+from disc_mesh import layer_image
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -55,7 +56,7 @@ def main():
             target = ROOT/'public'/layer['path'].lstrip('/')
             if not target.exists() and target not in jobs:
                 # Follow the exact Sprite reference, including unprefixed and packed textures.
-                jobs[target] = (sprites[layer['name']].read().image, target)
+                jobs[target] = (layer_image(layer, sprites[layer['name']]), target)
                 missing = True
         if not changed and not missing:
             continue

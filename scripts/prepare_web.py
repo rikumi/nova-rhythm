@@ -72,6 +72,7 @@ def optimize(source, target, size=1400):
 
 
 from disc_layout import layout
+from disc_mesh import layer_image
 
 
 def skill(table, group):
@@ -98,12 +99,12 @@ def prepare(item):
     card = layout(item, sprite_exports=native_sprites)
     for layer in card['layers']:
         source = images.get(layer['name'])
-        if source:
+        if source and not layer.get('native_mesh'):
             optimize(ROOT / source['path'], WEB_ROOT / layer['path'].lstrip('/'))
         else:
             target = WEB_ROOT / layer['path'].lstrip('/')
             target.parent.mkdir(parents=True, exist_ok=True)
-            native_sprites[layer['name']].read().image.save(target, 'WEBP', lossless=True, method=4, exact=True)
+            layer_image(layer, native_sprites[layer['name']]).save(target, 'WEBP', lossless=True, method=4, exact=True)
     disc = item['disc_config']
     item_config = get('Item', item['id'])
     candidates = [t for t in TRACKS if t['details'].get('disc_id') == item['id']]

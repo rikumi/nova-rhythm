@@ -198,6 +198,8 @@ python scripts/recover_native_layers.py
 
 图层材质还取决于同一节点上的运行时组件，不能仅检查 Image 的 `m_Material`。提取器识别启用的 `UnityEngine.UI.Extensions.UIAdditiveEffect`，在清单中记录 `blend_mode: "additive"` 及组件来源。网页在图层容器上使用 `plus-lighter`，对应其[原始 Shader](https://github.com/Unity-UI-Extensions/com.unity.uiextensions/blob/release/Runtime/Resources/Shaders/UIAdditive.shader) 的预乘颜色与 `Blend One One`；黑色区域不再遮挡其它图层。原始图片保留不变。
 
+对于《狼贪虎视》地板这类大幅倾斜的 `ImageWarp`，矩形位置和尺寸不足以还原显示。`disc_mesh.py` 读取原始四角三维坐标、细分数量和静态父级变换，按相机逐顶点投影并烘焙成透明 WebP；运行时陀螺仪跟随组件覆盖的预览倾斜不参与烘焙。清单的 `native_mesh` 保留生成依据，图片路径以 `_native-mesh.webp` 结尾。网页沿用普通差分图层展示，不增加浏览器网格渲染开销。
+
 ## 验证
 
 ```powershell

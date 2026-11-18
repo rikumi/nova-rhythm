@@ -36,6 +36,11 @@ test('all outfits are audited and special ImageWarp backgrounds and unprefixed s
   assert.ok(card('4016').layers.some(layer=>layer.name==='bg'));
   assert.ok(card('4016').layers.some(layer=>layer.name==='01'));
   assert.equal(card('4012').layers.length,17);
+  const ground=card('4012').layers.find(layer=>layer.name==='4012_ground');
+  assert.equal(ground.native_mesh.subdivisions,30);
+  assert.ok(ground.path.endsWith('_native-mesh.webp'));
+  assert.ok(ground.y-ground.height/2 < -400,'tilted floor must reach the bottom of the frame');
+  assert.ok(ground.width>1200,'native warped floor spans the full foreground');
 });
 
 test('native perspective is calibrated in Canvas reference units rather than render pixels',()=>{
