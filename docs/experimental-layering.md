@@ -66,10 +66,6 @@ It creates a separate `experimental-layering-qwen-YYYYMMDD` GitHub Release using
 
 The publisher expects the frontend support and these scripts to have already been committed on `main`. It never force-pushes. A failed image, upload or deployment produces a failed status with details, retaining completed assets for retry.
 
-## Rejected depth-slice trial
-
-Apple SHARP was tested locally on three samples. Inference took about 1.7–2.0 seconds per image and projected Gaussian depth bands took about 6–11 seconds to export. The static reconstruction was close, but depth bands split continuous people, clothing and props. It was rejected for this feature. Its local outputs are preserved separately under `.build/sharp-layering`; no SHARP layers are published by this pipeline.
-
 ## Reviewed publication and corrections
 
 `references/experimental-layering-corrections.json` records requested grouping and occlusion corrections. `apply_corrections.py` transfers existing RGBA pixels without inference, retains backups, and checks that the composite changes by at most rounding error. Unreviewed corrected results stay local.

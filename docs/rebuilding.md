@@ -182,6 +182,18 @@ $env:VGMSTREAM_CLI = "$PWD\tools\vgmstream\vgmstream-cli.exe"
 
 重新整理参考快照可使用 `snapshot_references.py`，输入是完整的原始研究工作区，输出为仓库 `references/`；它不会由普通增量导入自动调用。应在确认分析、选用结果和来源版本后手动运行并审阅 diff。
 
+## 核对与恢复原生秘纹图层
+
+原生图层按游戏的 `_G` 预制体引用提取。部分版本资源省略了组件类型描述，`native_typetrees.py` 会从常驻及版本资源中寻找脚本标识、序列化结构哈希完全一致的描述，并验证读取长度。图片名称可能只有 `bg`、`01`、`title` 等，不能按编号前缀过滤；`ImageWarp` 等特殊 Image 组件也必须保留。
+
+已有 `assets/outfit/<编号>/manifest.json` 后可运行：
+
+```powershell
+python scripts/recover_native_layers.py
+```
+
+此脚本核对全部秘纹，保留其它文本与音乐字段，仅修复原生图层布局和缺失图片。导出的 WebP 保留原始分辨率并使用无损编码；布局、源文件哈希和图片哈希记录在 `references/native-layer-recovery.json`。若有无法解析的组件，停止更新清单，避免将缺失图层误判为静态秘纹。游戏目录始终只读。
+
 ## 验证
 
 ```powershell
