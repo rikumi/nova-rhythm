@@ -59,7 +59,9 @@
             "rotation": 0.0,
             "branch": "layer_1",
             "opacity": 1.0,
-            "is_title": false
+            "is_title": false,
+            "blend_mode": "additive",
+            "blend_source": "UnityEngine.UI.Extensions.UIAdditiveEffect"
           },
           {
             "name": "4069_title",
@@ -293,7 +295,9 @@
             "rotation": 0.0,
             "branch": "layer_1",
             "opacity": 1.0,
-            "is_title": false
+            "is_title": false,
+            "blend_mode": "additive",
+            "blend_source": "UnityEngine.UI.Extensions.UIAdditiveEffect"
           },
           {
             "name": "4069_spark1",
@@ -661,7 +665,9 @@
             "rotation": 0.0,
             "branch": "layer_1",
             "opacity": 0.45490196347236633,
-            "is_title": false
+            "is_title": false,
+            "blend_mode": "additive",
+            "blend_source": "UnityEngine.UI.Extensions.UIAdditiveEffect"
           },
           {
             "name": "4067_starlight2",
@@ -697,7 +703,9 @@
             "rotation": 0.0,
             "branch": "layer_1",
             "opacity": 0.6745098233222961,
-            "is_title": false
+            "is_title": false,
+            "blend_mode": "additive",
+            "blend_source": "UnityEngine.UI.Extensions.UIAdditiveEffect"
           },
           {
             "name": "4067_star",
@@ -1007,7 +1015,9 @@
             "rotation": 0.0,
             "branch": "layer_1",
             "opacity": 1.0,
-            "is_title": false
+            "is_title": false,
+            "blend_mode": "additive",
+            "blend_source": "UnityEngine.UI.Extensions.UIAdditiveEffect"
           },
           {
             "name": "4066_aura",
@@ -1025,7 +1035,9 @@
             "rotation": 0.0,
             "branch": "layer_1",
             "opacity": 1.0,
-            "is_title": false
+            "is_title": false,
+            "blend_mode": "additive",
+            "blend_source": "UnityEngine.UI.Extensions.UIAdditiveEffect"
           },
           {
             "name": "4066_radiation",
@@ -1043,7 +1055,9 @@
             "rotation": 0.0,
             "branch": "layer_1",
             "opacity": 0.8196078538894653,
-            "is_title": false
+            "is_title": false,
+            "blend_mode": "additive",
+            "blend_source": "UnityEngine.UI.Extensions.UIAdditiveEffect"
           },
           {
             "name": "4066_title",
@@ -1281,7 +1295,9 @@
             "rotation": 0.0,
             "branch": "layer_1",
             "opacity": 1.0,
-            "is_title": false
+            "is_title": false,
+            "blend_mode": "additive",
+            "blend_source": "UnityEngine.UI.Extensions.UIAdditiveEffect"
           },
           {
             "name": "4062_cloud",
@@ -1461,7 +1477,9 @@
             "rotation": 0.0,
             "branch": "layer_1",
             "opacity": 1.0,
-            "is_title": false
+            "is_title": false,
+            "blend_mode": "additive",
+            "blend_source": "UnityEngine.UI.Extensions.UIAdditiveEffect"
           },
           {
             "name": "4062_effect",
@@ -1879,7 +1897,9 @@
             "rotation": -0.6172,
             "branch": "layer_1",
             "opacity": 1.0,
-            "is_title": false
+            "is_title": false,
+            "blend_mode": "additive",
+            "blend_source": "UnityEngine.UI.Extensions.UIAdditiveEffect"
           },
           {
             "name": "4061_front",
@@ -2171,7 +2191,9 @@
             "rotation": 0.0,
             "branch": "layer_1",
             "opacity": 1.0,
-            "is_title": false
+            "is_title": false,
+            "blend_mode": "additive",
+            "blend_source": "UnityEngine.UI.Extensions.UIAdditiveEffect"
           },
           {
             "name": "4060_petal",
@@ -2899,7 +2921,9 @@
             "rotation": 0.0,
             "branch": "layer_1",
             "opacity": 1.0,
-            "is_title": false
+            "is_title": false,
+            "blend_mode": "additive",
+            "blend_source": "UnityEngine.UI.Extensions.UIAdditiveEffect"
           },
           {
             "name": "4058_sub",
@@ -3083,7 +3107,9 @@
             "rotation": 0.0,
             "branch": "layer_1",
             "opacity": 1.0,
-            "is_title": false
+            "is_title": false,
+            "blend_mode": "additive",
+            "blend_source": "UnityEngine.UI.Extensions.UIAdditiveEffect"
           },
           {
             "name": "4057_drop",
@@ -3101,7 +3127,9 @@
             "rotation": 0.0,
             "branch": "layer_1",
             "opacity": 1.0,
-            "is_title": false
+            "is_title": false,
+            "blend_mode": "additive",
+            "blend_source": "UnityEngine.UI.Extensions.UIAdditiveEffect"
           },
           {
             "name": "4057_seagull1",
@@ -3303,7 +3331,9 @@
             "rotation": 0.0,
             "branch": "layer_1",
             "opacity": 1.0,
-            "is_title": false
+            "is_title": false,
+            "blend_mode": "additive",
+            "blend_source": "UnityEngine.UI.Extensions.UIAdditiveEffect"
           },
           {
             "name": "4056_waterfall",
@@ -4215,7 +4245,9 @@
             "rotation": 0.0,
             "branch": "layer_1",
             "opacity": 1.0,
-            "is_title": false
+            "is_title": false,
+            "blend_mode": "additive",
+            "blend_source": "UnityEngine.UI.Extensions.UIAdditiveEffect"
           },
           {
             "name": "4054_title",
@@ -4597,7 +4629,9 @@
             "rotation": 0.0,
             "branch": "layer_1",
             "opacity": 0.4588235318660736,
-            "is_title": false
+            "is_title": false,
+            "blend_mode": "additive",
+            "blend_source": "UnityEngine.UI.Extensions.UIAdditiveEffect"
           },
           {
             "name": "4052_star1",
@@ -4871,7 +4905,9 @@
             "rotation": 0.0,
             "branch": "layer_1",
             "opacity": 0.4901960790157318,
-            "is_title": false
+            "is_title": false,
+            "blend_mode": "additive",
+            "blend_source": "UnityEngine.UI.Extensions.UIAdditiveEffect"
           },
           {
             "name": "4051_monster2",
@@ -4961,7 +4997,9 @@
             "rotation": 0.0,
             "branch": "layer_1",
             "opacity": 0.33725491166114807,
-            "is_title": false
+            "is_title": false,
+            "blend_mode": "additive",
+            "blend_source": "UnityEngine.UI.Extensions.UIAdditiveEffect"
           },
           {
             "name": "4051_light3",
@@ -5526,7 +5564,9 @@
             "rotation": 0.0,
             "branch": "layer_1",
             "opacity": 1.0,
-            "is_title": false
+            "is_title": false,
+            "blend_mode": "additive",
+            "blend_source": "UnityEngine.UI.Extensions.UIAdditiveEffect"
           },
           {
             "name": "4049_halo",
@@ -5544,7 +5584,9 @@
             "rotation": 0.0,
             "branch": "layer_1",
             "opacity": 0.772549033164978,
-            "is_title": false
+            "is_title": false,
+            "blend_mode": "additive",
+            "blend_source": "UnityEngine.UI.Extensions.UIAdditiveEffect"
           },
           {
             "name": "4049_wind",
@@ -5562,7 +5604,9 @@
             "rotation": 0.0,
             "branch": "layer_1",
             "opacity": 1.0,
-            "is_title": false
+            "is_title": false,
+            "blend_mode": "additive",
+            "blend_source": "UnityEngine.UI.Extensions.UIAdditiveEffect"
           },
           {
             "name": "4049_stair1",
@@ -5856,7 +5900,9 @@
             "rotation": -0.16,
             "branch": "layer_1",
             "opacity": 0.5960784554481506,
-            "is_title": false
+            "is_title": false,
+            "blend_mode": "additive",
+            "blend_source": "UnityEngine.UI.Extensions.UIAdditiveEffect"
           },
           {
             "name": "4050_roundlight",
@@ -5874,7 +5920,9 @@
             "rotation": -0.16,
             "branch": "layer_1",
             "opacity": 1.0,
-            "is_title": false
+            "is_title": false,
+            "blend_mode": "additive",
+            "blend_source": "UnityEngine.UI.Extensions.UIAdditiveEffect"
           },
           {
             "name": "4050_shadow",
@@ -5910,7 +5958,9 @@
             "rotation": -0.16,
             "branch": "layer_1",
             "opacity": 0.5960784554481506,
-            "is_title": false
+            "is_title": false,
+            "blend_mode": "additive",
+            "blend_source": "UnityEngine.UI.Extensions.UIAdditiveEffect"
           },
           {
             "name": "4050_spark1",
@@ -5946,7 +5996,9 @@
             "rotation": -0.2945,
             "branch": "layer_1",
             "opacity": 0.7058823704719543,
-            "is_title": false
+            "is_title": false,
+            "blend_mode": "additive",
+            "blend_source": "UnityEngine.UI.Extensions.UIAdditiveEffect"
           },
           {
             "name": "4050_boss",
@@ -6090,7 +6142,9 @@
             "rotation": -0.16,
             "branch": "layer_1",
             "opacity": 1.0,
-            "is_title": false
+            "is_title": false,
+            "blend_mode": "additive",
+            "blend_source": "UnityEngine.UI.Extensions.UIAdditiveEffect"
           },
           {
             "name": "4050_chandelier1",
@@ -6126,7 +6180,9 @@
             "rotation": -0.16,
             "branch": "layer_1",
             "opacity": 1.0,
-            "is_title": false
+            "is_title": false,
+            "blend_mode": "additive",
+            "blend_source": "UnityEngine.UI.Extensions.UIAdditiveEffect"
           },
           {
             "name": "4050_title",
@@ -6310,7 +6366,9 @@
             "rotation": -1.7517,
             "branch": "layer_1",
             "opacity": 0.6549019813537598,
-            "is_title": false
+            "is_title": false,
+            "blend_mode": "additive",
+            "blend_source": "UnityEngine.UI.Extensions.UIAdditiveEffect"
           },
           {
             "name": "4045_petal",
@@ -7204,7 +7262,9 @@
             "rotation": -0.1326,
             "branch": "layer_1",
             "opacity": 1.0,
-            "is_title": false
+            "is_title": false,
+            "blend_mode": "additive",
+            "blend_source": "UnityEngine.UI.Extensions.UIAdditiveEffect"
           },
           {
             "name": "fx02",
@@ -7294,7 +7354,9 @@
             "rotation": -0.1326,
             "branch": "layer_1",
             "opacity": 1.0,
-            "is_title": false
+            "is_title": false,
+            "blend_mode": "additive",
+            "blend_source": "UnityEngine.UI.Extensions.UIAdditiveEffect"
           },
           {
             "name": "title01",
@@ -7496,7 +7558,9 @@
             "rotation": 0.0,
             "branch": "layer_1",
             "opacity": 1.0,
-            "is_title": false
+            "is_title": false,
+            "blend_mode": "additive",
+            "blend_source": "UnityEngine.UI.Extensions.UIAdditiveEffect"
           },
           {
             "name": "05",
@@ -7550,7 +7614,9 @@
             "rotation": 0.0,
             "branch": "layer_1",
             "opacity": 1.0,
-            "is_title": false
+            "is_title": false,
+            "blend_mode": "additive",
+            "blend_source": "UnityEngine.UI.Extensions.UIAdditiveEffect"
           },
           {
             "name": "06_add",
@@ -7568,7 +7634,9 @@
             "rotation": 0.0,
             "branch": "layer_1",
             "opacity": 0.3803921639919281,
-            "is_title": false
+            "is_title": false,
+            "blend_mode": "additive",
+            "blend_source": "UnityEngine.UI.Extensions.UIAdditiveEffect"
           },
           {
             "name": "07",
@@ -7604,7 +7672,9 @@
             "rotation": 0.0,
             "branch": "layer_1",
             "opacity": 0.3803921639919281,
-            "is_title": false
+            "is_title": false,
+            "blend_mode": "additive",
+            "blend_source": "UnityEngine.UI.Extensions.UIAdditiveEffect"
           },
           {
             "name": "09",
@@ -8668,7 +8738,9 @@
             "rotation": 0.0,
             "branch": "layer_1",
             "opacity": 1.0,
-            "is_title": false
+            "is_title": false,
+            "blend_mode": "additive",
+            "blend_source": "UnityEngine.UI.Extensions.UIAdditiveEffect"
           },
           {
             "name": "4042_lantern",
@@ -8870,7 +8942,9 @@
             "rotation": 0.0,
             "branch": "layer_1",
             "opacity": 1.0,
-            "is_title": false
+            "is_title": false,
+            "blend_mode": "additive",
+            "blend_source": "UnityEngine.UI.Extensions.UIAdditiveEffect"
           },
           {
             "name": "02",
@@ -8978,7 +9052,9 @@
             "rotation": 0.0,
             "branch": "layer_1",
             "opacity": 1.0,
-            "is_title": false
+            "is_title": false,
+            "blend_mode": "additive",
+            "blend_source": "UnityEngine.UI.Extensions.UIAdditiveEffect"
           },
           {
             "name": "fx01",
@@ -8996,7 +9072,9 @@
             "rotation": 0.0,
             "branch": "layer_1",
             "opacity": 1.0,
-            "is_title": false
+            "is_title": false,
+            "blend_mode": "additive",
+            "blend_source": "UnityEngine.UI.Extensions.UIAdditiveEffect"
           },
           {
             "name": "06",
@@ -9068,7 +9146,9 @@
             "rotation": 0.0,
             "branch": "layer_title",
             "opacity": 1.0,
-            "is_title": true
+            "is_title": true,
+            "blend_mode": "additive",
+            "blend_source": "UnityEngine.UI.Extensions.UIAdditiveEffect"
           }
         ],
         "motion": {
@@ -9234,7 +9314,9 @@
             "rotation": -0.196,
             "branch": "layer_1",
             "opacity": 0.7607843279838562,
-            "is_title": false
+            "is_title": false,
+            "blend_mode": "additive",
+            "blend_source": "UnityEngine.UI.Extensions.UIAdditiveEffect"
           },
           {
             "name": "4043_light",
@@ -9252,7 +9334,9 @@
             "rotation": -0.0402,
             "branch": "layer_1",
             "opacity": 0.4431372582912445,
-            "is_title": false
+            "is_title": false,
+            "blend_mode": "additive",
+            "blend_source": "UnityEngine.UI.Extensions.UIAdditiveEffect"
           },
           {
             "name": "4043_leaves",
@@ -9692,7 +9776,9 @@
             "rotation": 0.0,
             "branch": "layer_1",
             "opacity": 1.0,
-            "is_title": false
+            "is_title": false,
+            "blend_mode": "additive",
+            "blend_source": "UnityEngine.UI.Extensions.UIAdditiveEffect"
           },
           {
             "name": "05",
@@ -9728,7 +9814,9 @@
             "rotation": 0.0,
             "branch": "layer_1",
             "opacity": 1.0,
-            "is_title": false
+            "is_title": false,
+            "blend_mode": "additive",
+            "blend_source": "UnityEngine.UI.Extensions.UIAdditiveEffect"
           },
           {
             "name": "title",
@@ -10640,7 +10728,9 @@
             "rotation": 0.1343,
             "branch": "layer_1",
             "opacity": 1.0,
-            "is_title": false
+            "is_title": false,
+            "blend_mode": "additive",
+            "blend_source": "UnityEngine.UI.Extensions.UIAdditiveEffect"
           },
           {
             "name": "4024_Title_Down",
@@ -11242,7 +11332,9 @@
             "rotation": -0.024,
             "branch": "layer_1",
             "opacity": 1.0,
-            "is_title": false
+            "is_title": false,
+            "blend_mode": "additive",
+            "blend_source": "UnityEngine.UI.Extensions.UIAdditiveEffect"
           },
           {
             "name": "4036_Title_Down",
@@ -11462,7 +11554,9 @@
             "rotation": 0.0,
             "branch": "layer_1",
             "opacity": 1.0,
-            "is_title": false
+            "is_title": false,
+            "blend_mode": "additive",
+            "blend_source": "UnityEngine.UI.Extensions.UIAdditiveEffect"
           },
           {
             "name": "4040_title1",
@@ -11920,7 +12014,9 @@
             "rotation": 0.0,
             "branch": "layer_1",
             "opacity": 1.0,
-            "is_title": false
+            "is_title": false,
+            "blend_mode": "additive",
+            "blend_source": "UnityEngine.UI.Extensions.UIAdditiveEffect"
           },
           {
             "name": "4028_petal",
@@ -12358,7 +12454,9 @@
             "rotation": 0.0,
             "branch": "layer_1",
             "opacity": 1.0,
-            "is_title": false
+            "is_title": false,
+            "blend_mode": "additive",
+            "blend_source": "UnityEngine.UI.Extensions.UIAdditiveEffect"
           },
           {
             "name": "4038_Title",
@@ -12875,7 +12973,9 @@
             "rotation": 0.0,
             "branch": "layer_1",
             "opacity": 1.0,
-            "is_title": false
+            "is_title": false,
+            "blend_mode": "additive",
+            "blend_source": "UnityEngine.UI.Extensions.UIAdditiveEffect"
           },
           {
             "name": "4033_rope",
@@ -13190,7 +13290,9 @@
             "rotation": 0.0,
             "branch": "layer_1",
             "opacity": 1.0,
-            "is_title": false
+            "is_title": false,
+            "blend_mode": "additive",
+            "blend_source": "UnityEngine.UI.Extensions.UIAdditiveEffect"
           },
           {
             "name": "4031_actor2",
@@ -13226,7 +13328,9 @@
             "rotation": 0.0,
             "branch": "layer_1",
             "opacity": 1.0,
-            "is_title": false
+            "is_title": false,
+            "blend_mode": "additive",
+            "blend_source": "UnityEngine.UI.Extensions.UIAdditiveEffect"
           },
           {
             "name": "4031_fg",
@@ -16338,7 +16442,9 @@
             "rotation": 0.0,
             "branch": "layer_1",
             "opacity": 1.0,
-            "is_title": false
+            "is_title": false,
+            "blend_mode": "additive",
+            "blend_source": "UnityEngine.UI.Extensions.UIAdditiveEffect"
           },
           {
             "name": "flower",
@@ -16523,7 +16629,9 @@
             "rotation": 0.0,
             "branch": "layer_3",
             "opacity": 1.0,
-            "is_title": false
+            "is_title": false,
+            "blend_mode": "additive",
+            "blend_source": "UnityEngine.UI.Extensions.UIAdditiveEffect"
           },
           {
             "name": "4",

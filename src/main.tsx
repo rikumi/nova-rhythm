@@ -93,7 +93,7 @@ function FullscreenArtwork({ outfit, close }: { outfit: Outfit; close: () => voi
   </dialog>;
 }
 
-function CardLayer({ src, style, background, index, visible, onReady, onReveal, flat = false }: { src:string; style?:CSSProperties; background?:boolean; index:number; visible:boolean; onReady:(index:number)=>void; onReveal:(index:number)=>void; flat?:boolean }) {
+function CardLayer({ src, style, background, index, visible, onReady, onReveal, flat = false, blend }: { src:string; style?:CSSProperties; background?:boolean; index:number; visible:boolean; onReady:(index:number)=>void; onReveal:(index:number)=>void; flat?:boolean; blend?:'additive' }) {
   const ref=useRef<HTMLImageElement>(null);
   useEffect(()=>{
     const image=ref.current;if(!image)return;
@@ -103,7 +103,7 @@ function CardLayer({ src, style, background, index, visible, onReady, onReveal, 
     if(image.complete && image.naturalWidth)ready();
     return ()=>{mounted=false;image.removeEventListener('load',ready);};
   },[src,index,onReady]);
-  return <div className={`card-layer-stage ${visible ? 'is-loaded' : ''}`} style={{zIndex:index}} onAnimationStart={event=>{if(event.target===event.currentTarget && event.animationName==='card-layer-arrive')onReveal(index);}}><img ref={ref} className={flat ? 'flat-cover' : 'card-layer'} data-background={background} src={src} alt="" style={style} draggable={false} /></div>;
+  return <div className={`card-layer-stage ${visible ? 'is-loaded' : ''}`} style={{zIndex:index,mixBlendMode:blend==='additive'?'plus-lighter':undefined}} onAnimationStart={event=>{if(event.target===event.currentTarget && event.animationName==='card-layer-arrive')onReveal(index);}}><img ref={ref} className={flat ? 'flat-cover' : 'card-layer'} data-background={background} src={src} alt="" style={style} draggable={false} /></div>;
 }
 
 function Card({ outfit, full = false, onExpand }: { outfit: Outfit; full?: boolean; onExpand?: () => void }) {
@@ -209,7 +209,7 @@ function Card({ outfit, full = false, onExpand }: { outfit: Outfit; full?: boole
             '--shift-y': `${-projectedZ * Math.sin(motion.rotation_x * Math.PI / 180) / layer.height * 100}%`,
             '--rz': `${-layer.rotation}deg`, '--layer-opacity':layer.opacity,
           } as CSSProperties;
-          return <CardLayer key={`${layer.path}-${i}`} src={layer.path} style={style} background={background} index={i} visible={revealOrder.indexOf(i)<visibleLayers} onReady={layerReady} onReveal={layerRevealed} />;
+          return <CardLayer key={`${layer.path}-${i}`} src={layer.path} style={style} background={background} blend={layer.blend_mode} index={i} visible={revealOrder.indexOf(i)<visibleLayers} onReady={layerReady} onReveal={layerRevealed} />;
         }) : <CardLayer src={outfit.fullCover || outfit.cover} index={0} visible={visibleLayers>0} onReady={layerReady} onReveal={layerRevealed} flat />}
         {/* {!outfit.card.layers.some(l => l.is_title) && <div className="card-title-art"><b>{outfit.name}</b></div>} */}
         <div ref={lightRef} className="card-light" style={{zIndex:total+1}} />

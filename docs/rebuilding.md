@@ -196,6 +196,8 @@ python scripts/recover_native_layers.py
 
 透视参数由 `disc_camera.py` 从当前版本的 `ui_disc.unity3d` 读取，关联相机、Canvas 和 CanvasScaler。当前参考画布为 1080×1080、垂直视场角为 60°，Canvas 坐标中的焦距为 `1080 / (2 × tan(30°))`，图层投影倍率为 `f / (f + z)`。2048×2048 的 RenderTexture 只影响采样清晰度，不能代替参考画布尺寸参与纵深计算。校准数据与源包哈希保存在每张秘纹的 `card.camera` 中。
 
+图层材质还取决于同一节点上的运行时组件，不能仅检查 Image 的 `m_Material`。提取器识别启用的 `UnityEngine.UI.Extensions.UIAdditiveEffect`，在清单中记录 `blend_mode: "additive"` 及组件来源。网页在图层容器上使用 `plus-lighter`，对应其[原始 Shader](https://github.com/Unity-UI-Extensions/com.unity.uiextensions/blob/release/Runtime/Resources/Shaders/UIAdditive.shader) 的预乘颜色与 `Blend One One`；黑色区域不再遮挡其它图层。原始图片保留不变。
+
 ## 验证
 
 ```powershell

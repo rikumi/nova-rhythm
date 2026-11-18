@@ -53,6 +53,8 @@ def layout(item, diagnostics=None, sprite_exports=None):
         angle = parent[4] + math.degrees(math.atan2(2*q['w']*q['z'], 1-2*q['z']**2))
         if name == 'mask' and d.get('m_SizeDelta', {}).get('x', 0):
             result['mask_size'] = d['m_SizeDelta']['x']
+        components = []
+        additive = False
         for comp in go.get('m_Component', []):
             o = objects.get(comp['component']['m_PathID'])
             if not o or o.type.name != 'MonoBehaviour':
@@ -64,6 +66,15 @@ def layout(item, diagnostics=None, sprite_exports=None):
                     diagnostics.append({'code': code, 'node': name, 'branch': branch,
                                         'component': o.path_id, 'error': str(exc)})
                 continue
+            components.append(b)
+            script_ref = b.get('m_Script', {})
+            script = objects.get(script_ref.get('m_PathID')) if script_ref.get('m_FileID') == 0 else None
+            if b.get('m_Enabled', 1) and script and script.type.name == 'MonoScript':
+                metadata = script.read()
+                if metadata.m_ClassName == 'UIAdditiveEffect' and metadata.m_Namespace == 'UnityEngine.UI.Extensions':
+                    additive = True
+        # Effect components may follow the Image component in the prefab.
+        for b in components:
             if name == 'mask' and 'fFactorAX' in b:
                 result['motion'] = {'rotation_x': b['fFactorAX'], 'rotation_y': b['fFactorAY']}
             if 'm_Sprite' not in b or not b.get('m_Enabled', 1):
@@ -91,6 +102,7 @@ def layout(item, diagnostics=None, sprite_exports=None):
                 'rotation': round(angle, 4), 'branch': branch,
                 'opacity': b.get('m_Color', {}).get('a', 1),
                 'is_title': branch == 'layer_title',
+                **({'blend_mode': 'additive', 'blend_source': 'UnityEngine.UI.Extensions.UIAdditiveEffect'} if additive else {}),
             })
         for child in d.get('m_Children', []):
             if child['m_PathID'] in transforms:
@@ -101,7 +113,8 @@ def layout(item, diagnostics=None, sprite_exports=None):
     # discard an exact duplicate draw, never deduplicate by texture name alone.
     unique = {}
     for layer in result['layers']:
-        key = json.dumps({k: layer[k] for k in ['name', 'x', 'y', 'width', 'height', 'pivot', 'rotation', 'opacity']}, sort_keys=True)
+        key = json.dumps({**{k: layer[k] for k in ['name', 'x', 'y', 'width', 'height', 'pivot', 'rotation', 'opacity']},
+                          'blend_mode': layer.get('blend_mode', 'normal')}, sort_keys=True)
         unique.setdefault(key, layer)
     result['layers'] = list(unique.values())
     return result

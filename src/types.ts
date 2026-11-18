@@ -31,6 +31,7 @@ export interface CardLayer {
   pivot: { x: number; y: number }; opacity: number;
   branch: string; is_title: boolean;
   native_z?: number; projection_factor?: number;
+  blend_mode?: 'additive'; blend_source?: string;
 }
 export interface Skill { Id: number; Name: string; formatted_description: string; Level: number; }
 export interface Outfit {

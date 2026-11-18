@@ -54,3 +54,12 @@ test('native perspective is calibrated in Canvas reference units rather than ren
   assert.ok(card.layers[0].height<card.mask_size*1.15);
   assert.ok(card.layers.find(layer=>layer.name==='4047_title').projection_factor>1.27);
 });
+
+test('Boguan Manyou light preserves its native additive effect without changing ordinary artwork',()=>{
+  const layers=catalog.find(item=>item.code==='4038').card.layers;
+  const light=layers.find(layer=>layer.name==='4038_Light');
+  assert.equal(light.blend_mode,'additive');
+  assert.equal(light.blend_source,'UnityEngine.UI.Extensions.UIAdditiveEffect');
+  assert.equal(layers.find(layer=>layer.name==='4038_Xiya').blend_mode,undefined);
+  assert.equal(layers.find(layer=>layer.name==='4038_Bg').blend_mode,undefined);
+});
