@@ -1,11 +1,12 @@
 import { useEffect, useRef, useState } from 'react';
 import * as THREE from 'three';
-import { SparkRenderer, SplatMesh } from '@sparkjsdev/spark';
+import type { SparkRenderer, SplatMesh } from '@sparkjsdev/spark';
 import { deviceTilt } from './deviceTilt';
-import { loadSharpScene, sharpSourceUrl } from './sharpScenes';
+import { loadSharpScene, sharpSourceUrl, sharpRenderInfo } from './sharpScenes';
 import { loadSceneData } from './sharpSceneData';
 import { bindModelSource } from './sharpModelCache';
 import { useArtworkPointer } from './useArtworkPointer';
+import { createDepthPlanes } from './sharpDepthLayers';
 import './sharpScene.css';
 
 export default function SharpScene({full=false,suspended=false,code='4016',name='春日纪事'}:{full?:boolean;suspended?:boolean;code?:string;name?:string}){
@@ -23,11 +24,12 @@ export default function SharpScene({full=false,suspended=false,code='4016',name=
     let renderer:THREE.WebGLRenderer|undefined,spark:SparkRenderer|undefined,mesh:SplatMesh|undefined;
     let target:THREE.WebGLRenderTarget|undefined,plane:THREE.Mesh<THREE.PlaneGeometry,THREE.MeshBasicMaterial>|undefined;
     let observer:ResizeObserver|undefined;
+    let depthPlanes:Awaited<ReturnType<typeof createDepthPlanes>>|undefined;
     const abort=new AbortController();
     const contextLost=(event:Event)=>{event.preventDefault();if(!disposed){delete element.dataset.ready;setError('三维画面暂时无法显示');}};
     void (async()=>{
       try{
-        const info=await loadSharpScene(code,import.meta.env.DEV,abort.signal);if(disposed)return;
+        const info=sharpRenderInfo(await loadSharpScene(code,import.meta.env.DEV,abort.signal));if(disposed)return;
         const compressed=info.scene_format==='ply+gzip';
         const source=sharpSourceUrl(info);
         const bytes=await loadSceneData(source,compressed?info.compressed_bytes:info.scene_bytes,abort.signal,state=>{
@@ -40,6 +42,7 @@ export default function SharpScene({full=false,suspended=false,code='4016',name=
           if(disposed)return;
         bindModelSource(code,source);
         element.dataset.source='precomputed';
+        element.dataset.renderer=info.scene_format==='depth-layers'?'webgl-depth-planes':'webgl2-gaussian-splats';
         const scene=new THREE.Scene();scene.background=new THREE.Color(.012,.018,.028);
         const camera=new THREE.PerspectiveCamera(info.camera_fov_y_degrees,info.input_size[0]/info.input_size[1],.001,Math.max(100,info.focus_distance*100));
         renderer=new THREE.WebGLRenderer({antialias:false,alpha:false,powerPreference:'high-performance'});
@@ -54,13 +57,29 @@ export default function SharpScene({full=false,suspended=false,code='4016',name=
         target.texture.colorSpace=THREE.LinearSRGBColorSpace;
         const postScene=new THREE.Scene(),postCamera=new THREE.OrthographicCamera(-1,1,1,-1,0,1);
         plane=new THREE.Mesh(new THREE.PlaneGeometry(2,2),new THREE.MeshBasicMaterial({map:target.texture,depthTest:false,depthWrite:false,toneMapped:false}));
+        if(info.scene_format==='depth-layers'){
+          // Separate masks lose combined coverage when minified. Normalize their
+          // premultiplied sum before display, rather than exposing dark pinholes.
+          scene.background=null;renderer.setClearColor(0,0);
+          plane.material.onBeforeCompile=shader=>{
+            shader.fragmentShader=shader.fragmentShader.replace('#include <map_fragment>',
+              '#include <map_fragment>\ndiffuseColor.rgb = diffuseColor.a > 0.00001 ? diffuseColor.rgb / diffuseColor.a : vec3(0.012,0.018,0.028); diffuseColor.a = 1.0;');
+          };
+        }
         plane.frustumCulled=false;postScene.add(plane);
-        spark=new SparkRenderer({renderer,accumExtSplats:true,sortRadial:false,blurAmount:0,preBlurAmount:0,maxStdDev:3,onDirty:()=>{dirty=true;}});
-        scene.add(spark);
-        mesh=new SplatMesh({url:bytes?undefined:info.scene_url,fileBytes:bytes,fileName:`${code}.ply`,extSplats:true,lod:false,enableLod:false,raycastable:false,
-          onProgress:event=>{if(!disposed)setStatus(event.lengthComputable?`正在解析三维场景 ${Math.round(event.loaded/event.total*100)}%…`:'正在解析三维场景…');}});
-        mesh.rotation.x=Math.PI;
-        scene.add(mesh);
+        if(info.scene_format==='depth-layers'){
+          depthPlanes=await createDepthPlanes(bytes,abort.signal,(loaded,total)=>{if(!disposed)setStatus(`\u6b63\u5728\u52a0\u8f7d\u56fe\u5c42 ${loaded}/${total}\u2026`);});
+          if(disposed){depthPlanes.dispose();return;}
+          scene.add(...depthPlanes.planes);element.dataset.planeCount='20';
+        }else{
+          const {SparkRenderer,SplatMesh}=await import('@sparkjsdev/spark');if(disposed)return;
+          spark=new SparkRenderer({renderer,accumExtSplats:true,sortRadial:false,blurAmount:0,preBlurAmount:0,maxStdDev:3,onDirty:()=>{dirty=true;}});
+          scene.add(spark);
+          mesh=new SplatMesh({url:bytes?undefined:info.scene_url,fileBytes:bytes,fileName:`${code}.ply`,extSplats:true,lod:false,enableLod:false,raycastable:false,
+            onProgress:event=>{if(!disposed)setStatus(event.lengthComputable?`正在解析三维场景 ${Math.round(event.loaded/event.total*100)}%…`:'正在解析三维场景…');}});
+          mesh.rotation.x=Math.PI;
+          scene.add(mesh);
+        }
         let x=0,y=0,previous=performance.now(),renders=0,initialized=false,painted=false;
         // Keep the rotation pivot in front of the useful scene depth range, so
         // foreground and background both shift opposite to the pointer.
@@ -105,15 +124,15 @@ export default function SharpScene({full=false,suspended=false,code='4016',name=
           }
         };
         frame=requestAnimationFrame(tick);
-        await mesh.initialized;
-        if(disposed){mesh.dispose();return;}
-        element.dataset.splatCount=String(info.gaussian_count);initialized=true;dirty=true;
+        await mesh?.initialized;
+        if(disposed){mesh?.dispose();return;}
+        if(mesh)element.dataset.splatCount=String(info.gaussian_count);initialized=true;dirty=true;
       }catch(reason){if(!disposed&&!abort.signal.aborted){delete element.dataset.ready;setError(reason instanceof Error?reason.message:'三维场景加载失败');}}
     })();
     return()=>{
       disposed=true;abort.abort();cancelAnimationFrame(frame);observer?.disconnect();
       delete element.dataset.ready;
-      mesh?.dispose();spark?.dispose();plane?.geometry.dispose();plane?.material.dispose();target?.dispose();
+      depthPlanes?.dispose();mesh?.dispose();spark?.dispose();plane?.geometry.dispose();plane?.material.dispose();target?.dispose();
       if(renderer){renderer.domElement.removeEventListener('webglcontextlost',contextLost);renderer.dispose();renderer.forceContextLoss();renderer.domElement.remove();}
     };
   },[full,code,name]);

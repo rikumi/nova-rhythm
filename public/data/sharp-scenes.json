@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "asset_commit": "ba403ecf264fc2fd948066b0cc2329da64a92bb5",
+  "asset_commit": "81dc9b385f3fc74e2b7282998eb4c00f3ad24974",
   "outfits": {
     "4016": {
       "input_size": [
@@ -20,7 +20,13 @@
       "compressed_sha256": "8327ac309188ff9c5f253855f77175cd71b898a1066f17e81d3e962d02d2bb0c",
       "compressed_bytes": 59413109,
       "name": "春日纪事",
-      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4016-9123a2c79fe0.ply.gz"
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4016-9123a2c79fe0.ply.gz",
+      "layer_scene": {
+        "url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/depth-layers/4016-522c655af4e1.layers",
+        "bytes": 13368033,
+        "sha256": "522c655af4e11794e1b6de71e39bf3e67e21bb7efa3f545802dee6fb7bd17721",
+        "layer_count": 20
+      }
     },
     "4027": {
       "input_size": [
@@ -40,7 +46,13 @@
       "compressed_sha256": "e22c03392f2b1bcde616876ed0f86d4b4f316871d79301a7f3ccd7b8cf273319",
       "compressed_bytes": 60034438,
       "name": "龙飞凤舞",
-      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4027-2411f7e6b43b.ply.gz"
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4027-2411f7e6b43b.ply.gz",
+      "layer_scene": {
+        "url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/depth-layers/4027-d1d51d884ef6.layers",
+        "bytes": 11343776,
+        "sha256": "d1d51d884ef655e1e62191aa6d593034c1e739eca62ba9424b7306d8b2220938",
+        "layer_count": 20
+      }
     },
     "4043": {
       "input_size": [
@@ -60,7 +72,13 @@
       "compressed_sha256": "6313a84bc069a7746f6def2c61d117e7d67d0c4b53dbde2489fce9476c198b81",
       "compressed_bytes": 60270690,
       "name": "革新的萌芽",
-      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4043-227a8a66f04c.ply.gz"
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4043-227a8a66f04c.ply.gz",
+      "layer_scene": {
+        "url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/depth-layers/4043-0c5837da9501.layers",
+        "bytes": 11527872,
+        "sha256": "0c5837da9501a6ed9ede3d8c8f02203b309d02cab0225ba5c6d002dad19fcb5b",
+        "layer_count": 20
+      }
     },
     "1001": {
       "input_size": [
@@ -80,7 +98,13 @@
       "compressed_sha256": "6d9a9cdf678ab8abf2ceef2b89dbe4733e902f3a5bc3ec8fa90dd8dcf6a14742",
       "compressed_bytes": 59398694,
       "name": "朝霭",
-      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/1001-6a0c1b9dcd20.ply.gz"
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/1001-6a0c1b9dcd20.ply.gz",
+      "layer_scene": {
+        "url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/depth-layers/1001-659a41f153eb.layers",
+        "bytes": 7044298,
+        "sha256": "659a41f153ebcefcb47da8f389e6f3de616e13d34e76acfc7f8e7846abc14c36",
+        "layer_count": 20
+      }
     },
     "1002": {
       "input_size": [
@@ -100,7 +124,13 @@
       "compressed_sha256": "2aa0ebcd7be697383a9b763ea3aa499c1642965fae915b3c9c0531c01c50dad2",
       "compressed_bytes": 58587725,
       "name": "和煦",
-      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/1002-cf13dba7c109.ply.gz"
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/1002-cf13dba7c109.ply.gz",
+      "layer_scene": {
+        "url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/depth-layers/1002-a0e5c76d9f60.layers",
+        "bytes": 6489361,
+        "sha256": "a0e5c76d9f605974d665db4c54c2ab33875de398014d05aa1db53dd317a02da9",
+        "layer_count": 20
+      }
     },
     "1003": {
       "input_size": [
@@ -120,7 +150,13 @@
       "compressed_sha256": "65592d5f066fc566e84b4f55c3d2e084bb3362fc971eb7add83629d8d0487c6f",
       "compressed_bytes": 59140676,
       "name": "晚霞",
-      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/1003-00f91426b2dd.ply.gz"
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/1003-00f91426b2dd.ply.gz",
+      "layer_scene": {
+        "url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/depth-layers/1003-73cec58c879e.layers",
+        "bytes": 19133555,
+        "sha256": "73cec58c879ead324150a969728b849042dd408712cc1b0f24a9d4bfbdb19c29",
+        "layer_count": 20
+      }
     },
     "1004": {
       "input_size": [
@@ -140,7 +176,13 @@
       "compressed_sha256": "427781948611702fa96bdfb0b3f54402aceebe5e24e2bea0b7a2e97152c7da90",
       "compressed_bytes": 58084048,
       "name": "粉梦",
-      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/1004-01ca21e0a45b.ply.gz"
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/1004-01ca21e0a45b.ply.gz",
+      "layer_scene": {
+        "url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/depth-layers/1004-404ffee8630c.layers",
+        "bytes": 4376381,
+        "sha256": "404ffee8630cbbecf7a5b12eb518122d3008a62623920d7c883fe198ae0eb138",
+        "layer_count": 20
+      }
     },
     "1005": {
       "input_size": [
@@ -160,7 +202,13 @@
       "compressed_sha256": "241bb0ff480bca072481ef957a512512116df288b1a58f2fe1c51f0edc6157de",
       "compressed_bytes": 58595515,
       "name": "孤烟",
-      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/1005-a6a859e39ac7.ply.gz"
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/1005-a6a859e39ac7.ply.gz",
+      "layer_scene": {
+        "url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/depth-layers/1005-74520a58aa25.layers",
+        "bytes": 6599307,
+        "sha256": "74520a58aa25ebd90881fc02a983c46beaab41f4a427329766b42a3d9fd1730c",
+        "layer_count": 20
+      }
     },
     "1006": {
       "input_size": [
@@ -180,7 +228,13 @@
       "compressed_sha256": "a4631fcde9c7b4194de5fd180efb0b98ff6a752d57acfcfefd5dbe655a1de4d9",
       "compressed_bytes": 59743488,
       "name": "甘露",
-      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/1006-ef8209317623.ply.gz"
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/1006-ef8209317623.ply.gz",
+      "layer_scene": {
+        "url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/depth-layers/1006-a0d3d829cce8.layers",
+        "bytes": 13451682,
+        "sha256": "a0d3d829cce84647c642dd22e50d00b4d61a7b97f9c32c358a83935ea8a5432c",
+        "layer_count": 20
+      }
     },
     "1007": {
       "input_size": [
@@ -200,7 +254,13 @@
       "compressed_sha256": "14c3a052ed331d09de14295e76b49104854b24ccdf0c755cd56fcca404d00961",
       "compressed_bytes": 59203714,
       "name": "希冀",
-      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/1007-202a18fee935.ply.gz"
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/1007-202a18fee935.ply.gz",
+      "layer_scene": {
+        "url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/depth-layers/1007-1e0c6a56fe97.layers",
+        "bytes": 10641268,
+        "sha256": "1e0c6a56fe97d1092b68a6eead478d286b1a096af0b4f7cb4365abc0b327244d",
+        "layer_count": 20
+      }
     },
     "1008": {
       "input_size": [
@@ -220,7 +280,13 @@
       "compressed_sha256": "3ba4a87a153838ac60f13a067ed60c63aa41bbb0c5d20702a44ed21b2da3021e",
       "compressed_bytes": 58322857,
       "name": "归途",
-      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/1008-ad94fda09400.ply.gz"
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/1008-ad94fda09400.ply.gz",
+      "layer_scene": {
+        "url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/depth-layers/1008-2e237a27491a.layers",
+        "bytes": 21388035,
+        "sha256": "2e237a27491a7fae50712e2202d38f953bcb9589cf602363a0ccd9b944aaf98b",
+        "layer_count": 20
+      }
     },
     "2001": {
       "input_size": [
@@ -240,7 +306,13 @@
       "compressed_sha256": "e213dd764070a214064598aeb309af2bc59bbb0ca625ab93d4dad927847c9f35",
       "compressed_bytes": 57845034,
       "name": "盛宴",
-      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/2001-1e73fef28bba.ply.gz"
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/2001-1e73fef28bba.ply.gz",
+      "layer_scene": {
+        "url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/depth-layers/2001-a2e92f1ebe29.layers",
+        "bytes": 3868896,
+        "sha256": "a2e92f1ebe292ef8317734a50984c9af1e26f48049f4e2f023944b3c37f45966",
+        "layer_count": 20
+      }
     },
     "2002": {
       "input_size": [
@@ -260,7 +332,13 @@
       "compressed_sha256": "95261b464d68ac10faf183ef45363f51bfc59a4352fe59278b41e84d222233cb",
       "compressed_bytes": 58595771,
       "name": "喧哗",
-      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/2002-4211c9157607.ply.gz"
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/2002-4211c9157607.ply.gz",
+      "layer_scene": {
+        "url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/depth-layers/2002-1e519aff57d8.layers",
+        "bytes": 8053102,
+        "sha256": "1e519aff57d8aa60cf2f1e08fdc5e7ef4e3d5de7c2297a4fef05564b4745164c",
+        "layer_count": 20
+      }
     },
     "2003": {
       "input_size": [
@@ -280,7 +358,13 @@
       "compressed_sha256": "5565f55c8af501e4a717cbf9ded476018df575596763426f0b12b650874459ce",
       "compressed_bytes": 58784639,
       "name": "极乐",
-      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/2003-c5355a5ed041.ply.gz"
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/2003-c5355a5ed041.ply.gz",
+      "layer_scene": {
+        "url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/depth-layers/2003-caaacc6c4b23.layers",
+        "bytes": 3834482,
+        "sha256": "caaacc6c4b234f4f7faf6743e021ca54da9546a05e2231f2517a2e143c78bfe9",
+        "layer_count": 20
+      }
     },
     "2005": {
       "input_size": [
@@ -300,7 +384,13 @@
       "compressed_sha256": "0659e26155b413c81a16442b60764e74519dc643f36aca5fd1f72d71200e7940",
       "compressed_bytes": 58598231,
       "name": "情热",
-      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/2005-1585b85edb38.ply.gz"
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/2005-1585b85edb38.ply.gz",
+      "layer_scene": {
+        "url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/depth-layers/2005-2ec2b7ec68b4.layers",
+        "bytes": 6183306,
+        "sha256": "2ec2b7ec68b44ec5c892271178fb52e084c1256f431800dcb101192be6ccedc2",
+        "layer_count": 20
+      }
     },
     "2006": {
       "input_size": [
@@ -320,7 +410,13 @@
       "compressed_sha256": "ce228712ce1e3b70ccabdc37b5d88cdf35e883c200ec09c3beadd6894f0a9a2c",
       "compressed_bytes": 57695042,
       "name": "吉光",
-      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/2006-c6fa62090680.ply.gz"
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/2006-c6fa62090680.ply.gz",
+      "layer_scene": {
+        "url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/depth-layers/2006-e75c533868fc.layers",
+        "bytes": 6065170,
+        "sha256": "e75c533868fc3bd22cc6bc9df5afb33da696d5ec3ded871e5483dccf3528e17d",
+        "layer_count": 20
+      }
     },
     "2007": {
       "input_size": [
@@ -340,7 +436,13 @@
       "compressed_sha256": "7721fa3ad65a869683b23f8d8feaabc6cda04b0e5a89cdc00c049981ca7cc3f3",
       "compressed_bytes": 58701887,
       "name": "乘风",
-      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/2007-65ae3ad794be.ply.gz"
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/2007-65ae3ad794be.ply.gz",
+      "layer_scene": {
+        "url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/depth-layers/2007-8e31c2eeaff8.layers",
+        "bytes": 6125101,
+        "sha256": "8e31c2eeaff8c39f7a6e760e978debe7c10eaeed31e9efa30a09cd9bb02ec90c",
+        "layer_count": 20
+      }
     },
     "2008": {
       "input_size": [
@@ -360,7 +462,13 @@
       "compressed_sha256": "2ccac6ee654099ba7e44e914d8d0859dac57ef3cc6fd158fe6d9182ac1e08278",
       "compressed_bytes": 59239839,
       "name": "泡沫",
-      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/2008-ecf29e15a309.ply.gz"
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/2008-ecf29e15a309.ply.gz",
+      "layer_scene": {
+        "url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/depth-layers/2008-4a9e043f609d.layers",
+        "bytes": 8049952,
+        "sha256": "4a9e043f609d4c66fb1d459bd26a943dc4b56f461786d8ff3b9f41f8924284f2",
+        "layer_count": 20
+      }
     },
     "2009": {
       "input_size": [
@@ -380,7 +488,13 @@
       "compressed_sha256": "df7e087f850532a3d75a062478b1121c6fa3a83db8b028da4d6c8a5b08a99b23",
       "compressed_bytes": 59739427,
       "name": "黯灭",
-      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/2009-1d85f3c56073.ply.gz"
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/2009-1d85f3c56073.ply.gz",
+      "layer_scene": {
+        "url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/depth-layers/2009-1cd4f5378770.layers",
+        "bytes": 8679722,
+        "sha256": "1cd4f537877045050242c494cea5303fda0f5063ae5b1cc304a38a3195e266d5",
+        "layer_count": 20
+      }
     },
     "2010": {
       "input_size": [
@@ -400,7 +514,13 @@
       "compressed_sha256": "258e2ba48e6a664165b73e8f21f10db2467c5b5d6caa89f7b78595681eb33edf",
       "compressed_bytes": 59281394,
       "name": "坚韧",
-      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/2010-0ad42b3cac28.ply.gz"
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/2010-0ad42b3cac28.ply.gz",
+      "layer_scene": {
+        "url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/depth-layers/2010-167f93b6c1cf.layers",
+        "bytes": 5718425,
+        "sha256": "167f93b6c1cf975a00f475b34a6f8223e3df38d02d406171e90736d94f734fad",
+        "layer_count": 20
+      }
     },
     "3001": {
       "input_size": [
@@ -420,7 +540,13 @@
       "compressed_sha256": "76b5a0f5e562c566f332d224a5c614cef4d93b1b7d17c10af97b0394eab90c28",
       "compressed_bytes": 60122335,
       "name": "柠柚好奇",
-      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3001-c1dddef2e4ad.ply.gz"
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3001-c1dddef2e4ad.ply.gz",
+      "layer_scene": {
+        "url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/depth-layers/3001-e90e97377f5c.layers",
+        "bytes": 13661623,
+        "sha256": "e90e97377f5ce4b5a8b517e432b12f2f0ceca94cf195df5c374007c4841c084f",
+        "layer_count": 20
+      }
     },
     "3002": {
       "input_size": [
@@ -440,7 +566,13 @@
       "compressed_sha256": "c2214a9bdbc1c183a9531d75509150139dbfc373008bfbfc98448d9d75dfbab7",
       "compressed_bytes": 58525959,
       "name": "季节波形",
-      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3002-9b20f485b365.ply.gz"
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3002-9b20f485b365.ply.gz",
+      "layer_scene": {
+        "url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/depth-layers/3002-431661c80502.layers",
+        "bytes": 12402306,
+        "sha256": "431661c80502472b93e8bc041bc120be738318ecb62f0b25b0b92a32d042547b",
+        "layer_count": 20
+      }
     },
     "3003": {
       "input_size": [
@@ -460,7 +592,13 @@
       "compressed_sha256": "576d371cc1599eddd6c326e217a46e0ddd35a8909e270800b0965bcee5c762e5",
       "compressed_bytes": 59517203,
       "name": "热夜的结束",
-      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3003-11824c73457e.ply.gz"
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3003-11824c73457e.ply.gz",
+      "layer_scene": {
+        "url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/depth-layers/3003-3a6c5398b126.layers",
+        "bytes": 10277407,
+        "sha256": "3a6c5398b12627fabc772702c20d2726fdcb3b9c1d2414a709b8751d61550bf3",
+        "layer_count": 20
+      }
     },
     "3004": {
       "input_size": [
@@ -480,7 +618,13 @@
       "compressed_sha256": "6f098d976720837dddf6c8ec4b29701a55a696b0f88081c4b62e914cc9436803",
       "compressed_bytes": 59172842,
       "name": "双月怪盗",
-      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3004-f64fa91ad62a.ply.gz"
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3004-f64fa91ad62a.ply.gz",
+      "layer_scene": {
+        "url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/depth-layers/3004-a407c4e03080.layers",
+        "bytes": 6916064,
+        "sha256": "a407c4e03080d3bfec1deabdfd77ead12e63ef571802891441ec2814cebd06f8",
+        "layer_count": 20
+      }
     },
     "3005": {
       "input_size": [
@@ -500,7 +644,13 @@
       "compressed_sha256": "9ef99df80d4e816032463de79ee8c2f345ba638b12d5b657ae5201133ff9bd74",
       "compressed_bytes": 58391786,
       "name": "★~嘭嘭少女~★",
-      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3005-3b80b90899dd.ply.gz"
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3005-3b80b90899dd.ply.gz",
+      "layer_scene": {
+        "url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/depth-layers/3005-66d1a42b83d0.layers",
+        "bytes": 10020450,
+        "sha256": "66d1a42b83d00880143f752872293a1587df5e5e880aa26f8b127a4ccdf78eae",
+        "layer_count": 20
+      }
     },
     "3006": {
       "input_size": [
@@ -520,7 +670,13 @@
       "compressed_sha256": "d360c222e4bfddd8ded57f5a5e642b0d03153387b2115f14313f26a8e14bcc54",
       "compressed_bytes": 58001403,
       "name": "晚安",
-      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3006-75ea6a6aab2f.ply.gz"
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3006-75ea6a6aab2f.ply.gz",
+      "layer_scene": {
+        "url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/depth-layers/3006-3bb6f887e73e.layers",
+        "bytes": 5853043,
+        "sha256": "3bb6f887e73ed1a28a629fca93a4e576f2ecd5b63edb8974cbfe90c49c6e2a92",
+        "layer_count": 20
+      }
     },
     "3007": {
       "input_size": [
@@ -540,7 +696,13 @@
       "compressed_sha256": "0d7c0011a45ae1fadc6836433d148564a9224f9fdf92d6a9a7623c3e792a7533",
       "compressed_bytes": 58116467,
       "name": "翡翠隙境",
-      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3007-ef0efc9b3ddf.ply.gz"
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3007-ef0efc9b3ddf.ply.gz",
+      "layer_scene": {
+        "url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/depth-layers/3007-f7ed7219d3f7.layers",
+        "bytes": 5311743,
+        "sha256": "f7ed7219d3f749d0117a1c3dd8a6e042fec587f93915c260648ac7db4c78dcc9",
+        "layer_count": 20
+      }
     },
     "3008": {
       "input_size": [
@@ -560,7 +722,13 @@
       "compressed_sha256": "4ccc995df3c2ec3191669e88a9d591c098482bbb7d39cecb7ff0adca068d0606",
       "compressed_bytes": 59605768,
       "name": "小憩片刻",
-      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3008-6ad120736f62.ply.gz"
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3008-6ad120736f62.ply.gz",
+      "layer_scene": {
+        "url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/depth-layers/3008-c7aeb3136013.layers",
+        "bytes": 10609609,
+        "sha256": "c7aeb31360134cf69365e9f2a3582f7407fc3942707202a09d0214cc5f0c9e3d",
+        "layer_count": 20
+      }
     },
     "3009": {
       "input_size": [
@@ -580,7 +748,13 @@
       "compressed_sha256": "4cc4268a0edcb34089a26f04be10df020c67f24451b21e60e05343f42526da80",
       "compressed_bytes": 57734266,
       "name": "“雨中”曲",
-      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3009-fb84c3e9dd9d.ply.gz"
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3009-fb84c3e9dd9d.ply.gz",
+      "layer_scene": {
+        "url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/depth-layers/3009-adf949e90a83.layers",
+        "bytes": 6772754,
+        "sha256": "adf949e90a83d65a725c8b50ac081814ae875cb243f76bb891c9d0acc9ae0096",
+        "layer_count": 20
+      }
     },
     "3010": {
       "input_size": [
@@ -600,7 +774,13 @@
       "compressed_sha256": "346f4bec37cb50cd3d49d98f3e3f20367cf7043db5b89f44421cea3be3449041",
       "compressed_bytes": 59201703,
       "name": "水蒸汽症候群",
-      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3010-0426a34ceae5.ply.gz"
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3010-0426a34ceae5.ply.gz",
+      "layer_scene": {
+        "url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/depth-layers/3010-0962b6ae4202.layers",
+        "bytes": 8878339,
+        "sha256": "0962b6ae4202b47fbb61a1bcef445d4b6ddce2b6551aef7f3e58cdc938ed9467",
+        "layer_count": 20
+      }
     },
     "3011": {
       "input_size": [
@@ -620,7 +800,13 @@
       "compressed_sha256": "16c59cfd7eba31e4f719ae80bab85c5c274dcb7d975e689e10614a42ee1468f6",
       "compressed_bytes": 59747050,
       "name": "喵律动",
-      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3011-d9e67b9daf0d.ply.gz"
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3011-d9e67b9daf0d.ply.gz",
+      "layer_scene": {
+        "url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/depth-layers/3011-db3f4301c3cc.layers",
+        "bytes": 11372728,
+        "sha256": "db3f4301c3cc5cb5df14d281e076a3ece82fee2b3be137ca633b1d9263823fec",
+        "layer_count": 20
+      }
     },
     "3012": {
       "input_size": [
@@ -640,7 +826,13 @@
       "compressed_sha256": "a2c5993306b9605da6a7731888017e20b47fa23fe318382f399fcb2dd4d766ab",
       "compressed_bytes": 58824367,
       "name": "问候星空",
-      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3012-66817e5df49f.ply.gz"
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3012-66817e5df49f.ply.gz",
+      "layer_scene": {
+        "url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/depth-layers/3012-135e6994da64.layers",
+        "bytes": 7931926,
+        "sha256": "135e6994da6413d46a4ed29d09980591db9c26cbd80cb749b035358c422127df",
+        "layer_count": 20
+      }
     },
     "3013": {
       "input_size": [
@@ -660,7 +852,13 @@
       "compressed_sha256": "1611336b65ab1ecd1df5acb82da1f07ff2e682f773832c6485d5d4925a644815",
       "compressed_bytes": 58681250,
       "name": "秋日絮语",
-      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3013-396784ea622b.ply.gz"
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3013-396784ea622b.ply.gz",
+      "layer_scene": {
+        "url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/depth-layers/3013-dc4dc1530d06.layers",
+        "bytes": 3964231,
+        "sha256": "dc4dc1530d0650c658be79e025cca8f5b68cb8f331f1cf9f30246e5ae40e8d23",
+        "layer_count": 20
+      }
     },
     "3014": {
       "input_size": [
@@ -680,7 +878,13 @@
       "compressed_sha256": "0ddcf3c76ee6238ddfdc975cd12f7eb6e6fd9d678615ada5c08ac5b55312f7dd",
       "compressed_bytes": 58948796,
       "name": "骑士的铁匠",
-      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3014-b17967dc7cab.ply.gz"
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3014-b17967dc7cab.ply.gz",
+      "layer_scene": {
+        "url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/depth-layers/3014-62959de9daf1.layers",
+        "bytes": 5593218,
+        "sha256": "62959de9daf1ef442f4dbadf2a497bd117048c36a9283503ce4de2d40fbcaaf5",
+        "layer_count": 20
+      }
     },
     "3015": {
       "input_size": [
@@ -700,7 +904,13 @@
       "compressed_sha256": "a374a141d855921ed335aa313f39624ca085cdf167a09b8116f610f1d83ef3fe",
       "compressed_bytes": 58980852,
       "name": "未闻芳名",
-      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3015-e43c88cdd339.ply.gz"
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3015-e43c88cdd339.ply.gz",
+      "layer_scene": {
+        "url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/depth-layers/3015-89ea8e26faee.layers",
+        "bytes": 7769473,
+        "sha256": "89ea8e26faeede73514ca082029e83dff95609d27fd093e34b134fa24f342279",
+        "layer_count": 20
+      }
     },
     "3016": {
       "input_size": [
@@ -720,7 +930,13 @@
       "compressed_sha256": "204a9c482fa591bf053faa425f9f55638708101199ee4c2f533348cecc832a67",
       "compressed_bytes": 58973710,
       "name": "樊笼蔷薇",
-      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3016-6b898c4deb64.ply.gz"
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3016-6b898c4deb64.ply.gz",
+      "layer_scene": {
+        "url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/depth-layers/3016-158cccf4d8b5.layers",
+        "bytes": 10911190,
+        "sha256": "158cccf4d8b5a52f3d158610939d4ffa003c940de74ed7c91a8cba5d4056f6c7",
+        "layer_count": 20
+      }
     },
     "3017": {
       "input_size": [
@@ -740,7 +956,13 @@
       "compressed_sha256": "feac44afcf10d27a55192816725d89119764c5dc052f86a5fd944f3904b188d6",
       "compressed_bytes": 58014885,
       "name": "★~转转人生~★",
-      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3017-09e7b585bd61.ply.gz"
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3017-09e7b585bd61.ply.gz",
+      "layer_scene": {
+        "url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/depth-layers/3017-eedff7f15025.layers",
+        "bytes": 7778790,
+        "sha256": "eedff7f150258be024a466cd9f2d9b5cb46527d36078905630c515a40ad58e6b",
+        "layer_count": 20
+      }
     },
     "3018": {
       "input_size": [
@@ -760,7 +982,13 @@
       "compressed_sha256": "90bdbda4957e85ce9ad3bc2bf714d6eff9ecff33bc89c92fa3f48ff229436a1c",
       "compressed_bytes": 58185824,
       "name": "饮料采购日",
-      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3018-9224e8f1367d.ply.gz"
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3018-9224e8f1367d.ply.gz",
+      "layer_scene": {
+        "url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/depth-layers/3018-66d02112bf6b.layers",
+        "bytes": 4947580,
+        "sha256": "66d02112bf6becfe99a423cfa5a3d3f3c187f2c1672c9f3fc2c06672b7918aea",
+        "layer_count": 20
+      }
     },
     "3019": {
       "input_size": [
@@ -780,7 +1008,13 @@
       "compressed_sha256": "e7b6ea3d1c0202a3a2eda4efa7f60322f5ba0838d352e47b1145e19f285d7fbd",
       "compressed_bytes": 58918156,
       "name": "妄语",
-      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3019-b23cc249a32e.ply.gz"
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3019-b23cc249a32e.ply.gz",
+      "layer_scene": {
+        "url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/depth-layers/3019-af9680d8bc4d.layers",
+        "bytes": 7140430,
+        "sha256": "af9680d8bc4df2bf9fa6ba831fa248ac18d8bf197b680a245b8ba208e9bd3c77",
+        "layer_count": 20
+      }
     },
     "3020": {
       "input_size": [
@@ -800,7 +1034,13 @@
       "compressed_sha256": "b91f3fdaa2f0957023923d97565a044503456899262720b279703b105c9c565e",
       "compressed_bytes": 58464404,
       "name": "闪灵",
-      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3020-90e6e3663796.ply.gz"
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3020-90e6e3663796.ply.gz",
+      "layer_scene": {
+        "url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/depth-layers/3020-36e443407034.layers",
+        "bytes": 7742774,
+        "sha256": "36e443407034c8a0d5593f1a525df93a1e9fef904ec7c73014dcef68e286144c",
+        "layer_count": 20
+      }
     },
     "3021": {
       "input_size": [
@@ -820,7 +1060,13 @@
       "compressed_sha256": "091e6e4c3d155ee7e95c429ea133d3f9c6a0479b886b47779c517900d971fdef",
       "compressed_bytes": 57309377,
       "name": "灵验颂歌",
-      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3021-cedc8fd1e83d.ply.gz"
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3021-cedc8fd1e83d.ply.gz",
+      "layer_scene": {
+        "url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/depth-layers/3021-67c61cde3e7f.layers",
+        "bytes": 8251359,
+        "sha256": "67c61cde3e7fb50bcb123218106e813dccc27330633dbe7f063327f58e5992ae",
+        "layer_count": 20
+      }
     },
     "3022": {
       "input_size": [
@@ -840,7 +1086,13 @@
       "compressed_sha256": "f5720b80cc01783514110439941ef9f853e8e2f2bec019ec2ae428c39e0b8e16",
       "compressed_bytes": 59331112,
       "name": "诅咒爱河",
-      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3022-d4f808a65cd5.ply.gz"
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3022-d4f808a65cd5.ply.gz",
+      "layer_scene": {
+        "url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/depth-layers/3022-913ba0b1f75c.layers",
+        "bytes": 6604348,
+        "sha256": "913ba0b1f75c041c018110f836c8a756f9dbdb158a73094aa0a569fcff6d10c6",
+        "layer_count": 20
+      }
     },
     "3023": {
       "input_size": [
@@ -860,7 +1112,13 @@
       "compressed_sha256": "373f17391ebdd69ea3ffb3bc1e526618b8a7815a906400f009463581b79b7592",
       "compressed_bytes": 58649720,
       "name": "纯白",
-      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3023-4f02d3227bf3.ply.gz"
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3023-4f02d3227bf3.ply.gz",
+      "layer_scene": {
+        "url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/depth-layers/3023-85f43d0a3993.layers",
+        "bytes": 4149286,
+        "sha256": "85f43d0a399360a74c927fdf74fc145417e2716ffb42630e4cdad19b13b48ba0",
+        "layer_count": 20
+      }
     },
     "3024": {
       "input_size": [
@@ -880,7 +1138,13 @@
       "compressed_sha256": "581e0fc17187320182f09b945d053a0987c2e2b0e2520a0d22d3c313638a8013",
       "compressed_bytes": 58900912,
       "name": "假日泡影",
-      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3024-4938399d803a.ply.gz"
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3024-4938399d803a.ply.gz",
+      "layer_scene": {
+        "url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/depth-layers/3024-dd497b9bab52.layers",
+        "bytes": 6531395,
+        "sha256": "dd497b9bab52294196044df1ea62b8e6b351ae11e7208438ec0aee150b9f3568",
+        "layer_count": 20
+      }
     },
     "3025": {
       "input_size": [
@@ -900,7 +1164,13 @@
       "compressed_sha256": "a825d339749be84f825535feaf022b93806e88b9604211f334f04dddfa165f0f",
       "compressed_bytes": 59584434,
       "name": "甜蜜邀约",
-      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3025-b5167f80ec6e.ply.gz"
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3025-b5167f80ec6e.ply.gz",
+      "layer_scene": {
+        "url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/depth-layers/3025-365f931ea62e.layers",
+        "bytes": 9656588,
+        "sha256": "365f931ea62e6e92d2b68ae826a77443f0448cd209588e8715b774d960c086aa",
+        "layer_count": 20
+      }
     },
     "3026": {
       "input_size": [
@@ -920,7 +1190,13 @@
       "compressed_sha256": "62dd6b93f2ef64c3a081122e5da55d798e7064faa3d3a54aaf19d697893fdeab",
       "compressed_bytes": 59091394,
       "name": "清扫时间DA♥YO",
-      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3026-3e1e9d0c10f1.ply.gz"
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/3026-3e1e9d0c10f1.ply.gz",
+      "layer_scene": {
+        "url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/depth-layers/3026-ed461e12fcdd.layers",
+        "bytes": 4367123,
+        "sha256": "ed461e12fcdd6928cbafbc567d8bc9bdaf9ec1d10363912ded8b7b0ccbc0dc97",
+        "layer_count": 20
+      }
     },
     "4001": {
       "input_size": [
@@ -940,7 +1216,13 @@
       "compressed_sha256": "8d70193ae1dc50b75ba114e9c7a9c40fd5621bfbbdfde18dd75c2828b54bf6ee",
       "compressed_bytes": 59751022,
       "name": "猫神降歌",
-      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4001-efed0094dcf2.ply.gz"
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4001-efed0094dcf2.ply.gz",
+      "layer_scene": {
+        "url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/depth-layers/4001-e6aee7a593be.layers",
+        "bytes": 11092612,
+        "sha256": "e6aee7a593be12767e9e46a8ccf2fcbc1ee2cd14b68f5f0b609b72ebb9b5de11",
+        "layer_count": 20
+      }
     },
     "4002": {
       "input_size": [
@@ -960,7 +1242,13 @@
       "compressed_sha256": "ad36927198779af09b5b0544889af7d1debb797047f94aaec36142a83ed3d78e",
       "compressed_bytes": 59687282,
       "name": "空与花与诗",
-      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4002-ed2b728a9ca7.ply.gz"
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4002-ed2b728a9ca7.ply.gz",
+      "layer_scene": {
+        "url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/depth-layers/4002-43d4fc431ed5.layers",
+        "bytes": 22552884,
+        "sha256": "43d4fc431ed5d79afdddc12b3e165051b552b5d81671594bf7c4a79d18a8e44a",
+        "layer_count": 20
+      }
     },
     "4003": {
       "input_size": [
@@ -980,7 +1268,13 @@
       "compressed_sha256": "3b706838f5b313590e71d9bdf6d66abd4a48d8b746676e9f5cb3f214a05aa772",
       "compressed_bytes": 59910444,
       "name": "你与我相似",
-      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4003-685ea5f62cce.ply.gz"
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4003-685ea5f62cce.ply.gz",
+      "layer_scene": {
+        "url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/depth-layers/4003-00130e23320d.layers",
+        "bytes": 10997099,
+        "sha256": "00130e23320dbd668725f788b7d538ccc6a44ba6fc651212251c22a7d62e00fc",
+        "layer_count": 20
+      }
     },
     "4004": {
       "input_size": [
@@ -1000,7 +1294,13 @@
       "compressed_sha256": "a6a6b5788330e87a5fed77e0098e2e65685fd5f8bdf82d1cc7f22f5a66ab490b",
       "compressed_bytes": 59434879,
       "name": "仙踪良梦",
-      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4004-5d670e2b1c59.ply.gz"
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4004-5d670e2b1c59.ply.gz",
+      "layer_scene": {
+        "url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/depth-layers/4004-da0d37724025.layers",
+        "bytes": 11024095,
+        "sha256": "da0d37724025a6a56aaf8af97f9b94f847f62b525ed2e0677eafffb081d18b8f",
+        "layer_count": 20
+      }
     },
     "4005": {
       "input_size": [
@@ -1020,7 +1320,13 @@
       "compressed_sha256": "428d5f4b9a6c9b59e743bbb76c63d745dcc26db7bed67f9798f75a1fe94c3241",
       "compressed_bytes": 58955117,
       "name": "晴之花",
-      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4005-b54692ef7e5a.ply.gz"
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4005-b54692ef7e5a.ply.gz",
+      "layer_scene": {
+        "url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/depth-layers/4005-efa6fc0f2742.layers",
+        "bytes": 14754077,
+        "sha256": "efa6fc0f27428413182dd097240af0770b9f77fe71e2068f012d3d86b3f191cc",
+        "layer_count": 20
+      }
     },
     "4006": {
       "input_size": [
@@ -1040,7 +1346,13 @@
       "compressed_sha256": "aa584dfd3541380795cff9eae482a2f4999c2bea06ecb31a57312b27cf7fc531",
       "compressed_bytes": 59925494,
       "name": "魔女的秋千",
-      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4006-2b61d36ac061.ply.gz"
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4006-2b61d36ac061.ply.gz",
+      "layer_scene": {
+        "url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/depth-layers/4006-539b28d5f0d2.layers",
+        "bytes": 16747842,
+        "sha256": "539b28d5f0d29e2ab0168c4668d09ac78d357042458501414d9300d75e01942f",
+        "layer_count": 20
+      }
     },
     "4007": {
       "input_size": [
@@ -1060,7 +1372,13 @@
       "compressed_sha256": "d3a8525e61c2b79ac2748f3bb35cccdb4ccd05c9e078e3e1f032de07b6008493",
       "compressed_bytes": 59463834,
       "name": "午夜，堕天使",
-      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4007-1ad6846b017e.ply.gz"
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4007-1ad6846b017e.ply.gz",
+      "layer_scene": {
+        "url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/depth-layers/4007-28555c2556cc.layers",
+        "bytes": 8838503,
+        "sha256": "28555c2556cc9d3f30c3976da43d1ce1b45a0ecb92ecf4637f6fb0b46ff54756",
+        "layer_count": 20
+      }
     },
     "4008": {
       "input_size": [
@@ -1080,7 +1398,13 @@
       "compressed_sha256": "3a1308dba2cbdc21a44eb947378ed98b7a2e26493dfd128d9a356ca3542f22fc",
       "compressed_bytes": 59928776,
       "name": "飞越青空",
-      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4008-25f100a2fe50.ply.gz"
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4008-25f100a2fe50.ply.gz",
+      "layer_scene": {
+        "url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/depth-layers/4008-7a3ad6344db5.layers",
+        "bytes": 19791329,
+        "sha256": "7a3ad6344db5af5648e768ae13cdd54e29775bde8fb3739e5a6426ca8e469552",
+        "layer_count": 20
+      }
     },
     "4009": {
       "input_size": [
@@ -1100,7 +1424,13 @@
       "compressed_sha256": "c5247b51e78e85416c761398c7411d784d03be457e6a7c3e926f5b4b2c199e06",
       "compressed_bytes": 59788697,
       "name": "“空白”的序章",
-      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4009-18eca0632b5a.ply.gz"
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4009-18eca0632b5a.ply.gz",
+      "layer_scene": {
+        "url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/depth-layers/4009-c3b6d3d21f94.layers",
+        "bytes": 8359652,
+        "sha256": "c3b6d3d21f944a58638412c31f1eaab4958326b027022a6a97dcca981f57ab7a",
+        "layer_count": 20
+      }
     },
     "4011": {
       "input_size": [
@@ -1120,7 +1450,13 @@
       "compressed_sha256": "0bdd2f68a0d2f703d2375500726b6fc3578653ea59d34adfa00d3e37f49b5ce5",
       "compressed_bytes": 59709460,
       "name": "夏日午后的雨",
-      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4011-f0c873cebb21.ply.gz"
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4011-f0c873cebb21.ply.gz",
+      "layer_scene": {
+        "url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/depth-layers/4011-09bc68522556.layers",
+        "bytes": 15115258,
+        "sha256": "09bc68522556234817d3eec358d94dd5b7caa563d7c5b36f06240625e1f20008",
+        "layer_count": 20
+      }
     },
     "4012": {
       "input_size": [
@@ -1140,7 +1476,13 @@
       "compressed_sha256": "abeaed747982b5079552483388fb02bd437148f071afd76505ddd98cda90f38a",
       "compressed_bytes": 60167599,
       "name": "狼贪虎视",
-      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4012-01c425e656b9.ply.gz"
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4012-01c425e656b9.ply.gz",
+      "layer_scene": {
+        "url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/depth-layers/4012-35da8c81aea6.layers",
+        "bytes": 15511713,
+        "sha256": "35da8c81aea68f100bf1e505fb1eeb41fe19460855fca9d90dd9abfa0416065c",
+        "layer_count": 20
+      }
     },
     "4013": {
       "input_size": [
@@ -1160,7 +1502,13 @@
       "compressed_sha256": "9533ca552a4d7a6e651ca4da875d89080dc02c75203193e3565393d0e69a77e6",
       "compressed_bytes": 60216504,
       "name": "远航蓝图",
-      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4013-f45730d5b121.ply.gz"
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4013-f45730d5b121.ply.gz",
+      "layer_scene": {
+        "url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/depth-layers/4013-cddf9d9e935d.layers",
+        "bytes": 11832433,
+        "sha256": "cddf9d9e935d074fd8abf317d9b72388113a61e2c79401e838b82cc4b127646b",
+        "layer_count": 20
+      }
     },
     "4015": {
       "input_size": [
@@ -1180,7 +1528,13 @@
       "compressed_sha256": "583b4cfdac3eacd8c95e72efd89fe745edd08a4977261b2004f49cac3c3c8e70",
       "compressed_bytes": 60081706,
       "name": "鹿鸣",
-      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4015-d028b14cc780.ply.gz"
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4015-d028b14cc780.ply.gz",
+      "layer_scene": {
+        "url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/depth-layers/4015-83fb5d46c8f3.layers",
+        "bytes": 17839986,
+        "sha256": "83fb5d46c8f3980b3b985e0986a506c0d3b6b56d2905de40a0d380f0f0ca4335",
+        "layer_count": 20
+      }
     },
     "4017": {
       "input_size": [
@@ -1200,7 +1554,13 @@
       "compressed_sha256": "af72bdb77bb49dad06b653f80c4f6ce330a9a945b49b5fa5265f8273fb55ee70",
       "compressed_bytes": 59422437,
       "name": "花火",
-      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4017-cca8bf991e76.ply.gz"
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4017-cca8bf991e76.ply.gz",
+      "layer_scene": {
+        "url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/depth-layers/4017-cc8397e06a20.layers",
+        "bytes": 11665206,
+        "sha256": "cc8397e06a203f50bbf3a342479f592d447b8a361451cc06763fbe341211c160",
+        "layer_count": 20
+      }
     },
     "4022": {
       "input_size": [
@@ -1220,7 +1580,13 @@
       "compressed_sha256": "420f87a3a4fc1fbfe5bd2e34b0392e88a02ba9844ca8242677a6d230770cdb6c",
       "compressed_bytes": 59452506,
       "name": "午夜喵铃",
-      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4022-8b386231d598.ply.gz"
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4022-8b386231d598.ply.gz",
+      "layer_scene": {
+        "url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/depth-layers/4022-f5a0f1623a50.layers",
+        "bytes": 11242846,
+        "sha256": "f5a0f1623a509806b4b60e31c342e054e4b6a913613209b5c523fe14f81a1bed",
+        "layer_count": 20
+      }
     },
     "4024": {
       "input_size": [
@@ -1240,7 +1606,13 @@
       "compressed_sha256": "61596d50e6cfffd5fea9faf21581e7819a30741831b8e4a516e2aecd7d826ea0",
       "compressed_bytes": 59949493,
       "name": "一二三，跳！",
-      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4024-50bf134b91e7.ply.gz"
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4024-50bf134b91e7.ply.gz",
+      "layer_scene": {
+        "url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/depth-layers/4024-336e8cfda499.layers",
+        "bytes": 12087102,
+        "sha256": "336e8cfda4990dbaa5b3b8437f34cc03909fc55beabcd101461d065beb85aac0",
+        "layer_count": 20
+      }
     },
     "4030": {
       "input_size": [
@@ -1260,7 +1632,13 @@
       "compressed_sha256": "17d4ab28a996f259f2d1cde717e8f1335c17b769722d977183a541084598256f",
       "compressed_bytes": 60243557,
       "name": "午后间隙",
-      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4030-7b0f3b3c36be.ply.gz"
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4030-7b0f3b3c36be.ply.gz",
+      "layer_scene": {
+        "url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/depth-layers/4030-498a7970e0f5.layers",
+        "bytes": 12849823,
+        "sha256": "498a7970e0f57d5a7958e3416e810c14618a8815697170b4e4979e40a89ae7c8",
+        "layer_count": 20
+      }
     },
     "4033": {
       "input_size": [
@@ -1280,7 +1658,13 @@
       "compressed_sha256": "ca54f09efbcfb7266a6ab472b80bec758ee90b9432b2eaedab0299bc3c56e4d8",
       "compressed_bytes": 59261283,
       "name": "与骨共舞",
-      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4033-d84fda8ebbc0.ply.gz"
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4033-d84fda8ebbc0.ply.gz",
+      "layer_scene": {
+        "url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/depth-layers/4033-0c3e6168c9ee.layers",
+        "bytes": 8073962,
+        "sha256": "0c3e6168c9eeca0f0e15037fa5a4643e7c0aff79129c60d6b0abd5a87dd8ad88",
+        "layer_count": 20
+      }
     },
     "4038": {
       "input_size": [
@@ -1300,7 +1684,13 @@
       "compressed_sha256": "e4d53adbce36a9cb7e0ddf38a9d2ab7493fd0668635125954172bff66583895e",
       "compressed_bytes": 59730838,
       "name": "波光漫游",
-      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4038-5747fd2c6401.ply.gz"
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4038-5747fd2c6401.ply.gz",
+      "layer_scene": {
+        "url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/depth-layers/4038-b92d95fb7ed5.layers",
+        "bytes": 14115347,
+        "sha256": "b92d95fb7ed5c0feb55fe68907a6d99634798f7813411ef1ea7f5bd91217478e",
+        "layer_count": 20
+      }
     },
     "4039": {
       "input_size": [
@@ -1320,7 +1710,13 @@
       "compressed_sha256": "62dbe3df018aeb11f48f99be952419f79e871f654502d36f2a63f2c93173ca31",
       "compressed_bytes": 60039794,
       "name": "夏日栖息地",
-      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4039-d4b2b2cc7a7d.ply.gz"
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4039-d4b2b2cc7a7d.ply.gz",
+      "layer_scene": {
+        "url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/depth-layers/4039-6f598086aa97.layers",
+        "bytes": 19307540,
+        "sha256": "6f598086aa9761c5539a91b8c1f4fd97e105046059d575d655b4c25d44d8af14",
+        "layer_count": 20
+      }
     },
     "4040": {
       "input_size": [
@@ -1340,7 +1736,13 @@
       "compressed_sha256": "52f5364c63f2682278c314d93eff97957f76d6f154b4d3bfb8c71793f2f3f94c",
       "compressed_bytes": 59889947,
       "name": "勇气之拳",
-      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4040-09b9fb038a08.ply.gz"
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4040-09b9fb038a08.ply.gz",
+      "layer_scene": {
+        "url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/depth-layers/4040-b10550680623.layers",
+        "bytes": 10562557,
+        "sha256": "b105506806232f60762bd49faa5c3498511d3adaadcdaafa24367b3866cbd024",
+        "layer_count": 20
+      }
     },
     "4042": {
       "input_size": [
@@ -1360,7 +1762,13 @@
       "compressed_sha256": "ee4ebf2f5a62a8a50a91ca15788c9fda803fa603f222af49acd1f1bf65502798",
       "compressed_bytes": 60167378,
       "name": "酒暖灯明时",
-      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4042-e833d7e42009.ply.gz"
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4042-e833d7e42009.ply.gz",
+      "layer_scene": {
+        "url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/depth-layers/4042-f41f58dacf7a.layers",
+        "bytes": 14889596,
+        "sha256": "f41f58dacf7aeba78036d0acfa1a3be5ff0d805e408de7b210d121c993ea21e9",
+        "layer_count": 20
+      }
     },
     "4044": {
       "input_size": [
@@ -1380,7 +1788,13 @@
       "compressed_sha256": "ecd110bf3829dcf25b4430ce9e019d4c385f0752ea5c7bbafa7d51ec5a3e6c05",
       "compressed_bytes": 60272802,
       "name": "罗帷春染岁朝新",
-      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4044-ecbc750d01d3.ply.gz"
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4044-ecbc750d01d3.ply.gz",
+      "layer_scene": {
+        "url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/depth-layers/4044-cde445e35f13.layers",
+        "bytes": 12157793,
+        "sha256": "cde445e35f139ce776a394e96efff306291716ecd02ac54fd61fd1ba23ca5e0c",
+        "layer_count": 20
+      }
     },
     "4046": {
       "input_size": [
@@ -1400,7 +1814,13 @@
       "compressed_sha256": "dee7cb3557620c4ca7b4ba04b830bec78163f01e9a952a809a10685982fc67d9",
       "compressed_bytes": 59977441,
       "name": "冬夜后的黎明",
-      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4046-93c3a3a16392.ply.gz"
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4046-93c3a3a16392.ply.gz",
+      "layer_scene": {
+        "url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/depth-layers/4046-7d8a0a9656c0.layers",
+        "bytes": 16431587,
+        "sha256": "7d8a0a9656c03329c1ae1648aa2c36f49dcdf9c96b06a6de5d9aeb715a278f43",
+        "layer_count": 20
+      }
     },
     "4047": {
       "input_size": [
@@ -1420,7 +1840,13 @@
       "compressed_sha256": "5c58e453c4b0929b6dc33fe7acb23d77b3983021e2380fa5d2b43fcb94e720fe",
       "compressed_bytes": 59838388,
       "name": "信笺乘风而去",
-      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4047-693afde9b822.ply.gz"
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4047-693afde9b822.ply.gz",
+      "layer_scene": {
+        "url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/depth-layers/4047-4962fe29d6e9.layers",
+        "bytes": 15318824,
+        "sha256": "4962fe29d6e9d743140f88a49f89129109d3650bf862002eaab0a17cfb57eeb9",
+        "layer_count": 20
+      }
     },
     "4048": {
       "input_size": [
@@ -1440,7 +1866,13 @@
       "compressed_sha256": "fc00ae99064f7399be8fe694fcd83b9cdaf171a7d583eb033ad262119d17850d",
       "compressed_bytes": 59781390,
       "name": "雪夜惊喜",
-      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4048-9e217c03206d.ply.gz"
+      "scene_url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/models/4048-9e217c03206d.ply.gz",
+      "layer_scene": {
+        "url": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/depth-layers/4048-ebc5b5b9c38d.layers",
+        "bytes": 11657496,
+        "sha256": "ebc5b5b9c38d814c0fd5532896181392b7a8c5de09b26ab658be8e31538667e5",
+        "layer_count": 20
+      }
     }
   }
 }

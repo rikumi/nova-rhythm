@@ -79,6 +79,23 @@ Ordinary website builds do not need to check out that branch. Keep model filenam
 
 Native and SHARP views share `useArtworkPointer`: gesture geometry is read once and invalidated by resize/scroll, while light-position writes are batched per animation frame. Input bounds follow the resting layout instead of the animated surface. This optimization does not reduce splat density or render resolution. Pointer and sensor motion use a shared 1.2 gain; the custom sensor dropdown reverses sensor motion independently of dragging.
 
+## Mobile depth slices
+
+Coarse-pointer devices load twenty depth planes when the manifest has a matching `layer_scene`. Desktop devices retain the original Gaussians. Both paths share the camera, motion, lighting, manual 3D button and explicit cache controls; the cache URL and download size follow the selected payload. Phones do not import Spark or sort individual Gaussians.
+
+`scripts/sharp/export_depth_layers.py` reads the corrected metric PLY, including the existing depth/semantic adjustments. Twenty plane depths span the visible scene range. Each Gaussian is assigned to its nearest plane, with outliers clamped to the end planes. The offline renderer preserves the Gaussian covariance and linear color blending before exporting straight-alpha, lossless WebP images at the original image resolution. Transparent outer margins are cropped with original pixel coordinates retained. Empty planes remain present as transparent one-pixel images. There is no new inference or semantic segmentation. Small parallax differences from continuous Gaussian depth are expected because depth is quantized.
+
+The mobile renderer filters premultiplied samples, recovers linear color before blending, and normalizes accumulated coverage before display. This avoids dark seams when many small transparency masks are minified. Original image files are not downscaled. The package stores a validated `SDL1` header and twenty WebP payloads, so the existing resumable download and opt-in CacheStorage controls work with one file.
+
+To reproduce locally, install NumPy and Pillow in the analysis Python environment, install Playwright (`npm install --no-save --package-lock=false playwright`) and make Chrome available. First export the metric scenes, then run:
+
+```powershell
+node scripts/sharp/bake_depth_layers.mjs 4016
+node scripts/sharp/bake_depth_layers.mjs
+```
+
+`NOVA_PYTHON` and `NOVA_PLAYWRIGHT_MODULE` can select existing installations. Results go to `.build/sharp-depth-layers/<code>/`: twenty individual images, the packed `scene.layers`, reference/composite PNGs and `layers.json`. Source hashes and settings allow completed models to be reused. Full-scene versus layer-composite color error is recorded and checked before publication. Vite exposes completed local packages automatically; open a mobile browser or use touch-device emulation and click 3D. `publish_depth_layers.py` uploads packages on the isolated resource branch, verifies remote Git objects, records `references/sharp-depth-layers-results.json`, and updates the runtime manifest. Subsequent `prepare_web.py` calls retain matching layer entries.
+
 Download, decompression and parsing have separate status messages. Interrupted downloads retry up to three times with HTTP Range resume. A 45-second inactivity watchdog detects stalled connections; an actively progressing slow download has no total time limit. The Raw endpoint was checked to honor byte ranges.
 
 Gzip decompression runs in a short-lived Web Worker and transfers its result back without copying. Simultaneous normal/fullscreen loads share one job. The most recent decoded scene and its downloaded payload are retained in memory. Once downloaded, a Cache checkbox appears immediately after the 3D button. Persistent storage in `nova-sharp-models-v1` is opt-in: checking it stores the payload, and unchecking immediately deletes only the persistent entry. The current preview and in-memory payload remain available, so checking again needs no download. Explicitly stored models are not automatically evicted by an application count limit. Network requests bypass the implicit HTTP cache; persistent model storage is controlled by this checkbox. Development PLY URLs include the exported scene hash to prevent stale local geometry. A corrupt disk cache is discarded and downloaded again. Storage failure does not prevent network loading. GPU allocation starts after download and decompression complete.

@@ -2,8 +2,9 @@
   "schemaVersion": 1,
   "repository": "rikumi/nova-rhythm",
   "branch": "site-assets",
-  "commit": "ba403ecf264fc2fd948066b0cc2329da64a92bb5",
+  "commit": "81dc9b385f3fc74e2b7282998eb4c00f3ad24974",
   "raw_base": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets",
   "models": 72,
-  "artwork": 106
+  "artwork": 106,
+  "depth_layer_models": 72
 }

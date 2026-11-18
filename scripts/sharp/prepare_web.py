@@ -20,6 +20,13 @@ def prepare(asset_base=None):
     outfits={code:{**{key:scene[key] for key in keys},
         'scene_url':asset_base.rstrip('/')+'/'+scene['scene_url'].rsplit('/',1)[-1]}
         for code,scene in results['outfits'].items()}
+    layer_results=ROOT/'references/sharp-depth-layers-results.json'
+    if layer_results.exists():
+        layers=json.loads(layer_results.read_text(encoding='utf8'))
+        if not layers['publication'].get('verified'):raise ValueError('Depth layers must pass publication verification')
+        for code,scene in layers['outfits'].items():
+            if code in outfits and scene['source_scene_sha256']==outfits[code]['scene_sha256']:
+                outfits[code]['layer_scene']={'url':assets['raw_base']+'/'+scene['path'],'bytes':scene['bytes'],'sha256':scene['sha256'],'layer_count':20}
     manifest={'schemaVersion':1,'asset_commit':assets['commit'],'outfits':outfits}
     target=ROOT/'public/data/sharp-scenes.json'
     target.write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n',encoding='utf8')

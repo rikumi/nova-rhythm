@@ -15,7 +15,7 @@ import { ScrollingText } from './ScrollingText';
 import { OutlinedName } from './OutlinedName';
 import { loadOutfits } from './experimentalLayering';
 import { CARD_CONTENT_SCALE, backgroundLayer, cardDepths } from './parallaxDepth';
-import { loadSharpManifest, loadSharpScene, sharpSourceUrl } from './sharpScenes';
+import { loadSharpManifest, loadSharpScene, sharpSourceUrl, sharpDownloadBytes } from './sharpScenes';
 import type { SharpSceneInfo } from './sharpScenes';
 import { hasModelCache } from './sharpModelCache';
 import { downloadArtwork } from './artworkDownload';
@@ -334,7 +334,8 @@ function ArchiveApp({ active, onBack, fromStory = false }: { active: boolean; on
   useEffect(() => { deviceTilt.setViewing(sensorViewing); return () => deviceTilt.setViewing(false); }, [sensorViewing]);
   const sound = (name: string) => { if (soundEnabled) void player.sound(name); };
   const notify = (message: string) => { setToast(message); if (timer.current) clearTimeout(timer.current); timer.current = setTimeout(() => setToast(''), 2400); };
-  const sharpLabel=`3D${sharpAvailable&&(sharpEntries[chosen.code].compressed_bytes||0)>0?` (${((sharpEntries[chosen.code].compressed_bytes||0)/1000000).toFixed(1)}MB)`:''}`;
+  const sharpBytes=sharpAvailable?sharpDownloadBytes(sharpEntries[chosen.code]):0;
+  const sharpLabel=`3D${sharpBytes>0?` (${(sharpBytes/1000000).toFixed(1)}MB)`:''}`;
   const artwork3DAction=sharpAvailable?<span className="model-actions"><button className="save-card three-d-card" aria-label={sharpLabel} aria-pressed={useSharp} onClick={()=>{sound('ui_outfit_button_tap');sharpInteraction.current++;setSharpCode(useSharp?null:chosen.code);setArtworkMode('difference');}}><Box size={17}/><span>{sharpLabel}</span></button><SharpCacheButton code={chosen.code} onError={notify}/></span>:undefined;
   const copyPageLink=async()=>{
     if(!chosen || !currentMusic)return;

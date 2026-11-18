@@ -3,8 +3,18 @@ export interface SharpSceneInfo {
   depth_percentiles?: number[]; gaussian_count: number; scene_url: string; scene_format?: string;
   compressed_bytes?: number;
   scene_bytes?: number; scene_sha256?: string;
+  layer_scene?: {url:string;bytes:number;sha256:string;layer_count:number};
+}
+export function sharpRenderInfo(info: SharpSceneInfo): SharpSceneInfo {
+  return typeof matchMedia!=='undefined'&&matchMedia('(pointer: coarse)').matches&&info.layer_scene
+    ? {...info,scene_url:info.layer_scene.url,scene_format:'depth-layers',scene_bytes:info.layer_scene.bytes,compressed_bytes:undefined,scene_sha256:info.layer_scene.sha256}
+    : info;
+}
+export function sharpDownloadBytes(info:SharpSceneInfo):number {
+  const selected=sharpRenderInfo(info);return selected.compressed_bytes||selected.scene_bytes||0;
 }
 export function sharpSourceUrl(info: SharpSceneInfo): string {
+  info=sharpRenderInfo(info);
   return info.scene_format==='ply+gzip'||!info.scene_sha256 ? info.scene_url
     : `${info.scene_url}${info.scene_url.includes('?')?'&':'?'}v=${info.scene_sha256}`;
 }
