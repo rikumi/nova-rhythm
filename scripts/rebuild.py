@@ -377,9 +377,10 @@ def extract_new_art(outfits, game, work, output):
                 image = cover.copy(); image.thumbnail((size, size), Image.Resampling.LANCZOS)
                 image.save(folder/f'{name}.webp', 'WEBP', quality=90, method=5)
             art = {'source_bundle': str(bundle), 'images': [{'name': name} for name in textures]}
-            outfit['card'] = layout({'code': code, 'artwork': art})
+            native_sprites = {}
+            outfit['card'] = layout({'code': code, 'artwork': art}, sprite_exports=native_sprites)
             for layer in outfit['card']['layers']:
-                textures[layer['name']].save(folder/(layer['name']+'.webp'), 'WEBP', quality=90, method=5)
+                native_sprites[layer['name']].read().image.save(folder/(layer['name']+'.webp'), 'WEBP', lossless=True, method=4, exact=True)
             write(work/f'art/{code}.json', {'bundle': bundle.relative_to(game).as_posix(),
                                           'source_sha256': digest(bundle), 'card': outfit['card']})
         except Exception as exc:

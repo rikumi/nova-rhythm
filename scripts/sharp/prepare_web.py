@@ -15,11 +15,14 @@ def prepare(asset_base=None):
         raise ValueError('asset-base must be an HTTPS download directory without query or fragment')
     results=json.loads((ROOT/'references/sharp-scenes-results.json').read_text(encoding='utf8'))
     if not results['publication'].get('verified'):raise ValueError('Source scenes must pass verification first')
+    catalog_path=ROOT/'public/data/outfits.json'
+    catalog=json.loads(catalog_path.read_text(encoding='utf8'))
+    static_codes={item['code'] for item in catalog['items'] if not item['card']['layers']}
     keys=['input_size','camera_fov_y_degrees','focus_distance','depth_percentiles','gaussian_count',
           'scene_format','scene_sha256','compressed_sha256','compressed_bytes','name']
     outfits={code:{**{key:scene[key] for key in keys},
         'scene_url':asset_base.rstrip('/')+'/'+scene['scene_url'].rsplit('/',1)[-1]}
-        for code,scene in results['outfits'].items()}
+        for code,scene in results['outfits'].items() if code in static_codes}
     layer_results=ROOT/'references/sharp-depth-layers-results.json'
     if layer_results.exists():
         layers=json.loads(layer_results.read_text(encoding='utf8'))
@@ -30,8 +33,6 @@ def prepare(asset_base=None):
     manifest={'schemaVersion':1,'asset_commit':assets['commit'],'outfits':outfits}
     target=ROOT/'public/data/sharp-scenes.json'
     target.write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
-    catalog_path=ROOT/'public/data/outfits.json'
-    catalog=json.loads(catalog_path.read_text(encoding='utf8'))
     for outfit in catalog['items']:
         outfit['staticImage']=assets['raw_base']+'/artwork/'+outfit['code']+'.png'
     catalog_path.write_text(json.dumps(catalog,ensure_ascii=False,indent=2)+'\n',encoding='utf8')

@@ -21,13 +21,13 @@ test('truncated, overlapping, unordered and oversized layer packages are rejecte
   assert.throws(()=>readLayerPackage(fixture(h=>h.input_size=[999999,1])));
   assert.throws(()=>readLayerPackage(new ArrayBuffer(3)));
 });
-test('touch devices use the image package consistently for loading, cache keys and size',()=>{
+test('touch and desktop devices both retain the original SHARP Gaussian payload',()=>{
   const original=globalThis.matchMedia;
   const info={scene_url:'https://test/model.ply.gz',scene_format:'ply+gzip',compressed_bytes:59000000,scene_sha256:'original',layer_scene:{url:'https://test/model.layers',bytes:17000000,sha256:'layers',layer_count:20}};
   try{
     globalThis.matchMedia=()=>({matches:true});
-    assert.equal(sharpRenderInfo(info).scene_format,'depth-layers');assert.equal(sharpDownloadBytes(info),17000000);
-    assert.equal(sharpSourceUrl(info),'https://test/model.layers?v=layers');assert.equal(sharpSourceUrl(sharpRenderInfo(info)),sharpSourceUrl(info));
+    assert.equal(sharpRenderInfo(info).scene_format,'ply+gzip');assert.equal(sharpDownloadBytes(info),59000000);
+    assert.equal(sharpSourceUrl(info),info.scene_url);assert.equal(sharpSourceUrl(sharpRenderInfo(info)),sharpSourceUrl(info));
     globalThis.matchMedia=()=>({matches:false});assert.equal(sharpSourceUrl(info),info.scene_url);assert.equal(sharpDownloadBytes(info),59000000);
   }finally{globalThis.matchMedia=original;}
 });

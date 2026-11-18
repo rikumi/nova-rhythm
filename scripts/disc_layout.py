@@ -2,18 +2,19 @@
 import json
 import math
 import UnityPy
+from native_typetrees import component_reader
 
-def layout(item):
+def layout(item, diagnostics=None, sprite_exports=None):
     art = item['artwork']
     code = item['code']
     result = {'mask_size': 712, 'layers': [], 'motion': {'rotation_x': 3, 'rotation_y': -8}}
     e = UnityPy.load(art['source_bundle'])
+    read_component = component_reader(art['source_bundle'], e)
     objects = {o.path_id: o for o in e.objects}
     gos = {o.path_id: o.read_typetree() for o in e.objects if o.type.name == 'GameObject'}
     transforms = {o.path_id: o.read_typetree() for o in e.objects if o.type.name in ['RectTransform', 'Transform']}
     by_go = {d['m_GameObject']['m_PathID']: tid for tid, d in transforms.items()}
     root = next((ptr.path_id for path, ptr in e.container.items() if path.endswith(code + '_g.prefab')), None)
-    images = {i['name']: i for i in art['images']}
     if root is None or root not in by_go:
         return result
 
@@ -55,19 +56,28 @@ def layout(item):
             if not o or o.type.name != 'MonoBehaviour':
                 continue
             try:
-                b = o.read_typetree()
-            except ValueError:
+                b = read_component(o)
+            except ValueError as exc:
+                if diagnostics is not None:
+                    diagnostics.append({'code': code, 'node': name, 'branch': branch,
+                                        'component': o.path_id, 'error': str(exc)})
                 continue
             if name == 'mask' and 'fFactorAX' in b:
                 result['motion'] = {'rotation_x': b['fFactorAX'], 'rotation_y': b['fFactorAY']}
             if 'm_Sprite' not in b or not b.get('m_Enabled', 1):
                 continue
-            sprite = objects.get(b['m_Sprite']['m_PathID'])
+            reference = b['m_Sprite']
+            # Shared UI mask/frame sprites are external to this disc bundle.
+            if reference['m_FileID'] != 0:
+                continue
+            sprite = objects.get(reference['m_PathID'])
             if not sprite or sprite.type.name != 'Sprite':
                 continue
             sprite_name = sprite.read().m_Name
-            if sprite_name not in images or branch == 'layer_-1':
+            if branch == 'layer_-1':
                 continue
+            if sprite_exports is not None:
+                sprite_exports[sprite_name] = sprite
             size = d.get('m_SizeDelta', {})
             result['layers'].append({
                 'name': sprite_name, 'path': f'/art/{code}/{sprite_name}.webp',

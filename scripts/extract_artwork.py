@@ -6,18 +6,19 @@ from pipeline_paths import ROOT;from pipeline_paths import GAME
 INSTALL=GAME/'xtlr_Data/StreamingAssets/InstallResource';VERSION=GAME/'Persistent_Store/AssetBundles'
 def extract(job):
  did,p=job;folder=ROOT/'assets/outfit'/did;folder.mkdir(parents=True,exist_ok=True)
- result={'disc_code':did,'source_bundle':str(p),'source_sha256':hashlib.file_digest(p.open('rb'),'sha256').hexdigest(),'images':[],'prefabs':[],'errors':[]}
+ result={'extraction_version':2,'disc_code':did,'source_bundle':str(p),'source_sha256':hashlib.file_digest(p.open('rb'),'sha256').hexdigest(),'images':[],'prefabs':[],'errors':[]}
  prior=folder/'manifest.json'
  if prior.exists():
   old=json.loads(prior.read_text(encoding='utf8'))
-  if old.get('source_sha256')==result['source_sha256'] and all((ROOT/i['path']).exists() for i in old['images']):return old
+  if old.get('extraction_version')==2 and old.get('source_sha256')==result['source_sha256'] and all((ROOT/i['path']).exists() for i in old['images']):return old
  e=UnityPy.load(str(p));scene=[]
  pathmap={ptr.path_id:path for path,ptr in e.container.items()}
  for o in e.objects:
   try:
    if o.type.name=='Texture2D':
     t=o.read();name=t.m_Name
-    if not re.match(r'^'+did+r'[_\d]',name):continue
+    # Gyroscope sprites can have unprefixed names such as bg, title, 01 or 02.
+    if not name or '/' in name or '\\' in name:continue
     dest=folder/(name+'.png');t.image.save(str(dest))
     result['images'].append({'name':name,'path':str(dest.relative_to(ROOT)).replace('\\','/'),'width':t.m_Width,'height':t.m_Height,'role':'cover' if name.lower()==did+'_b' else 'parallax_layer','path_id':o.path_id,'asset_path':pathmap.get(o.path_id)})
    elif o.type.name in ['GameObject','Transform','RectTransform','SpriteRenderer']:

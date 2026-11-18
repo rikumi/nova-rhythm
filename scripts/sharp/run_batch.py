@@ -28,7 +28,7 @@ def run(args):
     originals=ROOT/'.build/layering-trial'
     items=[]
     for outfit in read(ROOT/'public/data/outfits.json')['items']:
-        if len(outfit['card']['layers'])>1:continue
+        if outfit['card']['layers']:continue
         code=outfit['code'];source=originals/code/'original.png';source.parent.mkdir(exist_ok=True)
         source_url=outfit['staticImage']
         if not source.exists():

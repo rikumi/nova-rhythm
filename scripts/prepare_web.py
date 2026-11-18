@@ -94,11 +94,16 @@ def prepare(item):
     cover = next((i for i in art['images'] if i['role'] == 'cover'), art['images'][0])
     optimize(ROOT / cover['path'], WEB_ROOT / f'art/{code}/cover.webp')
     optimize(ROOT / cover['path'], WEB_ROOT / f'art/{code}/thumb.webp', 280)
-    card = layout(item)
+    native_sprites = {}
+    card = layout(item, sprite_exports=native_sprites)
     for layer in card['layers']:
         source = images.get(layer['name'])
         if source:
             optimize(ROOT / source['path'], WEB_ROOT / layer['path'].lstrip('/'))
+        else:
+            target = WEB_ROOT / layer['path'].lstrip('/')
+            target.parent.mkdir(parents=True, exist_ok=True)
+            native_sprites[layer['name']].read().image.save(target, 'WEBP', lossless=True, method=4, exact=True)
     disc = item['disc_config']
     item_config = get('Item', item['id'])
     candidates = [t for t in TRACKS if t['details'].get('disc_id') == item['id']]

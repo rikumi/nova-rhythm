@@ -4969,7 +4969,170 @@
       "staticImage": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/artwork/4003.png",
       "card": {
         "mask_size": 712.0,
-        "layers": [],
+        "layers": [
+          {
+            "name": "bg",
+            "path": "/art/4003/bg.webp",
+            "x": 0.0,
+            "y": 14.8618,
+            "width": 1998.9182,
+            "height": 1419.3062,
+            "native_z": 3000.0,
+            "projection_factor": 0.371546,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_0",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "01",
+            "path": "/art/4003/01.webp",
+            "x": 28.9445,
+            "y": 13.7831,
+            "width": 1483.059,
+            "height": 1053.027,
+            "native_z": 800.0,
+            "projection_factor": 0.689154,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "02",
+            "path": "/art/4003/02.webp",
+            "x": -411.5186,
+            "y": 120.5764,
+            "width": 622.2053,
+            "height": 936.2708,
+            "native_z": 980.0,
+            "projection_factor": 0.644105,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "03",
+            "path": "/art/4003/03.webp",
+            "x": -261.7296,
+            "y": 115.4689,
+            "width": 580.7318,
+            "height": 574.7787,
+            "native_z": 300.0,
+            "projection_factor": 0.855325,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": -1.3638,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "04",
+            "path": "/art/4003/04.webp",
+            "x": -209.299,
+            "y": -210.221,
+            "width": 685.9844,
+            "height": 376.185,
+            "native_z": 150.0,
+            "projection_factor": 0.922022,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "05",
+            "path": "/art/4003/05.webp",
+            "x": 6.9104,
+            "y": -206.2701,
+            "width": 204.4715,
+            "height": 131.7705,
+            "native_z": 100.0,
+            "projection_factor": 0.946627,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "06",
+            "path": "/art/4003/06.webp",
+            "x": 84.2493,
+            "y": 23.4026,
+            "width": 1165.4491,
+            "height": 893.979,
+            "native_z": 500.0,
+            "projection_factor": 0.780086,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "07",
+            "path": "/art/4003/07.webp",
+            "x": 221.5445,
+            "y": 27.303,
+            "width": 603.7869,
+            "height": 449.3298,
+            "native_z": 500.0,
+            "projection_factor": 0.780086,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "title",
+            "path": "/art/4003/title.webp",
+            "x": 95.8031,
+            "y": 0.0,
+            "width": 376.5401,
+            "height": 577.7943,
+            "native_z": -200.0,
+            "projection_factor": 1.127095,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_title",
+            "opacity": 1.0,
+            "is_title": true
+          }
+        ],
         "motion": {
           "rotation_x": 5.0,
           "rotation_y": -20.0
@@ -6450,10 +6613,191 @@
       "staticImage": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/artwork/4047.png",
       "card": {
         "mask_size": 712.0,
-        "layers": [],
+        "layers": [
+          {
+            "name": "4047_bg",
+            "path": "/art/4047/4047_bg.webp",
+            "x": -32.8511,
+            "y": -0.45,
+            "width": 1784.59,
+            "height": 1263.5037,
+            "native_z": 3350.0,
+            "projection_factor": 0.346165,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0558,
+            "branch": "layer_0",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4047_particles",
+            "path": "/art/4047/4047_particles.webp",
+            "x": 6.1542,
+            "y": -64.1877,
+            "width": 1092.5621,
+            "height": 726.5965,
+            "native_z": 1800.0,
+            "projection_factor": 0.496309,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0558,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4047_letter1",
+            "path": "/art/4047/4047_letter1.webp",
+            "x": 432.4526,
+            "y": 275.0727,
+            "width": 133.4308,
+            "height": 229.9115,
+            "native_z": 300.0,
+            "projection_factor": 0.855325,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0558,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4047_letter2",
+            "path": "/art/4047/4047_letter2.webp",
+            "x": 248.0045,
+            "y": -437.7357,
+            "width": 282.718,
+            "height": 184.6614,
+            "native_z": 1200.0,
+            "projection_factor": 0.596451,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0558,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4047_letter4",
+            "path": "/art/4047/4047_letter4.webp",
+            "x": 400.5855,
+            "y": -325.6391,
+            "width": 286.9331,
+            "height": 253.9358,
+            "native_z": 600.0,
+            "projection_factor": 0.747222,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0558,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4047_letter3",
+            "path": "/art/4047/4047_letter3.webp",
+            "x": -381.1021,
+            "y": 226.0424,
+            "width": 878.2576,
+            "height": 698.2507,
+            "native_z": 800.0,
+            "projection_factor": 0.689154,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 3.1274,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4047_windbell",
+            "path": "/art/4047/4047_windbell.webp",
+            "x": -444.809,
+            "y": 176.4095,
+            "width": 225.0014,
+            "height": 373.9459,
+            "native_z": 241.2,
+            "projection_factor": 0.880287,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0558,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4047_title",
+            "path": "/art/4047/4047_title.webp",
+            "x": -123.7551,
+            "y": -237.3663,
+            "width": 334.0711,
+            "height": 138.768,
+            "native_z": -200.0,
+            "projection_factor": 1.127095,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0558,
+            "branch": "layer_title",
+            "opacity": 1.0,
+            "is_title": true
+          },
+          {
+            "name": "4047_lefttitle",
+            "path": "/art/4047/4047_lefttitle.webp",
+            "x": -233.6053,
+            "y": 293.8836,
+            "width": 156.1659,
+            "height": 41.8302,
+            "native_z": -120.0,
+            "projection_factor": 1.072568,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0558,
+            "branch": "layer_title",
+            "opacity": 1.0,
+            "is_title": true
+          },
+          {
+            "name": "4047_righttitle",
+            "path": "/art/4047/4047_righttitle.webp",
+            "x": 226.9,
+            "y": 283.0,
+            "width": 249.0,
+            "height": 144.0,
+            "native_z": 0.0,
+            "projection_factor": 1.0,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0558,
+            "branch": "layer_title",
+            "opacity": 1.0,
+            "is_title": true
+          }
+        ],
         "motion": {
-          "rotation_x": 3,
-          "rotation_y": -8
+          "rotation_x": 3.0,
+          "rotation_y": -8.0
         }
       },
       "activity": {
@@ -6515,10 +6859,245 @@
       "staticImage": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/artwork/4008.png",
       "card": {
         "mask_size": 712.0,
-        "layers": [],
+        "layers": [
+          {
+            "name": "bg",
+            "path": "/art/4008/bg.webp",
+            "x": 0.0,
+            "y": 11.1464,
+            "width": 1998.9182,
+            "height": 1419.3062,
+            "native_z": 3000.0,
+            "projection_factor": 0.371546,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": -0.1326,
+            "branch": "layer_0",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "01",
+            "path": "/art/4008/01.webp",
+            "x": -373.5143,
+            "y": -86.7383,
+            "width": 926.3153,
+            "height": 1057.7923,
+            "native_z": 2500.0,
+            "projection_factor": 0.415016,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": -0.1326,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "02",
+            "path": "/art/4008/02.webp",
+            "x": -318.1933,
+            "y": -418.8355,
+            "width": 1029.8747,
+            "height": 475.269,
+            "native_z": 2000.0,
+            "projection_factor": 0.470005,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 1.905,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "03",
+            "path": "/art/4008/03.webp",
+            "x": -20.5776,
+            "y": -216.5119,
+            "width": 1503.0577,
+            "height": 721.4677,
+            "native_z": 1200.0,
+            "projection_factor": 0.596451,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": -0.1326,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "06",
+            "path": "/art/4008/06.webp",
+            "x": 291.0683,
+            "y": -28.6297,
+            "width": 881.7939,
+            "height": 732.9196,
+            "native_z": 1200.0,
+            "projection_factor": 0.596451,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": -0.1326,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "04",
+            "path": "/art/4008/04.webp",
+            "x": 0.0,
+            "y": -29.6336,
+            "width": 1349.5837,
+            "height": 958.2546,
+            "native_z": 800.0,
+            "projection_factor": 0.689154,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": -0.1326,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "05",
+            "path": "/art/4008/05.webp",
+            "x": -5.8102,
+            "y": 10.7904,
+            "width": 893.1141,
+            "height": 634.1442,
+            "native_z": 2500.0,
+            "projection_factor": 0.415016,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": -0.1326,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "fx02",
+            "path": "/art/4008/fx02.webp",
+            "x": 2.4901,
+            "y": -18.2607,
+            "width": 879.8336,
+            "height": 574.3819,
+            "native_z": 2500.0,
+            "projection_factor": 0.415016,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": -0.1326,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "07",
+            "path": "/art/4008/07.webp",
+            "x": 808.8949,
+            "y": 597.0544,
+            "width": 1239.5109,
+            "height": 946.2933,
+            "native_z": 1500.0,
+            "projection_factor": 0.541792,
+            "pivot": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "rotation": -0.1326,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "08",
+            "path": "/art/4008/08.webp",
+            "x": -39.6465,
+            "y": 17.2654,
+            "width": 1054.3422,
+            "height": 874.7817,
+            "native_z": 1000.0,
+            "projection_factor": 0.63946,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": -0.1326,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "title02",
+            "path": "/art/4008/title02.webp",
+            "x": -1.1271,
+            "y": -9.0168,
+            "width": 645.8257,
+            "height": 754.0268,
+            "native_z": -200.0,
+            "projection_factor": 1.127095,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": -0.1326,
+            "branch": "layer_1",
+            "opacity": 0.9019607901573181,
+            "is_title": false
+          },
+          {
+            "name": "fx01",
+            "path": "/art/4008/fx01.webp",
+            "x": -25.7429,
+            "y": -65.5273,
+            "width": 1137.3659,
+            "height": 645.9115,
+            "native_z": 500.0,
+            "projection_factor": 0.780086,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": -0.1326,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "title01",
+            "path": "/art/4008/title01.webp",
+            "x": 0.0,
+            "y": 0.0,
+            "width": 601.8689,
+            "height": 605.2502,
+            "native_z": -200.0,
+            "projection_factor": 1.127095,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": -0.1326,
+            "branch": "layer_title",
+            "opacity": 1.0,
+            "is_title": true
+          }
+        ],
         "motion": {
-          "rotation_x": 3,
-          "rotation_y": -8
+          "rotation_x": 5.0,
+          "rotation_y": -20.0
         }
       },
       "activity": {
@@ -6580,7 +7159,278 @@
       "staticImage": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/artwork/4007.png",
       "card": {
         "mask_size": 712.0,
-        "layers": [],
+        "layers": [
+          {
+            "name": "bg",
+            "path": "/art/4007/bg.webp",
+            "x": 0.0,
+            "y": 11.1464,
+            "width": 1998.9182,
+            "height": 1419.3062,
+            "native_z": 3000.0,
+            "projection_factor": 0.371546,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_0",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "01",
+            "path": "/art/4007/01.webp",
+            "x": -461.9126,
+            "y": 327.0325,
+            "width": 111.5563,
+            "height": 111.5563,
+            "native_z": 2500.0,
+            "projection_factor": 0.415016,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "02",
+            "path": "/art/4007/02.webp",
+            "x": -511.5156,
+            "y": 12.0514,
+            "width": 331.3693,
+            "height": 457.061,
+            "native_z": 2200.0,
+            "projection_factor": 0.446349,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "03",
+            "path": "/art/4007/03.webp",
+            "x": -455.4348,
+            "y": -128.7814,
+            "width": 617.7745,
+            "height": 582.8061,
+            "native_z": 2000.0,
+            "projection_factor": 0.470005,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "04",
+            "path": "/art/4007/04.webp",
+            "x": 464.5453,
+            "y": 130.033,
+            "width": 581.4758,
+            "height": 633.2904,
+            "native_z": 1800.0,
+            "projection_factor": 0.496309,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "05_add",
+            "path": "/art/4007/05_add.webp",
+            "x": -17.2654,
+            "y": -15.9865,
+            "width": 1548.1335,
+            "height": 1099.2323,
+            "native_z": 1000.0,
+            "projection_factor": 0.63946,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "05",
+            "path": "/art/4007/05.webp",
+            "x": 37.4084,
+            "y": -15.9865,
+            "width": 995.6398,
+            "height": 1099.2323,
+            "native_z": 1000.0,
+            "projection_factor": 0.63946,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "06",
+            "path": "/art/4007/06.webp",
+            "x": 31.7011,
+            "y": 72.3611,
+            "width": 1115.6021,
+            "height": 895.6242,
+            "native_z": 800.0,
+            "projection_factor": 0.689154,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 0.2980392277240753,
+            "is_title": false
+          },
+          {
+            "name": "06_add",
+            "path": "/art/4007/06_add.webp",
+            "x": -6.7951,
+            "y": 22.2114,
+            "width": 1408.9059,
+            "height": 1000.3756,
+            "native_z": 800.0,
+            "projection_factor": 0.689154,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "06_add",
+            "path": "/art/4007/06_add.webp",
+            "x": -6.7951,
+            "y": 22.2114,
+            "width": 1408.9059,
+            "height": 1000.3756,
+            "native_z": 800.0,
+            "projection_factor": 0.689154,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 0.3803921639919281,
+            "is_title": false
+          },
+          {
+            "name": "07",
+            "path": "/art/4007/07.webp",
+            "x": 0.0,
+            "y": -61.1981,
+            "width": 1097.4866,
+            "height": 779.2563,
+            "native_z": 400.0,
+            "projection_factor": 0.815975,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "08",
+            "path": "/art/4007/08.webp",
+            "x": 0.0,
+            "y": -19.0,
+            "width": 1076.0,
+            "height": 764.0,
+            "native_z": 0.0,
+            "projection_factor": 1.0,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 0.3803921639919281,
+            "is_title": false
+          },
+          {
+            "name": "09",
+            "path": "/art/4007/09.webp",
+            "x": 9.3837,
+            "y": -126.4762,
+            "width": 1120.1707,
+            "height": 611.0022,
+            "native_z": 400.0,
+            "projection_factor": 0.815975,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "10",
+            "path": "/art/4007/10.webp",
+            "x": -3.5037,
+            "y": -118.9408,
+            "width": 1091.3053,
+            "height": 584.1932,
+            "native_z": 150.0,
+            "projection_factor": 0.922022,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "title",
+            "path": "/art/4007/title.webp",
+            "x": 0.0,
+            "y": -225.4191,
+            "width": 525.8577,
+            "height": 136.3335,
+            "native_z": -200.0,
+            "projection_factor": 1.127095,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_title",
+            "opacity": 1.0,
+            "is_title": true
+          }
+        ],
         "motion": {
           "rotation_x": 5.0,
           "rotation_y": -20.0
@@ -6645,10 +7495,101 @@
       "staticImage": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/artwork/4046.png",
       "card": {
         "mask_size": 712.0,
-        "layers": [],
+        "layers": [
+          {
+            "name": "4046_snow",
+            "path": "/art/4046/4046_snow.webp",
+            "x": -4.6815,
+            "y": -10.054,
+            "width": 1836.7191,
+            "height": 1300.4114,
+            "native_z": 3000.0,
+            "projection_factor": 0.371546,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_0",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4046_actor1",
+            "path": "/art/4046/4046_actor1.webp",
+            "x": 0.7801,
+            "y": -0.2106,
+            "width": 1278.0934,
+            "height": 904.9001,
+            "native_z": 500.0,
+            "projection_factor": 0.780086,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4046_rough",
+            "path": "/art/4046/4046_rough.webp",
+            "x": 206.6,
+            "y": 220.5,
+            "width": 500.4,
+            "height": 352.8,
+            "native_z": 0.0,
+            "projection_factor": 1.0,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4046_title",
+            "path": "/art/4046/4046_title.webp",
+            "x": 126.6855,
+            "y": 242.8891,
+            "width": 367.4782,
+            "height": 125.9191,
+            "native_z": -200.0,
+            "projection_factor": 1.127095,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_title",
+            "opacity": 1.0,
+            "is_title": true
+          },
+          {
+            "name": "4046_subtitle",
+            "path": "/art/4046/4046_subtitle.webp",
+            "x": -275.8645,
+            "y": -295.8143,
+            "width": 105.9697,
+            "height": 64.1396,
+            "native_z": -120.0,
+            "projection_factor": 1.072568,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_title",
+            "opacity": 1.0,
+            "is_title": true
+          }
+        ],
         "motion": {
-          "rotation_x": 3,
-          "rotation_y": -8
+          "rotation_x": 3.0,
+          "rotation_y": -10.0
         }
       },
       "activity": {
@@ -6710,10 +7651,155 @@
       "staticImage": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/artwork/4016.png",
       "card": {
         "mask_size": 712.0,
-        "layers": [],
+        "layers": [
+          {
+            "name": "bg",
+            "path": "/art/4016/bg.webp",
+            "x": 0.0,
+            "y": 11.1464,
+            "width": 1998.9182,
+            "height": 1411.8753,
+            "native_z": 3000.0,
+            "projection_factor": 0.371546,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_0",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "01",
+            "path": "/art/4016/01.webp",
+            "x": -12.8834,
+            "y": 34.8924,
+            "width": 1508.1871,
+            "height": 1065.2623,
+            "native_z": 1200.0,
+            "projection_factor": 0.596451,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "02",
+            "path": "/art/4016/02.webp",
+            "x": 2.9326,
+            "y": -91.4193,
+            "width": 1296.1317,
+            "height": 833.5717,
+            "native_z": 700.0,
+            "projection_factor": 0.717014,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "03",
+            "path": "/art/4016/03.webp",
+            "x": 2.7497,
+            "y": 338.1466,
+            "width": 618.9976,
+            "height": 225.09,
+            "native_z": 1000.0,
+            "projection_factor": 0.63946,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "04",
+            "path": "/art/4016/04.webp",
+            "x": 247.9749,
+            "y": -85.0246,
+            "width": 212.1535,
+            "height": 301.258,
+            "native_z": 400.0,
+            "projection_factor": 0.815975,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": -1.7017,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "05",
+            "path": "/art/4016/05.webp",
+            "x": 412.8815,
+            "y": 229.8601,
+            "width": 80.5847,
+            "height": 290.8057,
+            "native_z": 150.0,
+            "projection_factor": 0.922022,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "06",
+            "path": "/art/4016/06.webp",
+            "x": -499.8664,
+            "y": 209.7056,
+            "width": 203.6674,
+            "height": 224.8828,
+            "native_z": 400.0,
+            "projection_factor": 0.815975,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "title",
+            "path": "/art/4016/title.webp",
+            "x": 167.3206,
+            "y": 270.2872,
+            "width": 298.6673,
+            "height": 112.1048,
+            "native_z": -120.0,
+            "projection_factor": 1.072568,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_title",
+            "opacity": 1.0,
+            "is_title": true
+          }
+        ],
         "motion": {
-          "rotation_x": 3,
-          "rotation_y": -8
+          "rotation_x": 5.0,
+          "rotation_y": -20.0
         }
       },
       "activity": {
@@ -6775,10 +7861,137 @@
       "staticImage": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/artwork/4027.png",
       "card": {
         "mask_size": 712.0,
-        "layers": [],
+        "layers": [
+          {
+            "name": "4027_bg",
+            "path": "/art/4027/4027_bg.webp",
+            "x": 0.0,
+            "y": 0.0,
+            "width": 1999.2154,
+            "height": 1417.5228,
+            "native_z": 3000.0,
+            "projection_factor": 0.371546,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_0",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4027_bg1",
+            "path": "/art/4027/4027_bg1.webp",
+            "x": 0.0,
+            "y": 0.0,
+            "width": 1712.204,
+            "height": 1214.0203,
+            "native_z": 1600.0,
+            "projection_factor": 0.525732,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_0",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4027_actor",
+            "path": "/art/4027/4027_actor.webp",
+            "x": 31.973,
+            "y": -57.5514,
+            "width": 1371.003,
+            "height": 781.6763,
+            "native_z": 1000.0,
+            "projection_factor": 0.63946,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_0",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4027_fg2",
+            "path": "/art/4027/4027_fg2.webp",
+            "x": -14.6361,
+            "y": -109.7709,
+            "width": 932.321,
+            "height": 738.246,
+            "native_z": 650.0,
+            "projection_factor": 0.731806,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_0",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4027_fg",
+            "path": "/art/4027/4027_fg.webp",
+            "x": -25.6598,
+            "y": -10.2639,
+            "width": 1194.0344,
+            "height": 940.858,
+            "native_z": 300.0,
+            "projection_factor": 0.855325,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4027_fg1",
+            "path": "/art/4027/4027_fg1.webp",
+            "x": 0.0,
+            "y": 0.0,
+            "width": 717.12,
+            "height": 722.88,
+            "native_z": 0.0,
+            "projection_factor": 1.0,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4027_title",
+            "path": "/art/4027/4027_title.webp",
+            "x": 0.0,
+            "y": 0.0,
+            "width": 646.4153,
+            "height": 646.4153,
+            "native_z": -120.0,
+            "projection_factor": 1.072568,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_title",
+            "opacity": 1.0,
+            "is_title": true
+          }
+        ],
         "motion": {
-          "rotation_x": 3,
-          "rotation_y": -8
+          "rotation_x": 5.0,
+          "rotation_y": -20.0
         }
       },
       "activity": {
@@ -6840,10 +8053,209 @@
       "staticImage": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/artwork/4044.png",
       "card": {
         "mask_size": 712.0,
-        "layers": [],
+        "layers": [
+          {
+            "name": "4044_ceiling",
+            "path": "/art/4044/4044_ceiling.webp",
+            "x": -4.6815,
+            "y": -0.7319,
+            "width": 1889.1966,
+            "height": 1337.5659,
+            "native_z": 3000.0,
+            "projection_factor": 0.371546,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_0",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4044_balls",
+            "path": "/art/4044/4044_balls.webp",
+            "x": -72.2128,
+            "y": 504.8917,
+            "width": 658.8792,
+            "height": 649.9148,
+            "native_z": 2500.0,
+            "projection_factor": 0.415016,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4044_partition",
+            "path": "/art/4044/4044_partition.webp",
+            "x": 7.2275,
+            "y": 42.799,
+            "width": 1660.3734,
+            "height": 1175.5573,
+            "native_z": 2300.0,
+            "projection_factor": 0.435392,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4044_particle",
+            "path": "/art/4044/4044_particle.webp",
+            "x": -58.8182,
+            "y": -161.6422,
+            "width": 1298.6019,
+            "height": 1061.4548,
+            "native_z": 693.0,
+            "projection_factor": 0.719049,
+            "pivot": {
+              "x": 0.4000000059604645,
+              "y": 0.4000000059604645
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4044_drip",
+            "path": "/art/4044/4044_drip.webp",
+            "x": 318.0317,
+            "y": 81.7022,
+            "width": 350.1058,
+            "height": 794.8083,
+            "native_z": 1500.0,
+            "projection_factor": 0.541792,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4044_box",
+            "path": "/art/4044/4044_box.webp",
+            "x": -356.1155,
+            "y": -299.843,
+            "width": 396.8491,
+            "height": 382.0136,
+            "native_z": 1000.0,
+            "projection_factor": 0.63946,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4044_bed",
+            "path": "/art/4044/4044_bed.webp",
+            "x": 147.2722,
+            "y": -259.811,
+            "width": 935.3196,
+            "height": 443.6773,
+            "native_z": 800.0,
+            "projection_factor": 0.689154,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4044_actor1",
+            "path": "/art/4044/4044_actor1.webp",
+            "x": 26.6824,
+            "y": -77.6808,
+            "width": 635.3835,
+            "height": 638.7454,
+            "native_z": 400.0,
+            "projection_factor": 0.815975,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4044_front",
+            "path": "/art/4044/4044_front.webp",
+            "x": 7.869,
+            "y": -287.3038,
+            "width": 1086.9476,
+            "height": 283.4131,
+            "native_z": 300.0,
+            "projection_factor": 0.855325,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4044_title",
+            "path": "/art/4044/4044_title.webp",
+            "x": -152.6087,
+            "y": 242.8891,
+            "width": 298.0942,
+            "height": 123.3493,
+            "native_z": -200.0,
+            "projection_factor": 1.127095,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_title",
+            "opacity": 1.0,
+            "is_title": true
+          },
+          {
+            "name": "4044_subtitle",
+            "path": "/art/4044/4044_subtitle.webp",
+            "x": -220.091,
+            "y": -306.6472,
+            "width": 186.8413,
+            "height": 33.4641,
+            "native_z": -120.0,
+            "projection_factor": 1.072568,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_title",
+            "opacity": 1.0,
+            "is_title": true
+          }
+        ],
         "motion": {
-          "rotation_x": 3,
-          "rotation_y": -8
+          "rotation_x": 5.0,
+          "rotation_y": -15.0
         }
       },
       "activity": {
@@ -6905,10 +8317,137 @@
       "staticImage": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/artwork/4042.png",
       "card": {
         "mask_size": 712.0,
-        "layers": [],
+        "layers": [
+          {
+            "name": "4042_bg",
+            "path": "/art/4042/4042_bg.webp",
+            "x": 15.7061,
+            "y": -0.6625,
+            "width": 1900.0878,
+            "height": 1345.277,
+            "native_z": 3500.0,
+            "projection_factor": 0.336319,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_0",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4042_curtain2",
+            "path": "/art/4042/4042_curtain2.webp",
+            "x": 3.1873,
+            "y": 394.6386,
+            "width": 1074.6586,
+            "height": 947.8298,
+            "native_z": 2500.0,
+            "projection_factor": 0.415016,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4042_actor",
+            "path": "/art/4042/4042_actor.webp",
+            "x": 1.9823,
+            "y": -1.6946,
+            "width": 1494.7671,
+            "height": 1058.3068,
+            "native_z": 1000.0,
+            "projection_factor": 0.63946,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4042_steam",
+            "path": "/art/4042/4042_steam.webp",
+            "x": 73.6354,
+            "y": -73.4258,
+            "width": 315.7797,
+            "height": 186.1144,
+            "native_z": 765.1,
+            "projection_factor": 0.698628,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4042_lantern",
+            "path": "/art/4042/4042_lantern.webp",
+            "x": -288.0392,
+            "y": 292.6087,
+            "width": 186.0423,
+            "height": 279.2449,
+            "native_z": 400.0,
+            "projection_factor": 0.815975,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 10.5813,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4042_title",
+            "path": "/art/4042/4042_title.webp",
+            "x": 224.7428,
+            "y": 187.5487,
+            "width": 151.6169,
+            "height": 210.7218,
+            "native_z": -200.0,
+            "projection_factor": 1.127095,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_title",
+            "opacity": 1.0,
+            "is_title": true
+          },
+          {
+            "name": "4042_subtitle",
+            "path": "/art/4042/4042_subtitle.webp",
+            "x": -280.9056,
+            "y": -294.4199,
+            "width": 52.9849,
+            "height": 44.6188,
+            "native_z": -120.0,
+            "projection_factor": 1.072568,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_title",
+            "opacity": 1.0,
+            "is_title": true
+          }
+        ],
         "motion": {
-          "rotation_x": 3,
-          "rotation_y": -8
+          "rotation_x": 5.0,
+          "rotation_y": -5.0
         }
       },
       "activity": {
@@ -6970,7 +8509,278 @@
       "staticImage": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/artwork/4006.png",
       "card": {
         "mask_size": 712.0,
-        "layers": [],
+        "layers": [
+          {
+            "name": "bg",
+            "path": "/art/4006/bg.webp",
+            "x": 0.0,
+            "y": 11.1464,
+            "width": 1998.9182,
+            "height": 1419.3062,
+            "native_z": 3000.0,
+            "projection_factor": 0.371546,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_0",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "07",
+            "path": "/art/4006/07.webp",
+            "x": -634.5067,
+            "y": 249.1026,
+            "width": 205.2982,
+            "height": 336.8995,
+            "native_z": 2000.0,
+            "projection_factor": 0.470005,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "01",
+            "path": "/art/4006/01.webp",
+            "x": -192.8079,
+            "y": -50.2977,
+            "width": 1354.6848,
+            "height": 1280.9149,
+            "native_z": 1400.0,
+            "projection_factor": 0.558863,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "fx02",
+            "path": "/art/4006/fx02.webp",
+            "x": -110.6549,
+            "y": 214.6035,
+            "width": 321.9053,
+            "height": 315.1989,
+            "native_z": 1400.0,
+            "projection_factor": 0.558863,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "02",
+            "path": "/art/4006/02.webp",
+            "x": 0.0,
+            "y": -596.4515,
+            "width": 405.587,
+            "height": 405.587,
+            "native_z": 1200.0,
+            "projection_factor": 0.596451,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "book1",
+            "path": "/art/4006/book1.webp",
+            "x": -222.7823,
+            "y": -471.4149,
+            "width": 50.7605,
+            "height": 39.4804,
+            "native_z": 2000.0,
+            "projection_factor": 0.470005,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "04",
+            "path": "/art/4006/04.webp",
+            "x": 275.6615,
+            "y": -190.2064,
+            "width": 228.2477,
+            "height": 302.6763,
+            "native_z": 800.0,
+            "projection_factor": 0.689154,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "book2",
+            "path": "/art/4006/book2.webp",
+            "x": -83.1298,
+            "y": -365.7713,
+            "width": 87.4782,
+            "height": 131.2173,
+            "native_z": 1000.0,
+            "projection_factor": 0.63946,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "03",
+            "path": "/art/4006/03.webp",
+            "x": -49.1454,
+            "y": 50.7056,
+            "width": 468.0518,
+            "height": 748.8829,
+            "native_z": 500.0,
+            "projection_factor": 0.780086,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "05",
+            "path": "/art/4006/05.webp",
+            "x": -3.5104,
+            "y": -114.2826,
+            "width": 1249.6983,
+            "height": 720.7998,
+            "native_z": 500.0,
+            "projection_factor": 0.780086,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "fx01",
+            "path": "/art/4006/fx01.webp",
+            "x": 374.4414,
+            "y": -183.3203,
+            "width": 430.6077,
+            "height": 322.9557,
+            "native_z": 500.0,
+            "projection_factor": 0.780086,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "06",
+            "path": "/art/4006/06.webp",
+            "x": 10.5312,
+            "y": -25.3528,
+            "width": 1226.2957,
+            "height": 893.9789,
+            "native_z": 500.0,
+            "projection_factor": 0.780086,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "book3",
+            "path": "/art/4006/book3.webp",
+            "x": 365.9494,
+            "y": 113.6082,
+            "width": 225.4685,
+            "height": 188.7643,
+            "native_z": -150.0,
+            "projection_factor": 1.092386,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "title",
+            "path": "/art/4006/title.webp",
+            "x": 0.0,
+            "y": 213.021,
+            "width": 632.9768,
+            "height": 220.7304,
+            "native_z": -200.0,
+            "projection_factor": 1.127095,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_title",
+            "opacity": 1.0,
+            "is_title": true
+          },
+          {
+            "name": "star",
+            "path": "/art/4006/star.webp",
+            "x": -93.8916,
+            "y": 231.9292,
+            "width": 103.8731,
+            "height": 103.8731,
+            "native_z": -200.0,
+            "projection_factor": 1.127095,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_title",
+            "opacity": 1.0,
+            "is_title": true
+          }
+        ],
         "motion": {
           "rotation_x": 5.0,
           "rotation_y": -20.0
@@ -7035,10 +8845,227 @@
       "staticImage": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/artwork/4043.png",
       "card": {
         "mask_size": 712.0,
-        "layers": [],
+        "layers": [
+          {
+            "name": "4043_bg",
+            "path": "/art/4043/4043_bg.webp",
+            "x": 51.3971,
+            "y": 32.1232,
+            "width": 1628.7108,
+            "height": 1235.5071,
+            "native_z": 2533.0,
+            "projection_factor": 0.411836,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_0",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4043_actor6",
+            "path": "/art/4043/4043_actor6.webp",
+            "x": -485.0621,
+            "y": -172.2859,
+            "width": 143.7855,
+            "height": 148.5784,
+            "native_z": 2371.0,
+            "projection_factor": 0.427933,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4043_actor5",
+            "path": "/art/4043/4043_actor5.webp",
+            "x": -501.8754,
+            "y": -99.3011,
+            "width": 200.4774,
+            "height": 262.53,
+            "native_z": 2388.0,
+            "projection_factor": 0.426185,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4043_actor4",
+            "path": "/art/4043/4043_actor4.webp",
+            "x": 167.9866,
+            "y": -433.6753,
+            "width": 282.3777,
+            "height": 309.2708,
+            "native_z": 1946.0,
+            "projection_factor": 0.476828,
+            "pivot": {
+              "x": 0.4000000059604645,
+              "y": 0.4000000059604645
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4043_particle",
+            "path": "/art/4043/4043_particle.webp",
+            "x": 236.2166,
+            "y": -138.3792,
+            "width": 736.6583,
+            "height": 686.7804,
+            "native_z": 1000.0,
+            "projection_factor": 0.63946,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": -0.196,
+            "branch": "layer_1",
+            "opacity": 0.7607843279838562,
+            "is_title": false
+          },
+          {
+            "name": "4043_light",
+            "path": "/art/4043/4043_light.webp",
+            "x": 508.796,
+            "y": -138.3276,
+            "width": 777.9628,
+            "height": 461.7854,
+            "native_z": 1637.0,
+            "projection_factor": 0.520029,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": -0.0402,
+            "branch": "layer_1",
+            "opacity": 0.4431372582912445,
+            "is_title": false
+          },
+          {
+            "name": "4043_leaves",
+            "path": "/art/4043/4043_leaves.webp",
+            "x": 230.8346,
+            "y": -340.3833,
+            "width": 227.3452,
+            "height": 274.929,
+            "native_z": 1581.0,
+            "projection_factor": 0.52871,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4043_actor3",
+            "path": "/art/4043/4043_actor3.webp",
+            "x": 356.0518,
+            "y": -354.8053,
+            "width": 627.8922,
+            "height": 447.8349,
+            "native_z": 2068.0,
+            "projection_factor": 0.461685,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4043_actor2",
+            "path": "/art/4043/4043_actor2.webp",
+            "x": -447.4145,
+            "y": -338.3487,
+            "width": 627.0149,
+            "height": 447.8678,
+            "native_z": 2139.0,
+            "projection_factor": 0.453308,
+            "pivot": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4043_actor1",
+            "path": "/art/4043/4043_actor1.webp",
+            "x": -312.9012,
+            "y": -553.7294,
+            "width": 650.0704,
+            "height": 842.8498,
+            "native_z": 1866.0,
+            "projection_factor": 0.487309,
+            "pivot": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4043_title",
+            "path": "/art/4043/4043_title.webp",
+            "x": -170.1914,
+            "y": 247.6229,
+            "width": 252.4694,
+            "height": 111.0865,
+            "native_z": -200.0,
+            "projection_factor": 1.127095,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_title",
+            "opacity": 1.0,
+            "is_title": true
+          },
+          {
+            "name": "4043_title_frame",
+            "path": "/art/4043/4043_title_frame.webp",
+            "x": 0.9653,
+            "y": -2.9388,
+            "width": 637.8777,
+            "height": 648.6892,
+            "native_z": -120.0,
+            "projection_factor": 1.072568,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_title",
+            "opacity": 1.0,
+            "is_title": true
+          }
+        ],
         "motion": {
-          "rotation_x": 3,
-          "rotation_y": -8
+          "rotation_x": 3.0,
+          "rotation_y": -5.0
         }
       },
       "activity": {
@@ -7100,10 +9127,101 @@
       "staticImage": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/artwork/4004.png",
       "card": {
         "mask_size": 712.0,
-        "layers": [],
+        "layers": [
+          {
+            "name": "bg",
+            "path": "/art/4004/bg.webp",
+            "x": 0.0,
+            "y": 0.0,
+            "width": 1766.2719,
+            "height": 1254.1187,
+            "native_z": 1900.0,
+            "projection_factor": 0.482799,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_0",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "01",
+            "path": "/art/4004/01.webp",
+            "x": 28.9445,
+            "y": 192.9631,
+            "width": 1408.906,
+            "height": 659.9337,
+            "native_z": 800.0,
+            "projection_factor": 0.689154,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "02",
+            "path": "/art/4004/02.webp",
+            "x": 63.9671,
+            "y": 0.0,
+            "width": 1174.8101,
+            "height": 936.1037,
+            "native_z": 500.0,
+            "projection_factor": 0.780086,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "03",
+            "path": "/art/4004/03.webp",
+            "x": -103.0,
+            "y": -11.0,
+            "width": 844.0,
+            "height": 628.0,
+            "native_z": 0.0,
+            "projection_factor": 1.0,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "titie",
+            "path": "/art/4004/titie.webp",
+            "x": 0.0,
+            "y": 238.9442,
+            "width": 464.183,
+            "height": 133.0874,
+            "native_z": -200.0,
+            "projection_factor": 1.127095,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_title",
+            "opacity": 1.0,
+            "is_title": true
+          }
+        ],
         "motion": {
-          "rotation_x": 3,
-          "rotation_y": -8
+          "rotation_x": 5.0,
+          "rotation_y": -20.0
         }
       },
       "activity": {
@@ -7165,10 +9283,155 @@
       "staticImage": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/artwork/4005.png",
       "card": {
         "mask_size": 712.0,
-        "layers": [],
+        "layers": [
+          {
+            "name": "bg",
+            "path": "/art/4005/bg.webp",
+            "x": 0.0,
+            "y": 0.0,
+            "width": 1766.2719,
+            "height": 1254.1187,
+            "native_z": 1900.0,
+            "projection_factor": 0.482799,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_0",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "01",
+            "path": "/art/4005/01.webp",
+            "x": 31.3833,
+            "y": -5.2306,
+            "width": 899.057,
+            "height": 875.1459,
+            "native_z": 600.0,
+            "projection_factor": 0.747222,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "02",
+            "path": "/art/4005/02.webp",
+            "x": 432.1679,
+            "y": -6.2407,
+            "width": 393.1635,
+            "height": 893.979,
+            "native_z": 500.0,
+            "projection_factor": 0.780086,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "03",
+            "path": "/art/4005/03.webp",
+            "x": -51.8458,
+            "y": 0.0,
+            "width": 1313.1178,
+            "height": 932.3625,
+            "native_z": 450.0,
+            "projection_factor": 0.797627,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "fx02",
+            "path": "/art/4005/fx02.webp",
+            "x": -51.8458,
+            "y": 0.0,
+            "width": 1313.1181,
+            "height": 932.3627,
+            "native_z": 449.9995,
+            "projection_factor": 0.797627,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "05",
+            "path": "/art/4005/05.webp",
+            "x": -266.0044,
+            "y": -110.5356,
+            "width": 629.7833,
+            "height": 603.9018,
+            "native_z": 200.0,
+            "projection_factor": 0.898663,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "fx01",
+            "path": "/art/4005/fx01.webp",
+            "x": 49.2468,
+            "y": 7.6386,
+            "width": 1087.0233,
+            "height": 823.8946,
+            "native_z": 200.0,
+            "projection_factor": 0.898663,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "title",
+            "path": "/art/4005/title.webp",
+            "x": 0.0,
+            "y": 0.0,
+            "width": 780.0,
+            "height": 764.0,
+            "native_z": 0.0,
+            "projection_factor": 1.0,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          }
+        ],
         "motion": {
-          "rotation_x": 3,
-          "rotation_y": -8
+          "rotation_x": 5.0,
+          "rotation_y": -20.0
         }
       },
       "activity": {
@@ -7230,10 +9493,371 @@
       "staticImage": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/artwork/4048.png",
       "card": {
         "mask_size": 712.0,
-        "layers": [],
+        "layers": [
+          {
+            "name": "4048_bg",
+            "path": "/art/4048/4048_bg.webp",
+            "x": 41.3159,
+            "y": -5.4246,
+            "width": 1784.2413,
+            "height": 1263.2568,
+            "native_z": 3000.0,
+            "projection_factor": 0.371546,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_0",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4048_snow",
+            "path": "/art/4048/4048_snow.webp",
+            "x": -124.9574,
+            "y": 223.3994,
+            "width": 1717.1848,
+            "height": 677.483,
+            "native_z": 2300.0,
+            "projection_factor": 0.435392,
+            "pivot": {
+              "x": 0.4000000059604645,
+              "y": 0.4000000059604645
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4048_sledge",
+            "path": "/art/4048/4048_sledge.webp",
+            "x": 115.1133,
+            "y": -200.232,
+            "width": 1107.1232,
+            "height": 656.2732,
+            "native_z": 2200.0,
+            "projection_factor": 0.446349,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4048_window1",
+            "path": "/art/4048/4048_window1.webp",
+            "x": -358.4728,
+            "y": 144.0565,
+            "width": 869.1331,
+            "height": 1480.0027,
+            "native_z": 2000.0,
+            "projection_factor": 0.470005,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 2.5071,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4048_window2",
+            "path": "/art/4048/4048_window2.webp",
+            "x": 613.8264,
+            "y": -2.632,
+            "width": 400.8202,
+            "height": 1368.4664,
+            "native_z": 2000.0,
+            "projection_factor": 0.470005,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4048_actor1",
+            "path": "/art/4048/4048_actor1.webp",
+            "x": 124.3303,
+            "y": -1.5658,
+            "width": 1018.5683,
+            "height": 1018.5683,
+            "native_z": 1500.0,
+            "projection_factor": 0.541792,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4048_box",
+            "path": "/art/4048/4048_box.webp",
+            "x": -91.9494,
+            "y": -331.0047,
+            "width": 524.9971,
+            "height": 358.811,
+            "native_z": 950.0,
+            "projection_factor": 0.6512,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4048_ribbon1",
+            "path": "/art/4048/4048_ribbon1.webp",
+            "x": -357.425,
+            "y": -134.6403,
+            "width": 566.2814,
+            "height": 415.801,
+            "native_z": 824.1,
+            "projection_factor": 0.68276,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4048_ribbon2",
+            "path": "/art/4048/4048_ribbon2.webp",
+            "x": -348.4808,
+            "y": -231.4557,
+            "width": 534.6013,
+            "height": 146.5204,
+            "native_z": 824.1,
+            "projection_factor": 0.68276,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": -12.4926,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4048_ribbon3",
+            "path": "/art/4048/4048_ribbon3.webp",
+            "x": -202.5633,
+            "y": -425.6963,
+            "width": 164.5582,
+            "height": 150.4532,
+            "native_z": 942.4547,
+            "projection_factor": 0.653009,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.6299999952316284
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4048_ribbon4",
+            "path": "/art/4048/4048_ribbon4.webp",
+            "x": 289.9385,
+            "y": -79.7024,
+            "width": 680.3544,
+            "height": 458.5814,
+            "native_z": 680.0,
+            "projection_factor": 0.722858,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.2492,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4048_ribbon5",
+            "path": "/art/4048/4048_ribbon5.webp",
+            "x": 91.8995,
+            "y": -412.8651,
+            "width": 371.4216,
+            "height": 137.6445,
+            "native_z": 824.1,
+            "projection_factor": 0.68276,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 3.4445,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4048_paper2",
+            "path": "/art/4048/4048_paper2.webp",
+            "x": 41.9296,
+            "y": -98.5717,
+            "width": 961.575,
+            "height": 599.1063,
+            "native_z": 500.0,
+            "projection_factor": 0.780086,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4048_actor3",
+            "path": "/art/4048/4048_actor3.webp",
+            "x": -324.2335,
+            "y": 62.9415,
+            "width": 249.5028,
+            "height": 317.225,
+            "native_z": 734.3,
+            "projection_factor": 0.707208,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": -0.3821,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4048_actor4",
+            "path": "/art/4048/4048_actor4.webp",
+            "x": -79.3549,
+            "y": -299.86,
+            "width": 164.9865,
+            "height": 260.332,
+            "native_z": 600.0,
+            "projection_factor": 0.747222,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 2.5552,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4048_actor5",
+            "path": "/art/4048/4048_actor5.webp",
+            "x": -319.3679,
+            "y": -294.5178,
+            "width": 194.3674,
+            "height": 184.1376,
+            "native_z": 306.9,
+            "projection_factor": 0.852489,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": -0.4104,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4048_paper1",
+            "path": "/art/4048/4048_paper1.webp",
+            "x": 8.7945,
+            "y": 12.7617,
+            "width": 1179.6297,
+            "height": 835.187,
+            "native_z": 350.0,
+            "projection_factor": 0.835187,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4048_actor2",
+            "path": "/art/4048/4048_actor2.webp",
+            "x": 288.3163,
+            "y": -117.7422,
+            "width": 437.7392,
+            "height": 457.4472,
+            "native_z": 150.0,
+            "projection_factor": 0.922022,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.3859,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4048_title",
+            "path": "/art/4048/4048_title.webp",
+            "x": 196.5654,
+            "y": 224.0666,
+            "width": 228.1241,
+            "height": 156.2154,
+            "native_z": -200.0,
+            "projection_factor": 1.127095,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_title",
+            "opacity": 1.0,
+            "is_title": true
+          },
+          {
+            "name": "4048_subtitle",
+            "path": "/art/4048/4048_subtitle.webp",
+            "x": -172.6835,
+            "y": -307.1835,
+            "width": 284.445,
+            "height": 27.8868,
+            "native_z": -120.0,
+            "projection_factor": 1.072568,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_title",
+            "opacity": 1.0,
+            "is_title": true
+          }
+        ],
         "motion": {
-          "rotation_x": 3,
-          "rotation_y": -8
+          "rotation_x": 3.0,
+          "rotation_y": -15.0
         }
       },
       "activity": {
@@ -7541,10 +10165,173 @@
       "staticImage": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/artwork/4024.png",
       "card": {
         "mask_size": 712.0,
-        "layers": [],
+        "layers": [
+          {
+            "name": "4024_Bg",
+            "path": "/art/4024/4024_Bg.webp",
+            "x": 0.0,
+            "y": 0.0,
+            "width": 1994.152,
+            "height": 1411.8753,
+            "native_z": 3000.0,
+            "projection_factor": 0.371546,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.1343,
+            "branch": "layer_0",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4024_YuanWei",
+            "path": "/art/4024/4024_YuanWei.webp",
+            "x": -55.2448,
+            "y": 250.7262,
+            "width": 112.1893,
+            "height": 117.2889,
+            "native_z": 2400.0,
+            "projection_factor": 0.42496,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.1343,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4024_HuPo",
+            "path": "/art/4024/4024_HuPo.webp",
+            "x": -430.0545,
+            "y": 18.8002,
+            "width": 468.3129,
+            "height": 548.0258,
+            "native_z": 2000.0,
+            "projection_factor": 0.470005,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.1343,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4024_Ground",
+            "path": "/art/4024/4024_Ground.webp",
+            "x": -368.4183,
+            "y": -54.1792,
+            "width": 964.8226,
+            "height": 654.7011,
+            "native_z": 1500.0,
+            "projection_factor": 0.541792,
+            "pivot": {
+              "x": 0.5,
+              "y": 1.0
+            },
+            "rotation": 0.1343,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4024_ChenSha",
+            "path": "/art/4024/4024_ChenSha.webp",
+            "x": 145.0271,
+            "y": -3.8165,
+            "width": 835.8139,
+            "height": 1049.538,
+            "native_z": 550.0,
+            "projection_factor": 0.7633,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.1343,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4024_Eff",
+            "path": "/art/4024/4024_Eff.webp",
+            "x": -23.4026,
+            "y": -152.1168,
+            "width": 1042.1953,
+            "height": 992.3246,
+            "native_z": 500.0,
+            "projection_factor": 0.780086,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.1343,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4024_RainBow",
+            "path": "/art/4024/4024_RainBow.webp",
+            "x": 346.2841,
+            "y": 326.6089,
+            "width": 525.7222,
+            "height": 399.8007,
+            "native_z": 480.0,
+            "projection_factor": 0.787009,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.1343,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4024_Title_Down",
+            "path": "/art/4024/4024_Title_Down.webp",
+            "x": 248.0,
+            "y": -330.0,
+            "width": 150.0,
+            "height": 21.0,
+            "native_z": 0.0,
+            "projection_factor": 1.0,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.1343,
+            "branch": "layer_title",
+            "opacity": 1.0,
+            "is_title": true
+          },
+          {
+            "name": "4024_Title_Up",
+            "path": "/art/4024/4024_Title_Up.webp",
+            "x": -140.8869,
+            "y": 219.7836,
+            "width": 331.1406,
+            "height": 172.8964,
+            "native_z": -200.0,
+            "projection_factor": 1.127095,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.1343,
+            "branch": "layer_title",
+            "opacity": 1.0,
+            "is_title": true
+          }
+        ],
         "motion": {
-          "rotation_x": 3,
-          "rotation_y": -8
+          "rotation_x": 5.0,
+          "rotation_y": -20.0
         }
       },
       "activity": {
@@ -7606,10 +10393,155 @@
       "staticImage": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/artwork/4015.png",
       "card": {
         "mask_size": 712.0,
-        "layers": [],
+        "layers": [
+          {
+            "name": "4015_bg",
+            "path": "/art/4015/4015_bg.webp",
+            "x": 0.0,
+            "y": 11.1464,
+            "width": 1998.9182,
+            "height": 1411.8753,
+            "native_z": 3000.0,
+            "projection_factor": 0.371546,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_0",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4015_plant",
+            "path": "/art/4015/4015_plant.webp",
+            "x": -734.2436,
+            "y": -230.3159,
+            "width": 314.2295,
+            "height": 651.312,
+            "native_z": 2200.0,
+            "projection_factor": 0.446349,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4015_deer2",
+            "path": "/art/4015/4015_deer2.webp",
+            "x": -155.2847,
+            "y": 9.3733,
+            "width": 1079.8067,
+            "height": 1142.6526,
+            "native_z": 2200.0,
+            "projection_factor": 0.446349,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4015_role",
+            "path": "/art/4015/4015_role.webp",
+            "x": -3.698,
+            "y": -79.5308,
+            "width": 943.8248,
+            "height": 969.4723,
+            "native_z": 1200.0,
+            "projection_factor": 0.596451,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4015_deer1",
+            "path": "/art/4015/4015_deer1.webp",
+            "x": -378.4815,
+            "y": -216.7395,
+            "width": 365.3951,
+            "height": 463.9286,
+            "native_z": 300.0,
+            "projection_factor": 0.855325,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4015_Butterfly",
+            "path": "/art/4015/4015_Butterfly.webp",
+            "x": -15.3354,
+            "y": -42.6929,
+            "width": 1037.6929,
+            "height": 624.2061,
+            "native_z": 100.0,
+            "projection_factor": 0.946627,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4015_Foreground",
+            "path": "/art/4015/4015_Foreground.webp",
+            "x": 2.0,
+            "y": 0.0,
+            "width": 1015.744,
+            "height": 721.216,
+            "native_z": 0.0,
+            "projection_factor": 1.0,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4015_title",
+            "path": "/art/4015/4015_title.webp",
+            "x": 0.0,
+            "y": 0.0,
+            "width": 598.8898,
+            "height": 592.1607,
+            "native_z": -150.0,
+            "projection_factor": 1.092386,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_title",
+            "opacity": 1.0,
+            "is_title": true
+          }
+        ],
         "motion": {
-          "rotation_x": 3,
-          "rotation_y": -8
+          "rotation_x": 5.0,
+          "rotation_y": -20.0
         }
       },
       "activity": {
@@ -8043,10 +10975,155 @@
       "staticImage": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/artwork/4040.png",
       "card": {
         "mask_size": 712.0,
-        "layers": [],
+        "layers": [
+          {
+            "name": "4040_bg",
+            "path": "/art/4040/4040_bg.webp",
+            "x": 45.5516,
+            "y": -6.3906,
+            "width": 1920.4485,
+            "height": 1361.568,
+            "native_z": 3000.0,
+            "projection_factor": 0.371546,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_0",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4040_actor2",
+            "path": "/art/4040/4040_actor2.webp",
+            "x": 322.2847,
+            "y": 162.8522,
+            "width": 267.6022,
+            "height": 267.6022,
+            "native_z": 2500.0,
+            "projection_factor": 0.415016,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 1.0244,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4040_effect_back",
+            "path": "/art/4040/4040_effect_back.webp",
+            "x": 109.4858,
+            "y": 255.9466,
+            "width": 1449.2225,
+            "height": 704.7977,
+            "native_z": 1800.0,
+            "projection_factor": 0.496309,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4040_actor1",
+            "path": "/art/4040/4040_actor1.webp",
+            "x": -14.1321,
+            "y": -72.0032,
+            "width": 1358.2138,
+            "height": 936.4247,
+            "native_z": 1000.0,
+            "projection_factor": 0.63946,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4040_effect_front",
+            "path": "/art/4040/4040_effect_front.webp",
+            "x": -224.6649,
+            "y": -66.2293,
+            "width": 692.7167,
+            "height": 764.4847,
+            "native_z": 500.0,
+            "projection_factor": 0.780086,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4040_spark",
+            "path": "/art/4040/4040_spark.webp",
+            "x": 7.1122,
+            "y": 8.2169,
+            "width": 1022.5488,
+            "height": 825.828,
+            "native_z": 169.03,
+            "projection_factor": 0.91299,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4040_title1",
+            "path": "/art/4040/4040_title1.webp",
+            "x": 161.6255,
+            "y": 248.5246,
+            "width": 267.7979,
+            "height": 91.971,
+            "native_z": -200.0,
+            "projection_factor": 1.127095,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_title",
+            "opacity": 1.0,
+            "is_title": true
+          },
+          {
+            "name": "4040_title2",
+            "path": "/art/4040/4040_title2.webp",
+            "x": -274.0411,
+            "y": -289.4861,
+            "width": 64.1396,
+            "height": 47.4075,
+            "native_z": -120.0,
+            "projection_factor": 1.072568,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_title",
+            "opacity": 1.0,
+            "is_title": true
+          }
+        ],
         "motion": {
-          "rotation_x": 3,
-          "rotation_y": -8
+          "rotation_x": 5.0,
+          "rotation_y": -15.0
         }
       },
       "activity": {
@@ -8108,7 +11185,170 @@
       "staticImage": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/artwork/4017.png",
       "card": {
         "mask_size": 712.0,
-        "layers": [],
+        "layers": [
+          {
+            "name": "bg",
+            "path": "/art/4017/bg.webp",
+            "x": 0.0,
+            "y": 11.1464,
+            "width": 1998.9182,
+            "height": 1411.8753,
+            "native_z": 3000.0,
+            "projection_factor": 0.371546,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_0",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "01",
+            "path": "/art/4017/01.webp",
+            "x": 28.9681,
+            "y": -10.1264,
+            "width": 1812.7891,
+            "height": 1310.786,
+            "native_z": 2500.0,
+            "projection_factor": 0.415016,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "02",
+            "path": "/art/4017/02.webp",
+            "x": -7.098,
+            "y": -131.0958,
+            "width": 1444.9245,
+            "height": 827.2059,
+            "native_z": 1000.0,
+            "projection_factor": 0.63946,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "03",
+            "path": "/art/4017/03.webp",
+            "x": 1.3783,
+            "y": -166.5685,
+            "width": 1349.5837,
+            "height": 727.4708,
+            "native_z": 800.0,
+            "projection_factor": 0.689154,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "07",
+            "path": "/art/4017/07.webp",
+            "x": 65.2889,
+            "y": 8.1851,
+            "width": 1045.7735,
+            "height": 804.4411,
+            "native_z": 1000.0,
+            "projection_factor": 0.63946,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "04",
+            "path": "/art/4017/04.webp",
+            "x": 99.8511,
+            "y": -105.1713,
+            "width": 967.3071,
+            "height": 730.3169,
+            "native_z": 500.0,
+            "projection_factor": 0.780086,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "06",
+            "path": "/art/4017/06.webp",
+            "x": 26.0019,
+            "y": -18.5178,
+            "width": 1098.5801,
+            "height": 805.0324,
+            "native_z": 300.0,
+            "projection_factor": 0.855325,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "05",
+            "path": "/art/4017/05.webp",
+            "x": 181.0898,
+            "y": -277.1725,
+            "width": 486.1121,
+            "height": 233.7791,
+            "native_z": 100.0,
+            "projection_factor": 0.946627,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "title",
+            "path": "/art/4017/title.webp",
+            "x": 198.4251,
+            "y": 216.6587,
+            "width": 194.0919,
+            "height": 187.3991,
+            "native_z": -120.0,
+            "projection_factor": 1.072568,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_title",
+            "opacity": 1.0,
+            "is_title": true
+          }
+        ],
         "motion": {
           "rotation_x": 5.0,
           "rotation_y": -20.0
@@ -8381,10 +11621,137 @@
       "staticImage": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/artwork/4039.png",
       "card": {
         "mask_size": 712.0,
-        "layers": [],
+        "layers": [
+          {
+            "name": "4039_bg",
+            "path": "/art/4039/4039_bg.webp",
+            "x": 45.5516,
+            "y": -19.0975,
+            "width": 1841.5259,
+            "height": 1305.6131,
+            "native_z": 3000.0,
+            "projection_factor": 0.371546,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_0",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4039_actor3",
+            "path": "/art/4039/4039_actor3.webp",
+            "x": -595.6375,
+            "y": -270.8136,
+            "width": 277.954,
+            "height": 346.2234,
+            "native_z": 2300.0,
+            "projection_factor": 0.435392,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4039_pavilion",
+            "path": "/art/4039/4039_pavilion.webp",
+            "x": 34.7804,
+            "y": -1.7766,
+            "width": 1663.947,
+            "height": 1179.7124,
+            "native_z": 2000.0,
+            "projection_factor": 0.470005,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4039_actor2",
+            "path": "/art/4039/4039_actor2.webp",
+            "x": -327.02,
+            "y": -235.8969,
+            "width": 230.2057,
+            "height": 556.3305,
+            "native_z": 1000.0,
+            "projection_factor": 0.63946,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4039_actor1",
+            "path": "/art/4039/4039_actor1.webp",
+            "x": 111.782,
+            "y": -112.218,
+            "width": 632.8502,
+            "height": 606.3434,
+            "native_z": 260.5,
+            "projection_factor": 0.871935,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4039_title",
+            "path": "/art/4039/4039_title.webp",
+            "x": -151.1435,
+            "y": 229.0033,
+            "width": 316.0827,
+            "height": 164.4658,
+            "native_z": -200.0,
+            "projection_factor": 1.127095,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_title",
+            "opacity": 1.0,
+            "is_title": true
+          },
+          {
+            "name": "4039_wave",
+            "path": "/art/4039/4039_wave.webp",
+            "x": 0.0,
+            "y": -313.4044,
+            "width": 239.8262,
+            "height": 27.8868,
+            "native_z": -120.0,
+            "projection_factor": 1.072568,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_title",
+            "opacity": 1.0,
+            "is_title": true
+          }
+        ],
         "motion": {
-          "rotation_x": 3,
-          "rotation_y": -8
+          "rotation_x": 3.0,
+          "rotation_y": -15.0
         }
       },
       "activity": {
@@ -8446,10 +11813,155 @@
       "staticImage": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/artwork/4038.png",
       "card": {
         "mask_size": 712.0,
-        "layers": [],
+        "layers": [
+          {
+            "name": "4038_Bg",
+            "path": "/art/4038/4038_Bg.webp",
+            "x": 0.0,
+            "y": 0.0,
+            "width": 1993.5679,
+            "height": 1411.8753,
+            "native_z": 3000.0,
+            "projection_factor": 0.371546,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_0",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4038_Xiya",
+            "path": "/art/4038/4038_Xiya.webp",
+            "x": -10.624,
+            "y": 44.6208,
+            "width": 1126.9929,
+            "height": 928.1118,
+            "native_z": 2400.0,
+            "projection_factor": 0.42496,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4038_Plant_02",
+            "path": "/art/4038/4038_Plant_02.webp",
+            "x": 0.0,
+            "y": 0.0,
+            "width": 1791.8468,
+            "height": 1269.0133,
+            "native_z": 2000.0,
+            "projection_factor": 0.470005,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4038_Plant_01",
+            "path": "/art/4038/4038_Plant_01.webp",
+            "x": -534.0942,
+            "y": 0.0,
+            "width": 259.1218,
+            "height": 760.8258,
+            "native_z": 800.0,
+            "projection_factor": 0.689154,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4038_Fish",
+            "path": "/art/4038/4038_Fish.webp",
+            "x": -47.9595,
+            "y": 543.5413,
+            "width": 1236.5885,
+            "height": 1055.1096,
+            "native_z": 1000.0,
+            "projection_factor": 0.63946,
+            "pivot": {
+              "x": 0.5,
+              "y": 1.0
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4038_Purple",
+            "path": "/art/4038/4038_Purple.webp",
+            "x": 0.0,
+            "y": 0.0,
+            "width": 1436.8959,
+            "height": 1075.521,
+            "native_z": 700.0,
+            "projection_factor": 0.717014,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4038_Light",
+            "path": "/art/4038/4038_Light.webp",
+            "x": 0.0,
+            "y": 0.0,
+            "width": 1111.5828,
+            "height": 787.0093,
+            "native_z": 480.0,
+            "projection_factor": 0.787009,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4038_Title",
+            "path": "/art/4038/4038_Title.webp",
+            "x": -65.5432,
+            "y": -202.0914,
+            "width": 474.0956,
+            "height": 232.4598,
+            "native_z": -150.0,
+            "projection_factor": 1.092386,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_title",
+            "opacity": 1.0,
+            "is_title": true
+          }
+        ],
         "motion": {
-          "rotation_x": 3,
-          "rotation_y": -8
+          "rotation_x": 5.0,
+          "rotation_y": -20.0
         }
       },
       "activity": {
@@ -8806,10 +12318,155 @@
       "staticImage": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/artwork/4033.png",
       "card": {
         "mask_size": 712.0,
-        "layers": [],
+        "layers": [
+          {
+            "name": "4033_bg",
+            "path": "/art/4033/4033_bg.webp",
+            "x": 0.0,
+            "y": -2.9828,
+            "width": 1797.1365,
+            "height": 1244.3064,
+            "native_z": 1800.0,
+            "projection_factor": 0.496309,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_0",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4033_sparkle",
+            "path": "/art/4033/4033_sparkle.webp",
+            "x": 574.5894,
+            "y": 102.5661,
+            "width": 1055.9603,
+            "height": 858.9989,
+            "native_z": 977.61,
+            "projection_factor": 0.644664,
+            "pivot": {
+              "x": 1.0,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4033_ball_upright",
+            "path": "/art/4033/4033_ball_upright.webp",
+            "x": 88.2027,
+            "y": 432.2585,
+            "width": 214.7545,
+            "height": 141.819,
+            "native_z": 677.6,
+            "projection_factor": 0.723566,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4033_ball_upleft",
+            "path": "/art/4033/4033_ball_upleft.webp",
+            "x": -456.0596,
+            "y": 330.7544,
+            "width": 331.182,
+            "height": 218.2791,
+            "native_z": 300.0,
+            "projection_factor": 0.855325,
+            "pivot": {
+              "x": 0.0,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4033_birdfront",
+            "path": "/art/4033/4033_birdfront.webp",
+            "x": 315.7903,
+            "y": -271.9355,
+            "width": 404.9018,
+            "height": 253.0636,
+            "native_z": 200.0,
+            "projection_factor": 0.898663,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4033_light",
+            "path": "/art/4033/4033_light.webp",
+            "x": 253.9478,
+            "y": -174.2688,
+            "width": 167.9709,
+            "height": 82.562,
+            "native_z": 200.0004,
+            "projection_factor": 0.898663,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4033_rope",
+            "path": "/art/4033/4033_rope.webp",
+            "x": 408.5889,
+            "y": -155.7653,
+            "width": 239.1548,
+            "height": 389.4132,
+            "native_z": 30.0,
+            "projection_factor": 0.983367,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 4.0928,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4033_title",
+            "path": "/art/4033/4033_title.webp",
+            "x": -99.3865,
+            "y": 216.6914,
+            "width": 420.25,
+            "height": 160.2203,
+            "native_z": -180.0,
+            "projection_factor": 1.11295,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_title",
+            "opacity": 1.0,
+            "is_title": true
+          }
+        ],
         "motion": {
-          "rotation_x": 3,
-          "rotation_y": -8
+          "rotation_x": 5.0,
+          "rotation_y": -20.0
         }
       },
       "activity": {
@@ -9220,10 +12877,65 @@
       "staticImage": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/artwork/4030.png",
       "card": {
         "mask_size": 712.0,
-        "layers": [],
+        "layers": [
+          {
+            "name": "4030_bg",
+            "path": "/art/4030/4030_bg.webp",
+            "x": 0.0,
+            "y": -5.6401,
+            "width": 1790.1548,
+            "height": 1271.2694,
+            "native_z": 2000.0,
+            "projection_factor": 0.470005,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_0",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4030_actor",
+            "path": "/art/4030/4030_actor.webp",
+            "x": 0.0,
+            "y": -37.3611,
+            "width": 1361.1387,
+            "height": 917.2891,
+            "native_z": 600.0,
+            "projection_factor": 0.747222,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_0",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4030_title",
+            "path": "/art/4030/4030_title.webp",
+            "x": 0.0,
+            "y": 0.0,
+            "width": 619.0863,
+            "height": 635.8183,
+            "native_z": -120.0,
+            "projection_factor": 1.072568,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_title",
+            "opacity": 1.0,
+            "is_title": true
+          }
+        ],
         "motion": {
-          "rotation_x": 3,
-          "rotation_y": -8
+          "rotation_x": 5.0,
+          "rotation_y": -20.0
         }
       },
       "activity": {
@@ -9709,10 +13421,101 @@
       "staticImage": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/artwork/4022.png",
       "card": {
         "mask_size": 712.0,
-        "layers": [],
+        "layers": [
+          {
+            "name": "4022_bg",
+            "path": "/art/4022/4022_bg.webp",
+            "x": 0.0,
+            "y": 0.0,
+            "width": 1982.1985,
+            "height": 1369.519,
+            "native_z": 3000.0,
+            "projection_factor": 0.371546,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_0",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4022_fg",
+            "path": "/art/4022/4022_fg.webp",
+            "x": 0.0,
+            "y": 0.0,
+            "width": 1791.8468,
+            "height": 1269.0133,
+            "native_z": 2000.0,
+            "projection_factor": 0.470005,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_0",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4022_fx",
+            "path": "/art/4022/4022_fx.webp",
+            "x": -59.5971,
+            "y": 0.0,
+            "width": 1523.0846,
+            "height": 1031.5712,
+            "native_z": 1500.0,
+            "projection_factor": 0.541792,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4022_title1",
+            "path": "/art/4022/4022_title1.webp",
+            "x": 265.0,
+            "y": -265.0,
+            "width": 116.0,
+            "height": 116.0,
+            "native_z": 0.0,
+            "projection_factor": 1.0,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4022_title2",
+            "path": "/art/4022/4022_title2.webp",
+            "x": -171.6109,
+            "y": 235.965,
+            "width": 254.3273,
+            "height": 137.2029,
+            "native_z": -120.0,
+            "projection_factor": 1.072568,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_title",
+            "opacity": 1.0,
+            "is_title": true
+          }
+        ],
         "motion": {
-          "rotation_x": 3,
-          "rotation_y": -8
+          "rotation_x": 5.0,
+          "rotation_y": -20.0
         }
       },
       "activity": {
@@ -9882,6 +13685,42 @@
             "branch": "layer_1",
             "opacity": 1.0,
             "is_title": false
+          },
+          {
+            "name": "title01",
+            "path": "/art/4021/title01.webp",
+            "x": -275.0,
+            "y": -300.0,
+            "width": 108.0,
+            "height": 36.0,
+            "native_z": 0.0,
+            "projection_factor": 1.0,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_title",
+            "opacity": 1.0,
+            "is_title": true
+          },
+          {
+            "name": "title02",
+            "path": "/art/4021/title02.webp",
+            "x": 140.8869,
+            "y": 225.4191,
+            "width": 243.4526,
+            "height": 138.6327,
+            "native_z": -200.0,
+            "projection_factor": 1.127095,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_title",
+            "opacity": 1.0,
+            "is_title": true
           }
         ],
         "motion": {
@@ -10914,10 +14753,119 @@
       "staticImage": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/artwork/4013.png",
       "card": {
         "mask_size": 712.0,
-        "layers": [],
+        "layers": [
+          {
+            "name": "4013_bg",
+            "path": "/art/4013/4013_bg.webp",
+            "x": 0.0,
+            "y": 0.0,
+            "width": 1983.0754,
+            "height": 1404.4443,
+            "native_z": 3000.0,
+            "projection_factor": 0.371546,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_0",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4013_actor",
+            "path": "/art/4013/4013_actor.webp",
+            "x": -334.2396,
+            "y": -108.8863,
+            "width": 632.6432,
+            "height": 855.929,
+            "native_z": 800.0,
+            "projection_factor": 0.689154,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4013_fx",
+            "path": "/art/4013/4013_fx.webp",
+            "x": -4.4833,
+            "y": 5.9778,
+            "width": 1285.8188,
+            "height": 747.8193,
+            "native_z": 600.0,
+            "projection_factor": 0.747222,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4013_paper",
+            "path": "/art/4013/4013_paper.webp",
+            "x": 0.0,
+            "y": -9.1239,
+            "width": 1131.6839,
+            "height": 803.5377,
+            "native_z": 250.0,
+            "projection_factor": 0.876459,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4013_title1",
+            "path": "/art/4013/4013_title1.webp",
+            "x": -126.3891,
+            "y": 275.1721,
+            "width": 371.4987,
+            "height": 92.0226,
+            "native_z": -150.0,
+            "projection_factor": 1.092386,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_title",
+            "opacity": 1.0,
+            "is_title": true
+          },
+          {
+            "name": "4013_title2",
+            "path": "/art/4013/4013_title2.webp",
+            "x": 284.0132,
+            "y": -284.0132,
+            "width": 46.2899,
+            "height": 46.2899,
+            "native_z": -100.0,
+            "projection_factor": 1.059751,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_title",
+            "opacity": 1.0,
+            "is_title": true
+          }
+        ],
         "motion": {
-          "rotation_x": 3,
-          "rotation_y": -8
+          "rotation_x": 5.0,
+          "rotation_y": -20.0
         }
       },
       "activity": {
@@ -10979,10 +14927,317 @@
       "staticImage": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/artwork/4012.png",
       "card": {
         "mask_size": 712.0,
-        "layers": [],
+        "layers": [
+          {
+            "name": "4012_ground",
+            "path": "/art/4012/4012_ground.webp",
+            "x": 42.1806,
+            "y": -56.2408,
+            "width": 1149.7862,
+            "height": 653.9677,
+            "native_z": 1380.0,
+            "projection_factor": 0.562408,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": -0.2289,
+            "branch": "layer_0",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4012_04",
+            "path": "/art/4012/4012_04.webp",
+            "x": -114.5293,
+            "y": 305.1095,
+            "width": 308.111,
+            "height": 712.0787,
+            "native_z": 1966.91,
+            "projection_factor": 0.474163,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": -0.2289,
+            "branch": "layer_0",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4012_03",
+            "path": "/art/4012/4012_03.webp",
+            "x": 36.1027,
+            "y": 352.1821,
+            "width": 338.9221,
+            "height": 616.2219,
+            "native_z": 1966.91,
+            "projection_factor": 0.474163,
+            "pivot": {
+              "x": 0.0,
+              "y": 0.5
+            },
+            "rotation": -0.2289,
+            "branch": "layer_0",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4012_02",
+            "path": "/art/4012/4012_02.webp",
+            "x": 371.259,
+            "y": 396.687,
+            "width": 338.9221,
+            "height": 527.2121,
+            "native_z": 1966.91,
+            "projection_factor": 0.474163,
+            "pivot": {
+              "x": 0.0,
+              "y": 0.5
+            },
+            "rotation": -0.2289,
+            "branch": "layer_0",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4012_01",
+            "path": "/art/4012/4012_01.webp",
+            "x": 710.1875,
+            "y": 460.0163,
+            "width": 338.9187,
+            "height": 397.1169,
+            "native_z": 1966.9471,
+            "projection_factor": 0.474158,
+            "pivot": {
+              "x": 0.0,
+              "y": 0.5
+            },
+            "rotation": -0.2289,
+            "branch": "layer_0",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4012_05",
+            "path": "/art/4012/4012_05.webp",
+            "x": -266.0171,
+            "y": 267.4515,
+            "width": 308.111,
+            "height": 787.3947,
+            "native_z": 1966.91,
+            "projection_factor": 0.474163,
+            "pivot": {
+              "x": 1.0,
+              "y": 0.5
+            },
+            "rotation": -0.2289,
+            "branch": "layer_0",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4012_06",
+            "path": "/art/4012/4012_06.webp",
+            "x": -574.128,
+            "y": 234.9287,
+            "width": 308.111,
+            "height": 849.0169,
+            "native_z": 1966.91,
+            "projection_factor": 0.474163,
+            "pivot": {
+              "x": 1.0,
+              "y": 0.5
+            },
+            "rotation": -0.2289,
+            "branch": "layer_0",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4012_a4",
+            "path": "/art/4012/4012_a4.webp",
+            "x": 550.5796,
+            "y": 278.6552,
+            "width": 208.2061,
+            "height": 323.0785,
+            "native_z": 2179.0,
+            "projection_factor": 0.44872,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": -0.2289,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4012_a3",
+            "path": "/art/4012/4012_a3.webp",
+            "x": 438.7497,
+            "y": 210.0106,
+            "width": 293.4541,
+            "height": 486.7044,
+            "native_z": 1200.0,
+            "projection_factor": 0.596451,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": -0.2289,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4012_grass02",
+            "path": "/art/4012/4012_grass02.webp",
+            "x": 563.2224,
+            "y": 105.7797,
+            "width": 210.6233,
+            "height": 304.2337,
+            "native_z": 500.0,
+            "projection_factor": 0.780086,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": -0.2289,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4012_a5",
+            "path": "/art/4012/4012_a5.webp",
+            "x": -329.9511,
+            "y": 69.3493,
+            "width": 235.7877,
+            "height": 346.7467,
+            "native_z": 1500.0,
+            "projection_factor": 0.541792,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": -5.2289,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4012_a6",
+            "path": "/art/4012/4012_a6.webp",
+            "x": -373.6314,
+            "y": -7.9292,
+            "width": 288.3329,
+            "height": 498.5757,
+            "native_z": 1179.0,
+            "projection_factor": 0.600694,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": -0.2289,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4012_a2",
+            "path": "/art/4012/4012_a2.webp",
+            "x": -47.3073,
+            "y": -80.4441,
+            "width": 564.7714,
+            "height": 864.8062,
+            "native_z": 1000.0,
+            "projection_factor": 0.63946,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": -0.2289,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4012_a1",
+            "path": "/art/4012/4012_a1.webp",
+            "x": 329.1965,
+            "y": -39.0043,
+            "width": 854.0386,
+            "height": 864.6478,
+            "native_z": 500.0,
+            "projection_factor": 0.780086,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": -0.2289,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4012_grass03",
+            "path": "/art/4012/4012_grass03.webp",
+            "x": -309.6278,
+            "y": -283.9681,
+            "width": 402.3451,
+            "height": 336.6561,
+            "native_z": 300.0,
+            "projection_factor": 0.855325,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": -0.2289,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "title2",
+            "path": "/art/4012/title2.webp",
+            "x": 263.8,
+            "y": -302.0,
+            "width": 140.0,
+            "height": 32.0,
+            "native_z": 0.0,
+            "projection_factor": 1.0,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": -0.2289,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "title",
+            "path": "/art/4012/title.webp",
+            "x": -107.0741,
+            "y": -238.9442,
+            "width": 411.1644,
+            "height": 90.1676,
+            "native_z": -200.0,
+            "projection_factor": 1.127095,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": -0.2289,
+            "branch": "layer_title",
+            "opacity": 1.0,
+            "is_title": true
+          }
+        ],
         "motion": {
-          "rotation_x": 3,
-          "rotation_y": -8
+          "rotation_x": 5.0,
+          "rotation_y": -20.0
         }
       },
       "activity": {
@@ -11046,7 +15301,80 @@
       "staticImage": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/artwork/4011.png",
       "card": {
         "mask_size": 712.0,
-        "layers": [],
+        "layers": [
+          {
+            "name": "bg",
+            "path": "/art/4011/bg.webp",
+            "x": 0.0,
+            "y": 3.7155,
+            "width": 1990.9225,
+            "height": 1413.629,
+            "native_z": 3000.0,
+            "projection_factor": 0.371546,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_0",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "01",
+            "path": "/art/4011/01.webp",
+            "x": 67.1433,
+            "y": -26.8573,
+            "width": 1582.5364,
+            "height": 1123.6597,
+            "native_z": 1000.0,
+            "projection_factor": 0.63946,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "02",
+            "path": "/art/4011/02.webp",
+            "x": 1.0,
+            "y": 1.0,
+            "width": 725.8,
+            "height": 722.0,
+            "native_z": 0.0,
+            "projection_factor": 1.0,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "title",
+            "path": "/art/4011/title.webp",
+            "x": 0.0,
+            "y": 259.5615,
+            "width": 381.491,
+            "height": 110.4316,
+            "native_z": -120.0,
+            "projection_factor": 1.072568,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_title",
+            "opacity": 1.0,
+            "is_title": true
+          }
+        ],
         "motion": {
           "rotation_x": 5.0,
           "rotation_y": -20.0
@@ -11321,10 +15649,119 @@
       "staticImage": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/artwork/4009.png",
       "card": {
         "mask_size": 712.0,
-        "layers": [],
+        "layers": [
+          {
+            "name": "bg",
+            "path": "/art/4009/bg.webp",
+            "x": 0.0,
+            "y": 11.1464,
+            "width": 1998.9182,
+            "height": 1411.8753,
+            "native_z": 3000.0,
+            "projection_factor": 0.371546,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_0",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "photo",
+            "path": "/art/4009/photo.webp",
+            "x": 0.0,
+            "y": 27.908,
+            "width": 1431.7221,
+            "height": 1159.9788,
+            "native_z": 1200.0,
+            "projection_factor": 0.596451,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "flower",
+            "path": "/art/4009/flower.webp",
+            "x": -535.4036,
+            "y": -49.2745,
+            "width": 66.1588,
+            "height": 86.8334,
+            "native_z": 800.0,
+            "projection_factor": 0.689154,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "star",
+            "path": "/art/4009/star.webp",
+            "x": 0.0,
+            "y": -71.7014,
+            "width": 1262.805,
+            "height": 784.9869,
+            "native_z": 700.0,
+            "projection_factor": 0.717014,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "sunshine",
+            "path": "/art/4009/sunshine.webp",
+            "x": 351.0389,
+            "y": 304.2337,
+            "width": 567.2788,
+            "height": 398.7801,
+            "native_z": 500.0,
+            "projection_factor": 0.780086,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "flower",
+            "path": "/art/4009/flower.webp",
+            "x": 150.0,
+            "y": -205.0,
+            "width": 64.0,
+            "height": 84.0,
+            "native_z": 0.0,
+            "projection_factor": 1.0,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_title",
+            "opacity": 0.0,
+            "is_title": true
+          }
+        ],
         "motion": {
-          "rotation_x": 3,
-          "rotation_y": -8
+          "rotation_x": 5.0,
+          "rotation_y": -20.0
         }
       },
       "activity": {
@@ -11387,7 +15824,134 @@
       "staticImage": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/artwork/4002.png",
       "card": {
         "mask_size": 712.0,
-        "layers": [],
+        "layers": [
+          {
+            "name": "bg",
+            "path": "/art/4002/bg.webp",
+            "x": -83.0032,
+            "y": -24.901,
+            "width": 2277.4409,
+            "height": 1608.6014,
+            "native_z": 2500.0,
+            "projection_factor": 0.415016,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_0",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "1",
+            "path": "/art/4002/1.webp",
+            "x": 168.4987,
+            "y": 106.8718,
+            "width": 552.3012,
+            "height": 865.8959,
+            "native_z": 500.0,
+            "projection_factor": 0.780086,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "2",
+            "path": "/art/4002/2.webp",
+            "x": -35.0584,
+            "y": -127.0866,
+            "width": 997.0598,
+            "height": 605.8085,
+            "native_z": 250.0,
+            "projection_factor": 0.876459,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_2",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "3",
+            "path": "/art/4002/3.webp",
+            "x": -85.1965,
+            "y": -115.4885,
+            "width": 1040.7221,
+            "height": 661.8819,
+            "native_z": 100.0,
+            "projection_factor": 0.946627,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_3",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "5",
+            "path": "/art/4002/5.webp",
+            "x": -66.6899,
+            "y": -53.4371,
+            "width": 1715.6674,
+            "height": 844.7703,
+            "native_z": 100.0,
+            "projection_factor": 0.946627,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_3",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4",
+            "path": "/art/4002/4.webp",
+            "x": -28.8122,
+            "y": -51.4504,
+            "width": 1070.1691,
+            "height": 802.6268,
+            "native_z": -50.0,
+            "projection_factor": 1.029009,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_4",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "title",
+            "path": "/art/4002/title.webp",
+            "x": 0.0,
+            "y": 0.0,
+            "width": 590.5079,
+            "height": 597.1803,
+            "native_z": -200.0,
+            "projection_factor": 1.127095,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_title",
+            "opacity": 1.0,
+            "is_title": true
+          }
+        ],
         "motion": {
           "rotation_x": 5.0,
           "rotation_y": -20.0
@@ -11453,10 +16017,227 @@
       "staticImage": "https://raw.githubusercontent.com/rikumi/nova-rhythm/site-assets/artwork/4001.png",
       "card": {
         "mask_size": 712.0,
-        "layers": [],
+        "layers": [
+          {
+            "name": "bg",
+            "path": "/art/4001/bg.webp",
+            "x": 0.0,
+            "y": 18.6757,
+            "width": 2232.7852,
+            "height": 1585.3605,
+            "native_z": 2500.0,
+            "projection_factor": 0.415016,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_0",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "1",
+            "path": "/art/4001/1.webp",
+            "x": -446.7614,
+            "y": -245.3233,
+            "width": 205.8808,
+            "height": 590.5529,
+            "native_z": 1500.0,
+            "projection_factor": 0.541792,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_1",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "2",
+            "path": "/art/4001/2.webp",
+            "x": 0.0,
+            "y": 0.0,
+            "width": 1407.0182,
+            "height": 983.3436,
+            "native_z": 600.0,
+            "projection_factor": 0.747222,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_2",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "2a",
+            "path": "/art/4001/2a.webp",
+            "x": -40.6344,
+            "y": 197.754,
+            "width": 1165.0688,
+            "height": 774.5887,
+            "native_z": 1500.0,
+            "projection_factor": 0.541792,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_3",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "3",
+            "path": "/art/4001/3.webp",
+            "x": 4.5652,
+            "y": -249.0095,
+            "width": 1607.6053,
+            "height": 854.6006,
+            "native_z": 2500.0,
+            "projection_factor": 0.415016,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_3",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "5",
+            "path": "/art/4001/5.webp",
+            "x": -325.066,
+            "y": -301.9834,
+            "width": 465.2321,
+            "height": 572.5934,
+            "native_z": 1200.0,
+            "projection_factor": 0.596451,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_3",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "4",
+            "path": "/art/4001/4.webp",
+            "x": 30.4976,
+            "y": -220.2602,
+            "width": 1184.9999,
+            "height": 449.3308,
+            "native_z": 320.0,
+            "projection_factor": 0.847155,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_4",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "6",
+            "path": "/art/4001/6.webp",
+            "x": 230.9379,
+            "y": -47.9838,
+            "width": 649.3631,
+            "height": 778.3462,
+            "native_z": 300.0,
+            "projection_factor": 0.855325,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_4",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "7",
+            "path": "/art/4001/7.webp",
+            "x": 0.0,
+            "y": 0.0,
+            "width": 1160.3542,
+            "height": 823.8946,
+            "native_z": 200.0,
+            "projection_factor": 0.898663,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_4",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "8",
+            "path": "/art/4001/8.webp",
+            "x": 0.0,
+            "y": 0.0,
+            "width": 1022.2,
+            "height": 725.8,
+            "native_z": 0.0,
+            "projection_factor": 1.0,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_4",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "9",
+            "path": "/art/4001/9.webp",
+            "x": 0.0,
+            "y": -236.672,
+            "width": 830.41,
+            "height": 243.8751,
+            "native_z": -50.0,
+            "projection_factor": 1.029009,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_4",
+            "opacity": 1.0,
+            "is_title": false
+          },
+          {
+            "name": "title",
+            "path": "/art/4001/title.webp",
+            "x": 0.0,
+            "y": 0.0,
+            "width": 626.4848,
+            "height": 619.9927,
+            "native_z": -200.0,
+            "projection_factor": 1.127095,
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "rotation": 0.0,
+            "branch": "layer_title",
+            "opacity": 1.0,
+            "is_title": true
+          }
+        ],
         "motion": {
-          "rotation_x": 3,
-          "rotation_y": -8
+          "rotation_x": 5.0,
+          "rotation_y": -25.0
         }
       },
       "activity": {
