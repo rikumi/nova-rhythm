@@ -3,6 +3,7 @@ import json
 import math
 import UnityPy
 from native_typetrees import component_reader
+from disc_camera import camera_for_bundle, perspective_factor
 
 def layout(item, diagnostics=None, sprite_exports=None):
     art = item['artwork']
@@ -18,12 +19,13 @@ def layout(item, diagnostics=None, sprite_exports=None):
     if root is None or root not in by_go:
         return result
 
-    # The offscreen Canvas uses a perspective camera at 60° FOV and a square
-    # 2048 px target. RectTransform z is in Canvas pixels, not CSS pixels.
-    # Unity's camera plane distance cancels out when calculating the focal length.
-    focal_length = 2048 / (2 * math.tan(math.radians(60) / 2))
+    # RectTransform z is in reference Canvas units. RenderTexture resolution
+    # changes raster density and must not change the apparent size of the artwork.
+    camera = camera_for_bundle(art['source_bundle'])
+    result['camera'] = camera
+    focal_length = camera['focal_length']
 
-    def walk(tid, parent=(0, 0, 1, 1, 0, 0, 1, 2048, 2048, .5, .5), branch='', depth=0):
+    def walk(tid, parent=(0, 0, 1, 1, 0, 0, 1, *camera['reference_resolution'], .5, .5), branch='', depth=0):
         d = transforms[tid]
         go = gos[d['m_GameObject']['m_PathID']]
         if not go.get('m_IsActive', 1):
@@ -46,7 +48,7 @@ def layout(item, diagnostics=None, sprite_exports=None):
         sx, sy = parent[2] * scale['x'], parent[3] * scale['y']
         z = parent[5] + local_pos.get('z', 0) * parent[6]
         sz = parent[6] * scale['z']
-        projection = focal_length / max(focal_length + z, 1)
+        projection = perspective_factor(z, focal_length)
         q = d['m_LocalRotation']
         angle = parent[4] + math.degrees(math.atan2(2*q['w']*q['z'], 1-2*q['z']**2))
         if name == 'mask' and d.get('m_SizeDelta', {}).get('x', 0):

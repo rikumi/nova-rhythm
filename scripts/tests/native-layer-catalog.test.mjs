@@ -37,3 +37,20 @@ test('all outfits are audited and special ImageWarp backgrounds and unprefixed s
   assert.ok(card('4016').layers.some(layer=>layer.name==='01'));
   assert.equal(card('4012').layers.length,17);
 });
+
+test('native perspective is calibrated in Canvas reference units rather than render pixels',()=>{
+  for(const item of catalog){
+    if(!item.card.layers.length)continue;
+    const camera=item.card.camera;
+    assert.deepEqual(camera.reference_resolution,[1080,1080]);
+    assert.equal(camera.vertical_fov,60);
+    const focal=camera.reference_resolution[1]/(2*Math.tan(camera.vertical_fov*Math.PI/360));
+    assert.equal(camera.focal_length,focal);
+    for(const layer of item.card.layers){
+      assert.ok(Math.abs(layer.projection_factor-focal/(focal+layer.native_z))<.00000051,`${item.code}: ${layer.name}`);
+    }
+  }
+  const card=catalog.find(item=>item.code==='4047').card;
+  assert.ok(card.layers[0].height<card.mask_size*1.15);
+  assert.ok(card.layers.find(layer=>layer.name==='4047_title').projection_factor>1.27);
+});

@@ -39,7 +39,7 @@ export interface Outfit {
   element: number; rarity: number; tags: string[];
   attributes: { name: string; value: string }[];
   cover: string; thumbnail: string; staticImage: string; fullCover?: string;
-  card: { mask_size: number; layers: CardLayer[]; layout?: 'canvas'; motion?: { rotation_x: number; rotation_y: number } };
+  card: { mask_size: number; layers: CardLayer[]; layout?: 'canvas'; motion?: { rotation_x: number; rotation_y: number }; camera?: { reference_resolution: [number, number]; vertical_fov: number; focal_length: number; plane_distance: number; source_sha256: string } };
   activity: { date: string; name: string; id: number; basis: string };
   music: Music[]; mainSkill: Skill | null; secondarySkills: Skill[];
 }

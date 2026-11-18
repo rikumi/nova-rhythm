@@ -194,6 +194,8 @@ python scripts/recover_native_layers.py
 
 此脚本核对全部秘纹，保留其它文本与音乐字段，仅修复原生图层布局和缺失图片。导出的 WebP 保留原始分辨率并使用无损编码；布局、源文件哈希和图片哈希记录在 `references/native-layer-recovery.json`。若有无法解析的组件，停止更新清单，避免将缺失图层误判为静态秘纹。游戏目录始终只读。
 
+透视参数由 `disc_camera.py` 从当前版本的 `ui_disc.unity3d` 读取，关联相机、Canvas 和 CanvasScaler。当前参考画布为 1080×1080、垂直视场角为 60°，Canvas 坐标中的焦距为 `1080 / (2 × tan(30°))`，图层投影倍率为 `f / (f + z)`。2048×2048 的 RenderTexture 只影响采样清晰度，不能代替参考画布尺寸参与纵深计算。校准数据与源包哈希保存在每张秘纹的 `card.camera` 中。
+
 ## 验证
 
 ```powershell
