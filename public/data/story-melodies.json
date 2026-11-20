@@ -59,12 +59,6 @@
       ],
       "tracks": [
         {
-          "id": "audio-b011eee66b31b83229cb463a04d451df24e63462e414d43667e6b3e8a1061597",
-          "name": "并非不慌不忙的一天",
-          "file": "/audio/audio-b011eee66b31b83229cb463a04d451df24e63462e414d43667e6b3e8a1061597.opus",
-          "description": ""
-        },
-        {
           "id": "audio-29d23edcb066d719e3fca8887a7de976318529dd8b2dfe28af9f6bbe7291d02c",
           "name": "特别篇 · 完璧之城",
           "file": "/audio/audio-29d23edcb066d719e3fca8887a7de976318529dd8b2dfe28af9f6bbe7291d02c.opus",
@@ -667,12 +661,6 @@
       ],
       "tracks": [
         {
-          "id": "audio-6a206cff7aafc356a31db95d420dece9bf13bb9f819e8cc11ded69c1c6bdefa7",
-          "name": "微火的奇迹",
-          "file": "/audio/audio-6a206cff7aafc356a31db95d420dece9bf13bb9f819e8cc11ded69c1c6bdefa7.opus",
-          "description": ""
-        },
-        {
           "id": "audio-aedbbd5da460dd8fc75807c498adbfb7a301aca8131a63b9331e6248eea7ae8f",
           "name": "迷雾与利爪",
           "file": "/audio/audio-aedbbd5da460dd8fc75807c498adbfb7a301aca8131a63b9331e6248eea7ae8f.opus",
@@ -688,12 +676,6 @@
           "id": "audio-b81e6ff58177028ad18c1af15f1f2ed837af74dada16b29be36f2c3ad687bab1",
           "name": "第六章 · 天下静谧",
           "file": "/audio/audio-b81e6ff58177028ad18c1af15f1f2ed837af74dada16b29be36f2c3ad687bab1.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-aa7d9dca099fdee9398a885199d318452880a003811584ba55eebd3c669d2204",
-          "name": "第六章 · 困兽犹斗",
-          "file": "/audio/audio-aa7d9dca099fdee9398a885199d318452880a003811584ba55eebd3c669d2204.opus",
           "description": ""
         },
         {
@@ -1064,12 +1046,6 @@
           "description": ""
         },
         {
-          "id": "audio-c1e700749508b5af4bdbfd6fe8dd6dd13931a9f83ec9e81d88b7f95624e75d4a",
-          "name": "第三章 · 维塔",
-          "file": "/audio/audio-c1e700749508b5af4bdbfd6fe8dd6dd13931a9f83ec9e81d88b7f95624e75d4a.opus",
-          "description": ""
-        },
-        {
           "id": "audio-4b4fa2db989f55540ee45f9b0b5a6818ce019b64ebd89fb9e7df0d49f3ae5af0",
           "name": "第三章 · 三大魔物 · 第1音轨",
           "file": "/audio/audio-4b4fa2db989f55540ee45f9b0b5a6818ce019b64ebd89fb9e7df0d49f3ae5af0.opus",
@@ -1274,24 +1250,6 @@
           "id": "audio-00fdecea08d4081bd0ea2825d8b2a82ad1e2143e0db634bad455ee142286e930",
           "name": "剑风如歌（第二章 · 黑色少女 · 第2音轨）",
           "file": "/audio/audio-00fdecea08d4081bd0ea2825d8b2a82ad1e2143e0db634bad455ee142286e930.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-10ada5e100bb793416ea648e56a2898e9dd04048cd6cd5185afd75e2628f1813",
-          "name": "第二章 · 黑色少女 · 第3音轨",
-          "file": "/audio/audio-10ada5e100bb793416ea648e56a2898e9dd04048cd6cd5185afd75e2628f1813.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-5ecf192bbaa0729c9f1f769658312ddcadf25d1cb33d795ff278755755c72a07",
-          "name": "第二章 · 黑色少女 · 第4音轨",
-          "file": "/audio/audio-5ecf192bbaa0729c9f1f769658312ddcadf25d1cb33d795ff278755755c72a07.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-88da21223cee630edc923873bc9e9c967684cb876c45da64bf56af8ddd7e5c6d",
-          "name": "第二章 · 黑色少女 · 第5音轨",
-          "file": "/audio/audio-88da21223cee630edc923873bc9e9c967684cb876c45da64bf56af8ddd7e5c6d.opus",
           "description": ""
         },
         {
@@ -1553,12 +1511,6 @@
           "id": "audio-2f078d15eaff79a35a219ec41b6435cbc829ead9add597c7533c144e0df6ce0a",
           "name": "不期而遇（招募结果 · 旅人）",
           "file": "/audio/audio-2f078d15eaff79a35a219ec41b6435cbc829ead9add597c7533c144e0df6ce0a.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-42a6cb5ec3ae46fad6d4f9b52d508a724dac636e478b59e515939d1607c637ec",
-          "name": "不期而遇（招募结果 · 秘纹）",
-          "file": "/audio/audio-42a6cb5ec3ae46fad6d4f9b52d508a724dac636e478b59e515939d1607c637ec.opus",
           "description": ""
         },
         {
@@ -2048,12 +2000,6 @@
           "description": ""
         },
         {
-          "id": "audio-834d25270db6d10d6f8dd2bcde4886995cf70ca766652a01e001d4247c83574a",
-          "name": "味觉惊惧",
-          "file": "/audio/audio-834d25270db6d10d6f8dd2bcde4886995cf70ca766652a01e001d4247c83574a.opus",
-          "description": ""
-        },
-        {
           "id": "audio-c523389d7345a432b1305f7a85eec62a504b2a3c7cb42b24f02d4327e847a880",
           "name": "企鹅狩猎",
           "file": "/audio/audio-c523389d7345a432b1305f7a85eec62a504b2a3c7cb42b24f02d4327e847a880.opus",
@@ -2117,33 +2063,15 @@
           "description": ""
         },
         {
-          "id": "audio-dc66453ff8cdc9a21c946b56f132a4c26644ccf329f49ab98510cb85f97ce3cc",
-          "name": "未使用曲 · m82 · 第1音轨",
-          "file": "/audio/audio-dc66453ff8cdc9a21c946b56f132a4c26644ccf329f49ab98510cb85f97ce3cc.opus",
-          "description": ""
-        },
-        {
           "id": "audio-010f64338b0b67612986b439da4bedd685697e43fb121a49d3366df3d78093c3",
           "name": "未使用曲 · m84",
           "file": "/audio/audio-010f64338b0b67612986b439da4bedd685697e43fb121a49d3366df3d78093c3.opus",
           "description": ""
         },
         {
-          "id": "audio-7c4b1c0966f304b6688f4de4e9691cce5db6457c2496ac8aae62db927c4b1d27",
-          "name": "未使用曲 · m94 · 第1音轨",
-          "file": "/audio/audio-7c4b1c0966f304b6688f4de4e9691cce5db6457c2496ac8aae62db927c4b1d27.opus",
-          "description": ""
-        },
-        {
           "id": "audio-6fb4c5d1bea36790f23254c239fad63071cf1bc16072a62d7f2eb5c37c08494a",
           "name": "未使用曲 · m82 · 第2音轨",
           "file": "/audio/audio-6fb4c5d1bea36790f23254c239fad63071cf1bc16072a62d7f2eb5c37c08494a.opus",
-          "description": ""
-        },
-        {
-          "id": "audio-eecb960d3ed4a30303902aad764a27948771d09b94e6be835844ef5a9f955e7a",
-          "name": "未使用曲 · m94 · 第2音轨",
-          "file": "/audio/audio-eecb960d3ed4a30303902aad764a27948771d09b94e6be835844ef5a9f955e7a.opus",
           "description": ""
         }
       ]

@@ -1,0 +1,3313 @@
+{
+  "schema_version": 1,
+  "mapping_sha256_before": "1a04c9a63cfd262086f1284e92c3746085242416f98cadd1223e44e1323bb51f",
+  "method": {
+    "source": "original lossless game FLAC only",
+    "fingerprint_minimum": 0.68,
+    "waveform_median_minimum": 0.88,
+    "every_window_minimum": 0.8,
+    "minimum_windows": 3,
+    "offset_spread_max_seconds": 0.08,
+    "removed_track_minimum_coverage": 0.85,
+    "recording_policy": "User confirmed: merge only substantially identical recordings; retain different arrangements/mixes and partial shared sections",
+    "priority": "Outfit first, then explicit canonical overrides, then earlier story release date / chapter / command order; protect mixer, cookie tempo/free-play variants and changed full official versions"
+  },
+  "audited_tracks": 424,
+  "audited_story_tracks": 212,
+  "results": [
+    {
+      "keep": {
+        "id": "audio-14ef894390ac14419ebb34d676bf65fffced0aae138413ef0a2f78995b93a50b",
+        "scope": "story",
+        "collection": "常驻系统",
+        "title": "并非不慌不忙的一天",
+        "path": "/audio/audio-14ef894390ac14419ebb34d676bf65fffced0aae138413ef0a2f78995b93a50b.opus",
+        "priority": [
+          1,
+          "2025-10-20",
+          999999,
+          999999,
+          123
+        ],
+        "source_duration": 91.10225,
+        "duration_seconds": 91.10225,
+        "current_duration_differs": false,
+        "lossless_sha256": "20d6c16f143fe8b6d587c2a967a00473bcc7c870f9aa89cf1a3fc3bf4a1b8685"
+      },
+      "remove": {
+        "id": "audio-b011eee66b31b83229cb463a04d451df24e63462e414d43667e6b3e8a1061597",
+        "scope": "story",
+        "collection": "完璧之庭 · 微尘破晓",
+        "title": "并非不慌不忙的一天",
+        "path": "/audio/audio-b011eee66b31b83229cb463a04d451df24e63462e414d43667e6b3e8a1061597.opus",
+        "priority": [
+          1,
+          "2026-10-20",
+          196,
+          6236,
+          2
+        ],
+        "source_duration": 92.126,
+        "duration_seconds": 92.126,
+        "current_duration_differs": false,
+        "lossless_sha256": "2b82266332aec3c3468cfb87c8c977a2d25c0a11fa7e42f35dd8668ff3a474c5"
+      },
+      "waveform_source_ids": [
+        "audio-b011eee66b31b83229cb463a04d451df24e63462e414d43667e6b3e8a1061597",
+        "audio-14ef894390ac14419ebb34d676bf65fffced0aae138413ef0a2f78995b93a50b"
+      ],
+      "evidence": {
+        "qq_mid": "audio-14ef894390ac14419ebb34d676bf65fffced0aae138413ef0a2f78995b93a50b",
+        "fingerprint_similarity": 0.964286,
+        "offset_frames": -8,
+        "offset_seconds": -0.990476,
+        "overlap_seconds": 88.4,
+        "votes": 792,
+        "coverage_of_shorter": 1.0,
+        "waveform_checks": [
+          {
+            "local_seconds": 11.923,
+            "qq_seconds": 10.901,
+            "window_seconds": 18.0,
+            "correlation": 0.99268,
+            "verified_offset_seconds": -1.0217
+          },
+          {
+            "local_seconds": 48.364,
+            "qq_seconds": 47.342,
+            "window_seconds": 18.0,
+            "correlation": 0.993041,
+            "verified_offset_seconds": -1.0217
+          },
+          {
+            "local_seconds": 72.093,
+            "qq_seconds": 71.071,
+            "window_seconds": 18.0,
+            "correlation": 0.995101,
+            "verified_offset_seconds": -1.0217
+          }
+        ],
+        "waveform_median": 0.993041,
+        "verified": true,
+        "stable_alignment": true,
+        "removed_track_coverage": 0.988888,
+        "eligible": true
+      },
+      "protected_playback_variants": false,
+      "eligible": true
+    },
+    {
+      "keep": {
+        "id": "audio-49ca78e8ac82730e63c52be9f95a4283029250c5196963335c19d446843f44df",
+        "scope": "story",
+        "collection": "常驻玩法",
+        "title": "冻冻王Ⅲ世",
+        "path": "/audio/audio-49ca78e8ac82730e63c52be9f95a4283029250c5196963335c19d446843f44df.opus",
+        "priority": [
+          1,
+          "2025-10-20",
+          999999,
+          999999,
+          174
+        ],
+        "source_duration": 90.96773242630385,
+        "duration_seconds": 90.96773242630385,
+        "current_duration_differs": false,
+        "lossless_sha256": "a2ce88c9aa00a9ba5dd425bccf0fdc0af6236fc56dd9ba441e4a83569a9f2bc1"
+      },
+      "remove": {
+        "id": "audio-e6d69fc29425cb2c1a7f35e17b302672ea2aa580bb2ec7e32527740246a2acfc",
+        "scope": "story",
+        "collection": "欢歌劲浪 · 闪耀假日惊涛探险！",
+        "title": "欢歌劲浪 · 闪耀假日惊涛探险！ · 首领战",
+        "path": "/audio/audio-e6d69fc29425cb2c1a7f35e17b302672ea2aa580bb2ec7e32527740246a2acfc.opus",
+        "priority": [
+          1,
+          "2026-08-18",
+          999999,
+          999999,
+          16
+        ],
+        "source_duration": 92.95310657596372,
+        "duration_seconds": 92.95310657596372,
+        "current_duration_differs": false,
+        "lossless_sha256": "767e4677c380a2cd7aeba57859ebe264fe28e769b641b535e3bcb7c4f83917c6"
+      },
+      "waveform_source_ids": [
+        "audio-e6d69fc29425cb2c1a7f35e17b302672ea2aa580bb2ec7e32527740246a2acfc",
+        "audio-49ca78e8ac82730e63c52be9f95a4283029250c5196963335c19d446843f44df"
+      ],
+      "evidence": {
+        "qq_mid": "audio-49ca78e8ac82730e63c52be9f95a4283029250c5196963335c19d446843f44df",
+        "fingerprint_similarity": 0.831879,
+        "offset_frames": 47,
+        "offset_seconds": 5.819048,
+        "overlap_seconds": 82.457,
+        "votes": 632,
+        "coverage_of_shorter": 0.9341,
+        "waveform_checks": [
+          {
+            "local_seconds": 10.218,
+            "qq_seconds": 16.024,
+            "window_seconds": 18.0,
+            "correlation": 0.03432,
+            "verified_offset_seconds": 5.806418
+          },
+          {
+            "local_seconds": 44.277,
+            "qq_seconds": 50.084,
+            "window_seconds": 18.0,
+            "correlation": 0.990016,
+            "verified_offset_seconds": 5.806418
+          },
+          {
+            "local_seconds": 65.149,
+            "qq_seconds": 70.955,
+            "window_seconds": 18.0,
+            "correlation": 0.988189,
+            "verified_offset_seconds": 5.806418
+          }
+        ],
+        "waveform_median": 0.988189,
+        "verified": false,
+        "stable_alignment": true,
+        "removed_track_coverage": 0.916039,
+        "eligible": false
+      },
+      "protected_playback_variants": false,
+      "eligible": false
+    },
+    {
+      "keep": {
+        "id": "audio-a31914f3953a681e908ad40d23409814fb4504ce73649fbd25767135f260a127",
+        "scope": "story",
+        "collection": "烟火绮丽寻春意",
+        "title": "烟火绮丽寻春意 · 寻幽探奇",
+        "path": "/audio/audio-a31914f3953a681e908ad40d23409814fb4504ce73649fbd25767135f260a127.opus",
+        "priority": [
+          1,
+          "2026-02-03",
+          6,
+          6981,
+          41
+        ],
+        "source_duration": 64.0,
+        "duration_seconds": 64.0,
+        "current_duration_differs": false,
+        "lossless_sha256": "9f7a4a92ba670d78ccf6fc37355f8311851c7682c86b813b41026eec61d2ba19"
+      },
+      "remove": {
+        "id": "audio-8b1272a09733157def9026f39986c22c46821527f84bc3d76c0e9040f7ad64ac",
+        "scope": "story",
+        "collection": "烟火绮丽寻春意",
+        "title": "烟火绮丽寻春意 · 作战",
+        "path": "/audio/audio-8b1272a09733157def9026f39986c22c46821527f84bc3d76c0e9040f7ad64ac.opus",
+        "priority": [
+          1,
+          "2026-02-03",
+          999999,
+          999999,
+          42
+        ],
+        "source_duration": 83.2,
+        "duration_seconds": 83.2,
+        "current_duration_differs": false,
+        "lossless_sha256": "409b0437546f4bae1e3be5b6b5d4c646373bc2eee584bdf544d370e581951618"
+      },
+      "waveform_source_ids": [
+        "audio-a31914f3953a681e908ad40d23409814fb4504ce73649fbd25767135f260a127",
+        "audio-8b1272a09733157def9026f39986c22c46821527f84bc3d76c0e9040f7ad64ac"
+      ],
+      "evidence": {
+        "qq_mid": "audio-8b1272a09733157def9026f39986c22c46821527f84bc3d76c0e9040f7ad64ac",
+        "fingerprint_similarity": 0.986995,
+        "offset_frames": 155,
+        "offset_seconds": 19.190476,
+        "overlap_seconds": 61.286,
+        "votes": 791,
+        "coverage_of_shorter": 1.0,
+        "waveform_checks": [
+          {
+            "local_seconds": 7.68,
+            "qq_seconds": 26.88,
+            "window_seconds": 18.0,
+            "correlation": 0.996163,
+            "verified_offset_seconds": 19.199977
+          },
+          {
+            "local_seconds": 33.28,
+            "qq_seconds": 52.48,
+            "window_seconds": 18.0,
+            "correlation": 0.996694,
+            "verified_offset_seconds": 19.199977
+          },
+          {
+            "local_seconds": 44.0,
+            "qq_seconds": 63.2,
+            "window_seconds": 18.0,
+            "correlation": 0.996538,
+            "verified_offset_seconds": 19.199977
+          }
+        ],
+        "waveform_median": 0.996538,
+        "verified": true,
+        "stable_alignment": true,
+        "removed_track_coverage": 0.769231,
+        "eligible": false
+      },
+      "protected_playback_variants": false,
+      "eligible": false
+    },
+    {
+      "keep": {
+        "id": "audio-34df08fcac9d21603182283ef8b140f6b16c676ed7cbe287c71bdb81418a0cb7",
+        "scope": "outfit",
+        "collection": "革新的萌芽",
+        "title": "核心旋律",
+        "path": "/audio/audio-34df08fcac9d21603182283ef8b140f6b16c676ed7cbe287c71bdb81418a0cb7.opus",
+        "priority": [
+          0,
+          "2026-01-13T12:00:00+08:00",
+          0,
+          214043,
+          0
+        ],
+        "source_duration": 92.57141666666666,
+        "duration_seconds": 92.57141666666666,
+        "current_duration_differs": false,
+        "lossless_sha256": "cd133c484c932c11c77f97f8abc6fa661513fcea39a1d1e464b24b3239daf9a9"
+      },
+      "remove": {
+        "id": "audio-6a206cff7aafc356a31db95d420dece9bf13bb9f819e8cc11ded69c1c6bdefa7",
+        "scope": "story",
+        "collection": "微火的奇迹",
+        "title": "微火的奇迹",
+        "path": "/audio/audio-6a206cff7aafc356a31db95d420dece9bf13bb9f819e8cc11ded69c1c6bdefa7.opus",
+        "priority": [
+          1,
+          "2026-01-13",
+          999999,
+          999999,
+          45
+        ],
+        "source_duration": 87.03295833333334,
+        "duration_seconds": 87.03295833333334,
+        "current_duration_differs": false,
+        "lossless_sha256": "722f55caff0400797e19bdcc3431bc75c28da4456c7a127496b9ded0c14c8698"
+      },
+      "waveform_source_ids": [
+        "audio-6a206cff7aafc356a31db95d420dece9bf13bb9f819e8cc11ded69c1c6bdefa7",
+        "audio-34df08fcac9d21603182283ef8b140f6b16c676ed7cbe287c71bdb81418a0cb7"
+      ],
+      "evidence": {
+        "qq_mid": "audio-34df08fcac9d21603182283ef8b140f6b16c676ed7cbe287c71bdb81418a0cb7",
+        "fingerprint_similarity": 0.9269,
+        "offset_frames": 45,
+        "offset_seconds": 5.571429,
+        "overlap_seconds": 84.314,
+        "votes": 437,
+        "coverage_of_shorter": 1.0,
+        "waveform_checks": [
+          {
+            "local_seconds": 10.44,
+            "qq_seconds": 15.975,
+            "window_seconds": 18.0,
+            "correlation": 0.924682,
+            "verified_offset_seconds": 5.534581
+          },
+          {
+            "local_seconds": 45.24,
+            "qq_seconds": 50.775,
+            "window_seconds": 18.0,
+            "correlation": 0.959152,
+            "verified_offset_seconds": 5.534581
+          },
+          {
+            "local_seconds": 67.0,
+            "qq_seconds": 72.535,
+            "window_seconds": 18.0,
+            "correlation": 0.922211,
+            "verified_offset_seconds": 5.534581
+          }
+        ],
+        "waveform_median": 0.924682,
+        "verified": true,
+        "stable_alignment": true,
+        "removed_track_coverage": 0.999621,
+        "eligible": true
+      },
+      "protected_playback_variants": false,
+      "eligible": true
+    },
+    {
+      "keep": {
+        "id": "audio-f520d30af4a371850cf7ee0fc9ea6dca833dd635fd3acf702896c44890834bcb",
+        "scope": "outfit",
+        "collection": "革新的萌芽",
+        "title": "凯旋旋律",
+        "path": "/audio/audio-f520d30af4a371850cf7ee0fc9ea6dca833dd635fd3acf702896c44890834bcb.opus",
+        "priority": [
+          0,
+          "2026-01-13T12:00:00+08:00",
+          1,
+          214043,
+          0
+        ],
+        "source_duration": 51.4285625,
+        "duration_seconds": 51.4285625,
+        "current_duration_differs": false,
+        "lossless_sha256": "6a255daafc0e5ca3e42e7c8c46f9bb095e67bb061dfee23d66354762cad08c6c"
+      },
+      "remove": {
+        "id": "audio-6a206cff7aafc356a31db95d420dece9bf13bb9f819e8cc11ded69c1c6bdefa7",
+        "scope": "story",
+        "collection": "微火的奇迹",
+        "title": "微火的奇迹",
+        "path": "/audio/audio-6a206cff7aafc356a31db95d420dece9bf13bb9f819e8cc11ded69c1c6bdefa7.opus",
+        "priority": [
+          1,
+          "2026-01-13",
+          999999,
+          999999,
+          45
+        ],
+        "source_duration": 87.03295833333334,
+        "duration_seconds": 87.03295833333334,
+        "current_duration_differs": false,
+        "lossless_sha256": "722f55caff0400797e19bdcc3431bc75c28da4456c7a127496b9ded0c14c8698"
+      },
+      "waveform_source_ids": [
+        "audio-6a206cff7aafc356a31db95d420dece9bf13bb9f819e8cc11ded69c1c6bdefa7",
+        "audio-f520d30af4a371850cf7ee0fc9ea6dca833dd635fd3acf702896c44890834bcb"
+      ],
+      "evidence": {
+        "qq_mid": "audio-f520d30af4a371850cf7ee0fc9ea6dca833dd635fd3acf702896c44890834bcb",
+        "fingerprint_similarity": 0.916637,
+        "offset_frames": 45,
+        "offset_seconds": 5.571429,
+        "overlap_seconds": 43.21,
+        "votes": 196,
+        "coverage_of_shorter": 0.8858,
+        "waveform_checks": [
+          {
+            "local_seconds": 5.503,
+            "qq_seconds": 11.037,
+            "window_seconds": 13.757,
+            "correlation": 0.919092,
+            "verified_offset_seconds": 5.534581
+          },
+          {
+            "local_seconds": 23.846,
+            "qq_seconds": 29.38,
+            "window_seconds": 13.757,
+            "correlation": 0.90385,
+            "verified_offset_seconds": 5.534581
+          },
+          {
+            "local_seconds": 30.1,
+            "qq_seconds": 35.635,
+            "window_seconds": 13.757,
+            "correlation": 0.927292,
+            "verified_offset_seconds": 5.534581
+          }
+        ],
+        "waveform_median": 0.919092,
+        "verified": true,
+        "stable_alignment": true,
+        "removed_track_coverage": 0.526894,
+        "eligible": false
+      },
+      "protected_playback_variants": false,
+      "eligible": false
+    },
+    {
+      "keep": {
+        "id": "audio-bf64fa3cbd80ca8d3b770ad2a4b63dfa3d0efa0ef69e382d4400d26e99255bdd",
+        "scope": "outfit",
+        "collection": "闪光之时",
+        "title": "核心旋律",
+        "path": "/audio/audio-bf64fa3cbd80ca8d3b770ad2a4b63dfa3d0efa0ef69e382d4400d26e99255bdd.opus",
+        "priority": [
+          0,
+          "",
+          0,
+          214020,
+          0
+        ],
+        "source_duration": 91.30433106575964,
+        "duration_seconds": 91.30433106575964,
+        "current_duration_differs": false,
+        "lossless_sha256": "f36f3cb440e8adc24d33819174ab8bddc71c9239534ab70f931b269517ef9979"
+      },
+      "remove": {
+        "id": "audio-283045663b3d79a9fc124ceb350bd04e7489988d86cdf2a968721142f5e59df1",
+        "scope": "story",
+        "collection": "微火的奇迹",
+        "title": "第六章 · 未知的明天",
+        "path": "/audio/audio-283045663b3d79a9fc124ceb350bd04e7489988d86cdf2a968721142f5e59df1.opus",
+        "priority": [
+          1,
+          "2026-01-13",
+          104,
+          6236,
+          44
+        ],
+        "source_duration": 91.30433106575964,
+        "duration_seconds": 91.30433106575964,
+        "current_duration_differs": false,
+        "lossless_sha256": "a74df0135622ac0c51263b0b0acfedfa2909a542f530b9a0f81c642c5052a7e9"
+      },
+      "waveform_source_ids": [
+        "audio-283045663b3d79a9fc124ceb350bd04e7489988d86cdf2a968721142f5e59df1",
+        "audio-bf64fa3cbd80ca8d3b770ad2a4b63dfa3d0efa0ef69e382d4400d26e99255bdd"
+      ],
+      "evidence": {
+        "qq_mid": "audio-bf64fa3cbd80ca8d3b770ad2a4b63dfa3d0efa0ef69e382d4400d26e99255bdd",
+        "fingerprint_similarity": 0.870548,
+        "offset_frames": 0,
+        "offset_seconds": 0.0,
+        "overlap_seconds": 88.648,
+        "votes": 56,
+        "coverage_of_shorter": 1.0,
+        "waveform_checks": [
+          {
+            "local_seconds": 10.957,
+            "qq_seconds": 10.956,
+            "window_seconds": 18.0,
+            "correlation": 0.808321,
+            "verified_offset_seconds": -2.3e-05
+          },
+          {
+            "local_seconds": 47.478,
+            "qq_seconds": 47.478,
+            "window_seconds": 18.0,
+            "correlation": 0.900461,
+            "verified_offset_seconds": -2.3e-05
+          },
+          {
+            "local_seconds": 71.304,
+            "qq_seconds": 71.304,
+            "window_seconds": 18.0,
+            "correlation": 0.68455,
+            "verified_offset_seconds": -2.3e-05
+          }
+        ],
+        "waveform_median": 0.808321,
+        "verified": false,
+        "stable_alignment": true,
+        "removed_track_coverage": 1.0,
+        "eligible": false
+      },
+      "protected_playback_variants": false,
+      "eligible": false
+    },
+    {
+      "keep": {
+        "id": "audio-f40db32aa2f9cc5f916facc2be9144fd445a451286e558bf1f9f234f58f3c6c2",
+        "scope": "story",
+        "collection": "梦的彼岸",
+        "title": "梦的彼岸",
+        "path": "/audio/audio-f40db32aa2f9cc5f916facc2be9144fd445a451286e558bf1f9f234f58f3c6c2.opus",
+        "priority": [
+          1,
+          "2025-12-09",
+          999999,
+          999999,
+          54
+        ],
+        "source_duration": 98.6538125,
+        "duration_seconds": 98.6538125,
+        "current_duration_differs": false,
+        "lossless_sha256": "f7f9bfb38665d8057281d7a5fb2fdd1c82b2cc9de72572d6d6a5d0e510fc6462"
+      },
+      "remove": {
+        "id": "audio-aa7d9dca099fdee9398a885199d318452880a003811584ba55eebd3c669d2204",
+        "scope": "story",
+        "collection": "微火的奇迹",
+        "title": "第六章 · 困兽犹斗",
+        "path": "/audio/audio-aa7d9dca099fdee9398a885199d318452880a003811584ba55eebd3c669d2204.opus",
+        "priority": [
+          1,
+          "2026-01-13",
+          102,
+          11005,
+          48
+        ],
+        "source_duration": 98.4615,
+        "duration_seconds": 98.4615,
+        "current_duration_differs": false,
+        "lossless_sha256": "4eaa7feb74c124d6297203fc4e5b2e323a51417643e218ccf8b0f872d0e2cae5"
+      },
+      "waveform_source_ids": [
+        "audio-aa7d9dca099fdee9398a885199d318452880a003811584ba55eebd3c669d2204",
+        "audio-f40db32aa2f9cc5f916facc2be9144fd445a451286e558bf1f9f234f58f3c6c2"
+      ],
+      "evidence": {
+        "qq_mid": "audio-f40db32aa2f9cc5f916facc2be9144fd445a451286e558bf1f9f234f58f3c6c2",
+        "fingerprint_similarity": 0.99996,
+        "offset_frames": 0,
+        "offset_seconds": 0.0,
+        "overlap_seconds": 95.829,
+        "votes": 1548,
+        "coverage_of_shorter": 1.0,
+        "waveform_checks": [
+          {
+            "local_seconds": 11.815,
+            "qq_seconds": 11.815,
+            "window_seconds": 18.0,
+            "correlation": 0.989995,
+            "verified_offset_seconds": -2.3e-05
+          },
+          {
+            "local_seconds": 51.2,
+            "qq_seconds": 51.2,
+            "window_seconds": 18.0,
+            "correlation": 0.973657,
+            "verified_offset_seconds": -2.3e-05
+          },
+          {
+            "local_seconds": 78.462,
+            "qq_seconds": 78.461,
+            "window_seconds": 18.0,
+            "correlation": 0.993188,
+            "verified_offset_seconds": -2.3e-05
+          }
+        ],
+        "waveform_median": 0.989995,
+        "verified": true,
+        "stable_alignment": true,
+        "removed_track_coverage": 1.0,
+        "eligible": true
+      },
+      "protected_playback_variants": false,
+      "eligible": true
+    },
+    {
+      "keep": {
+        "id": "audio-fbe9e2f83a8466734b87710ec16657d48ae31736261d58ebc898197039336544",
+        "scope": "story",
+        "collection": "甜心梦工坊",
+        "title": "机巧梦工坊（甜心梦工坊-变体4）",
+        "path": "/audio/audio-fbe9e2f83a8466734b87710ec16657d48ae31736261d58ebc898197039336544.opus",
+        "priority": [
+          1,
+          "2025-11-18",
+          999999,
+          999999,
+          56
+        ],
+        "source_duration": 64.0,
+        "duration_seconds": 64.0,
+        "current_duration_differs": false,
+        "lossless_sha256": "49d9515e7880bfb0b93042f36cfabca90118d169867a515ce12870cceb418059"
+      },
+      "remove": {
+        "id": "audio-4f54438f693c7ec189e15910bd9878fd2f874f89877004638be828936d05a5d6",
+        "scope": "story",
+        "collection": "甜心梦工坊",
+        "title": "机巧梦工坊（甜心梦工坊-变体4 · 自由演奏）",
+        "path": "/audio/audio-4f54438f693c7ec189e15910bd9878fd2f874f89877004638be828936d05a5d6.opus",
+        "priority": [
+          1,
+          "2025-11-18",
+          999999,
+          999999,
+          57
+        ],
+        "source_duration": 226.4325625,
+        "duration_seconds": 226.4325625,
+        "current_duration_differs": false,
+        "lossless_sha256": "357acd187e8605ab96bb06581f21c0cbcac198cd12c0fab391cdbd9805472ca4"
+      },
+      "waveform_source_ids": [
+        "audio-fbe9e2f83a8466734b87710ec16657d48ae31736261d58ebc898197039336544",
+        "audio-4f54438f693c7ec189e15910bd9878fd2f874f89877004638be828936d05a5d6"
+      ],
+      "evidence": {
+        "qq_mid": "audio-4f54438f693c7ec189e15910bd9878fd2f874f89877004638be828936d05a5d6",
+        "fingerprint_similarity": 0.957639,
+        "offset_frames": 1079,
+        "offset_seconds": 133.590476,
+        "overlap_seconds": 61.286,
+        "votes": 511,
+        "coverage_of_shorter": 1.0,
+        "waveform_checks": [
+          {
+            "local_seconds": 7.68,
+            "qq_seconds": 141.313,
+            "window_seconds": 18.0,
+            "correlation": 0.996275,
+            "verified_offset_seconds": 133.632539
+          },
+          {
+            "local_seconds": 33.28,
+            "qq_seconds": 166.913,
+            "window_seconds": 18.0,
+            "correlation": 0.989212,
+            "verified_offset_seconds": 133.632539
+          },
+          {
+            "local_seconds": 44.0,
+            "qq_seconds": 177.633,
+            "window_seconds": 18.0,
+            "correlation": 0.99328,
+            "verified_offset_seconds": 133.632539
+          }
+        ],
+        "waveform_median": 0.99328,
+        "verified": true,
+        "stable_alignment": true,
+        "removed_track_coverage": 0.282645,
+        "eligible": false
+      },
+      "protected_playback_variants": true,
+      "eligible": false
+    },
+    {
+      "keep": {
+        "id": "audio-4f54438f693c7ec189e15910bd9878fd2f874f89877004638be828936d05a5d6",
+        "scope": "story",
+        "collection": "甜心梦工坊",
+        "title": "机巧梦工坊（甜心梦工坊-变体4 · 自由演奏）",
+        "path": "/audio/audio-4f54438f693c7ec189e15910bd9878fd2f874f89877004638be828936d05a5d6.opus",
+        "priority": [
+          1,
+          "2025-11-18",
+          999999,
+          999999,
+          57
+        ],
+        "source_duration": 226.4325625,
+        "duration_seconds": 226.4325625,
+        "current_duration_differs": false,
+        "lossless_sha256": "357acd187e8605ab96bb06581f21c0cbcac198cd12c0fab391cdbd9805472ca4"
+      },
+      "remove": {
+        "id": "audio-e558b519650a737a9661df0674b2d6abec138737a55bcb3f501e3e79017ad330",
+        "scope": "story",
+        "collection": "甜心梦工坊",
+        "title": "机巧梦工坊（甜心梦工坊-变体4 · 每分钟75拍）",
+        "path": "/audio/audio-e558b519650a737a9661df0674b2d6abec138737a55bcb3f501e3e79017ad330.opus",
+        "priority": [
+          1,
+          "2025-11-18",
+          999999,
+          999999,
+          223
+        ],
+        "source_duration": 44.8,
+        "duration_seconds": 44.8,
+        "current_duration_differs": false,
+        "lossless_sha256": "561c395e38c40700c8c3b5a1ed2eb74d8a67158f1102b5019e2c918332478c9c"
+      },
+      "waveform_source_ids": [
+        "audio-4f54438f693c7ec189e15910bd9878fd2f874f89877004638be828936d05a5d6",
+        "audio-e558b519650a737a9661df0674b2d6abec138737a55bcb3f501e3e79017ad330"
+      ],
+      "evidence": {
+        "qq_mid": "audio-e558b519650a737a9661df0674b2d6abec138737a55bcb3f501e3e79017ad330",
+        "fingerprint_similarity": 1.0,
+        "offset_frames": 0,
+        "offset_seconds": 0.0,
+        "overlap_seconds": 42.095,
+        "votes": 680,
+        "coverage_of_shorter": 1.0,
+        "waveform_checks": [
+          {
+            "local_seconds": 5.376,
+            "qq_seconds": 5.376,
+            "window_seconds": 13.44,
+            "correlation": 0.948233,
+            "verified_offset_seconds": -2.3e-05
+          },
+          {
+            "local_seconds": 23.296,
+            "qq_seconds": 23.296,
+            "window_seconds": 13.44,
+            "correlation": 0.978691,
+            "verified_offset_seconds": -2.3e-05
+          },
+          {
+            "local_seconds": 29.36,
+            "qq_seconds": 29.36,
+            "window_seconds": 13.44,
+            "correlation": 0.982485,
+            "verified_offset_seconds": -2.3e-05
+          }
+        ],
+        "waveform_median": 0.978691,
+        "verified": true,
+        "stable_alignment": true,
+        "removed_track_coverage": 1.0,
+        "eligible": true
+      },
+      "protected_playback_variants": true,
+      "eligible": false
+    },
+    {
+      "keep": {
+        "id": "audio-4f54438f693c7ec189e15910bd9878fd2f874f89877004638be828936d05a5d6",
+        "scope": "story",
+        "collection": "甜心梦工坊",
+        "title": "机巧梦工坊（甜心梦工坊-变体4 · 自由演奏）",
+        "path": "/audio/audio-4f54438f693c7ec189e15910bd9878fd2f874f89877004638be828936d05a5d6.opus",
+        "priority": [
+          1,
+          "2025-11-18",
+          999999,
+          999999,
+          57
+        ],
+        "source_duration": 226.4325625,
+        "duration_seconds": 226.4325625,
+        "current_duration_differs": false,
+        "lossless_sha256": "357acd187e8605ab96bb06581f21c0cbcac198cd12c0fab391cdbd9805472ca4"
+      },
+      "remove": {
+        "id": "audio-1065ec7b635d45aafb770219c85732e254934e84964b11ec5692c213a28bdc94",
+        "scope": "story",
+        "collection": "甜心梦工坊",
+        "title": "机巧梦工坊（甜心梦工坊-变体4 · 每分钟40拍）",
+        "path": "/audio/audio-1065ec7b635d45aafb770219c85732e254934e84964b11ec5692c213a28bdc94.opus",
+        "priority": [
+          1,
+          "2025-11-18",
+          999999,
+          999999,
+          227
+        ],
+        "source_duration": 24.0,
+        "duration_seconds": 24.0,
+        "current_duration_differs": false,
+        "lossless_sha256": "bc88c464ef4727c8d2ffe990a04ad970be402a57e6899b5f4b1d5cf192759194"
+      },
+      "waveform_source_ids": [
+        "audio-4f54438f693c7ec189e15910bd9878fd2f874f89877004638be828936d05a5d6",
+        "audio-1065ec7b635d45aafb770219c85732e254934e84964b11ec5692c213a28bdc94"
+      ],
+      "evidence": {
+        "qq_mid": "audio-1065ec7b635d45aafb770219c85732e254934e84964b11ec5692c213a28bdc94",
+        "fingerprint_similarity": 0.987464,
+        "offset_frames": -362,
+        "offset_seconds": -44.819048,
+        "overlap_seconds": 21.295,
+        "votes": 284,
+        "coverage_of_shorter": 1.0,
+        "waveform_checks": [
+          {
+            "local_seconds": 47.699,
+            "qq_seconds": 2.899,
+            "window_seconds": 7.2,
+            "correlation": 0.995465,
+            "verified_offset_seconds": -44.800023
+          },
+          {
+            "local_seconds": 57.299,
+            "qq_seconds": 12.499,
+            "window_seconds": 7.2,
+            "correlation": 0.996425,
+            "verified_offset_seconds": -44.800023
+          },
+          {
+            "local_seconds": 59.619,
+            "qq_seconds": 14.819,
+            "window_seconds": 7.2,
+            "correlation": 0.996592,
+            "verified_offset_seconds": -44.800023
+          }
+        ],
+        "waveform_median": 0.996425,
+        "verified": true,
+        "stable_alignment": true,
+        "removed_track_coverage": 1.0,
+        "eligible": true
+      },
+      "protected_playback_variants": true,
+      "eligible": false
+    },
+    {
+      "keep": {
+        "id": "audio-4f54438f693c7ec189e15910bd9878fd2f874f89877004638be828936d05a5d6",
+        "scope": "story",
+        "collection": "甜心梦工坊",
+        "title": "机巧梦工坊（甜心梦工坊-变体4 · 自由演奏）",
+        "path": "/audio/audio-4f54438f693c7ec189e15910bd9878fd2f874f89877004638be828936d05a5d6.opus",
+        "priority": [
+          1,
+          "2025-11-18",
+          999999,
+          999999,
+          57
+        ],
+        "source_duration": 226.4325625,
+        "duration_seconds": 226.4325625,
+        "current_duration_differs": false,
+        "lossless_sha256": "357acd187e8605ab96bb06581f21c0cbcac198cd12c0fab391cdbd9805472ca4"
+      },
+      "remove": {
+        "id": "audio-d380fa92c6ed1d590c0082e5b97bf867ed2d687d615951dadf0aecd8e3184d14",
+        "scope": "story",
+        "collection": "甜心梦工坊",
+        "title": "机巧梦工坊（甜心梦工坊-变体4 · 每分钟65拍）",
+        "path": "/audio/audio-d380fa92c6ed1d590c0082e5b97bf867ed2d687d615951dadf0aecd8e3184d14.opus",
+        "priority": [
+          1,
+          "2025-11-18",
+          999999,
+          999999,
+          225
+        ],
+        "source_duration": 29.5384375,
+        "duration_seconds": 29.5384375,
+        "current_duration_differs": false,
+        "lossless_sha256": "9997c417b8f805b4d3e6ce499081fd1db83483296e366046962ed36dbfe4debd"
+      },
+      "waveform_source_ids": [
+        "audio-4f54438f693c7ec189e15910bd9878fd2f874f89877004638be828936d05a5d6",
+        "audio-d380fa92c6ed1d590c0082e5b97bf867ed2d687d615951dadf0aecd8e3184d14"
+      ],
+      "evidence": {
+        "qq_mid": "audio-d380fa92c6ed1d590c0082e5b97bf867ed2d687d615951dadf0aecd8e3184d14",
+        "fingerprint_similarity": 0.968174,
+        "offset_frames": -841,
+        "offset_seconds": -104.12381,
+        "overlap_seconds": 26.867,
+        "votes": 245,
+        "coverage_of_shorter": 1.0,
+        "waveform_checks": [
+          {
+            "local_seconds": 107.668,
+            "qq_seconds": 3.574,
+            "window_seconds": 8.861,
+            "correlation": 0.98443,
+            "verified_offset_seconds": -104.094082
+          },
+          {
+            "local_seconds": 119.484,
+            "qq_seconds": 15.39,
+            "window_seconds": 8.861,
+            "correlation": 0.991274,
+            "verified_offset_seconds": -104.094082
+          },
+          {
+            "local_seconds": 122.801,
+            "qq_seconds": 18.707,
+            "window_seconds": 8.861,
+            "correlation": 0.99128,
+            "verified_offset_seconds": -104.094082
+          }
+        ],
+        "waveform_median": 0.991274,
+        "verified": true,
+        "stable_alignment": true,
+        "removed_track_coverage": 1.0,
+        "eligible": true
+      },
+      "protected_playback_variants": true,
+      "eligible": false
+    },
+    {
+      "keep": {
+        "id": "audio-4f54438f693c7ec189e15910bd9878fd2f874f89877004638be828936d05a5d6",
+        "scope": "story",
+        "collection": "甜心梦工坊",
+        "title": "机巧梦工坊（甜心梦工坊-变体4 · 自由演奏）",
+        "path": "/audio/audio-4f54438f693c7ec189e15910bd9878fd2f874f89877004638be828936d05a5d6.opus",
+        "priority": [
+          1,
+          "2025-11-18",
+          999999,
+          999999,
+          57
+        ],
+        "source_duration": 226.4325625,
+        "duration_seconds": 226.4325625,
+        "current_duration_differs": false,
+        "lossless_sha256": "357acd187e8605ab96bb06581f21c0cbcac198cd12c0fab391cdbd9805472ca4"
+      },
+      "remove": {
+        "id": "audio-082c2a46e12ad00414a7aaaa48fab03425475bdf3d81336e38905461abda97d1",
+        "scope": "story",
+        "collection": "甜心梦工坊",
+        "title": "机巧梦工坊（甜心梦工坊-变体4 · 每分钟50拍）",
+        "path": "/audio/audio-082c2a46e12ad00414a7aaaa48fab03425475bdf3d81336e38905461abda97d1.opus",
+        "priority": [
+          1,
+          "2025-11-18",
+          999999,
+          999999,
+          226
+        ],
+        "source_duration": 19.2,
+        "duration_seconds": 19.2,
+        "current_duration_differs": false,
+        "lossless_sha256": "dbb3cb2c1730566f518160de09f17ffb94be853f8415b1ec67fc02fed678f4a2"
+      },
+      "waveform_source_ids": [
+        "audio-4f54438f693c7ec189e15910bd9878fd2f874f89877004638be828936d05a5d6",
+        "audio-082c2a46e12ad00414a7aaaa48fab03425475bdf3d81336e38905461abda97d1"
+      ],
+      "evidence": {
+        "qq_mid": "audio-082c2a46e12ad00414a7aaaa48fab03425475bdf3d81336e38905461abda97d1",
+        "fingerprint_similarity": 0.958722,
+        "offset_frames": -1596,
+        "offset_seconds": -197.6,
+        "overlap_seconds": 16.59,
+        "votes": 123,
+        "coverage_of_shorter": 1.0,
+        "waveform_checks": [
+          {
+            "local_seconds": 199.904,
+            "qq_seconds": 2.271,
+            "window_seconds": 5.76,
+            "correlation": 0.997929,
+            "verified_offset_seconds": -197.632585
+          },
+          {
+            "local_seconds": 207.584,
+            "qq_seconds": 9.951,
+            "window_seconds": 5.76,
+            "correlation": 0.997675,
+            "verified_offset_seconds": -197.632585
+          },
+          {
+            "local_seconds": 209.04,
+            "qq_seconds": 11.407,
+            "window_seconds": 5.76,
+            "correlation": 0.997568,
+            "verified_offset_seconds": -197.632585
+          }
+        ],
+        "waveform_median": 0.997675,
+        "verified": true,
+        "stable_alignment": true,
+        "removed_track_coverage": 1.0,
+        "eligible": true
+      },
+      "protected_playback_variants": true,
+      "eligible": false
+    },
+    {
+      "keep": {
+        "id": "audio-4f54438f693c7ec189e15910bd9878fd2f874f89877004638be828936d05a5d6",
+        "scope": "story",
+        "collection": "甜心梦工坊",
+        "title": "机巧梦工坊（甜心梦工坊-变体4 · 自由演奏）",
+        "path": "/audio/audio-4f54438f693c7ec189e15910bd9878fd2f874f89877004638be828936d05a5d6.opus",
+        "priority": [
+          1,
+          "2025-11-18",
+          999999,
+          999999,
+          57
+        ],
+        "source_duration": 226.4325625,
+        "duration_seconds": 226.4325625,
+        "current_duration_differs": false,
+        "lossless_sha256": "357acd187e8605ab96bb06581f21c0cbcac198cd12c0fab391cdbd9805472ca4"
+      },
+      "remove": {
+        "id": "audio-1e5e20a515644d56155c8c3efedde44a4dd2208779741f5eacf749d7ff7bd447",
+        "scope": "story",
+        "collection": "甜心梦工坊",
+        "title": "机巧梦工坊（甜心梦工坊-变体4 · 每分钟68拍）",
+        "path": "/audio/audio-1e5e20a515644d56155c8c3efedde44a4dd2208779741f5eacf749d7ff7bd447.opus",
+        "priority": [
+          1,
+          "2025-11-18",
+          999999,
+          999999,
+          224
+        ],
+        "source_duration": 35.29410416666666,
+        "duration_seconds": 35.29410416666666,
+        "current_duration_differs": false,
+        "lossless_sha256": "82270b95a4d7ad11d710861cad213fdac1af66e14096e86a8baf4cc347f580f1"
+      },
+      "waveform_source_ids": [
+        "audio-4f54438f693c7ec189e15910bd9878fd2f874f89877004638be828936d05a5d6",
+        "audio-1e5e20a515644d56155c8c3efedde44a4dd2208779741f5eacf749d7ff7bd447"
+      ],
+      "evidence": {
+        "qq_mid": "audio-1e5e20a515644d56155c8c3efedde44a4dd2208779741f5eacf749d7ff7bd447",
+        "fingerprint_similarity": 0.957623,
+        "offset_frames": -556,
+        "offset_seconds": -68.838095,
+        "overlap_seconds": 32.686,
+        "votes": 39,
+        "coverage_of_shorter": 1.0,
+        "waveform_checks": [
+          {
+            "local_seconds": 73.073,
+            "qq_seconds": 4.273,
+            "window_seconds": 10.588,
+            "correlation": 0.994626,
+            "verified_offset_seconds": -68.800022
+          },
+          {
+            "local_seconds": 87.191,
+            "qq_seconds": 18.391,
+            "window_seconds": 10.588,
+            "correlation": 0.999392,
+            "verified_offset_seconds": -68.800022
+          },
+          {
+            "local_seconds": 91.544,
+            "qq_seconds": 22.744,
+            "window_seconds": 10.588,
+            "correlation": 0.999402,
+            "verified_offset_seconds": -68.800022
+          }
+        ],
+        "waveform_median": 0.999392,
+        "verified": true,
+        "stable_alignment": true,
+        "removed_track_coverage": 1.0,
+        "eligible": true
+      },
+      "protected_playback_variants": true,
+      "eligible": false
+    },
+    {
+      "keep": {
+        "id": "audio-747b1b7876e8c3f63ea444e9e0b4025366a3a662687100db4c75ab0ef2cf34f4",
+        "scope": "outfit",
+        "collection": "和煦",
+        "title": "核心旋律",
+        "path": "/audio/audio-747b1b7876e8c3f63ea444e9e0b4025366a3a662687100db4c75ab0ef2cf34f4.opus",
+        "priority": [
+          0,
+          "",
+          0,
+          211002,
+          0
+        ],
+        "source_duration": 61.46395833333333,
+        "duration_seconds": 61.46395833333333,
+        "current_duration_differs": false,
+        "lossless_sha256": "d5bc82ab4940283821971310c7c3191332f8d29d2442c1f624a41f7af0445dbf"
+      },
+      "remove": {
+        "id": "audio-c1e700749508b5af4bdbfd6fe8dd6dd13931a9f83ec9e81d88b7f95624e75d4a",
+        "scope": "story",
+        "collection": "我们的旅团",
+        "title": "第三章 · 维塔",
+        "path": "/audio/audio-c1e700749508b5af4bdbfd6fe8dd6dd13931a9f83ec9e81d88b7f95624e75d4a.opus",
+        "priority": [
+          1,
+          "2025-11-18",
+          33,
+          2368,
+          62
+        ],
+        "source_duration": 60.0,
+        "duration_seconds": 60.0,
+        "current_duration_differs": false,
+        "lossless_sha256": "2881db673e4d7a1255cdd9b0a90b6e4bb052b325258ebdf80fea6498f0b2f44f"
+      },
+      "waveform_source_ids": [
+        "audio-c1e700749508b5af4bdbfd6fe8dd6dd13931a9f83ec9e81d88b7f95624e75d4a",
+        "audio-747b1b7876e8c3f63ea444e9e0b4025366a3a662687100db4c75ab0ef2cf34f4"
+      ],
+      "evidence": {
+        "qq_mid": "audio-747b1b7876e8c3f63ea444e9e0b4025366a3a662687100db4c75ab0ef2cf34f4",
+        "fingerprint_similarity": 1.0,
+        "offset_frames": 0,
+        "offset_seconds": 0.0,
+        "overlap_seconds": 57.324,
+        "votes": 928,
+        "coverage_of_shorter": 1.0,
+        "waveform_checks": [
+          {
+            "local_seconds": 7.2,
+            "qq_seconds": 7.2,
+            "window_seconds": 18.0,
+            "correlation": 0.993425,
+            "verified_offset_seconds": -2.3e-05
+          },
+          {
+            "local_seconds": 31.2,
+            "qq_seconds": 31.2,
+            "window_seconds": 18.0,
+            "correlation": 0.993713,
+            "verified_offset_seconds": -2.3e-05
+          },
+          {
+            "local_seconds": 40.0,
+            "qq_seconds": 40.0,
+            "window_seconds": 18.0,
+            "correlation": 0.993978,
+            "verified_offset_seconds": -2.3e-05
+          }
+        ],
+        "waveform_median": 0.993713,
+        "verified": true,
+        "stable_alignment": true,
+        "removed_track_coverage": 1.0,
+        "eligible": true
+      },
+      "protected_playback_variants": false,
+      "eligible": true
+    },
+    {
+      "keep": {
+        "id": "audio-cb04c9fdbfac7cd113fb3d89464476c2c8cb4bfd9ba8b71bd8de0e6ccab995ba",
+        "scope": "story",
+        "collection": "真格挑战",
+        "title": "咕噜六角鲸",
+        "path": "/audio/audio-cb04c9fdbfac7cd113fb3d89464476c2c8cb4bfd9ba8b71bd8de0e6ccab995ba.opus",
+        "priority": [
+          1,
+          "2025-10-20",
+          999999,
+          999999,
+          75
+        ],
+        "source_duration": 197.49995464852609,
+        "duration_seconds": 197.49995464852609,
+        "current_duration_differs": false,
+        "lossless_sha256": "645e50c8a805406f39dd30b1306b88dd0dc0d9309f943ff3ed5f25ee6cec0c5d"
+      },
+      "remove": {
+        "id": "audio-c2f5e52fed28781c4e9ea4910649473cbf3504885e8b466e6f5871c6c1c95404",
+        "scope": "story",
+        "collection": "常驻玩法",
+        "title": "咕噜六角鲸",
+        "path": "/audio/audio-c2f5e52fed28781c4e9ea4910649473cbf3504885e8b466e6f5871c6c1c95404.opus",
+        "priority": [
+          1,
+          "2025-10-20",
+          999999,
+          999999,
+          178
+        ],
+        "source_duration": 89.09090702947846,
+        "duration_seconds": 89.09090702947846,
+        "current_duration_differs": false,
+        "lossless_sha256": "494552c0751315a747f4d82aa8482852ca9a29fcd2360cd32ebd2677d8416f05"
+      },
+      "waveform_source_ids": [
+        "audio-cb04c9fdbfac7cd113fb3d89464476c2c8cb4bfd9ba8b71bd8de0e6ccab995ba",
+        "audio-c2f5e52fed28781c4e9ea4910649473cbf3504885e8b466e6f5871c6c1c95404"
+      ],
+      "evidence": {
+        "qq_mid": "audio-c2f5e52fed28781c4e9ea4910649473cbf3504885e8b466e6f5871c6c1c95404",
+        "fingerprint_similarity": 0.94074,
+        "offset_frames": -1111,
+        "offset_seconds": -137.552381,
+        "overlap_seconds": 57.324,
+        "votes": 352,
+        "coverage_of_shorter": 0.6633,
+        "waveform_checks": [
+          {
+            "local_seconds": 144.746,
+            "qq_seconds": 7.246,
+            "window_seconds": 17.984,
+            "correlation": 0.999999,
+            "verified_offset_seconds": -137.499977
+          },
+          {
+            "local_seconds": 168.725,
+            "qq_seconds": 31.225,
+            "window_seconds": 17.984,
+            "correlation": 0.999999,
+            "verified_offset_seconds": -137.499977
+          },
+          {
+            "local_seconds": 177.516,
+            "qq_seconds": 40.016,
+            "window_seconds": 17.984,
+            "correlation": 1.0,
+            "verified_offset_seconds": -137.499977
+          }
+        ],
+        "waveform_median": 0.999999,
+        "verified": true,
+        "stable_alignment": true,
+        "removed_track_coverage": 0.672881,
+        "eligible": false
+      },
+      "protected_playback_variants": false,
+      "eligible": false
+    },
+    {
+      "keep": {
+        "id": "audio-131e3dc5dc88b7cc531606aec46d9a3bc03b28a1c033f4f22303a6b857b1773d",
+        "scope": "outfit",
+        "collection": "潋滟故池水",
+        "title": "核心旋律",
+        "path": "/audio/audio-131e3dc5dc88b7cc531606aec46d9a3bc03b28a1c033f4f22303a6b857b1773d.opus",
+        "priority": [
+          0,
+          "2025-10-20T04:00:00+08:00",
+          0,
+          214026,
+          0
+        ],
+        "source_duration": 148.0,
+        "duration_seconds": 148.0,
+        "current_duration_differs": false,
+        "lossless_sha256": "9a6c67106a255c533d7f51a182d0bc6dab0fab30b063a8dd75082570ece672cd"
+      },
+      "remove": {
+        "id": "audio-88da21223cee630edc923873bc9e9c967684cb876c45da64bf56af8ddd7e5c6d",
+        "scope": "story",
+        "collection": "我思，故魔王在 · 第二章",
+        "title": "第二章 · 黑色少女 · 第5音轨",
+        "path": "/audio/audio-88da21223cee630edc923873bc9e9c967684cb876c45da64bf56af8ddd7e5c6d.opus",
+        "priority": [
+          1,
+          "2025-10-20",
+          22,
+          11838,
+          91
+        ],
+        "source_duration": 130.0,
+        "duration_seconds": 130.0,
+        "current_duration_differs": false,
+        "lossless_sha256": "415ed3a83cc9109fc21ba5197636127ada5a5c1c53c2d1849466e5160f323209"
+      },
+      "waveform_source_ids": [
+        "audio-88da21223cee630edc923873bc9e9c967684cb876c45da64bf56af8ddd7e5c6d",
+        "audio-131e3dc5dc88b7cc531606aec46d9a3bc03b28a1c033f4f22303a6b857b1773d"
+      ],
+      "evidence": {
+        "qq_mid": "audio-131e3dc5dc88b7cc531606aec46d9a3bc03b28a1c033f4f22303a6b857b1773d",
+        "fingerprint_similarity": 0.946437,
+        "offset_frames": 145,
+        "offset_seconds": 17.952381,
+        "overlap_seconds": 127.276,
+        "votes": 117,
+        "coverage_of_shorter": 1.0,
+        "waveform_checks": [
+          {
+            "local_seconds": 15.6,
+            "qq_seconds": 33.6,
+            "window_seconds": 18.0,
+            "correlation": 0.990901,
+            "verified_offset_seconds": 17.999977
+          },
+          {
+            "local_seconds": 67.6,
+            "qq_seconds": 85.6,
+            "window_seconds": 18.0,
+            "correlation": 0.985746,
+            "verified_offset_seconds": 17.999977
+          },
+          {
+            "local_seconds": 110.0,
+            "qq_seconds": 128.0,
+            "window_seconds": 18.0,
+            "correlation": 0.990855,
+            "verified_offset_seconds": 17.999977
+          }
+        ],
+        "waveform_median": 0.990855,
+        "verified": true,
+        "stable_alignment": true,
+        "removed_track_coverage": 1.0,
+        "eligible": true
+      },
+      "protected_playback_variants": false,
+      "eligible": true
+    },
+    {
+      "keep": {
+        "id": "audio-3223bf7a5707032fc2b5643321bceb76cd737da74766b7cae464fac6ea3364ce",
+        "scope": "outfit",
+        "collection": "潋滟故池水",
+        "title": "凯旋旋律",
+        "path": "/audio/audio-3223bf7a5707032fc2b5643321bceb76cd737da74766b7cae464fac6ea3364ce.opus",
+        "priority": [
+          0,
+          "2025-10-20T04:00:00+08:00",
+          1,
+          214026,
+          0
+        ],
+        "source_duration": 50.0,
+        "duration_seconds": 50.0,
+        "current_duration_differs": false,
+        "lossless_sha256": "fc13ebb5fe5fee6f3a0af327ac1dd031b31a945f7b380ede6feabdddb789d901"
+      },
+      "remove": {
+        "id": "audio-88da21223cee630edc923873bc9e9c967684cb876c45da64bf56af8ddd7e5c6d",
+        "scope": "story",
+        "collection": "我思，故魔王在 · 第二章",
+        "title": "第二章 · 黑色少女 · 第5音轨",
+        "path": "/audio/audio-88da21223cee630edc923873bc9e9c967684cb876c45da64bf56af8ddd7e5c6d.opus",
+        "priority": [
+          1,
+          "2025-10-20",
+          22,
+          11838,
+          91
+        ],
+        "source_duration": 130.0,
+        "duration_seconds": 130.0,
+        "current_duration_differs": false,
+        "lossless_sha256": "415ed3a83cc9109fc21ba5197636127ada5a5c1c53c2d1849466e5160f323209"
+      },
+      "waveform_source_ids": [
+        "audio-88da21223cee630edc923873bc9e9c967684cb876c45da64bf56af8ddd7e5c6d",
+        "audio-3223bf7a5707032fc2b5643321bceb76cd737da74766b7cae464fac6ea3364ce"
+      ],
+      "evidence": {
+        "qq_mid": "audio-3223bf7a5707032fc2b5643321bceb76cd737da74766b7cae464fac6ea3364ce",
+        "fingerprint_similarity": 0.820435,
+        "offset_frames": -646,
+        "offset_seconds": -79.980952,
+        "overlap_seconds": 47.295,
+        "votes": 52,
+        "coverage_of_shorter": 1.0,
+        "waveform_checks": [
+          {
+            "local_seconds": 85.981,
+            "qq_seconds": 5.981,
+            "window_seconds": 15.0,
+            "correlation": 0.163967,
+            "verified_offset_seconds": -80.000022
+          },
+          {
+            "local_seconds": 105.981,
+            "qq_seconds": 25.981,
+            "window_seconds": 15.0,
+            "correlation": 0.991375,
+            "verified_offset_seconds": -80.000022
+          },
+          {
+            "local_seconds": 112.981,
+            "qq_seconds": 32.981,
+            "window_seconds": 15.0,
+            "correlation": 0.990504,
+            "verified_offset_seconds": -80.000022
+          }
+        ],
+        "waveform_median": 0.990504,
+        "verified": false,
+        "stable_alignment": true,
+        "removed_track_coverage": 0.384615,
+        "eligible": false
+      },
+      "protected_playback_variants": false,
+      "eligible": false
+    },
+    {
+      "keep": {
+        "id": "audio-10ada5e100bb793416ea648e56a2898e9dd04048cd6cd5185afd75e2628f1813",
+        "scope": "story",
+        "collection": "我思，故魔王在 · 第二章",
+        "title": "第二章 · 黑色少女 · 第3音轨",
+        "path": "/audio/audio-10ada5e100bb793416ea648e56a2898e9dd04048cd6cd5185afd75e2628f1813.opus",
+        "priority": [
+          1,
+          "2025-10-20",
+          22,
+          10511,
+          92
+        ],
+        "source_duration": 109.61725623582767,
+        "duration_seconds": 109.61725623582767,
+        "current_duration_differs": false,
+        "lossless_sha256": "2ef0c6121ef2828964a32eacfcbe79984a30d29e38bdda9619a1af299c5d02a8"
+      },
+      "remove": {
+        "id": "audio-5ecf192bbaa0729c9f1f769658312ddcadf25d1cb33d795ff278755755c72a07",
+        "scope": "story",
+        "collection": "我思，故魔王在 · 第二章",
+        "title": "第二章 · 黑色少女 · 第4音轨",
+        "path": "/audio/audio-5ecf192bbaa0729c9f1f769658312ddcadf25d1cb33d795ff278755755c72a07.opus",
+        "priority": [
+          1,
+          "2025-10-20",
+          22,
+          10511,
+          93
+        ],
+        "source_duration": 109.60283446712018,
+        "duration_seconds": 109.60283446712018,
+        "current_duration_differs": false,
+        "lossless_sha256": "5f4c6ff9a09b9e1b987b64a6d78e81f6071d1baba4bb920fb22e77d869a8a5c7"
+      },
+      "waveform_source_ids": [
+        "audio-10ada5e100bb793416ea648e56a2898e9dd04048cd6cd5185afd75e2628f1813",
+        "audio-5ecf192bbaa0729c9f1f769658312ddcadf25d1cb33d795ff278755755c72a07"
+      ],
+      "evidence": {
+        "qq_mid": "audio-5ecf192bbaa0729c9f1f769658312ddcadf25d1cb33d795ff278755755c72a07",
+        "fingerprint_similarity": 0.984266,
+        "offset_frames": 0,
+        "offset_seconds": 0.0,
+        "overlap_seconds": 106.971,
+        "votes": 107,
+        "coverage_of_shorter": 1.0,
+        "waveform_checks": [
+          {
+            "local_seconds": 13.152,
+            "qq_seconds": 13.138,
+            "window_seconds": 18.0,
+            "correlation": 0.982964,
+            "verified_offset_seconds": -0.014444
+          },
+          {
+            "local_seconds": 56.993,
+            "qq_seconds": 56.979,
+            "window_seconds": 18.0,
+            "correlation": 0.978398,
+            "verified_offset_seconds": -0.014444
+          },
+          {
+            "local_seconds": 89.603,
+            "qq_seconds": 89.588,
+            "window_seconds": 18.0,
+            "correlation": 0.988764,
+            "verified_offset_seconds": -0.014444
+          }
+        ],
+        "waveform_median": 0.982964,
+        "verified": true,
+        "stable_alignment": true,
+        "removed_track_coverage": 1.0,
+        "eligible": true
+      },
+      "protected_playback_variants": false,
+      "eligible": true
+    },
+    {
+      "keep": {
+        "id": "audio-257bad628dc942ea833c91fcda17d43ecbdec487b86acf6fa33361a18357320b",
+        "scope": "story",
+        "collection": "星塔探索",
+        "title": "首领战",
+        "path": "/audio/audio-257bad628dc942ea833c91fcda17d43ecbdec487b86acf6fa33361a18357320b.opus",
+        "priority": [
+          0.5,
+          "2025-10-20",
+          999999,
+          999999,
+          203
+        ],
+        "source_duration": 110.42943310657597,
+        "duration_seconds": 110.42943310657597,
+        "current_duration_differs": false,
+        "lossless_sha256": "67fc0d563d63008bc25d5336f8c12b66f1c92562425b51cd8205e9eb157e1846"
+      },
+      "remove": {
+        "id": "audio-10ada5e100bb793416ea648e56a2898e9dd04048cd6cd5185afd75e2628f1813",
+        "scope": "story",
+        "collection": "我思，故魔王在 · 第二章",
+        "title": "第二章 · 黑色少女 · 第3音轨",
+        "path": "/audio/audio-10ada5e100bb793416ea648e56a2898e9dd04048cd6cd5185afd75e2628f1813.opus",
+        "priority": [
+          1,
+          "2025-10-20",
+          22,
+          10511,
+          92
+        ],
+        "source_duration": 109.61725623582767,
+        "duration_seconds": 109.61725623582767,
+        "current_duration_differs": false,
+        "lossless_sha256": "2ef0c6121ef2828964a32eacfcbe79984a30d29e38bdda9619a1af299c5d02a8"
+      },
+      "waveform_source_ids": [
+        "audio-10ada5e100bb793416ea648e56a2898e9dd04048cd6cd5185afd75e2628f1813",
+        "audio-257bad628dc942ea833c91fcda17d43ecbdec487b86acf6fa33361a18357320b"
+      ],
+      "evidence": {
+        "qq_mid": "audio-257bad628dc942ea833c91fcda17d43ecbdec487b86acf6fa33361a18357320b",
+        "fingerprint_similarity": 0.940143,
+        "offset_frames": 7,
+        "offset_seconds": 0.866667,
+        "overlap_seconds": 106.848,
+        "votes": 477,
+        "coverage_of_shorter": 0.9988,
+        "waveform_checks": [
+          {
+            "local_seconds": 13.148,
+            "qq_seconds": 13.96,
+            "window_seconds": 18.0,
+            "correlation": 0.935256,
+            "verified_offset_seconds": 0.812132
+          },
+          {
+            "local_seconds": 56.973,
+            "qq_seconds": 57.785,
+            "window_seconds": 18.0,
+            "correlation": 0.918325,
+            "verified_offset_seconds": 0.812132
+          },
+          {
+            "local_seconds": 89.563,
+            "qq_seconds": 90.375,
+            "window_seconds": 18.0,
+            "correlation": 0.957349,
+            "verified_offset_seconds": 0.812223
+          }
+        ],
+        "waveform_median": 0.935256,
+        "verified": true,
+        "stable_alignment": true,
+        "removed_track_coverage": 0.999503,
+        "eligible": true
+      },
+      "protected_playback_variants": false,
+      "eligible": true
+    },
+    {
+      "keep": {
+        "id": "audio-257bad628dc942ea833c91fcda17d43ecbdec487b86acf6fa33361a18357320b",
+        "scope": "story",
+        "collection": "星塔探索",
+        "title": "首领战",
+        "path": "/audio/audio-257bad628dc942ea833c91fcda17d43ecbdec487b86acf6fa33361a18357320b.opus",
+        "priority": [
+          0.5,
+          "2025-10-20",
+          999999,
+          999999,
+          203
+        ],
+        "source_duration": 110.42943310657597,
+        "duration_seconds": 110.42943310657597,
+        "current_duration_differs": false,
+        "lossless_sha256": "67fc0d563d63008bc25d5336f8c12b66f1c92562425b51cd8205e9eb157e1846"
+      },
+      "remove": {
+        "id": "audio-5ecf192bbaa0729c9f1f769658312ddcadf25d1cb33d795ff278755755c72a07",
+        "scope": "story",
+        "collection": "我思，故魔王在 · 第二章",
+        "title": "第二章 · 黑色少女 · 第4音轨",
+        "path": "/audio/audio-5ecf192bbaa0729c9f1f769658312ddcadf25d1cb33d795ff278755755c72a07.opus",
+        "priority": [
+          1,
+          "2025-10-20",
+          22,
+          10511,
+          93
+        ],
+        "source_duration": 109.60283446712018,
+        "duration_seconds": 109.60283446712018,
+        "current_duration_differs": false,
+        "lossless_sha256": "5f4c6ff9a09b9e1b987b64a6d78e81f6071d1baba4bb920fb22e77d869a8a5c7"
+      },
+      "waveform_source_ids": [
+        "audio-5ecf192bbaa0729c9f1f769658312ddcadf25d1cb33d795ff278755755c72a07",
+        "audio-257bad628dc942ea833c91fcda17d43ecbdec487b86acf6fa33361a18357320b"
+      ],
+      "evidence": {
+        "qq_mid": "audio-257bad628dc942ea833c91fcda17d43ecbdec487b86acf6fa33361a18357320b",
+        "fingerprint_similarity": 0.955388,
+        "offset_frames": 7,
+        "offset_seconds": 0.866667,
+        "overlap_seconds": 106.848,
+        "votes": 82,
+        "coverage_of_shorter": 0.9988,
+        "waveform_checks": [
+          {
+            "local_seconds": 13.148,
+            "qq_seconds": 13.974,
+            "window_seconds": 18.0,
+            "correlation": 0.935242,
+            "verified_offset_seconds": 0.826554
+          },
+          {
+            "local_seconds": 56.973,
+            "qq_seconds": 57.799,
+            "window_seconds": 18.0,
+            "correlation": 0.91828,
+            "verified_offset_seconds": 0.826554
+          },
+          {
+            "local_seconds": 89.563,
+            "qq_seconds": 90.389,
+            "window_seconds": 18.0,
+            "correlation": 0.95737,
+            "verified_offset_seconds": 0.826644
+          }
+        ],
+        "waveform_median": 0.935242,
+        "verified": true,
+        "stable_alignment": true,
+        "removed_track_coverage": 0.999634,
+        "eligible": true
+      },
+      "protected_playback_variants": false,
+      "eligible": true
+    },
+    {
+      "keep": {
+        "id": "audio-2f078d15eaff79a35a219ec41b6435cbc829ead9add597c7533c144e0df6ce0a",
+        "scope": "story",
+        "collection": "常驻系统",
+        "title": "不期而遇（招募结果 · 旅人）",
+        "path": "/audio/audio-2f078d15eaff79a35a219ec41b6435cbc829ead9add597c7533c144e0df6ce0a.opus",
+        "priority": [
+          1,
+          "2025-10-20",
+          999999,
+          999999,
+          128
+        ],
+        "source_duration": 69.17645833333333,
+        "duration_seconds": 69.17645833333333,
+        "current_duration_differs": false,
+        "lossless_sha256": "2db684645bf3b42ba25f2710d992f3014345fd909e4a945d8749ee077e1463f3"
+      },
+      "remove": {
+        "id": "audio-42a6cb5ec3ae46fad6d4f9b52d508a724dac636e478b59e515939d1607c637ec",
+        "scope": "story",
+        "collection": "常驻系统",
+        "title": "不期而遇（招募结果 · 秘纹）",
+        "path": "/audio/audio-42a6cb5ec3ae46fad6d4f9b52d508a724dac636e478b59e515939d1607c637ec.opus",
+        "priority": [
+          1,
+          "2025-10-20",
+          999999,
+          999999,
+          129
+        ],
+        "source_duration": 70.0,
+        "duration_seconds": 70.0,
+        "current_duration_differs": false,
+        "lossless_sha256": "2bb492d1762a0d1b25c90c98797f8755c866f58a42ab1203fcb1f7587206a5c3"
+      },
+      "waveform_source_ids": [
+        "audio-2f078d15eaff79a35a219ec41b6435cbc829ead9add597c7533c144e0df6ce0a",
+        "audio-42a6cb5ec3ae46fad6d4f9b52d508a724dac636e478b59e515939d1607c637ec"
+      ],
+      "evidence": {
+        "qq_mid": "audio-42a6cb5ec3ae46fad6d4f9b52d508a724dac636e478b59e515939d1607c637ec",
+        "fingerprint_similarity": 0.960486,
+        "offset_frames": 5,
+        "offset_seconds": 0.619048,
+        "overlap_seconds": 66.486,
+        "votes": 48,
+        "coverage_of_shorter": 1.0,
+        "waveform_checks": [
+          {
+            "local_seconds": 8.301,
+            "qq_seconds": 8.889,
+            "window_seconds": 18.0,
+            "correlation": 0.965967,
+            "verified_offset_seconds": 0.588277
+          },
+          {
+            "local_seconds": 35.972,
+            "qq_seconds": 36.56,
+            "window_seconds": 18.0,
+            "correlation": 0.971022,
+            "verified_offset_seconds": 0.588277
+          },
+          {
+            "local_seconds": 49.176,
+            "qq_seconds": 49.765,
+            "window_seconds": 18.0,
+            "correlation": 0.995218,
+            "verified_offset_seconds": 0.588277
+          }
+        ],
+        "waveform_median": 0.971022,
+        "verified": true,
+        "stable_alignment": true,
+        "removed_track_coverage": 0.988235,
+        "eligible": true
+      },
+      "protected_playback_variants": false,
+      "eligible": true
+    },
+    {
+      "keep": {
+        "id": "audio-1055a218981b6fd0d5c0d94ddd13763f5ba7a1bdf32833b28a3cfde74d51db8f",
+        "scope": "story",
+        "collection": "联合讨伐",
+        "title": "味觉惊惧",
+        "path": "/audio/audio-1055a218981b6fd0d5c0d94ddd13763f5ba7a1bdf32833b28a3cfde74d51db8f.opus",
+        "priority": [
+          1,
+          "2025-10-20",
+          999999,
+          999999,
+          185
+        ],
+        "source_duration": 166.4,
+        "duration_seconds": 166.4,
+        "current_duration_differs": false,
+        "lossless_sha256": "fc55d924686f307bf743b0ac7c71c96d841f12b25a0b8358738d8ba940190ada"
+      },
+      "remove": {
+        "id": "audio-834d25270db6d10d6f8dd2bcde4886995cf70ca766652a01e001d4247c83574a",
+        "scope": "story",
+        "collection": "常驻玩法",
+        "title": "味觉惊惧",
+        "path": "/audio/audio-834d25270db6d10d6f8dd2bcde4886995cf70ca766652a01e001d4247c83574a.opus",
+        "priority": [
+          1,
+          "2025-10-20",
+          999999,
+          999999,
+          186
+        ],
+        "source_duration": 166.4,
+        "duration_seconds": 166.4,
+        "current_duration_differs": false,
+        "lossless_sha256": "1c5250b109663339f394073ed4c21e0c29165fe6169e75617f3eefe0b391ff39"
+      },
+      "waveform_source_ids": [
+        "audio-1055a218981b6fd0d5c0d94ddd13763f5ba7a1bdf32833b28a3cfde74d51db8f",
+        "audio-834d25270db6d10d6f8dd2bcde4886995cf70ca766652a01e001d4247c83574a"
+      ],
+      "evidence": {
+        "qq_mid": "audio-834d25270db6d10d6f8dd2bcde4886995cf70ca766652a01e001d4247c83574a",
+        "fingerprint_similarity": 0.951778,
+        "offset_frames": 0,
+        "offset_seconds": 0.0,
+        "overlap_seconds": 163.676,
+        "votes": 1217,
+        "coverage_of_shorter": 1.0,
+        "waveform_checks": [
+          {
+            "local_seconds": 19.968,
+            "qq_seconds": 19.968,
+            "window_seconds": 18.0,
+            "correlation": 0.924102,
+            "verified_offset_seconds": -2.3e-05
+          },
+          {
+            "local_seconds": 86.528,
+            "qq_seconds": 86.528,
+            "window_seconds": 18.0,
+            "correlation": 0.926405,
+            "verified_offset_seconds": -2.3e-05
+          },
+          {
+            "local_seconds": 146.4,
+            "qq_seconds": 146.4,
+            "window_seconds": 18.0,
+            "correlation": 0.936548,
+            "verified_offset_seconds": -2.3e-05
+          }
+        ],
+        "waveform_median": 0.926405,
+        "verified": true,
+        "stable_alignment": true,
+        "removed_track_coverage": 1.0,
+        "eligible": true
+      },
+      "protected_playback_variants": false,
+      "eligible": true
+    },
+    {
+      "keep": {
+        "id": "audio-6fb4c5d1bea36790f23254c239fad63071cf1bc16072a62d7f2eb5c37c08494a",
+        "scope": "story",
+        "collection": "剧情音乐 · 未使用曲",
+        "title": "未使用曲 · m82 · 第2音轨",
+        "path": "/audio/audio-6fb4c5d1bea36790f23254c239fad63071cf1bc16072a62d7f2eb5c37c08494a.opus",
+        "priority": [
+          1,
+          "2025-10-20",
+          999999,
+          999999,
+          207
+        ],
+        "source_duration": 64.0,
+        "duration_seconds": 64.0,
+        "current_duration_differs": false,
+        "lossless_sha256": "08e3ef5d7094de3a72476afa99dab30bb9c905554687a35cba599702229bb3cb"
+      },
+      "remove": {
+        "id": "audio-dc66453ff8cdc9a21c946b56f132a4c26644ccf329f49ab98510cb85f97ce3cc",
+        "scope": "story",
+        "collection": "剧情音乐 · 未使用曲",
+        "title": "未使用曲 · m82 · 第1音轨",
+        "path": "/audio/audio-dc66453ff8cdc9a21c946b56f132a4c26644ccf329f49ab98510cb85f97ce3cc.opus",
+        "priority": [
+          1,
+          "2025-10-20",
+          999999,
+          999999,
+          208
+        ],
+        "source_duration": 64.249125,
+        "duration_seconds": 64.249125,
+        "current_duration_differs": false,
+        "lossless_sha256": "4949719d87427585f157f0496b5a07c3d7f3e8682ffad4fa8483748f25d660c7"
+      },
+      "waveform_source_ids": [
+        "audio-6fb4c5d1bea36790f23254c239fad63071cf1bc16072a62d7f2eb5c37c08494a",
+        "audio-dc66453ff8cdc9a21c946b56f132a4c26644ccf329f49ab98510cb85f97ce3cc"
+      ],
+      "evidence": {
+        "qq_mid": "audio-dc66453ff8cdc9a21c946b56f132a4c26644ccf329f49ab98510cb85f97ce3cc",
+        "fingerprint_similarity": 1.0,
+        "offset_frames": 0,
+        "offset_seconds": 0.0,
+        "overlap_seconds": 61.286,
+        "votes": 992,
+        "coverage_of_shorter": 1.0,
+        "waveform_checks": [
+          {
+            "local_seconds": 7.68,
+            "qq_seconds": 7.68,
+            "window_seconds": 18.0,
+            "correlation": 0.985812,
+            "verified_offset_seconds": -2.3e-05
+          },
+          {
+            "local_seconds": 33.28,
+            "qq_seconds": 33.28,
+            "window_seconds": 18.0,
+            "correlation": 0.991756,
+            "verified_offset_seconds": -2.3e-05
+          },
+          {
+            "local_seconds": 44.0,
+            "qq_seconds": 44.0,
+            "window_seconds": 18.0,
+            "correlation": 0.991466,
+            "verified_offset_seconds": -2.3e-05
+          }
+        ],
+        "waveform_median": 0.991466,
+        "verified": true,
+        "stable_alignment": true,
+        "removed_track_coverage": 0.996123,
+        "eligible": true
+      },
+      "protected_playback_variants": false,
+      "eligible": true
+    },
+    {
+      "keep": {
+        "id": "audio-7c4b1c0966f304b6688f4de4e9691cce5db6457c2496ac8aae62db927c4b1d27",
+        "scope": "story",
+        "collection": "剧情音乐 · 未使用曲",
+        "title": "未使用曲 · m94 · 第1音轨",
+        "path": "/audio/audio-7c4b1c0966f304b6688f4de4e9691cce5db6457c2496ac8aae62db927c4b1d27.opus",
+        "priority": [
+          1,
+          "2025-10-20",
+          999999,
+          999999,
+          210
+        ],
+        "source_duration": 73.125,
+        "duration_seconds": 73.125,
+        "current_duration_differs": false,
+        "lossless_sha256": "410ea8986cc78041395e5cbecb82c870d5d11eab2f62c06801c3c0cdcdca15e5"
+      },
+      "remove": {
+        "id": "audio-eecb960d3ed4a30303902aad764a27948771d09b94e6be835844ef5a9f955e7a",
+        "scope": "story",
+        "collection": "剧情音乐 · 未使用曲",
+        "title": "未使用曲 · m94 · 第2音轨",
+        "path": "/audio/audio-eecb960d3ed4a30303902aad764a27948771d09b94e6be835844ef5a9f955e7a.opus",
+        "priority": [
+          1,
+          "2025-10-20",
+          999999,
+          999999,
+          211
+        ],
+        "source_duration": 73.125,
+        "duration_seconds": 73.125,
+        "current_duration_differs": false,
+        "lossless_sha256": "3a6f5fcacd22aba7d3d94b7ee23f41b41265d6f6709dca52fa41389c0fee8d89"
+      },
+      "waveform_source_ids": [
+        "audio-7c4b1c0966f304b6688f4de4e9691cce5db6457c2496ac8aae62db927c4b1d27",
+        "audio-eecb960d3ed4a30303902aad764a27948771d09b94e6be835844ef5a9f955e7a"
+      ],
+      "evidence": {
+        "qq_mid": "audio-eecb960d3ed4a30303902aad764a27948771d09b94e6be835844ef5a9f955e7a",
+        "fingerprint_similarity": 0.99989,
+        "offset_frames": 0,
+        "offset_seconds": 0.0,
+        "overlap_seconds": 70.448,
+        "votes": 108,
+        "coverage_of_shorter": 1.0,
+        "waveform_checks": [
+          {
+            "local_seconds": 8.775,
+            "qq_seconds": 8.775,
+            "window_seconds": 18.0,
+            "correlation": 0.991012,
+            "verified_offset_seconds": -2.3e-05
+          },
+          {
+            "local_seconds": 38.025,
+            "qq_seconds": 38.025,
+            "window_seconds": 18.0,
+            "correlation": 0.992528,
+            "verified_offset_seconds": -2.3e-05
+          },
+          {
+            "local_seconds": 53.125,
+            "qq_seconds": 53.125,
+            "window_seconds": 18.0,
+            "correlation": 0.991781,
+            "verified_offset_seconds": -2.3e-05
+          }
+        ],
+        "waveform_median": 0.991781,
+        "verified": true,
+        "stable_alignment": true,
+        "removed_track_coverage": 1.0,
+        "eligible": true
+      },
+      "protected_playback_variants": false,
+      "eligible": true
+    },
+    {
+      "keep": {
+        "id": "audio-108eb6174c38a729db6df4ad9c566572e120b99c7a921a245c591f12e4ef0e7a",
+        "scope": "outfit",
+        "collection": "信笺乘风而去",
+        "title": "核心旋律",
+        "path": "/audio/audio-108eb6174c38a729db6df4ad9c566572e120b99c7a921a245c591f12e4ef0e7a.opus",
+        "priority": [
+          0,
+          "2026-03-17T12:00:00+08:00",
+          0,
+          214047,
+          0
+        ],
+        "source_duration": 97.5,
+        "duration_seconds": 97.5,
+        "current_duration_differs": false,
+        "lossless_sha256": "4afd49096f54b6d765964d4139fad46109cd9aae78be37ac3e1b04578058e89d"
+      },
+      "remove": {
+        "id": "audio-7c4b1c0966f304b6688f4de4e9691cce5db6457c2496ac8aae62db927c4b1d27",
+        "scope": "story",
+        "collection": "剧情音乐 · 未使用曲",
+        "title": "未使用曲 · m94 · 第1音轨",
+        "path": "/audio/audio-7c4b1c0966f304b6688f4de4e9691cce5db6457c2496ac8aae62db927c4b1d27.opus",
+        "priority": [
+          1,
+          "2025-10-20",
+          999999,
+          999999,
+          210
+        ],
+        "source_duration": 73.125,
+        "duration_seconds": 73.125,
+        "current_duration_differs": false,
+        "lossless_sha256": "410ea8986cc78041395e5cbecb82c870d5d11eab2f62c06801c3c0cdcdca15e5"
+      },
+      "waveform_source_ids": [
+        "audio-7c4b1c0966f304b6688f4de4e9691cce5db6457c2496ac8aae62db927c4b1d27",
+        "audio-108eb6174c38a729db6df4ad9c566572e120b99c7a921a245c591f12e4ef0e7a"
+      ],
+      "evidence": {
+        "qq_mid": "audio-108eb6174c38a729db6df4ad9c566572e120b99c7a921a245c591f12e4ef0e7a",
+        "fingerprint_similarity": 0.981656,
+        "offset_frames": 197,
+        "offset_seconds": 24.390476,
+        "overlap_seconds": 70.448,
+        "votes": 93,
+        "coverage_of_shorter": 1.0,
+        "waveform_checks": [
+          {
+            "local_seconds": 8.773,
+            "qq_seconds": 33.148,
+            "window_seconds": 18.0,
+            "correlation": 0.981408,
+            "verified_offset_seconds": 24.374943
+          },
+          {
+            "local_seconds": 38.017,
+            "qq_seconds": 62.392,
+            "window_seconds": 18.0,
+            "correlation": 0.98457,
+            "verified_offset_seconds": 24.374943
+          },
+          {
+            "local_seconds": 53.11,
+            "qq_seconds": 77.484,
+            "window_seconds": 18.0,
+            "correlation": 0.983039,
+            "verified_offset_seconds": 24.374943
+          }
+        ],
+        "waveform_median": 0.983039,
+        "verified": true,
+        "stable_alignment": true,
+        "removed_track_coverage": 0.999788,
+        "eligible": true
+      },
+      "protected_playback_variants": false,
+      "eligible": true
+    },
+    {
+      "keep": {
+        "id": "audio-f25414200f247ab63fdd1e4037c1465a329b0ee260293fe8f2f72825483efc1f",
+        "scope": "outfit",
+        "collection": "信笺乘风而去",
+        "title": "凯旋旋律",
+        "path": "/audio/audio-f25414200f247ab63fdd1e4037c1465a329b0ee260293fe8f2f72825483efc1f.opus",
+        "priority": [
+          0,
+          "2026-03-17T12:00:00+08:00",
+          1,
+          214047,
+          0
+        ],
+        "source_duration": 12.0,
+        "duration_seconds": 12.0,
+        "current_duration_differs": false,
+        "lossless_sha256": "6ca276e85c0e3d21dfc7e7ab6d80065bfddd14d03acf91cb75736717a9a1a3a1"
+      },
+      "remove": {
+        "id": "audio-7c4b1c0966f304b6688f4de4e9691cce5db6457c2496ac8aae62db927c4b1d27",
+        "scope": "story",
+        "collection": "剧情音乐 · 未使用曲",
+        "title": "未使用曲 · m94 · 第1音轨",
+        "path": "/audio/audio-7c4b1c0966f304b6688f4de4e9691cce5db6457c2496ac8aae62db927c4b1d27.opus",
+        "priority": [
+          1,
+          "2025-10-20",
+          999999,
+          999999,
+          210
+        ],
+        "source_duration": 73.125,
+        "duration_seconds": 73.125,
+        "current_duration_differs": false,
+        "lossless_sha256": "410ea8986cc78041395e5cbecb82c870d5d11eab2f62c06801c3c0cdcdca15e5"
+      },
+      "waveform_source_ids": [
+        "audio-7c4b1c0966f304b6688f4de4e9691cce5db6457c2496ac8aae62db927c4b1d27",
+        "audio-f25414200f247ab63fdd1e4037c1465a329b0ee260293fe8f2f72825483efc1f"
+      ],
+      "evidence": {
+        "qq_mid": "audio-f25414200f247ab63fdd1e4037c1465a329b0ee260293fe8f2f72825483efc1f",
+        "fingerprint_similarity": 0.968333,
+        "offset_frames": -397,
+        "offset_seconds": -49.152381,
+        "overlap_seconds": 9.286,
+        "votes": 13,
+        "coverage_of_shorter": 1.0,
+        "waveform_checks": [
+          {
+            "local_seconds": 50.592,
+            "qq_seconds": 1.467,
+            "window_seconds": 5.0,
+            "correlation": 0.969769,
+            "verified_offset_seconds": -49.125011
+          },
+          {
+            "local_seconds": 54.152,
+            "qq_seconds": 5.027,
+            "window_seconds": 5.0,
+            "correlation": 0.967202,
+            "verified_offset_seconds": -49.125011
+          },
+          {
+            "local_seconds": 55.392,
+            "qq_seconds": 6.267,
+            "window_seconds": 5.0,
+            "correlation": 0.966679,
+            "verified_offset_seconds": -49.125011
+          }
+        ],
+        "waveform_median": 0.967202,
+        "verified": true,
+        "stable_alignment": true,
+        "removed_track_coverage": 0.164103,
+        "eligible": false
+      },
+      "protected_playback_variants": false,
+      "eligible": false
+    },
+    {
+      "keep": {
+        "id": "audio-108eb6174c38a729db6df4ad9c566572e120b99c7a921a245c591f12e4ef0e7a",
+        "scope": "outfit",
+        "collection": "信笺乘风而去",
+        "title": "核心旋律",
+        "path": "/audio/audio-108eb6174c38a729db6df4ad9c566572e120b99c7a921a245c591f12e4ef0e7a.opus",
+        "priority": [
+          0,
+          "2026-03-17T12:00:00+08:00",
+          0,
+          214047,
+          0
+        ],
+        "source_duration": 97.5,
+        "duration_seconds": 97.5,
+        "current_duration_differs": false,
+        "lossless_sha256": "4afd49096f54b6d765964d4139fad46109cd9aae78be37ac3e1b04578058e89d"
+      },
+      "remove": {
+        "id": "audio-eecb960d3ed4a30303902aad764a27948771d09b94e6be835844ef5a9f955e7a",
+        "scope": "story",
+        "collection": "剧情音乐 · 未使用曲",
+        "title": "未使用曲 · m94 · 第2音轨",
+        "path": "/audio/audio-eecb960d3ed4a30303902aad764a27948771d09b94e6be835844ef5a9f955e7a.opus",
+        "priority": [
+          1,
+          "2025-10-20",
+          999999,
+          999999,
+          211
+        ],
+        "source_duration": 73.125,
+        "duration_seconds": 73.125,
+        "current_duration_differs": false,
+        "lossless_sha256": "3a6f5fcacd22aba7d3d94b7ee23f41b41265d6f6709dca52fa41389c0fee8d89"
+      },
+      "waveform_source_ids": [
+        "audio-eecb960d3ed4a30303902aad764a27948771d09b94e6be835844ef5a9f955e7a",
+        "audio-108eb6174c38a729db6df4ad9c566572e120b99c7a921a245c591f12e4ef0e7a"
+      ],
+      "evidence": {
+        "qq_mid": "audio-108eb6174c38a729db6df4ad9c566572e120b99c7a921a245c591f12e4ef0e7a",
+        "fingerprint_similarity": 0.981656,
+        "offset_frames": 197,
+        "offset_seconds": 24.390476,
+        "overlap_seconds": 70.448,
+        "votes": 93,
+        "coverage_of_shorter": 1.0,
+        "waveform_checks": [
+          {
+            "local_seconds": 8.773,
+            "qq_seconds": 33.148,
+            "window_seconds": 18.0,
+            "correlation": 0.981408,
+            "verified_offset_seconds": 24.374943
+          },
+          {
+            "local_seconds": 38.017,
+            "qq_seconds": 62.392,
+            "window_seconds": 18.0,
+            "correlation": 0.98457,
+            "verified_offset_seconds": 24.374943
+          },
+          {
+            "local_seconds": 53.11,
+            "qq_seconds": 77.484,
+            "window_seconds": 18.0,
+            "correlation": 0.983039,
+            "verified_offset_seconds": 24.374943
+          }
+        ],
+        "waveform_median": 0.983039,
+        "verified": true,
+        "stable_alignment": true,
+        "removed_track_coverage": 0.999788,
+        "eligible": true
+      },
+      "protected_playback_variants": false,
+      "eligible": true
+    },
+    {
+      "keep": {
+        "id": "audio-f25414200f247ab63fdd1e4037c1465a329b0ee260293fe8f2f72825483efc1f",
+        "scope": "outfit",
+        "collection": "信笺乘风而去",
+        "title": "凯旋旋律",
+        "path": "/audio/audio-f25414200f247ab63fdd1e4037c1465a329b0ee260293fe8f2f72825483efc1f.opus",
+        "priority": [
+          0,
+          "2026-03-17T12:00:00+08:00",
+          1,
+          214047,
+          0
+        ],
+        "source_duration": 12.0,
+        "duration_seconds": 12.0,
+        "current_duration_differs": false,
+        "lossless_sha256": "6ca276e85c0e3d21dfc7e7ab6d80065bfddd14d03acf91cb75736717a9a1a3a1"
+      },
+      "remove": {
+        "id": "audio-eecb960d3ed4a30303902aad764a27948771d09b94e6be835844ef5a9f955e7a",
+        "scope": "story",
+        "collection": "剧情音乐 · 未使用曲",
+        "title": "未使用曲 · m94 · 第2音轨",
+        "path": "/audio/audio-eecb960d3ed4a30303902aad764a27948771d09b94e6be835844ef5a9f955e7a.opus",
+        "priority": [
+          1,
+          "2025-10-20",
+          999999,
+          999999,
+          211
+        ],
+        "source_duration": 73.125,
+        "duration_seconds": 73.125,
+        "current_duration_differs": false,
+        "lossless_sha256": "3a6f5fcacd22aba7d3d94b7ee23f41b41265d6f6709dca52fa41389c0fee8d89"
+      },
+      "waveform_source_ids": [
+        "audio-eecb960d3ed4a30303902aad764a27948771d09b94e6be835844ef5a9f955e7a",
+        "audio-f25414200f247ab63fdd1e4037c1465a329b0ee260293fe8f2f72825483efc1f"
+      ],
+      "evidence": {
+        "qq_mid": "audio-f25414200f247ab63fdd1e4037c1465a329b0ee260293fe8f2f72825483efc1f",
+        "fingerprint_similarity": 0.968333,
+        "offset_frames": -397,
+        "offset_seconds": -49.152381,
+        "overlap_seconds": 9.286,
+        "votes": 13,
+        "coverage_of_shorter": 1.0,
+        "waveform_checks": [
+          {
+            "local_seconds": 50.592,
+            "qq_seconds": 1.467,
+            "window_seconds": 5.0,
+            "correlation": 0.969769,
+            "verified_offset_seconds": -49.125011
+          },
+          {
+            "local_seconds": 54.152,
+            "qq_seconds": 5.027,
+            "window_seconds": 5.0,
+            "correlation": 0.967202,
+            "verified_offset_seconds": -49.125011
+          },
+          {
+            "local_seconds": 55.392,
+            "qq_seconds": 6.267,
+            "window_seconds": 5.0,
+            "correlation": 0.966679,
+            "verified_offset_seconds": -49.125011
+          }
+        ],
+        "waveform_median": 0.967202,
+        "verified": true,
+        "stable_alignment": true,
+        "removed_track_coverage": 0.164103,
+        "eligible": false
+      },
+      "protected_playback_variants": false,
+      "eligible": false
+    },
+    {
+      "keep": {
+        "id": "audio-90a204e7fbe90abd9dce9357beee84a7daca7b4c2c4b68187c7b804ee35b5d85",
+        "scope": "story",
+        "collection": "甜心梦工坊",
+        "title": "甜心梦工坊 · 每分钟60拍",
+        "path": "/audio/audio-90a204e7fbe90abd9dce9357beee84a7daca7b4c2c4b68187c7b804ee35b5d85.opus",
+        "priority": [
+          1,
+          "2025-11-18",
+          999999,
+          999999,
+          204
+        ],
+        "source_duration": 32.91875,
+        "duration_seconds": 32.91875,
+        "current_duration_differs": false,
+        "lossless_sha256": "28f0468a96e80b3f6491dbfa3bd45590251fa44b8951270cc0684745c999f1e6"
+      },
+      "remove": {
+        "id": "audio-5bd4da07535a262b393c0c374f37be3bf7abb3a3bba19c1cf67bb0a0e348d622",
+        "scope": "story",
+        "collection": "甜心梦工坊",
+        "title": "甜心梦工坊 · 自由演奏",
+        "path": "/audio/audio-5bd4da07535a262b393c0c374f37be3bf7abb3a3bba19c1cf67bb0a0e348d622.opus",
+        "priority": [
+          1,
+          "2025-11-18",
+          999999,
+          999999,
+          207
+        ],
+        "source_duration": 32.0,
+        "duration_seconds": 32.0,
+        "current_duration_differs": false,
+        "lossless_sha256": "a8850a5b9773727cfb048cbc0b59fc6d25081372d230d9b31d8634fd00a6c721"
+      },
+      "waveform_source_ids": [
+        "audio-90a204e7fbe90abd9dce9357beee84a7daca7b4c2c4b68187c7b804ee35b5d85",
+        "audio-5bd4da07535a262b393c0c374f37be3bf7abb3a3bba19c1cf67bb0a0e348d622"
+      ],
+      "evidence": {
+        "qq_mid": "audio-5bd4da07535a262b393c0c374f37be3bf7abb3a3bba19c1cf67bb0a0e348d622",
+        "fingerprint_similarity": 0.844805,
+        "offset_frames": -7,
+        "offset_seconds": -0.866667,
+        "overlap_seconds": 29.343,
+        "votes": 26,
+        "coverage_of_shorter": 1.0,
+        "waveform_checks": [
+          {
+            "local_seconds": 4.707,
+            "qq_seconds": 3.788,
+            "window_seconds": 9.6,
+            "correlation": 0.959927,
+            "verified_offset_seconds": -0.918753
+          },
+          {
+            "local_seconds": 17.507,
+            "qq_seconds": 16.588,
+            "window_seconds": 9.6,
+            "correlation": 0.966697,
+            "verified_offset_seconds": -0.918753
+          },
+          {
+            "local_seconds": 21.267,
+            "qq_seconds": 20.348,
+            "window_seconds": 9.6,
+            "correlation": 0.959909,
+            "verified_offset_seconds": -0.918753
+          }
+        ],
+        "waveform_median": 0.959927,
+        "verified": true,
+        "stable_alignment": true,
+        "removed_track_coverage": 1.0,
+        "eligible": true
+      },
+      "protected_playback_variants": true,
+      "eligible": false
+    },
+    {
+      "keep": {
+        "id": "audio-4148ea1b453bcaca2e3de2a8dd81116dca40361608d0f06ec43f526647be1093",
+        "scope": "story",
+        "collection": "甜心梦工坊",
+        "title": "甜心梦工坊-变体2 · 每分钟60拍",
+        "path": "/audio/audio-4148ea1b453bcaca2e3de2a8dd81116dca40361608d0f06ec43f526647be1093.opus",
+        "priority": [
+          1,
+          "2025-11-18",
+          999999,
+          999999,
+          218
+        ],
+        "source_duration": 47.75,
+        "duration_seconds": 47.75,
+        "current_duration_differs": false,
+        "lossless_sha256": "d5f36efde5cb47f1d11f0599f0662d8632c178c11b8c732603b8610f0394082e"
+      },
+      "remove": {
+        "id": "audio-d489981dcfd007b25d61b5a5cd7f3ee2dbe1211a42744725419255956fec9946",
+        "scope": "story",
+        "collection": "甜心梦工坊",
+        "title": "甜心梦工坊-变体2 · 自由演奏",
+        "path": "/audio/audio-d489981dcfd007b25d61b5a5cd7f3ee2dbe1211a42744725419255956fec9946.opus",
+        "priority": [
+          1,
+          "2025-11-18",
+          999999,
+          999999,
+          221
+        ],
+        "source_duration": 48.0,
+        "duration_seconds": 48.0,
+        "current_duration_differs": false,
+        "lossless_sha256": "91526b53a3fcb18cd53d8ac9e3f8e488458a0802519e69c272d60e49e27be8ee"
+      },
+      "waveform_source_ids": [
+        "audio-4148ea1b453bcaca2e3de2a8dd81116dca40361608d0f06ec43f526647be1093",
+        "audio-d489981dcfd007b25d61b5a5cd7f3ee2dbe1211a42744725419255956fec9946"
+      ],
+      "evidence": {
+        "qq_mid": "audio-d489981dcfd007b25d61b5a5cd7f3ee2dbe1211a42744725419255956fec9946",
+        "fingerprint_similarity": 0.907023,
+        "offset_frames": 2,
+        "offset_seconds": 0.247619,
+        "overlap_seconds": 45.067,
+        "votes": 165,
+        "coverage_of_shorter": 1.0,
+        "waveform_checks": [
+          {
+            "local_seconds": 5.73,
+            "qq_seconds": 5.98,
+            "window_seconds": 14.325,
+            "correlation": 0.853003,
+            "verified_offset_seconds": 0.249955
+          },
+          {
+            "local_seconds": 24.83,
+            "qq_seconds": 25.08,
+            "window_seconds": 14.325,
+            "correlation": 0.861985,
+            "verified_offset_seconds": 0.249955
+          },
+          {
+            "local_seconds": 31.425,
+            "qq_seconds": 31.675,
+            "window_seconds": 14.325,
+            "correlation": 0.868425,
+            "verified_offset_seconds": 0.249955
+          }
+        ],
+        "waveform_median": 0.861985,
+        "verified": false,
+        "stable_alignment": true,
+        "removed_track_coverage": 0.994792,
+        "eligible": false
+      },
+      "protected_playback_variants": true,
+      "eligible": false
+    },
+    {
+      "keep": {
+        "id": "audio-73d51d62a343f4c91ec1a73e886e3234af0f3f5587d8c531bdbb4522f312604d",
+        "scope": "outfit",
+        "collection": "永恒的闪耀",
+        "title": "核心旋律",
+        "path": "/audio/audio-73d51d62a343f4c91ec1a73e886e3234af0f3f5587d8c531bdbb4522f312604d.opus",
+        "priority": [
+          0,
+          "2026-10-20T12:00:00+08:00",
+          0,
+          214067,
+          0
+        ],
+        "source_duration": 197.5,
+        "duration_seconds": 197.5,
+        "current_duration_differs": false,
+        "lossless_sha256": "82c967fa9872c5837d01d0127e57d3e66d8153ad8dee6ace2b5979f9e65447aa"
+      },
+      "remove": {
+        "id": "audio-df105457f9b6758df8ce91b1cbbd27b6b718f4a3f16e438a60af29c82e8b7b93",
+        "scope": "story",
+        "collection": "完璧之庭 · 微尘破晓",
+        "title": "特别篇 · 高塔之下",
+        "path": "/audio/audio-df105457f9b6758df8ce91b1cbbd27b6b718f4a3f16e438a60af29c82e8b7b93.opus",
+        "priority": [
+          1,
+          "2026-10-20",
+          211,
+          36235,
+          1
+        ],
+        "source_duration": 77.5,
+        "duration_seconds": 77.5,
+        "current_duration_differs": false,
+        "lossless_sha256": "4f7f87a498a54744be2995e5d9453ae45f85442ed72aecb523a396513396cdea"
+      },
+      "waveform_source_ids": [
+        "audio-df105457f9b6758df8ce91b1cbbd27b6b718f4a3f16e438a60af29c82e8b7b93",
+        "audio-73d51d62a343f4c91ec1a73e886e3234af0f3f5587d8c531bdbb4522f312604d"
+      ],
+      "evidence": {
+        "qq_mid": "audio-73d51d62a343f4c91ec1a73e886e3234af0f3f5587d8c531bdbb4522f312604d",
+        "fingerprint_similarity": 0.78482,
+        "offset_frames": 949,
+        "offset_seconds": 117.495238,
+        "overlap_seconds": 74.781,
+        "votes": 29,
+        "coverage_of_shorter": 1.0,
+        "waveform_checks": [
+          {
+            "local_seconds": 9.3,
+            "qq_seconds": 126.808,
+            "window_seconds": 18.0,
+            "correlation": 0.438094,
+            "verified_offset_seconds": 117.507642
+          },
+          {
+            "local_seconds": 40.3,
+            "qq_seconds": 157.802,
+            "window_seconds": 18.0,
+            "correlation": 0.436504,
+            "verified_offset_seconds": 117.502381
+          },
+          {
+            "local_seconds": 57.5,
+            "qq_seconds": 175.002,
+            "window_seconds": 18.0,
+            "correlation": 0.429735,
+            "verified_offset_seconds": 117.502472
+          }
+        ],
+        "waveform_median": 0.436504,
+        "verified": false,
+        "stable_alignment": true,
+        "removed_track_coverage": 1.0,
+        "eligible": false
+      },
+      "protected_playback_variants": false,
+      "eligible": false
+    },
+    {
+      "keep": {
+        "id": "audio-d127039736a21aa315f6c5d680575cae40dbe12bf0ba9d21cc09a1bec8febe03",
+        "scope": "story",
+        "collection": "常驻玩法",
+        "title": "年兽",
+        "path": "/audio/audio-d127039736a21aa315f6c5d680575cae40dbe12bf0ba9d21cc09a1bec8febe03.opus",
+        "priority": [
+          1,
+          "2025-10-20",
+          999999,
+          999999,
+          181
+        ],
+        "source_duration": 71.72408163265307,
+        "duration_seconds": 71.72408163265307,
+        "current_duration_differs": false,
+        "lossless_sha256": "4696c9d7491ec38a0ca53f901c3046233ee92f8416ccf29bbf4e6a3c92125e5c"
+      },
+      "remove": {
+        "id": "audio-627abfb332a03c401b0c2f794a2c02c582fbebd4e62cc424170f7c406e5d3da1",
+        "scope": "story",
+        "collection": "烟火绮丽寻春意",
+        "title": "烟火绮丽寻春意 · 首领战",
+        "path": "/audio/audio-627abfb332a03c401b0c2f794a2c02c582fbebd4e62cc424170f7c406e5d3da1.opus",
+        "priority": [
+          1,
+          "2026-02-03",
+          999999,
+          999999,
+          43
+        ],
+        "source_duration": 71.72408163265307,
+        "duration_seconds": 71.72408163265307,
+        "current_duration_differs": false,
+        "lossless_sha256": "fb42e1e7fb6a99a6a89bded86175622fc0a39188bda34aa34ac4ad53d00e5d7f"
+      },
+      "waveform_source_ids": [
+        "audio-627abfb332a03c401b0c2f794a2c02c582fbebd4e62cc424170f7c406e5d3da1",
+        "audio-d127039736a21aa315f6c5d680575cae40dbe12bf0ba9d21cc09a1bec8febe03"
+      ],
+      "evidence": {
+        "qq_mid": "audio-d127039736a21aa315f6c5d680575cae40dbe12bf0ba9d21cc09a1bec8febe03",
+        "fingerprint_similarity": 0.688452,
+        "offset_frames": 0,
+        "offset_seconds": 0.0,
+        "overlap_seconds": 69.086,
+        "votes": 18,
+        "coverage_of_shorter": 1.0,
+        "waveform_checks": [
+          {
+            "local_seconds": 8.607,
+            "qq_seconds": 8.952,
+            "window_seconds": 18.0,
+            "correlation": 0.163506,
+            "verified_offset_seconds": 0.34483
+          },
+          {
+            "local_seconds": 37.297,
+            "qq_seconds": 37.296,
+            "window_seconds": 18.0,
+            "correlation": 0.222375,
+            "verified_offset_seconds": -2.3e-05
+          },
+          {
+            "local_seconds": 51.724,
+            "qq_seconds": 51.709,
+            "window_seconds": 18.0,
+            "correlation": 0.631836,
+            "verified_offset_seconds": -0.014807
+          }
+        ],
+        "waveform_median": 0.222375,
+        "verified": false,
+        "stable_alignment": false,
+        "removed_track_coverage": 1.0,
+        "eligible": false
+      },
+      "protected_playback_variants": false,
+      "eligible": false
+    },
+    {
+      "keep": {
+        "id": "audio-626f73b5a349b69201b759410dd632e7f6903d3f8a7277e1c4e3b95ba7a5552e",
+        "scope": "outfit",
+        "collection": "闪光之时",
+        "title": "凯旋旋律",
+        "path": "/audio/audio-626f73b5a349b69201b759410dd632e7f6903d3f8a7277e1c4e3b95ba7a5552e.opus",
+        "priority": [
+          0,
+          "",
+          1,
+          214020,
+          0
+        ],
+        "source_duration": 17.391269841269843,
+        "duration_seconds": 17.391269841269843,
+        "current_duration_differs": false,
+        "lossless_sha256": "521240cd06cd98f6da6e7817d29c23c50ab0e08923860c7dbc7089dac9804552"
+      },
+      "remove": {
+        "id": "audio-283045663b3d79a9fc124ceb350bd04e7489988d86cdf2a968721142f5e59df1",
+        "scope": "story",
+        "collection": "微火的奇迹",
+        "title": "第六章 · 未知的明天",
+        "path": "/audio/audio-283045663b3d79a9fc124ceb350bd04e7489988d86cdf2a968721142f5e59df1.opus",
+        "priority": [
+          1,
+          "2026-01-13",
+          104,
+          6236,
+          44
+        ],
+        "source_duration": 91.30433106575964,
+        "duration_seconds": 91.30433106575964,
+        "current_duration_differs": false,
+        "lossless_sha256": "a74df0135622ac0c51263b0b0acfedfa2909a542f530b9a0f81c642c5052a7e9"
+      },
+      "waveform_source_ids": [
+        "audio-283045663b3d79a9fc124ceb350bd04e7489988d86cdf2a968721142f5e59df1",
+        "audio-626f73b5a349b69201b759410dd632e7f6903d3f8a7277e1c4e3b95ba7a5552e"
+      ],
+      "evidence": {
+        "qq_mid": "audio-626f73b5a349b69201b759410dd632e7f6903d3f8a7277e1c4e3b95ba7a5552e",
+        "fingerprint_similarity": 0.690651,
+        "offset_frames": -513,
+        "offset_seconds": -63.514286,
+        "overlap_seconds": 14.733,
+        "votes": 10,
+        "coverage_of_shorter": 1.0,
+        "waveform_checks": [
+          {
+            "local_seconds": 65.601,
+            "qq_seconds": 1.662,
+            "window_seconds": 5.217,
+            "correlation": 0.127108,
+            "verified_offset_seconds": -63.939706
+          },
+          {
+            "local_seconds": 72.558,
+            "qq_seconds": 9.079,
+            "window_seconds": 5.217,
+            "correlation": 0.737831,
+            "verified_offset_seconds": -63.4783
+          },
+          {
+            "local_seconds": 73.688,
+            "qq_seconds": 10.21,
+            "window_seconds": 5.217,
+            "correlation": 0.764295,
+            "verified_offset_seconds": -63.4783
+          }
+        ],
+        "waveform_median": 0.737831,
+        "verified": false,
+        "stable_alignment": false,
+        "removed_track_coverage": 0.190476,
+        "eligible": false
+      },
+      "protected_playback_variants": false,
+      "eligible": false
+    },
+    {
+      "keep": {
+        "id": "audio-751a7ecf6da78971bcab43eb03adba4588ab365eb10f59fafa17304f70cf571a",
+        "scope": "outfit",
+        "collection": "启程的礼物",
+        "title": "核心旋律",
+        "path": "/audio/audio-751a7ecf6da78971bcab43eb03adba4588ab365eb10f59fafa17304f70cf571a.opus",
+        "priority": [
+          0,
+          "2025-12-23T12:00:00+08:00",
+          0,
+          214041,
+          0
+        ],
+        "source_duration": 111.91010416666667,
+        "duration_seconds": 111.91010416666667,
+        "current_duration_differs": false,
+        "lossless_sha256": "2c35e6e35b38d4602ec73dcc885c8804c07ef437b69bc1667d66bb48ada766ad"
+      },
+      "remove": {
+        "id": "audio-aeaa2dfca29dadbc7edba9a3579fded3dccc1d0bb8e6c476a0414ef9314b3d1d",
+        "scope": "story",
+        "collection": "闪耀的使者与圣夜的精灵",
+        "title": "闪耀的使者与圣夜的精灵",
+        "path": "/audio/audio-aeaa2dfca29dadbc7edba9a3579fded3dccc1d0bb8e6c476a0414ef9314b3d1d.opus",
+        "priority": [
+          1,
+          "2025-12-23",
+          999999,
+          999999,
+          48
+        ],
+        "source_duration": 86.29214583333334,
+        "duration_seconds": 86.29214583333334,
+        "current_duration_differs": false,
+        "lossless_sha256": "79180e438dd0521eabe6f77e6d9ba17414275d4eb2bca1084a4066f03fc5efe2"
+      },
+      "waveform_source_ids": [
+        "audio-aeaa2dfca29dadbc7edba9a3579fded3dccc1d0bb8e6c476a0414ef9314b3d1d",
+        "audio-751a7ecf6da78971bcab43eb03adba4588ab365eb10f59fafa17304f70cf571a"
+      ],
+      "evidence": {
+        "qq_mid": "audio-751a7ecf6da78971bcab43eb03adba4588ab365eb10f59fafa17304f70cf571a",
+        "fingerprint_similarity": 0.802778,
+        "offset_frames": 187,
+        "offset_seconds": 23.152381,
+        "overlap_seconds": 83.571,
+        "votes": 154,
+        "coverage_of_shorter": 1.0,
+        "waveform_checks": [
+          {
+            "local_seconds": 10.355,
+            "qq_seconds": 33.489,
+            "window_seconds": 18.0,
+            "correlation": 0.87557,
+            "verified_offset_seconds": 23.133946
+          },
+          {
+            "local_seconds": 44.872,
+            "qq_seconds": 68.006,
+            "window_seconds": 18.0,
+            "correlation": 0.672948,
+            "verified_offset_seconds": 23.133946
+          },
+          {
+            "local_seconds": 66.292,
+            "qq_seconds": 89.426,
+            "window_seconds": 18.0,
+            "correlation": 0.768596,
+            "verified_offset_seconds": 23.133946
+          }
+        ],
+        "waveform_median": 0.768596,
+        "verified": false,
+        "stable_alignment": true,
+        "removed_track_coverage": 1.0,
+        "eligible": false
+      },
+      "protected_playback_variants": false,
+      "eligible": false
+    },
+    {
+      "keep": {
+        "id": "audio-7bc4f1a8bf93db566f228b9e91014e3ab6aafa3c0a92e798c88543ee2577b615",
+        "scope": "outfit",
+        "collection": "启程的礼物",
+        "title": "凯旋旋律",
+        "path": "/audio/audio-7bc4f1a8bf93db566f228b9e91014e3ab6aafa3c0a92e798c88543ee2577b615.opus",
+        "priority": [
+          0,
+          "2025-12-23T12:00:00+08:00",
+          1,
+          214041,
+          0
+        ],
+        "source_duration": 49.75,
+        "duration_seconds": 49.75,
+        "current_duration_differs": false,
+        "lossless_sha256": "39f3479ca1ce05cef756bf16ac7489eb69a2aa460459a45f80547dc55242f3a3"
+      },
+      "remove": {
+        "id": "audio-aeaa2dfca29dadbc7edba9a3579fded3dccc1d0bb8e6c476a0414ef9314b3d1d",
+        "scope": "story",
+        "collection": "闪耀的使者与圣夜的精灵",
+        "title": "闪耀的使者与圣夜的精灵",
+        "path": "/audio/audio-aeaa2dfca29dadbc7edba9a3579fded3dccc1d0bb8e6c476a0414ef9314b3d1d.opus",
+        "priority": [
+          1,
+          "2025-12-23",
+          999999,
+          999999,
+          48
+        ],
+        "source_duration": 86.29214583333334,
+        "duration_seconds": 86.29214583333334,
+        "current_duration_differs": false,
+        "lossless_sha256": "79180e438dd0521eabe6f77e6d9ba17414275d4eb2bca1084a4066f03fc5efe2"
+      },
+      "waveform_source_ids": [
+        "audio-aeaa2dfca29dadbc7edba9a3579fded3dccc1d0bb8e6c476a0414ef9314b3d1d",
+        "audio-7bc4f1a8bf93db566f228b9e91014e3ab6aafa3c0a92e798c88543ee2577b615"
+      ],
+      "evidence": {
+        "qq_mid": "audio-7bc4f1a8bf93db566f228b9e91014e3ab6aafa3c0a92e798c88543ee2577b615",
+        "fingerprint_similarity": 0.792746,
+        "offset_frames": 187,
+        "offset_seconds": 23.152381,
+        "overlap_seconds": 23.895,
+        "votes": 8,
+        "coverage_of_shorter": 0.5079,
+        "waveform_checks": [
+          {
+            "local_seconds": 3.192,
+            "qq_seconds": 26.318,
+            "window_seconds": 7.979,
+            "correlation": 0.853596,
+            "verified_offset_seconds": 23.126145
+          },
+          {
+            "local_seconds": 13.831,
+            "qq_seconds": 36.957,
+            "window_seconds": 7.979,
+            "correlation": 0.923977,
+            "verified_offset_seconds": 23.126145
+          },
+          {
+            "local_seconds": 16.618,
+            "qq_seconds": 39.744,
+            "window_seconds": 7.979,
+            "correlation": 0.916018,
+            "verified_offset_seconds": 23.126145
+          }
+        ],
+        "waveform_median": 0.916018,
+        "verified": true,
+        "stable_alignment": true,
+        "removed_track_coverage": 0.308228,
+        "eligible": false
+      },
+      "protected_playback_variants": false,
+      "eligible": false
+    },
+    {
+      "keep": {
+        "id": "audio-010f64338b0b67612986b439da4bedd685697e43fb121a49d3366df3d78093c3",
+        "scope": "story",
+        "collection": "剧情音乐 · 未使用曲",
+        "title": "未使用曲 · m84",
+        "path": "/audio/audio-010f64338b0b67612986b439da4bedd685697e43fb121a49d3366df3d78093c3.opus",
+        "priority": [
+          1,
+          "2025-10-20",
+          999999,
+          999999,
+          199
+        ],
+        "source_duration": 110.7691875,
+        "duration_seconds": 110.7691875,
+        "current_duration_differs": false,
+        "lossless_sha256": "78fa6bc762bf46a65ecfb6fa0dd8793df92c59fa523b9b0df8a8b35e0fca371f"
+      },
+      "remove": {
+        "id": "audio-f40db32aa2f9cc5f916facc2be9144fd445a451286e558bf1f9f234f58f3c6c2",
+        "scope": "story",
+        "collection": "梦的彼岸",
+        "title": "梦的彼岸",
+        "path": "/audio/audio-f40db32aa2f9cc5f916facc2be9144fd445a451286e558bf1f9f234f58f3c6c2.opus",
+        "priority": [
+          1,
+          "2025-12-09",
+          999999,
+          999999,
+          51
+        ],
+        "source_duration": 98.6538125,
+        "duration_seconds": 98.6538125,
+        "current_duration_differs": false,
+        "lossless_sha256": "f7f9bfb38665d8057281d7a5fb2fdd1c82b2cc9de72572d6d6a5d0e510fc6462"
+      },
+      "waveform_source_ids": [
+        "audio-f40db32aa2f9cc5f916facc2be9144fd445a451286e558bf1f9f234f58f3c6c2",
+        "audio-010f64338b0b67612986b439da4bedd685697e43fb121a49d3366df3d78093c3"
+      ],
+      "evidence": {
+        "qq_mid": "audio-010f64338b0b67612986b439da4bedd685697e43fb121a49d3366df3d78093c3",
+        "fingerprint_similarity": 0.800524,
+        "offset_frames": 98,
+        "offset_seconds": 12.133333,
+        "overlap_seconds": 95.952,
+        "votes": 33,
+        "coverage_of_shorter": 1.0,
+        "waveform_checks": [
+          {
+            "local_seconds": 11.836,
+            "qq_seconds": 23.952,
+            "window_seconds": 18.0,
+            "correlation": 0.585568,
+            "verified_offset_seconds": 12.115351
+          },
+          {
+            "local_seconds": 51.291,
+            "qq_seconds": 63.406,
+            "window_seconds": 18.0,
+            "correlation": 0.766065,
+            "verified_offset_seconds": 12.115351
+          },
+          {
+            "local_seconds": 78.636,
+            "qq_seconds": 90.755,
+            "window_seconds": 18.0,
+            "correlation": 0.585403,
+            "verified_offset_seconds": 12.118798
+          }
+        ],
+        "waveform_median": 0.585568,
+        "verified": false,
+        "stable_alignment": true,
+        "removed_track_coverage": 0.999818,
+        "eligible": false
+      },
+      "protected_playback_variants": false,
+      "eligible": false
+    },
+    {
+      "keep": {
+        "id": "audio-7f1e9b71265dd28af5fd764191423dca22db94b8a728aa677b4a7065515d4be5",
+        "scope": "story",
+        "collection": "心危擂台",
+        "title": "寄生之庭（暗林 · 首领战）",
+        "path": "/audio/audio-7f1e9b71265dd28af5fd764191423dca22db94b8a728aa677b4a7065515d4be5.opus",
+        "priority": [
+          1,
+          "2025-10-20",
+          999999,
+          999999,
+          155
+        ],
+        "source_duration": 97.71428571428571,
+        "duration_seconds": 97.71428571428571,
+        "current_duration_differs": false,
+        "lossless_sha256": "d0cb32432c255ba1d76ab21eec1fc86e81bd32ec3c3187b46c7d3aacb48253af"
+      },
+      "remove": {
+        "id": "audio-3acad708e3938e377517ab63ef4d20945fa6499ae65452bd5f43db0068e106be",
+        "scope": "story",
+        "collection": "常驻玩法",
+        "title": "雾境突围",
+        "path": "/audio/audio-3acad708e3938e377517ab63ef4d20945fa6499ae65452bd5f43db0068e106be.opus",
+        "priority": [
+          1,
+          "2025-10-20",
+          999999,
+          999999,
+          166
+        ],
+        "source_duration": 96.85714583333333,
+        "duration_seconds": 96.85714583333333,
+        "current_duration_differs": false,
+        "lossless_sha256": "ac750cc931b599faa9ca215e8d63b9985abc3160393819d06c5f85653f1f0339"
+      },
+      "waveform_source_ids": [
+        "audio-7f1e9b71265dd28af5fd764191423dca22db94b8a728aa677b4a7065515d4be5",
+        "audio-3acad708e3938e377517ab63ef4d20945fa6499ae65452bd5f43db0068e106be"
+      ],
+      "evidence": {
+        "qq_mid": "audio-3acad708e3938e377517ab63ef4d20945fa6499ae65452bd5f43db0068e106be",
+        "fingerprint_similarity": 0.685447,
+        "offset_frames": -6,
+        "offset_seconds": -0.742857,
+        "overlap_seconds": 94.219,
+        "votes": 8,
+        "coverage_of_shorter": 1.0,
+        "waveform_checks": [
+          {
+            "local_seconds": 12.366,
+            "qq_seconds": 11.612,
+            "window_seconds": 18.0,
+            "correlation": 0.321942,
+            "verified_offset_seconds": -0.753583
+          },
+          {
+            "local_seconds": 51.109,
+            "qq_seconds": 50.355,
+            "window_seconds": 18.0,
+            "correlation": 0.511525,
+            "verified_offset_seconds": -0.753583
+          },
+          {
+            "local_seconds": 77.6,
+            "qq_seconds": 76.846,
+            "window_seconds": 18.0,
+            "correlation": 0.53729,
+            "verified_offset_seconds": -0.753583
+          }
+        ],
+        "waveform_median": 0.511525,
+        "verified": false,
+        "stable_alignment": true,
+        "removed_track_coverage": 1.0,
+        "eligible": false
+      },
+      "protected_playback_variants": false,
+      "eligible": false
+    },
+    {
+      "keep": {
+        "id": "audio-fb3b923b93018fbfa8547e7a9bc202278b8287fe2ad08918916b64561f2a494b",
+        "scope": "story",
+        "collection": "巅峰秀场",
+        "title": "巅峰秀场 · 火垂-变体3 · 首领战",
+        "path": "/audio/audio-fb3b923b93018fbfa8547e7a9bc202278b8287fe2ad08918916b64561f2a494b.opus",
+        "priority": [
+          1,
+          "2025-10-20",
+          999999,
+          999999,
+          133
+        ],
+        "source_duration": 70.58823129251701,
+        "duration_seconds": 70.58823129251701,
+        "current_duration_differs": false,
+        "lossless_sha256": "e5361deb8798a043fb89f9f06911f4664515fe3791bb4d36219d77f973317766"
+      },
+      "remove": {
+        "id": "audio-14515f07353d6f9e18adcd67fb4616dc3900284a439b614f1c4c002ced44aeab",
+        "scope": "story",
+        "collection": "常驻玩法",
+        "title": "突围玩法",
+        "path": "/audio/audio-14515f07353d6f9e18adcd67fb4616dc3900284a439b614f1c4c002ced44aeab.opus",
+        "priority": [
+          1,
+          "2025-10-20",
+          999999,
+          999999,
+          171
+        ],
+        "source_duration": 88.6956462585034,
+        "duration_seconds": 88.6956462585034,
+        "current_duration_differs": false,
+        "lossless_sha256": "dde404ed983c65af4265d06f610cb540e381aeb8c227658bd53c8608516a1c92"
+      },
+      "waveform_source_ids": [
+        "audio-14515f07353d6f9e18adcd67fb4616dc3900284a439b614f1c4c002ced44aeab",
+        "audio-fb3b923b93018fbfa8547e7a9bc202278b8287fe2ad08918916b64561f2a494b"
+      ],
+      "evidence": {
+        "qq_mid": "audio-fb3b923b93018fbfa8547e7a9bc202278b8287fe2ad08918916b64561f2a494b",
+        "fingerprint_similarity": 0.713907,
+        "offset_frames": -282,
+        "offset_seconds": -34.914286,
+        "overlap_seconds": 51.133,
+        "votes": 11,
+        "coverage_of_shorter": 0.7523,
+        "waveform_checks": [
+          {
+            "local_seconds": 41.368,
+            "qq_seconds": 6.841,
+            "window_seconds": 16.134,
+            "correlation": 0.02004,
+            "verified_offset_seconds": -34.527188
+          },
+          {
+            "local_seconds": 62.881,
+            "qq_seconds": 27.42,
+            "window_seconds": 16.134,
+            "correlation": 0.017789,
+            "verified_offset_seconds": -35.461066
+          },
+          {
+            "local_seconds": 70.561,
+            "qq_seconds": 35.275,
+            "window_seconds": 16.134,
+            "correlation": 0.019007,
+            "verified_offset_seconds": -35.286735
+          }
+        ],
+        "waveform_median": 0.019007,
+        "verified": false,
+        "stable_alignment": false,
+        "removed_track_coverage": 0.606359,
+        "eligible": false
+      },
+      "protected_playback_variants": false,
+      "eligible": false
+    },
+    {
+      "keep": {
+        "id": "audio-a9803d118fcced72498d6a0abfff285eb75ba97a5186e6a8a5edcf91fbf71438",
+        "scope": "story",
+        "collection": "联合讨伐",
+        "title": "流风美人",
+        "path": "/audio/audio-a9803d118fcced72498d6a0abfff285eb75ba97a5186e6a8a5edcf91fbf71438.opus",
+        "priority": [
+          1,
+          "2025-10-20",
+          999999,
+          999999,
+          183
+        ],
+        "source_duration": 111.0,
+        "duration_seconds": 111.0,
+        "current_duration_differs": false,
+        "lossless_sha256": "c7fa48bdd4e233774edf228bc8dbe789244c986270100e2de632bd07bdc7a4bd"
+      },
+      "remove": {
+        "id": "audio-882f042d3de6effa92811362e542bbcce64996f2b699e0b44c5403ab62801100",
+        "scope": "story",
+        "collection": "常驻玩法",
+        "title": "流风美人",
+        "path": "/audio/audio-882f042d3de6effa92811362e542bbcce64996f2b699e0b44c5403ab62801100.opus",
+        "priority": [
+          1,
+          "2025-10-20",
+          999999,
+          999999,
+          184
+        ],
+        "source_duration": 105.0,
+        "duration_seconds": 105.0,
+        "current_duration_differs": false,
+        "lossless_sha256": "e9027eaa7950fdd5948e77a78b57dc0ef38cffeb49625d2daa2a2119473ad51a"
+      },
+      "waveform_source_ids": [
+        "audio-a9803d118fcced72498d6a0abfff285eb75ba97a5186e6a8a5edcf91fbf71438",
+        "audio-882f042d3de6effa92811362e542bbcce64996f2b699e0b44c5403ab62801100"
+      ],
+      "evidence": {
+        "qq_mid": "audio-882f042d3de6effa92811362e542bbcce64996f2b699e0b44c5403ab62801100",
+        "fingerprint_similarity": 0.758427,
+        "offset_frames": -48,
+        "offset_seconds": -5.942857,
+        "overlap_seconds": 102.39,
+        "votes": 31,
+        "coverage_of_shorter": 1.0,
+        "waveform_checks": [
+          {
+            "local_seconds": 18.543,
+            "qq_seconds": 12.543,
+            "window_seconds": 18.0,
+            "correlation": 0.578537,
+            "verified_offset_seconds": -6.000023
+          },
+          {
+            "local_seconds": 60.543,
+            "qq_seconds": 54.543,
+            "window_seconds": 18.0,
+            "correlation": 0.527026,
+            "verified_offset_seconds": -6.000023
+          },
+          {
+            "local_seconds": 90.943,
+            "qq_seconds": 84.943,
+            "window_seconds": 18.0,
+            "correlation": 0.539637,
+            "verified_offset_seconds": -6.000023
+          }
+        ],
+        "waveform_median": 0.539637,
+        "verified": false,
+        "stable_alignment": true,
+        "removed_track_coverage": 1.0,
+        "eligible": false
+      },
+      "protected_playback_variants": false,
+      "eligible": false
+    }
+  ],
+  "removed": [
+    {
+      "group_id": "activity-20104",
+      "group_name": "完璧之庭 · 微尘破晓",
+      "entry": {
+        "id": "audio-b011eee66b31b83229cb463a04d451df24e63462e414d43667e6b3e8a1061597",
+        "name": "并非不慌不忙的一天",
+        "file": "/audio/audio-b011eee66b31b83229cb463a04d451df24e63462e414d43667e6b3e8a1061597.opus",
+        "description": ""
+      },
+      "audio_id": "audio-b011eee66b31b83229cb463a04d451df24e63462e414d43667e6b3e8a1061597"
+    },
+    {
+      "group_id": "activity-10103",
+      "group_name": "微火的奇迹",
+      "entry": {
+        "id": "audio-6a206cff7aafc356a31db95d420dece9bf13bb9f819e8cc11ded69c1c6bdefa7",
+        "name": "微火的奇迹",
+        "file": "/audio/audio-6a206cff7aafc356a31db95d420dece9bf13bb9f819e8cc11ded69c1c6bdefa7.opus",
+        "description": ""
+      },
+      "audio_id": "audio-6a206cff7aafc356a31db95d420dece9bf13bb9f819e8cc11ded69c1c6bdefa7"
+    },
+    {
+      "group_id": "activity-10103",
+      "group_name": "微火的奇迹",
+      "entry": {
+        "id": "audio-aa7d9dca099fdee9398a885199d318452880a003811584ba55eebd3c669d2204",
+        "name": "第六章 · 困兽犹斗",
+        "file": "/audio/audio-aa7d9dca099fdee9398a885199d318452880a003811584ba55eebd3c669d2204.opus",
+        "description": ""
+      },
+      "audio_id": "audio-aa7d9dca099fdee9398a885199d318452880a003811584ba55eebd3c669d2204"
+    },
+    {
+      "group_id": "activity-10101",
+      "group_name": "我们的旅团",
+      "entry": {
+        "id": "audio-c1e700749508b5af4bdbfd6fe8dd6dd13931a9f83ec9e81d88b7f95624e75d4a",
+        "name": "第三章 · 维塔",
+        "file": "/audio/audio-c1e700749508b5af4bdbfd6fe8dd6dd13931a9f83ec9e81d88b7f95624e75d4a.opus",
+        "description": ""
+      },
+      "audio_id": "audio-c1e700749508b5af4bdbfd6fe8dd6dd13931a9f83ec9e81d88b7f95624e75d4a"
+    },
+    {
+      "group_id": "story-我思，故魔王在 · 第二章",
+      "group_name": "我思，故魔王在 · 第二章",
+      "entry": {
+        "id": "audio-10ada5e100bb793416ea648e56a2898e9dd04048cd6cd5185afd75e2628f1813",
+        "name": "第二章 · 黑色少女 · 第3音轨",
+        "file": "/audio/audio-10ada5e100bb793416ea648e56a2898e9dd04048cd6cd5185afd75e2628f1813.opus",
+        "description": ""
+      },
+      "audio_id": "audio-10ada5e100bb793416ea648e56a2898e9dd04048cd6cd5185afd75e2628f1813"
+    },
+    {
+      "group_id": "story-我思，故魔王在 · 第二章",
+      "group_name": "我思，故魔王在 · 第二章",
+      "entry": {
+        "id": "audio-5ecf192bbaa0729c9f1f769658312ddcadf25d1cb33d795ff278755755c72a07",
+        "name": "第二章 · 黑色少女 · 第4音轨",
+        "file": "/audio/audio-5ecf192bbaa0729c9f1f769658312ddcadf25d1cb33d795ff278755755c72a07.opus",
+        "description": ""
+      },
+      "audio_id": "audio-5ecf192bbaa0729c9f1f769658312ddcadf25d1cb33d795ff278755755c72a07"
+    },
+    {
+      "group_id": "story-我思，故魔王在 · 第二章",
+      "group_name": "我思，故魔王在 · 第二章",
+      "entry": {
+        "id": "audio-88da21223cee630edc923873bc9e9c967684cb876c45da64bf56af8ddd7e5c6d",
+        "name": "第二章 · 黑色少女 · 第5音轨",
+        "file": "/audio/audio-88da21223cee630edc923873bc9e9c967684cb876c45da64bf56af8ddd7e5c6d.opus",
+        "description": ""
+      },
+      "audio_id": "audio-88da21223cee630edc923873bc9e9c967684cb876c45da64bf56af8ddd7e5c6d"
+    },
+    {
+      "group_id": "permanent-system",
+      "group_name": "常驻系统",
+      "entry": {
+        "id": "audio-42a6cb5ec3ae46fad6d4f9b52d508a724dac636e478b59e515939d1607c637ec",
+        "name": "不期而遇（招募结果 · 秘纹）",
+        "file": "/audio/audio-42a6cb5ec3ae46fad6d4f9b52d508a724dac636e478b59e515939d1607c637ec.opus",
+        "description": ""
+      },
+      "audio_id": "audio-42a6cb5ec3ae46fad6d4f9b52d508a724dac636e478b59e515939d1607c637ec"
+    },
+    {
+      "group_id": "permanent-combat",
+      "group_name": "常驻玩法",
+      "entry": {
+        "id": "audio-834d25270db6d10d6f8dd2bcde4886995cf70ca766652a01e001d4247c83574a",
+        "name": "味觉惊惧",
+        "file": "/audio/audio-834d25270db6d10d6f8dd2bcde4886995cf70ca766652a01e001d4247c83574a.opus",
+        "description": ""
+      },
+      "audio_id": "audio-834d25270db6d10d6f8dd2bcde4886995cf70ca766652a01e001d4247c83574a"
+    },
+    {
+      "group_id": "story-undated",
+      "group_name": "剧情音乐 · 未使用曲",
+      "entry": {
+        "id": "audio-dc66453ff8cdc9a21c946b56f132a4c26644ccf329f49ab98510cb85f97ce3cc",
+        "name": "未使用曲 · m82 · 第1音轨",
+        "file": "/audio/audio-dc66453ff8cdc9a21c946b56f132a4c26644ccf329f49ab98510cb85f97ce3cc.opus",
+        "description": ""
+      },
+      "audio_id": "audio-dc66453ff8cdc9a21c946b56f132a4c26644ccf329f49ab98510cb85f97ce3cc"
+    },
+    {
+      "group_id": "story-undated",
+      "group_name": "剧情音乐 · 未使用曲",
+      "entry": {
+        "id": "audio-7c4b1c0966f304b6688f4de4e9691cce5db6457c2496ac8aae62db927c4b1d27",
+        "name": "未使用曲 · m94 · 第1音轨",
+        "file": "/audio/audio-7c4b1c0966f304b6688f4de4e9691cce5db6457c2496ac8aae62db927c4b1d27.opus",
+        "description": ""
+      },
+      "audio_id": "audio-7c4b1c0966f304b6688f4de4e9691cce5db6457c2496ac8aae62db927c4b1d27"
+    },
+    {
+      "group_id": "story-undated",
+      "group_name": "剧情音乐 · 未使用曲",
+      "entry": {
+        "id": "audio-eecb960d3ed4a30303902aad764a27948771d09b94e6be835844ef5a9f955e7a",
+        "name": "未使用曲 · m94 · 第2音轨",
+        "file": "/audio/audio-eecb960d3ed4a30303902aad764a27948771d09b94e6be835844ef5a9f955e7a.opus",
+        "description": ""
+      },
+      "audio_id": "audio-eecb960d3ed4a30303902aad764a27948771d09b94e6be835844ef5a9f955e7a"
+    }
+  ],
+  "newly_removed": []
+}

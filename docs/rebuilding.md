@@ -200,6 +200,12 @@ python scripts/recover_native_layers.py
 
 对于《狼贪虎视》地板这类大幅倾斜的 `ImageWarp`，矩形位置和尺寸不足以还原显示。`disc_mesh.py` 读取原始四角三维坐标、细分数量和静态父级变换，按相机逐顶点投影并烘焙成透明 WebP；运行时陀螺仪跟随组件覆盖的预览倾斜不参与烘焙。清单的 `native_mesh` 保留生成依据，图片路径以 `_native-mesh.webp` 结尾。网页沿用普通差分图层展示，不增加浏览器网格渲染开销。
 
+## 近似重复音乐检查
+
+`python scripts/audit_music_duplicates.py` 使用本地原始无损 FLAC 与缓存的 Chromaprint 指纹检查故事音乐之间、故事音乐与秘纹音乐之间的重复，并写入 `references/music-duplicate-review.json`。加 `--apply` 才会从 `story-melodies.json` 移除确认重复的条目；不删除音频文件。指纹最低相似度为 0.82，三个独立波形窗口的相关性中位数至少 0.88、每个至少 0.80，时间偏移差不超过 80ms，并覆盖待移除音乐的至少 85%。
+
+保留顺序为秘纹、`references/music-duplicate-overrides.json` 中明确指定的版本、较早故事。只合并录音基本一致的版本，同曲不同混音／编曲及仅局部相同的版本继续保留。甜心梦工坊的 BPM／自由演奏和心危擂台混音变体保留；当前播放时长与原始 FLAC 不同的完整版不自动移除。`--candidate-threshold .68` 可扩大候选筛选范围，但不会降低波形确认标准。报告记录源文件哈希、对齐窗口、保留对象及被移除的原始 JSON 条目；再次检查会保留既有证据和移除清单，防止增量分析丢失人工判断。
+
 ## 验证
 
 ```powershell

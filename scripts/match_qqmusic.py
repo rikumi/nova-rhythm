@@ -70,7 +70,7 @@ def build_index(qq):
     return {band: positions for band, positions in index.items() if len(positions) <= 250}
 
 
-def fingerprint_candidates(local, qq, index):
+def fingerprint_candidates(local, qq, index, *, minimum_similarity=.86, limit=6):
     votes = Counter()
     fp = np.asarray(local['fingerprint'], dtype=np.uint32)
     for position in range(0, len(fp), 2):
@@ -105,9 +105,9 @@ def fingerprint_candidates(local, qq, index):
                              'coverage_of_shorter': round(length/min(len(fp), len(qfp)), 4)}
                 if best is None or score > best['fingerprint_similarity']:
                     best = candidate
-        if best and best['fingerprint_similarity'] >= .86:
+        if best and best['fingerprint_similarity'] >= minimum_similarity:
             candidates.append(best)
-    return sorted(candidates, key=lambda c: c['fingerprint_similarity'], reverse=True)[:6]
+    return sorted(candidates, key=lambda c: c['fingerprint_similarity'], reverse=True)[:limit]
 
 
 def decode(path, start, length, rate=11025):
