@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
-import { nativeLoopRegion, loopPosition } from '../../src/audioLoop.ts';
+import { nativeLoopRegion, loopPosition, hasLoopMarkers } from '../../src/audioLoop.ts';
 
 test('Chunri Jishi uses original samples at the source rate for both melodies',()=>{
   const catalog=JSON.parse(readFileSync(new URL('../../public/data/outfits.json',import.meta.url),'utf8'));
@@ -28,4 +28,12 @@ test('decoded duration clamps B and invalid loop data cannot create an empty cyc
 test('layered mixer exposes its native shared loop and tracks without loops have no labels',()=>{
   assert.deepEqual(nativeLoopRegion({mixer:{loop_start:4}},32),{start:4,end:32});
   assert.equal(nativeLoopRegion({sample_rate:48000,loop:null},32),null);
+});
+
+test('whole-track loops have no labels, but skipping the intro or outro retains both labels',()=>{
+  assert.equal(hasLoopMarkers({start:0,end:120},120),false);
+  assert.equal(hasLoopMarkers({start:0,end:119.99998},120),false);
+  assert.equal(hasLoopMarkers({start:8,end:120},120),true);
+  assert.equal(hasLoopMarkers({start:0,end:119},120),true);
+  assert.equal(hasLoopMarkers(null,120),false);
 });

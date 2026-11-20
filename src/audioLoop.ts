@@ -18,3 +18,8 @@ export function nativeLoopRegion(track: Music | undefined, duration: number): Lo
 export function loopPosition(position: number, region: LoopRegion): number {
   return position >= region.end ? region.start + (position-region.start) % (region.end-region.start) : position;
 }
+
+/** Ignore sub-millisecond codec rounding at the end of a whole-track loop. */
+export function hasLoopMarkers(region: LoopRegion | null, duration: number): boolean {
+  return region !== null && (region.start > 0 || region.end < duration-.001);
+}
