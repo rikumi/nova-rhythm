@@ -1,10 +1,12 @@
 import type { Music } from './types';
 import { PLAYBACK_MODES, type PlaybackMode } from './playbackMode';
 import { LayeredPlayback } from './layeredAudio';
+import { nativeLoopRegion, loopPosition, type LoopRegion } from './audioLoop';
 
 export interface Playback {
   trackId: string; playing: boolean; loading: boolean; error: string;
   position: number; duration: number; volume: number; loop: boolean; mode: PlaybackMode; mixerChoices: number[];
+  loopRegion: LoopRegion | null;
 }
 
 /** Uses the original sample loop boundaries; the intro is played only once. */
@@ -28,7 +30,7 @@ class Player {
   private lastSound = 0;
   private value: Playback = {
     trackId: '', playing: false, loading: false, error: '', position: 0,
-    duration: 0, volume: .65, loop: true, mode: 'single', mixerChoices: [0,0,0,0],
+    duration: 0, volume: .65, loop: true, mode: 'single', mixerChoices: [0,0,0,0], loopRegion: null,
   };
 
   constructor() {
@@ -81,16 +83,13 @@ class Player {
     this.source = undefined;
   }
   private boundaries() {
-    const rate = this.track?.sample_rate || 44100;
     const duration = this.buffer?.duration || this.value.duration;
-    const start = Math.max(0, (this.track?.loop?.start || 0) / rate);
-    const end = Math.min(duration, (this.track?.loop?.end || duration * rate) / rate);
-    return { start, end: end > start ? end : duration };
+    return nativeLoopRegion(this.track, duration) || { start: 0, end: duration };
   }
   private position() {
     let position = this.offset + (this.context ? this.context.currentTime - this.startedAt : 0);
     const { start, end } = this.boundaries();
-    if (this.value.loop && end > start && position >= end) position = start + ((position - start) % (end - start));
+    if (this.value.loop && end > start) position = loopPosition(position, { start, end });
     return Math.max(0,Math.min(position, this.value.duration));
   }
   async select(track: Music, autoplay = false) {
@@ -98,7 +97,7 @@ class Player {
     const generation = ++this.generation;
     this.abort?.abort(); this.stopSource();
     this.track = track; this.buffer = undefined; this.layerBuffers=undefined; this.offset = 0;
-    this.update({ trackId: track.id, playing: false, loading: false, error: '', position: 0, duration: track.duration_seconds });
+    this.update({ trackId: track.id, playing: false, loading: false, error: '', position: 0, duration: track.duration_seconds, loopRegion: nativeLoopRegion(track, track.duration_seconds) });
     // Avoid downloading a large music file before the first user interaction.
     if (!autoplay) return;
     await this.loadAndPlay(generation);
@@ -120,7 +119,7 @@ class Player {
         }));
         if(generation!==this.generation)return;
         this.layerBuffers=buffers;
-        this.update({duration:track.mixer.duration,loading:false});this.start();return;
+        this.update({duration:track.mixer.duration,loopRegion:nativeLoopRegion(track,track.mixer.duration),loading:false});this.start();return;
       }
       let buffer = this.cache.get(track.path);
       if (!buffer) {
@@ -134,7 +133,7 @@ class Player {
       }
       if (generation !== this.generation) return;
       this.buffer = buffer;
-      this.update({ duration: buffer.duration, loading: false });
+      this.update({ duration: buffer.duration, loopRegion: nativeLoopRegion(track,buffer.duration), loading: false });
       this.start();
     } catch (error) {
       if (generation !== this.generation || (error as Error).name === 'AbortError') return;
@@ -157,6 +156,7 @@ class Player {
     gain.gain.linearRampToValueAtTime(1, this.context.currentTime + .06);
     source.connect(gain); gain.connect(this.musicGain);
     this.offset = Math.min(this.offset, Math.max(0, this.buffer.duration - .001));
+    if (this.value.loop && end > start) this.offset = loopPosition(this.offset, { start, end });
     this.startedAt = this.context.currentTime;
     this.source = source; this.sourceGain = gain;
     source.onended = () => {
